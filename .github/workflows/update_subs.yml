@@ -7,8 +7,8 @@ on:
 
   # Runs the workflow on a schedule
   schedule:
-    # This runs the job every 6 hours. You can adjust the cron schedule.
-    - cron: '0 */6 * * *'
+    # This runs the job at minute 10 past every hour.
+    - cron: '10 * * * *'
 
 jobs:
   build:
