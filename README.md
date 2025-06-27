@@ -23,15 +23,15 @@ To use a link, right-click on it and select **"Copy Link Address"**.
 
 | **Protocol Type** | **Subscription Link** |
 |:---:|:---:|
-| **Juicity Configurations** | [Subscription Link](https://raw.githubusercontent.com/Wahhab-Zendehdel/SM-Telegram-Config-Collector-iossingbox/main/subscriptions/protocol/juicity.txt) |
-| **Hysteria Configurations** | [Subscription Link](https://raw.githubusercontent.com/Wahhab-Zendehdel/SM-Telegram-Config-Collector-iossingbox/main/subscriptions/protocol/hysteria.txt) |
-| **Tuic Configurations** | [Subscription Link](https://raw.githubusercontent.com/Wahhab-Zendehdel/SM-Telegram-Config-Collector-iossingbox/main/subscriptions/protocol/tuic.txt) |
-| **Reality Configurations** | [Subscription Link](https://raw.githubusercontent.com/Wahhab-Zendehdel/SM-Telegram-Config-Collector-iossingbox/main/subscriptions/protocol/reality.txt) |
-| **Vless Configurations** | [Subscription Link](https://raw.githubusercontent.com/Wahhab-Zendehdel/SM-Telegram-Config-Collector-iossingbox/main/subscriptions/protocol/vless.txt) |
-| **Vmess Configurations** | [Subscription Link](https://raw.githubusercontent.com/Wahhab-Zendehdel/SM-Telegram-Config-Collector-iossingbox/main/subscriptions/protocol/vmess.txt) |
-| **Trojan Configurations** | [Subscription Link](https://raw.githubusercontent.com/Wahhab-Zendehdel/SM-Telegram-Config-Collector-iossingbox/main/subscriptions/protocol/trojan.txt) |
-| **Shadowsocks Configurations** | [Subscription Link](https://raw.githubusercontent.com/Wahhab-Zendehdel/SM-Telegram-Config-Collector-iossingbox/main/subscriptions/protocol/ss.txt) |
-| **Mixed Type Configurations** | [Subscription Link](https://raw.githubusercontent.com/Wahhab-Zendehdel/SM-Telegram-Config-Collector-iossingbox/main/subscriptions/All_Configs.txt) |
+| **Juicity Configurations** | [Link](https://raw.githubusercontent.com/Wahhab-Zendehdel/SM-Telegram-Config-Collector-iossingbox/main/subscriptions/protocol/juicity.txt) |
+| **Hysteria Configurations** | [Link](https://raw.githubusercontent.com/Wahhab-Zendehdel/SM-Telegram-Config-Collector-iossingbox/main/subscriptions/protocol/hysteria.txt) |
+| **Tuic Configurations** | [Link](https://raw.githubusercontent.com/Wahhab-Zendehdel/SM-Telegram-Config-Collector-iossingbox/main/subscriptions/protocol/tuic.txt) |
+| **Reality Configurations** | [Link](https://raw.githubusercontent.com/Wahhab-Zendehdel/SM-Telegram-Config-Collector-iossingbox/main/subscriptions/protocol/reality.txt) |
+| **Vless Configurations** | [Link](https://raw.githubusercontent.com/Wahhab-Zendehdel/SM-Telegram-Config-Collector-iossingbox/main/subscriptions/protocol/vless.txt) |
+| **Vmess Configurations** | [Link](https://raw.githubusercontent.com/Wahhab-Zendehdel/SM-Telegram-Config-Collector-iossingbox/main/subscriptions/protocol/vmess.txt) |
+| **Trojan Configurations** | [Link](https://raw.githubusercontent.com/Wahhab-Zendehdel/SM-Telegram-Config-Collector-iossingbox/main/subscriptions/protocol/trojan.txt) |
+| **Shadowsocks Configurations** | [Link](https://raw.githubusercontent.com/Wahhab-Zendehdel/SM-Telegram-Config-Collector-iossingbox/main/subscriptions/protocol/ss.txt) |
+| **Mixed Type Configurations** | [Link](https://raw.githubusercontent.com/Wahhab-Zendehdel/SM-Telegram-Config-Collector-iossingbox/main/subscriptions/All_Configs.txt) |
 
 ### Network Type Subscription Links
 
