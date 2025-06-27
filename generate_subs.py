@@ -21,9 +21,9 @@ def discover_subscription_urls():
         response = requests.get(REPO_README_URL, timeout=30)
         response.raise_for_status()
         
-        # Regex to find all markdown links pointing to the raw .txt files within the repo
-        # Example: (https://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/protocols/vless.txt)
-        regex = r"\(https://raw\.githubusercontent\.com/soroushmirzaei/telegram-configs-collector/main/.+?\.txt\)"
+        # UPDATED REGEX: This pattern now correctly finds all subscription links in the markdown tables,
+        # even if they don't have a .txt extension.
+        regex = r"\(https://raw\.githubusercontent\.com/soroushmirzaei/telegram-configs-collector/main/[^)]+\)"
         
         found_links = re.findall(regex, response.text)
         
@@ -73,6 +73,7 @@ def fetch_and_decode_configs(subscription_urls):
 def get_ip_version(hostname):
     """Determines if a hostname resolves to IPv4 or IPv6."""
     try:
+        # Check if it's already an IP address
         socket.inet_pton(socket.AF_INET, hostname)
         return 'ipv4'
     except socket.error:
