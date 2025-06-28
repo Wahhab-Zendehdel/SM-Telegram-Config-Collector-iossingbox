@@ -37,21 +37,21 @@
       "tag": "PROXY",
       "outbounds": [
         "AUTO-SELECT",
-        "🔄 LATEST-UPDATE 📅 SAT-07-TIR-1404 🕑 22:56",
+        "🔄 LATEST-UPDATE 📅 SUN-08-TIR-1404 🕑 00:41",
         "🤖 TELEGRAM-CHANNEL 🌟 ARTIFICIAL-INTELLIGENCE 🖥 @NEUROVANCE 🧠",
         "🛡 TELEGRAM-CHANNEL 🔐 MTPROTO-PROXY 🌍 @NEXUPROXY 📡",
-        "🔒 TUIC-UDP 🇬🇧 GB-64.176.186.193:443",
-        "🔒 TUIC-UDP 🇸🇪 SE-70.34.208.3:443",
-        "🔒 TUIC-UDP 🇸🇪 SE-70.34.198.64:443",
-        "🔒 TUIC-UDP 🇺🇸 US-64.110.25.10:11227",
-        "🔒 TUIC-UDP 🇸🇪 SE-70.34.197.98:443",
-        "🔒 TUIC-UDP 🇬🇧 GB-31.25.237.9:52849",
-        "🔒 TUIC-UDP 🇬🇧 GB-64.176.191.133:443",
-        "🔒 TUIC-UDP 🇩🇪 DE-136.244.88.153:443",
-        "🔒 TUIC-UDP 🇬🇧 GB-134.209.28.89:54773",
-        "🔒 TUIC-UDP 🇦🇪 AE-31.57.228.213:20320",
-        "🔒 TUIC-UDP 🇳🇱 NL-209.250.254.198:443",
         "🔒 TUIC-UDP 🇩🇪 DE-45.76.82.254:35403",
+        "🔒 TUIC-UDP 🇳🇱 NL-209.250.254.198:443",
+        "🔒 TUIC-UDP 🇦🇪 AE-31.57.228.213:20320",
+        "🔒 TUIC-UDP 🇬🇧 GB-64.176.186.193:443",
+        "🔒 TUIC-UDP 🇺🇸 US-64.110.25.10:11227",
+        "🔒 TUIC-UDP 🇸🇪 SE-70.34.208.3:443",
+        "🔒 TUIC-UDP 🇩🇪 DE-136.244.88.153:443",
+        "🔒 TUIC-UDP 🇬🇧 GB-64.176.191.133:443",
+        "🔒 TUIC-UDP 🇬🇧 GB-134.209.28.89:54773",
+        "🔒 TUIC-UDP 🇬🇧 GB-31.25.237.9:52849",
+        "🔒 TUIC-UDP 🇸🇪 SE-70.34.198.64:443",
+        "🔒 TUIC-UDP 🇸🇪 SE-70.34.197.98:443",
         "👨🏻‍💻 DEVELOPED-BY SOROUSH-MIRZAEI 📌 FOLLOW-CONTACT SYDSRSMRZ"
       ],
       "default": "AUTO-SELECT"
@@ -60,27 +60,27 @@
       "type": "url-test",
       "tag": "AUTO-SELECT",
       "outbounds": [
-        "🔒 TUIC-UDP 🇬🇧 GB-64.176.186.193:443",
-        "🔒 TUIC-UDP 🇸🇪 SE-70.34.208.3:443",
-        "🔒 TUIC-UDP 🇸🇪 SE-70.34.198.64:443",
-        "🔒 TUIC-UDP 🇺🇸 US-64.110.25.10:11227",
-        "🔒 TUIC-UDP 🇸🇪 SE-70.34.197.98:443",
-        "🔒 TUIC-UDP 🇬🇧 GB-31.25.237.9:52849",
-        "🔒 TUIC-UDP 🇬🇧 GB-64.176.191.133:443",
-        "🔒 TUIC-UDP 🇩🇪 DE-136.244.88.153:443",
-        "🔒 TUIC-UDP 🇬🇧 GB-134.209.28.89:54773",
-        "🔒 TUIC-UDP 🇦🇪 AE-31.57.228.213:20320",
+        "🔒 TUIC-UDP 🇩🇪 DE-45.76.82.254:35403",
         "🔒 TUIC-UDP 🇳🇱 NL-209.250.254.198:443",
-        "🔒 TUIC-UDP 🇩🇪 DE-45.76.82.254:35403"
+        "🔒 TUIC-UDP 🇦🇪 AE-31.57.228.213:20320",
+        "🔒 TUIC-UDP 🇬🇧 GB-64.176.186.193:443",
+        "🔒 TUIC-UDP 🇺🇸 US-64.110.25.10:11227",
+        "🔒 TUIC-UDP 🇸🇪 SE-70.34.208.3:443",
+        "🔒 TUIC-UDP 🇩🇪 DE-136.244.88.153:443",
+        "🔒 TUIC-UDP 🇬🇧 GB-64.176.191.133:443",
+        "🔒 TUIC-UDP 🇬🇧 GB-134.209.28.89:54773",
+        "🔒 TUIC-UDP 🇬🇧 GB-31.25.237.9:52849",
+        "🔒 TUIC-UDP 🇸🇪 SE-70.34.198.64:443",
+        "🔒 TUIC-UDP 🇸🇪 SE-70.34.197.98:443"
       ],
       "url": "http://www.gstatic.com/generate_204"
     },
     {
       "type": "vless",
-      "tag": "🔄 LATEST-UPDATE 📅 SAT-07-TIR-1404 🕑 22:56",
+      "tag": "🔄 LATEST-UPDATE 📅 SUN-08-TIR-1404 🕑 00:41",
       "server": "127.0.0.1",
       "server_port": 1080,
-      "uuid": "accbbaa-abac-aacb-dabc-baaabbcccbac",
+      "uuid": "caabacb-acab-baac-cdba-bccbabcacbaa",
       "packet_encoding": "xudp",
       "transport": {
         "type": "tcp"
@@ -99,7 +99,7 @@
       "tag": "🤖 TELEGRAM-CHANNEL 🌟 ARTIFICIAL-INTELLIGENCE 🖥 @NEUROVANCE 🧠",
       "server": "127.0.0.1",
       "server_port": 2080,
-      "uuid": "baaabcc-abac-bcaa-dbca-cbcbbbaccaaa",
+      "uuid": "baccaab-abca-acab-cbad-abccababcbca",
       "packet_encoding": "xudp",
       "transport": {
         "type": "tcp"
@@ -118,7 +118,7 @@
       "tag": "🛡 TELEGRAM-CHANNEL 🔐 MTPROTO-PROXY 🌍 @NEXUPROXY 📡",
       "server": "127.0.0.1",
       "server_port": 3080,
-      "uuid": "cacbaab-baac-aabc-cdba-aababcbacccb",
+      "uuid": "cabacab-caab-aabc-adcb-ccccbabababa",
       "packet_encoding": "xudp",
       "transport": {
         "type": "tcp"
@@ -134,6 +134,60 @@
     },
     {
       "type": "tuic",
+      "tag": "🔒 TUIC-UDP 🇩🇪 DE-45.76.82.254:35403",
+      "server": "45.76.82.254",
+      "server_port": 35403,
+      "uuid": "6b389472-9094-4c8a-a780-3d371b2eade5",
+      "password": "",
+      "congestion_control": "cubic",
+      "udp_relay_mode": "native",
+      "tls": {
+        "enabled": true,
+        "server_name": "vkvd127.mycdn.me",
+        "insecure": true,
+        "alpn": [
+          "h3"
+        ]
+      }
+    },
+    {
+      "type": "tuic",
+      "tag": "🔒 TUIC-UDP 🇳🇱 NL-209.250.254.198:443",
+      "server": "209.250.254.198",
+      "server_port": 443,
+      "uuid": "38e38f61-b1dd-4b34-90d0-f6222fd7393f",
+      "password": "",
+      "congestion_control": "bbr",
+      "udp_relay_mode": "native",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.apple.com",
+        "insecure": true,
+        "alpn": [
+          "h3"
+        ]
+      }
+    },
+    {
+      "type": "tuic",
+      "tag": "🔒 TUIC-UDP 🇦🇪 AE-31.57.228.213:20320",
+      "server": "31.57.228.213",
+      "server_port": 20320,
+      "uuid": "7a1bb499-31d8-4c6b-9dcc-c66b31e63622",
+      "password": "",
+      "congestion_control": "cubic",
+      "udp_relay_mode": "native",
+      "tls": {
+        "enabled": true,
+        "server_name": "persiatm.services",
+        "insecure": false,
+        "alpn": [
+          "h3"
+        ]
+      }
+    },
+    {
+      "type": "tuic",
       "tag": "🔒 TUIC-UDP 🇬🇧 GB-64.176.186.193:443",
       "server": "64.176.186.193",
       "server_port": 443,
@@ -144,42 +198,6 @@
       "tls": {
         "enabled": true,
         "server_name": "64.176.186.193",
-        "insecure": true,
-        "alpn": [
-          "h3,spdy/3.1"
-        ]
-      }
-    },
-    {
-      "type": "tuic",
-      "tag": "🔒 TUIC-UDP 🇸🇪 SE-70.34.208.3:443",
-      "server": "70.34.208.3",
-      "server_port": 443,
-      "uuid": "87bc1693-8860-41d7-acf4-e6edf49abbbb",
-      "password": "",
-      "congestion_control": "bbr",
-      "udp_relay_mode": "native",
-      "tls": {
-        "enabled": true,
-        "server_name": "70.34.208.3",
-        "insecure": true,
-        "alpn": [
-          "h3,spdy/3.1"
-        ]
-      }
-    },
-    {
-      "type": "tuic",
-      "tag": "🔒 TUIC-UDP 🇸🇪 SE-70.34.198.64:443",
-      "server": "70.34.198.64",
-      "server_port": 443,
-      "uuid": "6313c68a-472b-4999-ba33-094a55ea7549",
-      "password": "",
-      "congestion_control": "bbr",
-      "udp_relay_mode": "native",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.apple.com",
         "insecure": true,
         "alpn": [
           "h3,spdy/3.1"
@@ -206,8 +224,8 @@
     },
     {
       "type": "tuic",
-      "tag": "🔒 TUIC-UDP 🇸🇪 SE-70.34.197.98:443",
-      "server": "70.34.197.98",
+      "tag": "🔒 TUIC-UDP 🇸🇪 SE-70.34.208.3:443",
+      "server": "70.34.208.3",
       "server_port": 443,
       "uuid": "87bc1693-8860-41d7-acf4-e6edf49abbbb",
       "password": "",
@@ -215,43 +233,7 @@
       "udp_relay_mode": "native",
       "tls": {
         "enabled": true,
-        "server_name": "70.34.197.98",
-        "insecure": true,
-        "alpn": [
-          "h3,spdy/3.1"
-        ]
-      }
-    },
-    {
-      "type": "tuic",
-      "tag": "🔒 TUIC-UDP 🇬🇧 GB-31.25.237.9:52849",
-      "server": "31.25.237.9",
-      "server_port": 52849,
-      "uuid": "7c81d0a8-8e23-44d4-94b5-56d33b7af07d",
-      "password": "",
-      "congestion_control": "bbr",
-      "udp_relay_mode": "native",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.bing.com",
-        "insecure": true,
-        "alpn": [
-          "h3"
-        ]
-      }
-    },
-    {
-      "type": "tuic",
-      "tag": "🔒 TUIC-UDP 🇬🇧 GB-64.176.191.133:443",
-      "server": "64.176.191.133",
-      "server_port": 443,
-      "uuid": "d1bb3aae-ace9-4b0f-9ae5-85ab73acbb43",
-      "password": "",
-      "congestion_control": "bbr",
-      "udp_relay_mode": "native",
-      "tls": {
-        "enabled": true,
-        "server_name": "64.176.191.133",
+        "server_name": "70.34.208.3",
         "insecure": true,
         "alpn": [
           "h3,spdy/3.1"
@@ -278,6 +260,24 @@
     },
     {
       "type": "tuic",
+      "tag": "🔒 TUIC-UDP 🇬🇧 GB-64.176.191.133:443",
+      "server": "64.176.191.133",
+      "server_port": 443,
+      "uuid": "d1bb3aae-ace9-4b0f-9ae5-85ab73acbb43",
+      "password": "",
+      "congestion_control": "bbr",
+      "udp_relay_mode": "native",
+      "tls": {
+        "enabled": true,
+        "server_name": "64.176.191.133",
+        "insecure": true,
+        "alpn": [
+          "h3,spdy/3.1"
+        ]
+      }
+    },
+    {
+      "type": "tuic",
       "tag": "🔒 TUIC-UDP 🇬🇧 GB-134.209.28.89:54773",
       "server": "134.209.28.89",
       "server_port": 54773,
@@ -296,17 +296,17 @@
     },
     {
       "type": "tuic",
-      "tag": "🔒 TUIC-UDP 🇦🇪 AE-31.57.228.213:20320",
-      "server": "31.57.228.213",
-      "server_port": 20320,
-      "uuid": "7a1bb499-31d8-4c6b-9dcc-c66b31e63622",
+      "tag": "🔒 TUIC-UDP 🇬🇧 GB-31.25.237.9:52849",
+      "server": "31.25.237.9",
+      "server_port": 52849,
+      "uuid": "7c81d0a8-8e23-44d4-94b5-56d33b7af07d",
       "password": "",
-      "congestion_control": "cubic",
+      "congestion_control": "bbr",
       "udp_relay_mode": "native",
       "tls": {
         "enabled": true,
-        "server_name": "persiatm.services",
-        "insecure": false,
+        "server_name": "www.bing.com",
+        "insecure": true,
         "alpn": [
           "h3"
         ]
@@ -314,10 +314,10 @@
     },
     {
       "type": "tuic",
-      "tag": "🔒 TUIC-UDP 🇳🇱 NL-209.250.254.198:443",
-      "server": "209.250.254.198",
+      "tag": "🔒 TUIC-UDP 🇸🇪 SE-70.34.198.64:443",
+      "server": "70.34.198.64",
       "server_port": 443,
-      "uuid": "38e38f61-b1dd-4b34-90d0-f6222fd7393f",
+      "uuid": "6313c68a-472b-4999-ba33-094a55ea7549",
       "password": "",
       "congestion_control": "bbr",
       "udp_relay_mode": "native",
@@ -326,25 +326,25 @@
         "server_name": "www.apple.com",
         "insecure": true,
         "alpn": [
-          "h3"
+          "h3,spdy/3.1"
         ]
       }
     },
     {
       "type": "tuic",
-      "tag": "🔒 TUIC-UDP 🇩🇪 DE-45.76.82.254:35403",
-      "server": "45.76.82.254",
-      "server_port": 35403,
-      "uuid": "6b389472-9094-4c8a-a780-3d371b2eade5",
+      "tag": "🔒 TUIC-UDP 🇸🇪 SE-70.34.197.98:443",
+      "server": "70.34.197.98",
+      "server_port": 443,
+      "uuid": "87bc1693-8860-41d7-acf4-e6edf49abbbb",
       "password": "",
-      "congestion_control": "cubic",
+      "congestion_control": "bbr",
       "udp_relay_mode": "native",
       "tls": {
         "enabled": true,
-        "server_name": "vkvd127.mycdn.me",
+        "server_name": "70.34.197.98",
         "insecure": true,
         "alpn": [
-          "h3"
+          "h3,spdy/3.1"
         ]
       }
     },
@@ -353,7 +353,7 @@
       "tag": "👨🏻‍💻 DEVELOPED-BY SOROUSH-MIRZAEI 📌 FOLLOW-CONTACT SYDSRSMRZ",
       "server": "127.0.0.1",
       "server_port": 8080,
-      "uuid": "aaaccbb-cbaa-abac-dbac-cacabababccb",
+      "uuid": "aabbacc-cbaa-cbaa-badc-babacbcabcca",
       "packet_encoding": "xudp",
       "transport": {
         "type": "tcp"

@@ -37,14 +37,14 @@
       "tag": "PROXY",
       "outbounds": [
         "AUTO-SELECT",
-        "🔄 LATEST-UPDATE 📅 SAT-07-TIR-1404 🕑 22:56",
+        "🔄 LATEST-UPDATE 📅 SUN-08-TIR-1404 🕑 00:41",
         "🤖 TELEGRAM-CHANNEL 🌟 ARTIFICIAL-INTELLIGENCE 🖥 @NEUROVANCE 🧠",
         "🛡 TELEGRAM-CHANNEL 🔐 MTPROTO-PROXY 🌍 @NEXUPROXY 📡",
         "🔒 SS-TCP-NA 🇹🇭 TH-103.117.149.210:40009",
         "🔒 SS-TCP-NA 🇹🇭 TH-119.59.98.58:990",
         "🔒 TR-TCP-NA 🇹🇭 TH-171.103.232.58:20475",
-        "🔒 VL-WS-TLS 🇹🇭 TH-171.103.13.77:30157",
         "🔒 VL-WS-TLS 🇹🇭 TH-45.144.167.46:19816",
+        "🔒 VL-WS-TLS 🇹🇭 TH-171.103.13.77:30157",
         "👨🏻‍💻 DEVELOPED-BY SOROUSH-MIRZAEI 📌 FOLLOW-CONTACT SYDSRSMRZ"
       ],
       "default": "AUTO-SELECT"
@@ -56,17 +56,17 @@
         "🔒 SS-TCP-NA 🇹🇭 TH-103.117.149.210:40009",
         "🔒 SS-TCP-NA 🇹🇭 TH-119.59.98.58:990",
         "🔒 TR-TCP-NA 🇹🇭 TH-171.103.232.58:20475",
-        "🔒 VL-WS-TLS 🇹🇭 TH-171.103.13.77:30157",
-        "🔒 VL-WS-TLS 🇹🇭 TH-45.144.167.46:19816"
+        "🔒 VL-WS-TLS 🇹🇭 TH-45.144.167.46:19816",
+        "🔒 VL-WS-TLS 🇹🇭 TH-171.103.13.77:30157"
       ],
       "url": "http://www.gstatic.com/generate_204"
     },
     {
       "type": "trojan",
-      "tag": "🔄 LATEST-UPDATE 📅 SAT-07-TIR-1404 🕑 22:56",
+      "tag": "🔄 LATEST-UPDATE 📅 SUN-08-TIR-1404 🕑 00:41",
       "server": "127.0.0.1",
       "server_port": 1080,
-      "password": "accbbaa-abac-aacb-dabc-baaabbcccbac",
+      "password": "caabacb-acab-baac-cdba-bccbabcacbaa",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"
@@ -77,7 +77,7 @@
       "tag": "🤖 TELEGRAM-CHANNEL 🌟 ARTIFICIAL-INTELLIGENCE 🖥 @NEUROVANCE 🧠",
       "server": "127.0.0.1",
       "server_port": 2080,
-      "password": "baaabcc-abac-bcaa-dbca-cbcbbbaccaaa",
+      "password": "baccaab-abca-acab-cbad-abccababcbca",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"
@@ -88,7 +88,7 @@
       "tag": "🛡 TELEGRAM-CHANNEL 🔐 MTPROTO-PROXY 🌍 @NEXUPROXY 📡",
       "server": "127.0.0.1",
       "server_port": 3080,
-      "password": "cacbaab-baac-aabc-cdba-aababcbacccb",
+      "password": "cabacab-caab-aabc-adcb-ccccbabababa",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"
@@ -123,29 +123,6 @@
     },
     {
       "type": "vless",
-      "tag": "🔒 VL-WS-TLS 🇹🇭 TH-171.103.13.77:30157",
-      "server": "171.103.13.77",
-      "server_port": 30157,
-      "uuid": "948f6596-66f9-4707-aa92-3107a214ce53",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "ws",
-        "path": "Telegram🇨🇳 @WangCai2 /?ed=2560",
-        "headers": {
-          "Host": "oops.shalamshorba.dpdns.org"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "oops.shalamshorba.dpdns.org",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "type": "vless",
       "tag": "🔒 VL-WS-TLS 🇹🇭 TH-45.144.167.46:19816",
       "server": "45.144.167.46",
       "server_port": 19816,
@@ -168,11 +145,34 @@
       }
     },
     {
+      "type": "vless",
+      "tag": "🔒 VL-WS-TLS 🇹🇭 TH-171.103.13.77:30157",
+      "server": "171.103.13.77",
+      "server_port": 30157,
+      "uuid": "948f6596-66f9-4707-aa92-3107a214ce53",
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "Telegram🇨🇳 @WangCai2 /?ed=2560",
+        "headers": {
+          "Host": "oops.shalamshorba.dpdns.org"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "oops.shalamshorba.dpdns.org",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
       "type": "trojan",
       "tag": "👨🏻‍💻 DEVELOPED-BY SOROUSH-MIRZAEI 📌 FOLLOW-CONTACT SYDSRSMRZ",
       "server": "127.0.0.1",
       "server_port": 8080,
-      "password": "aaaccbb-cbaa-abac-dbac-cacabababccb",
+      "password": "aabbacc-cbaa-cbaa-badc-babacbcabcca",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"
