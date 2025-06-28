@@ -51,13 +51,9 @@
       "type": "url-test",
       "tag": "AUTO-SELECT",
       "outbounds": [
-        "🔄 LATEST-UPDATE 📅 THU-05-TIR-1404 🕑 06:05",
-        "🤖 TELEGRAM-CHANNEL 🌟 ARTIFICIAL-INTELLIGENCE 🖥 @NEUROVANCE 🧠",
-        "🛡 TELEGRAM-CHANNEL 🔐 MTPROTO-PROXY 🌍 @NEXUPROXY 📡",
         "🔒 SS-TCP-NA 🇳🇬 NG-185.255.123.183:20016",
         "🔒 SS-TCP-NA 🇳🇬 NG-185.255.123.92:990",
-        "🔒 VL-TCP-RLT 🇳🇬 NG-102.207.41.160:26974",
-        "👨🏻‍💻 DEVELOPED-BY SOROUSH-MIRZAEI 📌 FOLLOW-CONTACT SYDSRSMRZ"
+        "🔒 VL-TCP-RLT 🇳🇬 NG-102.207.41.160:26974"
       ],
       "url": "http://www.gstatic.com/generate_204"
     },

@@ -49,11 +49,7 @@
       "type": "url-test",
       "tag": "AUTO-SELECT",
       "outbounds": [
-        "🔄 LATEST-UPDATE 📅 FRI-16-KHORDAD-1404 🕑 23:25",
-        "🤖 TELEGRAM-CHANNEL 🌟 ARTIFICIAL-INTELLIGENCE 🖥 @NEUROVANCE 🧠",
-        "🛡 TELEGRAM-CHANNEL 🔐 MTPROTO-PROXY 🌍 @NEXUPROXY 📡",
-        "🔒 SS-TCP-NA 🇲🇦 MA-188.214.157.236:20014",
-        "👨🏻‍💻 DEVELOPED-BY SOROUSH-MIRZAEI 📌 FOLLOW-CONTACT SYDSRSMRZ"
+        "🔒 SS-TCP-NA 🇲🇦 MA-188.214.157.236:20014"
       ],
       "url": "http://www.gstatic.com/generate_204"
     },

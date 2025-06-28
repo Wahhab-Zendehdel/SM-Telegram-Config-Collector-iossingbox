@@ -49,11 +49,7 @@
       "type": "url-test",
       "tag": "AUTO-SELECT",
       "outbounds": [
-        "🔄 LATEST-UPDATE 📅 THU-05-TIR-1404 🕑 06:05",
-        "🤖 TELEGRAM-CHANNEL 🌟 ARTIFICIAL-INTELLIGENCE 🖥 @NEUROVANCE 🧠",
-        "🛡 TELEGRAM-CHANNEL 🔐 MTPROTO-PROXY 🌍 @NEXUPROXY 📡",
-        "🔒 VL-GRPC-RLT 🇴🇲 OM-154.205.147.238:443",
-        "👨🏻‍💻 DEVELOPED-BY SOROUSH-MIRZAEI 📌 FOLLOW-CONTACT SYDSRSMRZ"
+        "🔒 VL-GRPC-RLT 🇴🇲 OM-154.205.147.238:443"
       ],
       "url": "http://www.gstatic.com/generate_204"
     },

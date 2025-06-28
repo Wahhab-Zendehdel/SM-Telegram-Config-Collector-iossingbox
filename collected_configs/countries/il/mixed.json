@@ -37,14 +37,14 @@
       "tag": "PROXY",
       "outbounds": [
         "AUTO-SELECT",
-        "🔄 LATEST-UPDATE 📅 SAT-07-TIR-1404 🕑 20:51",
+        "🔄 LATEST-UPDATE 📅 SAT-07-TIR-1404 🕑 21:44",
         "🤖 TELEGRAM-CHANNEL 🌟 ARTIFICIAL-INTELLIGENCE 🖥 @NEUROVANCE 🧠",
         "🛡 TELEGRAM-CHANNEL 🔐 MTPROTO-PROXY 🌍 @NEXUPROXY 📡",
         "🔒 SS-TCP-NA 🇮🇱 IL-169.150.202.174:990",
-        "🔒 SS-TCP-NA 🇮🇱 IL-185.239.48.109:8388",
         "🔒 SS-TCP-NA 🇮🇱 IL-169.150.202.174:989",
-        "🔒 VL-WS-NONE 🇮🇱 IL-192.158.242.133:80",
+        "🔒 SS-TCP-NA 🇮🇱 IL-185.239.48.109:8388",
         "🔒 VL-TCP-TLS 🇮🇱 IL-185.239.48.109:443",
+        "🔒 VL-WS-NONE 🇮🇱 IL-192.158.242.133:80",
         "🔒 VL-TCP-RLT 🇮🇱 IL-77.91.74.189:28495",
         "👨🏻‍💻 DEVELOPED-BY SOROUSH-MIRZAEI 📌 FOLLOW-CONTACT SYDSRSMRZ"
       ],
@@ -54,25 +54,21 @@
       "type": "url-test",
       "tag": "AUTO-SELECT",
       "outbounds": [
-        "🔄 LATEST-UPDATE 📅 SAT-07-TIR-1404 🕑 20:51",
-        "🤖 TELEGRAM-CHANNEL 🌟 ARTIFICIAL-INTELLIGENCE 🖥 @NEUROVANCE 🧠",
-        "🛡 TELEGRAM-CHANNEL 🔐 MTPROTO-PROXY 🌍 @NEXUPROXY 📡",
         "🔒 SS-TCP-NA 🇮🇱 IL-169.150.202.174:990",
-        "🔒 SS-TCP-NA 🇮🇱 IL-185.239.48.109:8388",
         "🔒 SS-TCP-NA 🇮🇱 IL-169.150.202.174:989",
-        "🔒 VL-WS-NONE 🇮🇱 IL-192.158.242.133:80",
+        "🔒 SS-TCP-NA 🇮🇱 IL-185.239.48.109:8388",
         "🔒 VL-TCP-TLS 🇮🇱 IL-185.239.48.109:443",
-        "🔒 VL-TCP-RLT 🇮🇱 IL-77.91.74.189:28495",
-        "👨🏻‍💻 DEVELOPED-BY SOROUSH-MIRZAEI 📌 FOLLOW-CONTACT SYDSRSMRZ"
+        "🔒 VL-WS-NONE 🇮🇱 IL-192.158.242.133:80",
+        "🔒 VL-TCP-RLT 🇮🇱 IL-77.91.74.189:28495"
       ],
       "url": "http://www.gstatic.com/generate_204"
     },
     {
       "type": "trojan",
-      "tag": "🔄 LATEST-UPDATE 📅 SAT-07-TIR-1404 🕑 20:51",
+      "tag": "🔄 LATEST-UPDATE 📅 SAT-07-TIR-1404 🕑 21:44",
       "server": "127.0.0.1",
       "server_port": 1080,
-      "password": "caacbab-caab-aacb-dacb-bbabacbcacac",
+      "password": "aaacbbc-baca-acba-dabc-acbbcbbaacac",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"
@@ -83,7 +79,7 @@
       "tag": "🤖 TELEGRAM-CHANNEL 🌟 ARTIFICIAL-INTELLIGENCE 🖥 @NEUROVANCE 🧠",
       "server": "127.0.0.1",
       "server_port": 2080,
-      "password": "bacaacb-bcaa-acba-abcd-bccabcbacaab",
+      "password": "abaccab-abca-cbaa-cadb-cccbababbaac",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"
@@ -94,7 +90,7 @@
       "tag": "🛡 TELEGRAM-CHANNEL 🔐 MTPROTO-PROXY 🌍 @NEXUPROXY 📡",
       "server": "127.0.0.1",
       "server_port": 3080,
-      "password": "cabbaca-cbaa-cbaa-bdac-babcabcabcca",
+      "password": "babacac-cbaa-caba-cdba-abaabacbbccc",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"
@@ -110,14 +106,6 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "🔒 SS-TCP-NA 🇮🇱 IL-185.239.48.109:8388",
-      "server": "185.239.48.109",
-      "server_port": 8388,
-      "method": "aes-256-gcm",
-      "password": "T8lNjomzJhCTfPfZ"
-    },
-    {
-      "type": "shadowsocks",
       "tag": "🔒 SS-TCP-NA 🇮🇱 IL-169.150.202.174:989",
       "server": "169.150.202.174",
       "server_port": 989,
@@ -125,19 +113,12 @@
       "password": "f8f7aCzcPKbsF8p3"
     },
     {
-      "type": "vless",
-      "tag": "🔒 VL-WS-NONE 🇮🇱 IL-192.158.242.133:80",
-      "server": "192.158.242.133",
-      "server_port": 80,
-      "uuid": "53fa8faf-ba4b-4322-9c69-a3e5b1555049",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "ws",
-        "path": "Telegram",
-        "headers": {
-          "Host": "reedfree8mahsang2.redorg.ir"
-        }
-      }
+      "type": "shadowsocks",
+      "tag": "🔒 SS-TCP-NA 🇮🇱 IL-185.239.48.109:8388",
+      "server": "185.239.48.109",
+      "server_port": 8388,
+      "method": "aes-256-gcm",
+      "password": "T8lNjomzJhCTfPfZ"
     },
     {
       "type": "vless",
@@ -155,6 +136,21 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🔒 VL-WS-NONE 🇮🇱 IL-192.158.242.133:80",
+      "server": "192.158.242.133",
+      "server_port": 80,
+      "uuid": "53fa8faf-ba4b-4322-9c69-a3e5b1555049",
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "Telegram",
+        "headers": {
+          "Host": "reedfree8mahsang2.redorg.ir"
         }
       }
     },
@@ -187,7 +183,7 @@
       "tag": "👨🏻‍💻 DEVELOPED-BY SOROUSH-MIRZAEI 📌 FOLLOW-CONTACT SYDSRSMRZ",
       "server": "127.0.0.1",
       "server_port": 8080,
-      "password": "cbabaca-abca-cbaa-adcb-bacbabaccbca",
+      "password": "bbacaac-baca-acba-acdb-bcbaacabccba",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"

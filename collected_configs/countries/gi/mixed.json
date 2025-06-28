@@ -50,12 +50,8 @@
       "type": "url-test",
       "tag": "AUTO-SELECT",
       "outbounds": [
-        "🔄 LATEST-UPDATE 📅 SAT-10-KHORDAD-1404 🕑 05:58",
-        "🤖 TELEGRAM-CHANNEL 🌟 ARTIFICIAL-INTELLIGENCE 🖥 @NEUROVANCE 🧠",
-        "🛡 TELEGRAM-CHANNEL 🔐 MTPROTO-PROXY 🌍 @NEXUPROXY 📡",
         "🔒 VL-TCP-TLS 🇬🇮 GI-95.164.68.37:443",
-        "🔒 VL-TCP-RLT 🇬🇮 GI-95.164.5.16:443",
-        "👨🏻‍💻 DEVELOPED-BY SOROUSH-MIRZAEI 📌 FOLLOW-CONTACT SYDSRSMRZ"
+        "🔒 VL-TCP-RLT 🇬🇮 GI-95.164.5.16:443"
       ],
       "url": "http://www.gstatic.com/generate_204"
     },
