@@ -1,0 +1,119 @@
+[
+  {
+    "type": "trojan",
+    "tag": "🔄 LATEST-UPDATE 📅 SAT-07-TIR-1404 🕑 20:51",
+    "server": "127.0.0.1",
+    "server_port": 1080,
+    "password": "caacbab-caab-aacb-dacb-bbabacbcacac",
+    "tls": {
+      "enabled": true,
+      "server_name": "127.0.0.1"
+    }
+  },
+  {
+    "type": "trojan",
+    "tag": "🤖 TELEGRAM-CHANNEL 🌟 ARTIFICIAL-INTELLIGENCE 🖥 @NEUROVANCE 🧠",
+    "server": "127.0.0.1",
+    "server_port": 2080,
+    "password": "bacaacb-bcaa-acba-abcd-bccabcbacaab",
+    "tls": {
+      "enabled": true,
+      "server_name": "127.0.0.1"
+    }
+  },
+  {
+    "type": "trojan",
+    "tag": "🛡 TELEGRAM-CHANNEL 🔐 MTPROTO-PROXY 🌍 @NEXUPROXY 📡",
+    "server": "127.0.0.1",
+    "server_port": 3080,
+    "password": "cabbaca-cbaa-cbaa-bdac-babcabcabcca",
+    "tls": {
+      "enabled": true,
+      "server_name": "127.0.0.1"
+    }
+  },
+  {
+    "type": "shadowsocks",
+    "tag": "🔒 SS-TCP-NA 🇹🇭 TH-103.117.149.210:40009",
+    "server": "103.117.149.210",
+    "server_port": 40009,
+    "method": "chacha20-ietf-poly1305",
+    "password": "72bb3072-7efd-4d67-9beb-2cd9c18e69f4"
+  },
+  {
+    "type": "shadowsocks",
+    "tag": "🔒 SS-TCP-NA 🇹🇭 TH-119.59.98.58:990",
+    "server": "119.59.98.58",
+    "server_port": 990,
+    "method": "chacha20-ietf-poly1305",
+    "password": "f8f7aCzcPKbsF8p3"
+  },
+  {
+    "type": "trojan",
+    "tag": "🔒 TR-TCP-NA 🇹🇭 TH-171.103.232.58:20475",
+    "server": "171.103.232.58",
+    "server_port": 20475,
+    "password": "ttfang",
+    "tls": {
+      "enabled": true,
+      "server_name": "ttfang.fange.me"
+    }
+  },
+  {
+    "type": "vless",
+    "tag": "🔒 VL-WS-TLS 🇹🇭 TH-171.103.13.77:30157",
+    "server": "171.103.13.77",
+    "server_port": 30157,
+    "uuid": "948f6596-66f9-4707-aa92-3107a214ce53",
+    "packet_encoding": "xudp",
+    "transport": {
+      "type": "ws",
+      "path": "Telegram🇨🇳 @WangCai2 /?ed=2560",
+      "headers": {
+        "Host": "oops.shalamshorba.dpdns.org"
+      }
+    },
+    "tls": {
+      "enabled": true,
+      "server_name": "oops.shalamshorba.dpdns.org",
+      "utls": {
+        "enabled": true,
+        "fingerprint": "chrome"
+      }
+    }
+  },
+  {
+    "type": "vless",
+    "tag": "🔒 VL-WS-TLS 🇹🇭 TH-45.144.167.46:19816",
+    "server": "45.144.167.46",
+    "server_port": 19816,
+    "uuid": "6337837a-2b47-4e0d-a695-75c5a4a8ad51",
+    "packet_encoding": "xudp",
+    "transport": {
+      "type": "ws",
+      "path": "/lzjjjj666",
+      "headers": {
+        "Host": "rs-hk.lzjnb.shop"
+      }
+    },
+    "tls": {
+      "enabled": true,
+      "server_name": "rs-hk.lzjnb.shop",
+      "utls": {
+        "enabled": true,
+        "fingerprint": "chrome"
+      }
+    }
+  },
+  {
+    "type": "trojan",
+    "tag": "👨🏻‍💻 DEVELOPED-BY SOROUSH-MIRZAEI 📌 FOLLOW-CONTACT SYDSRSMRZ",
+    "server": "127.0.0.1",
+    "server_port": 8080,
+    "password": "cbabaca-abca-cbaa-adcb-bacbabaccbca",
+    "tls": {
+      "enabled": true,
+      "server_name": "127.0.0.1"
+    }
+  }
+]

@@ -1,0 +1,54 @@
+[
+  {
+    "type": "trojan",
+    "tag": "🔄 LATEST-UPDATE 📅 FRI-16-KHORDAD-1404 🕑 23:25",
+    "server": "127.0.0.1",
+    "server_port": 1080,
+    "password": "accaabb-caab-aacb-dcab-baabbccaaccb",
+    "tls": {
+      "enabled": true,
+      "server_name": "127.0.0.1"
+    }
+  },
+  {
+    "type": "trojan",
+    "tag": "🤖 TELEGRAM-CHANNEL 🌟 ARTIFICIAL-INTELLIGENCE 🖥 @NEUROVANCE 🧠",
+    "server": "127.0.0.1",
+    "server_port": 2080,
+    "password": "abcacba-cbaa-bcaa-dbca-baaccacacbbb",
+    "tls": {
+      "enabled": true,
+      "server_name": "127.0.0.1"
+    }
+  },
+  {
+    "type": "trojan",
+    "tag": "🛡 TELEGRAM-CHANNEL 🔐 MTPROTO-PROXY 🌍 @NEXUPROXY 📡",
+    "server": "127.0.0.1",
+    "server_port": 3080,
+    "password": "aabbacc-acba-aacb-cbad-abacacbbccab",
+    "tls": {
+      "enabled": true,
+      "server_name": "127.0.0.1"
+    }
+  },
+  {
+    "type": "shadowsocks",
+    "tag": "🔒 SS-TCP-NA 🇲🇦 MA-188.214.157.236:20014",
+    "server": "188.214.157.236",
+    "server_port": 20014,
+    "method": "aes-256-gcm",
+    "password": "A75UTHSTQK2QLV9C"
+  },
+  {
+    "type": "trojan",
+    "tag": "👨🏻‍💻 DEVELOPED-BY SOROUSH-MIRZAEI 📌 FOLLOW-CONTACT SYDSRSMRZ",
+    "server": "127.0.0.1",
+    "server_port": 8080,
+    "password": "cbaacba-caab-aabc-badc-acacabbabcbc",
+    "tls": {
+      "enabled": true,
+      "server_name": "127.0.0.1"
+    }
+  }
+]

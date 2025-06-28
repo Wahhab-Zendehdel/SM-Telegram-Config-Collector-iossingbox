@@ -1,0 +1,86 @@
+[
+  {
+    "type": "trojan",
+    "tag": "🔄 LATEST-UPDATE 📅 THU-05-TIR-1404 🕑 06:05",
+    "server": "127.0.0.1",
+    "server_port": 1080,
+    "password": "bcabaca-abac-caab-abdc-ccbbbacbaaac",
+    "tls": {
+      "enabled": true,
+      "server_name": "127.0.0.1"
+    }
+  },
+  {
+    "type": "trojan",
+    "tag": "🤖 TELEGRAM-CHANNEL 🌟 ARTIFICIAL-INTELLIGENCE 🖥 @NEUROVANCE 🧠",
+    "server": "127.0.0.1",
+    "server_port": 2080,
+    "password": "acababc-abac-baca-cadb-babccbaaabcc",
+    "tls": {
+      "enabled": true,
+      "server_name": "127.0.0.1"
+    }
+  },
+  {
+    "type": "trojan",
+    "tag": "🛡 TELEGRAM-CHANNEL 🔐 MTPROTO-PROXY 🌍 @NEXUPROXY 📡",
+    "server": "127.0.0.1",
+    "server_port": 3080,
+    "password": "cabbaca-bcaa-abac-dbac-accabcbbbaca",
+    "tls": {
+      "enabled": true,
+      "server_name": "127.0.0.1"
+    }
+  },
+  {
+    "type": "shadowsocks",
+    "tag": "🔒 SS-TCP-NA 🇳🇬 NG-185.255.123.183:20016",
+    "server": "185.255.123.183",
+    "server_port": 20016,
+    "method": "aes-256-gcm",
+    "password": "6CN7F6CFXMLPSI2Y"
+  },
+  {
+    "type": "shadowsocks",
+    "tag": "🔒 SS-TCP-NA 🇳🇬 NG-185.255.123.92:990",
+    "server": "185.255.123.92",
+    "server_port": 990,
+    "method": "chacha20-ietf-poly1305",
+    "password": "f8f7aCzcPKbsF8p3"
+  },
+  {
+    "type": "vless",
+    "tag": "🔒 VL-TCP-RLT 🇳🇬 NG-102.207.41.160:26974",
+    "server": "102.207.41.160",
+    "server_port": 26974,
+    "uuid": "ce5234e2-97b2-4c4b-bafb-6c467123bef3",
+    "packet_encoding": "xudp",
+    "transport": {
+      "type": "tcp"
+    },
+    "tls": {
+      "enabled": true,
+      "server_name": "yahoo.com",
+      "utls": {
+        "enabled": true,
+        "fingerprint": "chrome"
+      },
+      "reality": {
+        "enabled": true,
+        "public_key": "q31Vmd3USW3F3WNX0n3OxYRchh8Rbs9uYbr5HUKY_Bo",
+        "short_id": "fc"
+      }
+    }
+  },
+  {
+    "type": "trojan",
+    "tag": "👨🏻‍💻 DEVELOPED-BY SOROUSH-MIRZAEI 📌 FOLLOW-CONTACT SYDSRSMRZ",
+    "server": "127.0.0.1",
+    "server_port": 8080,
+    "password": "cacbaab-acab-abac-abdc-abaccbacbcab",
+    "tls": {
+      "enabled": true,
+      "server_name": "127.0.0.1"
+    }
+  }
+]

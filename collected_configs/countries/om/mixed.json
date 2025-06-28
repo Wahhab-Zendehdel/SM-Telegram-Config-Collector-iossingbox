@@ -1,0 +1,71 @@
+[
+  {
+    "type": "trojan",
+    "tag": "🔄 LATEST-UPDATE 📅 THU-05-TIR-1404 🕑 06:05",
+    "server": "127.0.0.1",
+    "server_port": 1080,
+    "password": "bcabaca-abac-caab-abdc-ccbbbacbaaac",
+    "tls": {
+      "enabled": true,
+      "server_name": "127.0.0.1"
+    }
+  },
+  {
+    "type": "trojan",
+    "tag": "🤖 TELEGRAM-CHANNEL 🌟 ARTIFICIAL-INTELLIGENCE 🖥 @NEUROVANCE 🧠",
+    "server": "127.0.0.1",
+    "server_port": 2080,
+    "password": "acababc-abac-baca-cadb-babccbaaabcc",
+    "tls": {
+      "enabled": true,
+      "server_name": "127.0.0.1"
+    }
+  },
+  {
+    "type": "trojan",
+    "tag": "🛡 TELEGRAM-CHANNEL 🔐 MTPROTO-PROXY 🌍 @NEXUPROXY 📡",
+    "server": "127.0.0.1",
+    "server_port": 3080,
+    "password": "cabbaca-bcaa-abac-dbac-accabcbbbaca",
+    "tls": {
+      "enabled": true,
+      "server_name": "127.0.0.1"
+    }
+  },
+  {
+    "type": "vless",
+    "tag": "🔒 VL-GRPC-RLT 🇴🇲 OM-154.205.147.238:443",
+    "server": "154.205.147.238",
+    "server_port": 443,
+    "uuid": "8405b505-709f-4066-8f24-5337212d47d4",
+    "packet_encoding": "xudp",
+    "transport": {
+      "type": "grpc",
+      "service_name": "grpc"
+    },
+    "tls": {
+      "enabled": true,
+      "server_name": "journalofbigdata.springeropen.com",
+      "utls": {
+        "enabled": true,
+        "fingerprint": "chrome"
+      },
+      "reality": {
+        "enabled": true,
+        "public_key": "mu0LLDgqLrI_QQwD3Dhd_sAldyWylaspLVS5lXDEeCU",
+        "short_id": "e0796eb9b80f7a"
+      }
+    }
+  },
+  {
+    "type": "trojan",
+    "tag": "👨🏻‍💻 DEVELOPED-BY SOROUSH-MIRZAEI 📌 FOLLOW-CONTACT SYDSRSMRZ",
+    "server": "127.0.0.1",
+    "server_port": 8080,
+    "password": "cacbaab-acab-abac-abdc-abaccbacbcab",
+    "tls": {
+      "enabled": true,
+      "server_name": "127.0.0.1"
+    }
+  }
+]
