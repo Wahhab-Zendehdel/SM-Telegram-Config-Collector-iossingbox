@@ -4,6 +4,7 @@ import requests
 import json
 from urllib.parse import urlparse, parse_qs, unquote
 import base64
+import binascii
 
 # --- CONFIG PARSING FUNCTIONS ---
 
@@ -223,7 +224,7 @@ def clean_urls(text):
     return text.replace('https://', ' https://').split()
 
 def fetch_and_process(url, base_dir="."):
-    """Fetches content, parses ALL supported proxy links, and saves as a JSON file."""
+    """Fetches content, decodes if Base64, parses links, and saves as JSON."""
     if not url.startswith("http"):
         url = "https://" + url
     try:
@@ -244,7 +245,21 @@ def fetch_and_process(url, base_dir="."):
         response = requests.get(url)
         response.raise_for_status()
 
-        raw_text = response.text
+        raw_text = response.text.strip()
+
+        # --- NEW DECODING LOGIC ---
+        # Attempts to decode the fetched content if it appears to be Base64.
+        try:
+            decoded_text = base64.b64decode(raw_text).decode('utf-8')
+            # If the decoded text contains protocol prefixes, it's very likely a valid sub.
+            if any(proto in decoded_text for proto in ["vless://", "vmess://", "ss://", "trojan://", "tuic://"]):
+                 raw_text = decoded_text
+                 print(f"    -> Content was Base64 encoded, decoded successfully.")
+        except (binascii.Error, UnicodeDecodeError):
+            # It's not Base64 or failed to decode, so process it as plain text.
+            pass
+        # --- END OF NEW LOGIC ---
+
         outbounds = []
         # --- ADDED NEW PROTOCOLS ---
         supported_protocols = {
