@@ -110,22 +110,31 @@ def parse_shadowsocks(uri: str) -> dict | None:
     try:
         parsed_url = urlparse(uri)
         tag = unquote(parsed_url.fragment) if parsed_url.fragment else parsed_url.hostname
+        method = None
+        password = None
 
-        if parsed_url.password:
+        # Standard format: ss://method:pass@host:port
+        if parsed_url.username and parsed_url.password:
             method = unquote(parsed_url.username)
             password = unquote(parsed_url.password)
+        # Base64 format: ss://b64(method:pass)@host:port OR non-standard ss://pass@host:port
         elif parsed_url.username:
             try:
-                b64_data = parsed_url.username
+                # Attempt to decode as base64 first
+                b64_data = unquote(parsed_url.username)
                 b64_data += "=" * (-len(b64_data) % 4)
                 decoded_bytes = base64.b64decode(b64_data)
                 parts = decoded_bytes.split(b':', 1)
-                method = parts[0].decode('utf-8')
-                password = parts[1].decode('utf-8', 'replace')
+                if len(parts) == 2:
+                    method = parts[0].decode('utf-8')
+                    password = parts[1].decode('utf-8', 'replace')
             except (binascii.Error, UnicodeDecodeError):
+                 # If not valid base64, assume it's the password with a default cipher
                 method = "aes-256-gcm"
                 password = unquote(parsed_url.username)
-        else:
+
+        # If after all that we don't have a method or password, the link is invalid.
+        if not method or not password:
             return None
 
         return {
@@ -215,8 +224,10 @@ def create_full_config(outbounds: list) -> dict:
     """
     Wraps a list of outbound configurations in a complete sing-box config structure.
     """
-    # Create a list of all proxy tags for use in selectors
-    proxy_tags = [proxy["tag"] for proxy in outbounds]
+    # All tags, including informational ones.
+    all_tags = [proxy["tag"] for proxy in outbounds]
+    # Only real proxy tags (not pointing to localhost).
+    real_proxy_tags = [proxy["tag"] for proxy in outbounds if proxy.get("server") != "127.0.0.1"]
     
     return {
         "log": {"level": "info", "timestamp": True},
@@ -242,16 +253,19 @@ def create_full_config(outbounds: list) -> dict:
             {
                 "type": "selector",
                 "tag": "PROXY",
-                "outbounds": ["AUTO-SELECT"] + proxy_tags,
+                # The main selector should show all tags, including the info lines.
+                "outbounds": ["AUTO-SELECT"] + all_tags,
                 "default": "AUTO-SELECT"
             },
             {
                 "type": "url-test",
                 "tag": "AUTO-SELECT",
-                "outbounds": proxy_tags,
+                # The URL-test group should only contain real, testable proxies.
+                "outbounds": real_proxy_tags,
                 "url": "http://www.gstatic.com/generate_204"
             },
-            *outbounds, # Unpack all the generated proxy configurations here
+            # Unpack all the generated proxy configurations here (including dummy info lines).
+            *outbounds,
             {"type": "dns", "tag": "dns-out"},
             {"type": "direct", "tag": "DIRECT"},
             {"type": "block", "tag": "BLOCK"}
@@ -260,7 +274,6 @@ def create_full_config(outbounds: list) -> dict:
              "rules": [
                 {"protocol": "dns", "outbound": "dns-out"},
                 {"network": "udp", "port": 443, "outbound": "BLOCK"},
-                # Add more routing rules as needed
             ],
             "final": "PROXY"
         }
@@ -315,11 +328,9 @@ def fetch_and_process(url, base_dir="."):
                     break
         
         if outbounds:
-            # --- CREATE FULL CONFIG OBJECT ---
             full_config_json = create_full_config(outbounds)
             
             with open(filepath, 'w', encoding='utf-8') as f:
-                # Save the complete configuration object, not just the outbounds array.
                 json.dump(full_config_json, f, indent=2, ensure_ascii=False)
             print(f"Successfully processed and saved to {filepath}")
         else:
