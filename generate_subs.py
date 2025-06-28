@@ -110,26 +110,27 @@ def parse_shadowsocks(uri: str) -> dict | None:
     try:
         parsed_url = urlparse(uri)
         tag = unquote(parsed_url.fragment) if parsed_url.fragment else parsed_url.hostname
-        
-        decoded_part = ""
-        if parsed_url.username and not parsed_url.password: # Base64 format: ss://<base64>#tag
-            b64_data = parsed_url.username
-            b64_data += "=" * (-len(b64_data) % 4)
-            decoded_part = base64.b64decode(b64_data).decode('utf-8')
-        elif parsed_url.username and parsed_url.password: # Standard format: ss://<method>:<pass>@<host>:<port>
-            decoded_part = f"{parsed_url.username}:{parsed_url.password}"
 
-        match = re.match(r'([^:]+):(.+)', decoded_part)
-        if not match: return None
-        method, password = match.groups()
+        if parsed_url.password:
+            method = unquote(parsed_url.username)
+            password = unquote(parsed_url.password)
+        elif parsed_url.username:
+            try:
+                b64_data = parsed_url.username
+                b64_data += "=" * (-len(b64_data) % 4)
+                decoded_bytes = base64.b64decode(b64_data)
+                parts = decoded_bytes.split(b':', 1)
+                method = parts[0].decode('utf-8')
+                password = parts[1].decode('utf-8', 'replace')
+            except (binascii.Error, UnicodeDecodeError):
+                method = "aes-256-gcm"
+                password = unquote(parsed_url.username)
+        else:
+            return None
 
         return {
-            "type": "shadowsocks",
-            "tag": tag,
-            "server": parsed_url.hostname,
-            "server_port": parsed_url.port,
-            "method": method,
-            "password": password
+            "type": "shadowsocks", "tag": tag, "server": parsed_url.hostname,
+            "server_port": parsed_url.port, "method": method, "password": password
         }
     except Exception as e:
         print(f"Skipping Shadowsocks URI due to parsing error: {uri} | Error: {e}")
@@ -138,20 +139,19 @@ def parse_shadowsocks(uri: str) -> dict | None:
 def parse_hysteria2(uri: str) -> dict | None:
     """Parses a Hysteria2 URI and converts it to a sing-box outbound."""
     try:
+        if uri.startswith("hy2://"):
+            uri = uri.replace("hy2://", "hysteria2://", 1)
+
         parsed_url = urlparse(uri)
         if not all([parsed_url.scheme == 'hysteria2', parsed_url.username, parsed_url.hostname, parsed_url.port]):
             return None
         query_params = parse_qs(parsed_url.query)
         tag = unquote(parsed_url.fragment) if parsed_url.fragment else parsed_url.hostname
         config = {
-            "type": "hysteria2",
-            "tag": tag,
-            "server": parsed_url.hostname,
-            "server_port": parsed_url.port,
-            "password": parsed_url.username,
+            "type": "hysteria2", "tag": tag, "server": parsed_url.hostname,
+            "server_port": parsed_url.port, "password": parsed_url.username,
             "tls": {
-                "enabled": True,
-                "server_name": query_params.get('sni', [parsed_url.hostname])[0],
+                "enabled": True, "server_name": query_params.get('sni', [parsed_url.hostname])[0],
                 "insecure": query_params.get('insecure', ['0'])[0] == '1'
             }
         }
@@ -174,17 +174,12 @@ def parse_tuic(uri: str) -> dict | None:
         tag = unquote(parsed_url.fragment) if parsed_url.fragment else parsed_url.hostname
         
         config = {
-            "type": "tuic",
-            "tag": tag,
-            "server": parsed_url.hostname,
-            "server_port": parsed_url.port,
-            "uuid": uuid,
-            "password": password,
+            "type": "tuic", "tag": tag, "server": parsed_url.hostname,
+            "server_port": parsed_url.port, "uuid": uuid, "password": password,
             "congestion_control": query_params.get('congestion_control', ['bbr'])[0],
             "udp_relay_mode": query_params.get('udp_relay_mode', ['native'])[0],
             "tls": {
-                "enabled": True,
-                "server_name": query_params.get('sni', [parsed_url.hostname])[0],
+                "enabled": True, "server_name": query_params.get('sni', [parsed_url.hostname])[0],
                 "insecure": query_params.get('allow_insecure', ['0'])[0] == '1',
                 "alpn": query_params.get('alpn', [])
             }
@@ -205,11 +200,8 @@ def parse_juicity(uri: str) -> dict | None:
         tag = unquote(parsed_url.fragment) if parsed_url.fragment else parsed_url.hostname
 
         return {
-            "type": "juicity",
-            "tag": tag,
-            "server": parsed_url.hostname,
-            "server_port": parsed_url.port,
-            "uuid": parsed_url.username,
+            "type": "juicity", "tag": tag, "server": parsed_url.hostname,
+            "server_port": parsed_url.port, "uuid": parsed_url.username,
             "password": query_params.get('password', [""])[0]
         }
     except Exception as e:
@@ -219,12 +211,64 @@ def parse_juicity(uri: str) -> dict | None:
 
 # --- MODIFIED DOWNLOADER SCRIPT ---
 
-def clean_urls(text):
-    """Cleans and separates concatenated URLs."""
-    return text.replace('https://', ' https://').split()
+def create_full_config(outbounds: list) -> dict:
+    """
+    Wraps a list of outbound configurations in a complete sing-box config structure.
+    """
+    # Create a list of all proxy tags for use in selectors
+    proxy_tags = [proxy["tag"] for proxy in outbounds]
+    
+    return {
+        "log": {"level": "info", "timestamp": True},
+        "dns": {
+            "servers": [
+                {"tag": "dns_proxy", "address": "proxy://dns-out/dns-query", "detour": "PROXY"},
+                {"tag": "dns_direct", "address": "https://1.1.1.1/dns-query", "detour": "DIRECT"},
+                {"tag": "dns_block", "address": "rcode://success"}
+            ]
+        },
+        "inbounds": [
+            {
+                "type": "tun",
+                "interface_name": "tun0",
+                "inet4_address": "172.19.0.1/30",
+                "auto_route": True,
+                "strict_route": True,
+                "sniff": True
+            }
+        ],
+        # The 'outbounds' key now contains our dynamically generated list
+        "outbounds": [
+            {
+                "type": "selector",
+                "tag": "PROXY",
+                "outbounds": ["AUTO-SELECT"] + proxy_tags,
+                "default": "AUTO-SELECT"
+            },
+            {
+                "type": "url-test",
+                "tag": "AUTO-SELECT",
+                "outbounds": proxy_tags,
+                "url": "http://www.gstatic.com/generate_204"
+            },
+            *outbounds, # Unpack all the generated proxy configurations here
+            {"type": "dns", "tag": "dns-out"},
+            {"type": "direct", "tag": "DIRECT"},
+            {"type": "block", "tag": "BLOCK"}
+        ],
+        "route": {
+             "rules": [
+                {"protocol": "dns", "outbound": "dns-out"},
+                {"network": "udp", "port": 443, "outbound": "BLOCK"},
+                # Add more routing rules as needed
+            ],
+            "final": "PROXY"
+        }
+    }
+
 
 def fetch_and_process(url, base_dir="."):
-    """Fetches content, decodes if Base64, parses links, and saves as JSON."""
+    """Fetches, decodes, parses, and saves a full sing-box config file."""
     if not url.startswith("http"):
         url = "https://" + url
     try:
@@ -246,30 +290,20 @@ def fetch_and_process(url, base_dir="."):
         response.raise_for_status()
 
         raw_text = response.text.strip()
-
-        # --- NEW DECODING LOGIC ---
-        # Attempts to decode the fetched content if it appears to be Base64.
+        
         try:
             decoded_text = base64.b64decode(raw_text).decode('utf-8')
-            # If the decoded text contains protocol prefixes, it's very likely a valid sub.
             if any(proto in decoded_text for proto in ["vless://", "vmess://", "ss://", "trojan://", "tuic://"]):
                  raw_text = decoded_text
                  print(f"    -> Content was Base64 encoded, decoded successfully.")
         except (binascii.Error, UnicodeDecodeError):
-            # It's not Base64 or failed to decode, so process it as plain text.
             pass
-        # --- END OF NEW LOGIC ---
 
         outbounds = []
-        # --- ADDED NEW PROTOCOLS ---
         supported_protocols = {
-            "vless://": parse_vless,
-            "vmess://": parse_vmess,
-            "trojan://": parse_trojan,
-            "ss://": parse_shadowsocks,
-            "hysteria2://": parse_hysteria2,
-            "tuic://": parse_tuic,
-            "juicity://": parse_juicity,
+            "vless://": parse_vless, "vmess://": parse_vmess, "trojan://": parse_trojan,
+            "ss://": parse_shadowsocks, "hysteria2://": parse_hysteria2,
+            "hy2://": parse_hysteria2, "tuic://": parse_tuic, "juicity://": parse_juicity,
         }
         for line in raw_text.splitlines():
             line = line.strip()
@@ -279,12 +313,18 @@ def fetch_and_process(url, base_dir="."):
                     if parsed_config := parser(line):
                         outbounds.append(parsed_config)
                     break
+        
         if outbounds:
+            # --- CREATE FULL CONFIG OBJECT ---
+            full_config_json = create_full_config(outbounds)
+            
             with open(filepath, 'w', encoding='utf-8') as f:
-                json.dump(outbounds, f, indent=2, ensure_ascii=False)
+                # Save the complete configuration object, not just the outbounds array.
+                json.dump(full_config_json, f, indent=2, ensure_ascii=False)
             print(f"Successfully processed and saved to {filepath}")
         else:
             print(f"No valid configs found in {url}, skipping file creation.")
+
     except requests.exceptions.RequestException as e:
         print(f"Error fetching {url}: {e}")
     except Exception as e:
@@ -308,7 +348,9 @@ if __name__ == "__main__":
     Country Mixed Configurations:
     https://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/countries/al/mixedhttps://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/countries/ar/mixedhttps://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/countries/am/mixedhttps://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/countries/au/mixedhttps://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/countries/at/mixedhttps://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/countries/bh/mixedhttps://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/countries/be/mixedhttps://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/countries/bo/mixedhttps://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/countries/ba/mixedhttps://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/countries/br/mixedhttps://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/countries/bg/mixedhttps://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/countries/ca/mixedhttps://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/countries/cl/mixedhttps://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/countries/cn/mixedhttps://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/countries/co/mixedhttps://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/countries/cr/mixedhttps://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/countries/hr/mixedhttps://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/countries/cy/mixedhttps://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/countries/cz/mixedhttps://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/countries/dk/mixedhttps://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/countries/ec/mixedhttps://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/countries/ee/mixedhttps://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/countries/fi/mixedhttps://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/countries/fr/mixedhttps://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/countries/de/mixedhttps://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/countries/gi/mixedhttps://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/countries/gr/mixedhttps://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/countries/gt/mixedhttps://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/countries/hk/mixedhttps://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/countries/is/mixedhttps://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/countries/in/mixedhttps://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/countries/id/mixedhttps://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/countries/ir/mixedhttps://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/countries/ie/mixedhttps://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/countries/il/mixedhttps://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/countries/it/mixedhttps://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/countries/jp/mixedhttps://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/countries/jo/mixedhttps://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/countries/kz/mixedhttps://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/countries/kr/mixedhttps://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/countries/lv/mixedhttps://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/countries/lt/mixedhttps://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/countries/lu/mixedhttps://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/countries/my/mixedhttps://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/countries/mt/mixedhttps://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/countries/mu/mixedhttps://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/countries/mx/mixedhttps://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/countries/md/mixedhttps://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/countries/ma/mixedhttps://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/countries/mm/mixedhttps://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/countries/nl/mixedhttps://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/countries/nz/mixedhttps://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/countries/ng/mixedhttps://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/countries/mk/mixedhttps://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/countries/no/mixedhttps://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/countries/na/mixedhttps://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/countries/om/mixedhttps://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/countries/pk/mixedhttps://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/countries/py/mixedhttps://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/countries/pe/mixedhttps://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/countries/ph/mixedhttps://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/countries/pl/mixedhttps://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/countries/pt/mixedhttps://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/countries/pr/mixedhttps://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/countries/ro/mixedhttps://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/countries/ru/mixedhttps://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/countries/sa/mixedhttps://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/countries/rs/mixedhttps://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/countries/sc/mixedhttps://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/countries/sg/mixedhttps://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/countries/sk/mixedhttps://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/countries/si/mixedhttps://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/countries/za/mixedhttps://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/countries/es/mixedhttps://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/countries/se/mixedhttps://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/countries/ch/mixedhttps://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/countries/tw/mixedhttps://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/countries/th/mixedhttps://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/countries/tr/mixedhttps://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/countries/ua/mixedhttps://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/countries/ae/mixedhttps://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/countries/gb/mixedhttps://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/countries/us/mixedhttps://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/countries/vn/mixedhttps://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/countries/vg/mixed
     """
-    all_urls = clean_urls(urls_text)
+    
+    processed_text = urls_text.replace('https://', ' https://').replace('http://', ' http://')
+    all_urls = re.findall(r'https?://[^\s<>"\']+', processed_text)
 
     for url in all_urls:
         fetch_and_process(url, base_dir="collected_configs")
