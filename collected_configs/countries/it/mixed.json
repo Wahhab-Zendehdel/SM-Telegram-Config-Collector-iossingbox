@@ -37,24 +37,24 @@
       "tag": "PROXY",
       "outbounds": [
         "AUTO-SELECT",
-        "🔄 LATEST-UPDATE 📅 SAT-07-TIR-1404 🕑 21:44",
+        "🔄 LATEST-UPDATE 📅 SAT-07-TIR-1404 🕑 22:56",
         "🤖 TELEGRAM-CHANNEL 🌟 ARTIFICIAL-INTELLIGENCE 🖥 @NEUROVANCE 🧠",
         "🛡 TELEGRAM-CHANNEL 🔐 MTPROTO-PROXY 🌍 @NEXUPROXY 📡",
         "🔒 SS-TCP-NA 🇮🇹 IT-147.45.51.30:443",
-        "🔒 TR-WS-TLS 🇮🇹 IT-151.101.242.172:80",
         "🔒 TR-WS-TLS 🇮🇹 IT-151.101.242.172:443",
         "🔒 TR-WS-TLS 🇮🇹 IT-87.120.237.36:81",
-        "🔒 VL-WS-NONE 🇮🇹 IT-151.101.242.172:80",
-        "🔒 VL-XHTTP-NONE 🇮🇹 IT-146.75.55.82:80",
-        "🔒 VL-TCP-NONE 🇮🇹 IT-217.61.61.190:42538",
-        "🔒 VL-WS-NONE 🇮🇹 IT-151.101.242.133:80",
-        "🔒 VL-TCP-TLS 🇮🇹 IT-84.17.58.134:8443",
-        "🔒 VL-XHTTP-NONE 🇮🇹 IT-151.101.241.19:80",
+        "🔒 TR-WS-TLS 🇮🇹 IT-151.101.242.172:80",
+        "🔒 VL-WS-NONE 🇮🇹 IT-146.75.55.82:80",
         "🔒 VL-WS-TLS 🇮🇹 IT-158.180.231.216:443",
+        "🔒 VL-TCP-TLS 🇮🇹 IT-84.17.58.134:8443",
+        "🔒 VL-WS-NONE 🇮🇹 IT-151.101.242.172:80",
+        "🔒 VL-XHTTP-NONE 🇮🇹 IT-151.101.241.19:80",
+        "🔒 VL-WS-NONE 🇮🇹 IT-151.101.242.133:80",
+        "🔒 VL-TCP-NONE 🇮🇹 IT-217.61.61.190:42538",
         "🔒 VL-TCP-RLT 🇮🇹 IT-4.232.169.126:443",
         "🔒 VL-TCP-RLT 🇮🇹 IT-72.146.232.46:443",
-        "🔒 VL-TCP-RLT 🇮🇹 IT-172.235.229.138:21337",
         "🔒 VL-TCP-RLT 🇮🇹 IT-85.235.149.184:4000",
+        "🔒 VL-TCP-RLT 🇮🇹 IT-172.235.229.138:21337",
         "👨🏻‍💻 DEVELOPED-BY SOROUSH-MIRZAEI 📌 FOLLOW-CONTACT SYDSRSMRZ"
       ],
       "default": "AUTO-SELECT"
@@ -64,29 +64,29 @@
       "tag": "AUTO-SELECT",
       "outbounds": [
         "🔒 SS-TCP-NA 🇮🇹 IT-147.45.51.30:443",
-        "🔒 TR-WS-TLS 🇮🇹 IT-151.101.242.172:80",
         "🔒 TR-WS-TLS 🇮🇹 IT-151.101.242.172:443",
         "🔒 TR-WS-TLS 🇮🇹 IT-87.120.237.36:81",
-        "🔒 VL-WS-NONE 🇮🇹 IT-151.101.242.172:80",
-        "🔒 VL-XHTTP-NONE 🇮🇹 IT-146.75.55.82:80",
-        "🔒 VL-TCP-NONE 🇮🇹 IT-217.61.61.190:42538",
-        "🔒 VL-WS-NONE 🇮🇹 IT-151.101.242.133:80",
-        "🔒 VL-TCP-TLS 🇮🇹 IT-84.17.58.134:8443",
-        "🔒 VL-XHTTP-NONE 🇮🇹 IT-151.101.241.19:80",
+        "🔒 TR-WS-TLS 🇮🇹 IT-151.101.242.172:80",
+        "🔒 VL-WS-NONE 🇮🇹 IT-146.75.55.82:80",
         "🔒 VL-WS-TLS 🇮🇹 IT-158.180.231.216:443",
+        "🔒 VL-TCP-TLS 🇮🇹 IT-84.17.58.134:8443",
+        "🔒 VL-WS-NONE 🇮🇹 IT-151.101.242.172:80",
+        "🔒 VL-XHTTP-NONE 🇮🇹 IT-151.101.241.19:80",
+        "🔒 VL-WS-NONE 🇮🇹 IT-151.101.242.133:80",
+        "🔒 VL-TCP-NONE 🇮🇹 IT-217.61.61.190:42538",
         "🔒 VL-TCP-RLT 🇮🇹 IT-4.232.169.126:443",
         "🔒 VL-TCP-RLT 🇮🇹 IT-72.146.232.46:443",
-        "🔒 VL-TCP-RLT 🇮🇹 IT-172.235.229.138:21337",
-        "🔒 VL-TCP-RLT 🇮🇹 IT-85.235.149.184:4000"
+        "🔒 VL-TCP-RLT 🇮🇹 IT-85.235.149.184:4000",
+        "🔒 VL-TCP-RLT 🇮🇹 IT-172.235.229.138:21337"
       ],
       "url": "http://www.gstatic.com/generate_204"
     },
     {
       "type": "trojan",
-      "tag": "🔄 LATEST-UPDATE 📅 SAT-07-TIR-1404 🕑 21:44",
+      "tag": "🔄 LATEST-UPDATE 📅 SAT-07-TIR-1404 🕑 22:56",
       "server": "127.0.0.1",
       "server_port": 1080,
-      "password": "aaacbbc-baca-acba-dabc-acbbcbbaacac",
+      "password": "accbbaa-abac-aacb-dabc-baaabbcccbac",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"
@@ -97,7 +97,7 @@
       "tag": "🤖 TELEGRAM-CHANNEL 🌟 ARTIFICIAL-INTELLIGENCE 🖥 @NEUROVANCE 🧠",
       "server": "127.0.0.1",
       "server_port": 2080,
-      "password": "abaccab-abca-cbaa-cadb-cccbababbaac",
+      "password": "baaabcc-abac-bcaa-dbca-cbcbbbaccaaa",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"
@@ -108,7 +108,7 @@
       "tag": "🛡 TELEGRAM-CHANNEL 🔐 MTPROTO-PROXY 🌍 @NEXUPROXY 📡",
       "server": "127.0.0.1",
       "server_port": 3080,
-      "password": "babacac-cbaa-caba-cdba-abaabacbbccc",
+      "password": "cacbaab-baac-aabc-cdba-aababcbacccb",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"
@@ -121,17 +121,6 @@
       "server_port": 443,
       "method": "chacha20-ietf-poly1305",
       "password": "JTzjwNa8A8ajiqtD6sdytP"
-    },
-    {
-      "type": "trojan",
-      "tag": "🔒 TR-WS-TLS 🇮🇹 IT-151.101.242.172:80",
-      "server": "151.101.242.172",
-      "server_port": 80,
-      "password": "45f98d84-f1ab-4783-989e-e3b930913665",
-      "tls": {
-        "enabled": true,
-        "server_name": "mci.ir"
-      }
     },
     {
       "type": "trojan",
@@ -156,54 +145,51 @@
       }
     },
     {
-      "type": "vless",
-      "tag": "🔒 VL-WS-NONE 🇮🇹 IT-151.101.242.172:80",
+      "type": "trojan",
+      "tag": "🔒 TR-WS-TLS 🇮🇹 IT-151.101.242.172:80",
       "server": "151.101.242.172",
       "server_port": 80,
-      "uuid": "428287e2-0a51-42d5-89a5-d07f5f10a481",
+      "password": "45f98d84-f1ab-4783-989e-e3b930913665",
+      "tls": {
+        "enabled": true,
+        "server_name": "mci.ir"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🔒 VL-WS-NONE 🇮🇹 IT-146.75.55.82:80",
+      "server": "146.75.55.82",
+      "server_port": 80,
+      "uuid": "79b89098-2000-4eaa-ba46-8b7a0c98b104",
       "packet_encoding": "xudp",
       "transport": {
         "type": "ws",
-        "path": "/",
+        "path": "/download",
         "headers": {
-          "Host": "taxi.ir"
+          "Host": "haledada.com"
         }
       }
     },
     {
       "type": "vless",
-      "tag": "🔒 VL-XHTTP-NONE 🇮🇹 IT-146.75.55.82:80",
-      "server": "146.75.55.82",
-      "server_port": 80,
-      "uuid": "34a4cfb4-8b42-42ba-b087-6a338c2b3b4a",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "xhttp"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🔒 VL-TCP-NONE 🇮🇹 IT-217.61.61.190:42538",
-      "server": "217.61.61.190",
-      "server_port": 42538,
-      "uuid": "c1f85ebc-b908-458f-a4e0-4aabb6bd351d",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🔒 VL-WS-NONE 🇮🇹 IT-151.101.242.133:80",
-      "server": "151.101.242.133",
-      "server_port": 80,
-      "uuid": "428287e2-0a51-42d5-89a5-d07f5f10a481",
+      "tag": "🔒 VL-WS-TLS 🇮🇹 IT-158.180.231.216:443",
+      "server": "158.180.231.216",
+      "server_port": 443,
+      "uuid": "5ea08aa1-96db-4614-b5b5-823717d27c17",
       "packet_encoding": "xudp",
       "transport": {
         "type": "ws",
-        "path": "/",
+        "path": "/?ed=2560",
         "headers": {
-          "Host": "taxi.ir"
+          "Host": "vless3.114514660.xyz"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "vless3.114514660.xyz",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "random"
         }
       }
     },
@@ -228,6 +214,21 @@
     },
     {
       "type": "vless",
+      "tag": "🔒 VL-WS-NONE 🇮🇹 IT-151.101.242.172:80",
+      "server": "151.101.242.172",
+      "server_port": 80,
+      "uuid": "b1533182-6015-4f0d-b393-d3b94f55877f",
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "taxi.ir"
+        }
+      }
+    },
+    {
+      "type": "vless",
       "tag": "🔒 VL-XHTTP-NONE 🇮🇹 IT-151.101.241.19:80",
       "server": "151.101.241.19",
       "server_port": 80,
@@ -239,25 +240,28 @@
     },
     {
       "type": "vless",
-      "tag": "🔒 VL-WS-TLS 🇮🇹 IT-158.180.231.216:443",
-      "server": "158.180.231.216",
-      "server_port": 443,
-      "uuid": "5ea08aa1-96db-4614-b5b5-823717d27c17",
+      "tag": "🔒 VL-WS-NONE 🇮🇹 IT-151.101.242.133:80",
+      "server": "151.101.242.133",
+      "server_port": 80,
+      "uuid": "428287e2-0a51-42d5-89a5-d07f5f10a481",
       "packet_encoding": "xudp",
       "transport": {
         "type": "ws",
-        "path": "/?ed=2560",
+        "path": "/",
         "headers": {
-          "Host": "vless3.114514660.xyz"
+          "Host": "taxi.ir"
         }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "vless3.114514660.xyz",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "random"
-        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🔒 VL-TCP-NONE 🇮🇹 IT-217.61.61.190:42538",
+      "server": "217.61.61.190",
+      "server_port": 42538,
+      "uuid": "c1f85ebc-b908-458f-a4e0-4aabb6bd351d",
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "tcp"
       }
     },
     {
@@ -310,30 +314,6 @@
     },
     {
       "type": "vless",
-      "tag": "🔒 VL-TCP-RLT 🇮🇹 IT-172.235.229.138:21337",
-      "server": "172.235.229.138",
-      "server_port": 21337,
-      "uuid": "422899ac-7bfb-441a-89c2-5b9eee312790",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "refersion.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "bGfBNbN30La6XWb4Cakg4y7kRCiveT2LpWYhK8r3-BI",
-          "short_id": "866c9d6a17a0ae44"
-        }
-      }
-    },
-    {
-      "type": "vless",
       "tag": "🔒 VL-TCP-RLT 🇮🇹 IT-85.235.149.184:4000",
       "server": "85.235.149.184",
       "server_port": 4000,
@@ -357,11 +337,35 @@
       }
     },
     {
+      "type": "vless",
+      "tag": "🔒 VL-TCP-RLT 🇮🇹 IT-172.235.229.138:21337",
+      "server": "172.235.229.138",
+      "server_port": 21337,
+      "uuid": "422899ac-7bfb-441a-89c2-5b9eee312790",
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "tcp"
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "refersion.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "bGfBNbN30La6XWb4Cakg4y7kRCiveT2LpWYhK8r3-BI",
+          "short_id": "866c9d6a17a0ae44"
+        }
+      }
+    },
+    {
       "type": "trojan",
       "tag": "👨🏻‍💻 DEVELOPED-BY SOROUSH-MIRZAEI 📌 FOLLOW-CONTACT SYDSRSMRZ",
       "server": "127.0.0.1",
       "server_port": 8080,
-      "password": "bbacaac-baca-acba-acdb-bcbaacabccba",
+      "password": "aaaccbb-cbaa-abac-dbac-cacabababccb",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"

@@ -37,25 +37,25 @@
       "tag": "PROXY",
       "outbounds": [
         "AUTO-SELECT",
-        "🔄 LATEST-UPDATE 📅 SAT-07-TIR-1404 🕑 21:44",
+        "🔄 LATEST-UPDATE 📅 SAT-07-TIR-1404 🕑 22:56",
         "🤖 TELEGRAM-CHANNEL 🌟 ARTIFICIAL-INTELLIGENCE 🖥 @NEUROVANCE 🧠",
         "🛡 TELEGRAM-CHANNEL 🔐 MTPROTO-PROXY 🌍 @NEXUPROXY 📡",
         "🔒 TR-TCP-NA 🇧🇦 BA-77.74.228.4:2087",
-        "🔒 VL-HTTPUPGRADE-NONE 🇧🇦 BA-77.74.228.116:8880",
+        "🔒 VL-WS-NA 🇧🇦 BA-77.74.228.20:8880",
+        "🔒 VL-WS-NA 🇧🇦 BA-77.74.228.29:8880",
+        "🔒 VL-WS-NA 🇧🇦 BA-77.74.228.254:8880",
+        "🔒 VL-HTTPUPGRADE-NONE 🇧🇦 BA-77.74.228.103:8880",
+        "🔒 VL-HTTPUPGRADE-NONE 🇧🇦 BA-77.74.228.220:8880",
+        "🔒 VL-WS-NA 🇧🇦 BA-77.74.228.3:8880",
+        "🔒 VL-WS-NA 🇧🇦 BA-77.74.228.247:8880",
+        "🔒 VL-HTTPUPGRADE-NONE 🇧🇦 BA-77.74.228.200:8880",
+        "🔒 VL-HTTPUPGRADE-NONE 🇧🇦 BA-77.74.228.175:8880",
         "🔒 VL-HTTPUPGRADE-NONE 🇧🇦 BA-77.74.228.135:8880",
         "🔒 VL-WS-NA 🇧🇦 BA-77.74.228.63:8880",
-        "🔒 VL-HTTPUPGRADE-NONE 🇧🇦 BA-77.74.228.175:8880",
-        "🔒 VL-HTTPUPGRADE-NONE 🇧🇦 BA-77.74.228.224:8880",
-        "🔒 VL-HTTPUPGRADE-NONE 🇧🇦 BA-77.74.228.220:8880",
-        "🔒 VL-HTTPUPGRADE-NONE 🇧🇦 BA-77.74.228.205:8880",
-        "🔒 VL-WS-NA 🇧🇦 BA-77.74.228.247:8880",
-        "🔒 VL-WS-NA 🇧🇦 BA-77.74.228.3:8880",
-        "🔒 VL-WS-NA 🇧🇦 BA-77.74.228.20:8880",
-        "🔒 VL-HTTPUPGRADE-NONE 🇧🇦 BA-77.74.228.103:8880",
-        "🔒 VL-WS-NA 🇧🇦 BA-77.74.228.254:8880",
-        "🔒 VL-HTTPUPGRADE-NONE 🇧🇦 BA-77.74.228.200:8880",
-        "🔒 VL-WS-NA 🇧🇦 BA-77.74.228.29:8880",
+        "🔒 VL-HTTPUPGRADE-NONE 🇧🇦 BA-77.74.228.116:8880",
         "🔒 VL-WS-NA 🇧🇦 BA-77.74.228.213:8880",
+        "🔒 VL-HTTPUPGRADE-NONE 🇧🇦 BA-77.74.228.205:8880",
+        "🔒 VL-HTTPUPGRADE-NONE 🇧🇦 BA-77.74.228.224:8880",
         "👨🏻‍💻 DEVELOPED-BY SOROUSH-MIRZAEI 📌 FOLLOW-CONTACT SYDSRSMRZ"
       ],
       "default": "AUTO-SELECT"
@@ -65,30 +65,30 @@
       "tag": "AUTO-SELECT",
       "outbounds": [
         "🔒 TR-TCP-NA 🇧🇦 BA-77.74.228.4:2087",
-        "🔒 VL-HTTPUPGRADE-NONE 🇧🇦 BA-77.74.228.116:8880",
+        "🔒 VL-WS-NA 🇧🇦 BA-77.74.228.20:8880",
+        "🔒 VL-WS-NA 🇧🇦 BA-77.74.228.29:8880",
+        "🔒 VL-WS-NA 🇧🇦 BA-77.74.228.254:8880",
+        "🔒 VL-HTTPUPGRADE-NONE 🇧🇦 BA-77.74.228.103:8880",
+        "🔒 VL-HTTPUPGRADE-NONE 🇧🇦 BA-77.74.228.220:8880",
+        "🔒 VL-WS-NA 🇧🇦 BA-77.74.228.3:8880",
+        "🔒 VL-WS-NA 🇧🇦 BA-77.74.228.247:8880",
+        "🔒 VL-HTTPUPGRADE-NONE 🇧🇦 BA-77.74.228.200:8880",
+        "🔒 VL-HTTPUPGRADE-NONE 🇧🇦 BA-77.74.228.175:8880",
         "🔒 VL-HTTPUPGRADE-NONE 🇧🇦 BA-77.74.228.135:8880",
         "🔒 VL-WS-NA 🇧🇦 BA-77.74.228.63:8880",
-        "🔒 VL-HTTPUPGRADE-NONE 🇧🇦 BA-77.74.228.175:8880",
-        "🔒 VL-HTTPUPGRADE-NONE 🇧🇦 BA-77.74.228.224:8880",
-        "🔒 VL-HTTPUPGRADE-NONE 🇧🇦 BA-77.74.228.220:8880",
+        "🔒 VL-HTTPUPGRADE-NONE 🇧🇦 BA-77.74.228.116:8880",
+        "🔒 VL-WS-NA 🇧🇦 BA-77.74.228.213:8880",
         "🔒 VL-HTTPUPGRADE-NONE 🇧🇦 BA-77.74.228.205:8880",
-        "🔒 VL-WS-NA 🇧🇦 BA-77.74.228.247:8880",
-        "🔒 VL-WS-NA 🇧🇦 BA-77.74.228.3:8880",
-        "🔒 VL-WS-NA 🇧🇦 BA-77.74.228.20:8880",
-        "🔒 VL-HTTPUPGRADE-NONE 🇧🇦 BA-77.74.228.103:8880",
-        "🔒 VL-WS-NA 🇧🇦 BA-77.74.228.254:8880",
-        "🔒 VL-HTTPUPGRADE-NONE 🇧🇦 BA-77.74.228.200:8880",
-        "🔒 VL-WS-NA 🇧🇦 BA-77.74.228.29:8880",
-        "🔒 VL-WS-NA 🇧🇦 BA-77.74.228.213:8880"
+        "🔒 VL-HTTPUPGRADE-NONE 🇧🇦 BA-77.74.228.224:8880"
       ],
       "url": "http://www.gstatic.com/generate_204"
     },
     {
       "type": "trojan",
-      "tag": "🔄 LATEST-UPDATE 📅 SAT-07-TIR-1404 🕑 21:44",
+      "tag": "🔄 LATEST-UPDATE 📅 SAT-07-TIR-1404 🕑 22:56",
       "server": "127.0.0.1",
       "server_port": 1080,
-      "password": "aaacbbc-baca-acba-dabc-acbbcbbaacac",
+      "password": "accbbaa-abac-aacb-dabc-baaabbcccbac",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"
@@ -99,7 +99,7 @@
       "tag": "🤖 TELEGRAM-CHANNEL 🌟 ARTIFICIAL-INTELLIGENCE 🖥 @NEUROVANCE 🧠",
       "server": "127.0.0.1",
       "server_port": 2080,
-      "password": "abaccab-abca-cbaa-cadb-cccbababbaac",
+      "password": "baaabcc-abac-bcaa-dbca-cbcbbbaccaaa",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"
@@ -110,7 +110,7 @@
       "tag": "🛡 TELEGRAM-CHANNEL 🔐 MTPROTO-PROXY 🌍 @NEXUPROXY 📡",
       "server": "127.0.0.1",
       "server_port": 3080,
-      "password": "babacac-cbaa-caba-cdba-abaabacbbccc",
+      "password": "cacbaab-baac-aabc-cdba-aababcbacccb",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"
@@ -129,8 +129,116 @@
     },
     {
       "type": "vless",
-      "tag": "🔒 VL-HTTPUPGRADE-NONE 🇧🇦 BA-77.74.228.116:8880",
-      "server": "77.74.228.116",
+      "tag": "🔒 VL-WS-NA 🇧🇦 BA-77.74.228.20:8880",
+      "server": "77.74.228.20",
+      "server_port": 8880,
+      "uuid": "fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf",
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "/TelegramU0001F1E8U0001F1F3",
+        "headers": {
+          "Host": "us.laoyoutiao.link"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🔒 VL-WS-NA 🇧🇦 BA-77.74.228.29:8880",
+      "server": "77.74.228.29",
+      "server_port": 8880,
+      "uuid": "fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf",
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "/TelegramU0001F1E8U0001F1F3",
+        "headers": {
+          "Host": "hk.laoyoutiao.link"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🔒 VL-WS-NA 🇧🇦 BA-77.74.228.254:8880",
+      "server": "77.74.228.254",
+      "server_port": 8880,
+      "uuid": "34c01e61-f4f3-4afb-a83b-406caf8caa33",
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "/Telegram🇨🇳",
+        "headers": {
+          "Host": "yg.bantony199.top"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🔒 VL-HTTPUPGRADE-NONE 🇧🇦 BA-77.74.228.103:8880",
+      "server": "77.74.228.103",
+      "server_port": 8880,
+      "uuid": "b99590df-eda0-4e34-e1a9-3d1118faed83",
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "httpupgrade"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🔒 VL-HTTPUPGRADE-NONE 🇧🇦 BA-77.74.228.220:8880",
+      "server": "77.74.228.220",
+      "server_port": 8880,
+      "uuid": "b99590df-eda0-4e34-e1a9-3d1118faed83",
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "httpupgrade"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🔒 VL-WS-NA 🇧🇦 BA-77.74.228.3:8880",
+      "server": "77.74.228.3",
+      "server_port": 8880,
+      "uuid": "b5441b0d-2147-4898-8a6a-9b2c87f58382",
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "/Telegram🇨🇳",
+        "headers": {
+          "Host": "bitget1.asdasd.click"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🔒 VL-WS-NA 🇧🇦 BA-77.74.228.247:8880",
+      "server": "77.74.228.247",
+      "server_port": 8880,
+      "uuid": "d60fc3c5-9f07-4cdb-b81f-70af27936bdc",
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "/Telegram🇨🇳",
+        "headers": {
+          "Host": "ex.sue.x10.mx"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🔒 VL-HTTPUPGRADE-NONE 🇧🇦 BA-77.74.228.200:8880",
+      "server": "77.74.228.200",
+      "server_port": 8880,
+      "uuid": "b99590df-eda0-4e34-e1a9-3d1118faed83",
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "httpupgrade"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🔒 VL-HTTPUPGRADE-NONE 🇧🇦 BA-77.74.228.175:8880",
+      "server": "77.74.228.175",
       "server_port": 8880,
       "uuid": "b99590df-eda0-4e34-e1a9-3d1118faed83",
       "packet_encoding": "xudp",
@@ -166,143 +274,13 @@
     },
     {
       "type": "vless",
-      "tag": "🔒 VL-HTTPUPGRADE-NONE 🇧🇦 BA-77.74.228.175:8880",
-      "server": "77.74.228.175",
+      "tag": "🔒 VL-HTTPUPGRADE-NONE 🇧🇦 BA-77.74.228.116:8880",
+      "server": "77.74.228.116",
       "server_port": 8880,
       "uuid": "b99590df-eda0-4e34-e1a9-3d1118faed83",
       "packet_encoding": "xudp",
       "transport": {
         "type": "httpupgrade"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🔒 VL-HTTPUPGRADE-NONE 🇧🇦 BA-77.74.228.224:8880",
-      "server": "77.74.228.224",
-      "server_port": 8880,
-      "uuid": "b99590df-eda0-4e34-e1a9-3d1118faed83",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "httpupgrade"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🔒 VL-HTTPUPGRADE-NONE 🇧🇦 BA-77.74.228.220:8880",
-      "server": "77.74.228.220",
-      "server_port": 8880,
-      "uuid": "b99590df-eda0-4e34-e1a9-3d1118faed83",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "httpupgrade"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🔒 VL-HTTPUPGRADE-NONE 🇧🇦 BA-77.74.228.205:8880",
-      "server": "77.74.228.205",
-      "server_port": 8880,
-      "uuid": "90bf198f-9810-40c8-cb6f-8d7908b576d3",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "httpupgrade"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🔒 VL-WS-NA 🇧🇦 BA-77.74.228.247:8880",
-      "server": "77.74.228.247",
-      "server_port": 8880,
-      "uuid": "d60fc3c5-9f07-4cdb-b81f-70af27936bdc",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "ws",
-        "path": "/Telegram🇨🇳",
-        "headers": {
-          "Host": "ex.sue.x10.mx"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🔒 VL-WS-NA 🇧🇦 BA-77.74.228.3:8880",
-      "server": "77.74.228.3",
-      "server_port": 8880,
-      "uuid": "b5441b0d-2147-4898-8a6a-9b2c87f58382",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "ws",
-        "path": "/Telegram🇨🇳",
-        "headers": {
-          "Host": "bitget1.asdasd.click"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🔒 VL-WS-NA 🇧🇦 BA-77.74.228.20:8880",
-      "server": "77.74.228.20",
-      "server_port": 8880,
-      "uuid": "fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "ws",
-        "path": "/TelegramU0001F1E8U0001F1F3",
-        "headers": {
-          "Host": "us.laoyoutiao.link"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🔒 VL-HTTPUPGRADE-NONE 🇧🇦 BA-77.74.228.103:8880",
-      "server": "77.74.228.103",
-      "server_port": 8880,
-      "uuid": "b99590df-eda0-4e34-e1a9-3d1118faed83",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "httpupgrade"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🔒 VL-WS-NA 🇧🇦 BA-77.74.228.254:8880",
-      "server": "77.74.228.254",
-      "server_port": 8880,
-      "uuid": "34c01e61-f4f3-4afb-a83b-406caf8caa33",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "ws",
-        "path": "/Telegram🇨🇳",
-        "headers": {
-          "Host": "yg.bantony199.top"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🔒 VL-HTTPUPGRADE-NONE 🇧🇦 BA-77.74.228.200:8880",
-      "server": "77.74.228.200",
-      "server_port": 8880,
-      "uuid": "b99590df-eda0-4e34-e1a9-3d1118faed83",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "httpupgrade"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🔒 VL-WS-NA 🇧🇦 BA-77.74.228.29:8880",
-      "server": "77.74.228.29",
-      "server_port": 8880,
-      "uuid": "fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "ws",
-        "path": "/TelegramU0001F1E8U0001F1F3",
-        "headers": {
-          "Host": "hk.laoyoutiao.link"
-        }
       }
     },
     {
@@ -321,11 +299,33 @@
       }
     },
     {
+      "type": "vless",
+      "tag": "🔒 VL-HTTPUPGRADE-NONE 🇧🇦 BA-77.74.228.205:8880",
+      "server": "77.74.228.205",
+      "server_port": 8880,
+      "uuid": "90bf198f-9810-40c8-cb6f-8d7908b576d3",
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "httpupgrade"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🔒 VL-HTTPUPGRADE-NONE 🇧🇦 BA-77.74.228.224:8880",
+      "server": "77.74.228.224",
+      "server_port": 8880,
+      "uuid": "b99590df-eda0-4e34-e1a9-3d1118faed83",
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "httpupgrade"
+      }
+    },
+    {
       "type": "trojan",
       "tag": "👨🏻‍💻 DEVELOPED-BY SOROUSH-MIRZAEI 📌 FOLLOW-CONTACT SYDSRSMRZ",
       "server": "127.0.0.1",
       "server_port": 8080,
-      "password": "bbacaac-baca-acba-acdb-bcbaacabccba",
+      "password": "aaaccbb-cbaa-abac-dbac-cacabababccb",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"
