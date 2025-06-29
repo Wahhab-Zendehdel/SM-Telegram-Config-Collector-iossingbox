@@ -37,56 +37,53 @@
       "tag": "PROXY",
       "outbounds": [
         "AUTO-SELECT",
-        "🔄 LATEST-UPDATE 📅 SUN-08-TIR-1404 🕑 09:48",
+        "🔄 LATEST-UPDATE 📅 SUN-08-TIR-1404 🕑 10:52",
         "🤖 TELEGRAM-CHANNEL 🌟 ARTIFICIAL-INTELLIGENCE 🖥 @NEUROVANCE 🧠",
         "🛡 TELEGRAM-CHANNEL 🔐 MTPROTO-PROXY 🌍 @NEXUPROXY 📡",
-        "🔒 SS-TCP-NA 🇹🇷 TR-83.217.9.128:2222",
-        "🔒 SS-TCP-NA 🇹🇷 TR-83.217.9.39:7317",
-        "🔒 SS-TCP-NA 🇹🇷 TR-62.133.63.212:57456",
-        "🔒 SS-TCP-NA 🇹🇷 TR-45.89.52.66:9040",
-        "🔒 SS-TCP-NA 🇹🇷 TR-193.124.46.196:53024",
         "🔒 SS-TCP-NA 🇹🇷 TR-62.133.63.226:2222",
+        "🔒 SS-TCP-NA 🇹🇷 TR-193.124.46.196:53024",
+        "🔒 SS-TCP-NA 🇹🇷 TR-83.217.9.39:7317",
+        "🔒 SS-TCP-NA 🇹🇷 TR-83.217.9.128:2222",
+        "🔒 SS-TCP-NA 🇹🇷 TR-185.39.204.12:16297",
         "🔒 SS-TCP-NA 🇹🇷 TR-62.133.63.21:65262",
         "🔒 SS-TCP-NA 🇹🇷 TR-62.60.233.83:443",
-        "🔒 SS-TCP-NA 🇹🇷 TR-45.89.52.66:9041",
-        "🔒 SS-TCP-NA 🇹🇷 TR-83.217.9.125:2222",
         "🔒 SS-TCP-NA 🇹🇷 TR-62.60.233.173:2222",
-        "🔒 SS-TCP-NA 🇹🇷 TR-185.39.204.12:16297",
-        "🔒 SS-TCP-NA 🇹🇷 TR-185.123.101.241:990",
+        "🔒 SS-TCP-NA 🇹🇷 TR-62.133.63.212:57456",
+        "🔒 SS-TCP-NA 🇹🇷 TR-83.217.9.125:2222",
+        "🔒 TR-TCP-TLS 🇹🇷 TR-193.57.136.137:443",
         "🔒 TR-TCP-TLS 🇹🇷 TR-154.205.148.199:443",
         "🔒 TR-TCP-NONE 🇹🇷 TR-185.226.93.9:443",
-        "🔒 TR-TCP-TLS 🇹🇷 TR-193.57.136.137:443",
-        "🔒 VL-TCP-NONE 🇹🇷 TR-185.220.227.151:43829",
-        "🔒 VL-HTTPUPGRADE-NONE 🇹🇷 TR-91.206.71.202:8080",
-        "🔒 VL-WS-NONE 🇹🇷 TR-156.244.31.99:2052",
-        "🔒 VL-TCP-NA 🇹🇷 TR-38.180.105.218:9091",
         "🔒 VL-WS-NA 🇹🇷 TR-62.3.12.76:80",
-        "🔒 VL-TCP-NONE 🇹🇷 TR-45.89.52.169:22482",
+        "🔒 VL-TCP-TLS 🇹🇷 TR-62.60.233.250:443",
+        "🔒 VL-WS-TLS 🇹🇷 TR-62.3.12.185:443",
         "🔒 VL-WS-NONE 🇹🇷 TR-91.206.71.202:8880",
-        "🔒 VL-WS-TLS 🇹🇷 TR-91.206.71.202:443",
+        "🔒 VL-HTTPUPGRADE-NONE 🇹🇷 TR-91.206.71.202:8080",
+        "🔒 VL-TCP-NONE 🇹🇷 TR-185.220.227.151:43829",
+        "🔒 VL-TCP-NA 🇹🇷 TR-38.180.105.218:9091",
         "🔒 VL-TCP-TLS 🇹🇷 TR-94.131.108.106:1700",
+        "🔒 VL-WS-NONE 🇹🇷 TR-91.206.71.162:8880",
+        "🔒 VL-WS-NONE 🇹🇷 TR-156.244.31.99:2052",
+        "🔒 VL-WS-NONE 🇹🇷 TR-185.220.227.87:443",
+        "🔒 VL-TCP-NA 🇹🇷 TR-91.206.71.162:80",
         "🔒 VL-TCP-NA 🇹🇷 TR-94.131.108.195:53221",
-        "🔒 VL-TCP-NONE 🇹🇷 TR-213.142.134.162:42540",
+        "🔒 VL-TCP-NA 🇹🇷 TR-213.142.133.184:11928",
         "🔒 VL-HTTPUPGRADE-NONE 🇹🇷 TR-91.206.71.110:8080",
         "🔒 VL-TCP-NONE 🇹🇷 TR-93.180.134.171:8880",
-        "🔒 VL-TCP-NA 🇹🇷 TR-213.142.133.184:11928",
-        "🔒 VL-TCP-NA 🇹🇷 TR-91.206.71.162:80",
-        "🔒 VL-WS-NONE 🇹🇷 TR-185.220.227.87:443",
-        "🔒 VL-WS-NONE 🇹🇷 TR-91.206.71.162:8880",
-        "🔒 VL-WS-TLS 🇹🇷 TR-62.3.12.185:443",
-        "🔒 VL-TCP-RLT 🇹🇷 TR-83.217.9.52:443",
-        "🔒 VL-TCP-RLT 🇹🇷 TR-83.217.9.122:443",
-        "🔒 VL-GRPC-RLT 🇹🇷 TR-77.92.154.200:443",
-        "🔒 VL-GRPC-RLT 🇹🇷 TR-213.142.133.76:4920",
-        "🔒 VL-TCP-RLT 🇹🇷 TR-45.133.36.230:443",
-        "🔒 VL-TCP-RLT 🇹🇷 TR-213.142.133.92:5056",
-        "🔒 VL-TCP-RLT 🇹🇷 TR-62.60.233.176:443",
-        "🔒 VL-TCP-RLT 🇹🇷 TR-62.60.233.250:443",
-        "🔒 VL-TCP-RLT 🇹🇷 TR-91.151.90.100:443",
+        "🔒 VL-TCP-NONE 🇹🇷 TR-45.89.52.169:22482",
+        "🔒 VL-WS-TLS 🇹🇷 TR-91.206.71.202:443",
         "🔒 VL-TCP-RLT 🇹🇷 TR-62.133.63.97:443",
-        "🔒 VL-TCP-RLT 🇹🇷 TR-31.40.205.42:32223",
-        "🔒 VL-TCP-RLT 🇹🇷 TR-94.131.123.241:443",
+        "🔒 VL-TCP-RLT 🇹🇷 TR-45.133.36.230:443",
+        "🔒 VL-GRPC-RLT 🇹🇷 TR-213.142.133.76:4920",
         "🔒 VL-TCP-RLT 🇹🇷 TR-185.39.204.29:443",
+        "🔒 VL-TCP-RLT 🇹🇷 TR-83.217.9.122:443",
+        "🔒 VL-TCP-RLT 🇹🇷 TR-83.217.9.52:443",
+        "🔒 VL-TCP-RLT 🇹🇷 TR-94.131.123.241:443",
+        "🔒 VL-TCP-RLT 🇹🇷 TR-62.60.233.176:443",
+        "🔒 VL-TCP-RLT 🇹🇷 TR-31.40.205.42:32223",
+        "🔒 VL-TCP-RLT 🇹🇷 TR-91.151.90.100:443",
+        "🔒 VL-GRPC-RLT 🇹🇷 TR-77.92.154.200:443",
+        "🔒 VL-TCP-RLT 🇹🇷 TR-62.60.233.250:443",
+        "🔒 VL-TCP-RLT 🇹🇷 TR-213.142.133.92:5056",
         "👨🏻‍💻 DEVELOPED-BY SOROUSH-MIRZAEI 📌 FOLLOW-CONTACT SYDSRSMRZ"
       ],
       "default": "AUTO-SELECT"
@@ -95,62 +92,59 @@
       "type": "url-test",
       "tag": "AUTO-SELECT",
       "outbounds": [
-        "🔒 SS-TCP-NA 🇹🇷 TR-83.217.9.128:2222",
-        "🔒 SS-TCP-NA 🇹🇷 TR-83.217.9.39:7317",
-        "🔒 SS-TCP-NA 🇹🇷 TR-62.133.63.212:57456",
-        "🔒 SS-TCP-NA 🇹🇷 TR-45.89.52.66:9040",
-        "🔒 SS-TCP-NA 🇹🇷 TR-193.124.46.196:53024",
         "🔒 SS-TCP-NA 🇹🇷 TR-62.133.63.226:2222",
+        "🔒 SS-TCP-NA 🇹🇷 TR-193.124.46.196:53024",
+        "🔒 SS-TCP-NA 🇹🇷 TR-83.217.9.39:7317",
+        "🔒 SS-TCP-NA 🇹🇷 TR-83.217.9.128:2222",
+        "🔒 SS-TCP-NA 🇹🇷 TR-185.39.204.12:16297",
         "🔒 SS-TCP-NA 🇹🇷 TR-62.133.63.21:65262",
         "🔒 SS-TCP-NA 🇹🇷 TR-62.60.233.83:443",
-        "🔒 SS-TCP-NA 🇹🇷 TR-45.89.52.66:9041",
-        "🔒 SS-TCP-NA 🇹🇷 TR-83.217.9.125:2222",
         "🔒 SS-TCP-NA 🇹🇷 TR-62.60.233.173:2222",
-        "🔒 SS-TCP-NA 🇹🇷 TR-185.39.204.12:16297",
-        "🔒 SS-TCP-NA 🇹🇷 TR-185.123.101.241:990",
+        "🔒 SS-TCP-NA 🇹🇷 TR-62.133.63.212:57456",
+        "🔒 SS-TCP-NA 🇹🇷 TR-83.217.9.125:2222",
+        "🔒 TR-TCP-TLS 🇹🇷 TR-193.57.136.137:443",
         "🔒 TR-TCP-TLS 🇹🇷 TR-154.205.148.199:443",
         "🔒 TR-TCP-NONE 🇹🇷 TR-185.226.93.9:443",
-        "🔒 TR-TCP-TLS 🇹🇷 TR-193.57.136.137:443",
-        "🔒 VL-TCP-NONE 🇹🇷 TR-185.220.227.151:43829",
-        "🔒 VL-HTTPUPGRADE-NONE 🇹🇷 TR-91.206.71.202:8080",
-        "🔒 VL-WS-NONE 🇹🇷 TR-156.244.31.99:2052",
-        "🔒 VL-TCP-NA 🇹🇷 TR-38.180.105.218:9091",
         "🔒 VL-WS-NA 🇹🇷 TR-62.3.12.76:80",
-        "🔒 VL-TCP-NONE 🇹🇷 TR-45.89.52.169:22482",
+        "🔒 VL-TCP-TLS 🇹🇷 TR-62.60.233.250:443",
+        "🔒 VL-WS-TLS 🇹🇷 TR-62.3.12.185:443",
         "🔒 VL-WS-NONE 🇹🇷 TR-91.206.71.202:8880",
-        "🔒 VL-WS-TLS 🇹🇷 TR-91.206.71.202:443",
+        "🔒 VL-HTTPUPGRADE-NONE 🇹🇷 TR-91.206.71.202:8080",
+        "🔒 VL-TCP-NONE 🇹🇷 TR-185.220.227.151:43829",
+        "🔒 VL-TCP-NA 🇹🇷 TR-38.180.105.218:9091",
         "🔒 VL-TCP-TLS 🇹🇷 TR-94.131.108.106:1700",
+        "🔒 VL-WS-NONE 🇹🇷 TR-91.206.71.162:8880",
+        "🔒 VL-WS-NONE 🇹🇷 TR-156.244.31.99:2052",
+        "🔒 VL-WS-NONE 🇹🇷 TR-185.220.227.87:443",
+        "🔒 VL-TCP-NA 🇹🇷 TR-91.206.71.162:80",
         "🔒 VL-TCP-NA 🇹🇷 TR-94.131.108.195:53221",
-        "🔒 VL-TCP-NONE 🇹🇷 TR-213.142.134.162:42540",
+        "🔒 VL-TCP-NA 🇹🇷 TR-213.142.133.184:11928",
         "🔒 VL-HTTPUPGRADE-NONE 🇹🇷 TR-91.206.71.110:8080",
         "🔒 VL-TCP-NONE 🇹🇷 TR-93.180.134.171:8880",
-        "🔒 VL-TCP-NA 🇹🇷 TR-213.142.133.184:11928",
-        "🔒 VL-TCP-NA 🇹🇷 TR-91.206.71.162:80",
-        "🔒 VL-WS-NONE 🇹🇷 TR-185.220.227.87:443",
-        "🔒 VL-WS-NONE 🇹🇷 TR-91.206.71.162:8880",
-        "🔒 VL-WS-TLS 🇹🇷 TR-62.3.12.185:443",
-        "🔒 VL-TCP-RLT 🇹🇷 TR-83.217.9.52:443",
-        "🔒 VL-TCP-RLT 🇹🇷 TR-83.217.9.122:443",
-        "🔒 VL-GRPC-RLT 🇹🇷 TR-77.92.154.200:443",
-        "🔒 VL-GRPC-RLT 🇹🇷 TR-213.142.133.76:4920",
-        "🔒 VL-TCP-RLT 🇹🇷 TR-45.133.36.230:443",
-        "🔒 VL-TCP-RLT 🇹🇷 TR-213.142.133.92:5056",
-        "🔒 VL-TCP-RLT 🇹🇷 TR-62.60.233.176:443",
-        "🔒 VL-TCP-RLT 🇹🇷 TR-62.60.233.250:443",
-        "🔒 VL-TCP-RLT 🇹🇷 TR-91.151.90.100:443",
+        "🔒 VL-TCP-NONE 🇹🇷 TR-45.89.52.169:22482",
+        "🔒 VL-WS-TLS 🇹🇷 TR-91.206.71.202:443",
         "🔒 VL-TCP-RLT 🇹🇷 TR-62.133.63.97:443",
-        "🔒 VL-TCP-RLT 🇹🇷 TR-31.40.205.42:32223",
+        "🔒 VL-TCP-RLT 🇹🇷 TR-45.133.36.230:443",
+        "🔒 VL-GRPC-RLT 🇹🇷 TR-213.142.133.76:4920",
+        "🔒 VL-TCP-RLT 🇹🇷 TR-185.39.204.29:443",
+        "🔒 VL-TCP-RLT 🇹🇷 TR-83.217.9.122:443",
+        "🔒 VL-TCP-RLT 🇹🇷 TR-83.217.9.52:443",
         "🔒 VL-TCP-RLT 🇹🇷 TR-94.131.123.241:443",
-        "🔒 VL-TCP-RLT 🇹🇷 TR-185.39.204.29:443"
+        "🔒 VL-TCP-RLT 🇹🇷 TR-62.60.233.176:443",
+        "🔒 VL-TCP-RLT 🇹🇷 TR-31.40.205.42:32223",
+        "🔒 VL-TCP-RLT 🇹🇷 TR-91.151.90.100:443",
+        "🔒 VL-GRPC-RLT 🇹🇷 TR-77.92.154.200:443",
+        "🔒 VL-TCP-RLT 🇹🇷 TR-62.60.233.250:443",
+        "🔒 VL-TCP-RLT 🇹🇷 TR-213.142.133.92:5056"
       ],
       "url": "http://www.gstatic.com/generate_204"
     },
     {
       "type": "trojan",
-      "tag": "🔄 LATEST-UPDATE 📅 SUN-08-TIR-1404 🕑 09:48",
+      "tag": "🔄 LATEST-UPDATE 📅 SUN-08-TIR-1404 🕑 10:52",
       "server": "127.0.0.1",
       "server_port": 1080,
-      "password": "aaccabb-cbaa-baca-acbd-cabcbcabaabc",
+      "password": "acacbab-acab-baca-dacb-bbbccbacaaac",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"
@@ -161,7 +155,7 @@
       "tag": "🤖 TELEGRAM-CHANNEL 🌟 ARTIFICIAL-INTELLIGENCE 🖥 @NEUROVANCE 🧠",
       "server": "127.0.0.1",
       "server_port": 2080,
-      "password": "aacbbca-acba-aabc-cabd-cccaababbcab",
+      "password": "aacbbac-baca-aabc-dabc-bcabacaabcbc",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"
@@ -172,7 +166,7 @@
       "tag": "🛡 TELEGRAM-CHANNEL 🔐 MTPROTO-PROXY 🌍 @NEXUPROXY 📡",
       "server": "127.0.0.1",
       "server_port": 3080,
-      "password": "cbacaba-abac-acba-bdca-abcaabbbcacc",
+      "password": "caaabcb-caab-aabc-cdba-abbaccbacbac",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"
@@ -180,35 +174,11 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "🔒 SS-TCP-NA 🇹🇷 TR-83.217.9.128:2222",
-      "server": "83.217.9.128",
+      "tag": "🔒 SS-TCP-NA 🇹🇷 TR-62.133.63.226:2222",
+      "server": "62.133.63.226",
       "server_port": 2222,
       "method": "chacha20-ietf-poly1305",
       "password": "qscavF5UviIL-8V-E4raBA"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🔒 SS-TCP-NA 🇹🇷 TR-83.217.9.39:7317",
-      "server": "83.217.9.39",
-      "server_port": 7317,
-      "method": "chacha20-ietf-poly1305",
-      "password": "gdzWuhemJVVspHwzCsZejf"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🔒 SS-TCP-NA 🇹🇷 TR-62.133.63.212:57456",
-      "server": "62.133.63.212",
-      "server_port": 57456,
-      "method": "chacha20-ietf-poly1305",
-      "password": "c40641c1f89e7acb"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🔒 SS-TCP-NA 🇹🇷 TR-45.89.52.66:9040",
-      "server": "45.89.52.66",
-      "server_port": 9040,
-      "method": "aes-256-cfb",
-      "password": "p9z5BVADH2YFs3MN"
     },
     {
       "type": "shadowsocks",
@@ -220,11 +190,27 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "🔒 SS-TCP-NA 🇹🇷 TR-62.133.63.226:2222",
-      "server": "62.133.63.226",
+      "tag": "🔒 SS-TCP-NA 🇹🇷 TR-83.217.9.39:7317",
+      "server": "83.217.9.39",
+      "server_port": 7317,
+      "method": "chacha20-ietf-poly1305",
+      "password": "gdzWuhemJVVspHwzCsZejf"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🔒 SS-TCP-NA 🇹🇷 TR-83.217.9.128:2222",
+      "server": "83.217.9.128",
       "server_port": 2222,
       "method": "chacha20-ietf-poly1305",
       "password": "qscavF5UviIL-8V-E4raBA"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🔒 SS-TCP-NA 🇹🇷 TR-185.39.204.12:16297",
+      "server": "185.39.204.12",
+      "server_port": 16297,
+      "method": "chacha20-ietf-poly1305",
+      "password": "G0o2hE4eLuR2wwyFao0lsJ"
     },
     {
       "type": "shadowsocks",
@@ -244,11 +230,19 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "🔒 SS-TCP-NA 🇹🇷 TR-45.89.52.66:9041",
-      "server": "45.89.52.66",
-      "server_port": 9041,
-      "method": "aes-256-cfb",
-      "password": "U6qnYRhfyDmn8sgn"
+      "tag": "🔒 SS-TCP-NA 🇹🇷 TR-62.60.233.173:2222",
+      "server": "62.60.233.173",
+      "server_port": 2222,
+      "method": "chacha20-ietf-poly1305",
+      "password": "qscavF5UviIL-8V-E4raBA"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🔒 SS-TCP-NA 🇹🇷 TR-62.133.63.212:57456",
+      "server": "62.133.63.212",
+      "server_port": 57456,
+      "method": "chacha20-ietf-poly1305",
+      "password": "c40641c1f89e7acb"
     },
     {
       "type": "shadowsocks",
@@ -259,28 +253,15 @@
       "password": "qscavF5UviIL-8V-E4raBA"
     },
     {
-      "type": "shadowsocks",
-      "tag": "🔒 SS-TCP-NA 🇹🇷 TR-62.60.233.173:2222",
-      "server": "62.60.233.173",
-      "server_port": 2222,
-      "method": "chacha20-ietf-poly1305",
-      "password": "qscavF5UviIL-8V-E4raBA"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🔒 SS-TCP-NA 🇹🇷 TR-185.39.204.12:16297",
-      "server": "185.39.204.12",
-      "server_port": 16297,
-      "method": "chacha20-ietf-poly1305",
-      "password": "G0o2hE4eLuR2wwyFao0lsJ"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🔒 SS-TCP-NA 🇹🇷 TR-185.123.101.241:990",
-      "server": "185.123.101.241",
-      "server_port": 990,
-      "method": "chacha20-ietf-poly1305",
-      "password": "f8f7aCzcPKbsF8p3"
+      "type": "trojan",
+      "tag": "🔒 TR-TCP-TLS 🇹🇷 TR-193.57.136.137:443",
+      "server": "193.57.136.137",
+      "server_port": 443,
+      "password": "8264f515-90b6-4152-9830-7abc0ec215c6",
+      "tls": {
+        "enabled": true,
+        "server_name": "dried-chow-kite.stark-industries.solutions"
+      }
     },
     {
       "type": "trojan",
@@ -305,62 +286,6 @@
       }
     },
     {
-      "type": "trojan",
-      "tag": "🔒 TR-TCP-TLS 🇹🇷 TR-193.57.136.137:443",
-      "server": "193.57.136.137",
-      "server_port": 443,
-      "password": "8264f515-90b6-4152-9830-7abc0ec215c6",
-      "tls": {
-        "enabled": true,
-        "server_name": "dried-chow-kite.stark-industries.solutions"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🔒 VL-TCP-NONE 🇹🇷 TR-185.220.227.151:43829",
-      "server": "185.220.227.151",
-      "server_port": 43829,
-      "uuid": "78059aea-8b25-41e3-8314-0c05bc539bcd",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🔒 VL-HTTPUPGRADE-NONE 🇹🇷 TR-91.206.71.202:8080",
-      "server": "91.206.71.202",
-      "server_port": 8080,
-      "uuid": "428287e2-0a51-42d5-89a5-d07f5f10a481",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "httpupgrade"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🔒 VL-WS-NONE 🇹🇷 TR-156.244.31.99:2052",
-      "server": "156.244.31.99",
-      "server_port": 2052,
-      "uuid": "4c183cd1-0079-45ce-9204-4360a643601c",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "ws",
-        "path": "/"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🔒 VL-TCP-NA 🇹🇷 TR-38.180.105.218:9091",
-      "server": "38.180.105.218",
-      "server_port": 9091,
-      "uuid": "62237966-b2c6-4bf9-a269-3717e1773c99",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
-    },
-    {
       "type": "vless",
       "tag": "🔒 VL-WS-NA 🇹🇷 TR-62.3.12.76:80",
       "server": "62.3.12.76",
@@ -377,13 +302,41 @@
     },
     {
       "type": "vless",
-      "tag": "🔒 VL-TCP-NONE 🇹🇷 TR-45.89.52.169:22482",
-      "server": "45.89.52.169",
-      "server_port": 22482,
-      "uuid": "3a559234-bb5f-4db7-95da-f65c43f8ad88",
+      "tag": "🔒 VL-TCP-TLS 🇹🇷 TR-62.60.233.250:443",
+      "server": "62.60.233.250",
+      "server_port": 443,
+      "uuid": "fd0cdd44-2361-11f0-9970-45e1d80c4039",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "images.apple.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🔒 VL-WS-TLS 🇹🇷 TR-62.3.12.185:443",
+      "server": "62.3.12.185",
+      "server_port": 443,
+      "uuid": "75fde681-ec64-4654-86fa-30732e8e179c",
       "packet_encoding": "xudp",
       "transport": {
-        "type": "tcp"
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "nginx-z.pages.dev"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "NGINX-Z.pages.DEV",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
       }
     },
     {
@@ -403,25 +356,35 @@
     },
     {
       "type": "vless",
-      "tag": "🔒 VL-WS-TLS 🇹🇷 TR-91.206.71.202:443",
+      "tag": "🔒 VL-HTTPUPGRADE-NONE 🇹🇷 TR-91.206.71.202:8080",
       "server": "91.206.71.202",
-      "server_port": 443,
-      "uuid": "6f393e4a-2811-4eb6-bbe3-a6917381bdcd",
+      "server_port": 8080,
+      "uuid": "428287e2-0a51-42d5-89a5-d07f5f10a481",
       "packet_encoding": "xudp",
       "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "ir-ddos.com"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "ir-ddos.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
+        "type": "httpupgrade"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🔒 VL-TCP-NONE 🇹🇷 TR-185.220.227.151:43829",
+      "server": "185.220.227.151",
+      "server_port": 43829,
+      "uuid": "78059aea-8b25-41e3-8314-0c05bc539bcd",
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "tcp"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🔒 VL-TCP-NA 🇹🇷 TR-38.180.105.218:9091",
+      "server": "38.180.105.218",
+      "server_port": 9091,
+      "uuid": "62237966-b2c6-4bf9-a269-3717e1773c99",
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "tcp"
       }
     },
     {
@@ -445,6 +408,56 @@
     },
     {
       "type": "vless",
+      "tag": "🔒 VL-WS-NONE 🇹🇷 TR-91.206.71.162:8880",
+      "server": "91.206.71.162",
+      "server_port": 8880,
+      "uuid": "b55059e9-6adf-409a-a110-c1cf0a36bd7e",
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "/Telegram—VPNCUSTOMIZE?ed=2048",
+        "headers": {
+          "Host": "join.vpncustomize.iran.ir.arvancloud.ir.www.speedtest.net.sik.ddns-ip.net"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🔒 VL-WS-NONE 🇹🇷 TR-156.244.31.99:2052",
+      "server": "156.244.31.99",
+      "server_port": 2052,
+      "uuid": "4c183cd1-0079-45ce-9204-4360a643601c",
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "/"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🔒 VL-WS-NONE 🇹🇷 TR-185.220.227.87:443",
+      "server": "185.220.227.87",
+      "server_port": 443,
+      "uuid": "8636b38e-2001-48a0-fc27-6706848c5723",
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "wdf-7fc9613170-sdsd.apps.ir-central1.arvancaas.ir"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🔒 VL-TCP-NA 🇹🇷 TR-91.206.71.162:80",
+      "server": "91.206.71.162",
+      "server_port": 80,
+      "uuid": "b67d238c-742c-492c-a44c-a2001186ff5b",
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
       "tag": "🔒 VL-TCP-NA 🇹🇷 TR-94.131.108.195:53221",
       "server": "94.131.108.195",
       "server_port": 53221,
@@ -456,10 +469,10 @@
     },
     {
       "type": "vless",
-      "tag": "🔒 VL-TCP-NONE 🇹🇷 TR-213.142.134.162:42540",
-      "server": "213.142.134.162",
-      "server_port": 42540,
-      "uuid": "6ce93d15-9488-4208-914b-6ee32af0df0e",
+      "tag": "🔒 VL-TCP-NA 🇹🇷 TR-213.142.133.184:11928",
+      "server": "213.142.133.184",
+      "server_port": 11928,
+      "uuid": "67525da1-a606-4725-98f3-513c13904d9d",
       "packet_encoding": "xudp",
       "transport": {
         "type": "tcp"
@@ -489,10 +502,10 @@
     },
     {
       "type": "vless",
-      "tag": "🔒 VL-TCP-NA 🇹🇷 TR-213.142.133.184:11928",
-      "server": "213.142.133.184",
-      "server_port": 11928,
-      "uuid": "67525da1-a606-4725-98f3-513c13904d9d",
+      "tag": "🔒 VL-TCP-NONE 🇹🇷 TR-45.89.52.169:22482",
+      "server": "45.89.52.169",
+      "server_port": 22482,
+      "uuid": "3a559234-bb5f-4db7-95da-f65c43f8ad88",
       "packet_encoding": "xudp",
       "transport": {
         "type": "tcp"
@@ -500,59 +513,21 @@
     },
     {
       "type": "vless",
-      "tag": "🔒 VL-TCP-NA 🇹🇷 TR-91.206.71.162:80",
-      "server": "91.206.71.162",
-      "server_port": 80,
-      "uuid": "b67d238c-742c-492c-a44c-a2001186ff5b",
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "vless",
-      "tag": "🔒 VL-WS-NONE 🇹🇷 TR-185.220.227.87:443",
-      "server": "185.220.227.87",
+      "tag": "🔒 VL-WS-TLS 🇹🇷 TR-91.206.71.202:443",
+      "server": "91.206.71.202",
       "server_port": 443,
-      "uuid": "8636b38e-2001-48a0-fc27-6706848c5723",
+      "uuid": "6f393e4a-2811-4eb6-bbe3-a6917381bdcd",
       "packet_encoding": "xudp",
       "transport": {
         "type": "ws",
         "path": "/",
         "headers": {
-          "Host": "wdf-7fc9613170-sdsd.apps.ir-central1.arvancaas.ir"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🔒 VL-WS-NONE 🇹🇷 TR-91.206.71.162:8880",
-      "server": "91.206.71.162",
-      "server_port": 8880,
-      "uuid": "b55059e9-6adf-409a-a110-c1cf0a36bd7e",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "ws",
-        "path": "/Telegram—VPNCUSTOMIZE?ed=2048",
-        "headers": {
-          "Host": "join.vpncustomize.iran.ir.arvancloud.ir.www.speedtest.net.sik.ddns-ip.net"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🔒 VL-WS-TLS 🇹🇷 TR-62.3.12.185:443",
-      "server": "62.3.12.185",
-      "server_port": 443,
-      "uuid": "75fde681-ec64-4654-86fa-30732e8e179c",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "nginx-z.pages.dev"
+          "Host": "ir-ddos.com"
         }
       },
       "tls": {
         "enabled": true,
-        "server_name": "NGINX-Z.pages.DEV",
+        "server_name": "ir-ddos.com",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -561,10 +536,81 @@
     },
     {
       "type": "vless",
-      "tag": "🔒 VL-TCP-RLT 🇹🇷 TR-83.217.9.52:443",
-      "server": "83.217.9.52",
+      "tag": "🔒 VL-TCP-RLT 🇹🇷 TR-62.133.63.97:443",
+      "server": "62.133.63.97",
       "server_port": 443,
-      "uuid": "cf246718-27fc-42cc-b8a5-6897c7ca907f",
+      "uuid": "a93352eb-6c60-4c08-9160-5c82a661c2fd",
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "tcp"
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "google.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "cTm0TIKL9qK550XICK2YroOSr1u-f12h5UmBw2EAr2c"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🔒 VL-TCP-RLT 🇹🇷 TR-45.133.36.230:443",
+      "server": "45.133.36.230",
+      "server_port": 443,
+      "uuid": "3315df08-e2a4-4dbd-eccc-fa0cbacf40a9",
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "tcp"
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "www.latimes.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "aWkDnGz6ncSTu_pOZggU23ZlBP-nrq65iCo2rSbujG8"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🔒 VL-GRPC-RLT 🇹🇷 TR-213.142.133.76:4920",
+      "server": "213.142.133.76",
+      "server_port": 4920,
+      "uuid": "eeba92b0-7204-4ccc-b0c9-50213c1d8b1c",
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "grpc",
+        "service_name": "mgrpcmn"
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "refersion.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "xSKFCOvniPfPNbue8I_OjLigMECtNzSAjXDuyGziwyw",
+          "short_id": "e446638013d88e20"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🔒 VL-TCP-RLT 🇹🇷 TR-185.39.204.29:443",
+      "server": "185.39.204.29",
+      "server_port": 443,
+      "uuid": "22f493aa-cab4-4040-bef1-c3a5d4418b3b",
       "packet_encoding": "xudp",
       "transport": {
         "type": "tcp"
@@ -607,106 +653,10 @@
     },
     {
       "type": "vless",
-      "tag": "🔒 VL-GRPC-RLT 🇹🇷 TR-77.92.154.200:443",
-      "server": "77.92.154.200",
+      "tag": "🔒 VL-TCP-RLT 🇹🇷 TR-83.217.9.52:443",
+      "server": "83.217.9.52",
       "server_port": 443,
-      "uuid": "4a26ec41-cda4-4ff8-aac0-00cf232ca21c",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "grpc",
-        "service_name": ""
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "wordpress.org",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "dUCso1FAr-zors9NhECIqYI3fEjyfLvRqksj9lmxw",
-          "short_id": "f99c4b933314ec6d"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🔒 VL-GRPC-RLT 🇹🇷 TR-213.142.133.76:4920",
-      "server": "213.142.133.76",
-      "server_port": 4920,
-      "uuid": "eeba92b0-7204-4ccc-b0c9-50213c1d8b1c",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "grpc",
-        "service_name": "mgrpcmn"
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "refersion.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "xSKFCOvniPfPNbue8I_OjLigMECtNzSAjXDuyGziwyw",
-          "short_id": "e446638013d88e20"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🔒 VL-TCP-RLT 🇹🇷 TR-45.133.36.230:443",
-      "server": "45.133.36.230",
-      "server_port": 443,
-      "uuid": "3315df08-e2a4-4dbd-eccc-fa0cbacf40a9",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "www.latimes.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "aWkDnGz6ncSTu_pOZggU23ZlBP-nrq65iCo2rSbujG8"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🔒 VL-TCP-RLT 🇹🇷 TR-213.142.133.92:5056",
-      "server": "213.142.133.92",
-      "server_port": 5056,
-      "uuid": "aa2be8f1-32f2-4358-a2d3-e98f3c458955",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "refersion.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "SIZUCP8kFTMNONyzojhPmYWM_530dU3MEJVsJAV_604"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🔒 VL-TCP-RLT 🇹🇷 TR-62.60.233.176:443",
-      "server": "62.60.233.176",
-      "server_port": 443,
-      "uuid": "7eaf26cc-e139-4569-93e6-8ed3de909de8",
+      "uuid": "cf246718-27fc-42cc-b8a5-6897c7ca907f",
       "packet_encoding": "xudp",
       "transport": {
         "type": "tcp"
@@ -726,58 +676,33 @@
     },
     {
       "type": "vless",
-      "tag": "🔒 VL-TCP-RLT 🇹🇷 TR-62.60.233.250:443",
-      "server": "62.60.233.250",
+      "tag": "🔒 VL-TCP-RLT 🇹🇷 TR-94.131.123.241:443",
+      "server": "94.131.123.241",
       "server_port": 443,
-      "uuid": "fd0cdd44-2361-11f0-9970-45e1d80c4039",
+      "uuid": "d895495c-d1ed-46e4-9235-35c54c9ed901",
       "packet_encoding": "xudp",
       "transport": {
         "type": "tcp"
       },
       "tls": {
         "enabled": true,
-        "server_name": "images.apple.com",
+        "server_name": "google.com",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "MFsbnsNQsSpZwP-_Ohzako6aHpfK4-rbssxhr3eywWw",
-          "short_id": "4476a3"
+          "public_key": "0hH6R90pSxwm7nZPGtJJcJFhwCXU3Rvf-wcEHE7hczo"
         }
       }
     },
     {
       "type": "vless",
-      "tag": "🔒 VL-TCP-RLT 🇹🇷 TR-91.151.90.100:443",
-      "server": "91.151.90.100",
+      "tag": "🔒 VL-TCP-RLT 🇹🇷 TR-62.60.233.176:443",
+      "server": "62.60.233.176",
       "server_port": 443,
-      "uuid": "3e490611-a7d1-4968-bcd9-955d6342b203",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "hamidi2.spsvps.xyz",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "fm40M72LdQsjjom93KudiY9kADRsSZsItTWzYORdyyE",
-          "short_id": "510aaa"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🔒 VL-TCP-RLT 🇹🇷 TR-62.133.63.97:443",
-      "server": "62.133.63.97",
-      "server_port": 443,
-      "uuid": "a93352eb-6c60-4c08-9160-5c82a661c2fd",
+      "uuid": "7eaf26cc-e139-4569-93e6-8ed3de909de8",
       "packet_encoding": "xudp",
       "transport": {
         "type": "tcp"
@@ -821,47 +746,97 @@
     },
     {
       "type": "vless",
-      "tag": "🔒 VL-TCP-RLT 🇹🇷 TR-94.131.123.241:443",
-      "server": "94.131.123.241",
+      "tag": "🔒 VL-TCP-RLT 🇹🇷 TR-91.151.90.100:443",
+      "server": "91.151.90.100",
       "server_port": 443,
-      "uuid": "d895495c-d1ed-46e4-9235-35c54c9ed901",
+      "uuid": "3e490611-a7d1-4968-bcd9-955d6342b203",
       "packet_encoding": "xudp",
       "transport": {
         "type": "tcp"
       },
       "tls": {
         "enabled": true,
-        "server_name": "google.com",
+        "server_name": "hamidi2.spsvps.xyz",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "0hH6R90pSxwm7nZPGtJJcJFhwCXU3Rvf-wcEHE7hczo"
+          "public_key": "fm40M72LdQsjjom93KudiY9kADRsSZsItTWzYORdyyE",
+          "short_id": "510aaa"
         }
       }
     },
     {
       "type": "vless",
-      "tag": "🔒 VL-TCP-RLT 🇹🇷 TR-185.39.204.29:443",
-      "server": "185.39.204.29",
+      "tag": "🔒 VL-GRPC-RLT 🇹🇷 TR-77.92.154.200:443",
+      "server": "77.92.154.200",
       "server_port": 443,
-      "uuid": "22f493aa-cab4-4040-bef1-c3a5d4418b3b",
+      "uuid": "4a26ec41-cda4-4ff8-aac0-00cf232ca21c",
       "packet_encoding": "xudp",
       "transport": {
-        "type": "tcp"
+        "type": "grpc",
+        "service_name": ""
       },
       "tls": {
         "enabled": true,
-        "server_name": "google.com",
+        "server_name": "wordpress.org",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "cTm0TIKL9qK550XICK2YroOSr1u-f12h5UmBw2EAr2c"
+          "public_key": "dUCso1FAr-zors9NhECIqYI3fEjyfLvRqksj9lmxw",
+          "short_id": "f99c4b933314ec6d"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🔒 VL-TCP-RLT 🇹🇷 TR-62.60.233.250:443",
+      "server": "62.60.233.250",
+      "server_port": 443,
+      "uuid": "fd0cdd44-2361-11f0-9970-45e1d80c4039",
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "tcp"
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "images.apple.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "MFsbnsNQsSpZwP-_Ohzako6aHpfK4-rbssxhr3eywWw",
+          "short_id": "4476a3"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🔒 VL-TCP-RLT 🇹🇷 TR-213.142.133.92:5056",
+      "server": "213.142.133.92",
+      "server_port": 5056,
+      "uuid": "aa2be8f1-32f2-4358-a2d3-e98f3c458955",
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "tcp"
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "refersion.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "SIZUCP8kFTMNONyzojhPmYWM_530dU3MEJVsJAV_604"
         }
       }
     },
@@ -870,7 +845,7 @@
       "tag": "👨🏻‍💻 DEVELOPED-BY SOROUSH-MIRZAEI 📌 FOLLOW-CONTACT SYDSRSMRZ",
       "server": "127.0.0.1",
       "server_port": 8080,
-      "password": "abcabac-baac-cbaa-acdb-cacacbbcbaba",
+      "password": "abbccaa-aacb-aacb-cdab-bbaaabacbccc",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"

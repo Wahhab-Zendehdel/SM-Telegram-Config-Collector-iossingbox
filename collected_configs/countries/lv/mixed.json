@@ -37,22 +37,23 @@
       "tag": "PROXY",
       "outbounds": [
         "AUTO-SELECT",
-        "🔄 LATEST-UPDATE 📅 SUN-08-TIR-1404 🕑 09:48",
+        "🔄 LATEST-UPDATE 📅 SUN-08-TIR-1404 🕑 10:52",
         "🤖 TELEGRAM-CHANNEL 🌟 ARTIFICIAL-INTELLIGENCE 🖥 @NEUROVANCE 🧠",
         "🛡 TELEGRAM-CHANNEL 🔐 MTPROTO-PROXY 🌍 @NEXUPROXY 📡",
         "🔒 SS-TCP-NA 🇱🇻 LV-62.60.234.92:53579",
-        "🔒 SS-TCP-NA 🇱🇻 LV-185.135.86.86:31348",
         "🔒 SS-TCP-NA 🇱🇻 LV-216.173.70.187:57456",
-        "🔒 SS-TCP-NA 🇱🇻 LV-195.123.213.12:31348",
         "🔒 SS-TCP-NA 🇱🇻 LV-5.34.209.50:58919",
-        "🔒 TR-TCP-TLS 🇱🇻 LV-188.253.22.10:443",
+        "🔒 SS-TCP-NA 🇱🇻 LV-195.123.213.12:31348",
+        "🔒 SS-TCP-NA 🇱🇻 LV-185.135.86.86:31348",
         "🔒 TR-TCP-NA 🇱🇻 LV-91.197.3.168:8443",
+        "🔒 TR-TCP-TLS 🇱🇻 LV-188.253.22.10:443",
         "🔒 VL-WS-TLS 🇱🇻 LV-91.197.3.157:443",
+        "🔒 VL-WS-TLS 🇱🇻 LV-185.113.139.103:443",
         "🔒 VL-WS-NA 🇱🇻 LV-103.231.73.214:443",
-        "🔒 VL-TCP-RLT 🇱🇻 LV-62.192.174.205:443",
         "🔒 VL-TCP-RLT 🇱🇻 LV-5.34.210.175:443",
         "🔒 VL-TCP-RLT 🇱🇻 LV-216.173.70.95:443",
         "🔒 VL-TCP-RLT 🇱🇻 LV-195.135.254.59:443",
+        "🔒 VL-TCP-RLT 🇱🇻 LV-62.192.174.205:443",
         "🔒 VL-TCP-RLT 🇱🇻 LV-94.158.219.203:443",
         "👨🏻‍💻 DEVELOPED-BY SOROUSH-MIRZAEI 📌 FOLLOW-CONTACT SYDSRSMRZ"
       ],
@@ -63,28 +64,29 @@
       "tag": "AUTO-SELECT",
       "outbounds": [
         "🔒 SS-TCP-NA 🇱🇻 LV-62.60.234.92:53579",
-        "🔒 SS-TCP-NA 🇱🇻 LV-185.135.86.86:31348",
         "🔒 SS-TCP-NA 🇱🇻 LV-216.173.70.187:57456",
-        "🔒 SS-TCP-NA 🇱🇻 LV-195.123.213.12:31348",
         "🔒 SS-TCP-NA 🇱🇻 LV-5.34.209.50:58919",
-        "🔒 TR-TCP-TLS 🇱🇻 LV-188.253.22.10:443",
+        "🔒 SS-TCP-NA 🇱🇻 LV-195.123.213.12:31348",
+        "🔒 SS-TCP-NA 🇱🇻 LV-185.135.86.86:31348",
         "🔒 TR-TCP-NA 🇱🇻 LV-91.197.3.168:8443",
+        "🔒 TR-TCP-TLS 🇱🇻 LV-188.253.22.10:443",
         "🔒 VL-WS-TLS 🇱🇻 LV-91.197.3.157:443",
+        "🔒 VL-WS-TLS 🇱🇻 LV-185.113.139.103:443",
         "🔒 VL-WS-NA 🇱🇻 LV-103.231.73.214:443",
-        "🔒 VL-TCP-RLT 🇱🇻 LV-62.192.174.205:443",
         "🔒 VL-TCP-RLT 🇱🇻 LV-5.34.210.175:443",
         "🔒 VL-TCP-RLT 🇱🇻 LV-216.173.70.95:443",
         "🔒 VL-TCP-RLT 🇱🇻 LV-195.135.254.59:443",
+        "🔒 VL-TCP-RLT 🇱🇻 LV-62.192.174.205:443",
         "🔒 VL-TCP-RLT 🇱🇻 LV-94.158.219.203:443"
       ],
       "url": "http://www.gstatic.com/generate_204"
     },
     {
       "type": "trojan",
-      "tag": "🔄 LATEST-UPDATE 📅 SUN-08-TIR-1404 🕑 09:48",
+      "tag": "🔄 LATEST-UPDATE 📅 SUN-08-TIR-1404 🕑 10:52",
       "server": "127.0.0.1",
       "server_port": 1080,
-      "password": "aaccabb-cbaa-baca-acbd-cabcbcabaabc",
+      "password": "acacbab-acab-baca-dacb-bbbccbacaaac",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"
@@ -95,7 +97,7 @@
       "tag": "🤖 TELEGRAM-CHANNEL 🌟 ARTIFICIAL-INTELLIGENCE 🖥 @NEUROVANCE 🧠",
       "server": "127.0.0.1",
       "server_port": 2080,
-      "password": "aacbbca-acba-aabc-cabd-cccaababbcab",
+      "password": "aacbbac-baca-aabc-dabc-bcabacaabcbc",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"
@@ -106,7 +108,7 @@
       "tag": "🛡 TELEGRAM-CHANNEL 🔐 MTPROTO-PROXY 🌍 @NEXUPROXY 📡",
       "server": "127.0.0.1",
       "server_port": 3080,
-      "password": "cbacaba-abac-acba-bdca-abcaabbbcacc",
+      "password": "caaabcb-caab-aabc-cdba-abbaccbacbac",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"
@@ -122,19 +124,19 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "🔒 SS-TCP-NA 🇱🇻 LV-185.135.86.86:31348",
-      "server": "185.135.86.86",
-      "server_port": 31348,
-      "method": "chacha20-ietf-poly1305",
-      "password": "5zRiBKAYbKpDQuW4nKGEDx13H4h9GeDxaq2OMuJiqBvQ5Rss"
-    },
-    {
-      "type": "shadowsocks",
       "tag": "🔒 SS-TCP-NA 🇱🇻 LV-216.173.70.187:57456",
       "server": "216.173.70.187",
       "server_port": 57456,
       "method": "chacha20-ietf-poly1305",
       "password": "360e21d21977dc11"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🔒 SS-TCP-NA 🇱🇻 LV-5.34.209.50:58919",
+      "server": "5.34.209.50",
+      "server_port": 58919,
+      "method": "chacha20-ietf-poly1305",
+      "password": "Wo7H7pfmmq0nxMRTSBYDj7"
     },
     {
       "type": "shadowsocks",
@@ -146,22 +148,11 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "🔒 SS-TCP-NA 🇱🇻 LV-5.34.209.50:58919",
-      "server": "5.34.209.50",
-      "server_port": 58919,
+      "tag": "🔒 SS-TCP-NA 🇱🇻 LV-185.135.86.86:31348",
+      "server": "185.135.86.86",
+      "server_port": 31348,
       "method": "chacha20-ietf-poly1305",
-      "password": "Wo7H7pfmmq0nxMRTSBYDj7"
-    },
-    {
-      "type": "trojan",
-      "tag": "🔒 TR-TCP-TLS 🇱🇻 LV-188.253.22.10:443",
-      "server": "188.253.22.10",
-      "server_port": 443,
-      "password": "3778399737045327872",
-      "tls": {
-        "enabled": true,
-        "server_name": "key-pangolin.treefrog761.one"
-      }
+      "password": "5zRiBKAYbKpDQuW4nKGEDx13H4h9GeDxaq2OMuJiqBvQ5Rss"
     },
     {
       "type": "trojan",
@@ -172,6 +163,17 @@
       "tls": {
         "enabled": true,
         "server_name": "ngepz.ambercc.filegear-sg.me"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🔒 TR-TCP-TLS 🇱🇻 LV-188.253.22.10:443",
+      "server": "188.253.22.10",
+      "server_port": 443,
+      "password": "3778399737045327872",
+      "tls": {
+        "enabled": true,
+        "server_name": "key-pangolin.treefrog761.one"
       }
     },
     {
@@ -199,6 +201,29 @@
     },
     {
       "type": "vless",
+      "tag": "🔒 VL-WS-TLS 🇱🇻 LV-185.113.139.103:443",
+      "server": "185.113.139.103",
+      "server_port": 443,
+      "uuid": "13a894b0-e414-5459-a0fa-9309209c386b",
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "/vless",
+        "headers": {
+          "Host": "185.113.139.103"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "185.113.139.103",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "vless",
       "tag": "🔒 VL-WS-NA 🇱🇻 LV-103.231.73.214:443",
       "server": "103.231.73.214",
       "server_port": 443,
@@ -209,30 +234,6 @@
         "path": "/",
         "headers": {
           "Host": "lv01.abvpn.ru"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🔒 VL-TCP-RLT 🇱🇻 LV-62.192.174.205:443",
-      "server": "62.192.174.205",
-      "server_port": 443,
-      "uuid": "0fa53d34-5f21-4d66-bb5f-6f37c2a8c4e1",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "lv.wikipedia.org",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "Lb1Gi0VcVuytLf_gb846u7iKkHVywpG8IC9wdZslwUA",
-          "short_id": "102707ab31571a93"
         }
       }
     },
@@ -310,6 +311,30 @@
     },
     {
       "type": "vless",
+      "tag": "🔒 VL-TCP-RLT 🇱🇻 LV-62.192.174.205:443",
+      "server": "62.192.174.205",
+      "server_port": 443,
+      "uuid": "0fa53d34-5f21-4d66-bb5f-6f37c2a8c4e1",
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "tcp"
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "lv.wikipedia.org",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "Lb1Gi0VcVuytLf_gb846u7iKkHVywpG8IC9wdZslwUA",
+          "short_id": "102707ab31571a93"
+        }
+      }
+    },
+    {
+      "type": "vless",
       "tag": "🔒 VL-TCP-RLT 🇱🇻 LV-94.158.219.203:443",
       "server": "94.158.219.203",
       "server_port": 443,
@@ -337,7 +362,7 @@
       "tag": "👨🏻‍💻 DEVELOPED-BY SOROUSH-MIRZAEI 📌 FOLLOW-CONTACT SYDSRSMRZ",
       "server": "127.0.0.1",
       "server_port": 8080,
-      "password": "abcabac-baac-cbaa-acdb-cacacbbcbaba",
+      "password": "abbccaa-aacb-aacb-cdab-bbaaabacbccc",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"

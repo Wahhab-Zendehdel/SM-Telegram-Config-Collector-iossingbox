@@ -37,12 +37,12 @@
       "tag": "PROXY",
       "outbounds": [
         "AUTO-SELECT",
-        "🔄 LATEST-UPDATE 📅 SUN-08-TIR-1404 🕑 09:48",
+        "🔄 LATEST-UPDATE 📅 SUN-08-TIR-1404 🕑 10:52",
         "🤖 TELEGRAM-CHANNEL 🌟 ARTIFICIAL-INTELLIGENCE 🖥 @NEUROVANCE 🧠",
         "🛡 TELEGRAM-CHANNEL 🔐 MTPROTO-PROXY 🌍 @NEXUPROXY 📡",
         "🔒 SS-TCP-NA 🇩🇰 DK-192.36.27.94:989",
-        "🔒 TR-TCP-TLS 🇩🇰 DK-95.164.85.39:443",
         "🔒 TR-TCP-TLS 🇩🇰 DK-46.29.235.31:2053",
+        "🔒 TR-TCP-TLS 🇩🇰 DK-95.164.85.39:443",
         "🔒 VL-TCP-RLT 🇩🇰 DK-95.164.10.184:8443",
         "🔒 VL-TCP-RLT 🇩🇰 DK-193.180.211.106:443",
         "🔒 VL-TCP-RLT 🇩🇰 DK-77.37.97.59:443",
@@ -55,8 +55,8 @@
       "tag": "AUTO-SELECT",
       "outbounds": [
         "🔒 SS-TCP-NA 🇩🇰 DK-192.36.27.94:989",
-        "🔒 TR-TCP-TLS 🇩🇰 DK-95.164.85.39:443",
         "🔒 TR-TCP-TLS 🇩🇰 DK-46.29.235.31:2053",
+        "🔒 TR-TCP-TLS 🇩🇰 DK-95.164.85.39:443",
         "🔒 VL-TCP-RLT 🇩🇰 DK-95.164.10.184:8443",
         "🔒 VL-TCP-RLT 🇩🇰 DK-193.180.211.106:443",
         "🔒 VL-TCP-RLT 🇩🇰 DK-77.37.97.59:443"
@@ -65,10 +65,10 @@
     },
     {
       "type": "trojan",
-      "tag": "🔄 LATEST-UPDATE 📅 SUN-08-TIR-1404 🕑 09:48",
+      "tag": "🔄 LATEST-UPDATE 📅 SUN-08-TIR-1404 🕑 10:52",
       "server": "127.0.0.1",
       "server_port": 1080,
-      "password": "aaccabb-cbaa-baca-acbd-cabcbcabaabc",
+      "password": "acacbab-acab-baca-dacb-bbbccbacaaac",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"
@@ -79,7 +79,7 @@
       "tag": "🤖 TELEGRAM-CHANNEL 🌟 ARTIFICIAL-INTELLIGENCE 🖥 @NEUROVANCE 🧠",
       "server": "127.0.0.1",
       "server_port": 2080,
-      "password": "aacbbca-acba-aabc-cabd-cccaababbcab",
+      "password": "aacbbac-baca-aabc-dabc-bcabacaabcbc",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"
@@ -90,7 +90,7 @@
       "tag": "🛡 TELEGRAM-CHANNEL 🔐 MTPROTO-PROXY 🌍 @NEXUPROXY 📡",
       "server": "127.0.0.1",
       "server_port": 3080,
-      "password": "cbacaba-abac-acba-bdca-abcaabbbcacc",
+      "password": "caaabcb-caab-aabc-cdba-abbaccbacbac",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"
@@ -106,17 +106,6 @@
     },
     {
       "type": "trojan",
-      "tag": "🔒 TR-TCP-TLS 🇩🇰 DK-95.164.85.39:443",
-      "server": "95.164.85.39",
-      "server_port": 443,
-      "password": "0fc9c5ff-9531-4178-966f-7d958e1df64b",
-      "tls": {
-        "enabled": true,
-        "server_name": "wispy-crib-net.stark-industries.solutions"
-      }
-    },
-    {
-      "type": "trojan",
       "tag": "🔒 TR-TCP-TLS 🇩🇰 DK-46.29.235.31:2053",
       "server": "46.29.235.31",
       "server_port": 2053,
@@ -127,11 +116,22 @@
       }
     },
     {
+      "type": "trojan",
+      "tag": "🔒 TR-TCP-TLS 🇩🇰 DK-95.164.85.39:443",
+      "server": "95.164.85.39",
+      "server_port": 443,
+      "password": "0fc9c5ff-9531-4178-966f-7d958e1df64b",
+      "tls": {
+        "enabled": true,
+        "server_name": "wispy-crib-net.stark-industries.solutions"
+      }
+    },
+    {
       "type": "vless",
       "tag": "🔒 VL-TCP-RLT 🇩🇰 DK-95.164.10.184:8443",
       "server": "95.164.10.184",
       "server_port": 8443,
-      "uuid": "092d0e3f-aeb5-447f-9b21-12b74542eff8",
+      "uuid": "d9fe36e8-3bcf-44b6-9328-b6ce1366408f",
       "packet_encoding": "xudp",
       "transport": {
         "type": "tcp"
@@ -203,7 +203,7 @@
       "tag": "👨🏻‍💻 DEVELOPED-BY SOROUSH-MIRZAEI 📌 FOLLOW-CONTACT SYDSRSMRZ",
       "server": "127.0.0.1",
       "server_port": 8080,
-      "password": "abcabac-baac-cbaa-acdb-cacacbbcbaba",
+      "password": "abbccaa-aacb-aacb-cdab-bbaaabacbccc",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"
