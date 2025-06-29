@@ -1,0 +1,172 @@
+{
+  "log": {
+    "level": "info",
+    "timestamp": true
+  },
+  "dns": {
+    "servers": [
+      {
+        "tag": "dns_proxy",
+        "address": "proxy://dns-out/dns-query",
+        "detour": "PROXY"
+      },
+      {
+        "tag": "dns_direct",
+        "address": "https://1.1.1.1/dns-query",
+        "detour": "DIRECT"
+      },
+      {
+        "tag": "dns_block",
+        "address": "rcode://success"
+      }
+    ]
+  },
+  "inbounds": [
+    {
+      "type": "tun",
+      "interface_name": "tun0",
+      "inet4_address": "172.19.0.1/30",
+      "auto_route": true,
+      "strict_route": true,
+      "sniff": true
+    }
+  ],
+  "outbounds": [
+    {
+      "type": "selector",
+      "tag": "PROXY",
+      "outbounds": [
+        "AUTO-SELECT",
+        "🔄 LATEST-UPDATE 📅 SAT-10-KHORDAD-1404 🕑 05:58",
+        "🤖 TELEGRAM-CHANNEL 🌟 ARTIFICIAL-INTELLIGENCE 🖥 @NEUROVANCE 🧠",
+        "🛡 TELEGRAM-CHANNEL 🔐 MTPROTO-PROXY 🌍 @NEXUPROXY 📡",
+        "🔒 VL-TCP-TLS 🇬🇮 GI-95.164.68.37:443",
+        "🔒 VL-TCP-RLT 🇬🇮 GI-95.164.5.16:443",
+        "👨🏻‍💻 DEVELOPED-BY SOROUSH-MIRZAEI 📌 FOLLOW-CONTACT SYDSRSMRZ"
+      ],
+      "default": "AUTO-SELECT"
+    },
+    {
+      "type": "url-test",
+      "tag": "AUTO-SELECT",
+      "outbounds": [
+        "🔒 VL-TCP-TLS 🇬🇮 GI-95.164.68.37:443",
+        "🔒 VL-TCP-RLT 🇬🇮 GI-95.164.5.16:443"
+      ],
+      "url": "http://www.gstatic.com/generate_204"
+    },
+    {
+      "type": "trojan",
+      "tag": "🔄 LATEST-UPDATE 📅 SAT-10-KHORDAD-1404 🕑 05:58",
+      "server": "127.0.0.1",
+      "server_port": 1080,
+      "password": "ccaabab-baac-aacb-abdc-babcbcaacacb",
+      "tls": {
+        "enabled": true,
+        "server_name": "127.0.0.1"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🤖 TELEGRAM-CHANNEL 🌟 ARTIFICIAL-INTELLIGENCE 🖥 @NEUROVANCE 🧠",
+      "server": "127.0.0.1",
+      "server_port": 2080,
+      "password": "abcaacb-abac-aacb-bdac-acbaabccabbc",
+      "tls": {
+        "enabled": true,
+        "server_name": "127.0.0.1"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🛡 TELEGRAM-CHANNEL 🔐 MTPROTO-PROXY 🌍 @NEXUPROXY 📡",
+      "server": "127.0.0.1",
+      "server_port": 3080,
+      "password": "cbbaaac-baca-acba-cbda-ccbcababaabc",
+      "tls": {
+        "enabled": true,
+        "server_name": "127.0.0.1"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🔒 VL-TCP-TLS 🇬🇮 GI-95.164.68.37:443",
+      "server": "95.164.68.37",
+      "server_port": 443,
+      "uuid": "af37f2cd-3475-418d-876a-87678406797e",
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "tcp"
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "fra5.vpntype.dev",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🔒 VL-TCP-RLT 🇬🇮 GI-95.164.5.16:443",
+      "server": "95.164.5.16",
+      "server_port": 443,
+      "uuid": "f562c114-4898-46fa-afe2-f71feae87297",
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "tcp"
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "yahoo.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "d8rQsRmHUmql3zqzTMCfLaLRBem-QvcfqVK5VhhyrBY",
+          "short_id": "e6fa2f61"
+        }
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "👨🏻‍💻 DEVELOPED-BY SOROUSH-MIRZAEI 📌 FOLLOW-CONTACT SYDSRSMRZ",
+      "server": "127.0.0.1",
+      "server_port": 8080,
+      "password": "acbbcaa-aacb-aabc-acdb-acabbbccbaac",
+      "tls": {
+        "enabled": true,
+        "server_name": "127.0.0.1"
+      }
+    },
+    {
+      "type": "dns",
+      "tag": "dns-out"
+    },
+    {
+      "type": "direct",
+      "tag": "DIRECT"
+    },
+    {
+      "type": "block",
+      "tag": "BLOCK"
+    }
+  ],
+  "route": {
+    "rules": [
+      {
+        "protocol": "dns",
+        "outbound": "dns-out"
+      },
+      {
+        "network": "udp",
+        "port": 443,
+        "outbound": "BLOCK"
+      }
+    ],
+    "final": "PROXY"
+  }
+}
