@@ -37,7 +37,7 @@
       "tag": "PROXY",
       "outbounds": [
         "AUTO-SELECT",
-        "🔄 LATEST-UPDATE 📅 SUN-08-TIR-1404 🕑 14:42",
+        "🔄 LATEST-UPDATE 📅 SUN-08-TIR-1404 🕑 15:39",
         "🔒 VL-HTTP-TLS 🇷🇺 RU-46.17.44.6:443",
         "🛡 TELEGRAM-CHANNEL 🔐 MTPROTO-PROXY 🌍 @NEXUPROXY 📡",
         "🔒 VL-HTTP-NONE 🇮🇷 IR-85.133.241.220:2050",
@@ -58,10 +58,10 @@
     },
     {
       "type": "vless",
-      "tag": "🔄 LATEST-UPDATE 📅 SUN-08-TIR-1404 🕑 14:42",
+      "tag": "🔄 LATEST-UPDATE 📅 SUN-08-TIR-1404 🕑 15:39",
       "server": "127.0.0.1",
       "server_port": 1080,
-      "uuid": "bbcacaa-cbaa-caba-cbda-cacbbabccaba",
+      "uuid": "accabab-baca-baac-dabc-acbcbbcacaba",
       "packet_encoding": "xudp",
       "transport": {
         "type": "tcp"
@@ -99,7 +99,7 @@
       "tag": "🛡 TELEGRAM-CHANNEL 🔐 MTPROTO-PROXY 🌍 @NEXUPROXY 📡",
       "server": "127.0.0.1",
       "server_port": 3080,
-      "uuid": "caabbca-cbaa-aabc-bdac-abcacabbabcc",
+      "uuid": "cabaacb-acab-acba-cdab-aaabbcccacbb",
       "packet_encoding": "xudp",
       "transport": {
         "type": "tcp"
@@ -153,7 +153,7 @@
       "tag": "👨🏻‍💻 DEVELOPED-BY SOROUSH-MIRZAEI 📌 FOLLOW-CONTACT SYDSRSMRZ",
       "server": "127.0.0.1",
       "server_port": 8080,
-      "uuid": "cbaaacb-cbaa-cbaa-bcad-ccabcacbabab",
+      "uuid": "cbcbaaa-bcaa-aabc-dcab-cacaabbccbba",
       "packet_encoding": "xudp",
       "transport": {
         "type": "tcp"
