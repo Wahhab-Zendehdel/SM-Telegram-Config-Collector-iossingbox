@@ -49,18 +49,19 @@ def parse_vless(uri: str) -> dict | None:
             "server_port": parsed_url.port, "uuid": parsed_url.username,
             "packet_encoding": "xudp",
         }
-        transport_type = query_params.get('type', ['tcp'])[0] # Default to tcp if not specified
-        transport_config = {"type": transport_type}
         
-        if transport_type == 'grpc':
-            transport_config["service_name"] = query_params.get('serviceName', [''])[0]
-        elif transport_type == 'ws':
-            transport_config["path"] = unquote(query_params.get('path', ['/'])[0])
-            if host := query_params.get('host', [None])[0]:
-                transport_config["headers"] = {"Host": host}
+        transport_type = query_params.get('type', ['tcp'])[0]
         
-        # Always add the transport object, even for tcp
-        config["transport"] = transport_config
+        # Only add the transport object if it's NOT tcp
+        if transport_type != 'tcp':
+            transport_config = {"type": transport_type}
+            if transport_type == 'grpc':
+                transport_config["service_name"] = query_params.get('serviceName', [''])[0]
+            elif transport_type == 'ws':
+                transport_config["path"] = unquote(query_params.get('path', ['/'])[0])
+                if host := query_params.get('host', [None])[0]:
+                    transport_config["headers"] = {"Host": host}
+            config["transport"] = transport_config
 
         security = query_params.get('security', [None])[0]
         if security in ['tls', 'reality']:
@@ -94,18 +95,18 @@ def parse_vmess(uri: str) -> dict | None:
             "security": decoded_data.get("scy", "auto"), "alter_id": decoded_data.get("aid", 0),
         }
         
-        net = decoded_data.get("net", "tcp") # Default to tcp if not specified
-        transport_config = {"type": net}
-
-        if net == 'ws':
-            transport_config["path"] = decoded_data.get("path", "/")
-            if host := decoded_data.get("host"):
-                transport_config["headers"] = {"Host": host}
-        elif net == 'grpc':
-            transport_config["service_name"] = decoded_data.get("path", "")
+        net = decoded_data.get("net", "tcp")
         
-        # Always add the transport object
-        config["transport"] = transport_config
+        # Only add the transport object if it's NOT tcp
+        if net != 'tcp':
+            transport_config = {"type": net}
+            if net == 'ws':
+                transport_config["path"] = decoded_data.get("path", "/")
+                if host := decoded_data.get("host"):
+                    transport_config["headers"] = {"Host": host}
+            elif net == 'grpc':
+                transport_config["service_name"] = decoded_data.get("path", "")
+            config["transport"] = transport_config
 
         if decoded_data.get("tls") in ["tls", "reality"]:
             tls_config = {
