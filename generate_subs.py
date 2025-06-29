@@ -229,47 +229,19 @@ def parse_juicity(uri: str) -> dict | None:
         return None
 
 
-# --- DOWNLOADER SCRIPT ---
+# --- SUBSCRIPTION FILE GENERATION ---
 
-def create_full_config(outbounds: list) -> dict:
-    """Wraps a list of outbound configurations in a complete sing-box config structure."""
-    all_tags = [proxy["tag"] for proxy in outbounds]
-    real_proxy_tags = [proxy["tag"] for proxy in outbounds if proxy.get("server") != "127.0.0.1"]
-    return {
-        "log": {"level": "info", "timestamp": True},
-        "dns": {
-            "servers": [
-                {"tag": "dns_proxy", "address": "proxy://dns-out/dns-query", "detour": "PROXY"},
-                {"tag": "dns_direct", "address": "https://1.1.1.1/dns-query", "detour": "DIRECT"},
-                {"tag": "dns_block", "address": "rcode://success"}
-            ]
-        },
-        "inbounds": [
-            {
-                "type": "tun", "interface_name": "tun0", "inet4_address": "172.19.0.1/30",
-                "auto_route": True, "strict_route": True, "sniff": True
-            }
-        ],
-        "outbounds": [
-            {"type": "selector", "tag": "PROXY", "outbounds": ["AUTO-SELECT"] + all_tags, "default": "AUTO-SELECT"},
-            {"type": "url-test", "tag": "AUTO-SELECT", "outbounds": real_proxy_tags, "url": "http://www.gstatic.com/generate_204"},
-            *outbounds,
-            {"type": "dns", "tag": "dns-out"},
-            {"type": "direct", "tag": "DIRECT"},
-            {"type": "block", "tag": "BLOCK"}
-        ],
-        "route": {
-             "rules": [
-                {"protocol": "dns", "outbound": "dns-out"},
-                {"network": "udp", "port": 443, "outbound": "BLOCK"},
-            ],
-            "final": "PROXY"
-        }
-    }
+def create_subscription_content(outbounds: list) -> dict:
+    """
+    Creates a simple JSON structure for a sing-box subscription file,
+    containing only the outbounds list. This is the correct format
+    for remote profiles in sing-box clients.
+    """
+    return {"outbounds": outbounds}
 
 
 def fetch_and_process(url, base_dir="."):
-    """Fetches, decodes, parses, and saves a full sing-box config file."""
+    """Fetches, decodes, parses, and saves a subscription-compatible file."""
     if not url.startswith("http"):
         url = "https://" + url
     try:
@@ -319,9 +291,10 @@ def fetch_and_process(url, base_dir="."):
                     break
         
         if outbounds:
-            full_config_json = create_full_config(outbounds)
+            # Create the correct subscription file content
+            subscription_content = create_subscription_content(outbounds)
             with open(filepath, 'w', encoding='utf-8') as f:
-                json.dump(full_config_json, f, indent=2, ensure_ascii=False)
+                json.dump(subscription_content, f, indent=2, ensure_ascii=False)
             print(f"Successfully processed and saved to {filepath}")
         else:
             print(f"No valid configs found in {url}, skipping file creation.")
@@ -360,7 +333,6 @@ def generate_country_table(countries_path, repo_url_raw, base_dir):
         country_codes = sorted([d for d in os.listdir(countries_path) if os.path.isdir(os.path.join(countries_path, d))])
         
         for code in country_codes:
-            # FIX: Use .lower() to match the lowercase keys in the COUNTRY_CODES dictionary.
             country_name = COUNTRY_CODES.get(code.lower(), code.upper())
             relative_path = os.path.join(countries_path.replace(base_dir, ''), code, 'mixed.txt').replace('\\', '/').lstrip('/')
             link = f"{repo_url_raw}/{base_dir}/{relative_path}"
@@ -418,7 +390,6 @@ This project would not be possible without the incredible work done by Soroush M
     layers_table = "### Internet Protocol Type Subscription Links\n" + generate_simple_table("Internet Protocol", os.path.join(base_dir, "layers"), repo_url_raw, base_dir)
     countries_table = "### Country Subscription Links\n" + generate_country_table(os.path.join(base_dir, "countries"), repo_url_raw, base_dir)
 
-    # FIX: Combine all parts into a single f-string for better style and readability.
     full_readme_content = f"""{readme_header}
 {protocols_table}
 {networks_table}
