@@ -1498,6 +1498,9 @@
       "server_port": 8443,
       "uuid": "3f789164-ca20-4041-89c0-bc553819970c",
       "packet_encoding": "xudp",
+      "transport": {
+        "type": "tcp"
+      },
       "tls": {
         "enabled": true,
         "server_name": "maviks.eu",
@@ -1585,6 +1588,9 @@
       "server_port": 443,
       "uuid": "c8898cfd-9927-4f36-b7bc-40de76076b80",
       "packet_encoding": "xudp",
+      "transport": {
+        "type": "tcp"
+      },
       "tls": {
         "enabled": true,
         "server_name": "maviks.eu",
@@ -1963,6 +1969,9 @@
       "server_port": 8443,
       "uuid": "3f789164-ca20-4041-89c0-bc553819970c",
       "packet_encoding": "xudp",
+      "transport": {
+        "type": "tcp"
+      },
       "tls": {
         "enabled": true,
         "server_name": "maviks.eu",
@@ -2129,6 +2138,9 @@
       "server_port": 8443,
       "uuid": "3f789164-ca20-4041-89c0-bc553819970c",
       "packet_encoding": "xudp",
+      "transport": {
+        "type": "tcp"
+      },
       "tls": {
         "enabled": true,
         "server_name": "maviks.eu",
@@ -2515,6 +2527,9 @@
       "server_port": 443,
       "uuid": "acc8587d-18a6-413e-ba3a-2b13e594d378",
       "packet_encoding": "xudp",
+      "transport": {
+        "type": "tcp"
+      },
       "tls": {
         "enabled": true,
         "server_name": "tgju.org",
@@ -2531,6 +2546,9 @@
       "server_port": 443,
       "uuid": "c8898cfd-9927-4f36-b7bc-40de76076b80",
       "packet_encoding": "xudp",
+      "transport": {
+        "type": "tcp"
+      },
       "tls": {
         "enabled": true,
         "server_name": "maviks.eu",
@@ -2596,6 +2614,9 @@
       "server_port": 2040,
       "uuid": "10b59513-ef76-4494-a925-305ec45dd3a4",
       "packet_encoding": "xudp",
+      "transport": {
+        "type": "tcp"
+      },
       "tls": {
         "enabled": true,
         "server_name": "fr.ign.com",
@@ -2738,6 +2759,9 @@
       "server_port": 21337,
       "uuid": "263efaba-10b8-4dd1-abe9-7a368c150a5b",
       "packet_encoding": "xudp",
+      "transport": {
+        "type": "tcp"
+      },
       "tls": {
         "enabled": true,
         "server_name": "refersion.com",
@@ -3013,6 +3037,9 @@
       "server_port": 443,
       "uuid": "c8898cfd-9927-4f36-b7bc-40de76076b80",
       "packet_encoding": "xudp",
+      "transport": {
+        "type": "tcp"
+      },
       "tls": {
         "enabled": true,
         "server_name": "maviks.eu",
@@ -3402,6 +3429,9 @@
       "server_port": 443,
       "uuid": "4a73fddb-e8c2-45fe-ad2c-e5bde13e51a6",
       "packet_encoding": "xudp",
+      "transport": {
+        "type": "tcp"
+      },
       "tls": {
         "enabled": true,
         "server_name": "maviks.eu",
@@ -3620,6 +3650,9 @@
       "server_port": 443,
       "uuid": "c8898cfd-9927-4f36-b7bc-40de76076b80",
       "packet_encoding": "xudp",
+      "transport": {
+        "type": "tcp"
+      },
       "tls": {
         "enabled": true,
         "server_name": "maviks.eu",
@@ -3699,6 +3732,9 @@
       "server_port": 8443,
       "uuid": "3f789164-ca20-4041-89c0-bc553819970c",
       "packet_encoding": "xudp",
+      "transport": {
+        "type": "tcp"
+      },
       "tls": {
         "enabled": true,
         "server_name": "maviks.eu",
@@ -3982,6 +4018,9 @@
       "server_port": 443,
       "uuid": "27c11f2c-85f4-44ef-ac28-670e987f5788",
       "packet_encoding": "xudp",
+      "transport": {
+        "type": "tcp"
+      },
       "tls": {
         "enabled": true,
         "server_name": "www.microsoft.com",
@@ -4496,6 +4535,9 @@
       "server_port": 7022,
       "uuid": "ce462cc3-9983-45da-b030-728fb7b5684e",
       "packet_encoding": "xudp",
+      "transport": {
+        "type": "tcp"
+      },
       "tls": {
         "enabled": true,
         "server_name": "refersion.com",
@@ -4575,6 +4617,9 @@
       "server_port": 443,
       "uuid": "b8bd42a9-551f-419d-b70d-4aefdd2cb074",
       "packet_encoding": "xudp",
+      "transport": {
+        "type": "tcp"
+      },
       "tls": {
         "enabled": true,
         "server_name": "yfnl1.xn--4gq62f52gppi29k.com",
@@ -4606,6 +4651,9 @@
       "server_port": 443,
       "uuid": "ba26f084-9124-4524-add4-53fcfb928161",
       "packet_encoding": "xudp",
+      "transport": {
+        "type": "tcp"
+      },
       "tls": {
         "enabled": true,
         "server_name": "cdnjs.com",
@@ -4682,6 +4730,9 @@
       "server_port": 443,
       "uuid": "c8898cfd-9927-4f36-b7bc-40de76076b80",
       "packet_encoding": "xudp",
+      "transport": {
+        "type": "tcp"
+      },
       "tls": {
         "enabled": true,
         "server_name": "maviks.eu",
@@ -5047,6 +5098,9 @@
       "server_port": 443,
       "uuid": "c8898cfd-9927-4f36-b7bc-40de76076b80",
       "packet_encoding": "xudp",
+      "transport": {
+        "type": "tcp"
+      },
       "tls": {
         "enabled": true,
         "server_name": "maviks.eu",
@@ -5288,6 +5342,9 @@
       "server_port": 443,
       "uuid": "c8898cfd-9927-4f36-b7bc-40de76076b80",
       "packet_encoding": "xudp",
+      "transport": {
+        "type": "tcp"
+      },
       "tls": {
         "enabled": true,
         "server_name": "maviks.eu",
@@ -5524,6 +5581,9 @@
       "server_port": 443,
       "uuid": "54694a33-a8dc-47dd-bc38-acd3971e0055",
       "packet_encoding": "xudp",
+      "transport": {
+        "type": "tcp"
+      },
       "tls": {
         "enabled": true,
         "server_name": "147135004002.sec20org.com",
@@ -5540,6 +5600,9 @@
       "server_port": 8443,
       "uuid": "3f789164-ca20-4041-89c0-bc553819970c",
       "packet_encoding": "xudp",
+      "transport": {
+        "type": "tcp"
+      },
       "tls": {
         "enabled": true,
         "server_name": "maviks.eu",
@@ -6740,6 +6803,9 @@
       "server_port": 443,
       "uuid": "c8898cfd-9927-4f36-b7bc-40de76076b80",
       "packet_encoding": "xudp",
+      "transport": {
+        "type": "tcp"
+      },
       "tls": {
         "enabled": true,
         "server_name": "maviks.eu",
@@ -6812,6 +6878,9 @@
       "server_port": 8443,
       "uuid": "3f789164-ca20-4041-89c0-bc553819970c",
       "packet_encoding": "xudp",
+      "transport": {
+        "type": "tcp"
+      },
       "tls": {
         "enabled": true,
         "server_name": "maviks.eu",
@@ -6828,6 +6897,9 @@
       "server_port": 7022,
       "uuid": "651de6cb-df22-45cd-8842-438fdbef87fb",
       "packet_encoding": "xudp",
+      "transport": {
+        "type": "tcp"
+      },
       "tls": {
         "enabled": true,
         "server_name": "refersion.com",
@@ -7223,6 +7295,9 @@
       "server_port": 60300,
       "uuid": "148cfb6d-e6c1-46a1-bf83-15f5d4052eca",
       "packet_encoding": "xudp",
+      "transport": {
+        "type": "tcp"
+      },
       "tls": {
         "enabled": true,
         "server_name": "refersion.com",
@@ -8066,6 +8141,9 @@
       "server_port": 443,
       "uuid": "c8898cfd-9927-4f36-b7bc-40de76076b80",
       "packet_encoding": "xudp",
+      "transport": {
+        "type": "tcp"
+      },
       "tls": {
         "enabled": true,
         "server_name": "maviks.eu",
@@ -10310,6 +10388,9 @@
       "server_port": 8443,
       "uuid": "5c80fb98-d9ad-4a89-9189-237881d2ef89",
       "packet_encoding": "xudp",
+      "transport": {
+        "type": "tcp"
+      },
       "tls": {
         "enabled": true,
         "server_name": "02020.sbs",

@@ -5,7 +5,7 @@
       "tag": "🔄",
       "server": "127.0.0.1",
       "server_port": 1080,
-      "uuid": "bbaacac-caab-abac-dcab-baabbcaacccb",
+      "uuid": "bccaaba-baca-acab-cadb-bcabbaacbacc",
       "packet_encoding": "xudp",
       "transport": {
         "type": "tcp"
@@ -22,12 +22,25 @@
     {
       "type": "vless",
       "tag": "🔒",
-      "server": "85.133.241.220",
-      "server_port": 2050,
-      "uuid": "22d01af5-8d00-407b-882a-aa0a2ce3045b",
+      "server": "161.35.201.75",
+      "server_port": 2042,
+      "uuid": "7562048f-6694-43da-a9ba-c80e92808fff",
       "packet_encoding": "xudp",
       "transport": {
         "type": "http"
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "ftp.debian.org",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "random"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "0UC5UUU0EMYg1v2rv-clwdnpRYl2b-bfOvEJMXed2nI",
+          "short_id": "ee3caeb997f6"
+        }
       }
     },
     {
@@ -35,7 +48,7 @@
       "tag": "🛡",
       "server": "127.0.0.1",
       "server_port": 3080,
-      "uuid": "abcbaca-baca-acba-bdac-accbbcbacaba",
+      "uuid": "ababcac-acba-cbaa-adbc-acbacacbbbca",
       "packet_encoding": "xudp",
       "transport": {
         "type": "tcp"
@@ -71,25 +84,12 @@
     {
       "type": "vless",
       "tag": "🔒",
-      "server": "161.35.201.75",
-      "server_port": 2042,
-      "uuid": "7562048f-6694-43da-a9ba-c80e92808fff",
+      "server": "85.133.241.220",
+      "server_port": 2050,
+      "uuid": "22d01af5-8d00-407b-882a-aa0a2ce3045b",
       "packet_encoding": "xudp",
       "transport": {
         "type": "http"
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "ftp.debian.org",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "random"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "0UC5UUU0EMYg1v2rv-clwdnpRYl2b-bfOvEJMXed2nI",
-          "short_id": "ee3caeb997f6"
-        }
       }
     },
     {
@@ -97,7 +97,7 @@
       "tag": "👨🏻‍💻",
       "server": "127.0.0.1",
       "server_port": 8080,
-      "uuid": "acbbcaa-acba-abac-dbca-abacbccbbaac",
+      "uuid": "bcaabac-aacb-caba-adcb-bcaccbaaabbc",
       "packet_encoding": "xudp",
       "transport": {
         "type": "tcp"
