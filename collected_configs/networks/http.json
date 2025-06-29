@@ -37,11 +37,11 @@
       "tag": "PROXY",
       "outbounds": [
         "AUTO-SELECT",
-        "🔄 LATEST-UPDATE 📅 SUN-08-TIR-1404 🕑 17:03",
+        "🔄 LATEST-UPDATE 📅 SUN-08-TIR-1404 🕑 17:48",
         "🔒 VL-HTTP-TLS 🇷🇺 RU-46.17.44.6:443",
         "🛡 TELEGRAM-CHANNEL 🔐 MTPROTO-PROXY 🌍 @NEXUPROXY 📡",
-        "🔒 VL-HTTP-NONE 🇮🇷 IR-85.133.241.220:2050",
         "🔒 VL-HTTP-RLT 🇩🇪 DE-161.35.201.75:2042",
+        "🔒 VL-HTTP-NONE 🇮🇷 IR-85.133.241.220:2050",
         "👨🏻‍💻 DEVELOPED-BY SOROUSH-MIRZAEI 📌 FOLLOW-CONTACT SYDSRSMRZ"
       ],
       "default": "AUTO-SELECT"
@@ -51,17 +51,17 @@
       "tag": "AUTO-SELECT",
       "outbounds": [
         "🔒 VL-HTTP-TLS 🇷🇺 RU-46.17.44.6:443",
-        "🔒 VL-HTTP-NONE 🇮🇷 IR-85.133.241.220:2050",
-        "🔒 VL-HTTP-RLT 🇩🇪 DE-161.35.201.75:2042"
+        "🔒 VL-HTTP-RLT 🇩🇪 DE-161.35.201.75:2042",
+        "🔒 VL-HTTP-NONE 🇮🇷 IR-85.133.241.220:2050"
       ],
       "url": "http://www.gstatic.com/generate_204"
     },
     {
       "type": "vless",
-      "tag": "🔄 LATEST-UPDATE 📅 SUN-08-TIR-1404 🕑 17:03",
+      "tag": "🔄 LATEST-UPDATE 📅 SUN-08-TIR-1404 🕑 17:48",
       "server": "127.0.0.1",
       "server_port": 1080,
-      "uuid": "accbaab-bcaa-caba-adbc-caccbaacbbab",
+      "uuid": "accaabb-caab-caba-acdb-aabbccccaabb",
       "packet_encoding": "xudp",
       "transport": {
         "type": "tcp"
@@ -99,7 +99,7 @@
       "tag": "🛡 TELEGRAM-CHANNEL 🔐 MTPROTO-PROXY 🌍 @NEXUPROXY 📡",
       "server": "127.0.0.1",
       "server_port": 3080,
-      "uuid": "cabcbaa-baca-acab-dcba-aabcbbcacacb",
+      "uuid": "bacaacb-abca-baca-cadb-bcbaabcacacb",
       "packet_encoding": "xudp",
       "transport": {
         "type": "tcp"
@@ -111,17 +111,6 @@
           "enabled": true,
           "fingerprint": "chrome"
         }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🔒 VL-HTTP-NONE 🇮🇷 IR-85.133.241.220:2050",
-      "server": "85.133.241.220",
-      "server_port": 2050,
-      "uuid": "22d01af5-8d00-407b-882a-aa0a2ce3045b",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "http"
       }
     },
     {
@@ -150,10 +139,21 @@
     },
     {
       "type": "vless",
+      "tag": "🔒 VL-HTTP-NONE 🇮🇷 IR-85.133.241.220:2050",
+      "server": "85.133.241.220",
+      "server_port": 2050,
+      "uuid": "22d01af5-8d00-407b-882a-aa0a2ce3045b",
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "http"
+      }
+    },
+    {
+      "type": "vless",
       "tag": "👨🏻‍💻 DEVELOPED-BY SOROUSH-MIRZAEI 📌 FOLLOW-CONTACT SYDSRSMRZ",
       "server": "127.0.0.1",
       "server_port": 8080,
-      "uuid": "abbaacc-aabc-cbaa-dcab-abccbaabbcca",
+      "uuid": "cabbaca-caba-aabc-cadb-cbbacaacbcba",
       "packet_encoding": "xudp",
       "transport": {
         "type": "tcp"
