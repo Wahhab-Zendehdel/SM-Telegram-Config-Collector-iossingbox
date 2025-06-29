@@ -37,13 +37,13 @@
       "tag": "PROXY",
       "outbounds": [
         "AUTO-SELECT",
-        "🔄 LATEST-UPDATE 📅 SUN-08-TIR-1404 🕑 17:48",
+        "🔄 LATEST-UPDATE 📅 SUN-08-TIR-1404 🕑 18:46",
         "🤖 TELEGRAM-CHANNEL 🌟 ARTIFICIAL-INTELLIGENCE 🖥 @NEUROVANCE 🧠",
         "🛡 TELEGRAM-CHANNEL 🔐 MTPROTO-PROXY 🌍 @NEXUPROXY 📡",
         "🔒 VL-TCP-RLT 🇦🇱 AL-45.15.170.53:2443",
-        "🔒 VL-TCP-RLT 🇦🇱 AL-103.167.234.110:2050",
         "🔒 VL-TCP-RLT 🇦🇱 AL-93.123.46.100:443",
         "🔒 VL-TCP-RLT 🇦🇱 AL-45.15.170.80:28495",
+        "🔒 VL-TCP-RLT 🇦🇱 AL-103.167.234.110:2050",
         "👨🏻‍💻 DEVELOPED-BY SOROUSH-MIRZAEI 📌 FOLLOW-CONTACT SYDSRSMRZ"
       ],
       "default": "AUTO-SELECT"
@@ -53,18 +53,18 @@
       "tag": "AUTO-SELECT",
       "outbounds": [
         "🔒 VL-TCP-RLT 🇦🇱 AL-45.15.170.53:2443",
-        "🔒 VL-TCP-RLT 🇦🇱 AL-103.167.234.110:2050",
         "🔒 VL-TCP-RLT 🇦🇱 AL-93.123.46.100:443",
-        "🔒 VL-TCP-RLT 🇦🇱 AL-45.15.170.80:28495"
+        "🔒 VL-TCP-RLT 🇦🇱 AL-45.15.170.80:28495",
+        "🔒 VL-TCP-RLT 🇦🇱 AL-103.167.234.110:2050"
       ],
       "url": "http://www.gstatic.com/generate_204"
     },
     {
       "type": "trojan",
-      "tag": "🔄 LATEST-UPDATE 📅 SUN-08-TIR-1404 🕑 17:48",
+      "tag": "🔄 LATEST-UPDATE 📅 SUN-08-TIR-1404 🕑 18:46",
       "server": "127.0.0.1",
       "server_port": 1080,
-      "password": "accaabb-caab-caba-acdb-aabbccccaabb",
+      "password": "abbaacc-acab-abca-adcb-cacbababccba",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"
@@ -75,7 +75,7 @@
       "tag": "🤖 TELEGRAM-CHANNEL 🌟 ARTIFICIAL-INTELLIGENCE 🖥 @NEUROVANCE 🧠",
       "server": "127.0.0.1",
       "server_port": 2080,
-      "password": "aabcbac-cbaa-cbaa-acbd-cababccbabca",
+      "password": "cbbacaa-acab-caba-dbac-caacbccabbba",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"
@@ -86,7 +86,7 @@
       "tag": "🛡 TELEGRAM-CHANNEL 🔐 MTPROTO-PROXY 🌍 @NEXUPROXY 📡",
       "server": "127.0.0.1",
       "server_port": 3080,
-      "password": "bacaacb-abca-baca-cadb-bcbaabcacacb",
+      "password": "aaacbbc-cbaa-cbaa-bdca-babacbabccca",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"
@@ -113,30 +113,6 @@
           "enabled": true,
           "public_key": "QgyNvrlHczufNmykfEZlNojkJNtz_BSc8JCVGZlpdT0",
           "short_id": "c104a7dd"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🔒 VL-TCP-RLT 🇦🇱 AL-103.167.234.110:2050",
-      "server": "103.167.234.110",
-      "server_port": 2050,
-      "uuid": "acbab574-fbb3-48fe-948f-f2c173d5dfeb",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "refersion.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "sHzIKPKqTTq77wusV6qaa0bwx41ap2r_sCXjHwHl4m8",
-          "short_id": "3466c6b00f1201c2"
         }
       }
     },
@@ -188,11 +164,35 @@
       }
     },
     {
+      "type": "vless",
+      "tag": "🔒 VL-TCP-RLT 🇦🇱 AL-103.167.234.110:2050",
+      "server": "103.167.234.110",
+      "server_port": 2050,
+      "uuid": "acbab574-fbb3-48fe-948f-f2c173d5dfeb",
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "tcp"
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "refersion.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "sHzIKPKqTTq77wusV6qaa0bwx41ap2r_sCXjHwHl4m8",
+          "short_id": "3466c6b00f1201c2"
+        }
+      }
+    },
+    {
       "type": "trojan",
       "tag": "👨🏻‍💻 DEVELOPED-BY SOROUSH-MIRZAEI 📌 FOLLOW-CONTACT SYDSRSMRZ",
       "server": "127.0.0.1",
       "server_port": 8080,
-      "password": "cabbaca-caba-aabc-cadb-cbbacaacbcba",
+      "password": "acabacb-caab-aacb-dabc-abcbbbacacca",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"
