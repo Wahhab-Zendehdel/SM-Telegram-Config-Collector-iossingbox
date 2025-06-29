@@ -37,15 +37,15 @@
       "tag": "PROXY",
       "outbounds": [
         "AUTO-SELECT",
-        "🔄 LATEST-UPDATE 📅 SUN-08-TIR-1404 🕑 18:46",
+        "🔄 LATEST-UPDATE 📅 SUN-08-TIR-1404 🕑 19:46",
         "🤖 TELEGRAM-CHANNEL 🌟 ARTIFICIAL-INTELLIGENCE 🖥 @NEUROVANCE 🧠",
         "🛡 TELEGRAM-CHANNEL 🔐 MTPROTO-PROXY 🌍 @NEXUPROXY 📡",
-        "🔒 SS-TCP-NA 🇧🇪 BE-192.71.249.78:989",
         "🔒 SS-TCP-NA 🇧🇪 BE-141.98.233.98:1443",
-        "🔒 VL-WS-NONE 🇧🇪 BE-151.101.10.133:80",
-        "🔒 VL-WS-NONE 🇧🇪 BE-151.101.8.163:80",
-        "🔒 VL-WS-NONE 🇧🇪 BE-151.101.8.51:80",
+        "🔒 SS-TCP-NA 🇧🇪 BE-192.71.249.78:989",
         "🔒 VL-TCP-TLS 🇧🇪 BE-79.127.224.12:8443",
+        "🔒 VL-WS-NONE 🇧🇪 BE-151.101.10.133:80",
+        "🔒 VL-WS-NONE 🇧🇪 BE-151.101.8.51:80",
+        "🔒 VL-WS-NONE 🇧🇪 BE-151.101.8.163:80",
         "👨🏻‍💻 DEVELOPED-BY SOROUSH-MIRZAEI 📌 FOLLOW-CONTACT SYDSRSMRZ"
       ],
       "default": "AUTO-SELECT"
@@ -54,21 +54,21 @@
       "type": "url-test",
       "tag": "AUTO-SELECT",
       "outbounds": [
-        "🔒 SS-TCP-NA 🇧🇪 BE-192.71.249.78:989",
         "🔒 SS-TCP-NA 🇧🇪 BE-141.98.233.98:1443",
+        "🔒 SS-TCP-NA 🇧🇪 BE-192.71.249.78:989",
+        "🔒 VL-TCP-TLS 🇧🇪 BE-79.127.224.12:8443",
         "🔒 VL-WS-NONE 🇧🇪 BE-151.101.10.133:80",
-        "🔒 VL-WS-NONE 🇧🇪 BE-151.101.8.163:80",
         "🔒 VL-WS-NONE 🇧🇪 BE-151.101.8.51:80",
-        "🔒 VL-TCP-TLS 🇧🇪 BE-79.127.224.12:8443"
+        "🔒 VL-WS-NONE 🇧🇪 BE-151.101.8.163:80"
       ],
       "url": "http://www.gstatic.com/generate_204"
     },
     {
       "type": "trojan",
-      "tag": "🔄 LATEST-UPDATE 📅 SUN-08-TIR-1404 🕑 18:46",
+      "tag": "🔄 LATEST-UPDATE 📅 SUN-08-TIR-1404 🕑 19:46",
       "server": "127.0.0.1",
       "server_port": 1080,
-      "password": "abbaacc-acab-abca-adcb-cacbababccba",
+      "password": "bacbcaa-caab-caba-bdca-accbbbbccaaa",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"
@@ -79,7 +79,7 @@
       "tag": "🤖 TELEGRAM-CHANNEL 🌟 ARTIFICIAL-INTELLIGENCE 🖥 @NEUROVANCE 🧠",
       "server": "127.0.0.1",
       "server_port": 2080,
-      "password": "cbbacaa-acab-caba-dbac-caacbccabbba",
+      "password": "acbbaca-bcaa-baca-adcb-bbcbcacaabac",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"
@@ -90,19 +90,11 @@
       "tag": "🛡 TELEGRAM-CHANNEL 🔐 MTPROTO-PROXY 🌍 @NEXUPROXY 📡",
       "server": "127.0.0.1",
       "server_port": 3080,
-      "password": "aaacbbc-cbaa-cbaa-bdca-babacbabccca",
+      "password": "bcaabca-caba-cbaa-dcba-cbbbccacaaab",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"
       }
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🔒 SS-TCP-NA 🇧🇪 BE-192.71.249.78:989",
-      "server": "192.71.249.78",
-      "server_port": 989,
-      "method": "aes-256-cfb",
-      "password": "f8f7aCzcPKbsF8p3"
     },
     {
       "type": "shadowsocks",
@@ -113,49 +105,12 @@
       "password": "pen321TAv4bfDYD5E6Bn4r"
     },
     {
-      "type": "vless",
-      "tag": "🔒 VL-WS-NONE 🇧🇪 BE-151.101.10.133:80",
-      "server": "151.101.10.133",
-      "server_port": 80,
-      "uuid": "3601647a-7934-4238-b989-194243e3ead8",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "ws",
-        "path": "/TELEGRAM-@mainv2-ray,TELEGRAM-@mainv2-ray,TELEGRAM-@mainv2-ray,TELEGRAM-@mainv2-ray,TELEGRAM-@mainv2-ray,TELEGRAM-@mainv2-ray,TELEGRAM-@mainv2-ray,TELEGRAM-@mainv2-ray,TELEGRAM-@mainv2-ray,TELEGRAM-@mainv2-ray,TELEGRAM-@mainv2-ray,TELEGRAM-@mainv2-ray,TELEGRAM-@mainv2-ray,TELEGRAM-@mainv2-ray?ed=2048",
-        "headers": {
-          "Host": "namehmain.com"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🔒 VL-WS-NONE 🇧🇪 BE-151.101.8.163:80",
-      "server": "151.101.8.163",
-      "server_port": 80,
-      "uuid": "6d4ddb94-ebb6-4884-9711-00d0ca9d7dbe",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "ws",
-        "path": "/?ed=2048",
-        "headers": {
-          "Host": "game.baziha0098.ir"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🔒 VL-WS-NONE 🇧🇪 BE-151.101.8.51:80",
-      "server": "151.101.8.51",
-      "server_port": 80,
-      "uuid": "b1533182-6015-4f0d-b393-d3b94f55877f",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "taxi.ir"
-        }
-      }
+      "type": "shadowsocks",
+      "tag": "🔒 SS-TCP-NA 🇧🇪 BE-192.71.249.78:989",
+      "server": "192.71.249.78",
+      "server_port": 989,
+      "method": "aes-256-cfb",
+      "password": "f8f7aCzcPKbsF8p3"
     },
     {
       "type": "vless",
@@ -177,11 +132,56 @@
       }
     },
     {
+      "type": "vless",
+      "tag": "🔒 VL-WS-NONE 🇧🇪 BE-151.101.10.133:80",
+      "server": "151.101.10.133",
+      "server_port": 80,
+      "uuid": "3601647a-7934-4238-b989-194243e3ead8",
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "/TELEGRAM-@mainv2-ray,TELEGRAM-@mainv2-ray,TELEGRAM-@mainv2-ray,TELEGRAM-@mainv2-ray,TELEGRAM-@mainv2-ray,TELEGRAM-@mainv2-ray,TELEGRAM-@mainv2-ray,TELEGRAM-@mainv2-ray,TELEGRAM-@mainv2-ray,TELEGRAM-@mainv2-ray,TELEGRAM-@mainv2-ray,TELEGRAM-@mainv2-ray,TELEGRAM-@mainv2-ray,TELEGRAM-@mainv2-ray?ed=2048",
+        "headers": {
+          "Host": "namehmain.com"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🔒 VL-WS-NONE 🇧🇪 BE-151.101.8.51:80",
+      "server": "151.101.8.51",
+      "server_port": 80,
+      "uuid": "b1533182-6015-4f0d-b393-d3b94f55877f",
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "taxi.ir"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🔒 VL-WS-NONE 🇧🇪 BE-151.101.8.163:80",
+      "server": "151.101.8.163",
+      "server_port": 80,
+      "uuid": "6d4ddb94-ebb6-4884-9711-00d0ca9d7dbe",
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "/?ed=2048",
+        "headers": {
+          "Host": "game.baziha0098.ir"
+        }
+      }
+    },
+    {
       "type": "trojan",
       "tag": "👨🏻‍💻 DEVELOPED-BY SOROUSH-MIRZAEI 📌 FOLLOW-CONTACT SYDSRSMRZ",
       "server": "127.0.0.1",
       "server_port": 8080,
-      "password": "acabacb-caab-aacb-dabc-abcbbbacacca",
+      "password": "abbccaa-acab-abac-cbad-aabccbccbaab",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"
