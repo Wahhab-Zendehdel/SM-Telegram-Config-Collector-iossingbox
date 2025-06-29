@@ -5,7 +5,7 @@
       "tag": "🔄",
       "server": "127.0.0.1",
       "server_port": 1080,
-      "password": "cbaacab-baac-caba-bacd-caabcbbcacba",
+      "password": "cabbcaa-abca-acba-bdca-cbababaaccbc",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"
@@ -16,7 +16,7 @@
       "tag": "🤖",
       "server": "127.0.0.1",
       "server_port": 2080,
-      "password": "ccaabab-caab-baac-cbda-acbbccabaacb",
+      "password": "bcaaabc-aabc-aacb-bcad-aaccaacbbcbb",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"
@@ -27,7 +27,7 @@
       "tag": "🛡",
       "server": "127.0.0.1",
       "server_port": 3080,
-      "password": "acababc-caba-abac-badc-ccbbbcaacbaa",
+      "password": "cbbcaaa-aabc-caab-cbda-aacbabbabccc",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"
@@ -36,18 +36,18 @@
     {
       "type": "shadowsocks",
       "tag": "🔒",
-      "server": "192.71.249.78",
-      "server_port": 989,
-      "method": "aes-256-cfb",
-      "password": "f8f7aCzcPKbsF8p3"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🔒",
       "server": "141.98.233.98",
       "server_port": 1443,
       "method": "chacha20-ietf-poly1305",
       "password": "pen321TAv4bfDYD5E6Bn4r"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🔒",
+      "server": "192.71.249.78",
+      "server_port": 989,
+      "method": "aes-256-cfb",
+      "password": "f8f7aCzcPKbsF8p3"
     },
     {
       "type": "vless",
@@ -67,21 +67,6 @@
     {
       "type": "vless",
       "tag": "🔒",
-      "server": "151.101.8.163",
-      "server_port": 80,
-      "uuid": "6d4ddb94-ebb6-4884-9711-00d0ca9d7dbe",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "ws",
-        "path": "/?ed=2048",
-        "headers": {
-          "Host": "game.baziha0098.ir"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🔒",
       "server": "151.101.10.133",
       "server_port": 80,
       "uuid": "3601647a-7934-4238-b989-194243e3ead8",
@@ -91,6 +76,21 @@
         "path": "/TELEGRAM-@mainv2-ray,TELEGRAM-@mainv2-ray,TELEGRAM-@mainv2-ray,TELEGRAM-@mainv2-ray,TELEGRAM-@mainv2-ray,TELEGRAM-@mainv2-ray,TELEGRAM-@mainv2-ray,TELEGRAM-@mainv2-ray,TELEGRAM-@mainv2-ray,TELEGRAM-@mainv2-ray,TELEGRAM-@mainv2-ray,TELEGRAM-@mainv2-ray,TELEGRAM-@mainv2-ray,TELEGRAM-@mainv2-ray?ed=2048",
         "headers": {
           "Host": "namehmain.com"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🔒",
+      "server": "151.101.8.163",
+      "server_port": 80,
+      "uuid": "6d4ddb94-ebb6-4884-9711-00d0ca9d7dbe",
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "/?ed=2048",
+        "headers": {
+          "Host": "game.baziha0098.ir"
         }
       }
     },
@@ -115,7 +115,7 @@
       "tag": "👨🏻‍💻",
       "server": "127.0.0.1",
       "server_port": 8080,
-      "password": "abcabac-acba-cbaa-cdba-cbbacbacbaac",
+      "password": "bcaabac-aacb-aabc-abdc-cabbccabcaba",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"

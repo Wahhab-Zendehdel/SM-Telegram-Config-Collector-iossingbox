@@ -5,7 +5,7 @@
       "tag": "🔄",
       "server": "127.0.0.1",
       "server_port": 1080,
-      "password": "cbaacab-baac-caba-bacd-caabcbbcacba",
+      "password": "cabbcaa-abca-acba-bdca-cbababaaccbc",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"
@@ -16,7 +16,7 @@
       "tag": "🤖",
       "server": "127.0.0.1",
       "server_port": 2080,
-      "password": "ccaabab-caab-baac-cbda-acbbccabaacb",
+      "password": "bcaaabc-aabc-aacb-bcad-aaccaacbbcbb",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"
@@ -27,7 +27,7 @@
       "tag": "🛡",
       "server": "127.0.0.1",
       "server_port": 3080,
-      "password": "acababc-caba-abac-badc-ccbbbcaacbaa",
+      "password": "cbbcaaa-aabc-caab-cbda-aacbabbabccc",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"
@@ -44,17 +44,6 @@
     {
       "type": "trojan",
       "tag": "🔒",
-      "server": "46.29.235.31",
-      "server_port": 2053,
-      "password": "Aimer",
-      "tls": {
-        "enabled": true,
-        "server_name": "agept.ambercc.filegear-sg.me"
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "🔒",
       "server": "95.164.85.39",
       "server_port": 443,
       "password": "0fc9c5ff-9531-4178-966f-7d958e1df64b",
@@ -64,24 +53,14 @@
       }
     },
     {
-      "type": "vless",
+      "type": "trojan",
       "tag": "🔒",
-      "server": "77.37.97.59",
-      "server_port": 443,
-      "uuid": "6ba20a61-9ca7-4f9e-ac38-95f63c888a95",
-      "packet_encoding": "xudp",
+      "server": "46.29.235.31",
+      "server_port": 2053,
+      "password": "Aimer",
       "tls": {
         "enabled": true,
-        "server_name": "www.ign.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "4GnPOZT2sf7WGkjOhOuBckj5VkTWkV_PZ6bw_hBC0nI",
-          "short_id": "dd53608f91a83f5a"
-        }
+        "server_name": "agept.ambercc.filegear-sg.me"
       }
     },
     {
@@ -127,11 +106,32 @@
       }
     },
     {
+      "type": "vless",
+      "tag": "🔒",
+      "server": "77.37.97.59",
+      "server_port": 443,
+      "uuid": "6ba20a61-9ca7-4f9e-ac38-95f63c888a95",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.ign.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "4GnPOZT2sf7WGkjOhOuBckj5VkTWkV_PZ6bw_hBC0nI",
+          "short_id": "dd53608f91a83f5a"
+        }
+      }
+    },
+    {
       "type": "trojan",
       "tag": "👨🏻‍💻",
       "server": "127.0.0.1",
       "server_port": 8080,
-      "password": "abcabac-acba-cbaa-cdba-cbbacbacbaac",
+      "password": "bcaabac-aacb-aabc-abdc-cabbccabcaba",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"

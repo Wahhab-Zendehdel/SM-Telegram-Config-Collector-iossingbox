@@ -5,7 +5,7 @@
       "tag": "🔄",
       "server": "127.0.0.1",
       "server_port": 1080,
-      "password": "cbaacab-baac-caba-bacd-caabcbbcacba",
+      "password": "cabbcaa-abca-acba-bdca-cbababaaccbc",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"
@@ -16,7 +16,7 @@
       "tag": "🤖",
       "server": "127.0.0.1",
       "server_port": 2080,
-      "password": "ccaabab-caab-baac-cbda-acbbccabaacb",
+      "password": "bcaaabc-aabc-aacb-bcad-aaccaacbbcbb",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"
@@ -27,7 +27,7 @@
       "tag": "🛡",
       "server": "127.0.0.1",
       "server_port": 3080,
-      "password": "acababc-caba-abac-badc-ccbbbcaacbaa",
+      "password": "cbbcaaa-aabc-caab-cbda-aacbabbabccc",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"
@@ -40,21 +40,6 @@
       "server_port": 8443,
       "method": "aes-256-gcm",
       "password": "KnYKwpw0w4c0RDnCo8KUcDQcwpp7w7bCv3nCgMOPHB/DnhLDj8OawrVVB2o5"
-    },
-    {
-      "type": "vless",
-      "tag": "🔒",
-      "server": "::ffff:156.238.18.177",
-      "server_port": 8880,
-      "uuid": "fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "sg.laoyoutiao.link"
-        }
-      }
     },
     {
       "type": "vless",
@@ -74,7 +59,7 @@
     {
       "type": "vless",
       "tag": "🔒",
-      "server": "::ffff:156.238.18.66",
+      "server": "::ffff:156.238.18.136",
       "server_port": 8880,
       "uuid": "fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf",
       "packet_encoding": "xudp",
@@ -104,7 +89,22 @@
     {
       "type": "vless",
       "tag": "🔒",
-      "server": "::ffff:156.238.18.136",
+      "server": "::ffff:156.238.18.177",
+      "server_port": 8880,
+      "uuid": "fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf",
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "sg.laoyoutiao.link"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🔒",
+      "server": "::ffff:156.238.18.66",
       "server_port": 8880,
       "uuid": "fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf",
       "packet_encoding": "xudp",
@@ -136,7 +136,7 @@
       "tag": "👨🏻‍💻",
       "server": "127.0.0.1",
       "server_port": 8080,
-      "password": "abcabac-acba-cbaa-cdba-cbbacbacbaac",
+      "password": "bcaabac-aacb-aabc-abdc-cabbccabcaba",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"
