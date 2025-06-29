@@ -284,8 +284,8 @@ def fetch_and_process(url, base_dir="."):
             "hy2://": parse_hysteria2, "tuic://": parse_tuic, "juicity://": parse_juicity,
         }
         
-        # More robustly find all URIs, regardless of newlines or other text
-        uri_pattern = r'(vless://|vmess://|trojan://|ss://|hysteria2://|hy2://|tuic://|juicity://)[^\s<>"\']+'
+        # FIX: Use a non-capturing group (?:...) to ensure re.findall returns the entire URI.
+        uri_pattern = r'(?:vless://|vmess://|trojan://|ss://|hysteria2://|hy2://|tuic://|juicity://)[^\s<>"\']+'
         found_uris = re.findall(uri_pattern, raw_text)
 
         for uri in found_uris:
