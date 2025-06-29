@@ -37,43 +37,43 @@
       "tag": "PROXY",
       "outbounds": [
         "AUTO-SELECT",
-        "🔄 LATEST-UPDATE 📅 SUN-08-TIR-1404 🕑 10:52",
+        "🔄 LATEST-UPDATE 📅 SUN-08-TIR-1404 🕑 11:42",
         "🤖 TELEGRAM-CHANNEL 🌟 ARTIFICIAL-INTELLIGENCE 🖥 @NEUROVANCE 🧠",
         "🛡 TELEGRAM-CHANNEL 🔐 MTPROTO-PROXY 🌍 @NEXUPROXY 📡",
-        "🔒 TR-WS-TLS 🇵🇭 PH-154.83.2.54:2096",
-        "🔒 TR-TCP-NA 🇵🇭 PH-154.83.2.94:2053",
         "🔒 TR-TCP-NA 🇵🇭 PH-154.83.2.125:2087",
+        "🔒 TR-WS-TLS 🇵🇭 PH-154.83.2.61:8443",
         "🔒 TR-WS-TLS 🇵🇭 PH-154.83.2.200:443",
         "🔒 TR-TCP-NA 🇵🇭 PH-154.83.2.88:2083",
-        "🔒 TR-WS-TLS 🇵🇭 PH-154.83.2.61:8443",
-        "🔒 VL-WS-TLS 🇵🇭 PH-154.83.2.235:443",
-        "🔒 VL-WS-NA 🇵🇭 PH-154.83.2.13:8880",
-        "🔒 VL-WS-NONE 🇵🇭 PH-154.83.2.230:8880",
-        "🔒 VL-HTTPUPGRADE-NONE 🇵🇭 PH-154.83.2.7:8880",
-        "🔒 VL-WS-NA 🇵🇭 PH-154.83.2.3:8880",
-        "🔒 VL-WS-NA 🇵🇭 PH-154.83.2.131:80",
+        "🔒 TR-TCP-NA 🇵🇭 PH-154.83.2.94:2053",
+        "🔒 TR-WS-TLS 🇵🇭 PH-154.83.2.54:2096",
         "🔒 VL-GRPC-TLS 🇵🇭 PH-154.83.2.167:443",
-        "🔒 VL-WS-TLS 🇵🇭 PH-154.83.2.235:2096",
-        "🔒 VL-WS-NA 🇵🇭 PH-154.83.2.62:80",
-        "🔒 VL-WS-TLS 🇵🇭 PH-154.83.2.54:2096",
-        "🔒 VL-WS-NA 🇵🇭 PH-154.83.2.29:8880",
-        "🔒 VL-WS-NONE 🇵🇭 PH-154.83.2.228:8880",
-        "🔒 VL-WS-NA 🇵🇭 PH-154.83.2.254:8880",
-        "🔒 VL-GRPC-TLS 🇵🇭 PH-154.83.2.117:443",
-        "🔒 VL-WS-NONE 🇵🇭 PH-154.83.2.156:8880",
-        "🔒 VL-WS-NA 🇵🇭 PH-154.83.2.63:8880",
-        "🔒 VL-HTTPUPGRADE-NONE 🇵🇭 PH-154.83.2.246:8880",
-        "🔒 VL-WS-TLS 🇵🇭 PH-8.220.134.136:443",
-        "🔒 VL-HTTPUPGRADE-NONE 🇵🇭 PH-154.83.2.99:8880",
-        "🔒 VL-WS-NONE 🇵🇭 PH-154.83.2.20:8880",
-        "🔒 VL-WS-TLS 🇵🇭 PH-154.83.2.61:8443",
         "🔒 VL-WS-NONE 🇵🇭 PH-154.83.2.235:80",
+        "🔒 VL-WS-TLS 🇵🇭 PH-154.83.2.61:8443",
         "🔒 VL-HTTPUPGRADE-NONE 🇵🇭 PH-154.83.2.217:8880",
-        "🔒 VL-HTTPUPGRADE-NONE 🇵🇭 PH-154.83.2.179:8880",
-        "🔒 VL-HTTPUPGRADE-NONE 🇵🇭 PH-154.83.2.44:8880",
-        "🔒 VL-WS-NA 🇵🇭 PH-154.83.2.247:8880",
-        "🔒 VL-WS-NA 🇵🇭 PH-154.83.2.213:8880",
+        "🔒 VL-WS-NA 🇵🇭 PH-154.83.2.3:8880",
         "🔒 VL-WS-NA 🇵🇭 PH-154.83.2.251:8880",
+        "🔒 VL-WS-NONE 🇵🇭 PH-154.83.2.230:8880",
+        "🔒 VL-WS-NONE 🇵🇭 PH-154.83.2.20:8880",
+        "🔒 VL-WS-NA 🇵🇭 PH-154.83.2.63:8880",
+        "🔒 VL-WS-NA 🇵🇭 PH-154.83.2.13:8880",
+        "🔒 VL-HTTPUPGRADE-NONE 🇵🇭 PH-154.83.2.44:8880",
+        "🔒 VL-WS-NA 🇵🇭 PH-154.83.2.254:8880",
+        "🔒 VL-WS-NA 🇵🇭 PH-154.83.2.131:80",
+        "🔒 VL-WS-NA 🇵🇭 PH-154.83.2.62:80",
+        "🔒 VL-WS-TLS 🇵🇭 PH-154.83.2.235:2096",
+        "🔒 VL-HTTPUPGRADE-NONE 🇵🇭 PH-154.83.2.246:8880",
+        "🔒 VL-HTTPUPGRADE-NONE 🇵🇭 PH-154.83.2.179:8880",
+        "🔒 VL-WS-TLS 🇵🇭 PH-8.220.134.136:443",
+        "🔒 VL-WS-NA 🇵🇭 PH-154.83.2.247:8880",
+        "🔒 VL-HTTPUPGRADE-NONE 🇵🇭 PH-154.83.2.7:8880",
+        "🔒 VL-WS-NA 🇵🇭 PH-154.83.2.29:8880",
+        "🔒 VL-WS-NONE 🇵🇭 PH-154.83.2.156:8880",
+        "🔒 VL-WS-TLS 🇵🇭 PH-154.83.2.54:2096",
+        "🔒 VL-WS-TLS 🇵🇭 PH-154.83.2.235:443",
+        "🔒 VL-WS-NONE 🇵🇭 PH-154.83.2.228:8880",
+        "🔒 VL-WS-NA 🇵🇭 PH-154.83.2.213:8880",
+        "🔒 VL-GRPC-TLS 🇵🇭 PH-154.83.2.117:443",
+        "🔒 VL-HTTPUPGRADE-NONE 🇵🇭 PH-154.83.2.99:8880",
         "👨🏻‍💻 DEVELOPED-BY SOROUSH-MIRZAEI 📌 FOLLOW-CONTACT SYDSRSMRZ"
       ],
       "default": "AUTO-SELECT"
@@ -82,49 +82,49 @@
       "type": "url-test",
       "tag": "AUTO-SELECT",
       "outbounds": [
-        "🔒 TR-WS-TLS 🇵🇭 PH-154.83.2.54:2096",
-        "🔒 TR-TCP-NA 🇵🇭 PH-154.83.2.94:2053",
         "🔒 TR-TCP-NA 🇵🇭 PH-154.83.2.125:2087",
+        "🔒 TR-WS-TLS 🇵🇭 PH-154.83.2.61:8443",
         "🔒 TR-WS-TLS 🇵🇭 PH-154.83.2.200:443",
         "🔒 TR-TCP-NA 🇵🇭 PH-154.83.2.88:2083",
-        "🔒 TR-WS-TLS 🇵🇭 PH-154.83.2.61:8443",
-        "🔒 VL-WS-TLS 🇵🇭 PH-154.83.2.235:443",
-        "🔒 VL-WS-NA 🇵🇭 PH-154.83.2.13:8880",
-        "🔒 VL-WS-NONE 🇵🇭 PH-154.83.2.230:8880",
-        "🔒 VL-HTTPUPGRADE-NONE 🇵🇭 PH-154.83.2.7:8880",
-        "🔒 VL-WS-NA 🇵🇭 PH-154.83.2.3:8880",
-        "🔒 VL-WS-NA 🇵🇭 PH-154.83.2.131:80",
+        "🔒 TR-TCP-NA 🇵🇭 PH-154.83.2.94:2053",
+        "🔒 TR-WS-TLS 🇵🇭 PH-154.83.2.54:2096",
         "🔒 VL-GRPC-TLS 🇵🇭 PH-154.83.2.167:443",
-        "🔒 VL-WS-TLS 🇵🇭 PH-154.83.2.235:2096",
-        "🔒 VL-WS-NA 🇵🇭 PH-154.83.2.62:80",
-        "🔒 VL-WS-TLS 🇵🇭 PH-154.83.2.54:2096",
-        "🔒 VL-WS-NA 🇵🇭 PH-154.83.2.29:8880",
-        "🔒 VL-WS-NONE 🇵🇭 PH-154.83.2.228:8880",
-        "🔒 VL-WS-NA 🇵🇭 PH-154.83.2.254:8880",
-        "🔒 VL-GRPC-TLS 🇵🇭 PH-154.83.2.117:443",
-        "🔒 VL-WS-NONE 🇵🇭 PH-154.83.2.156:8880",
-        "🔒 VL-WS-NA 🇵🇭 PH-154.83.2.63:8880",
-        "🔒 VL-HTTPUPGRADE-NONE 🇵🇭 PH-154.83.2.246:8880",
-        "🔒 VL-WS-TLS 🇵🇭 PH-8.220.134.136:443",
-        "🔒 VL-HTTPUPGRADE-NONE 🇵🇭 PH-154.83.2.99:8880",
-        "🔒 VL-WS-NONE 🇵🇭 PH-154.83.2.20:8880",
-        "🔒 VL-WS-TLS 🇵🇭 PH-154.83.2.61:8443",
         "🔒 VL-WS-NONE 🇵🇭 PH-154.83.2.235:80",
+        "🔒 VL-WS-TLS 🇵🇭 PH-154.83.2.61:8443",
         "🔒 VL-HTTPUPGRADE-NONE 🇵🇭 PH-154.83.2.217:8880",
-        "🔒 VL-HTTPUPGRADE-NONE 🇵🇭 PH-154.83.2.179:8880",
+        "🔒 VL-WS-NA 🇵🇭 PH-154.83.2.3:8880",
+        "🔒 VL-WS-NA 🇵🇭 PH-154.83.2.251:8880",
+        "🔒 VL-WS-NONE 🇵🇭 PH-154.83.2.230:8880",
+        "🔒 VL-WS-NONE 🇵🇭 PH-154.83.2.20:8880",
+        "🔒 VL-WS-NA 🇵🇭 PH-154.83.2.63:8880",
+        "🔒 VL-WS-NA 🇵🇭 PH-154.83.2.13:8880",
         "🔒 VL-HTTPUPGRADE-NONE 🇵🇭 PH-154.83.2.44:8880",
+        "🔒 VL-WS-NA 🇵🇭 PH-154.83.2.254:8880",
+        "🔒 VL-WS-NA 🇵🇭 PH-154.83.2.131:80",
+        "🔒 VL-WS-NA 🇵🇭 PH-154.83.2.62:80",
+        "🔒 VL-WS-TLS 🇵🇭 PH-154.83.2.235:2096",
+        "🔒 VL-HTTPUPGRADE-NONE 🇵🇭 PH-154.83.2.246:8880",
+        "🔒 VL-HTTPUPGRADE-NONE 🇵🇭 PH-154.83.2.179:8880",
+        "🔒 VL-WS-TLS 🇵🇭 PH-8.220.134.136:443",
         "🔒 VL-WS-NA 🇵🇭 PH-154.83.2.247:8880",
+        "🔒 VL-HTTPUPGRADE-NONE 🇵🇭 PH-154.83.2.7:8880",
+        "🔒 VL-WS-NA 🇵🇭 PH-154.83.2.29:8880",
+        "🔒 VL-WS-NONE 🇵🇭 PH-154.83.2.156:8880",
+        "🔒 VL-WS-TLS 🇵🇭 PH-154.83.2.54:2096",
+        "🔒 VL-WS-TLS 🇵🇭 PH-154.83.2.235:443",
+        "🔒 VL-WS-NONE 🇵🇭 PH-154.83.2.228:8880",
         "🔒 VL-WS-NA 🇵🇭 PH-154.83.2.213:8880",
-        "🔒 VL-WS-NA 🇵🇭 PH-154.83.2.251:8880"
+        "🔒 VL-GRPC-TLS 🇵🇭 PH-154.83.2.117:443",
+        "🔒 VL-HTTPUPGRADE-NONE 🇵🇭 PH-154.83.2.99:8880"
       ],
       "url": "http://www.gstatic.com/generate_204"
     },
     {
       "type": "trojan",
-      "tag": "🔄 LATEST-UPDATE 📅 SUN-08-TIR-1404 🕑 10:52",
+      "tag": "🔄 LATEST-UPDATE 📅 SUN-08-TIR-1404 🕑 11:42",
       "server": "127.0.0.1",
       "server_port": 1080,
-      "password": "acacbab-acab-baca-dacb-bbbccbacaaac",
+      "password": "cbbacaa-caab-acba-cdba-cbabaabccbca",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"
@@ -135,7 +135,7 @@
       "tag": "🤖 TELEGRAM-CHANNEL 🌟 ARTIFICIAL-INTELLIGENCE 🖥 @NEUROVANCE 🧠",
       "server": "127.0.0.1",
       "server_port": 2080,
-      "password": "aacbbac-baca-aabc-dabc-bcabacaabcbc",
+      "password": "abaccab-abac-baac-cdab-cabcbbacacba",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"
@@ -146,7 +146,7 @@
       "tag": "🛡 TELEGRAM-CHANNEL 🔐 MTPROTO-PROXY 🌍 @NEXUPROXY 📡",
       "server": "127.0.0.1",
       "server_port": 3080,
-      "password": "caaabcb-caab-aabc-cdba-abbaccbacbac",
+      "password": "babcaca-caba-abac-dbca-acbbaabbaccc",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"
@@ -154,32 +154,20 @@
     },
     {
       "type": "trojan",
-      "tag": "🔒 TR-WS-TLS 🇵🇭 PH-154.83.2.54:2096",
-      "server": "154.83.2.54",
-      "server_port": 2096,
-      "password": "d6b8011a-c725-435a-9fec-bf6d3530392c",
-      "tls": {
-        "enabled": true,
-        "server_name": "vle.amclubsvip.dpdns.org"
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "🔒 TR-TCP-NA 🇵🇭 PH-154.83.2.94:2053",
-      "server": "154.83.2.94",
-      "server_port": 2053,
-      "password": "amclubs",
-      "tls": {
-        "enabled": true,
-        "server_name": "tran.amclubstest.nyc.mn",
-        "insecure": true
-      }
-    },
-    {
-      "type": "trojan",
       "tag": "🔒 TR-TCP-NA 🇵🇭 PH-154.83.2.125:2087",
       "server": "154.83.2.125",
       "server_port": 2087,
+      "password": "amclubs",
+      "tls": {
+        "enabled": true,
+        "server_name": "tran.amclubstest.nyc.mn"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🔒 TR-WS-TLS 🇵🇭 PH-154.83.2.61:8443",
+      "server": "154.83.2.61",
+      "server_port": 8443,
       "password": "amclubs",
       "tls": {
         "enabled": true,
@@ -210,29 +198,41 @@
     },
     {
       "type": "trojan",
-      "tag": "🔒 TR-WS-TLS 🇵🇭 PH-154.83.2.61:8443",
-      "server": "154.83.2.61",
-      "server_port": 8443,
+      "tag": "🔒 TR-TCP-NA 🇵🇭 PH-154.83.2.94:2053",
+      "server": "154.83.2.94",
+      "server_port": 2053,
       "password": "amclubs",
       "tls": {
         "enabled": true,
-        "server_name": "tran.amclubstest.nyc.mn"
+        "server_name": "tran.amclubstest.nyc.mn",
+        "insecure": true
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🔒 TR-WS-TLS 🇵🇭 PH-154.83.2.54:2096",
+      "server": "154.83.2.54",
+      "server_port": 2096,
+      "password": "d6b8011a-c725-435a-9fec-bf6d3530392c",
+      "tls": {
+        "enabled": true,
+        "server_name": "vle.amclubsvip.dpdns.org"
       }
     },
     {
       "type": "vless",
-      "tag": "🔒 VL-WS-TLS 🇵🇭 PH-154.83.2.235:443",
-      "server": "154.83.2.235",
+      "tag": "🔒 VL-GRPC-TLS 🇵🇭 PH-154.83.2.167:443",
+      "server": "154.83.2.167",
       "server_port": 443,
-      "uuid": "784646e5-8e84-4672-8670-efc9cafcd2cc",
+      "uuid": "401374e6-df77-41fb-f638-dad8184f175b",
       "packet_encoding": "xudp",
       "transport": {
-        "type": "ws",
-        "path": "/"
+        "type": "grpc",
+        "service_name": ""
       },
       "tls": {
         "enabled": true,
-        "server_name": "cvarad3.taban-rason.space",
+        "server_name": "pqh23v4.hiddendom.shop",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -241,38 +241,46 @@
     },
     {
       "type": "vless",
-      "tag": "🔒 VL-WS-NA 🇵🇭 PH-154.83.2.13:8880",
-      "server": "154.83.2.13",
-      "server_port": 8880,
-      "uuid": "9f3c4ab7-ea26-4d96-91a9-c85ff64ad9a0",
+      "tag": "🔒 VL-WS-NONE 🇵🇭 PH-154.83.2.235:80",
+      "server": "154.83.2.235",
+      "server_port": 80,
+      "uuid": "89b3cbba-e6ac-485a-9481-976a0415eab9",
       "packet_encoding": "xudp",
       "transport": {
         "type": "ws",
-        "path": "/Telegram🇨🇳",
+        "path": "Telegram:@ShadowProxy66/?ed=2560",
         "headers": {
-          "Host": "c.82313369.xyz"
+          "Host": "uuhUHYygEsdFGH.UYHJHGvgFcjGUJhbUIlbVFDxDxM.xyz"
         }
       }
     },
     {
       "type": "vless",
-      "tag": "🔒 VL-WS-NONE 🇵🇭 PH-154.83.2.230:8880",
-      "server": "154.83.2.230",
-      "server_port": 8880,
-      "uuid": "53fa8faf-ba4b-4322-9c69-a3e5b1555049",
+      "tag": "🔒 VL-WS-TLS 🇵🇭 PH-154.83.2.61:8443",
+      "server": "154.83.2.61",
+      "server_port": 8443,
+      "uuid": "d6b8011a-c725-435a-9fec-bf6d3530392c",
       "packet_encoding": "xudp",
       "transport": {
         "type": "ws",
         "path": "/",
         "headers": {
-          "Host": "redw.pooriam.ir"
+          "Host": "vlee.amclubs.rr.nu"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "vlee.amclubs.rr.nu",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
         }
       }
     },
     {
       "type": "vless",
-      "tag": "🔒 VL-HTTPUPGRADE-NONE 🇵🇭 PH-154.83.2.7:8880",
-      "server": "154.83.2.7",
+      "tag": "🔒 VL-HTTPUPGRADE-NONE 🇵🇭 PH-154.83.2.217:8880",
+      "server": "154.83.2.217",
       "server_port": 8880,
       "uuid": "b99590df-eda0-4e34-e1a9-3d1118faed83",
       "packet_encoding": "xudp",
@@ -297,6 +305,107 @@
     },
     {
       "type": "vless",
+      "tag": "🔒 VL-WS-NA 🇵🇭 PH-154.83.2.251:8880",
+      "server": "154.83.2.251",
+      "server_port": 8880,
+      "uuid": "0132166f-e702-48ed-a9e7-b07af768faf8",
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "/Telegram🇨🇳 @WangCai2 /?ed=2560",
+        "headers": {
+          "Host": "cf.d3z.net"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🔒 VL-WS-NONE 🇵🇭 PH-154.83.2.230:8880",
+      "server": "154.83.2.230",
+      "server_port": 8880,
+      "uuid": "53fa8faf-ba4b-4322-9c69-a3e5b1555049",
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "redw.pooriam.ir"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🔒 VL-WS-NONE 🇵🇭 PH-154.83.2.20:8880",
+      "server": "154.83.2.20",
+      "server_port": 8880,
+      "uuid": "53fa8faf-ba4b-4322-9c69-a3e5b1555049",
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "reedfree8mahsang2.redorg.ir"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🔒 VL-WS-NA 🇵🇭 PH-154.83.2.63:8880",
+      "server": "154.83.2.63",
+      "server_port": 8880,
+      "uuid": "fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf",
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "/Telegram🇨🇳",
+        "headers": {
+          "Host": "jp.laoyoutiao.link"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🔒 VL-WS-NA 🇵🇭 PH-154.83.2.13:8880",
+      "server": "154.83.2.13",
+      "server_port": 8880,
+      "uuid": "9f3c4ab7-ea26-4d96-91a9-c85ff64ad9a0",
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "/Telegram🇨🇳",
+        "headers": {
+          "Host": "c.82313369.xyz"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🔒 VL-HTTPUPGRADE-NONE 🇵🇭 PH-154.83.2.44:8880",
+      "server": "154.83.2.44",
+      "server_port": 8880,
+      "uuid": "90bf198f-9810-40c8-cb6f-8d7908b576d3",
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "httpupgrade"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🔒 VL-WS-NA 🇵🇭 PH-154.83.2.254:8880",
+      "server": "154.83.2.254",
+      "server_port": 8880,
+      "uuid": "34c01e61-f4f3-4afb-a83b-406caf8caa33",
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "/Telegram🇨🇳",
+        "headers": {
+          "Host": "yg.bantony199.top"
+        }
+      }
+    },
+    {
+      "type": "vless",
       "tag": "🔒 VL-WS-NA 🇵🇭 PH-154.83.2.131:80",
       "server": "154.83.2.131",
       "server_port": 80,
@@ -312,21 +421,16 @@
     },
     {
       "type": "vless",
-      "tag": "🔒 VL-GRPC-TLS 🇵🇭 PH-154.83.2.167:443",
-      "server": "154.83.2.167",
-      "server_port": 443,
-      "uuid": "401374e6-df77-41fb-f638-dad8184f175b",
+      "tag": "🔒 VL-WS-NA 🇵🇭 PH-154.83.2.62:80",
+      "server": "154.83.2.62",
+      "server_port": 80,
+      "uuid": "53fa8faf-ba4b-4322-9c69-a3e5b1555049",
       "packet_encoding": "xudp",
       "transport": {
-        "type": "grpc",
-        "service_name": ""
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "pqh23v4.hiddendom.shop",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
+        "type": "ws",
+        "path": "/re5IzbZ9IZZMddtw?ed=2560/?Join_Bade_Channel@ShadowProxy66",
+        "headers": {
+          "Host": "ipsycho.suex12.ir"
         }
       }
     },
@@ -355,143 +459,21 @@
     },
     {
       "type": "vless",
-      "tag": "🔒 VL-WS-NA 🇵🇭 PH-154.83.2.62:80",
-      "server": "154.83.2.62",
-      "server_port": 80,
-      "uuid": "53fa8faf-ba4b-4322-9c69-a3e5b1555049",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "ws",
-        "path": "/re5IzbZ9IZZMddtw?ed=2560/?Join_Bade_Channel@ShadowProxy66",
-        "headers": {
-          "Host": "ipsycho.suex12.ir"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🔒 VL-WS-TLS 🇵🇭 PH-154.83.2.54:2096",
-      "server": "154.83.2.54",
-      "server_port": 2096,
-      "uuid": "d6b8011a-c725-435a-9fec-bf6d3530392c",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "vle.amclubsapp.dpdns.org"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "vle.amclubsapp.dpdns.org",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🔒 VL-WS-NA 🇵🇭 PH-154.83.2.29:8880",
-      "server": "154.83.2.29",
-      "server_port": 8880,
-      "uuid": "fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "ws",
-        "path": "/TelegramU0001F1E8U0001F1F3",
-        "headers": {
-          "Host": "hk.laoyoutiao.link"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🔒 VL-WS-NONE 🇵🇭 PH-154.83.2.228:8880",
-      "server": "154.83.2.228",
-      "server_port": 8880,
-      "uuid": "53fa8faf-ba4b-4322-9c69-a3e5b1555049",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "redw.pooriam.ir"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🔒 VL-WS-NA 🇵🇭 PH-154.83.2.254:8880",
-      "server": "154.83.2.254",
-      "server_port": 8880,
-      "uuid": "34c01e61-f4f3-4afb-a83b-406caf8caa33",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "ws",
-        "path": "/Telegram🇨🇳",
-        "headers": {
-          "Host": "yg.bantony199.top"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🔒 VL-GRPC-TLS 🇵🇭 PH-154.83.2.117:443",
-      "server": "154.83.2.117",
-      "server_port": 443,
-      "uuid": "401374e6-df77-41fb-f638-dad8184f175b",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "grpc",
-        "service_name": ""
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "pqh36v4.hiddendom.shop",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🔒 VL-WS-NONE 🇵🇭 PH-154.83.2.156:8880",
-      "server": "154.83.2.156",
-      "server_port": 8880,
-      "uuid": "53fa8faf-ba4b-4322-9c69-a3e5b1555049",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "redw.pooriam.ir"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🔒 VL-WS-NA 🇵🇭 PH-154.83.2.63:8880",
-      "server": "154.83.2.63",
-      "server_port": 8880,
-      "uuid": "fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "ws",
-        "path": "/Telegram🇨🇳",
-        "headers": {
-          "Host": "jp.laoyoutiao.link"
-        }
-      }
-    },
-    {
-      "type": "vless",
       "tag": "🔒 VL-HTTPUPGRADE-NONE 🇵🇭 PH-154.83.2.246:8880",
       "server": "154.83.2.246",
       "server_port": 8880,
       "uuid": "90bf198f-9810-40c8-cb6f-8d7908b576d3",
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "httpupgrade"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🔒 VL-HTTPUPGRADE-NONE 🇵🇭 PH-154.83.2.179:8880",
+      "server": "154.83.2.179",
+      "server_port": 8880,
+      "uuid": "b99590df-eda0-4e34-e1a9-3d1118faed83",
       "packet_encoding": "xudp",
       "transport": {
         "type": "httpupgrade"
@@ -522,103 +504,6 @@
     },
     {
       "type": "vless",
-      "tag": "🔒 VL-HTTPUPGRADE-NONE 🇵🇭 PH-154.83.2.99:8880",
-      "server": "154.83.2.99",
-      "server_port": 8880,
-      "uuid": "b99590df-eda0-4e34-e1a9-3d1118faed83",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "httpupgrade"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🔒 VL-WS-NONE 🇵🇭 PH-154.83.2.20:8880",
-      "server": "154.83.2.20",
-      "server_port": 8880,
-      "uuid": "53fa8faf-ba4b-4322-9c69-a3e5b1555049",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "reedfree8mahsang2.redorg.ir"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🔒 VL-WS-TLS 🇵🇭 PH-154.83.2.61:8443",
-      "server": "154.83.2.61",
-      "server_port": 8443,
-      "uuid": "d6b8011a-c725-435a-9fec-bf6d3530392c",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "vlee.amclubs.rr.nu"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "vlee.amclubs.rr.nu",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🔒 VL-WS-NONE 🇵🇭 PH-154.83.2.235:80",
-      "server": "154.83.2.235",
-      "server_port": 80,
-      "uuid": "89b3cbba-e6ac-485a-9481-976a0415eab9",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "ws",
-        "path": "Telegram:@ShadowProxy66/?ed=2560",
-        "headers": {
-          "Host": "uuhUHYygEsdFGH.UYHJHGvgFcjGUJhbUIlbVFDxDxM.xyz"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🔒 VL-HTTPUPGRADE-NONE 🇵🇭 PH-154.83.2.217:8880",
-      "server": "154.83.2.217",
-      "server_port": 8880,
-      "uuid": "b99590df-eda0-4e34-e1a9-3d1118faed83",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "httpupgrade"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🔒 VL-HTTPUPGRADE-NONE 🇵🇭 PH-154.83.2.179:8880",
-      "server": "154.83.2.179",
-      "server_port": 8880,
-      "uuid": "b99590df-eda0-4e34-e1a9-3d1118faed83",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "httpupgrade"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🔒 VL-HTTPUPGRADE-NONE 🇵🇭 PH-154.83.2.44:8880",
-      "server": "154.83.2.44",
-      "server_port": 8880,
-      "uuid": "90bf198f-9810-40c8-cb6f-8d7908b576d3",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "httpupgrade"
-      }
-    },
-    {
-      "type": "vless",
       "tag": "🔒 VL-WS-NA 🇵🇭 PH-154.83.2.247:8880",
       "server": "154.83.2.247",
       "server_port": 8880,
@@ -629,6 +514,105 @@
         "path": "/Telegram",
         "headers": {
           "Host": "ex.sue.x10.mx"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🔒 VL-HTTPUPGRADE-NONE 🇵🇭 PH-154.83.2.7:8880",
+      "server": "154.83.2.7",
+      "server_port": 8880,
+      "uuid": "b99590df-eda0-4e34-e1a9-3d1118faed83",
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "httpupgrade"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🔒 VL-WS-NA 🇵🇭 PH-154.83.2.29:8880",
+      "server": "154.83.2.29",
+      "server_port": 8880,
+      "uuid": "fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf",
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "/TelegramU0001F1E8U0001F1F3",
+        "headers": {
+          "Host": "hk.laoyoutiao.link"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🔒 VL-WS-NONE 🇵🇭 PH-154.83.2.156:8880",
+      "server": "154.83.2.156",
+      "server_port": 8880,
+      "uuid": "53fa8faf-ba4b-4322-9c69-a3e5b1555049",
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "redw.pooriam.ir"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🔒 VL-WS-TLS 🇵🇭 PH-154.83.2.54:2096",
+      "server": "154.83.2.54",
+      "server_port": 2096,
+      "uuid": "d6b8011a-c725-435a-9fec-bf6d3530392c",
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "vle.amclubsapp.dpdns.org"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "vle.amclubsapp.dpdns.org",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🔒 VL-WS-TLS 🇵🇭 PH-154.83.2.235:443",
+      "server": "154.83.2.235",
+      "server_port": 443,
+      "uuid": "784646e5-8e84-4672-8670-efc9cafcd2cc",
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "/"
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "cvarad3.taban-rason.space",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🔒 VL-WS-NONE 🇵🇭 PH-154.83.2.228:8880",
+      "server": "154.83.2.228",
+      "server_port": 8880,
+      "uuid": "53fa8faf-ba4b-4322-9c69-a3e5b1555049",
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "redw.pooriam.ir"
         }
       }
     },
@@ -649,17 +633,33 @@
     },
     {
       "type": "vless",
-      "tag": "🔒 VL-WS-NA 🇵🇭 PH-154.83.2.251:8880",
-      "server": "154.83.2.251",
-      "server_port": 8880,
-      "uuid": "0132166f-e702-48ed-a9e7-b07af768faf8",
+      "tag": "🔒 VL-GRPC-TLS 🇵🇭 PH-154.83.2.117:443",
+      "server": "154.83.2.117",
+      "server_port": 443,
+      "uuid": "401374e6-df77-41fb-f638-dad8184f175b",
       "packet_encoding": "xudp",
       "transport": {
-        "type": "ws",
-        "path": "/Telegram🇨🇳 @WangCai2 /?ed=2560",
-        "headers": {
-          "Host": "cf.d3z.net"
+        "type": "grpc",
+        "service_name": ""
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "pqh36v4.hiddendom.shop",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
         }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🔒 VL-HTTPUPGRADE-NONE 🇵🇭 PH-154.83.2.99:8880",
+      "server": "154.83.2.99",
+      "server_port": 8880,
+      "uuid": "b99590df-eda0-4e34-e1a9-3d1118faed83",
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "httpupgrade"
       }
     },
     {
@@ -667,7 +667,7 @@
       "tag": "👨🏻‍💻 DEVELOPED-BY SOROUSH-MIRZAEI 📌 FOLLOW-CONTACT SYDSRSMRZ",
       "server": "127.0.0.1",
       "server_port": 8080,
-      "password": "abbccaa-aacb-aacb-cdab-bbaaabacbccc",
+      "password": "baaaccb-caba-baca-cdba-baaacccbabcb",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"

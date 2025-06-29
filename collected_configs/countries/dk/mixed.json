@@ -37,15 +37,15 @@
       "tag": "PROXY",
       "outbounds": [
         "AUTO-SELECT",
-        "🔄 LATEST-UPDATE 📅 SUN-08-TIR-1404 🕑 10:52",
+        "🔄 LATEST-UPDATE 📅 SUN-08-TIR-1404 🕑 11:42",
         "🤖 TELEGRAM-CHANNEL 🌟 ARTIFICIAL-INTELLIGENCE 🖥 @NEUROVANCE 🧠",
         "🛡 TELEGRAM-CHANNEL 🔐 MTPROTO-PROXY 🌍 @NEXUPROXY 📡",
         "🔒 SS-TCP-NA 🇩🇰 DK-192.36.27.94:989",
         "🔒 TR-TCP-TLS 🇩🇰 DK-46.29.235.31:2053",
         "🔒 TR-TCP-TLS 🇩🇰 DK-95.164.85.39:443",
-        "🔒 VL-TCP-RLT 🇩🇰 DK-95.164.10.184:8443",
-        "🔒 VL-TCP-RLT 🇩🇰 DK-193.180.211.106:443",
         "🔒 VL-TCP-RLT 🇩🇰 DK-77.37.97.59:443",
+        "🔒 VL-TCP-RLT 🇩🇰 DK-193.180.211.106:443",
+        "🔒 VL-TCP-RLT 🇩🇰 DK-95.164.10.184:8443",
         "👨🏻‍💻 DEVELOPED-BY SOROUSH-MIRZAEI 📌 FOLLOW-CONTACT SYDSRSMRZ"
       ],
       "default": "AUTO-SELECT"
@@ -57,18 +57,18 @@
         "🔒 SS-TCP-NA 🇩🇰 DK-192.36.27.94:989",
         "🔒 TR-TCP-TLS 🇩🇰 DK-46.29.235.31:2053",
         "🔒 TR-TCP-TLS 🇩🇰 DK-95.164.85.39:443",
-        "🔒 VL-TCP-RLT 🇩🇰 DK-95.164.10.184:8443",
+        "🔒 VL-TCP-RLT 🇩🇰 DK-77.37.97.59:443",
         "🔒 VL-TCP-RLT 🇩🇰 DK-193.180.211.106:443",
-        "🔒 VL-TCP-RLT 🇩🇰 DK-77.37.97.59:443"
+        "🔒 VL-TCP-RLT 🇩🇰 DK-95.164.10.184:8443"
       ],
       "url": "http://www.gstatic.com/generate_204"
     },
     {
       "type": "trojan",
-      "tag": "🔄 LATEST-UPDATE 📅 SUN-08-TIR-1404 🕑 10:52",
+      "tag": "🔄 LATEST-UPDATE 📅 SUN-08-TIR-1404 🕑 11:42",
       "server": "127.0.0.1",
       "server_port": 1080,
-      "password": "acacbab-acab-baca-dacb-bbbccbacaaac",
+      "password": "cbbacaa-caab-acba-cdba-cbabaabccbca",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"
@@ -79,7 +79,7 @@
       "tag": "🤖 TELEGRAM-CHANNEL 🌟 ARTIFICIAL-INTELLIGENCE 🖥 @NEUROVANCE 🧠",
       "server": "127.0.0.1",
       "server_port": 2080,
-      "password": "aacbbac-baca-aabc-dabc-bcabacaabcbc",
+      "password": "abaccab-abac-baac-cdab-cabcbbacacba",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"
@@ -90,7 +90,7 @@
       "tag": "🛡 TELEGRAM-CHANNEL 🔐 MTPROTO-PROXY 🌍 @NEXUPROXY 📡",
       "server": "127.0.0.1",
       "server_port": 3080,
-      "password": "caaabcb-caab-aabc-cdba-abbaccbacbac",
+      "password": "babcaca-caba-abac-dbca-acbbaabbaccc",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"
@@ -128,25 +128,25 @@
     },
     {
       "type": "vless",
-      "tag": "🔒 VL-TCP-RLT 🇩🇰 DK-95.164.10.184:8443",
-      "server": "95.164.10.184",
-      "server_port": 8443,
-      "uuid": "d9fe36e8-3bcf-44b6-9328-b6ce1366408f",
+      "tag": "🔒 VL-TCP-RLT 🇩🇰 DK-77.37.97.59:443",
+      "server": "77.37.97.59",
+      "server_port": 443,
+      "uuid": "6ba20a61-9ca7-4f9e-ac38-95f63c888a95",
       "packet_encoding": "xudp",
       "transport": {
         "type": "tcp"
       },
       "tls": {
         "enabled": true,
-        "server_name": "DEDUso.su",
+        "server_name": "www.ign.com",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "I4ckWGs37sBXSBq3lGP79HqOhZ1eOjqaikCsDJXTaw0",
-          "short_id": "a4eed13ebbf2f9d2"
+          "public_key": "4GnPOZT2sf7WGkjOhOuBckj5VkTWkV_PZ6bw_hBC0nI",
+          "short_id": "dd53608f91a83f5a"
         }
       }
     },
@@ -176,25 +176,25 @@
     },
     {
       "type": "vless",
-      "tag": "🔒 VL-TCP-RLT 🇩🇰 DK-77.37.97.59:443",
-      "server": "77.37.97.59",
-      "server_port": 443,
-      "uuid": "6ba20a61-9ca7-4f9e-ac38-95f63c888a95",
+      "tag": "🔒 VL-TCP-RLT 🇩🇰 DK-95.164.10.184:8443",
+      "server": "95.164.10.184",
+      "server_port": 8443,
+      "uuid": "092d0e3f-aeb5-447f-9b21-12b74542eff8",
       "packet_encoding": "xudp",
       "transport": {
         "type": "tcp"
       },
       "tls": {
         "enabled": true,
-        "server_name": "www.ign.com",
+        "server_name": "DEDUso.su",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "4GnPOZT2sf7WGkjOhOuBckj5VkTWkV_PZ6bw_hBC0nI",
-          "short_id": "dd53608f91a83f5a"
+          "public_key": "I4ckWGs37sBXSBq3lGP79HqOhZ1eOjqaikCsDJXTaw0",
+          "short_id": "a4eed13ebbf2f9d2"
         }
       }
     },
@@ -203,7 +203,7 @@
       "tag": "👨🏻‍💻 DEVELOPED-BY SOROUSH-MIRZAEI 📌 FOLLOW-CONTACT SYDSRSMRZ",
       "server": "127.0.0.1",
       "server_port": 8080,
-      "password": "abbccaa-aacb-aacb-cdab-bbaaabacbccc",
+      "password": "baaaccb-caba-baca-cdba-baaacccbabcb",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"
