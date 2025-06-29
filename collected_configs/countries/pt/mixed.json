@@ -37,7 +37,7 @@
       "tag": "PROXY",
       "outbounds": [
         "AUTO-SELECT",
-        "🔄 LATEST-UPDATE 📅 SUN-08-TIR-1404 🕑 15:39",
+        "🔄 LATEST-UPDATE 📅 SUN-08-TIR-1404 🕑 17:03",
         "🤖 TELEGRAM-CHANNEL 🌟 ARTIFICIAL-INTELLIGENCE 🖥 @NEUROVANCE 🧠",
         "🛡 TELEGRAM-CHANNEL 🔐 MTPROTO-PROXY 🌍 @NEXUPROXY 📡",
         "🔒 SS-TCP-NA 🇵🇹 PT-185.231.233.112:989",
@@ -59,10 +59,10 @@
     },
     {
       "type": "trojan",
-      "tag": "🔄 LATEST-UPDATE 📅 SUN-08-TIR-1404 🕑 15:39",
+      "tag": "🔄 LATEST-UPDATE 📅 SUN-08-TIR-1404 🕑 17:03",
       "server": "127.0.0.1",
       "server_port": 1080,
-      "password": "accabab-baca-baac-dabc-acbcbbcacaba",
+      "password": "accbaab-bcaa-caba-adbc-caccbaacbbab",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"
@@ -73,7 +73,7 @@
       "tag": "🤖 TELEGRAM-CHANNEL 🌟 ARTIFICIAL-INTELLIGENCE 🖥 @NEUROVANCE 🧠",
       "server": "127.0.0.1",
       "server_port": 2080,
-      "password": "ccbabaa-abac-acab-cabd-bacabacccbba",
+      "password": "cbbaaca-aabc-caab-cbad-accbabacacbb",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"
@@ -84,7 +84,7 @@
       "tag": "🛡 TELEGRAM-CHANNEL 🔐 MTPROTO-PROXY 🌍 @NEXUPROXY 📡",
       "server": "127.0.0.1",
       "server_port": 3080,
-      "password": "cabaacb-acab-acba-cdab-aaabbcccacbb",
+      "password": "cabcbaa-baca-acab-dcba-aabcbbcacacb",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"
@@ -123,7 +123,7 @@
       "tag": "👨🏻‍💻 DEVELOPED-BY SOROUSH-MIRZAEI 📌 FOLLOW-CONTACT SYDSRSMRZ",
       "server": "127.0.0.1",
       "server_port": 8080,
-      "password": "cbcbaaa-bcaa-aabc-dcab-cacaabbccbba",
+      "password": "abbaacc-aabc-cbaa-dcab-abccbaabbcca",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"
