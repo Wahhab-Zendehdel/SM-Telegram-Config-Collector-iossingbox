@@ -34,7 +34,7 @@ COUNTRY_CODES = {
 }
 
 
-# --- CONFIG PARSING FUNCTIONS (No changes needed here) ---
+# --- CONFIG PARSING FUNCTIONS ---
 
 def parse_vless(uri: str) -> dict | None:
     """Parses a VLESS URI and converts it to a sing-box outbound dictionary."""
@@ -49,16 +49,19 @@ def parse_vless(uri: str) -> dict | None:
             "server_port": parsed_url.port, "uuid": parsed_url.username,
             "packet_encoding": "xudp",
         }
-        transport_type = query_params.get('type', [None])[0]
-        if transport_type:
-            transport_config = {"type": transport_type}
-            if transport_type == 'grpc':
-                transport_config["service_name"] = query_params.get('serviceName', [''])[0]
-            elif transport_type == 'ws':
-                transport_config["path"] = unquote(query_params.get('path', ['/'])[0])
-                if host := query_params.get('host', [None])[0]:
-                    transport_config["headers"] = {"Host": host}
-            config["transport"] = transport_config
+        transport_type = query_params.get('type', ['tcp'])[0] # Default to tcp if not specified
+        transport_config = {"type": transport_type}
+        
+        if transport_type == 'grpc':
+            transport_config["service_name"] = query_params.get('serviceName', [''])[0]
+        elif transport_type == 'ws':
+            transport_config["path"] = unquote(query_params.get('path', ['/'])[0])
+            if host := query_params.get('host', [None])[0]:
+                transport_config["headers"] = {"Host": host}
+        
+        # Always add the transport object, even for tcp
+        config["transport"] = transport_config
+
         security = query_params.get('security', [None])[0]
         if security in ['tls', 'reality']:
             tls_config = {
@@ -90,15 +93,20 @@ def parse_vmess(uri: str) -> dict | None:
             "server_port": int(decoded_data.get("port")), "uuid": decoded_data.get("id"),
             "security": decoded_data.get("scy", "auto"), "alter_id": decoded_data.get("aid", 0),
         }
-        if net := decoded_data.get("net"):
-            transport_config = {"type": net}
-            if net == 'ws':
-                transport_config["path"] = decoded_data.get("path", "/")
-                if host := decoded_data.get("host"):
-                    transport_config["headers"] = {"Host": host}
-            elif net == 'grpc':
-                transport_config["service_name"] = decoded_data.get("path", "")
-            config["transport"] = transport_config
+        
+        net = decoded_data.get("net", "tcp") # Default to tcp if not specified
+        transport_config = {"type": net}
+
+        if net == 'ws':
+            transport_config["path"] = decoded_data.get("path", "/")
+            if host := decoded_data.get("host"):
+                transport_config["headers"] = {"Host": host}
+        elif net == 'grpc':
+            transport_config["service_name"] = decoded_data.get("path", "")
+        
+        # Always add the transport object
+        config["transport"] = transport_config
+
         if decoded_data.get("tls") in ["tls", "reality"]:
             tls_config = {
                 "enabled": True,
@@ -284,7 +292,7 @@ def fetch_and_process(url, base_dir="."):
             "hy2://": parse_hysteria2, "tuic://": parse_tuic, "juicity://": parse_juicity,
         }
         
-        # FIX: Use a non-capturing group (?:...) to ensure re.findall returns the entire URI.
+        # Use a non-capturing group (?:...) to ensure re.findall returns the entire URI.
         uri_pattern = r'(?:vless://|vmess://|trojan://|ss://|hysteria2://|hy2://|tuic://|juicity://)[^\s<>"\']+'
         found_uris = re.findall(uri_pattern, raw_text)
 
