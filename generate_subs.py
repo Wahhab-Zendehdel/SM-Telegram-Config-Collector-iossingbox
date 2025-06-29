@@ -248,7 +248,6 @@ def fetch_and_process(url, base_dir="."):
         path = urlparse(url).path
         local_path = path.split('/main/')[-1]
         
-        # Determine directory and filename, ensuring .txt extension
         if local_path.endswith('/mixed'):
             parts = local_path.split('/')
             directory = os.path.join(base_dir, *parts[:-1])
@@ -281,17 +280,19 @@ def fetch_and_process(url, base_dir="."):
             "ss://": parse_shadowsocks, "hysteria2://": parse_hysteria2,
             "hy2://": parse_hysteria2, "tuic://": parse_tuic, "juicity://": parse_juicity,
         }
-        for line in raw_text.splitlines():
-            line = line.strip()
-            if not line: continue
+        
+        # More robustly find all URIs, regardless of newlines
+        uri_pattern = r'(vless://|vmess://|trojan://|ss://|hysteria2://|hy2://|tuic://|juicity://)[^\s<>"\']+'
+        found_uris = re.findall(uri_pattern, raw_text)
+
+        for uri in found_uris:
             for prefix, parser in supported_protocols.items():
-                if line.startswith(prefix):
-                    if parsed_config := parser(line):
+                if uri.startswith(prefix):
+                    if parsed_config := parser(uri):
                         outbounds.append(parsed_config)
-                    break
+                    break # Move to the next found URI
         
         if outbounds:
-            # Create the correct subscription file content
             subscription_content = create_subscription_content(outbounds)
             with open(filepath, 'w', encoding='utf-8') as f:
                 json.dump(subscription_content, f, indent=2, ensure_ascii=False)
