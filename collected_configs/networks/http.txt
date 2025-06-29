@@ -5,7 +5,42 @@
       "tag": "🔄",
       "server": "127.0.0.1",
       "server_port": 1080,
-      "uuid": "bccaaba-baca-acab-cadb-bcabbaacbacc",
+      "uuid": "acbaabc-caab-aabc-dacb-bcacbcbacaba",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "127.0.0.1",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🔒",
+      "server": "46.17.44.6",
+      "server_port": 443,
+      "uuid": "dec1d9ec-bca0-4fee-8829-0960c72b3cec",
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "http"
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "ru2.asc-sam.ir",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🛡",
+      "server": "127.0.0.1",
+      "server_port": 3080,
+      "uuid": "acbcaab-acab-baca-abcd-abcacabcabbc",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -42,41 +77,6 @@
     },
     {
       "type": "vless",
-      "tag": "🛡",
-      "server": "127.0.0.1",
-      "server_port": 3080,
-      "uuid": "ababcac-acba-cbaa-adbc-acbacacbbbca",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "127.0.0.1",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🔒",
-      "server": "46.17.44.6",
-      "server_port": 443,
-      "uuid": "dec1d9ec-bca0-4fee-8829-0960c72b3cec",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "http"
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "ru2.asc-sam.ir",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "type": "vless",
       "tag": "🔒",
       "server": "85.133.241.220",
       "server_port": 2050,
@@ -91,7 +91,7 @@
       "tag": "👨🏻‍💻",
       "server": "127.0.0.1",
       "server_port": 8080,
-      "uuid": "bcaabac-aacb-caba-adcb-bcaccbaaabbc",
+      "uuid": "baaccba-abca-acab-abdc-ccbabaacbcba",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
