@@ -40,9 +40,6 @@
       "server_port": 443,
       "uuid": "49ed01ad-3bb4-204f-b0ff-a58f658fd618",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "speed.cloudflare.com",

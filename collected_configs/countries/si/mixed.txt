@@ -1279,9 +1279,6 @@
       "server_port": 443,
       "uuid": "6897c181-24b1-4880-8660-e6c5c7ee13c7",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "www.tradingview.com",

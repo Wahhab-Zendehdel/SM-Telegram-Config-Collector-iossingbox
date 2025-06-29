@@ -190,10 +190,7 @@
       "server_port": 38872,
       "uuid": "220732cc-9e43-4453-83f1-c9435be25b5b",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vmess",
@@ -202,10 +199,7 @@
       "server_port": 39253,
       "uuid": "69b49a35-cf55-4d14-9f2b-d7ce3a0db72e",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vmess",
@@ -214,10 +208,7 @@
       "server_port": 10534,
       "uuid": "b01c7ef9-33ec-41f6-bfbf-77ddc4d21649",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vless",
@@ -270,10 +261,7 @@
       "server": "103.245.228.0",
       "server_port": 8880,
       "uuid": "53fa8faf-ba4b-4322-9c69-a3e5b1555049",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -297,9 +285,6 @@
       "server_port": 443,
       "uuid": "4eec7bc2-6bfd-4e54-b0a4-5890e8f97439",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "dj-downloadin.xn--4gq62f52gopi49k.com",
@@ -330,10 +315,7 @@
       "server": "206.189.129.143",
       "server_port": 25874,
       "uuid": "cfa105a9-f127-4369-b91f-040110a391a8",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -570,9 +552,6 @@
       "server_port": 443,
       "uuid": "0d26383d-21f7-4159-986a-a7ecac87e072",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "google.com",

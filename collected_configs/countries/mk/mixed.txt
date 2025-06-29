@@ -56,9 +56,6 @@
       "server_port": 443,
       "uuid": "963ec3d3-def9-4ae1-825d-00ff2f6da119",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "tgju.org",

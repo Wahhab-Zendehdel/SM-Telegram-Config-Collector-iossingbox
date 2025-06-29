@@ -245,10 +245,7 @@
       "server_port": 42341,
       "uuid": "4381beae-45a6-4421-8547-65e312dd204a",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vmess",
@@ -257,10 +254,7 @@
       "server_port": 50007,
       "uuid": "418048af-a293-4b99-9b0c-98ca3580dd24",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vmess",
@@ -269,10 +263,7 @@
       "server_port": 42309,
       "uuid": "4381beae-45a6-4421-8547-65e312dd204a",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vmess",
@@ -341,10 +332,7 @@
       "server_port": 42324,
       "uuid": "4381beae-45a6-4421-8547-65e312dd204a",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vmess",
@@ -389,10 +377,7 @@
       "server_port": 42320,
       "uuid": "4381beae-45a6-4421-8547-65e312dd204a",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vmess",
@@ -401,10 +386,7 @@
       "server_port": 42346,
       "uuid": "4381beae-45a6-4421-8547-65e312dd204a",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vmess",
@@ -413,10 +395,7 @@
       "server_port": 42323,
       "uuid": "4381beae-45a6-4421-8547-65e312dd204a",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vmess",
@@ -425,10 +404,7 @@
       "server_port": 42333,
       "uuid": "4381beae-45a6-4421-8547-65e312dd204a",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vmess",
@@ -437,10 +413,7 @@
       "server_port": 42337,
       "uuid": "4381beae-45a6-4421-8547-65e312dd204a",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vmess",
@@ -449,10 +422,7 @@
       "server_port": 59003,
       "uuid": "418048af-a293-4b99-9b0c-98ca3580dd24",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vmess",
@@ -461,10 +431,7 @@
       "server_port": 42301,
       "uuid": "4381beae-45a6-4421-8547-65e312dd204a",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vless",

@@ -138,9 +138,6 @@
       "server_port": 443,
       "uuid": "ea286109-d20f-415e-849e-4af20ab04b65",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "147135001195.sec22org.com",
@@ -291,9 +288,6 @@
       "server_port": 56833,
       "uuid": "e947c1b3-5eee-4007-b29e-e960c73242b3",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "iro.goodratkhooda.info",
@@ -309,10 +303,7 @@
       "server": "217.60.236.191",
       "server_port": 8443,
       "uuid": "b505bd79-137b-4d8c-924d-53eb8a6161f2",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -320,10 +311,7 @@
       "server": "109.61.42.157",
       "server_port": 42539,
       "uuid": "6ce93d15-9488-4208-914b-6ee32af0df0e",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -504,10 +492,7 @@
       "server": "217.60.199.131",
       "server_port": 2090,
       "uuid": "ba72e922-4f16-4b20-af8a-c58302a5a6bf",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -617,10 +602,7 @@
       "server": "217.60.236.148",
       "server_port": 8443,
       "uuid": "c1fee588-e43f-4bbd-90d0-c5b5f3b817f1",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -970,9 +952,6 @@
       "server_port": 443,
       "uuid": "414df689-dc19-418b-849c-f0f15967d71e",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "adobe.com",
@@ -1019,9 +998,6 @@
       "server_port": 443,
       "uuid": "09a88f8d-f9b6-4985-95ac-fe889f07cac7",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "refersion.com",
@@ -1042,9 +1018,6 @@
       "server_port": 443,
       "uuid": "414df689-dc19-418b-849c-f0f15967d71e",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "adobe.com",

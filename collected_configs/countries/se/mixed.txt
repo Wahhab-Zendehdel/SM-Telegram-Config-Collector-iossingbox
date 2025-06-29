@@ -150,10 +150,7 @@
       "server_port": 62004,
       "uuid": "5b9b682a-7811-4050-b287-254320f3ac9e",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vmess",
@@ -174,10 +171,7 @@
       "server_port": 18000,
       "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
       "security": "auto",
-      "alter_id": 0,
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": 0
     },
     {
       "type": "vmess",
@@ -186,10 +180,7 @@
       "server_port": 62002,
       "uuid": "5b9b682a-7811-4050-b287-254320f3ac9e",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vless",
@@ -517,10 +508,7 @@
       "server": "77.110.121.191",
       "server_port": 32472,
       "uuid": "440769a2-35c6-40b9-8763-a9c3244434e0",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -598,9 +586,6 @@
       "server_port": 2040,
       "uuid": "10b59513-ef76-4494-a925-305ec45dd3a4",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "fr.ign.com",
@@ -684,10 +669,7 @@
       "server": "13.60.244.5",
       "server_port": 443,
       "uuid": "da1c9d18-b1cb-4f5b-ba9d-30e69b1ab20d",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -740,10 +722,7 @@
       "server": "109.122.201.224",
       "server_port": 2095,
       "uuid": "97c136a7-da4b-40b7-af73-1321f9e75fe8",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -1393,10 +1372,7 @@
       "server": "77.110.121.136",
       "server_port": 14703,
       "uuid": "5a39e3c7-ba53-433c-ae32-0bc18d81dbe3",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -1725,10 +1701,7 @@
       "server": "77.221.140.134",
       "server_port": 44481,
       "uuid": "33de8a6b-e3bc-4263-9cdd-fd676816c875",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -1931,9 +1904,6 @@
       "server_port": 8443,
       "uuid": "157448af-8ecf-4075-a9e9-b23a6a94899b",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "se1.fromblancwithlove.com",
@@ -2094,9 +2064,6 @@
       "server_port": 443,
       "uuid": "f7fdf2c2-a98a-4e8f-b06a-29f1b3c8122f",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "www.dropbox.com",
@@ -2118,9 +2085,6 @@
       "server_port": 10883,
       "uuid": "5a031c79-3b62-44d4-b471-63f160e85d1a",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "www.speedtest.net",
@@ -2141,9 +2105,6 @@
       "server_port": 24782,
       "uuid": "8d5c286f-d00a-4377-8cea-3e4ce23e2373",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "m.media-amazon.com",
@@ -2164,9 +2125,6 @@
       "server_port": 8443,
       "uuid": "b285432e-8677-40e3-a86a-ca167cd9d5bd",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "zula.ir",
@@ -2187,9 +2145,6 @@
       "server_port": 62001,
       "uuid": "6801b00f-a4c6-470d-b826-0fef33101ddf",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "tile.openstreetmap.org",
@@ -2236,9 +2191,6 @@
       "server_port": 54231,
       "uuid": "c4ca05f0-1b67-4552-bd03-9d71945ddc3e",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "dash.cloudflare.com",
@@ -2285,9 +2237,6 @@
       "server_port": 2040,
       "uuid": "10b59513-ef76-4494-a925-305ec45dd3a4",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "fr.ign.com",
@@ -2309,9 +2258,6 @@
       "server_port": 443,
       "uuid": "b1c801ec-1c5e-4d12-8b53-8da11c64a21b",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "video.intfreed.ru",
@@ -2333,9 +2279,6 @@
       "server_port": 8085,
       "uuid": "fb78f8f9-ffb4-4a28-a30c-03ed58a3989e",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "refersion.com",
@@ -2357,9 +2300,6 @@
       "server_port": 443,
       "uuid": "8d9fae5b-d187-45b5-9a14-a5579a8ccdb2",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "www.latimes.com",
@@ -2381,9 +2321,6 @@
       "server_port": 443,
       "uuid": "fde86c85-6d4d-420b-bfde-47687763517e",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "journalofbigdata.springeropen.com",

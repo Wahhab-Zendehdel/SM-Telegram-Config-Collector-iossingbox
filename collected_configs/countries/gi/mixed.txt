@@ -40,9 +40,6 @@
       "server_port": 443,
       "uuid": "af37f2cd-3475-418d-876a-87678406797e",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "fra5.vpntype.dev",
@@ -59,9 +56,6 @@
       "server_port": 443,
       "uuid": "f562c114-4898-46fa-afe2-f71feae87297",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "yahoo.com",

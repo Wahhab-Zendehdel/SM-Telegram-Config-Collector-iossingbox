@@ -1891,10 +1891,7 @@
       "server": "89.116.250.78",
       "server_port": 80,
       "uuid": "53fa8faf-ba4b-4322-9c69-a3e5b1555049",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -4151,9 +4148,6 @@
       "server_port": 2040,
       "uuid": "10b59513-ef76-4494-a925-305ec45dd3a4",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "apple.com",

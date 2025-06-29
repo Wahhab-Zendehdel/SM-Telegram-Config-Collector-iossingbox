@@ -647,9 +647,6 @@
       "server_port": 443,
       "uuid": "a0de1607-5b63-fab8-a759-9f98706b6125",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "speed.cloudflare.com",
@@ -848,9 +845,6 @@
       "server_port": 443,
       "uuid": "a0de1607-5b63-fab8-a759-9f98706b6125",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "speed.cloudflare.com",
@@ -882,9 +876,6 @@
       "server_port": 443,
       "uuid": "a0de1607-5b63-fab8-a759-9f98706b6125",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "speed.cloudflare.com",
@@ -928,9 +919,6 @@
       "server_port": 443,
       "uuid": "5d110f18-5a37-4db3-8cf6-f0bced38a1ae",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "www.apple.com.cn",

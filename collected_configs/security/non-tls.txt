@@ -7,9 +7,6 @@
       "server_port": 1080,
       "uuid": "bccaaba-baca-acab-cadb-bcabbaacbacc",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1",
@@ -25,10 +22,7 @@
       "server": "92.114.50.52",
       "server_port": 8080,
       "uuid": "743d64ef-859f-47e5-a8b2-3ff6c699cdcb",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -37,9 +31,6 @@
       "server_port": 3080,
       "uuid": "ababcac-acba-cbaa-adbc-acbacacbbbca",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1",
@@ -82,10 +73,7 @@
       "server": "141.101.120.97",
       "server_port": 2083,
       "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "shadowsocks",
@@ -101,10 +89,7 @@
       "server": "78.39.9.155",
       "server_port": 2089,
       "uuid": "a953e567-ce00-4c95-a96f-6e9fd55d4378",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -135,10 +120,7 @@
       "server_port": 62004,
       "uuid": "5b9b682a-7811-4050-b287-254320f3ac9e",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vless",
@@ -371,10 +353,7 @@
       "server_port": 51352,
       "uuid": "bcf86479-aab4-47cf-9d6e-34d353baa1a2",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vless",
@@ -876,10 +855,7 @@
       "server_port": 45276,
       "uuid": "469e0b31-30c3-4dab-800d-711232634ce1",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vless",
@@ -1084,10 +1060,7 @@
       "server_port": 26521,
       "uuid": "cff7001e-3a74-43e8-bfd8-a7af9630a58b",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vless",
@@ -1255,10 +1228,7 @@
       "server_port": 1007,
       "uuid": "0ecd9fc4-a229-4942-acaa-fc9eda298b65",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "shadowsocks",
@@ -1352,10 +1322,7 @@
       "server_port": 53710,
       "uuid": "1db838d0-ecd2-4b73-a7f8-5af6b401d833",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vless",
@@ -1447,10 +1414,7 @@
       "server_port": 56051,
       "uuid": "2bca3569-0662-47f7-fdf8-421f30e71f44",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vless",
@@ -1575,10 +1539,7 @@
       "server_port": 4951,
       "uuid": "e5d50439-47a8-467f-bead-00d3c4ab86f3",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vless",
@@ -1711,10 +1672,7 @@
       "server_port": 1007,
       "uuid": "0ecd9fc4-a229-4942-acaa-fc9eda298b65",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vless",
@@ -1972,10 +1930,7 @@
       "server": "79.175.188.158",
       "server_port": 2092,
       "uuid": "2b671c98-b5b2-46ed-a3fa-76cdeb6b8ab8",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "trojan",
@@ -2428,10 +2383,7 @@
       "server_port": 1363,
       "uuid": "2f8265ef-6148-4dbf-988f-a3c4b830281a",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vless",
@@ -2454,10 +2406,7 @@
       "server": "2.189.84.219",
       "server_port": 8443,
       "uuid": "77371595-b7aa-472a-9d61-e9731861af07",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -2604,10 +2553,7 @@
       "server_port": 3890,
       "uuid": "01385550-af60-4d57-af84-dddac5213b0c",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "trojan",
@@ -2762,10 +2708,7 @@
       "server": "89.235.116.46",
       "server_port": 7052,
       "uuid": "c283dd5f-b38c-404a-a0b8-1bb2b5a4bf52",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "trojan",
@@ -3072,10 +3015,7 @@
       "server_port": 1007,
       "uuid": "0ecd9fc4-a229-4942-acaa-fc9eda298b65",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vless",
@@ -3304,10 +3244,7 @@
       "server": "47.76.81.217",
       "server_port": 38971,
       "uuid": "633d3f6b-5f34-4ef8-b240-01667f6dd07d",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -3350,10 +3287,7 @@
       "server_port": 888,
       "uuid": "48c4b162-ef82-4e33-a3fd-f6621985e791",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vless",
@@ -3448,10 +3382,7 @@
       "server_port": 45229,
       "uuid": "469e0b31-30c3-4dab-800d-711232634ce1",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vless",
@@ -3617,10 +3548,7 @@
       "server": "85.133.240.43",
       "server_port": 21405,
       "uuid": "0586f5cc-28a7-431f-adc2-24a399f8cab4",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -4727,10 +4655,7 @@
       "server_port": 16000,
       "uuid": "6901a621-e9ee-421d-8575-a1d04129227b",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vless",
@@ -4859,10 +4784,7 @@
       "server": "185.215.228.100",
       "server_port": 8080,
       "uuid": "b5e0289d-1bb7-4c5b-f850-016298066cf8",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -5511,10 +5433,7 @@
       "server_port": 8484,
       "uuid": "8f772f706bd6412da86ce4601d2bf986",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vless",
@@ -5617,10 +5536,7 @@
       "server": "85.133.215.108",
       "server_port": 235,
       "uuid": "c2df3028-a48c-4f0f-a104-013594dfa659",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -6460,10 +6376,7 @@
       "server": "62.60.176.61",
       "server_port": 1990,
       "uuid": "99e33694-b530-4910-a9e9-595c96b3f356",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "trojan",
@@ -6623,10 +6536,7 @@
       "server": "62.60.176.61",
       "server_port": 2000,
       "uuid": "99e33694-b530-4910-a9e9-595c96b3f356",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -6758,10 +6668,7 @@
       "server_port": 45287,
       "uuid": "469e0b31-30c3-4dab-800d-711232634ce1",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vless",
@@ -6900,10 +6807,7 @@
       "server": "141.101.120.23",
       "server_port": 2083,
       "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -7133,10 +7037,7 @@
       "server": "46.38.148.45",
       "server_port": 1010,
       "uuid": "ba12e208-2052-4663-8281-98522ee41813",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -7367,10 +7268,7 @@
       "server_port": 11060,
       "uuid": "5cdd371e-cc4e-4ea2-91a8-c755f00f67a0",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "shadowsocks",
@@ -7509,10 +7407,7 @@
       "server": "45.131.211.92",
       "server_port": 80,
       "uuid": "53fa8faf-ba4b-4322-9c69-a3e5b1555049",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "trojan",
@@ -8348,10 +8243,7 @@
       "server": "162.159.135.232",
       "server_port": 8880,
       "uuid": "546cfb84-120f-43db-89db-5cba033bf9dc",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -9277,10 +9169,7 @@
       "server_port": 5050,
       "uuid": "a77c3026-b297-47d5-c837-b18b64198d0b",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vless",
@@ -9790,10 +9679,7 @@
       "server_port": 30002,
       "uuid": "418048af-a293-4b99-9b0c-98ca3580dd24",
       "security": "auto",
-      "alter_id": "64",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "64"
     },
     {
       "type": "trojan",
@@ -9865,10 +9751,7 @@
       "server": "104.17.148.22",
       "server_port": 80,
       "uuid": "aa2e8771-c340-4f4e-cd4a-f862d4925c3c",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "trojan",
@@ -9888,10 +9771,7 @@
       "server_port": 58819,
       "uuid": "b0bf81e1-0b18-4253-a278-d516f580240a",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vless",
@@ -10372,10 +10252,7 @@
       "server": "5.198.168.25",
       "server_port": 702,
       "uuid": "b3df4ad2-c2be-4e76-a5fe-37bf49ffe60c",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -10409,10 +10286,7 @@
       "server": "104.18.31.60",
       "server_port": 80,
       "uuid": "c5293efa-28f8-4a0f-8f34-541078970cee",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -10566,10 +10440,7 @@
       "server": "141.101.120.7",
       "server_port": 2083,
       "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "shadowsocks",
@@ -11044,10 +10915,7 @@
       "server": "102.132.188.247",
       "server_port": 8880,
       "uuid": "d60fc3c5-9f07-4cdb-b81f-70af27936bdc",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -11150,10 +11018,7 @@
       "server_port": 42324,
       "uuid": "4381beae-45a6-4421-8547-65e312dd204a",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "trojan",
@@ -12128,10 +11993,7 @@
       "server": "91.99.150.156",
       "server_port": 8247,
       "uuid": "042a604e-d05a-3b25-49ce-71a1b9282e64",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "trojan",
@@ -12185,10 +12047,7 @@
       "server_port": 2070,
       "uuid": "b6e340e6-c49a-4a53-88c6-2e5478f5cb80",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vless",
@@ -12235,10 +12094,7 @@
       "server": "91.99.148.251",
       "server_port": 4928,
       "uuid": "e8ecde4b-ef6e-468e-90fd-1d26371a17f3",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "trojan",
@@ -12388,10 +12244,7 @@
       "server_port": 56104,
       "uuid": "efd57bc3-8086-48bd-9b1a-6fd8ab8cee6d",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vless",
@@ -12629,10 +12482,7 @@
       "server": "141.101.121.187",
       "server_port": 2083,
       "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "shadowsocks",
@@ -13409,10 +13259,7 @@
       "server": "151.234.162.57",
       "server_port": 700,
       "uuid": "b3df4ad2-c2be-4e76-a5fe-37bf49ffe60c",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "shadowsocks",
@@ -13429,10 +13276,7 @@
       "server_port": 50007,
       "uuid": "418048af-a293-4b99-9b0c-98ca3580dd24",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vless",
@@ -13488,10 +13332,7 @@
       "server": "91.99.139.18",
       "server_port": 443,
       "uuid": "36ee3f5a-3816-4c03-a324-47531167e53b",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -13617,10 +13458,7 @@
       "server_port": 7580,
       "uuid": "47a4e822-61ce-4eb2-d5bd-8db6f17bab93",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vless",
@@ -13844,10 +13682,7 @@
       "server_port": 56051,
       "uuid": "2bca3569-0662-47f7-fdf8-421f30e71f44",
       "security": "auto",
-      "alter_id": 0,
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": 0
     },
     {
       "type": "trojan",
@@ -13980,10 +13815,7 @@
       "server_port": 26024,
       "uuid": "3a6c789f-0548-4ca3-83c0-2c78acbee811",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vless",
@@ -14054,10 +13886,7 @@
       "server": "212.33.201.222",
       "server_port": 2051,
       "uuid": "d843b700-0e0d-5ad9-72d9-46ced5785cd1",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "trojan",
@@ -14122,10 +13951,7 @@
       "server_port": 42333,
       "uuid": "4381beae-45a6-4421-8547-65e312dd204a",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "shadowsocks",
@@ -14878,10 +14704,7 @@
       "server_port": 42309,
       "uuid": "4381beae-45a6-4421-8547-65e312dd204a",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "shadowsocks",
@@ -14905,10 +14728,7 @@
       "server": "91.99.192.155",
       "server_port": 443,
       "uuid": "153ee04c-dcc1-4ef8-a146-8fb31cec1f48",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -14996,10 +14816,7 @@
       "server_port": 59440,
       "uuid": "7fc3c790-8830-48dd-9b0c-c954301d373c",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vless",
@@ -15037,10 +14854,7 @@
       "server": "147.45.179.201",
       "server_port": 443,
       "uuid": "9835fbea-cfb1-402a-bdc6-16ca140c6788",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -15423,10 +15237,7 @@
       "server_port": 47057,
       "uuid": "d5c08621-88ae-4898-8838-adf4653d59e7",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vless",
@@ -16009,10 +15820,7 @@
       "server_port": 1007,
       "uuid": "0ecd9fc4-a229-4942-acaa-fc9eda298b65",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vless",
@@ -16112,10 +15920,7 @@
       "server_port": 2535,
       "uuid": "04d7c089-bbc5-4ef2-80ef-a0982cf33708",
       "security": "aes-128-gcm",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "trojan",
@@ -16335,10 +16140,7 @@
       "server_port": 42610,
       "uuid": "e0957ca6-f613-4017-ff3c-effd1da8871a",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vless",
@@ -17007,10 +16809,7 @@
       "server_port": 38088,
       "uuid": "1275ea18-bc9c-4bcb-b3fd-fee70272e143",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vless",
@@ -17086,10 +16885,7 @@
       "server_port": 39400,
       "uuid": "fb36e400-f55b-47f8-ba4a-2d324d061076",
       "security": "auto",
-      "alter_id": 0,
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": 0
     },
     {
       "type": "vless",
@@ -17194,10 +16990,7 @@
       "server": "91.99.125.246",
       "server_port": 4928,
       "uuid": "e8ecde4b-ef6e-468e-90fd-1d26371a17f3",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -17296,10 +17089,7 @@
       "server_port": 50002,
       "uuid": "418048af-a293-4b99-9b0c-98ca3580dd24",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vless",
@@ -17527,10 +17317,7 @@
       "server": "2.144.5.61",
       "server_port": 17432,
       "uuid": "8c658fd7-3253-4254-8366-ed2282360cac",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -17866,10 +17653,7 @@
       "server_port": 44023,
       "uuid": "7da457da-ed0f-437d-c81d-6c35885bbea3",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vless",
@@ -18069,10 +17853,7 @@
       "server": "91.99.203.69",
       "server_port": 51615,
       "uuid": "2eaef053-5fd6-4def-b234-d760690355ff",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "shadowsocks",
@@ -18340,10 +18121,7 @@
       "server": "85.133.225.118",
       "server_port": 47059,
       "uuid": "82d061e2-2cc3-4d57-99d5-554ce71a0df7",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -18381,10 +18159,7 @@
       "server": "45.159.148.66",
       "server_port": 1010,
       "uuid": "ba12e208-2052-4663-8281-98522ee41813",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -18677,10 +18452,7 @@
       "server": "185.133.125.4",
       "server_port": 19094,
       "uuid": "f1bdbbbb-265d-49bc-aea0-53530d87135c",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -18933,10 +18705,7 @@
       "server_port": 59859,
       "uuid": "8cfdc398-2903-49e2-9fab-d57c0a36d665",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vless",
@@ -19110,10 +18879,7 @@
       "server_port": 33203,
       "uuid": "a82148dd-4f11-4472-b341-f63f57dce17f",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vless",
@@ -19547,10 +19313,7 @@
       "server": "78.157.62.41",
       "server_port": 51255,
       "uuid": "80346ffe-9019-4352-b9f1-2437d54b5477",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "trojan",
@@ -19621,10 +19384,7 @@
       "server": "37.202.228.27",
       "server_port": 55956,
       "uuid": "c83c3b86-6520-4813-b16e-a0d3a8a9ee2c",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -19906,10 +19666,7 @@
       "server_port": 53503,
       "uuid": "c9b9dea3-5868-477f-e54d-2c8f124f647d",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vless",
@@ -20015,10 +19772,7 @@
       "server": "194.145.119.250",
       "server_port": 21503,
       "uuid": "f53c9c18-fcd7-0e98-a932-8bc7a1adcf52",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "shadowsocks",
@@ -20857,10 +20611,7 @@
       "server": "104.17.147.22",
       "server_port": 2095,
       "uuid": "7773f153-bf41-4f9c-9c62-46b220272293",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "shadowsocks",
@@ -21279,10 +21030,7 @@
       "server_port": 54813,
       "uuid": "df9c6e9e-9e7a-4d06-88bb-9b29337b973f",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vless",
@@ -21447,10 +21195,7 @@
       "server": "89.44.242.110",
       "server_port": 26424,
       "uuid": "6868f60c-918e-46ec-b237-7d39ae72c7a6",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "vmess",
@@ -21504,10 +21249,7 @@
       "server": "185.215.228.234",
       "server_port": 46415,
       "uuid": "40453faa-f3af-4a29-a8a2-3755353dadd5",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "shadowsocks",
@@ -22361,10 +22103,7 @@
       "server": "103.245.228.0",
       "server_port": 8880,
       "uuid": "53fa8faf-ba4b-4322-9c69-a3e5b1555049",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -22637,10 +22376,7 @@
       "server_port": 36712,
       "uuid": "9266df42-0830-48c2-8509-4c57b30fe29d",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "shadowsocks",
@@ -22789,10 +22525,7 @@
       "server": "141.101.121.127",
       "server_port": 2083,
       "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -22973,10 +22706,7 @@
       "server": "85.9.98.67",
       "server_port": 33520,
       "uuid": "47da45ab-d702-48dc-b173-ec2db068f6fc",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -23000,10 +22730,7 @@
       "server_port": 10534,
       "uuid": "b01c7ef9-33ec-41f6-bfbf-77ddc4d21649",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vless",
@@ -23569,10 +23296,7 @@
       "server": "91.99.83.55",
       "server_port": 31133,
       "uuid": "a61d2d34-b60c-4014-95f9-1208dc03b49a",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -24081,10 +23805,7 @@
       "server": "104.17.147.214",
       "server_port": 2052,
       "uuid": "4aaa5edf-da3c-5c87-adb6-74431bf98ba2",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -24467,10 +24188,7 @@
       "server": "45.94.213.124",
       "server_port": 44628,
       "uuid": "2fa19c27-05b2-45b9-abce-4ca6371d7f75",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "shadowsocks",
@@ -24855,10 +24573,7 @@
       "server": "91.99.159.125",
       "server_port": 443,
       "uuid": "2eaef053-5fd6-4def-b234-d760690355ff",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -24896,10 +24611,7 @@
       "server": "94.182.152.217",
       "server_port": 201,
       "uuid": "51baa329-45fa-432f-9edf-197f704911bb",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -24923,10 +24635,7 @@
       "server_port": 20779,
       "uuid": "9dc5bff8-bcbb-4703-b0fe-4f91ba517402",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vless",
@@ -25014,10 +24723,7 @@
       "server_port": 33754,
       "uuid": "45f4f565-8c78-4906-a5b9-08ea9075cd31",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "trojan",
@@ -25059,10 +24765,7 @@
       "server": "185.243.51.71",
       "server_port": 443,
       "uuid": "6efe6cde-c728-453f-be31-9dc554e8f0ba",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "shadowsocks",
@@ -25120,10 +24823,7 @@
       "server": "91.99.203.65",
       "server_port": 443,
       "uuid": "2eaef053-5fd6-4def-b234-d760690355ff",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "trojan",
@@ -25497,10 +25197,7 @@
       "server": "37.32.41.221",
       "server_port": 24963,
       "uuid": "af12cac7-9f92-4970-ac75-2cf6b2cac373",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "trojan",
@@ -25546,10 +25243,7 @@
       "server_port": 38088,
       "uuid": "1275ea18-bc9c-4bcb-b3fd-fee70272e143",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vless",
@@ -26006,10 +25700,7 @@
       "server_port": 36141,
       "uuid": "d31ee52f-b6e4-4db8-9c95-98855ec823cc",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "trojan",
@@ -26141,10 +25832,7 @@
       "server_port": 21938,
       "uuid": "583bebef-3e0b-4c85-ba80-39e07ce35ad9",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "shadowsocks",
@@ -26497,10 +26185,7 @@
       "server_port": 44023,
       "uuid": "7da457da-ed0f-437d-c81d-6c35885bbea3",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vless",
@@ -26670,10 +26355,7 @@
       "server_port": 8090,
       "uuid": "891e1d1c-5fbc-40cb-9256-58b016b6b600",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vless",
@@ -26820,10 +26502,7 @@
       "server_port": 52348,
       "uuid": "c99ff604-6970-4ae9-b7e5-d0ad8cc5a10b",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "trojan",
@@ -26843,10 +26522,7 @@
       "server_port": 34892,
       "uuid": "2118ee50-f0a9-4fb1-9a1d-3f6b900e8436",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "trojan",
@@ -27046,10 +26722,7 @@
       "server_port": 33579,
       "uuid": "2eb3ee2a-7bf8-4b50-9b93-2d489d2f3456",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vless",
@@ -27480,10 +27153,7 @@
       "server": "104.19.16.243",
       "server_port": 80,
       "uuid": "8269dbfc-fc76-4b5a-91ba-4364915799a9",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -27666,10 +27336,7 @@
       "server": "178.239.146.222",
       "server_port": 64560,
       "uuid": "6322fa6a-2612-43a3-baea-f549261c6b2d",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -28650,10 +28317,7 @@
       "server": "151.232.52.203",
       "server_port": 2053,
       "uuid": "70d53c1a-08de-4a6e-ac1b-04e2d8058d03",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "trojan",
@@ -28769,10 +28433,7 @@
       "server": "91.99.128.230",
       "server_port": 20340,
       "uuid": "f5eab6c3-78d3-4247-a482-d00a82db6261",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -28948,10 +28609,7 @@
       "server": "91.99.150.156",
       "server_port": 4928,
       "uuid": "e8ecde4b-ef6e-468e-90fd-1d26371a17f3",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -29192,10 +28850,7 @@
       "server_port": 58819,
       "uuid": "b0bf81e1-0b18-4253-a278-d516f580240a",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vless",
@@ -29302,10 +28957,7 @@
       "server_port": 1007,
       "uuid": "0ecd9fc4-a229-4942-acaa-fc9eda298b65",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vless",
@@ -29493,10 +29145,7 @@
       "server": "85.133.250.6",
       "server_port": 443,
       "uuid": "3491dd29-da32-721b-b2f9-73421aead895",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "trojan",
@@ -29927,10 +29576,7 @@
       "server_port": 6013,
       "uuid": "2bf6cb84-d726-43eb-9928-8d8e442a4b6c",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vless",
@@ -30125,10 +29771,7 @@
       "server": "141.101.121.72",
       "server_port": 2083,
       "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -30345,10 +29988,7 @@
       "server": "104.17.147.22",
       "server_port": 80,
       "uuid": "aa2e8771-c340-4f4e-cd4a-f862d4925c3c",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -30434,10 +30074,7 @@
       "server_port": 42301,
       "uuid": "4381beae-45a6-4421-8547-65e312dd204a",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vless",
@@ -30543,10 +30180,7 @@
       "server_port": 15382,
       "uuid": "15052e07-4371-4c69-8852-1112114c5947",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "trojan",
@@ -30740,10 +30374,7 @@
       "server_port": 15361,
       "uuid": "5d7bf9e3-415c-40f3-c66d-a54ea0fd860e",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "shadowsocks",
@@ -31096,10 +30727,7 @@
       "server": "14.102.228.20",
       "server_port": 8880,
       "uuid": "53fa8faf-ba4b-4322-9c69-a3e5b1555049",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "shadowsocks",
@@ -31115,10 +30743,7 @@
       "server": "91.206.71.162",
       "server_port": 80,
       "uuid": "b67d238c-742c-492c-a44c-a2001186ff5b",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -32417,10 +32042,7 @@
       "server": "178.62.231.77",
       "server_port": 8880,
       "uuid": "dd27cbd6-9995-4338-9219-20277324be65",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -32428,10 +32050,7 @@
       "server": "37.59.113.143",
       "server_port": 8443,
       "uuid": "e932051f-291b-49f3-a3af-ab19af96b52b",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -32640,10 +32259,7 @@
       "server": "37.27.220.198",
       "server_port": 2001,
       "uuid": "f4b81795-2e5a-4584-ea25-44bc16e8fc2c",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -33027,10 +32643,7 @@
       "server_port": 27575,
       "uuid": "16509262-dbe2-43ba-99ce-07913d2a18b4",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vless",
@@ -33098,10 +32711,7 @@
       "server": "185.243.49.177",
       "server_port": 24989,
       "uuid": "c92794ee-7c70-4faa-8f07-e7cec2cb14c9",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -33226,10 +32836,7 @@
       "server_port": 39530,
       "uuid": "7aa56e39-29b8-45c3-8b53-6d2a23b2461c",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vless",
@@ -33328,10 +32935,7 @@
       "server_port": 29966,
       "uuid": "27f22d09-ef89-4606-a42b-f677d0c54d0d",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "trojan",
@@ -33620,10 +33224,7 @@
       "server": "46.102.157.79",
       "server_port": 58210,
       "uuid": "fbddfdbf-d505-51ee-b6a6-bc1f4f4e0195",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -33658,10 +33259,7 @@
       "server_port": 1007,
       "uuid": "0ecd9fc4-a229-4942-acaa-fc9eda298b65",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "trojan",
@@ -33986,10 +33584,7 @@
       "server": "85.9.123.170",
       "server_port": 2086,
       "uuid": "7acf3d74-052a-416c-a0ff-eaeaa642847c",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "trojan",
@@ -34204,10 +33799,7 @@
       "server": "85.198.22.93",
       "server_port": 38221,
       "uuid": "b4f31041-f53a-4a86-8058-7771084888bf",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -34403,10 +33995,7 @@
       "server_port": 22839,
       "uuid": "2858a404-d0ca-4d67-80a6-ce8e95e383ff",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vmess",
@@ -34582,10 +34171,7 @@
       "server_port": 4951,
       "uuid": "e5d50439-47a8-467f-bead-00d3c4ab86f3",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vless",
@@ -34731,10 +34317,7 @@
       "server": "104.18.30.60",
       "server_port": 80,
       "uuid": "c5293efa-28f8-4a0f-8f34-541078970cee",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "shadowsocks",
@@ -35075,10 +34658,7 @@
       "server_port": 49664,
       "uuid": "9395474c-e2a1-4565-ba56-c16e7373c4c4",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vless",
@@ -35191,10 +34771,7 @@
       "server": "141.101.121.153",
       "server_port": 2083,
       "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "shadowsocks",
@@ -35210,10 +34787,7 @@
       "server": "89.116.250.78",
       "server_port": 80,
       "uuid": "53fa8faf-ba4b-4322-9c69-a3e5b1555049",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -35377,10 +34951,7 @@
       "server": "91.99.181.193",
       "server_port": 51615,
       "uuid": "2eaef053-5fd6-4def-b234-d760690355ff",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "shadowsocks",
@@ -36421,10 +35992,7 @@
       "server": "185.188.181.214",
       "server_port": 80,
       "uuid": "53fa8faf-ba4b-4322-9c69-a3e5b1555049",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -37456,10 +37024,7 @@
       "server": "91.99.83.55",
       "server_port": 8443,
       "uuid": "a61d2d34-b60c-4014-95f9-1208dc03b49a",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -37483,10 +37048,7 @@
       "server_port": 12540,
       "uuid": "056d3d35-a729-4ab4-bbae-d71d8458af19",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "shadowsocks",
@@ -37950,10 +37512,7 @@
       "server": "141.101.120.76",
       "server_port": 2083,
       "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -38331,10 +37890,7 @@
       "server": "85.133.250.8",
       "server_port": 443,
       "uuid": "8f584d16-6ee7-1fc4-028b-a46a3302fac1",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -38485,10 +38041,7 @@
       "server_port": 8082,
       "uuid": "1a91e2bd-f189-4d52-911d-00177069ccad",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "shadowsocks",
@@ -38579,10 +38132,7 @@
       "server": "141.101.120.203",
       "server_port": 2083,
       "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "trojan",
@@ -38782,10 +38332,7 @@
       "server": "62.60.179.100",
       "server_port": 54080,
       "uuid": "079291d7-2d5a-4dcc-b2a9-514cda7eb9f9",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -39225,10 +38772,7 @@
       "server": "141.193.213.1",
       "server_port": 80,
       "uuid": "53fa8faf-ba4b-4322-9c69-a3e5b1555049",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -39571,10 +39115,7 @@
       "server_port": 45317,
       "uuid": "b2836369-220b-4840-80c4-8cf904c735ee",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vless",
@@ -39888,10 +39429,7 @@
       "server_port": 4951,
       "uuid": "e5d50439-47a8-467f-bead-00d3c4ab86f3",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vless",
@@ -40327,10 +39865,7 @@
       "server": "206.189.129.143",
       "server_port": 25874,
       "uuid": "cfa105a9-f127-4369-b91f-040110a391a8",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -40516,10 +40051,7 @@
       "server_port": 57118,
       "uuid": "418048af-a293-4b99-9b0c-98ca3580dd24",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "trojan",
@@ -41347,10 +40879,7 @@
       "server_port": 30520,
       "uuid": "3038024f-3a34-4228-b61c-d741b2fbec8f",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vless",
@@ -41586,10 +41115,7 @@
       "server_port": 4030,
       "uuid": "944ba4d3-1a2e-4fa7-8fb9-ebe252a52215",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "trojan",
@@ -41620,10 +41146,7 @@
       "server_port": 6016,
       "uuid": "9074065a-840e-4cfa-9cd9-4b06a96bda87",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "trojan",
@@ -41800,10 +41323,7 @@
       "server": "91.99.206.230",
       "server_port": 443,
       "uuid": "153ee04c-dcc1-4ef8-a146-8fb31cec1f48",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -42029,10 +41549,7 @@
       "server": "85.9.121.79",
       "server_port": 33520,
       "uuid": "47da45ab-d702-48dc-b173-ec2db068f6fc",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "shadowsocks",
@@ -42162,10 +41679,7 @@
       "server_port": 42346,
       "uuid": "4381beae-45a6-4421-8547-65e312dd204a",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vless",
@@ -43186,10 +42700,7 @@
       "server": "194.1.155.180",
       "server_port": 2003,
       "uuid": "d7640e7f-63a3-419e-9835-614ad4494583",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -43329,10 +42840,7 @@
       "server": "94.182.129.202",
       "server_port": 44130,
       "uuid": "4933c8a7-e285-439c-b2ac-d542817ce25d",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "trojan",
@@ -43427,10 +42935,7 @@
       "server_port": 28860,
       "uuid": "1784497d-03a1-40bb-bb8b-de4ffac7c59c",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vless",
@@ -43609,10 +43114,7 @@
       "server": "185.124.175.56",
       "server_port": 443,
       "uuid": "3b8699c4-b429-447f-93f7-d45b37bc7248",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -43650,10 +43152,7 @@
       "server": "45.94.213.124",
       "server_port": 55956,
       "uuid": "c83c3b86-6520-4813-b16e-a0d3a8a9ee2c",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -43869,10 +43368,7 @@
       "server_port": 22324,
       "uuid": "04621bae-ab36-11ec-b909-0242ac120002",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "trojan",
@@ -45200,10 +44696,7 @@
       "server": "91.99.148.251",
       "server_port": 7964,
       "uuid": "b96981a2-a6aa-44c0-b21f-88328379ec33",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "trojan",
@@ -45332,10 +44825,7 @@
       "server_port": 42337,
       "uuid": "4381beae-45a6-4421-8547-65e312dd204a",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vless",
@@ -45475,10 +44965,7 @@
       "server_port": 28213,
       "uuid": "81852771-76fb-4e94-e4f1-4e37a698a49a",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vless",
@@ -45725,10 +45212,7 @@
       "server_port": 42341,
       "uuid": "4381beae-45a6-4421-8547-65e312dd204a",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "shadowsocks",
@@ -45898,10 +45382,7 @@
       "server_port": 44883,
       "uuid": "418048af-a293-4b99-9b0c-98ca3580dd24",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vless",
@@ -46173,10 +45654,7 @@
       "server_port": 50394,
       "uuid": "a75f3f95-ad4e-4498-fc72-dd740dd02bfc",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "trojan",
@@ -46859,10 +46337,7 @@
       "server": "46.38.146.250",
       "server_port": 443,
       "uuid": "0970359e-7e8c-4003-b991-863e0f26be7c",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "trojan",
@@ -46911,10 +46386,7 @@
       "server": "141.101.121.10",
       "server_port": 2083,
       "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -47354,10 +46826,7 @@
       "server_port": 19901,
       "uuid": "066b32cc-ee3d-4719-b1f0-2f202298737e",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vless",
@@ -47681,10 +47150,7 @@
       "server_port": 6531,
       "uuid": "bb28cfcd-c3d0-4866-bb0a-c3fd86b0ec12",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "trojan",
@@ -48348,10 +47814,7 @@
       "server_port": 27773,
       "uuid": "b2347239-dd15-40b3-b683-50cc2ff19ae7",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "trojan",
@@ -48576,10 +48039,7 @@
       "server_port": 57118,
       "uuid": "418048af-a293-4b99-9b0c-98ca3580dd24",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "trojan",
@@ -49212,10 +48672,7 @@
       "server_port": 45247,
       "uuid": "469e0b31-30c3-4dab-800d-711232634ce1",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "trojan",
@@ -49739,10 +49196,7 @@
       "server": "158.101.195.118",
       "server_port": 443,
       "uuid": "2c699fc7-cc37-4ca3-a7fe-c7ab9355a248",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -50219,10 +49673,7 @@
       "server": "185.243.49.205",
       "server_port": 8444,
       "uuid": "ac083fa9-df9a-4722-b70d-24c17bef0516",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -50245,10 +49696,7 @@
       "server": "5.182.46.67",
       "server_port": 2051,
       "uuid": "d843b700-0e0d-5ad9-72d9-46ced5785cd1",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -50388,10 +49836,7 @@
       "server_port": 54757,
       "uuid": "cde9f074-c930-4aa3-a558-46bbc9d0a5a1",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vless",
@@ -50459,10 +49904,7 @@
       "server": "185.207.198.29",
       "server_port": 8880,
       "uuid": "fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "trojan",
@@ -50602,10 +50044,7 @@
       "server_port": 28213,
       "uuid": "81852771-76fb-4e94-e4f1-4e37a698a49a",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vless",
@@ -50753,10 +50192,7 @@
       "server_port": 2055,
       "uuid": "351134b3-bff2-4801-9244-55e1a9d6c4b1",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vless",
@@ -50862,10 +50298,7 @@
       "server_port": 53503,
       "uuid": "c9b9dea3-5868-477f-e54d-2c8f124f647d",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vless",
@@ -50959,10 +50392,7 @@
       "server": "91.99.205.88",
       "server_port": 8247,
       "uuid": "042a604e-d05a-3b25-49ce-71a1b9282e64",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "trojan",
@@ -51563,10 +50993,7 @@
       "server": "91.99.83.55",
       "server_port": 30026,
       "uuid": "a61d2d34-b60c-4014-95f9-1208dc03b49a",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -51815,10 +51242,7 @@
       "server_port": 48673,
       "uuid": "6ae00a4a-b7a9-45fa-8d8b-d74943a17a4c",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "shadowsocks",
@@ -52033,10 +51457,7 @@
       "server": "45.63.60.98",
       "server_port": 12188,
       "uuid": "2fc97eb0-d9d2-4567-99bf-bb5f64b5d5e9",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "trojan",
@@ -52197,10 +51618,7 @@
       "server": "2.189.118.198",
       "server_port": 304,
       "uuid": "a64eb7ab-c1f0-4dd5-b253-a4dcfc333a73",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -52487,10 +51905,7 @@
       "server_port": 1007,
       "uuid": "0ecd9fc4-a229-4942-acaa-fc9eda298b65",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vless",
@@ -52725,10 +52140,7 @@
       "server": "91.99.205.88",
       "server_port": 1517,
       "uuid": "e8ecde4b-ef6e-468e-90fd-1d26371a17f3",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -52792,10 +52204,7 @@
       "server": "77.110.124.63",
       "server_port": 25360,
       "uuid": "d1f79b2e-95b2-40e9-8407-552736728fbc",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -52932,10 +52341,7 @@
       "server_port": 28686,
       "uuid": "6df7d56f-4953-4a10-be2e-a88cc9f94e48",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vless",
@@ -53060,10 +52466,7 @@
       "server_port": 45291,
       "uuid": "469e0b31-30c3-4dab-800d-711232634ce1",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vless",
@@ -53847,10 +53250,7 @@
       "server": "91.99.150.157",
       "server_port": 8247,
       "uuid": "042a604e-d05a-3b25-49ce-71a1b9282e64",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -53873,10 +53273,7 @@
       "server": "45.131.4.20",
       "server_port": 80,
       "uuid": "53fa8faf-ba4b-4322-9c69-a3e5b1555049",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "trojan",
@@ -54139,10 +53536,7 @@
       "server_port": 29999,
       "uuid": "b31fc134-978e-4176-8579-8107d6a0cede",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vless",
@@ -54150,10 +53544,7 @@
       "server": "46.38.147.41",
       "server_port": 8080,
       "uuid": "f388ea6c-9cbf-422a-8623-1a8f03bad584",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -54600,10 +53991,7 @@
       "server_port": 45215,
       "uuid": "469e0b31-30c3-4dab-800d-711232634ce1",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vless",
@@ -55168,10 +54556,7 @@
       "server_port": 10002,
       "uuid": "036a28c3-5c8d-4df3-a79b-9da622640f2b",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vless",
@@ -55251,10 +54636,7 @@
       "server_port": 609,
       "uuid": "d641e03f-9c7b-4b3d-85d7-1b2792fb2fe2",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vless",
@@ -55730,10 +55112,7 @@
       "server": "38.180.105.218",
       "server_port": 9091,
       "uuid": "62237966-b2c6-4bf9-a269-3717e1773c99",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "shadowsocks",
@@ -55820,10 +55199,7 @@
       "server": "141.105.70.71",
       "server_port": 2086,
       "uuid": "acfd7e81-54ba-46ba-a3fb-0095470453ce",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -56268,10 +55644,7 @@
       "server": "45.131.208.34",
       "server_port": 80,
       "uuid": "53fa8faf-ba4b-4322-9c69-a3e5b1555049",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "trojan",
@@ -56377,10 +55750,7 @@
       "server_port": 33940,
       "uuid": "353e0787-71bc-442d-9c9d-902f90359eb5",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "shadowsocks",
@@ -57336,10 +56706,7 @@
       "server_port": 35731,
       "uuid": "af5d9b7a-fbce-45ac-a945-9fc49f245542",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vless",
@@ -58000,10 +57367,7 @@
       "server_port": 38872,
       "uuid": "220732cc-9e43-4453-83f1-c9435be25b5b",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vmess",
@@ -58012,10 +57376,7 @@
       "server_port": 3911,
       "uuid": "4e51fb58-ef69-42bd-8536-acfd52d28afd",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vless",
@@ -58220,10 +57581,7 @@
       "server_port": 44883,
       "uuid": "418048af-a293-4b99-9b0c-98ca3580dd24",
       "security": "auto",
-      "alter_id": "64",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "64"
     },
     {
       "type": "vless",
@@ -58332,10 +57690,7 @@
       "server": "209.38.100.174",
       "server_port": 1003,
       "uuid": "39baadce-3e0b-4322-8de1-797bf7f25b8a",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -58399,10 +57754,7 @@
       "server": "91.99.83.55",
       "server_port": 2098,
       "uuid": "a61d2d34-b60c-4014-95f9-1208dc03b49a",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -58425,10 +57777,7 @@
       "server": "194.145.119.211",
       "server_port": 51721,
       "uuid": "ce0d56cd-6bea-4781-962d-061949e8c194",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -58695,10 +58044,7 @@
       "server": "91.99.145.219",
       "server_port": 443,
       "uuid": "2eaef053-5fd6-4def-b234-d760690355ff",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -58897,10 +58243,7 @@
       "server_port": 45245,
       "uuid": "469e0b31-30c3-4dab-800d-711232634ce1",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vless",
@@ -59085,10 +58428,7 @@
       "server_port": 45417,
       "uuid": "469e0b31-30c3-4dab-800d-711232634ce1",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vless",
@@ -59205,10 +58545,7 @@
       "server": "81.12.32.20",
       "server_port": 1074,
       "uuid": "6dc99686-634e-4873-8315-6c8a906a4d26",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -59657,10 +58994,7 @@
       "server_port": 26022,
       "uuid": "3a6c789f-0548-4ca3-83c0-2c78acbee811",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vless",
@@ -59696,10 +59030,7 @@
       "server_port": 56320,
       "uuid": "c4ec67a8-1dcc-471d-a6d7-4d9b9ec1726d",
       "security": "auto",
-      "alter_id": 0,
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": 0
     },
     {
       "type": "trojan",
@@ -59749,10 +59080,7 @@
       "server_port": 45242,
       "uuid": "469e0b31-30c3-4dab-800d-711232634ce1",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vless",
@@ -59977,10 +59305,7 @@
       "server": "141.101.120.43",
       "server_port": 2083,
       "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -59988,10 +59313,7 @@
       "server": "94.131.108.195",
       "server_port": 53221,
       "uuid": "90efad13-d266-4d10-a914-bc40028ec469",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -60112,10 +59434,7 @@
       "server": "85.198.10.163",
       "server_port": 17841,
       "uuid": "19e7cc11-be49-491b-aed5-5ee2d1118c08",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -60281,10 +59600,7 @@
       "server": "89.235.116.41",
       "server_port": 8087,
       "uuid": "33dcd6b4-3891-45c4-9749-9eff8f948eaf",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -60493,10 +59809,7 @@
       "server_port": 4951,
       "uuid": "e5d50439-47a8-467f-bead-00d3c4ab86f3",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "shadowsocks",
@@ -60748,10 +60061,7 @@
       "server_port": 6009,
       "uuid": "2bf6cb84-d726-43eb-9928-8d8e442a4b6c",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vless",
@@ -60801,10 +60111,7 @@
       "server": "24.144.77.41",
       "server_port": 1003,
       "uuid": "39baadce-3e0b-4322-8de1-797bf7f25b8a",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "shadowsocks",
@@ -60847,10 +60154,7 @@
       "server_port": 1387,
       "uuid": "f00bee3a-e50c-4e24-b004-ed3f21a1d834",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vless",
@@ -60885,10 +60189,7 @@
       "server_port": 26013,
       "uuid": "3a6c789f-0548-4ca3-83c0-2c78acbee811",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "trojan",
@@ -60953,10 +60254,7 @@
       "server_port": 46290,
       "uuid": "1b41153e-c4d4-431b-83eb-10472f869f93",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vless",
@@ -62202,10 +61500,7 @@
       "server": "2.188.224.34",
       "server_port": 2020,
       "uuid": "9f28ea05-f182-4ca8-9ec7-136a12f18ae6",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -62526,10 +61821,7 @@
       "server_port": 51566,
       "uuid": "ae6ae977-17f2-43fd-a336-20b3b3a9e791",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "shadowsocks",
@@ -62639,10 +61931,7 @@
       "server": "91.99.125.246",
       "server_port": 1517,
       "uuid": "e8ecde4b-ef6e-468e-90fd-1d26371a17f3",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -62650,10 +61939,7 @@
       "server": "62.60.138.92",
       "server_port": 430,
       "uuid": "39f1fbd3-74f0-4a31-a3bd-a54b1b96603e",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "shadowsocks",
@@ -63283,10 +62569,7 @@
       "server": "77.110.121.136",
       "server_port": 14703,
       "uuid": "5a39e3c7-ba53-433c-ae32-0bc18d81dbe3",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "trojan",
@@ -63596,10 +62879,7 @@
       "server_port": 2096,
       "uuid": "604fa262-146a-437f-9206-93b16ea30176",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vless",
@@ -63668,10 +62948,7 @@
       "server_port": 1007,
       "uuid": "0ecd9fc4-a229-4942-acaa-fc9eda298b65",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vless",
@@ -63694,10 +62971,7 @@
       "server": "85.133.247.41",
       "server_port": 2082,
       "uuid": "0a84776a-5e28-4011-ba88-8905c50858e7",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "trojan",
@@ -64562,10 +63836,7 @@
       "server_port": 1007,
       "uuid": "0ecd9fc4-a229-4942-acaa-fc9eda298b65",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vless",
@@ -64685,10 +63956,7 @@
       "server": "91.99.205.88",
       "server_port": 4928,
       "uuid": "e8ecde4b-ef6e-468e-90fd-1d26371a17f3",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -65429,10 +64697,7 @@
       "server": "194.1.155.115",
       "server_port": 1022,
       "uuid": "447b8797-1429-4e3e-9137-f29d8b2b414d",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -66329,10 +65594,7 @@
       "server_port": 15361,
       "uuid": "5d7bf9e3-415c-40f3-c66d-a54ea0fd860e",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vless",
@@ -66708,10 +65970,7 @@
       "server": "91.99.86.28",
       "server_port": 64560,
       "uuid": "6322fa6a-2612-43a3-baea-f549261c6b2d",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "trojan",
@@ -66746,10 +66005,7 @@
       "server_port": 8081,
       "uuid": "cb810065-88b0-4d6a-9d92-67ee32491616",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vless",
@@ -67025,10 +66281,7 @@
       "server_port": 20236,
       "uuid": "519cac48-4e9e-49a6-b195-1eb9a13427e6",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "trojan",
@@ -67232,10 +66485,7 @@
       "server_port": 45231,
       "uuid": "469e0b31-30c3-4dab-800d-711232634ce1",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "trojan",
@@ -67577,10 +66827,7 @@
       "server": "141.101.120.125",
       "server_port": 2083,
       "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -67720,10 +66967,7 @@
       "server_port": 17646,
       "uuid": "82734724-8c06-4c2e-9cff-b34776fe1757",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vless",
@@ -67864,10 +67108,7 @@
       "server_port": 57143,
       "uuid": "28efbf36-079a-4c98-8470-d13458db6ee6",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vless",
@@ -67995,10 +67236,7 @@
       "server": "94.182.105.74",
       "server_port": 222,
       "uuid": "c5c5c7ec-db3b-49be-8027-304ec405d68f",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -68086,10 +67324,7 @@
       "server_port": 10001,
       "uuid": "8c2777c9-c5e7-4b34-acdb-71600ef02e89",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "trojan",
@@ -68203,10 +67438,7 @@
       "server_port": 4951,
       "uuid": "e5d50439-47a8-467f-bead-00d3c4ab86f3",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vless",
@@ -68285,10 +67517,7 @@
       "server": "141.101.121.206",
       "server_port": 2083,
       "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -68838,10 +68067,7 @@
       "server_port": 20017,
       "uuid": "7c8326eb-4250-4f77-8e1f-0210a69e9ade",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vless",
@@ -68969,10 +68195,7 @@
       "server": "141.101.121.244",
       "server_port": 2083,
       "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -69260,10 +68483,7 @@
       "server_port": 4951,
       "uuid": "e5d50439-47a8-467f-bead-00d3c4ab86f3",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "shadowsocks",
@@ -69279,10 +68499,7 @@
       "server": "104.18.63.249",
       "server_port": 80,
       "uuid": "b67d238c-742c-492c-a44c-a2001186ff5b",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -69380,10 +68597,7 @@
       "server": "85.9.123.77",
       "server_port": 12871,
       "uuid": "3843e5cf-7168-496c-a7b4-50fc8146586d",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -69391,10 +68605,7 @@
       "server": "45.120.178.115",
       "server_port": 80,
       "uuid": "53fa8faf-ba4b-4322-9c69-a3e5b1555049",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -69447,10 +68658,7 @@
       "server": "62.60.163.140",
       "server_port": 8080,
       "uuid": "c0cd0008-8359-4c6d-8f90-9c8dcc9c61e9",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "trojan",
@@ -69838,10 +69046,7 @@
       "server_port": 10165,
       "uuid": "1bf6a29c-4f0c-4d4c-896c-b3b770d94e82",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "trojan",
@@ -69921,10 +69126,7 @@
       "server": "185.126.200.116",
       "server_port": 2096,
       "uuid": "f7508eb9-b5e8-4df2-849c-fe6d37abb68b",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -70207,10 +69409,7 @@
       "server_port": 1007,
       "uuid": "0ecd9fc4-a229-4942-acaa-fc9eda298b65",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "trojan",
@@ -70310,10 +69509,7 @@
       "server_port": 56104,
       "uuid": "efd57bc3-8086-48bd-9b1a-6fd8ab8cee6d",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vless",
@@ -70957,10 +70153,7 @@
       "server_port": 18000,
       "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
       "security": "auto",
-      "alter_id": 0,
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": 0
     },
     {
       "type": "trojan",
@@ -71100,10 +70293,7 @@
       "server": "85.133.201.194",
       "server_port": 2770,
       "uuid": "e71b96b5-63bc-4387-8471-582aff68afb1",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "trojan",
@@ -71186,10 +70376,7 @@
       "server": "91.99.83.55",
       "server_port": 33806,
       "uuid": "a61d2d34-b60c-4014-95f9-1208dc03b49a",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -71783,10 +70970,7 @@
       "server_port": 45258,
       "uuid": "469e0b31-30c3-4dab-800d-711232634ce1",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vless",
@@ -71962,10 +71146,7 @@
       "server": "173.245.59.132",
       "server_port": 2053,
       "uuid": "ca426e95-9d37-4cca-9521-e61dc50186c2",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -72690,10 +71871,7 @@
       "server": "85.133.219.236",
       "server_port": 53403,
       "uuid": "ef3f6f19-f286-4615-ba0b-63c7f9692a30",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -72701,10 +71879,7 @@
       "server": "46.38.148.45",
       "server_port": 5050,
       "uuid": "fa220dbd-8223-4ab5-a574-239885fead2b",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -72811,10 +71986,7 @@
       "server_port": 45266,
       "uuid": "469e0b31-30c3-4dab-800d-711232634ce1",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vless",
@@ -72888,10 +72060,7 @@
       "server_port": 15002,
       "uuid": "9f513161-576b-3abc-9c98-06e52c3a24c6",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vless",
@@ -72899,10 +72068,7 @@
       "server": "185.43.211.99",
       "server_port": 42536,
       "uuid": "57d127e9-38da-494b-afeb-494de5ff1a91",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -73415,10 +72581,7 @@
       "server": "91.99.150.156",
       "server_port": 7964,
       "uuid": "b96981a2-a6aa-44c0-b21f-88328379ec33",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -73532,10 +72695,7 @@
       "server_port": 2794,
       "uuid": "d8183e4b-8f9e-497b-8cd7-a90e64ef74e8",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vless",
@@ -73696,10 +72856,7 @@
       "server": "172.67.70.123",
       "server_port": 2052,
       "uuid": "dfc1a9ab-6241-4b73-92f7-b299fc6b7751",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "trojan",
@@ -74055,10 +73212,7 @@
       "server": "5.145.113.117",
       "server_port": 8443,
       "uuid": "358289ab-2735-4ca1-8c1a-80f040e4866e",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "shadowsocks",
@@ -74176,10 +73330,7 @@
       "server_port": 4030,
       "uuid": "c2477627-6b58-4084-bb59-97de55591b39",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vless",
@@ -74412,10 +73563,7 @@
       "server": "104.21.11.45",
       "server_port": 2095,
       "uuid": "88022377-3d2f-4123-8a63-41d39287f09a",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "shadowsocks",
@@ -74699,10 +73847,7 @@
       "server": "37.32.41.125",
       "server_port": 9444,
       "uuid": "844c8209-e55d-4d03-a177-7cdc663ed6f9",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -74808,10 +73953,7 @@
       "server_port": 80,
       "uuid": "13ea1f40-68f7-45e7-9107-eaf081a9ab18",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vless",
@@ -75188,10 +74330,7 @@
       "server_port": 8081,
       "uuid": "3873beec-44c6-45be-8900-d184a1d0ee8f",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vmess",
@@ -75200,10 +74339,7 @@
       "server_port": 48889,
       "uuid": "c130cb36-c93f-4be7-9228-a7a97d43885a",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vless",
@@ -75260,10 +74396,7 @@
       "server": "5.182.46.64",
       "server_port": 2051,
       "uuid": "d843b700-0e0d-5ad9-72d9-46ced5785cd1",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "trojan",
@@ -75743,10 +74876,7 @@
       "server_port": 444,
       "uuid": "523d8d78-411a-4849-b17f-ccff6bcbf564",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vless",
@@ -75806,10 +74936,7 @@
       "server": "141.101.120.182",
       "server_port": 2083,
       "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -76041,10 +75168,7 @@
       "server": "85.133.204.235",
       "server_port": 1010,
       "uuid": "a3ed4feb-d7c5-4f8f-bd9e-74cb01597843",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -76112,10 +75236,7 @@
       "server": "141.101.121.80",
       "server_port": 2083,
       "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "trojan",
@@ -76145,10 +75266,7 @@
       "server": "162.159.137.232",
       "server_port": 8880,
       "uuid": "546cfb84-120f-43db-89db-5cba033bf9dc",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -76216,10 +75334,7 @@
       "server": "185.141.107.136",
       "server_port": 13798,
       "uuid": "318d45fa-d5fa-461e-9276-3084af1fa423",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "trojan",
@@ -76572,10 +75687,7 @@
       "server": "146.75.118.133",
       "server_port": 80,
       "uuid": "33d47028-23d1-479d-8718-d7cb9d10f5d7",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -76818,10 +75930,7 @@
       "server": "185.201.49.30",
       "server_port": 58088,
       "uuid": "c058fe92-58fd-18fe-2ce0-53eebbeb2ceb",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -76856,10 +75965,7 @@
       "server": "142.93.228.176",
       "server_port": 1003,
       "uuid": "39baadce-3e0b-4322-8de1-797bf7f25b8a",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "trojan",
@@ -77156,10 +76262,7 @@
       "server_port": 8877,
       "uuid": "654285e6-23fb-4073-b8de-eba90f562fe6",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "shadowsocks",
@@ -77314,10 +76417,7 @@
       "server": "91.99.80.183",
       "server_port": 51615,
       "uuid": "2eaef053-5fd6-4def-b234-d760690355ff",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "shadowsocks",
@@ -77598,10 +76698,7 @@
       "server": "167.172.54.47",
       "server_port": 8880,
       "uuid": "dd27cbd6-9995-4338-9219-20277324be65",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -77810,10 +76907,7 @@
       "server_port": 1007,
       "uuid": "0ecd9fc4-a229-4942-acaa-fc9eda298b65",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "shadowsocks",
@@ -77856,10 +76950,7 @@
       "server_port": 42323,
       "uuid": "4381beae-45a6-4421-8547-65e312dd204a",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "trojan",
@@ -77908,10 +76999,7 @@
       "server": "185.215.228.237",
       "server_port": 38719,
       "uuid": "a6413839-0ef1-48e6-a9cf-85e9ab870d2c",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -79279,10 +78367,7 @@
       "server": "91.99.148.251",
       "server_port": 1517,
       "uuid": "e8ecde4b-ef6e-468e-90fd-1d26371a17f3",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -79692,10 +78777,7 @@
       "server_port": 8084,
       "uuid": "8a4e78c6-bf74-49b9-a11a-dc1ebd9e5006",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vless",
@@ -79756,10 +78838,7 @@
       "server_port": 30562,
       "uuid": "82466715-6a58-4046-a363-a0d18e5b2ab4",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vless",
@@ -79823,10 +78902,7 @@
       "server": "77.91.77.184",
       "server_port": 53236,
       "uuid": "91528b25-d56e-408c-a451-322267a6bf9a",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "shadowsocks",
@@ -79895,10 +78971,7 @@
       "server": "47.76.218.163",
       "server_port": 443,
       "uuid": "63601f9f-7c67-4952-919a-1ef802b5a7ec",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -80008,10 +79081,7 @@
       "server_port": 27750,
       "uuid": "4b1992cc-8e7c-4003-a45f-a28c3e6f6fa8",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vless",
@@ -80137,10 +79207,7 @@
       "server_port": 23992,
       "uuid": "a0e5c19f-70cf-4d5a-b81d-f733a9467875",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vless",
@@ -80596,10 +79663,7 @@
       "server_port": 6014,
       "uuid": "2bf6cb84-d726-43eb-9928-8d8e442a4b6c",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "trojan",
@@ -80663,10 +79727,7 @@
       "server": "37.202.225.74",
       "server_port": 56343,
       "uuid": "a2380166-e44b-4054-a3fe-2efde8f92b02",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -80764,10 +79825,7 @@
       "server": "78.109.194.131",
       "server_port": 41253,
       "uuid": "3cb6d79c-c728-4209-b6ee-663c41747f68",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "trojan",
@@ -81145,10 +80203,7 @@
       "server": "95.38.246.121",
       "server_port": 11917,
       "uuid": "4d697fd2-1a97-47b6-b1be-97e78f26b4a0",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -81207,10 +80262,7 @@
       "server_port": 44396,
       "uuid": "3ca35e0a-e430-43fe-9c12-2e2eea70f873",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vless",
@@ -81599,10 +80651,7 @@
       "server_port": 35696,
       "uuid": "cad0504a-a9dc-4d29-8844-b11b69f14a8d",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vless",
@@ -82131,10 +81180,7 @@
       "server_port": 56320,
       "uuid": "c4ec67a8-1dcc-471d-a6d7-4d9b9ec1726d",
       "security": "auto",
-      "alter_id": 0,
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": 0
     },
     {
       "type": "shadowsocks",
@@ -82305,10 +81351,7 @@
       "server_port": 56322,
       "uuid": "c4ec67a8-1dcc-471d-a6d7-4d9b9ec1726d",
       "security": "auto",
-      "alter_id": 0,
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": 0
     },
     {
       "type": "vless",
@@ -82403,10 +81446,7 @@
       "server_port": 28860,
       "uuid": "1784497d-03a1-40bb-bb8b-de4ffac7c59c",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vless",
@@ -82505,10 +81545,7 @@
       "server_port": 59003,
       "uuid": "418048af-a293-4b99-9b0c-98ca3580dd24",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "trojan",
@@ -82613,10 +81650,7 @@
       "server": "104.16.251.13",
       "server_port": 80,
       "uuid": "e59be95e-7539-4a31-9b2d-a03a8f072ff3",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "trojan",
@@ -83215,10 +82249,7 @@
       "server": "185.18.215.197",
       "server_port": 9091,
       "uuid": "62237966-b2c6-4bf9-a269-3717e1773c98",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -83226,10 +82257,7 @@
       "server": "172.67.135.195",
       "server_port": 80,
       "uuid": "53fa8faf-ba4b-4322-9c69-a3e5b1555049",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -83351,10 +82379,7 @@
       "server_port": 47211,
       "uuid": "fb674260-1c21-4f99-8bd0-3d1d341c6771",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vless",
@@ -83547,10 +82572,7 @@
       "server": "162.159.138.232",
       "server_port": 8880,
       "uuid": "546cfb84-120f-43db-89db-5cba033bf9dc",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "shadowsocks",
@@ -83656,10 +82678,7 @@
       "server": "141.101.121.120",
       "server_port": 2083,
       "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "trojan",
@@ -83898,10 +82917,7 @@
       "server": "185.49.105.233",
       "server_port": 5000,
       "uuid": "ae110a62-fa2b-455b-b620-1e85dbdf870a",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -83909,10 +82925,7 @@
       "server": "91.99.171.12",
       "server_port": 443,
       "uuid": "36ee3f5a-3816-4c03-a324-47531167e53b",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -84101,10 +83114,7 @@
       "server": "162.159.136.232",
       "server_port": 8880,
       "uuid": "546cfb84-120f-43db-89db-5cba033bf9dc",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "trojan",
@@ -84480,10 +83490,7 @@
       "server_port": 44863,
       "uuid": "9926bf9f-5c75-4066-8ece-207dee73781f",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "trojan",
@@ -84923,10 +83930,7 @@
       "server_port": 1007,
       "uuid": "0ecd9fc4-a229-4942-acaa-fc9eda298b65",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vless",
@@ -85005,10 +84009,7 @@
       "server": "5.198.168.44",
       "server_port": 2096,
       "uuid": "5535a1d6-9f64-4bb6-bfe7-fe4d58a6497f",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -85155,10 +84156,7 @@
       "server_port": 56322,
       "uuid": "c4ec67a8-1dcc-471d-a6d7-4d9b9ec1726d",
       "security": "auto",
-      "alter_id": 0,
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": 0
     },
     {
       "type": "vless",
@@ -85241,10 +84239,7 @@
       "server": "178.239.149.82",
       "server_port": 10002,
       "uuid": "c9eeb167-aa1d-49c6-a843-807bd17fe17c",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "shadowsocks",
@@ -85425,10 +84420,7 @@
       "server_port": 42320,
       "uuid": "4381beae-45a6-4421-8547-65e312dd204a",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vless",
@@ -85451,10 +84443,7 @@
       "server": "185.215.229.97",
       "server_port": 2222,
       "uuid": "dd21b55c-a1e5-47db-dc93-eb6fcba28226",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "trojan",
@@ -85602,10 +84591,7 @@
       "server_port": 1007,
       "uuid": "0ecd9fc4-a229-4942-acaa-fc9eda298b65",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "trojan",
@@ -86024,10 +85010,7 @@
       "server": "104.18.22.19",
       "server_port": 80,
       "uuid": "4094f4ed-cc16-46b2-a1a0-e56910baf105",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "trojan",
@@ -86467,10 +85450,7 @@
       "server_port": 8090,
       "uuid": "891e1d1c-5fbc-40cb-9256-58b016b6b600",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vless",
@@ -86524,10 +85504,7 @@
       "server_port": 56051,
       "uuid": "2bca3569-0662-47f7-fdf8-421f30e71f44",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vless",
@@ -86535,10 +85512,7 @@
       "server": "185.83.182.218",
       "server_port": 1022,
       "uuid": "447b8797-1429-4e3e-9137-f29d8b2b414d",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -86644,10 +85618,7 @@
       "server_port": 28444,
       "uuid": "1be8eddb-4f8c-45d0-b2a1-e538eb3abd39",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "trojan",
@@ -86765,10 +85736,7 @@
       "server_port": 45235,
       "uuid": "469e0b31-30c3-4dab-800d-711232634ce1",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "trojan",
@@ -87070,10 +86038,7 @@
       "server_port": 1007,
       "uuid": "0ecd9fc4-a229-4942-acaa-fc9eda298b65",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vless",
@@ -87097,10 +86062,7 @@
       "server_port": 39253,
       "uuid": "69b49a35-cf55-4d14-9f2b-d7ce3a0db72e",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vless",
@@ -87589,10 +86551,7 @@
       "server": "84.234.31.140",
       "server_port": 66,
       "uuid": "98f6bad3-37ea-4b8e-8892-e759c0c0c67b",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -87863,10 +86822,7 @@
       "server": "46.38.138.100",
       "server_port": 443,
       "uuid": "f9c434d8-805b-4ce4-9042-7ea456affd98",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "trojan",
@@ -88101,10 +87057,7 @@
       "server_port": 1007,
       "uuid": "0ecd9fc4-a229-4942-acaa-fc9eda298b65",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vless",
@@ -88773,10 +87726,7 @@
       "server": "78.157.38.244",
       "server_port": 2929,
       "uuid": "2825876c-4610-43fe-8d4b-a2551e5185d6",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -88973,10 +87923,7 @@
       "server": "91.99.170.191",
       "server_port": 443,
       "uuid": "36ee3f5a-3816-4c03-a324-47531167e53b",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -89201,10 +88148,7 @@
       "server": "141.101.121.33",
       "server_port": 2083,
       "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -89315,10 +88259,7 @@
       "server_port": 62002,
       "uuid": "5b9b682a-7811-4050-b287-254320f3ac9e",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vless",
@@ -89526,10 +88467,7 @@
       "server_port": 12540,
       "uuid": "056d3d35-a729-4ab4-bbae-d71d8458af19",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vless",
@@ -89578,10 +88516,7 @@
       "server": "172.67.165.37",
       "server_port": 2095,
       "uuid": "88022377-3d2f-4123-8a63-41d39287f09a",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -89923,10 +88858,7 @@
       "server_port": 42562,
       "uuid": "7905c28d-34d7-435a-b67e-d1d2d342f011",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "trojan",
@@ -90349,10 +89281,7 @@
       "server_port": 3000,
       "uuid": "cc101ff1-3452-41c3-89fe-c2a5a20dc6dc",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "trojan",
@@ -90918,10 +89847,7 @@
       "server": "199.232.214.172",
       "server_port": 80,
       "uuid": "461b0991-d24b-42dc-87c2-c505cf1a01f4",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -90960,10 +89886,7 @@
       "server_port": 15074,
       "uuid": "9f513161-576b-3abc-9c98-06e52c3a24c6",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vless",
@@ -90971,10 +89894,7 @@
       "server": "162.159.128.233",
       "server_port": 8880,
       "uuid": "546cfb84-120f-43db-89db-5cba033bf9dc",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -91091,10 +90011,7 @@
       "server": "213.142.133.184",
       "server_port": 11928,
       "uuid": "67525da1-a606-4725-98f3-513c13904d9d",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -91248,10 +90165,7 @@
       "server": "104.21.7.50",
       "server_port": 80,
       "uuid": "53fa8faf-ba4b-4322-9c69-a3e5b1555049",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -91704,10 +90618,7 @@
       "server_port": 30101,
       "uuid": "04AD7029-AC73-C78D-2E6E-338107678C59",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vless",
@@ -91794,10 +90705,7 @@
       "server": "212.33.201.187",
       "server_port": 2051,
       "uuid": "d843b700-0e0d-5ad9-72d9-46ced5785cd1",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -91846,10 +90754,7 @@
       "server": "156.238.18.124",
       "server_port": 80,
       "uuid": "53fa8faf-ba4b-4322-9c69-a3e5b1555049",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "shadowsocks",
@@ -92262,10 +91167,7 @@
       "server_port": 6008,
       "uuid": "604fa262-146a-437f-9206-93b16ea30176",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vless",
@@ -92330,10 +91232,7 @@
       "server_port": 3000,
       "uuid": "cc101ff1-3452-41c3-89fe-c2a5a20dc6dc",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "shadowsocks",
@@ -92721,10 +91620,7 @@
       "server_port": 8484,
       "uuid": "8f772f706bd6412da86ce4601d2bf986",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vless",
@@ -93133,10 +92029,7 @@
       "server": "81.12.32.135",
       "server_port": 32990,
       "uuid": "a804bb53-7504-4f06-96d8-ff56fb71539d",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -93276,10 +92169,7 @@
       "server_port": 26021,
       "uuid": "3a6c789f-0548-4ca3-83c0-2c78acbee811",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vless",
@@ -93378,10 +92268,7 @@
       "server_port": 48160,
       "uuid": "5b113c12-4dd4-4bb5-9c01-cff092b559e3",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vless",
@@ -93957,10 +92844,7 @@
       "server_port": 18598,
       "uuid": "bf26f2fb-9d2a-49b6-8527-82e8aba3a9a9",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "trojan",
@@ -94006,9 +92890,6 @@
       "server_port": 8080,
       "uuid": "bcaabac-aacb-caba-adcb-bcaccbaaabbc",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1",

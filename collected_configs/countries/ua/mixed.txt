@@ -75,10 +75,7 @@
       "server_port": 17646,
       "uuid": "82734724-8c06-4c2e-9cff-b34776fe1757",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vless",

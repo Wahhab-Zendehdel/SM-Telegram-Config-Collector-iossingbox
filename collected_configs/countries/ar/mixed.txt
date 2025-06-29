@@ -64,9 +64,6 @@
       "server_port": 443,
       "uuid": "10b1dde8-2145-4480-82b6-6dbb11552b4f",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "vk.com",

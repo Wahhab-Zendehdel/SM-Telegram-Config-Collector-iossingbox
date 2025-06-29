@@ -434,9 +434,6 @@
       "server_port": 34045,
       "uuid": "d8dd94fd-540e-461d-b5d4-acebef02c22a",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "visit-this-invitation-link-to-join-tg-enkelte-notif.ekt.me",

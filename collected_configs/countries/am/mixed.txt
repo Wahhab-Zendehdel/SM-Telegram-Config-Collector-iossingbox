@@ -1129,9 +1129,6 @@
       "server_port": 443,
       "uuid": "32932937-b85f-40be-ae02-997ea5b0b62a",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "app.hubspot.com",
@@ -1178,9 +1175,6 @@
       "server_port": 8443,
       "uuid": "df54e90b-a045-489e-8666-d77a73e4effe",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "armenia.extvay.ir",

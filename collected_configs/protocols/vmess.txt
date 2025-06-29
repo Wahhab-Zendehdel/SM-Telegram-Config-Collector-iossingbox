@@ -7,10 +7,7 @@
       "server_port": 1080,
       "uuid": "bccaaba-baca-acab-cadb-bcabbaacbacc",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vmess",
@@ -19,10 +16,7 @@
       "server_port": 2080,
       "uuid": "cbaaabc-acba-abca-bdca-bababcacaccb",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vmess",
@@ -31,10 +25,7 @@
       "server_port": 3080,
       "uuid": "ababcac-acba-cbaa-adbc-acbacacbbbca",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vmess",
@@ -79,10 +70,7 @@
       "server_port": 36141,
       "uuid": "d31ee52f-b6e4-4db8-9c95-98855ec823cc",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vmess",
@@ -147,10 +135,7 @@
       "server_port": 53710,
       "uuid": "1db838d0-ecd2-4b73-a7f8-5af6b401d833",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vmess",
@@ -159,10 +144,7 @@
       "server_port": 39530,
       "uuid": "7aa56e39-29b8-45c3-8b53-6d2a23b2461c",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vmess",
@@ -171,10 +153,7 @@
       "server_port": 26022,
       "uuid": "3a6c789f-0548-4ca3-83c0-2c78acbee811",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vmess",
@@ -199,10 +178,7 @@
       "server_port": 56051,
       "uuid": "2bca3569-0662-47f7-fdf8-421f30e71f44",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vmess",
@@ -211,10 +187,7 @@
       "server_port": 45037,
       "uuid": "175fc5e3-3e65-41d1-aa27-b7842ee3d8b7",
       "security": "auto",
-      "alter_id": 0,
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": 0
     },
     {
       "type": "vmess",
@@ -223,10 +196,7 @@
       "server_port": 38872,
       "uuid": "220732cc-9e43-4453-83f1-c9435be25b5b",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vmess",
@@ -251,10 +221,7 @@
       "server_port": 1007,
       "uuid": "0ecd9fc4-a229-4942-acaa-fc9eda298b65",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vmess",
@@ -263,10 +230,7 @@
       "server_port": 14129,
       "uuid": "e7798e09-3090-4366-ae80-f18afdaabf4f",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vmess",
@@ -275,10 +239,7 @@
       "server_port": 20236,
       "uuid": "519cac48-4e9e-49a6-b195-1eb9a13427e6",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vmess",
@@ -287,10 +248,7 @@
       "server_port": 10165,
       "uuid": "1bf6a29c-4f0c-4d4c-896c-b3b770d94e82",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vmess",
@@ -315,10 +273,7 @@
       "server_port": 12540,
       "uuid": "056d3d35-a729-4ab4-bbae-d71d8458af19",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vmess",
@@ -347,10 +302,7 @@
       "server_port": 3911,
       "uuid": "4e51fb58-ef69-42bd-8536-acfd52d28afd",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vmess",
@@ -371,10 +323,7 @@
       "server_port": 21938,
       "uuid": "583bebef-3e0b-4c85-ba80-39e07ce35ad9",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vmess",
@@ -400,10 +349,7 @@
       "server_port": 54757,
       "uuid": "cde9f074-c930-4aa3-a558-46bbc9d0a5a1",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vmess",
@@ -412,10 +358,7 @@
       "server_port": 16000,
       "uuid": "6901a621-e9ee-421d-8575-a1d04129227b",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vmess",
@@ -444,10 +387,7 @@
       "server_port": 62004,
       "uuid": "5b9b682a-7811-4050-b287-254320f3ac9e",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vmess",
@@ -456,10 +396,7 @@
       "server_port": 58819,
       "uuid": "b0bf81e1-0b18-4253-a278-d516f580240a",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vmess",
@@ -468,10 +405,7 @@
       "server_port": 56320,
       "uuid": "c4ec67a8-1dcc-471d-a6d7-4d9b9ec1726d",
       "security": "auto",
-      "alter_id": 0,
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": 0
     },
     {
       "type": "vmess",
@@ -504,10 +438,7 @@
       "server_port": 8484,
       "uuid": "8f772f706bd6412da86ce4601d2bf986",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vmess",
@@ -516,10 +447,7 @@
       "server_port": 4951,
       "uuid": "e5d50439-47a8-467f-bead-00d3c4ab86f3",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vmess",
@@ -541,10 +469,7 @@
       "server_port": 15382,
       "uuid": "15052e07-4371-4c69-8852-1112114c5947",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vmess",
@@ -553,10 +478,7 @@
       "server_port": 29966,
       "uuid": "27f22d09-ef89-4606-a42b-f677d0c54d0d",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vmess",
@@ -565,10 +487,7 @@
       "server_port": 6006,
       "uuid": "2bf6cb84-d726-43eb-9928-8d8e442a4b6c",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vmess",
@@ -577,10 +496,7 @@
       "server_port": 45242,
       "uuid": "469e0b31-30c3-4dab-800d-711232634ce1",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vmess",
@@ -589,10 +505,7 @@
       "server_port": 8084,
       "uuid": "8a4e78c6-bf74-49b9-a11a-dc1ebd9e5006",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vmess",
@@ -601,10 +514,7 @@
       "server_port": 33940,
       "uuid": "353e0787-71bc-442d-9c9d-902f90359eb5",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vmess",
@@ -629,10 +539,7 @@
       "server_port": 11060,
       "uuid": "5cdd371e-cc4e-4ea2-91a8-c755f00f67a0",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vmess",
@@ -641,10 +548,7 @@
       "server_port": 44883,
       "uuid": "418048af-a293-4b99-9b0c-98ca3580dd24",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vmess",
@@ -653,10 +557,7 @@
       "server_port": 45317,
       "uuid": "b2836369-220b-4840-80c4-8cf904c735ee",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vmess",
@@ -665,10 +566,7 @@
       "server_port": 19901,
       "uuid": "066b32cc-ee3d-4719-b1f0-2f202298737e",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vmess",
@@ -677,10 +575,7 @@
       "server_port": 55701,
       "uuid": "9e681ef5-5ede-46e3-9fd0-ae00be112f40",
       "security": "auto",
-      "alter_id": 0,
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": 0
     },
     {
       "type": "vmess",
@@ -689,10 +584,7 @@
       "server_port": 42341,
       "uuid": "4381beae-45a6-4421-8547-65e312dd204a",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vmess",
@@ -701,10 +593,7 @@
       "server_port": 45231,
       "uuid": "469e0b31-30c3-4dab-800d-711232634ce1",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vmess",
@@ -713,10 +602,7 @@
       "server_port": 30562,
       "uuid": "82466715-6a58-4046-a363-a0d18e5b2ab4",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vmess",
@@ -725,10 +611,7 @@
       "server_port": 44104,
       "uuid": "e9933a4c-e56e-458c-bcf4-9cb3875bba55",
       "security": "auto",
-      "alter_id": 0,
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": 0
     },
     {
       "type": "vmess",
@@ -750,10 +633,7 @@
       "server_port": 49664,
       "uuid": "9395474c-e2a1-4565-ba56-c16e7373c4c4",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vmess",
@@ -762,10 +642,7 @@
       "server_port": 28213,
       "uuid": "81852771-76fb-4e94-e4f1-4e37a698a49a",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vmess",
@@ -810,10 +687,7 @@
       "server_port": 59859,
       "uuid": "8cfdc398-2903-49e2-9fab-d57c0a36d665",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vmess",
@@ -838,10 +712,7 @@
       "server_port": 39253,
       "uuid": "69b49a35-cf55-4d14-9f2b-d7ce3a0db72e",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vmess",
@@ -850,10 +721,7 @@
       "server_port": 3223,
       "uuid": "c0b33b5a-c27e-f273-e3ee-d25f7bbf73dd",
       "security": "auto",
-      "alter_id": 0,
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": 0
     },
     {
       "type": "vmess",
@@ -862,10 +730,7 @@
       "server_port": 50007,
       "uuid": "418048af-a293-4b99-9b0c-98ca3580dd24",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vmess",
@@ -874,10 +739,7 @@
       "server_port": 20779,
       "uuid": "9dc5bff8-bcbb-4703-b0fe-4f91ba517402",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vmess",
@@ -886,10 +748,7 @@
       "server_port": 10002,
       "uuid": "036a28c3-5c8d-4df3-a79b-9da622640f2b",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vmess",
@@ -898,10 +757,7 @@
       "server_port": 2535,
       "uuid": "04d7c089-bbc5-4ef2-80ef-a0982cf33708",
       "security": "aes-128-gcm",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vmess",
@@ -910,10 +766,7 @@
       "server_port": 888,
       "uuid": "48c4b162-ef82-4e33-a3fd-f6621985e791",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vmess",
@@ -922,10 +775,7 @@
       "server_port": 15361,
       "uuid": "5d7bf9e3-415c-40f3-c66d-a54ea0fd860e",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vmess",
@@ -934,10 +784,7 @@
       "server_port": 35696,
       "uuid": "cad0504a-a9dc-4d29-8844-b11b69f14a8d",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vmess",
@@ -946,10 +793,7 @@
       "server_port": 45090,
       "uuid": "ab94c3a9-6695-4390-bde0-0ecefab656fe",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vmess",
@@ -975,10 +819,7 @@
       "server_port": 20017,
       "uuid": "7c8326eb-4250-4f77-8e1f-0210a69e9ade",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vmess",
@@ -987,10 +828,7 @@
       "server_port": 2070,
       "uuid": "b6e340e6-c49a-4a53-88c6-2e5478f5cb80",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vmess",
@@ -999,10 +837,7 @@
       "server_port": 51352,
       "uuid": "bcf86479-aab4-47cf-9d6e-34d353baa1a2",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vmess",
@@ -1011,10 +846,7 @@
       "server_port": 45247,
       "uuid": "469e0b31-30c3-4dab-800d-711232634ce1",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vmess",
@@ -1023,10 +855,7 @@
       "server_port": 45229,
       "uuid": "469e0b31-30c3-4dab-800d-711232634ce1",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vmess",
@@ -1051,10 +880,7 @@
       "server_port": 56104,
       "uuid": "efd57bc3-8086-48bd-9b1a-6fd8ab8cee6d",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vmess",
@@ -1063,10 +889,7 @@
       "server_port": 44023,
       "uuid": "7da457da-ed0f-437d-c81d-6c35885bbea3",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vmess",
@@ -1075,10 +898,7 @@
       "server_port": 45258,
       "uuid": "469e0b31-30c3-4dab-800d-711232634ce1",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vmess",
@@ -1087,10 +907,7 @@
       "server_port": 444,
       "uuid": "523d8d78-411a-4849-b17f-ccff6bcbf564",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vmess",
@@ -1099,10 +916,7 @@
       "server_port": 609,
       "uuid": "d641e03f-9c7b-4b3d-85d7-1b2792fb2fe2",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vmess",
@@ -1111,10 +925,7 @@
       "server_port": 6531,
       "uuid": "bb28cfcd-c3d0-4866-bb0a-c3fd86b0ec12",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vmess",
@@ -1123,10 +934,7 @@
       "server_port": 33281,
       "uuid": "24eda0ea-acf0-4538-a001-f746a480237a",
       "security": "auto",
-      "alter_id": 0,
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": 0
     },
     {
       "type": "vmess",
@@ -1135,10 +943,7 @@
       "server_port": 27750,
       "uuid": "4b1992cc-8e7c-4003-a45f-a28c3e6f6fa8",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vmess",
@@ -1147,10 +952,7 @@
       "server_port": 42562,
       "uuid": "7905c28d-34d7-435a-b67e-d1d2d342f011",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vmess",
@@ -1159,10 +961,7 @@
       "server_port": 30520,
       "uuid": "3038024f-3a34-4228-b61c-d741b2fbec8f",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vmess",
@@ -1171,10 +970,7 @@
       "server_port": 2055,
       "uuid": "351134b3-bff2-4801-9244-55e1a9d6c4b1",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vmess",
@@ -1183,10 +979,7 @@
       "server_port": 33203,
       "uuid": "a82148dd-4f11-4472-b341-f63f57dce17f",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vmess",
@@ -1195,10 +988,7 @@
       "server_port": 44863,
       "uuid": "9926bf9f-5c75-4066-8ece-207dee73781f",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vmess",
@@ -1239,10 +1029,7 @@
       "server_port": 33754,
       "uuid": "45f4f565-8c78-4906-a5b9-08ea9075cd31",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vmess",
@@ -1251,10 +1038,7 @@
       "server_port": 7580,
       "uuid": "47a4e822-61ce-4eb2-d5bd-8db6f17bab93",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vmess",
@@ -1263,10 +1047,7 @@
       "server_port": 23992,
       "uuid": "a0e5c19f-70cf-4d5a-b81d-f733a9467875",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vmess",
@@ -1275,10 +1056,7 @@
       "server_port": 42610,
       "uuid": "e0957ca6-f613-4017-ff3c-effd1da8871a",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vmess",
@@ -1287,10 +1065,7 @@
       "server_port": 8082,
       "uuid": "1a91e2bd-f189-4d52-911d-00177069ccad",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vmess",
@@ -1299,10 +1074,7 @@
       "server_port": 5050,
       "uuid": "a77c3026-b297-47d5-c837-b18b64198d0b",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vmess",
@@ -1311,10 +1083,7 @@
       "server_port": 2096,
       "uuid": "604fa262-146a-437f-9206-93b16ea30176",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vmess",
@@ -1335,10 +1104,7 @@
       "server_port": 50394,
       "uuid": "a75f3f95-ad4e-4498-fc72-dd740dd02bfc",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vmess",
@@ -1347,10 +1113,7 @@
       "server_port": 8090,
       "uuid": "891e1d1c-5fbc-40cb-9256-58b016b6b600",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vmess",
@@ -1359,10 +1122,7 @@
       "server_port": 8877,
       "uuid": "654285e6-23fb-4073-b8de-eba90f562fe6",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vmess",
@@ -1371,10 +1131,7 @@
       "server_port": 53503,
       "uuid": "c9b9dea3-5868-477f-e54d-2c8f124f647d",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vmess",
@@ -1383,10 +1140,7 @@
       "server_port": 42309,
       "uuid": "4381beae-45a6-4421-8547-65e312dd204a",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vmess",
@@ -1395,10 +1149,7 @@
       "server_port": 17646,
       "uuid": "82734724-8c06-4c2e-9cff-b34776fe1757",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vmess",
@@ -1447,10 +1198,7 @@
       "server_port": 2794,
       "uuid": "d8183e4b-8f9e-497b-8cd7-a90e64ef74e8",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vmess",
@@ -1459,10 +1207,7 @@
       "server_port": 47211,
       "uuid": "fb674260-1c21-4f99-8bd0-3d1d341c6771",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vmess",
@@ -1471,10 +1216,7 @@
       "server_port": 26021,
       "uuid": "3a6c789f-0548-4ca3-83c0-2c78acbee811",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vmess",
@@ -1483,10 +1225,7 @@
       "server_port": 21759,
       "uuid": "e5f16fad-f9c3-452b-8e71-bc9504e29fc9",
       "security": "auto",
-      "alter_id": 0,
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": 0
     },
     {
       "type": "vmess",
@@ -1495,10 +1234,7 @@
       "server_port": 4030,
       "uuid": "c2477627-6b58-4084-bb59-97de55591b39",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vmess",
@@ -1507,10 +1243,7 @@
       "server_port": 30101,
       "uuid": "04AD7029-AC73-C78D-2E6E-338107678C59",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vmess",
@@ -1535,10 +1268,7 @@
       "server_port": 45287,
       "uuid": "469e0b31-30c3-4dab-800d-711232634ce1",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vmess",
@@ -1567,10 +1297,7 @@
       "server_port": 59440,
       "uuid": "7fc3c790-8830-48dd-9b0c-c954301d373c",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vmess",
@@ -1579,10 +1306,7 @@
       "server_port": 6016,
       "uuid": "9074065a-840e-4cfa-9cd9-4b06a96bda87",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vmess",
@@ -1591,10 +1315,7 @@
       "server_port": 45245,
       "uuid": "469e0b31-30c3-4dab-800d-711232634ce1",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vmess",
@@ -1615,10 +1336,7 @@
       "server_port": 3000,
       "uuid": "cc101ff1-3452-41c3-89fe-c2a5a20dc6dc",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vmess",
@@ -1627,10 +1345,7 @@
       "server_port": 52348,
       "uuid": "c99ff604-6970-4ae9-b7e5-d0ad8cc5a10b",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vmess",
@@ -1639,10 +1354,7 @@
       "server_port": 28860,
       "uuid": "1784497d-03a1-40bb-bb8b-de4ffac7c59c",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vmess",
@@ -1651,10 +1363,7 @@
       "server_port": 34892,
       "uuid": "2118ee50-f0a9-4fb1-9a1d-3f6b900e8436",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vmess",
@@ -1687,10 +1396,7 @@
       "server_port": 29999,
       "uuid": "b31fc134-978e-4176-8579-8107d6a0cede",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vmess",
@@ -1732,10 +1438,7 @@
       "server_port": 42324,
       "uuid": "4381beae-45a6-4421-8547-65e312dd204a",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vmess",
@@ -1744,10 +1447,7 @@
       "server_port": 48160,
       "uuid": "5b113c12-4dd4-4bb5-9c01-cff092b559e3",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vmess",
@@ -1768,10 +1468,7 @@
       "server_port": 45417,
       "uuid": "469e0b31-30c3-4dab-800d-711232634ce1",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vmess",
@@ -1780,10 +1477,7 @@
       "server_port": 9012,
       "uuid": "6be17a0e-92f0-49e0-9648-0d21e3a8e9f0",
       "security": "auto",
-      "alter_id": 0,
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": 0
     },
     {
       "type": "vmess",
@@ -1792,10 +1486,7 @@
       "server_port": 45276,
       "uuid": "469e0b31-30c3-4dab-800d-711232634ce1",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vmess",
@@ -1804,10 +1495,7 @@
       "server_port": 30002,
       "uuid": "418048af-a293-4b99-9b0c-98ca3580dd24",
       "security": "auto",
-      "alter_id": "64",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "64"
     },
     {
       "type": "vmess",
@@ -1836,10 +1524,7 @@
       "server_port": 35731,
       "uuid": "af5d9b7a-fbce-45ac-a945-9fc49f245542",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vmess",
@@ -1868,10 +1553,7 @@
       "server_port": 1363,
       "uuid": "2f8265ef-6148-4dbf-988f-a3c4b830281a",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vmess",
@@ -1896,10 +1578,7 @@
       "server_port": 36712,
       "uuid": "9266df42-0830-48c2-8509-4c57b30fe29d",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vmess",
@@ -1908,10 +1587,7 @@
       "server_port": 6014,
       "uuid": "2bf6cb84-d726-43eb-9928-8d8e442a4b6c",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vmess",
@@ -1920,10 +1596,7 @@
       "server_port": 6013,
       "uuid": "2bf6cb84-d726-43eb-9928-8d8e442a4b6c",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vmess",
@@ -1932,10 +1605,7 @@
       "server_port": 26024,
       "uuid": "3a6c789f-0548-4ca3-83c0-2c78acbee811",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vmess",
@@ -1944,10 +1614,7 @@
       "server_port": 27773,
       "uuid": "b2347239-dd15-40b3-b683-50cc2ff19ae7",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vmess",
@@ -1956,10 +1623,7 @@
       "server_port": 38088,
       "uuid": "1275ea18-bc9c-4bcb-b3fd-fee70272e143",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vmess",
@@ -1984,10 +1648,7 @@
       "server_port": 56322,
       "uuid": "c4ec67a8-1dcc-471d-a6d7-4d9b9ec1726d",
       "security": "auto",
-      "alter_id": 0,
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": 0
     },
     {
       "type": "vmess",
@@ -1996,10 +1657,7 @@
       "server_port": 33579,
       "uuid": "2eb3ee2a-7bf8-4b50-9b93-2d489d2f3456",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vmess",
@@ -2032,10 +1690,7 @@
       "server_port": 54813,
       "uuid": "df9c6e9e-9e7a-4d06-88bb-9b29337b973f",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vmess",
@@ -2044,10 +1699,7 @@
       "server_port": 18000,
       "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
       "security": "auto",
-      "alter_id": 0,
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": 0
     },
     {
       "type": "vmess",
@@ -2084,10 +1736,7 @@
       "server_port": 3890,
       "uuid": "01385550-af60-4d57-af84-dddac5213b0c",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vmess",
@@ -2096,10 +1745,7 @@
       "server_port": 26521,
       "uuid": "cff7001e-3a74-43e8-bfd8-a7af9630a58b",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vmess",
@@ -2108,10 +1754,7 @@
       "server_port": 42320,
       "uuid": "4381beae-45a6-4421-8547-65e312dd204a",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vmess",
@@ -2132,10 +1775,7 @@
       "server_port": 22839,
       "uuid": "2858a404-d0ca-4d67-80a6-ce8e95e383ff",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vmess",
@@ -2160,10 +1800,7 @@
       "server_port": 10001,
       "uuid": "8c2777c9-c5e7-4b34-acdb-71600ef02e89",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vmess",
@@ -2172,10 +1809,7 @@
       "server_port": 20021,
       "uuid": "0c4a0845-207c-473a-bcce-faf96c823e5a",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vmess",
@@ -2184,10 +1818,7 @@
       "server_port": 42346,
       "uuid": "4381beae-45a6-4421-8547-65e312dd204a",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vmess",
@@ -2196,10 +1827,7 @@
       "server_port": 47057,
       "uuid": "d5c08621-88ae-4898-8838-adf4653d59e7",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vmess",
@@ -2208,10 +1836,7 @@
       "server_port": 28686,
       "uuid": "6df7d56f-4953-4a10-be2e-a88cc9f94e48",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vmess",
@@ -2220,10 +1845,7 @@
       "server_port": 42323,
       "uuid": "4381beae-45a6-4421-8547-65e312dd204a",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vmess",
@@ -2248,10 +1870,7 @@
       "server_port": 57118,
       "uuid": "418048af-a293-4b99-9b0c-98ca3580dd24",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vmess",
@@ -2260,10 +1879,7 @@
       "server_port": 8081,
       "uuid": "cb810065-88b0-4d6a-9d92-67ee32491616",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vmess",
@@ -2272,10 +1888,7 @@
       "server_port": 5301,
       "uuid": "28fee3c6-682a-4d06-a462-efdda38ebe77",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vmess",
@@ -2284,10 +1897,7 @@
       "server_port": 6009,
       "uuid": "2bf6cb84-d726-43eb-9928-8d8e442a4b6c",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vmess",
@@ -2296,10 +1906,7 @@
       "server_port": 48889,
       "uuid": "c130cb36-c93f-4be7-9228-a7a97d43885a",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vmess",
@@ -2308,10 +1915,7 @@
       "server_port": 6008,
       "uuid": "604fa262-146a-437f-9206-93b16ea30176",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vmess",
@@ -2320,10 +1924,7 @@
       "server_port": 27575,
       "uuid": "16509262-dbe2-43ba-99ce-07913d2a18b4",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vmess",
@@ -2332,10 +1933,7 @@
       "server_port": 28444,
       "uuid": "1be8eddb-4f8c-45d0-b2a1-e538eb3abd39",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vmess",
@@ -2344,10 +1942,7 @@
       "server_port": 42333,
       "uuid": "4381beae-45a6-4421-8547-65e312dd204a",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vmess",
@@ -2356,10 +1951,7 @@
       "server_port": 1387,
       "uuid": "f00bee3a-e50c-4e24-b004-ed3f21a1d834",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vmess",
@@ -2368,10 +1960,7 @@
       "server_port": 26013,
       "uuid": "3a6c789f-0548-4ca3-83c0-2c78acbee811",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vmess",
@@ -2380,10 +1969,7 @@
       "server_port": 42337,
       "uuid": "4381beae-45a6-4421-8547-65e312dd204a",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vmess",
@@ -2392,10 +1978,7 @@
       "server_port": 45215,
       "uuid": "469e0b31-30c3-4dab-800d-711232634ce1",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vmess",
@@ -2404,10 +1987,7 @@
       "server_port": 10534,
       "uuid": "b01c7ef9-33ec-41f6-bfbf-77ddc4d21649",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vmess",
@@ -2416,10 +1996,7 @@
       "server_port": 59003,
       "uuid": "418048af-a293-4b99-9b0c-98ca3580dd24",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vmess",
@@ -2428,10 +2005,7 @@
       "server_port": 39400,
       "uuid": "fb36e400-f55b-47f8-ba4a-2d324d061076",
       "security": "auto",
-      "alter_id": 0,
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": 0
     },
     {
       "type": "vmess",
@@ -2440,10 +2014,7 @@
       "server_port": 45291,
       "uuid": "469e0b31-30c3-4dab-800d-711232634ce1",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vmess",
@@ -2452,10 +2023,7 @@
       "server_port": 45266,
       "uuid": "469e0b31-30c3-4dab-800d-711232634ce1",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vmess",
@@ -2488,10 +2056,7 @@
       "server_port": 48673,
       "uuid": "6ae00a4a-b7a9-45fa-8d8b-d74943a17a4c",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vmess",
@@ -2500,10 +2065,7 @@
       "server_port": 46290,
       "uuid": "1b41153e-c4d4-431b-83eb-10472f869f93",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vmess",
@@ -2512,10 +2074,7 @@
       "server_port": 62002,
       "uuid": "5b9b682a-7811-4050-b287-254320f3ac9e",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vmess",
@@ -2524,10 +2083,7 @@
       "server_port": 18598,
       "uuid": "bf26f2fb-9d2a-49b6-8527-82e8aba3a9a9",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vmess",
@@ -2536,10 +2092,7 @@
       "server_port": 22324,
       "uuid": "04621bae-ab36-11ec-b909-0242ac120002",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vmess",
@@ -2548,10 +2101,7 @@
       "server_port": 45235,
       "uuid": "469e0b31-30c3-4dab-800d-711232634ce1",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vmess",
@@ -2560,10 +2110,7 @@
       "server_port": 42301,
       "uuid": "4381beae-45a6-4421-8547-65e312dd204a",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vmess",
@@ -2572,10 +2119,7 @@
       "server_port": 15074,
       "uuid": "9f513161-576b-3abc-9c98-06e52c3a24c6",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vmess",
@@ -2584,10 +2128,7 @@
       "server_port": 15002,
       "uuid": "9f513161-576b-3abc-9c98-06e52c3a24c6",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vmess",
@@ -2596,10 +2137,7 @@
       "server_port": 51566,
       "uuid": "ae6ae977-17f2-43fd-a336-20b3b3a9e791",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vmess",
@@ -2608,10 +2146,7 @@
       "server_port": 8080,
       "uuid": "bcaabac-aacb-caba-adcb-bcaccbaaabbc",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     }
   ]
 }

@@ -641,9 +641,6 @@
       "server_port": 5234,
       "uuid": "5a67b9fc-505b-7530-06ba-6527ed320c12",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "yandex.com",
@@ -660,9 +657,6 @@
       "server_port": 4768,
       "uuid": "af50bdbf-1715-a461-cbb4-ebbea9ed338c",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "yandex.com",
@@ -684,9 +678,6 @@
       "server_port": 5234,
       "uuid": "4cd1bf48-c630-629e-bc93-ac271c919850",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "yandex.com",

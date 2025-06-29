@@ -854,9 +854,6 @@
       "server_port": 4000,
       "uuid": "c48da5b2-98a7-4ca3-9ef3-1c9b8dbd3901",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "unpkg.com",

@@ -751,9 +751,6 @@
       "server_port": 61152,
       "uuid": "c33b1535-1557-4e0b-aa2b-f326c6151436",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "apps.apple.com",

@@ -918,10 +918,7 @@
       "server_port": 12540,
       "uuid": "056d3d35-a729-4ab4-bbae-d71d8458af19",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vmess",
@@ -930,10 +927,7 @@
       "server_port": 42562,
       "uuid": "7905c28d-34d7-435a-b67e-d1d2d342f011",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vmess",
@@ -942,10 +936,7 @@
       "server_port": 30520,
       "uuid": "3038024f-3a34-4228-b61c-d741b2fbec8f",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vmess",
@@ -978,10 +969,7 @@
       "server_port": 46290,
       "uuid": "1b41153e-c4d4-431b-83eb-10472f869f93",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vless",
@@ -1103,9 +1091,6 @@
       "server_port": 2040,
       "uuid": "10b59513-ef76-4494-a925-305ec45dd3a4",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "cdnjs.com",
@@ -1198,10 +1183,7 @@
       "server": "94.232.244.5",
       "server_port": 2198,
       "uuid": "838f5273-5d2d-4630-a0f5-9cc8e4aef4d6",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -1344,10 +1326,7 @@
       "server": "95.164.87.85",
       "server_port": 2198,
       "uuid": "838f5273-5d2d-4630-a0f5-9cc8e4aef4d6",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -1393,10 +1372,7 @@
       "server": "188.119.112.18",
       "server_port": 2198,
       "uuid": "838f5273-5d2d-4630-a0f5-9cc8e4aef4d6",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -1723,10 +1699,7 @@
       "server": "161.35.247.114",
       "server_port": 1003,
       "uuid": "39baadce-3e0b-4322-8de1-797bf7f25b8a",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -1787,10 +1760,7 @@
       "server": "209.38.100.208",
       "server_port": 43643,
       "uuid": "dcafb248-38ba-489c-bceb-42e5a72e85d1",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -1935,10 +1905,7 @@
       "server": "209.38.100.174",
       "server_port": 1003,
       "uuid": "39baadce-3e0b-4322-8de1-797bf7f25b8a",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -2034,10 +2001,7 @@
       "server": "45.131.211.92",
       "server_port": 80,
       "uuid": "53fa8faf-ba4b-4322-9c69-a3e5b1555049",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -2096,9 +2060,6 @@
       "server_port": 2040,
       "uuid": "10b59513-ef76-4494-a925-305ec45dd3a4",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "cdnjs.com",
@@ -2232,9 +2193,6 @@
       "server_port": 443,
       "uuid": "c8898cfd-9927-4f36-b7bc-40de76076b80",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "maviks.eu",
@@ -2754,9 +2712,6 @@
       "server_port": 443,
       "uuid": "82b884ab-d297-4726-9596-67c6d49acf6a",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "www.deepl.com",
@@ -3049,10 +3004,7 @@
       "server": "167.71.10.134",
       "server_port": 1003,
       "uuid": "39baadce-3e0b-4322-8de1-797bf7f25b8a",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -3440,10 +3392,7 @@
       "server": "161.35.82.3",
       "server_port": 7022,
       "uuid": "651de6cb-df22-45cd-8842-438fdbef87fb",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -3563,9 +3512,6 @@
       "server_port": 2040,
       "uuid": "10b59513-ef76-4494-a925-305ec45dd3a4",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "github.com",
@@ -4747,10 +4693,7 @@
       "server": "188.227.84.128",
       "server_port": 8443,
       "uuid": "12c67119-d240-4c0b-9704-33db37020455",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -4797,9 +4740,6 @@
       "server_port": 443,
       "uuid": "1f7c1cb7-42f9-4c48-b9ec-19de423b38d4",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "website.com",
@@ -5642,10 +5582,7 @@
       "server": "178.62.231.77",
       "server_port": 8880,
       "uuid": "dd27cbd6-9995-4338-9219-20277324be65",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -5782,9 +5719,6 @@
       "server_port": 443,
       "uuid": "c8898cfd-9927-4f36-b7bc-40de76076b80",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "maviks.eu",
@@ -6155,9 +6089,6 @@
       "server_port": 443,
       "uuid": "c8898cfd-9927-4f36-b7bc-40de76076b80",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "maviks.eu",
@@ -6203,10 +6134,7 @@
       "server": "24.144.77.41",
       "server_port": 1003,
       "uuid": "39baadce-3e0b-4322-8de1-797bf7f25b8a",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -6324,10 +6252,7 @@
       "server": "103.249.132.237",
       "server_port": 9191,
       "uuid": "83bce2cc-5b32-4246-80bd-6cdd0fd1c714",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -6464,10 +6389,7 @@
       "server": "62.60.247.117",
       "server_port": 24262,
       "uuid": "46c2465a-d99b-43f5-a127-a529cd3838b7",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -7147,10 +7069,7 @@
       "server": "142.93.228.176",
       "server_port": 1003,
       "uuid": "39baadce-3e0b-4322-8de1-797bf7f25b8a",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -7297,10 +7216,7 @@
       "server": "77.91.122.176",
       "server_port": 2198,
       "uuid": "838f5273-5d2d-4630-a0f5-9cc8e4aef4d6",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -7593,10 +7509,7 @@
       "server": "157.245.72.246",
       "server_port": 8866,
       "uuid": "ee1a7f09-5d15-4f1c-80d1-35e053b16a98",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -7657,10 +7570,7 @@
       "server": "194.87.216.89",
       "server_port": 45612,
       "uuid": "f8d7b3cb-0b1a-41dd-8e8a-1ca186599548",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -7914,10 +7824,7 @@
       "server": "62.212.70.108",
       "server_port": 52928,
       "uuid": "dc58f214-4227-4f58-8090-cbcedf1adeba",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -7955,10 +7862,7 @@
       "server": "185.207.198.29",
       "server_port": 8880,
       "uuid": "fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -8552,9 +8456,6 @@
       "server_port": 443,
       "uuid": "9835fbea-cfb1-402a-bdc6-16ca140c6788",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "www.samsung.com",
@@ -8585,10 +8486,7 @@
       "server": "158.101.195.118",
       "server_port": 443,
       "uuid": "2c699fc7-cc37-4ca3-a7fe-c7ab9355a248",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -8757,9 +8655,6 @@
       "server_port": 443,
       "uuid": "c8898cfd-9927-4f36-b7bc-40de76076b80",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "maviks.eu",
@@ -9105,10 +9000,7 @@
       "server": "45.131.4.20",
       "server_port": 80,
       "uuid": "53fa8faf-ba4b-4322-9c69-a3e5b1555049",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -9386,10 +9278,7 @@
       "server": "45.131.208.34",
       "server_port": 80,
       "uuid": "53fa8faf-ba4b-4322-9c69-a3e5b1555049",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -9427,10 +9316,7 @@
       "server": "141.227.130.159",
       "server_port": 8880,
       "uuid": "aa188240-cf10-4df6-9543-5223800891be",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -9484,9 +9370,6 @@
       "server_port": 4434,
       "uuid": "5244075f-9c52-4940-a64a-eec419c4b5c9",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "teamdocs.su",
@@ -9619,10 +9502,7 @@
       "server": "64.225.81.136",
       "server_port": 1003,
       "uuid": "39baadce-3e0b-4322-8de1-797bf7f25b8a",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -10045,9 +9925,6 @@
       "server_port": 443,
       "uuid": "c8898cfd-9927-4f36-b7bc-40de76076b80",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "maviks.eu",
@@ -10185,9 +10062,6 @@
       "server_port": 51501,
       "uuid": "8c4df824-560c-45b7-9a71-4595bc9ea543",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "hi.forgesis.ir",
@@ -10570,9 +10444,6 @@
       "server_port": 443,
       "uuid": "c8898cfd-9927-4f36-b7bc-40de76076b80",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "maviks.eu",
@@ -10819,10 +10690,7 @@
       "server": "146.0.72.77",
       "server_port": 58951,
       "uuid": "2920057a-1a5f-420a-bb12-ae92d6a1f5c7",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -11031,10 +10899,7 @@
       "server": "45.120.178.115",
       "server_port": 80,
       "uuid": "53fa8faf-ba4b-4322-9c69-a3e5b1555049",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -11933,10 +11798,7 @@
       "server": "95.164.87.30",
       "server_port": 2198,
       "uuid": "838f5273-5d2d-4630-a0f5-9cc8e4aef4d6",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -12375,9 +12237,6 @@
       "server_port": 443,
       "uuid": "c8898cfd-9927-4f36-b7bc-40de76076b80",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "maviks.eu",
@@ -12419,10 +12278,7 @@
       "server": "152.42.150.138",
       "server_port": 1003,
       "uuid": "39baadce-3e0b-4322-8de1-797bf7f25b8a",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -12446,9 +12302,6 @@
       "server_port": 443,
       "uuid": "c8898cfd-9927-4f36-b7bc-40de76076b80",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "maviks.eu",
@@ -12549,9 +12402,6 @@
       "server_port": 443,
       "uuid": "9722f7a5-6068-4aba-a757-e57d7b7d18a7",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "ams5.vpntype.dev",
@@ -12652,10 +12502,7 @@
       "server": "185.14.31.89",
       "server_port": 5779,
       "uuid": "72430a6d-e6e4-49aa-a327-291308963243",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -13336,10 +13183,7 @@
       "server": "109.122.202.170",
       "server_port": 40862,
       "uuid": "5cdcb338-dd89-4ef8-8fb0-e261d2d416f7",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -13412,10 +13256,7 @@
       "server": "95.164.3.165",
       "server_port": 2198,
       "uuid": "838f5273-5d2d-4630-a0f5-9cc8e4aef4d6",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -14455,10 +14296,7 @@
       "server": "194.120.116.106",
       "server_port": 8888,
       "uuid": "bfe995f7-72dd-4e50-8211-e66d466a9c75",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -14489,10 +14327,7 @@
       "server": "95.211.45.91",
       "server_port": 1471,
       "uuid": "09efd8b5-c69c-464b-8fe9-74411964f3e9",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -14591,10 +14426,7 @@
       "server": "85.17.40.111",
       "server_port": 46927,
       "uuid": "4e88cac9-6cc4-445b-818c-8aabb2c1f2e9",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -14603,9 +14435,6 @@
       "server_port": 24957,
       "uuid": "ef1fdecb-e56f-4996-9b6a-da7ddb7f7c8d",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "www.yahoo.com",
@@ -14760,10 +14589,7 @@
       "server": "104.248.91.244",
       "server_port": 2052,
       "uuid": "1dcf5b19-8e5b-4347-84f0-0122c5b56310",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -14995,9 +14821,6 @@
       "server_port": 8443,
       "uuid": "f14d0d37-9c0e-4376-9d33-94aba1859e47",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "maviks.eu",
@@ -15019,9 +14842,6 @@
       "server_port": 8443,
       "uuid": "f14d0d37-9c0e-4376-9d33-94aba1859e47",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "maviks.eu",
@@ -15043,9 +14863,6 @@
       "server_port": 443,
       "uuid": "b1c801ec-1c5e-4d12-8b53-8da11c64a21b",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "video.intfreed.ru",
@@ -15067,9 +14884,6 @@
       "server_port": 443,
       "uuid": "3691f715-024c-411b-b269-d4a593f04ff2",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "maviks.eu",
@@ -15116,9 +14930,6 @@
       "server_port": 443,
       "uuid": "196d7017-b91c-43dc-87ca-d88de911145b",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "maviks.ru",
@@ -15140,9 +14951,6 @@
       "server_port": 443,
       "uuid": "b1c801ec-1c5e-4d12-8b53-8da11c64a21b",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "video.intfreed.ru",
@@ -15164,9 +14972,6 @@
       "server_port": 8443,
       "uuid": "d9fe36e8-3bcf-44b6-9328-b6ce1366408f",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "DEDUso.su",
@@ -15188,9 +14993,6 @@
       "server_port": 443,
       "uuid": "196d7017-b91c-43dc-87ca-d88de911145b",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "maviks.ru",
@@ -15212,9 +15014,6 @@
       "server_port": 443,
       "uuid": "b1c801ec-1c5e-4d12-8b53-8da11c64a21b",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "video.intfreed.ru",
@@ -15236,9 +15035,6 @@
       "server_port": 443,
       "uuid": "6ba20a61-9ca7-4f9e-ac38-95f63c888a95",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "www.google.com",
@@ -15260,9 +15056,6 @@
       "server_port": 443,
       "uuid": "3691f715-024c-411b-b269-d4a593f04ff2",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "maviks.eu",
@@ -15284,9 +15077,6 @@
       "server_port": 4434,
       "uuid": "fb2c3a6b-5a0e-46ce-ba74-07015df7f84f",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "teamdocs.su",
@@ -15308,9 +15098,6 @@
       "server_port": 443,
       "uuid": "b1c801ec-1c5e-4d12-8b53-8da11c64a21b",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "video.intfreed.ru",
@@ -15332,9 +15119,6 @@
       "server_port": 4434,
       "uuid": "f70ba59e-487f-4af8-8188-69b40bbdb071",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "teamdocs.su",
@@ -15356,9 +15140,6 @@
       "server_port": 2040,
       "uuid": "10b59513-ef76-4494-a925-305ec45dd3a4",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "cdnjs.com",
@@ -15380,9 +15161,6 @@
       "server_port": 443,
       "uuid": "f08272e1edf749429548e460cefde4ab",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "hackthebox.com",
@@ -15404,9 +15182,6 @@
       "server_port": 443,
       "uuid": "3691f715-024c-411b-b269-d4a593f04ff2",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "maviks.eu",
@@ -15428,9 +15203,6 @@
       "server_port": 443,
       "uuid": "196d7017-b91c-43dc-87ca-d88de911145b",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "maviks.ru",
@@ -15452,9 +15224,6 @@
       "server_port": 223,
       "uuid": "af89e210-608b-4873-a334-104646ac2253",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "www.cloudflare.com",
@@ -15476,9 +15245,6 @@
       "server_port": 223,
       "uuid": "008e7e1f-0146-4231-95af-5ae40f7ba44f",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "www.cloudflare.com",
@@ -15500,9 +15266,6 @@
       "server_port": 443,
       "uuid": "b1c801ec-1c5e-4d12-8b53-8da11c64a21b",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "video.intfreed.ru",
@@ -15524,9 +15287,6 @@
       "server_port": 4434,
       "uuid": "fb2c3a6b-5a0e-46ce-ba74-07015df7f84f",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "teamdocs.su",
@@ -15548,9 +15308,6 @@
       "server_port": 8443,
       "uuid": "3f789164-ca20-4041-89c0-bc553819970c",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "maviks.eu",
@@ -15597,9 +15354,6 @@
       "server_port": 8443,
       "uuid": "57a6c9d4-3012-4aa0-9136-7236902c0d0b",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "maviks.eu",
@@ -15621,9 +15375,6 @@
       "server_port": 443,
       "uuid": "196d7017-b91c-43dc-87ca-d88de911145b",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "maviks.ru",
@@ -15645,9 +15396,6 @@
       "server_port": 443,
       "uuid": "b1c801ec-1c5e-4d12-8b53-8da11c64a21b",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "video.intfreed.ru",
@@ -15669,9 +15417,6 @@
       "server_port": 443,
       "uuid": "83e0f483-7037-4e9c-8ed5-5b5ba3f0ff48",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "google.com",
@@ -15692,9 +15437,6 @@
       "server_port": 990,
       "uuid": "cee94d0d-dbb6-4e02-b688-bb663ef01f38",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "tgju.org",
@@ -15716,9 +15458,6 @@
       "server_port": 8443,
       "uuid": "57a6c9d4-3012-4aa0-9136-7236902c0d0b",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "maviks.eu",
@@ -15740,9 +15479,6 @@
       "server_port": 443,
       "uuid": "6ba20a61-9ca7-4f9e-ac38-95f63c888a95",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "www.google.com",
@@ -15764,9 +15500,6 @@
       "server_port": 2040,
       "uuid": "10b59513-ef76-4494-a925-305ec45dd3a4",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "cdnjs.com",
@@ -15788,9 +15521,6 @@
       "server_port": 223,
       "uuid": "008e7e1f-0146-4231-95af-5ae40f7ba44f",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "www.cloudflare.com",
@@ -15812,9 +15542,6 @@
       "server_port": 443,
       "uuid": "6ba20a61-9ca7-4f9e-ac38-95f63c888a95",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "www.google.com",
@@ -15836,9 +15563,6 @@
       "server_port": 8443,
       "uuid": "57a6c9d4-3012-4aa0-9136-7236902c0d0b",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "maviks.eu",
@@ -15860,9 +15584,6 @@
       "server_port": 443,
       "uuid": "196d7017-b91c-43dc-87ca-d88de911145b",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "maviks.ru",
@@ -15884,9 +15605,6 @@
       "server_port": 443,
       "uuid": "fde86c85-6d4d-420b-bfde-47687763517e",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "journalofbigdata.springeropen.com",
@@ -15907,9 +15625,6 @@
       "server_port": 8443,
       "uuid": "f14d0d37-9c0e-4376-9d33-94aba1859e47",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "maviks.eu",
@@ -15931,9 +15646,6 @@
       "server_port": 443,
       "uuid": "6ba20a61-9ca7-4f9e-ac38-95f63c888a95",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "www.google.com",
@@ -15955,9 +15667,6 @@
       "server_port": 443,
       "uuid": "82b884ab-d297-4726-9596-67c6d49acf6a",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "www.deepl.com",
@@ -15979,9 +15688,6 @@
       "server_port": 443,
       "uuid": "b1c801ec-1c5e-4d12-8b53-8da11c64a21b",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "video.intfreed.ru",
@@ -16003,9 +15709,6 @@
       "server_port": 2044,
       "uuid": "39d65c38-ec68-4808-bec4-53d61289a2dd",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "www.speedtest.net",
@@ -16027,9 +15730,6 @@
       "server_port": 8443,
       "uuid": "f14d0d37-9c0e-4376-9d33-94aba1859e47",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "maviks.eu",
@@ -16051,9 +15751,6 @@
       "server_port": 443,
       "uuid": "196d7017-b91c-43dc-87ca-d88de911145b",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "maviks.ru",
@@ -16075,9 +15772,6 @@
       "server_port": 1174,
       "uuid": "56c9cdec-17f3-4aa4-949d-efb5039a6c8d",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "refersion.com",
@@ -16099,9 +15793,6 @@
       "server_port": 443,
       "uuid": "196d7017-b91c-43dc-87ca-d88de911145b",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "maviks.ru",
@@ -16123,9 +15814,6 @@
       "server_port": 7022,
       "uuid": "651de6cb-df22-45cd-8842-438fdbef87fb",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "refersion.com",
@@ -16146,9 +15834,6 @@
       "server_port": 443,
       "uuid": "196d7017-b91c-43dc-87ca-d88de911145b",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "maviks.ru",
@@ -16170,9 +15855,6 @@
       "server_port": 2040,
       "uuid": "10b59513-ef76-4494-a925-305ec45dd3a4",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "fr.ign.com",
@@ -16194,9 +15876,6 @@
       "server_port": 443,
       "uuid": "fde86c85-6d4d-420b-bfde-47687763517e",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "journalofbigdata.springeropen.com",
@@ -16217,9 +15896,6 @@
       "server_port": 443,
       "uuid": "1f7c1cb7-42f9-4c48-b9ec-19de423b38d4",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "website.com",
@@ -16240,9 +15916,6 @@
       "server_port": 443,
       "uuid": "b1c801ec-1c5e-4d12-8b53-8da11c64a21b",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "video.intfreed.ru",
@@ -16264,9 +15937,6 @@
       "server_port": 443,
       "uuid": "b1c801ec-1c5e-4d12-8b53-8da11c64a21b",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "video.intfreed.ru",
@@ -16288,9 +15958,6 @@
       "server_port": 443,
       "uuid": "b1c801ec-1c5e-4d12-8b53-8da11c64a21b",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "video.intfreed.ru",
@@ -16312,9 +15979,6 @@
       "server_port": 65001,
       "uuid": "50f958da-7292-48e5-ba2a-99ffed01b415",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "tgju.org",
@@ -16335,9 +15999,6 @@
       "server_port": 2087,
       "uuid": "ee1a7f09-5d15-4f1c-80d1-35e053b16a98",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "refersion.com",
@@ -16358,9 +16019,6 @@
       "server_port": 223,
       "uuid": "008e7e1f-0146-4231-95af-5ae40f7ba44f",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "www.cloudflare.com",
@@ -16382,9 +16040,6 @@
       "server_port": 8440,
       "uuid": "570f00ba-af38-44b9-955c-86f8272e0d3a",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "refersion.com",
@@ -16429,9 +16084,6 @@
       "server_port": 443,
       "uuid": "8433558e-5093-4361-b004-d741df426cff",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "google.com",
@@ -16453,9 +16105,6 @@
       "server_port": 223,
       "uuid": "008e7e1f-0146-4231-95af-5ae40f7ba44f",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "www.cloudflare.com",
@@ -16477,9 +16126,6 @@
       "server_port": 8085,
       "uuid": "fb78f8f9-ffb4-4a28-a30c-03ed58a3989e",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "www.refersion.com",
@@ -16501,9 +16147,6 @@
       "server_port": 443,
       "uuid": "c6e8b852-70a0-45f9-93d8-1f4f9cfbc799",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "coinmarketcap.com",

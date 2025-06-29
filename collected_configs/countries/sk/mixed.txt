@@ -48,9 +48,6 @@
       "server_port": 443,
       "uuid": "e51aa02e-6358-4ade-963e-1c3ef2ed0d50",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "cdimage.debian.org",

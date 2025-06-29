@@ -72,9 +72,6 @@
       "server_port": 443,
       "uuid": "4acff57a-3747-40d9-acb3-191754772041",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "tel5.vpntype.dev",
@@ -91,9 +88,6 @@
       "server_port": 28495,
       "uuid": "7e296434-2d17-48d3-928d-19eaa34aecb1",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "dl.google.com",

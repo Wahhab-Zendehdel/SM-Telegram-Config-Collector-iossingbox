@@ -864,10 +864,7 @@
       "server_port": 26022,
       "uuid": "3a6c789f-0548-4ca3-83c0-2c78acbee811",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vmess",
@@ -876,10 +873,7 @@
       "server_port": 19901,
       "uuid": "066b32cc-ee3d-4719-b1f0-2f202298737e",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vmess",
@@ -888,10 +882,7 @@
       "server_port": 26021,
       "uuid": "3a6c789f-0548-4ca3-83c0-2c78acbee811",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vmess",
@@ -920,10 +911,7 @@
       "server_port": 3000,
       "uuid": "cc101ff1-3452-41c3-89fe-c2a5a20dc6dc",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vmess",
@@ -932,10 +920,7 @@
       "server_port": 26024,
       "uuid": "3a6c789f-0548-4ca3-83c0-2c78acbee811",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vmess",
@@ -944,10 +929,7 @@
       "server_port": 26013,
       "uuid": "3a6c789f-0548-4ca3-83c0-2c78acbee811",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vmess",
@@ -956,10 +938,7 @@
       "server_port": 15074,
       "uuid": "9f513161-576b-3abc-9c98-06e52c3a24c6",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vmess",
@@ -968,10 +947,7 @@
       "server_port": 15002,
       "uuid": "9f513161-576b-3abc-9c98-06e52c3a24c6",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vless",
@@ -1021,10 +997,7 @@
       "server": "47.76.81.217",
       "server_port": 38971,
       "uuid": "633d3f6b-5f34-4ef8-b240-01667f6dd07d",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -1105,9 +1078,6 @@
       "server_port": 443,
       "uuid": "c9bb2e49-bfb7-4284-a423-71c0df98d4eb",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "hon5.vpntype.dev",
@@ -1268,10 +1238,7 @@
       "server": "47.76.218.163",
       "server_port": 443,
       "uuid": "63601f9f-7c67-4952-919a-1ef802b5a7ec",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -2100,9 +2067,6 @@
       "server_port": 43000,
       "uuid": "3e33f29c-44aa-49aa-94f7-fac8fd018b9e",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "www.hkust.edu.hk",
@@ -2225,10 +2189,7 @@
       "server": "47.76.81.217",
       "server_port": 40830,
       "uuid": "4d5903dd-5d8a-4879-9e0d-cf12b8404b8e",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -2571,9 +2532,6 @@
       "server_port": 13009,
       "uuid": "91ddda09-bc1c-426c-bf89-d01391cf0096",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "player.live-video.net",
@@ -2676,9 +2634,6 @@
       "server_port": 39966,
       "uuid": "370dcfc2-6cd0-40ad-b98d-e9044cc35a31",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "swdist.apple.com",
@@ -2700,9 +2655,6 @@
       "server_port": 13009,
       "uuid": "91ddda09-bc1c-426c-bf89-d01391cf0096",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "player.live-video.net",
@@ -2724,9 +2676,6 @@
       "server_port": 37730,
       "uuid": "7c4ba50c-b313-42df-bf33-0121082a4d0b",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "759dvhk.wudiovv.mom",
@@ -2748,9 +2697,6 @@
       "server_port": 43000,
       "uuid": "c33b1535-1557-4e0b-aa2b-f326c6151436",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "www.hkust.edu.hk",
@@ -2772,9 +2718,6 @@
       "server_port": 43000,
       "uuid": "c33b1535-1557-4e0b-aa2b-f326c6151436",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "www.hkust.edu.hk",
@@ -2796,9 +2739,6 @@
       "server_port": 43000,
       "uuid": "c33b1535-1557-4e0b-aa2b-f326c6151436",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "www.hkust.edu.hk",
@@ -2820,9 +2760,6 @@
       "server_port": 443,
       "uuid": "b866d83a-d301-4270-b699-40f322bf52fb",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "www.apple.com.cn",
@@ -2844,9 +2781,6 @@
       "server_port": 43000,
       "uuid": "c33b1535-1557-4e0b-aa2b-f326c6151436",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "www.hkust.edu.hk",
@@ -2868,9 +2802,6 @@
       "server_port": 443,
       "uuid": "f2d09fb7-ac3d-4b62-b359-e2c35a5be126",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "www.ebay.com",
@@ -2892,9 +2823,6 @@
       "server_port": 43000,
       "uuid": "c33b1535-1557-4e0b-aa2b-f326c6151436",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "www.hkust.edu.hk",
@@ -2916,9 +2844,6 @@
       "server_port": 43000,
       "uuid": "c33b1535-1557-4e0b-aa2b-f326c6151436",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "www.hkust.edu.hk",

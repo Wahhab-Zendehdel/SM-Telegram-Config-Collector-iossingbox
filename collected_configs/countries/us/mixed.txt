@@ -4077,10 +4077,7 @@
       "server_port": 45242,
       "uuid": "469e0b31-30c3-4dab-800d-711232634ce1",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vmess",
@@ -4105,10 +4102,7 @@
       "server_port": 44883,
       "uuid": "418048af-a293-4b99-9b0c-98ca3580dd24",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vmess",
@@ -4117,10 +4111,7 @@
       "server_port": 45231,
       "uuid": "469e0b31-30c3-4dab-800d-711232634ce1",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vmess",
@@ -4129,10 +4120,7 @@
       "server_port": 30562,
       "uuid": "82466715-6a58-4046-a363-a0d18e5b2ab4",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vmess",
@@ -4193,10 +4181,7 @@
       "server_port": 15361,
       "uuid": "5d7bf9e3-415c-40f3-c66d-a54ea0fd860e",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vmess",
@@ -4205,10 +4190,7 @@
       "server_port": 35696,
       "uuid": "cad0504a-a9dc-4d29-8844-b11b69f14a8d",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vmess",
@@ -4217,10 +4199,7 @@
       "server_port": 45247,
       "uuid": "469e0b31-30c3-4dab-800d-711232634ce1",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vmess",
@@ -4229,10 +4208,7 @@
       "server_port": 45229,
       "uuid": "469e0b31-30c3-4dab-800d-711232634ce1",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vmess",
@@ -4241,10 +4217,7 @@
       "server_port": 45258,
       "uuid": "469e0b31-30c3-4dab-800d-711232634ce1",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vmess",
@@ -4265,10 +4238,7 @@
       "server_port": 53503,
       "uuid": "c9b9dea3-5868-477f-e54d-2c8f124f647d",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vmess",
@@ -4277,10 +4247,7 @@
       "server_port": 45287,
       "uuid": "469e0b31-30c3-4dab-800d-711232634ce1",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vmess",
@@ -4289,10 +4256,7 @@
       "server_port": 45245,
       "uuid": "469e0b31-30c3-4dab-800d-711232634ce1",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vmess",
@@ -4301,10 +4265,7 @@
       "server_port": 28860,
       "uuid": "1784497d-03a1-40bb-bb8b-de4ffac7c59c",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vmess",
@@ -4313,10 +4274,7 @@
       "server_port": 48160,
       "uuid": "5b113c12-4dd4-4bb5-9c01-cff092b559e3",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vmess",
@@ -4325,10 +4283,7 @@
       "server_port": 45417,
       "uuid": "469e0b31-30c3-4dab-800d-711232634ce1",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vmess",
@@ -4337,10 +4292,7 @@
       "server_port": 45276,
       "uuid": "469e0b31-30c3-4dab-800d-711232634ce1",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vmess",
@@ -4349,10 +4301,7 @@
       "server_port": 30002,
       "uuid": "418048af-a293-4b99-9b0c-98ca3580dd24",
       "security": "auto",
-      "alter_id": "64",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "64"
     },
     {
       "type": "vmess",
@@ -4401,10 +4350,7 @@
       "server_port": 10001,
       "uuid": "8c2777c9-c5e7-4b34-acdb-71600ef02e89",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vmess",
@@ -4413,10 +4359,7 @@
       "server_port": 57118,
       "uuid": "418048af-a293-4b99-9b0c-98ca3580dd24",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vmess",
@@ -4425,10 +4368,7 @@
       "server_port": 45215,
       "uuid": "469e0b31-30c3-4dab-800d-711232634ce1",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vmess",
@@ -4437,10 +4377,7 @@
       "server_port": 45291,
       "uuid": "469e0b31-30c3-4dab-800d-711232634ce1",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vmess",
@@ -4449,10 +4386,7 @@
       "server_port": 45266,
       "uuid": "469e0b31-30c3-4dab-800d-711232634ce1",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vmess",
@@ -4461,10 +4395,7 @@
       "server_port": 45235,
       "uuid": "469e0b31-30c3-4dab-800d-711232634ce1",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vless",
@@ -4577,9 +4508,6 @@
       "server_port": 443,
       "uuid": "54694a33-a8dc-47dd-bc38-acd3971e0055",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "147135004002.sec20org.com",
@@ -4625,10 +4553,7 @@
       "server": "151.101.67.8",
       "server_port": 80,
       "uuid": "8caa1b20-8fc0-4aac-9021-547ae9fc2ef9",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -4891,10 +4816,7 @@
       "server": "151.101.3.8",
       "server_port": 80,
       "uuid": "83ef6244-404a-4ce4-a01e-f79e696540c4",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -5056,9 +4978,6 @@
       "server_port": 443,
       "uuid": "0a44145f-59dc-4e5b-a233-677b97f5114c",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "147135011033.sec21org.com",
@@ -5307,10 +5226,7 @@
       "server": "45.82.251.69",
       "server_port": 1001,
       "uuid": "c7c922da-ab54-433c-8046-1f9bf9d95c23",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -5618,9 +5534,6 @@
       "server_port": 443,
       "uuid": "3b9bc773-05eb-4d5f-8c1f-57342c0c4f40",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "147135010103.sec19org.com",
@@ -6053,9 +5966,6 @@
       "server_port": 443,
       "uuid": "e20ebe01-1815-4c09-8e77-fb2f168263ce",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "147135001178.sec22org.com",
@@ -6200,9 +6110,6 @@
       "server_port": 443,
       "uuid": "3b9bc773-05eb-4d5f-8c1f-57342c0c4f40",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "147135010103.sec19org.com",
@@ -6443,9 +6350,6 @@
       "server_port": 443,
       "uuid": "17606d29-e77d-4d2c-81ac-81b8bb1311d1",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "dcpqjs.yydjc.top",
@@ -6809,10 +6713,7 @@
       "server": "174.138.119.91",
       "server_port": 80,
       "uuid": "fbb84ab6-fffa-4115-9155-809e531398ad",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -7308,9 +7209,6 @@
       "server_port": 443,
       "uuid": "0a44145f-59dc-4e5b-a233-677b97f5114c",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "147135011033.sec21org.com",
@@ -7613,9 +7511,6 @@
       "server_port": 443,
       "uuid": "3b9bc773-05eb-4d5f-8c1f-57342c0c4f40",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "147135010103.sec19org.com",
@@ -7664,9 +7559,6 @@
       "server_port": 443,
       "uuid": "3b9bc773-05eb-4d5f-8c1f-57342c0c4f40",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "147135010103.sec19org.com",
@@ -7729,10 +7621,7 @@
       "server": "44.247.180.82",
       "server_port": 80,
       "uuid": "3202d35a-c51c-4055-bcd7-3eb000c13dc3",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -7936,9 +7825,6 @@
       "server_port": 443,
       "uuid": "ea286109-d20f-415e-849e-4af20ab04b65",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "147135001195.sec22org.com",
@@ -8349,9 +8235,6 @@
       "server_port": 443,
       "uuid": "ea286109-d20f-415e-849e-4af20ab04b65",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "147135001195.sec22org.com",
@@ -8662,9 +8545,6 @@
       "server_port": 443,
       "uuid": "4eec7bc2-6bfd-4e54-b0a4-5890e8f97439",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "dj-download-us.xn--4gq62f52gopi49k.com",
@@ -8896,9 +8776,6 @@
       "server_port": 443,
       "uuid": "ea286109-d20f-415e-849e-4af20ab04b65",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "147135001195.sec22org.com",
@@ -8915,9 +8792,6 @@
       "server_port": 443,
       "uuid": "3b9bc773-05eb-4d5f-8c1f-57342c0c4f40",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "147135010103.sec19org.com",
@@ -8949,9 +8823,6 @@
       "server_port": 443,
       "uuid": "ea286109-d20f-415e-849e-4af20ab04b65",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "147135001197.sec22org.com",
@@ -8994,9 +8865,6 @@
       "server_port": 443,
       "uuid": "6bc29783-3ff6-4379-8650-611a7095307b",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "767w1-38dc0-9ocf2.xn--4gq62f52gppi29k.com",
@@ -9038,10 +8906,7 @@
       "server": "144.172.103.131",
       "server_port": 35552,
       "uuid": "017fdd18-62c2-4d06-af8a-13499959d735",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -9095,9 +8960,6 @@
       "server_port": 443,
       "uuid": "3b9bc773-05eb-4d5f-8c1f-57342c0c4f40",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "147135010103.sec19org.com",
@@ -9237,10 +9099,7 @@
       "server": "77.110.126.142",
       "server_port": 36509,
       "uuid": "ae0cc111-7d64-4ceb-bdfe-050f4c4823ce",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -9599,9 +9458,6 @@
       "server_port": 443,
       "uuid": "0a44145f-59dc-4e5b-a233-677b97f5114c",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "147135011033.sec21org.com",
@@ -10380,9 +10236,6 @@
       "server_port": 443,
       "uuid": "3b9bc773-05eb-4d5f-8c1f-57342c0c4f40",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "147135010103.sec19org.com",
@@ -10727,9 +10580,6 @@
       "server_port": 443,
       "uuid": "3b9bc773-05eb-4d5f-8c1f-57342c0c4f40",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "147135010103.sec19org.com",
@@ -11488,9 +11338,6 @@
       "server_port": 443,
       "uuid": "0a44145f-59dc-4e5b-a233-677b97f5114c",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "147135011033.sec21org.com",
@@ -11548,9 +11395,6 @@
       "server_port": 443,
       "uuid": "0a44145f-59dc-4e5b-a233-677b97f5114c",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "147135011033.sec21org.com",
@@ -11793,10 +11637,7 @@
       "server": "5.78.56.113",
       "server_port": 443,
       "uuid": "491a3b3b-246c-4c2a-ac22-a33524a6b407",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -11804,10 +11645,7 @@
       "server": "199.232.214.172",
       "server_port": 80,
       "uuid": "461b0991-d24b-42dc-87c2-c505cf1a01f4",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -11986,9 +11824,6 @@
       "server_port": 443,
       "uuid": "0a44145f-59dc-4e5b-a233-677b97f5114c",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "147135011033.sec21org.com",
@@ -12292,9 +12127,6 @@
       "server_port": 443,
       "uuid": "3b9bc773-05eb-4d5f-8c1f-57342c0c4f40",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "147135010103.sec19org.com",
@@ -12738,9 +12570,6 @@
       "server_port": 443,
       "uuid": "6bc29783-3ff6-4379-8650-611a7095307b",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "b295-23ae29-6bh.xn--4gq62f52gppi29k.com",
@@ -13319,9 +13148,6 @@
       "server_port": 8443,
       "uuid": "06121b89-607b-44c9-9c01-cc2fc6a7321d",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "www.yahoo.com",
@@ -13957,9 +13783,6 @@
       "server_port": 443,
       "uuid": "3b9bc773-05eb-4d5f-8c1f-57342c0c4f40",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "147135010103.sec19org.com",
@@ -14678,9 +14501,6 @@
       "server_port": 443,
       "uuid": "0a44145f-59dc-4e5b-a233-677b97f5114c",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "147135011033.sec21org.com",
@@ -15047,10 +14867,7 @@
       "server": "14.102.228.20",
       "server_port": 8880,
       "uuid": "53fa8faf-ba4b-4322-9c69-a3e5b1555049",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -15099,10 +14916,7 @@
       "server": "107.170.5.15",
       "server_port": 9435,
       "uuid": "68594162-da62-4792-94d5-5102e717f7f6",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -15319,9 +15133,6 @@
       "server_port": 443,
       "uuid": "ea286109-d20f-415e-849e-4af20ab04b65",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "147135001196.sec22org.com",
@@ -15653,9 +15464,6 @@
       "server_port": 443,
       "uuid": "3b9bc773-05eb-4d5f-8c1f-57342c0c4f40",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "147135010103.sec19org.com",
@@ -15723,10 +15531,7 @@
       "server": "134.199.185.237",
       "server_port": 25087,
       "uuid": "39baadce-3e0b-4322-8de1-797bf7f25b8a",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -15750,9 +15555,6 @@
       "server_port": 443,
       "uuid": "ea286109-d20f-415e-849e-4af20ab04b65",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "147135001195.sec22org.com",
@@ -15943,9 +15745,6 @@
       "server_port": 443,
       "uuid": "54694a33-a8dc-47dd-bc38-acd3971e0055",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "147135004002.sec20org.com",
@@ -16400,9 +16199,6 @@
       "server_port": 443,
       "uuid": "3b9bc773-05eb-4d5f-8c1f-57342c0c4f40",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "147135010103.sec19org.com",
@@ -16480,9 +16276,6 @@
       "server_port": 443,
       "uuid": "ea286109-d20f-415e-849e-4af20ab04b65",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "147135001195.sec22org.com",
@@ -17448,9 +17241,6 @@
       "server_port": 443,
       "uuid": "e20ebe01-1815-4c09-8e77-fb2f168263ce",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "147135001178.sec22org.com",
@@ -17573,9 +17363,6 @@
       "server_port": 443,
       "uuid": "3b9bc773-05eb-4d5f-8c1f-57342c0c4f40",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "147135010103.sec19org.com",
@@ -17728,10 +17515,7 @@
       "server": "141.193.213.1",
       "server_port": 80,
       "uuid": "53fa8faf-ba4b-4322-9c69-a3e5b1555049",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -18214,9 +17998,6 @@
       "server_port": 443,
       "uuid": "54694a33-a8dc-47dd-bc38-acd3971e0055",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "147135004002.sec20org.com",
@@ -18328,9 +18109,6 @@
       "server_port": 443,
       "uuid": "54694a33-a8dc-47dd-bc38-acd3971e0055",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "147135004002.sec20org.com",
@@ -18674,9 +18452,6 @@
       "server_port": 443,
       "uuid": "e20ebe01-1815-4c09-8e77-fb2f168263ce",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "147135001178.sec22org.com",
@@ -19278,9 +19053,6 @@
       "server_port": 443,
       "uuid": "54694a33-a8dc-47dd-bc38-acd3971e0055",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "147135004002.sec20org.com",
@@ -20704,9 +20476,6 @@
       "server_port": 443,
       "uuid": "3b9bc773-05eb-4d5f-8c1f-57342c0c4f40",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "147135010103.sec19org.com",
@@ -21297,9 +21066,6 @@
       "server_port": 443,
       "uuid": "3b9bc773-05eb-4d5f-8c1f-57342c0c4f40",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "147135010103.sec19org.com",
@@ -21422,10 +21188,7 @@
       "server": "151.101.1.111",
       "server_port": 80,
       "uuid": "c4229c55-f001-47d4-8f19-1c386abb7532",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -21630,9 +21393,6 @@
       "server_port": 443,
       "uuid": "ea286109-d20f-415e-849e-4af20ab04b65",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "147135001195.sec22org.com",
@@ -22008,10 +21768,7 @@
       "server": "45.63.60.98",
       "server_port": 12188,
       "uuid": "2fc97eb0-d9d2-4567-99bf-bb5f64b5d5e9",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -22020,9 +21777,6 @@
       "server_port": 7885,
       "uuid": "82f6a148-5c4a-48f9-931a-e3b26777ffa2",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "www.yahoo.com",
@@ -22304,10 +22058,7 @@
       "server": "77.110.124.63",
       "server_port": 25360,
       "uuid": "d1f79b2e-95b2-40e9-8407-552736728fbc",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -22445,9 +22196,6 @@
       "server_port": 443,
       "uuid": "54694a33-a8dc-47dd-bc38-acd3971e0055",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "147135004002.sec20org.com",
@@ -22654,9 +22402,6 @@
       "server_port": 443,
       "uuid": "ea286109-d20f-415e-849e-4af20ab04b65",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "147135001195.sec22org.com",
@@ -22936,9 +22681,6 @@
       "server_port": 1700,
       "uuid": "b3df4ad2-c2be-4e76-a5fe-37bf49ffe60c",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "xray1.wizardxray.shop",
@@ -23119,10 +22861,7 @@
       "server": "151.101.193.111",
       "server_port": 80,
       "uuid": "c4229c55-f001-47d4-8f19-1c386abb7532",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -23146,9 +22885,6 @@
       "server_port": 443,
       "uuid": "54694a33-a8dc-47dd-bc38-acd3971e0055",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "147135004002.sec20org.com",
@@ -23188,9 +22924,6 @@
       "server_port": 443,
       "uuid": "3b9bc773-05eb-4d5f-8c1f-57342c0c4f40",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "147135010103.sec19org.com",
@@ -24135,9 +23868,6 @@
       "server_port": 443,
       "uuid": "ea286109-d20f-415e-849e-4af20ab04b65",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "147135001195.sec22org.com",
@@ -24651,9 +24381,6 @@
       "server_port": 443,
       "uuid": "ea286109-d20f-415e-849e-4af20ab04b65",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "147135001198.sec22org.com",
@@ -24695,10 +24422,7 @@
       "server": "151.101.129.111",
       "server_port": 80,
       "uuid": "c4229c55-f001-47d4-8f19-1c386abb7532",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -24859,9 +24583,6 @@
       "server_port": 443,
       "uuid": "3b9bc773-05eb-4d5f-8c1f-57342c0c4f40",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "147135010103.sec19org.com",
@@ -24950,9 +24671,6 @@
       "server_port": 443,
       "uuid": "e20ebe01-1815-4c09-8e77-fb2f168263ce",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "147135001178.sec22org.com",
@@ -25219,9 +24937,6 @@
       "server_port": 443,
       "uuid": "0a44145f-59dc-4e5b-a233-677b97f5114c",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "147135011033.sec21org.com",
@@ -26215,9 +25930,6 @@
       "server_port": 443,
       "uuid": "ea286109-d20f-415e-849e-4af20ab04b65",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "147135001195.sec22org.com",
@@ -26393,9 +26105,6 @@
       "server_port": 443,
       "uuid": "17606d29-e77d-4d2c-81ac-81b8bb1311d1",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "dcpqjs.yydjc.top",
@@ -26679,9 +26388,6 @@
       "server_port": 443,
       "uuid": "3b9bc773-05eb-4d5f-8c1f-57342c0c4f40",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "147135010103.sec19org.com",
@@ -26875,9 +26581,6 @@
       "server_port": 443,
       "uuid": "0a44145f-59dc-4e5b-a233-677b97f5114c",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "147135011033.sec21org.com",
@@ -27114,9 +26817,6 @@
       "server_port": 443,
       "uuid": "54694a33-a8dc-47dd-bc38-acd3971e0055",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "147135004002.sec20org.com",
@@ -27270,9 +26970,6 @@
       "server_port": 443,
       "uuid": "cc5ef30a-effc-4054-967a-5b474cd1e056",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "djdownloadus.xn--4gq62f52gopi49k.com",
@@ -27919,9 +27616,6 @@
       "server_port": 443,
       "uuid": "6bc29783-3ff6-4379-8650-611a7095307b",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "b295-23ae29-6bh.xn--4gq62f52gppi29k.com",
@@ -27987,9 +27681,6 @@
       "server_port": 443,
       "uuid": "3b9bc773-05eb-4d5f-8c1f-57342c0c4f40",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "147135010103.sec19org.com",
@@ -28029,9 +27720,6 @@
       "server_port": 56833,
       "uuid": "e947c1b3-5eee-4007-b29e-e960c73242b3",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "iro.goodratkhooda.info",
@@ -28078,9 +27766,6 @@
       "server_port": 56833,
       "uuid": "e947c1b3-5eee-4007-b29e-e960c73242b3",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "iro.goodratkhooda.info",
@@ -28097,9 +27782,6 @@
       "server_port": 443,
       "uuid": "54694a33-a8dc-47dd-bc38-acd3971e0055",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "147135004002.sec20org.com",
@@ -28131,9 +27813,6 @@
       "server_port": 443,
       "uuid": "3b9bc773-05eb-4d5f-8c1f-57342c0c4f40",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "147135010103.sec19org.com",
@@ -28286,9 +27965,6 @@
       "server_port": 443,
       "uuid": "e20ebe01-1815-4c09-8e77-fb2f168263ce",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "147135001178.sec22org.com",
@@ -28757,9 +28433,6 @@
       "server_port": 443,
       "uuid": "54694a33-a8dc-47dd-bc38-acd3971e0055",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "147135004002.sec20org.com",
@@ -29979,9 +29652,6 @@
       "server_port": 443,
       "uuid": "3b9bc773-05eb-4d5f-8c1f-57342c0c4f40",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "147135010103.sec19org.com",
@@ -30426,9 +30096,6 @@
       "server_port": 443,
       "uuid": "e20ebe01-1815-4c09-8e77-fb2f168263ce",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "147135001178.sec22org.com",
@@ -30638,9 +30305,6 @@
       "server_port": 443,
       "uuid": "3b9bc773-05eb-4d5f-8c1f-57342c0c4f40",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "147135010103.sec19org.com",
@@ -30961,10 +30625,7 @@
       "server": "143.198.239.183",
       "server_port": 25087,
       "uuid": "39baadce-3e0b-4322-8de1-797bf7f25b8a",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -31664,10 +31325,7 @@
       "server": "151.101.65.111",
       "server_port": 80,
       "uuid": "c4229c55-f001-47d4-8f19-1c386abb7532",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -32385,9 +32043,6 @@
       "server_port": 443,
       "uuid": "54694a33-a8dc-47dd-bc38-acd3971e0055",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "147135004002.sec20org.com",
@@ -32911,9 +32566,6 @@
       "server_port": 443,
       "uuid": "3b9bc773-05eb-4d5f-8c1f-57342c0c4f40",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "147135010103.sec19org.com",
@@ -32941,9 +32593,6 @@
       "server_port": 443,
       "uuid": "54694a33-a8dc-47dd-bc38-acd3971e0055",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "147135004002.sec20org.com",
@@ -33349,9 +32998,6 @@
       "server_port": 443,
       "uuid": "0a44145f-59dc-4e5b-a233-677b97f5114c",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "147135011033.sec21org.com",
@@ -33564,9 +33210,6 @@
       "server_port": 443,
       "uuid": "3b9bc773-05eb-4d5f-8c1f-57342c0c4f40",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "147135010103.sec19org.com",
@@ -33996,10 +33639,7 @@
       "server": "139.144.219.15",
       "server_port": 2321,
       "uuid": "c8aea861-7ce9-47b1-bdbd-7b1ac98f86dd",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -34008,9 +33648,6 @@
       "server_port": 34045,
       "uuid": "d8dd94fd-540e-461d-b5d4-acebef02c22a",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "visit-this-invitation-link-to-join-tg-enkelte-notif.ekt.me",
@@ -34147,9 +33784,6 @@
       "server_port": 443,
       "uuid": "6bc29783-3ff6-4379-8650-611a7095307b",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "b295-23ae29-6bh.xn--4gq62f52gppi29k.com",
@@ -34295,9 +33929,6 @@
       "server_port": 443,
       "uuid": "e20ebe01-1815-4c09-8e77-fb2f168263ce",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "147135001178.sec22org.com",
@@ -34647,9 +34278,6 @@
       "server_port": 443,
       "uuid": "54694a33-a8dc-47dd-bc38-acd3971e0055",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "147135004002.sec20org.com",
@@ -34888,9 +34516,6 @@
       "server_port": 443,
       "uuid": "7f93e196-1b2f-4a42-8051-5815554c05db",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "zula.ir",
@@ -35267,9 +34892,6 @@
       "server_port": 443,
       "uuid": "3b9bc773-05eb-4d5f-8c1f-57342c0c4f40",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "147135010103.sec19org.com",
@@ -35465,9 +35087,6 @@
       "server_port": 443,
       "uuid": "3b9bc773-05eb-4d5f-8c1f-57342c0c4f40",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "147135010103.sec19org.com",
@@ -35604,9 +35223,6 @@
       "server_port": 443,
       "uuid": "abb2d75f-e5f1-4db8-98f6-048dfb0eed94",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "cdnjs.com",
@@ -35628,9 +35244,6 @@
       "server_port": 65123,
       "uuid": "d577c7ec-372e-484b-8430-249b8314859b",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "www.fra-shop.ir",
@@ -35652,9 +35265,6 @@
       "server_port": 10122,
       "uuid": "0A1DDFE6-A16A-43FA-A6E3-70EDE4EA61C3",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "s0.awsstatic.com",
@@ -35676,9 +35286,6 @@
       "server_port": 443,
       "uuid": "998d7092-f538-4993-97e2-3e22b3413a85",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "www.zula.ir",
@@ -35699,9 +35306,6 @@
       "server_port": 1001,
       "uuid": "c7c922da-ab54-433c-8046-1f9bf9d95c23",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "telewebion.com",
@@ -35748,9 +35352,6 @@
       "server_port": 1001,
       "uuid": "c7c922da-ab54-433c-8046-1f9bf9d95c23",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "telewebion.com",
@@ -35796,9 +35397,6 @@
       "server_port": 443,
       "uuid": "d895495c-d1ed-46e4-9235-35c54c9ed901",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "google.com",
@@ -35819,9 +35417,6 @@
       "server_port": 1001,
       "uuid": "c7c922da-ab54-433c-8046-1f9bf9d95c23",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "telewebion.com",
@@ -35843,9 +35438,6 @@
       "server_port": 9076,
       "uuid": "a6d81882-5ec9-4134-a955-cbcf2f0a0976",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "www.cloudflare.com",
@@ -35867,9 +35459,6 @@
       "server_port": 8443,
       "uuid": "d9fe36e8-3bcf-44b6-9328-b6ce1366408f",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "DEDUso.su",
@@ -35891,9 +35480,6 @@
       "server_port": 443,
       "uuid": "9d0a75d2-f747-4afa-b43f-d208af9e8f9a",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "itunes.apple.com",
@@ -35915,9 +35501,6 @@
       "server_port": 1001,
       "uuid": "c7c922da-ab54-433c-8046-1f9bf9d95c23",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "telewebion.com",
@@ -35939,9 +35522,6 @@
       "server_port": 25536,
       "uuid": "4a3dc64b-17e1-4ae7-a9a4-851f9794d4c6",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "apps.apple.com",
@@ -35963,9 +35543,6 @@
       "server_port": 25360,
       "uuid": "cbec8792-6d87-48a8-8a3a-bd8c34514d94",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "google.com",
@@ -35987,9 +35564,6 @@
       "server_port": 1001,
       "uuid": "c7c922da-ab54-433c-8046-1f9bf9d95c23",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "telewebion.com",
@@ -36036,9 +35610,6 @@
       "server_port": 34045,
       "uuid": "d8dd94fd-540e-461d-b5d4-acebef02c22a",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "visit-this-invitation-link-to-join-tg-enkelte-notif.ekt.me",
@@ -36084,9 +35655,6 @@
       "server_port": 8080,
       "uuid": "225d91b3-4874-4387-b818-4747959569cc",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "www.stackoverflow.com",
@@ -36108,9 +35676,6 @@
       "server_port": 32401,
       "uuid": "a90e3756-d330-4597-bcc3-ab7905741e52",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "dl.google.com",
@@ -36132,9 +35697,6 @@
       "server_port": 7000,
       "uuid": "a0069975-5ad0-4f1c-8800-cd55a381b3b9",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "unpkg.com",
@@ -36180,9 +35742,6 @@
       "server_port": 56701,
       "uuid": "a31662df-9ef2-43f9-981f-6cb2d0341c17",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "addons.mozilla.org",
@@ -36204,9 +35763,6 @@
       "server_port": 443,
       "uuid": "02d3ce27-70f5-4d26-ae35-6e5840d5c1a0",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "google.com",
@@ -36228,9 +35784,6 @@
       "server_port": 39642,
       "uuid": "e691b423-c7f7-4c78-a65b-694ac46767f4",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "apple.com",
@@ -36301,9 +35854,6 @@
       "server_port": 7999,
       "uuid": "f1be85f0-0a86-3840-aa3d-c4301fbfffb7",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "learn.microsoft.com",
@@ -36325,9 +35875,6 @@
       "server_port": 1615,
       "uuid": "bb8d211b-468a-494b-a6ab-f3fb4b1547e4",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "refersion.com",
@@ -36348,9 +35895,6 @@
       "server_port": 8443,
       "uuid": "06121b89-607b-44c9-9c01-cc2fc6a7321d",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "www.yahoo.com",
@@ -36372,9 +35916,6 @@
       "server_port": 443,
       "uuid": "dadbf1eb-93c5-4cd9-83f3-ed02fb539c6e",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "zula.ir",

@@ -104,10 +104,7 @@
       "server_port": 22324,
       "uuid": "04621bae-ab36-11ec-b909-0242ac120002",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vless",
@@ -311,10 +308,7 @@
       "server": "84.234.31.224",
       "server_port": 55,
       "uuid": "5f64020c-87d6-4784-bc48-63a55499d173",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -375,10 +369,7 @@
       "server": "84.234.31.243",
       "server_port": 20244,
       "uuid": "981ae220-1c73-4334-942e-24c9b476f44f",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -541,10 +532,7 @@
       "server": "84.234.31.140",
       "server_port": 66,
       "uuid": "98f6bad3-37ea-4b8e-8892-e759c0c0c67b",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -671,9 +659,6 @@
       "server_port": 443,
       "uuid": "24e12701-6def-4040-8925-2a42839f8005",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "www.samsung.com",
@@ -744,9 +729,6 @@
       "server_port": 80,
       "uuid": "81447221-6548-60a1-a9d9-aac48e8c410b",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "refersion.com",
@@ -793,9 +775,6 @@
       "server_port": 26206,
       "uuid": "c1e2e26f-98e7-43b5-9bf0-ace939ed8ff2",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "cdn-download1.zula.ir",
@@ -817,9 +796,6 @@
       "server_port": 8080,
       "uuid": "68a57770-ffe8-43ba-b1b6-d2576271d13d",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "stackoverflow.com",

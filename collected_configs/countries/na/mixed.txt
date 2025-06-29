@@ -18146,10 +18146,7 @@
       "server": "141.101.120.97",
       "server_port": 2083,
       "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -22817,9 +22814,6 @@
       "server_port": 2096,
       "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "1749800520363.wk.by.ktff.ss",
@@ -23240,9 +23234,6 @@
       "server_port": 2096,
       "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "1749800520363.wk.by.ktff.ss",
@@ -25747,10 +25738,7 @@
       "server": "141.101.120.23",
       "server_port": 2083,
       "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -28066,10 +28054,7 @@
       "server": "162.159.135.232",
       "server_port": 8880,
       "uuid": "546cfb84-120f-43db-89db-5cba033bf9dc",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -30209,9 +30194,6 @@
       "server_port": 2096,
       "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "1749800520363.wk.by.ktff.ss",
@@ -30265,10 +30247,7 @@
       "server": "104.18.31.60",
       "server_port": 80,
       "uuid": "c5293efa-28f8-4a0f-8f34-541078970cee",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -30405,10 +30384,7 @@
       "server": "141.101.120.7",
       "server_port": 2083,
       "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -32079,10 +32055,7 @@
       "server": "172.67.165.37",
       "server_port": 2053,
       "uuid": "c09db420-df33-429f-a703-cec675b94769",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -32582,10 +32555,7 @@
       "server": "141.101.121.187",
       "server_port": 2083,
       "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -34746,10 +34716,7 @@
       "server": "172.67.141.52",
       "server_port": 443,
       "uuid": "bfc791d7-0ff4-4a9a-8215-118c496a7cd1",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -44908,10 +44875,7 @@
       "server": "141.101.121.127",
       "server_port": 2083,
       "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -46635,10 +46599,7 @@
       "server": "104.17.147.214",
       "server_port": 2052,
       "uuid": "4aaa5edf-da3c-5c87-adb6-74431bf98ba2",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -48914,9 +48875,6 @@
       "server_port": 2096,
       "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "1749800520363.wk.by.ktff.ss",
@@ -49563,9 +49521,6 @@
       "server_port": 2096,
       "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "1749800520363.wk.by.ktff.ss",
@@ -50576,10 +50531,7 @@
       "server": "104.19.16.243",
       "server_port": 80,
       "uuid": "8269dbfc-fc76-4b5a-91ba-4364915799a9",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -52747,10 +52699,7 @@
       "server": "104.21.11.45",
       "server_port": 2053,
       "uuid": "c09db420-df33-429f-a703-cec675b94769",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -54000,10 +53949,7 @@
       "server": "141.101.121.72",
       "server_port": 2083,
       "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -59635,10 +59581,7 @@
       "server": "104.18.30.60",
       "server_port": 80,
       "uuid": "c5293efa-28f8-4a0f-8f34-541078970cee",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -60065,10 +60008,7 @@
       "server": "141.101.121.153",
       "server_port": 2083,
       "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -61388,9 +61328,6 @@
       "server_port": 2096,
       "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "1749800520363.wk.by.ktff.ss",
@@ -61612,9 +61549,6 @@
       "server_port": 2096,
       "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "1749800520363.wk.by.ktff.ss",
@@ -63214,10 +63148,7 @@
       "server": "141.101.120.76",
       "server_port": 2083,
       "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -63959,10 +63890,7 @@
       "server": "141.101.120.203",
       "server_port": 2083,
       "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -66864,10 +66792,7 @@
       "server": "172.67.130.131",
       "server_port": 8080,
       "uuid": "a523d04c-97c2-408e-9961-d2b3ade6af7c",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -72312,9 +72237,6 @@
       "server_port": 2096,
       "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "1749800520363.wk.by.ktff.ss",
@@ -73634,10 +73556,7 @@
       "server": "141.101.121.10",
       "server_port": 2083,
       "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -74488,9 +74407,6 @@
       "server_port": 2096,
       "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "1749800520363.wk.by.ktff.ss",
@@ -75338,10 +75254,7 @@
       "server": "104.21.79.28",
       "server_port": 443,
       "uuid": "bfc791d7-0ff4-4a9a-8215-118c496a7cd1",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -75733,9 +75646,6 @@
       "server_port": 2096,
       "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "1749800520363.wk.by.ktff.ss",
@@ -78265,9 +78175,6 @@
       "server_port": 2096,
       "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "1749800520363.wk.by.ktff.ss",
@@ -81870,9 +81777,6 @@
       "server_port": 2096,
       "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "1749800520363.wk.by.ktff.ss",
@@ -84252,10 +84156,7 @@
       "server": "1.1.1.1",
       "server_port": 443,
       "uuid": "5abfab2f-1181-4d37-86fd-21a7296b6358",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -87007,9 +86908,6 @@
       "server_port": 2096,
       "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "1749800520363.wk.by.ktff.ss",
@@ -88566,10 +88464,7 @@
       "server": "141.101.120.43",
       "server_port": 2083,
       "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -88670,9 +88565,6 @@
       "server_port": 2096,
       "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "1749800520363.wk.by.ktff.ss",
@@ -96791,10 +96683,7 @@
       "server": "141.101.120.125",
       "server_port": 2083,
       "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -97706,10 +97595,7 @@
       "server": "141.101.121.206",
       "server_port": 2083,
       "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -98582,10 +98468,7 @@
       "server": "141.101.121.244",
       "server_port": 2083,
       "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -99083,10 +98966,7 @@
       "server": "104.18.63.249",
       "server_port": 80,
       "uuid": "b67d238c-742c-492c-a44c-a2001186ff5b",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -101333,9 +101213,6 @@
       "server_port": 2096,
       "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "1749800520363.wk.by.ktff.ss",
@@ -104058,10 +103935,7 @@
       "server": "172.67.70.123",
       "server_port": 2052,
       "uuid": "dfc1a9ab-6241-4b73-92f7-b299fc6b7751",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -104826,10 +104700,7 @@
       "server": "104.21.11.45",
       "server_port": 2095,
       "uuid": "88022377-3d2f-4123-8a63-41d39287f09a",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -106511,10 +106382,7 @@
       "server": "141.101.120.182",
       "server_port": 2083,
       "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -107083,10 +106951,7 @@
       "server": "141.101.121.80",
       "server_port": 2083,
       "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -107094,10 +106959,7 @@
       "server": "162.159.137.232",
       "server_port": 8880,
       "uuid": "546cfb84-120f-43db-89db-5cba033bf9dc",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -114380,9 +114242,6 @@
       "server_port": 2096,
       "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "1749800520363.wk.by.ktff.ss",
@@ -114878,10 +114737,7 @@
       "server": "104.16.251.13",
       "server_port": 80,
       "uuid": "e59be95e-7539-4a31-9b2d-a03a8f072ff3",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -115507,10 +115363,7 @@
       "server": "172.67.135.195",
       "server_port": 80,
       "uuid": "53fa8faf-ba4b-4322-9c69-a3e5b1555049",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -115876,10 +115729,7 @@
       "server": "162.159.138.232",
       "server_port": 8880,
       "uuid": "546cfb84-120f-43db-89db-5cba033bf9dc",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -116032,10 +115882,7 @@
       "server": "141.101.121.120",
       "server_port": 2083,
       "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -116281,9 +116128,6 @@
       "server_port": 2096,
       "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "1749800520363.wk.by.ktff.ss",
@@ -116375,10 +116219,7 @@
       "server": "104.21.3.87",
       "server_port": 8080,
       "uuid": "a523d04c-97c2-408e-9961-d2b3ade6af7c",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -116447,10 +116288,7 @@
       "server": "162.159.136.232",
       "server_port": 8880,
       "uuid": "546cfb84-120f-43db-89db-5cba033bf9dc",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -117312,9 +117150,6 @@
       "server_port": 2096,
       "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "1749800520363.wk.by.ktff.ss",
@@ -118971,10 +118806,7 @@
       "server": "104.18.22.19",
       "server_port": 80,
       "uuid": "4094f4ed-cc16-46b2-a1a0-e56910baf105",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -123006,10 +122838,7 @@
       "server": "141.101.121.33",
       "server_port": 2083,
       "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -123474,10 +123303,7 @@
       "server": "172.67.165.37",
       "server_port": 2095,
       "uuid": "88022377-3d2f-4123-8a63-41d39287f09a",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -124961,10 +124787,7 @@
       "server": "162.159.128.233",
       "server_port": 8880,
       "uuid": "546cfb84-120f-43db-89db-5cba033bf9dc",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -125019,9 +124842,6 @@
       "server_port": 2096,
       "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "1749800520363.wk.by.ktff.ss",
@@ -125251,10 +125071,7 @@
       "server": "104.21.7.50",
       "server_port": 80,
       "uuid": "53fa8faf-ba4b-4322-9c69-a3e5b1555049",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -128079,9 +127896,6 @@
       "server_port": 443,
       "uuid": "e0c23a67-1fd3-4225-bf67-f1fdd465e9f7",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "mw5.baradshops.ir",
@@ -128103,9 +127917,6 @@
       "server_port": 443,
       "uuid": "67b77ef8-a819-47ab-820c-1c31c6e08d24",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "usoff.qwertyuioaasdfghjkzxcvbnmdfghvqsadwqewqeqwqsxqaztghbhjntgbrfded.top",
@@ -128127,9 +127938,6 @@
       "server_port": 443,
       "uuid": "0b83a99a-62e1-4eff-97cf-894f865aaced",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "asoff.qwertyuioaasdfghjkzxcvbnmdfghvqsadwqewqeqwqsxqaztghbhjntgbrfded.top",
@@ -128151,9 +127959,6 @@
       "server_port": 443,
       "uuid": "e0c23a67-1fd3-4225-bf67-f1fdd465e9f7",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "mw5.baradshops.ir",

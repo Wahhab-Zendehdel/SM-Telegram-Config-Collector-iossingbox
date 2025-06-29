@@ -982,10 +982,7 @@
       "server_port": 26521,
       "uuid": "cff7001e-3a74-43e8-bfd8-a7af9630a58b",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vless",
@@ -1017,9 +1014,6 @@
       "server_port": 443,
       "uuid": "e6d8d743-a9bc-48c9-be99-8f3cc94d16e1",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "ako.pagate.top",
@@ -1197,9 +1191,6 @@
       "server_port": 443,
       "uuid": "74dd96cd-3b12-4e03-8605-aeeb188d93f3",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "buylite.music.apple.com",
@@ -3250,9 +3241,6 @@
       "server_port": 443,
       "uuid": "3fdf5dbc-d3e8-4ae9-aeef-dd83278ea4af",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "buylite.music.apple.com",
@@ -3274,9 +3262,6 @@
       "server_port": 34045,
       "uuid": "d8dd94fd-540e-461d-b5d4-acebef02c22a",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "visit-this-invitation-link-to-join-tg-enkelte-notif.ekt.me",

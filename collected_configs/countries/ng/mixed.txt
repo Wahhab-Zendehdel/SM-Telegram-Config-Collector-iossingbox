@@ -56,9 +56,6 @@
       "server_port": 26974,
       "uuid": "ce5234e2-97b2-4c4b-bafb-6c467123bef3",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "yahoo.com",

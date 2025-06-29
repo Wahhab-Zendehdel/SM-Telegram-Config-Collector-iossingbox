@@ -40,9 +40,6 @@
       "server_port": 2443,
       "uuid": "2d96c29e-4974-4bbb-a0f2-33e5c912458e",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "api.snapkit.com",
@@ -64,9 +61,6 @@
       "server_port": 443,
       "uuid": "8d7a09ce-7285-4713-babf-b3ac9ad58605",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "spirako.com",
@@ -87,9 +81,6 @@
       "server_port": 2050,
       "uuid": "acbab574-fbb3-48fe-948f-f2c173d5dfeb",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "refersion.com",
@@ -111,9 +102,6 @@
       "server_port": 28495,
       "uuid": "7e296434-2d17-48d3-928d-19eaa34aecb1",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "dl.google.com",

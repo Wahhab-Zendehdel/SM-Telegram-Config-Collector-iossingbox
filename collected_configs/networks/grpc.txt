@@ -7,9 +7,6 @@
       "server_port": 1080,
       "uuid": "bccaaba-baca-acab-cadb-bcabbaacbacc",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1",
@@ -51,9 +48,6 @@
       "server_port": 3080,
       "uuid": "ababcac-acba-cbaa-adbc-acbacacbbbca",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1",
@@ -11718,9 +11712,6 @@
       "server_port": 8080,
       "uuid": "bcaabac-aacb-caba-adcb-bcaccbaaabbc",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1",

@@ -1507,10 +1507,7 @@
       "server": "176.120.72.63",
       "server_port": 38339,
       "uuid": "481c5606-b586-44d7-bc2e-d8ef30d67f62",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -1662,9 +1659,6 @@
       "server_port": 443,
       "uuid": "fdb9faa8-753a-40e2-ab35-6afc43389100",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "www.microsoft.com",
@@ -1686,9 +1680,6 @@
       "server_port": 38339,
       "uuid": "481c5606-b586-44d7-bc2e-d8ef30d67f62",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "dl.google.com",
@@ -1710,9 +1701,6 @@
       "server_port": 443,
       "uuid": "9a8a52d6-f24b-4f03-bf6f-f4854717f54e",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "google.com",

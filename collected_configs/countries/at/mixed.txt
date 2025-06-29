@@ -205,9 +205,6 @@
       "server_port": 56701,
       "uuid": "c6763909-34f1-4b80-9522-f70d930e90e6",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "addons.mozilla.org",
@@ -434,10 +431,7 @@
       "server": "46.102.157.79",
       "server_port": 58210,
       "uuid": "fbddfdbf-d505-51ee-b6a6-bc1f4f4e0195",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -559,10 +553,7 @@
       "server": "46.102.157.79",
       "server_port": 58071,
       "uuid": "fbddfd48-22f2-a619-4151-4be8b8b9f6fa",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -638,10 +629,7 @@
       "server": "46.102.157.79",
       "server_port": 58113,
       "uuid": "fbddfd58-32e2-b609-5141-5bf8a8a9e6f8",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -727,10 +715,7 @@
       "server": "46.102.157.79",
       "server_port": 58096,
       "uuid": "d3f3fdd0-a087-9bab-0e07-ba22bd9a6e34",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -869,10 +854,7 @@
       "server": "46.102.157.79",
       "server_port": 58105,
       "uuid": "fbddfda5-cf1f-4bf4-acbc-a60555541beb",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -881,9 +863,6 @@
       "server_port": 56701,
       "uuid": "c6763909-34f1-4b80-9522-f70d930e90e6",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "addons.mozilla.org",

@@ -59,10 +59,7 @@
       "server_port": 21938,
       "uuid": "583bebef-3e0b-4c85-ba80-39e07ce35ad9",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vless",
@@ -71,9 +68,6 @@
       "server_port": 8443,
       "uuid": "157448af-8ecf-4075-a9e9-b23a6a94899b",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "osl-no-01.fromblancwithlove.com",
@@ -90,9 +84,6 @@
       "server_port": 6000,
       "uuid": "c48da5b2-98a7-4ca3-9ef3-1c9b8dbd3901",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
       "tls": {
         "enabled": true,
         "server_name": "unpkg.com",

@@ -59,10 +59,7 @@
       "server_port": 21759,
       "uuid": "e5f16fad-f9c3-452b-8e71-bc9504e29fc9",
       "security": "auto",
-      "alter_id": 0,
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": 0
     },
     {
       "type": "vmess",
@@ -71,10 +68,7 @@
       "server_port": 28686,
       "uuid": "6df7d56f-4953-4a10-be2e-a88cc9f94e48",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "tcp"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vless",
