@@ -37,16 +37,16 @@
       "tag": "PROXY",
       "outbounds": [
         "AUTO-SELECT",
-        "🔄 LATEST-UPDATE 📅 SUN-08-TIR-1404 🕑 06:39",
+        "🔄 LATEST-UPDATE 📅 SUN-08-TIR-1404 🕑 08:21",
         "🤖 TELEGRAM-CHANNEL 🌟 ARTIFICIAL-INTELLIGENCE 🖥 @NEUROVANCE 🧠",
         "🛡 TELEGRAM-CHANNEL 🔐 MTPROTO-PROXY 🌍 @NEXUPROXY 📡",
-        "🔒 VL-WS-NA 🇸🇦 SA-91.209.253.13:8880",
-        "🔒 VL-WS-NA 🇸🇦 SA-91.209.253.63:8880",
         "🔒 VL-WS-NA 🇸🇦 SA-91.209.253.247:8880",
-        "🔒 VL-WS-NA 🇸🇦 SA-91.209.253.213:8880",
-        "🔒 VL-WS-NA 🇸🇦 SA-91.209.253.251:8880",
+        "🔒 VL-WS-NA 🇸🇦 SA-91.209.253.13:8880",
         "🔒 VL-WS-NA 🇸🇦 SA-91.209.253.254:8880",
+        "🔒 VL-WS-NA 🇸🇦 SA-91.209.253.251:8880",
         "🔒 VL-WS-NA 🇸🇦 SA-91.209.253.29:8880",
+        "🔒 VL-WS-NA 🇸🇦 SA-91.209.253.213:8880",
+        "🔒 VL-WS-NA 🇸🇦 SA-91.209.253.63:8880",
         "👨🏻‍💻 DEVELOPED-BY SOROUSH-MIRZAEI 📌 FOLLOW-CONTACT SYDSRSMRZ"
       ],
       "default": "AUTO-SELECT"
@@ -55,22 +55,22 @@
       "type": "url-test",
       "tag": "AUTO-SELECT",
       "outbounds": [
-        "🔒 VL-WS-NA 🇸🇦 SA-91.209.253.13:8880",
-        "🔒 VL-WS-NA 🇸🇦 SA-91.209.253.63:8880",
         "🔒 VL-WS-NA 🇸🇦 SA-91.209.253.247:8880",
-        "🔒 VL-WS-NA 🇸🇦 SA-91.209.253.213:8880",
-        "🔒 VL-WS-NA 🇸🇦 SA-91.209.253.251:8880",
+        "🔒 VL-WS-NA 🇸🇦 SA-91.209.253.13:8880",
         "🔒 VL-WS-NA 🇸🇦 SA-91.209.253.254:8880",
-        "🔒 VL-WS-NA 🇸🇦 SA-91.209.253.29:8880"
+        "🔒 VL-WS-NA 🇸🇦 SA-91.209.253.251:8880",
+        "🔒 VL-WS-NA 🇸🇦 SA-91.209.253.29:8880",
+        "🔒 VL-WS-NA 🇸🇦 SA-91.209.253.213:8880",
+        "🔒 VL-WS-NA 🇸🇦 SA-91.209.253.63:8880"
       ],
       "url": "http://www.gstatic.com/generate_204"
     },
     {
       "type": "trojan",
-      "tag": "🔄 LATEST-UPDATE 📅 SUN-08-TIR-1404 🕑 06:39",
+      "tag": "🔄 LATEST-UPDATE 📅 SUN-08-TIR-1404 🕑 08:21",
       "server": "127.0.0.1",
       "server_port": 1080,
-      "password": "bcbaaca-baca-abac-badc-baabccbbacca",
+      "password": "abacacb-abca-baca-abdc-aabcaacccbbb",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"
@@ -81,7 +81,7 @@
       "tag": "🤖 TELEGRAM-CHANNEL 🌟 ARTIFICIAL-INTELLIGENCE 🖥 @NEUROVANCE 🧠",
       "server": "127.0.0.1",
       "server_port": 2080,
-      "password": "bbaacca-acab-caab-dcab-baabcbcaacbc",
+      "password": "bbaacca-caba-acba-cabd-cbcaaaccbabb",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"
@@ -92,40 +92,10 @@
       "tag": "🛡 TELEGRAM-CHANNEL 🔐 MTPROTO-PROXY 🌍 @NEXUPROXY 📡",
       "server": "127.0.0.1",
       "server_port": 3080,
-      "password": "aaccabb-acba-acab-acdb-aaacbbbcccab",
+      "password": "acbaacb-abac-aabc-bacd-aabcabcccabb",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🔒 VL-WS-NA 🇸🇦 SA-91.209.253.13:8880",
-      "server": "91.209.253.13",
-      "server_port": 8880,
-      "uuid": "9f3c4ab7-ea26-4d96-91a9-c85ff64ad9a0",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "ws",
-        "path": "/Telegram🇨🇳",
-        "headers": {
-          "Host": "c.82313369.xyz"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🔒 VL-WS-NA 🇸🇦 SA-91.209.253.63:8880",
-      "server": "91.209.253.63",
-      "server_port": 8880,
-      "uuid": "fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "ws",
-        "path": "/Telegram🇨🇳",
-        "headers": {
-          "Host": "jp.laoyoutiao.link"
-        }
       }
     },
     {
@@ -145,31 +115,16 @@
     },
     {
       "type": "vless",
-      "tag": "🔒 VL-WS-NA 🇸🇦 SA-91.209.253.213:8880",
-      "server": "91.209.253.213",
+      "tag": "🔒 VL-WS-NA 🇸🇦 SA-91.209.253.13:8880",
+      "server": "91.209.253.13",
       "server_port": 8880,
-      "uuid": "fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "jp.laoyoutiao.link"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🔒 VL-WS-NA 🇸🇦 SA-91.209.253.251:8880",
-      "server": "91.209.253.251",
-      "server_port": 8880,
-      "uuid": "0132166f-e702-48ed-a9e7-b07af768faf8",
+      "uuid": "9f3c4ab7-ea26-4d96-91a9-c85ff64ad9a0",
       "packet_encoding": "xudp",
       "transport": {
         "type": "ws",
         "path": "/Telegram🇨🇳",
         "headers": {
-          "Host": "cf.d3z.net"
+          "Host": "c.82313369.xyz"
         }
       }
     },
@@ -190,6 +145,21 @@
     },
     {
       "type": "vless",
+      "tag": "🔒 VL-WS-NA 🇸🇦 SA-91.209.253.251:8880",
+      "server": "91.209.253.251",
+      "server_port": 8880,
+      "uuid": "0132166f-e702-48ed-a9e7-b07af768faf8",
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "/Telegram🇨🇳",
+        "headers": {
+          "Host": "cf.d3z.net"
+        }
+      }
+    },
+    {
+      "type": "vless",
       "tag": "🔒 VL-WS-NA 🇸🇦 SA-91.209.253.29:8880",
       "server": "91.209.253.29",
       "server_port": 8880,
@@ -204,11 +174,41 @@
       }
     },
     {
+      "type": "vless",
+      "tag": "🔒 VL-WS-NA 🇸🇦 SA-91.209.253.213:8880",
+      "server": "91.209.253.213",
+      "server_port": 8880,
+      "uuid": "fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf",
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "jp.laoyoutiao.link"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🔒 VL-WS-NA 🇸🇦 SA-91.209.253.63:8880",
+      "server": "91.209.253.63",
+      "server_port": 8880,
+      "uuid": "fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf",
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "/Telegram🇨🇳",
+        "headers": {
+          "Host": "jp.laoyoutiao.link"
+        }
+      }
+    },
+    {
       "type": "trojan",
       "tag": "👨🏻‍💻 DEVELOPED-BY SOROUSH-MIRZAEI 📌 FOLLOW-CONTACT SYDSRSMRZ",
       "server": "127.0.0.1",
       "server_port": 8080,
-      "password": "aacbabc-acab-baca-cbad-cabcacacbabb",
+      "password": "acbcaab-cbaa-acba-dbac-ccaababbcbac",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"

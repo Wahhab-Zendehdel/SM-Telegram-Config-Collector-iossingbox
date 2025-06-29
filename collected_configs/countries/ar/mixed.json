@@ -37,12 +37,12 @@
       "tag": "PROXY",
       "outbounds": [
         "AUTO-SELECT",
-        "🔄 LATEST-UPDATE 📅 SUN-08-TIR-1404 🕑 06:39",
+        "🔄 LATEST-UPDATE 📅 SUN-08-TIR-1404 🕑 08:21",
         "🤖 TELEGRAM-CHANNEL 🌟 ARTIFICIAL-INTELLIGENCE 🖥 @NEUROVANCE 🧠",
         "🛡 TELEGRAM-CHANNEL 🔐 MTPROTO-PROXY 🌍 @NEXUPROXY 📡",
-        "🔒 SS-TCP-NA 🇦🇷 AR-190.103.176.32:989",
-        "🔒 SS-TCP-NA 🇦🇷 AR-38.54.45.129:989",
         "🔒 SS-TCP-NA 🇦🇷 AR-38.54.45.129:990",
+        "🔒 SS-TCP-NA 🇦🇷 AR-38.54.45.129:989",
+        "🔒 SS-TCP-NA 🇦🇷 AR-190.103.176.32:989",
         "🔒 VL-TCP-RLT 🇦🇷 AR-38.54.45.217:443",
         "👨🏻‍💻 DEVELOPED-BY SOROUSH-MIRZAEI 📌 FOLLOW-CONTACT SYDSRSMRZ"
       ],
@@ -52,19 +52,19 @@
       "type": "url-test",
       "tag": "AUTO-SELECT",
       "outbounds": [
-        "🔒 SS-TCP-NA 🇦🇷 AR-190.103.176.32:989",
-        "🔒 SS-TCP-NA 🇦🇷 AR-38.54.45.129:989",
         "🔒 SS-TCP-NA 🇦🇷 AR-38.54.45.129:990",
+        "🔒 SS-TCP-NA 🇦🇷 AR-38.54.45.129:989",
+        "🔒 SS-TCP-NA 🇦🇷 AR-190.103.176.32:989",
         "🔒 VL-TCP-RLT 🇦🇷 AR-38.54.45.217:443"
       ],
       "url": "http://www.gstatic.com/generate_204"
     },
     {
       "type": "trojan",
-      "tag": "🔄 LATEST-UPDATE 📅 SUN-08-TIR-1404 🕑 06:39",
+      "tag": "🔄 LATEST-UPDATE 📅 SUN-08-TIR-1404 🕑 08:21",
       "server": "127.0.0.1",
       "server_port": 1080,
-      "password": "bcbaaca-baca-abac-badc-baabccbbacca",
+      "password": "abacacb-abca-baca-abdc-aabcaacccbbb",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"
@@ -75,7 +75,7 @@
       "tag": "🤖 TELEGRAM-CHANNEL 🌟 ARTIFICIAL-INTELLIGENCE 🖥 @NEUROVANCE 🧠",
       "server": "127.0.0.1",
       "server_port": 2080,
-      "password": "bbaacca-acab-caab-dcab-baabcbcaacbc",
+      "password": "bbaacca-caba-acba-cabd-cbcaaaccbabb",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"
@@ -86,7 +86,7 @@
       "tag": "🛡 TELEGRAM-CHANNEL 🔐 MTPROTO-PROXY 🌍 @NEXUPROXY 📡",
       "server": "127.0.0.1",
       "server_port": 3080,
-      "password": "aaccabb-acba-acab-acdb-aaacbbbcccab",
+      "password": "acbaacb-abac-aabc-bacd-aabcabcccabb",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"
@@ -94,10 +94,10 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "🔒 SS-TCP-NA 🇦🇷 AR-190.103.176.32:989",
-      "server": "190.103.176.32",
-      "server_port": 989,
-      "method": "aes-256-cfb",
+      "tag": "🔒 SS-TCP-NA 🇦🇷 AR-38.54.45.129:990",
+      "server": "38.54.45.129",
+      "server_port": 990,
+      "method": "chacha20-ietf-poly1305",
       "password": "f8f7aCzcPKbsF8p3"
     },
     {
@@ -110,10 +110,10 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "🔒 SS-TCP-NA 🇦🇷 AR-38.54.45.129:990",
-      "server": "38.54.45.129",
-      "server_port": 990,
-      "method": "chacha20-ietf-poly1305",
+      "tag": "🔒 SS-TCP-NA 🇦🇷 AR-190.103.176.32:989",
+      "server": "190.103.176.32",
+      "server_port": 989,
+      "method": "aes-256-cfb",
       "password": "f8f7aCzcPKbsF8p3"
     },
     {
@@ -144,7 +144,7 @@
       "tag": "👨🏻‍💻 DEVELOPED-BY SOROUSH-MIRZAEI 📌 FOLLOW-CONTACT SYDSRSMRZ",
       "server": "127.0.0.1",
       "server_port": 8080,
-      "password": "aacbabc-acab-baca-cbad-cabcacacbabb",
+      "password": "acbcaab-cbaa-acba-dbac-ccaababbcbac",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"
