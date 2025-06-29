@@ -1,92 +1,11 @@
 {
-  "log": {
-    "level": "info",
-    "timestamp": true
-  },
-  "dns": {
-    "servers": [
-      {
-        "tag": "dns_proxy",
-        "address": "proxy://dns-out/dns-query",
-        "detour": "PROXY"
-      },
-      {
-        "tag": "dns_direct",
-        "address": "https://1.1.1.1/dns-query",
-        "detour": "DIRECT"
-      },
-      {
-        "tag": "dns_block",
-        "address": "rcode://success"
-      }
-    ]
-  },
-  "inbounds": [
-    {
-      "type": "tun",
-      "interface_name": "tun0",
-      "inet4_address": "172.19.0.1/30",
-      "auto_route": true,
-      "strict_route": true,
-      "sniff": true
-    }
-  ],
   "outbounds": [
     {
-      "type": "selector",
-      "tag": "PROXY",
-      "outbounds": [
-        "AUTO-SELECT",
-        "🔄 LATEST-UPDATE 📅 SUN-08-TIR-1404 🕑 19:46",
-        "🤖 TELEGRAM-CHANNEL 🌟 ARTIFICIAL-INTELLIGENCE 🖥 @NEUROVANCE 🧠",
-        "🛡 TELEGRAM-CHANNEL 🔐 MTPROTO-PROXY 🌍 @NEXUPROXY 📡",
-        "🔒 SS-TCP-NA 🇱🇻 LV-195.123.213.12:31348",
-        "🔒 SS-TCP-NA 🇱🇻 LV-62.60.234.92:53579",
-        "🔒 SS-TCP-NA 🇱🇻 LV-5.34.209.50:58919",
-        "🔒 SS-TCP-NA 🇱🇻 LV-216.173.70.187:57456",
-        "🔒 SS-TCP-NA 🇱🇻 LV-185.135.86.86:31348",
-        "🔒 TR-TCP-TLS 🇱🇻 LV-188.253.22.10:443",
-        "🔒 TR-TCP-NA 🇱🇻 LV-91.197.3.168:8443",
-        "🔒 VL-WS-NA 🇱🇻 LV-103.231.73.214:443",
-        "🔒 VL-WS-TLS 🇱🇻 LV-185.113.139.103:443",
-        "🔒 VL-WS-TLS 🇱🇻 LV-91.197.3.157:443",
-        "🔒 VL-TCP-RLT 🇱🇻 LV-94.158.219.203:443",
-        "🔒 VL-TCP-RLT 🇱🇻 LV-216.173.70.95:443",
-        "🔒 VL-TCP-RLT 🇱🇻 LV-62.192.174.205:443",
-        "🔒 VL-TCP-RLT 🇱🇻 LV-195.135.254.59:443",
-        "🔒 VL-TCP-RLT 🇱🇻 LV-5.34.210.175:443",
-        "👨🏻‍💻 DEVELOPED-BY SOROUSH-MIRZAEI 📌 FOLLOW-CONTACT SYDSRSMRZ"
-      ],
-      "default": "AUTO-SELECT"
-    },
-    {
-      "type": "url-test",
-      "tag": "AUTO-SELECT",
-      "outbounds": [
-        "🔒 SS-TCP-NA 🇱🇻 LV-195.123.213.12:31348",
-        "🔒 SS-TCP-NA 🇱🇻 LV-62.60.234.92:53579",
-        "🔒 SS-TCP-NA 🇱🇻 LV-5.34.209.50:58919",
-        "🔒 SS-TCP-NA 🇱🇻 LV-216.173.70.187:57456",
-        "🔒 SS-TCP-NA 🇱🇻 LV-185.135.86.86:31348",
-        "🔒 TR-TCP-TLS 🇱🇻 LV-188.253.22.10:443",
-        "🔒 TR-TCP-NA 🇱🇻 LV-91.197.3.168:8443",
-        "🔒 VL-WS-NA 🇱🇻 LV-103.231.73.214:443",
-        "🔒 VL-WS-TLS 🇱🇻 LV-185.113.139.103:443",
-        "🔒 VL-WS-TLS 🇱🇻 LV-91.197.3.157:443",
-        "🔒 VL-TCP-RLT 🇱🇻 LV-94.158.219.203:443",
-        "🔒 VL-TCP-RLT 🇱🇻 LV-216.173.70.95:443",
-        "🔒 VL-TCP-RLT 🇱🇻 LV-62.192.174.205:443",
-        "🔒 VL-TCP-RLT 🇱🇻 LV-195.135.254.59:443",
-        "🔒 VL-TCP-RLT 🇱🇻 LV-5.34.210.175:443"
-      ],
-      "url": "http://www.gstatic.com/generate_204"
-    },
-    {
       "type": "trojan",
-      "tag": "🔄 LATEST-UPDATE 📅 SUN-08-TIR-1404 🕑 19:46",
+      "tag": "🔄 LATEST-UPDATE 📅 SUN-08-TIR-1404 🕑 20:44",
       "server": "127.0.0.1",
       "server_port": 1080,
-      "password": "bacbcaa-caab-caba-bdca-accbbbbccaaa",
+      "password": "bbaacac-caab-abac-dcab-baabbcaacccb",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"
@@ -97,7 +16,7 @@
       "tag": "🤖 TELEGRAM-CHANNEL 🌟 ARTIFICIAL-INTELLIGENCE 🖥 @NEUROVANCE 🧠",
       "server": "127.0.0.1",
       "server_port": 2080,
-      "password": "acbbaca-bcaa-baca-adcb-bbcbcacaabac",
+      "password": "baaaccb-acba-abac-cabd-acbbbacaabcc",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"
@@ -108,7 +27,7 @@
       "tag": "🛡 TELEGRAM-CHANNEL 🔐 MTPROTO-PROXY 🌍 @NEXUPROXY 📡",
       "server": "127.0.0.1",
       "server_port": 3080,
-      "password": "bcaabca-caba-cbaa-dcba-cbbbccacaaab",
+      "password": "abcbaca-baca-acba-bdac-accbbcbacaba",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"
@@ -116,19 +35,11 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "🔒 SS-TCP-NA 🇱🇻 LV-195.123.213.12:31348",
-      "server": "195.123.213.12",
-      "server_port": 31348,
+      "tag": "🔒 SS-TCP-NA 🇱🇻 LV-216.173.70.187:57456",
+      "server": "216.173.70.187",
+      "server_port": 57456,
       "method": "chacha20-ietf-poly1305",
-      "password": "699hONcp4LmWu8Ck6hEPM34tt89EqAJ50k7FbRBdrBbxjX1n"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🔒 SS-TCP-NA 🇱🇻 LV-62.60.234.92:53579",
-      "server": "62.60.234.92",
-      "server_port": 53579,
-      "method": "chacha20-ietf-poly1305",
-      "password": "pCFflDgNn5C89IMA8mt9cg"
+      "password": "a58fa62b4944ddbf"
     },
     {
       "type": "shadowsocks",
@@ -140,11 +51,19 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "🔒 SS-TCP-NA 🇱🇻 LV-216.173.70.187:57456",
-      "server": "216.173.70.187",
-      "server_port": 57456,
+      "tag": "🔒 SS-TCP-NA 🇱🇻 LV-62.60.234.92:53579",
+      "server": "62.60.234.92",
+      "server_port": 53579,
       "method": "chacha20-ietf-poly1305",
-      "password": "a58fa62b4944ddbf"
+      "password": "pCFflDgNn5C89IMA8mt9cg"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🔒 SS-TCP-NA 🇱🇻 LV-195.123.213.12:31348",
+      "server": "195.123.213.12",
+      "server_port": 31348,
+      "method": "chacha20-ietf-poly1305",
+      "password": "699hONcp4LmWu8Ck6hEPM34tt89EqAJ50k7FbRBdrBbxjX1n"
     },
     {
       "type": "shadowsocks",
@@ -174,21 +93,6 @@
       "tls": {
         "enabled": true,
         "server_name": "ngepz.ambercc.filegear-sg.me"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🔒 VL-WS-NA 🇱🇻 LV-103.231.73.214:443",
-      "server": "103.231.73.214",
-      "server_port": 443,
-      "uuid": "588f094b-431b-422c-b80b-007945037072",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "lv01.abvpn.ru"
-        }
       }
     },
     {
@@ -239,49 +143,16 @@
     },
     {
       "type": "vless",
-      "tag": "🔒 VL-TCP-RLT 🇱🇻 LV-94.158.219.203:443",
-      "server": "94.158.219.203",
+      "tag": "🔒 VL-WS-NA 🇱🇻 LV-103.231.73.214:443",
+      "server": "103.231.73.214",
       "server_port": 443,
-      "uuid": "b1c801ec-1c5e-4d12-8b53-8da11c64a21b",
+      "uuid": "588f094b-431b-422c-b80b-007945037072",
       "packet_encoding": "xudp",
       "transport": {
-        "type": "tcp"
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "video.intfreed.ru",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "JxwG7rAbNCd_C82p9K69AZDWh51fri2nm3wLHHrfyiw",
-          "short_id": "7755e972daf8eec8"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🔒 VL-TCP-RLT 🇱🇻 LV-216.173.70.95:443",
-      "server": "216.173.70.95",
-      "server_port": 443,
-      "uuid": "b1c801ec-1c5e-4d12-8b53-8da11c64a21b",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "tcp"
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "video.intfreed.ru",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "JxwG7rAbNCd_C82p9K69AZDWh51fri2nm3wLHHrfyiw",
-          "short_id": "7755e972daf8eec8"
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "lv01.abvpn.ru"
         }
       }
     },
@@ -311,8 +182,8 @@
     },
     {
       "type": "vless",
-      "tag": "🔒 VL-TCP-RLT 🇱🇻 LV-195.135.254.59:443",
-      "server": "195.135.254.59",
+      "tag": "🔒 VL-TCP-RLT 🇱🇻 LV-94.158.219.203:443",
+      "server": "94.158.219.203",
       "server_port": 443,
       "uuid": "b1c801ec-1c5e-4d12-8b53-8da11c64a21b",
       "packet_encoding": "xudp",
@@ -358,41 +229,63 @@
       }
     },
     {
+      "type": "vless",
+      "tag": "🔒 VL-TCP-RLT 🇱🇻 LV-195.135.254.59:443",
+      "server": "195.135.254.59",
+      "server_port": 443,
+      "uuid": "b1c801ec-1c5e-4d12-8b53-8da11c64a21b",
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "tcp"
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "video.intfreed.ru",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "JxwG7rAbNCd_C82p9K69AZDWh51fri2nm3wLHHrfyiw",
+          "short_id": "7755e972daf8eec8"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🔒 VL-TCP-RLT 🇱🇻 LV-216.173.70.95:443",
+      "server": "216.173.70.95",
+      "server_port": 443,
+      "uuid": "b1c801ec-1c5e-4d12-8b53-8da11c64a21b",
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "tcp"
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "video.intfreed.ru",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "JxwG7rAbNCd_C82p9K69AZDWh51fri2nm3wLHHrfyiw",
+          "short_id": "7755e972daf8eec8"
+        }
+      }
+    },
+    {
       "type": "trojan",
       "tag": "👨🏻‍💻 DEVELOPED-BY SOROUSH-MIRZAEI 📌 FOLLOW-CONTACT SYDSRSMRZ",
       "server": "127.0.0.1",
       "server_port": 8080,
-      "password": "abbccaa-acab-abac-cbad-aabccbccbaab",
+      "password": "acbbcaa-acba-abac-dbca-abacbccbbaac",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"
       }
-    },
-    {
-      "type": "dns",
-      "tag": "dns-out"
-    },
-    {
-      "type": "direct",
-      "tag": "DIRECT"
-    },
-    {
-      "type": "block",
-      "tag": "BLOCK"
     }
-  ],
-  "route": {
-    "rules": [
-      {
-        "protocol": "dns",
-        "outbound": "dns-out"
-      },
-      {
-        "network": "udp",
-        "port": 443,
-        "outbound": "BLOCK"
-      }
-    ],
-    "final": "PROXY"
-  }
+  ]
 }
