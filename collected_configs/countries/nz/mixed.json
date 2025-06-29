@@ -37,18 +37,18 @@
       "tag": "PROXY",
       "outbounds": [
         "AUTO-SELECT",
-        "🔄 LATEST-UPDATE 📅 SUN-08-TIR-1404 🕑 13:36",
+        "🔄 LATEST-UPDATE 📅 SUN-08-TIR-1404 🕑 14:42",
         "🤖 TELEGRAM-CHANNEL 🌟 ARTIFICIAL-INTELLIGENCE 🖥 @NEUROVANCE 🧠",
         "🛡 TELEGRAM-CHANNEL 🔐 MTPROTO-PROXY 🌍 @NEXUPROXY 📡",
         "🔒 TR-TCP-NA 🇳🇿 NZ-202.37.33.80:443",
-        "🔒 VL-WS-NA 🇳🇿 NZ-114.129.43.251:8880",
-        "🔒 VL-WS-NA 🇳🇿 NZ-114.129.43.29:8880",
-        "🔒 VL-WS-NA 🇳🇿 NZ-114.129.43.247:8880",
-        "🔒 VL-WS-NA 🇳🇿 NZ-114.129.43.254:8880",
-        "🔒 VL-WS-TLS 🇳🇿 NZ-202.37.33.80:443",
-        "🔒 VL-WS-NA 🇳🇿 NZ-114.129.43.213:8880",
         "🔒 VL-WS-NA 🇳🇿 NZ-114.129.43.13:8880",
+        "🔒 VL-WS-NA 🇳🇿 NZ-114.129.43.247:8880",
+        "🔒 VL-WS-TLS 🇳🇿 NZ-202.37.33.80:443",
+        "🔒 VL-WS-NA 🇳🇿 NZ-114.129.43.251:8880",
         "🔒 VL-WS-NA 🇳🇿 NZ-114.129.43.63:8880",
+        "🔒 VL-WS-NA 🇳🇿 NZ-114.129.43.254:8880",
+        "🔒 VL-WS-NA 🇳🇿 NZ-114.129.43.29:8880",
+        "🔒 VL-WS-NA 🇳🇿 NZ-114.129.43.213:8880",
         "👨🏻‍💻 DEVELOPED-BY SOROUSH-MIRZAEI 📌 FOLLOW-CONTACT SYDSRSMRZ"
       ],
       "default": "AUTO-SELECT"
@@ -58,23 +58,23 @@
       "tag": "AUTO-SELECT",
       "outbounds": [
         "🔒 TR-TCP-NA 🇳🇿 NZ-202.37.33.80:443",
-        "🔒 VL-WS-NA 🇳🇿 NZ-114.129.43.251:8880",
-        "🔒 VL-WS-NA 🇳🇿 NZ-114.129.43.29:8880",
-        "🔒 VL-WS-NA 🇳🇿 NZ-114.129.43.247:8880",
-        "🔒 VL-WS-NA 🇳🇿 NZ-114.129.43.254:8880",
-        "🔒 VL-WS-TLS 🇳🇿 NZ-202.37.33.80:443",
-        "🔒 VL-WS-NA 🇳🇿 NZ-114.129.43.213:8880",
         "🔒 VL-WS-NA 🇳🇿 NZ-114.129.43.13:8880",
-        "🔒 VL-WS-NA 🇳🇿 NZ-114.129.43.63:8880"
+        "🔒 VL-WS-NA 🇳🇿 NZ-114.129.43.247:8880",
+        "🔒 VL-WS-TLS 🇳🇿 NZ-202.37.33.80:443",
+        "🔒 VL-WS-NA 🇳🇿 NZ-114.129.43.251:8880",
+        "🔒 VL-WS-NA 🇳🇿 NZ-114.129.43.63:8880",
+        "🔒 VL-WS-NA 🇳🇿 NZ-114.129.43.254:8880",
+        "🔒 VL-WS-NA 🇳🇿 NZ-114.129.43.29:8880",
+        "🔒 VL-WS-NA 🇳🇿 NZ-114.129.43.213:8880"
       ],
       "url": "http://www.gstatic.com/generate_204"
     },
     {
       "type": "trojan",
-      "tag": "🔄 LATEST-UPDATE 📅 SUN-08-TIR-1404 🕑 13:36",
+      "tag": "🔄 LATEST-UPDATE 📅 SUN-08-TIR-1404 🕑 14:42",
       "server": "127.0.0.1",
       "server_port": 1080,
-      "password": "caaacbb-caab-cbaa-bcad-bacabbacacbc",
+      "password": "bbcacaa-cbaa-caba-cbda-cacbbabccaba",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"
@@ -85,7 +85,7 @@
       "tag": "🤖 TELEGRAM-CHANNEL 🌟 ARTIFICIAL-INTELLIGENCE 🖥 @NEUROVANCE 🧠",
       "server": "127.0.0.1",
       "server_port": 2080,
-      "password": "bbaacca-abac-abac-cbda-baacaacbbcbc",
+      "password": "aaabccb-abca-acab-abdc-caababbbcacc",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"
@@ -96,7 +96,7 @@
       "tag": "🛡 TELEGRAM-CHANNEL 🔐 MTPROTO-PROXY 🌍 @NEXUPROXY 📡",
       "server": "127.0.0.1",
       "server_port": 3080,
-      "password": "babaacc-acab-cbaa-bdca-cbbbbaaaccac",
+      "password": "caabbca-cbaa-aabc-bdac-abcacabbabcc",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"
@@ -115,31 +115,16 @@
     },
     {
       "type": "vless",
-      "tag": "🔒 VL-WS-NA 🇳🇿 NZ-114.129.43.251:8880",
-      "server": "114.129.43.251",
+      "tag": "🔒 VL-WS-NA 🇳🇿 NZ-114.129.43.13:8880",
+      "server": "114.129.43.13",
       "server_port": 8880,
-      "uuid": "0132166f-e702-48ed-a9e7-b07af768faf8",
+      "uuid": "9f3c4ab7-ea26-4d96-91a9-c85ff64ad9a0",
       "packet_encoding": "xudp",
       "transport": {
         "type": "ws",
-        "path": "/Telegram🇨🇳 @WangCai2 /?ed=2560",
+        "path": "/Telegram🇨🇳",
         "headers": {
-          "Host": "cf.d3z.net"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🔒 VL-WS-NA 🇳🇿 NZ-114.129.43.29:8880",
-      "server": "114.129.43.29",
-      "server_port": 8880,
-      "uuid": "fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "ws",
-        "path": "/TelegramU0001F1E8U0001F1F3",
-        "headers": {
-          "Host": "hk.laoyoutiao.link"
+          "Host": "c.82313369.xyz"
         }
       }
     },
@@ -155,21 +140,6 @@
         "path": "/Telegram🇨🇳",
         "headers": {
           "Host": "ex.sue.x10.mx"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🔒 VL-WS-NA 🇳🇿 NZ-114.129.43.254:8880",
-      "server": "114.129.43.254",
-      "server_port": 8880,
-      "uuid": "34c01e61-f4f3-4afb-a83b-406caf8caa33",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "ws",
-        "path": "/Telegram🇨🇳",
-        "headers": {
-          "Host": "yg.bantony199.top"
         }
       }
     },
@@ -198,31 +168,16 @@
     },
     {
       "type": "vless",
-      "tag": "🔒 VL-WS-NA 🇳🇿 NZ-114.129.43.213:8880",
-      "server": "114.129.43.213",
+      "tag": "🔒 VL-WS-NA 🇳🇿 NZ-114.129.43.251:8880",
+      "server": "114.129.43.251",
       "server_port": 8880,
-      "uuid": "fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf",
+      "uuid": "0132166f-e702-48ed-a9e7-b07af768faf8",
       "packet_encoding": "xudp",
       "transport": {
         "type": "ws",
-        "path": "/",
+        "path": "/Telegram🇨🇳 @WangCai2 /?ed=2560",
         "headers": {
-          "Host": "jp.laoyoutiao.link"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🔒 VL-WS-NA 🇳🇿 NZ-114.129.43.13:8880",
-      "server": "114.129.43.13",
-      "server_port": 8880,
-      "uuid": "9f3c4ab7-ea26-4d96-91a9-c85ff64ad9a0",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "ws",
-        "path": "/Telegram🇨🇳",
-        "headers": {
-          "Host": "c.82313369.xyz"
+          "Host": "cf.d3z.net"
         }
       }
     },
@@ -242,11 +197,56 @@
       }
     },
     {
+      "type": "vless",
+      "tag": "🔒 VL-WS-NA 🇳🇿 NZ-114.129.43.254:8880",
+      "server": "114.129.43.254",
+      "server_port": 8880,
+      "uuid": "34c01e61-f4f3-4afb-a83b-406caf8caa33",
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "/Telegram🇨🇳",
+        "headers": {
+          "Host": "yg.bantony199.top"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🔒 VL-WS-NA 🇳🇿 NZ-114.129.43.29:8880",
+      "server": "114.129.43.29",
+      "server_port": 8880,
+      "uuid": "fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf",
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "/TelegramU0001F1E8U0001F1F3",
+        "headers": {
+          "Host": "hk.laoyoutiao.link"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🔒 VL-WS-NA 🇳🇿 NZ-114.129.43.213:8880",
+      "server": "114.129.43.213",
+      "server_port": 8880,
+      "uuid": "fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf",
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "jp.laoyoutiao.link"
+        }
+      }
+    },
+    {
       "type": "trojan",
       "tag": "👨🏻‍💻 DEVELOPED-BY SOROUSH-MIRZAEI 📌 FOLLOW-CONTACT SYDSRSMRZ",
       "server": "127.0.0.1",
       "server_port": 8080,
-      "password": "bbaaacc-acba-cbaa-dabc-bbaccbaccaab",
+      "password": "cbaaacb-cbaa-cbaa-bcad-ccabcacbabab",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"
