@@ -1,5 +1,156 @@
 {
+  "log": {
+    "level": "info",
+    "timestamp": true
+  },
+  "dns": {
+    "servers": [
+      {
+        "tag": "dns_proxy",
+        "address": "proxy://dns-out/dns-query",
+        "detour": "PROXY"
+      },
+      {
+        "tag": "dns_direct",
+        "address": "https://1.1.1.1/dns-query",
+        "detour": "DIRECT"
+      },
+      {
+        "tag": "dns_block",
+        "address": "rcode://success"
+      }
+    ]
+  },
+  "inbounds": [
+    {
+      "type": "tun",
+      "interface_name": "tun0",
+      "inet4_address": "172.19.0.1/30",
+      "auto_route": true,
+      "strict_route": true,
+      "sniff": true
+    }
+  ],
   "outbounds": [
+    {
+      "type": "selector",
+      "tag": "PROXY",
+      "outbounds": [
+        "AUTO-SELECT",
+        "🔄 LATEST-UPDATE 📅 SUN-08-TIR-1404 🕑 20:44",
+        "🤖 TELEGRAM-CHANNEL 🌟 ARTIFICIAL-INTELLIGENCE 🖥 @NEUROVANCE 🧠",
+        "🛡 TELEGRAM-CHANNEL 🔐 MTPROTO-PROXY 🌍 @NEXUPROXY 📡",
+        "🔒 SS-TCP-NA 🇨🇭 CH-204.136.10.115:1866",
+        "🔒 SS-TCP-NA 🇨🇭 CH-156.146.62.161:443",
+        "🔒 SS-TCP-NA 🇨🇭 CH-156.146.62.162:443",
+        "🔒 SS-TCP-NA 🇨🇭 CH-156.146.62.164:443",
+        "🔒 SS-TCP-NA 🇨🇭 CH-45.95.232.236:4248",
+        "🔒 SS-TCP-NA 🇨🇭 CH-195.15.215.198:5555",
+        "🔒 SS-TCP-NA 🇨🇭 CH-156.146.62.163:443",
+        "🔒 SS-TCP-NA 🇨🇭 CH-156.146.62.160:443",
+        "🔒 VM-TCP-NA 🇨🇭 CH-23.166.88.183:22324",
+        "🔒 VL-WS-NONE 🇨🇭 CH-185.18.250.76:2095",
+        "🔒 VL-WS-TLS 🇨🇭 CH-185.18.250.239:2087",
+        "🔒 VL-WS-NA 🇨🇭 CH-185.18.250.52:2095",
+        "🔒 VL-WS-NA 🇨🇭 CH-185.18.250.213:8880",
+        "🔒 VL-TCP-NONE 🇨🇭 CH-84.234.31.243:20244",
+        "🔒 VL-TCP-NA 🇨🇭 CH-84.234.31.140:66",
+        "🔒 VL-WS-TLS 🇨🇭 CH-91.90.193.159:443",
+        "🔒 VL-WS-NA 🇨🇭 CH-185.18.250.20:8880",
+        "🔒 VL-WS-NA 🇨🇭 CH-185.18.250.254:8880",
+        "🔒 VL-WS-NONE 🇨🇭 CH-185.18.250.162:8880",
+        "🔒 VL-WS-NA 🇨🇭 CH-185.18.250.240:2095",
+        "🔒 VL-WS-NA 🇨🇭 CH-185.18.250.251:8880",
+        "🔒 VL-HTTPUPGRADE-NONE 🇨🇭 CH-185.18.250.227:8880",
+        "🔒 VL-WS-TLS 🇨🇭 CH-45.95.232.203:2053",
+        "🔒 VL-HTTPUPGRADE-NONE 🇨🇭 CH-185.18.250.40:8880",
+        "🔒 VL-HTTPUPGRADE-NONE 🇨🇭 CH-185.18.250.172:8880",
+        "🔒 VL-WS-NA 🇨🇭 CH-185.18.250.63:8880",
+        "🔒 VL-WS-NONE 🇨🇭 CH-185.18.250.33:80",
+        "🔒 VL-WS-NONE 🇨🇭 CH-185.18.250.29:8880",
+        "🔒 VL-WS-TLS 🇨🇭 CH-95.183.51.10:8443",
+        "🔒 VL-WS-TLS 🇨🇭 CH-152.67.74.223:443",
+        "🔒 VL-WS-TLS 🇨🇭 CH-91.192.102.55:443",
+        "🔒 VL-WS-NA 🇨🇭 CH-185.18.250.121:2095",
+        "🔒 VL-WS-TLS 🇨🇭 CH-45.95.232.203:8443",
+        "🔒 VL-WS-TLS 🇨🇭 CH-185.18.250.27:443",
+        "🔒 VL-WS-NA 🇨🇭 CH-185.18.250.242:2095",
+        "🔒 VL-WS-NA 🇨🇭 CH-185.18.250.3:8880",
+        "🔒 VL-WS-NA 🇨🇭 CH-185.18.250.13:8880",
+        "🔒 VL-WS-NA 🇨🇭 CH-185.18.250.12:80",
+        "🔒 VL-TCP-NONE 🇨🇭 CH-84.234.31.224:55",
+        "🔒 VL-WS-NA 🇨🇭 CH-185.18.250.247:8880",
+        "🔒 VL-GRPC-RLT 🇨🇭 CH-195.15.243.142:443",
+        "🔒 VL-TCP-RLT 🇨🇭 CH-83.228.192.244:26206",
+        "🔒 VL-TCP-RLT 🇨🇭 CH-195.15.243.142:8080",
+        "🔒 VL-GRPC-RLT 🇨🇭 CH-195.15.243.23:443",
+        "🔒 VL-GRPC-RLT 🇨🇭 CH-94.131.3.59:2053",
+        "🔒 VL-GRPC-RLT 🇨🇭 CH-195.15.201.22:443",
+        "🔒 VL-GRPC-RLT 🇨🇭 CH-141.227.138.201:1210",
+        "🔒 VL-TCP-RLT 🇨🇭 CH-195.15.215.198:443",
+        "🔒 VL-GRPC-RLT 🇨🇭 CH-193.168.144.46:443",
+        "🔒 VL-TCP-RLT 🇨🇭 CH-37.156.45.88:80",
+        "👨🏻‍💻 DEVELOPED-BY SOROUSH-MIRZAEI 📌 FOLLOW-CONTACT SYDSRSMRZ"
+      ],
+      "default": "AUTO-SELECT"
+    },
+    {
+      "type": "url-test",
+      "tag": "AUTO-SELECT",
+      "outbounds": [
+        "🔒 SS-TCP-NA 🇨🇭 CH-204.136.10.115:1866",
+        "🔒 SS-TCP-NA 🇨🇭 CH-156.146.62.161:443",
+        "🔒 SS-TCP-NA 🇨🇭 CH-156.146.62.162:443",
+        "🔒 SS-TCP-NA 🇨🇭 CH-156.146.62.164:443",
+        "🔒 SS-TCP-NA 🇨🇭 CH-45.95.232.236:4248",
+        "🔒 SS-TCP-NA 🇨🇭 CH-195.15.215.198:5555",
+        "🔒 SS-TCP-NA 🇨🇭 CH-156.146.62.163:443",
+        "🔒 SS-TCP-NA 🇨🇭 CH-156.146.62.160:443",
+        "🔒 VM-TCP-NA 🇨🇭 CH-23.166.88.183:22324",
+        "🔒 VL-WS-NONE 🇨🇭 CH-185.18.250.76:2095",
+        "🔒 VL-WS-TLS 🇨🇭 CH-185.18.250.239:2087",
+        "🔒 VL-WS-NA 🇨🇭 CH-185.18.250.52:2095",
+        "🔒 VL-WS-NA 🇨🇭 CH-185.18.250.213:8880",
+        "🔒 VL-TCP-NONE 🇨🇭 CH-84.234.31.243:20244",
+        "🔒 VL-TCP-NA 🇨🇭 CH-84.234.31.140:66",
+        "🔒 VL-WS-TLS 🇨🇭 CH-91.90.193.159:443",
+        "🔒 VL-WS-NA 🇨🇭 CH-185.18.250.20:8880",
+        "🔒 VL-WS-NA 🇨🇭 CH-185.18.250.254:8880",
+        "🔒 VL-WS-NONE 🇨🇭 CH-185.18.250.162:8880",
+        "🔒 VL-WS-NA 🇨🇭 CH-185.18.250.240:2095",
+        "🔒 VL-WS-NA 🇨🇭 CH-185.18.250.251:8880",
+        "🔒 VL-HTTPUPGRADE-NONE 🇨🇭 CH-185.18.250.227:8880",
+        "🔒 VL-WS-TLS 🇨🇭 CH-45.95.232.203:2053",
+        "🔒 VL-HTTPUPGRADE-NONE 🇨🇭 CH-185.18.250.40:8880",
+        "🔒 VL-HTTPUPGRADE-NONE 🇨🇭 CH-185.18.250.172:8880",
+        "🔒 VL-WS-NA 🇨🇭 CH-185.18.250.63:8880",
+        "🔒 VL-WS-NONE 🇨🇭 CH-185.18.250.33:80",
+        "🔒 VL-WS-NONE 🇨🇭 CH-185.18.250.29:8880",
+        "🔒 VL-WS-TLS 🇨🇭 CH-95.183.51.10:8443",
+        "🔒 VL-WS-TLS 🇨🇭 CH-152.67.74.223:443",
+        "🔒 VL-WS-TLS 🇨🇭 CH-91.192.102.55:443",
+        "🔒 VL-WS-NA 🇨🇭 CH-185.18.250.121:2095",
+        "🔒 VL-WS-TLS 🇨🇭 CH-45.95.232.203:8443",
+        "🔒 VL-WS-TLS 🇨🇭 CH-185.18.250.27:443",
+        "🔒 VL-WS-NA 🇨🇭 CH-185.18.250.242:2095",
+        "🔒 VL-WS-NA 🇨🇭 CH-185.18.250.3:8880",
+        "🔒 VL-WS-NA 🇨🇭 CH-185.18.250.13:8880",
+        "🔒 VL-WS-NA 🇨🇭 CH-185.18.250.12:80",
+        "🔒 VL-TCP-NONE 🇨🇭 CH-84.234.31.224:55",
+        "🔒 VL-WS-NA 🇨🇭 CH-185.18.250.247:8880",
+        "🔒 VL-GRPC-RLT 🇨🇭 CH-195.15.243.142:443",
+        "🔒 VL-TCP-RLT 🇨🇭 CH-83.228.192.244:26206",
+        "🔒 VL-TCP-RLT 🇨🇭 CH-195.15.243.142:8080",
+        "🔒 VL-GRPC-RLT 🇨🇭 CH-195.15.243.23:443",
+        "🔒 VL-GRPC-RLT 🇨🇭 CH-94.131.3.59:2053",
+        "🔒 VL-GRPC-RLT 🇨🇭 CH-195.15.201.22:443",
+        "🔒 VL-GRPC-RLT 🇨🇭 CH-141.227.138.201:1210",
+        "🔒 VL-TCP-RLT 🇨🇭 CH-195.15.215.198:443",
+        "🔒 VL-GRPC-RLT 🇨🇭 CH-193.168.144.46:443",
+        "🔒 VL-TCP-RLT 🇨🇭 CH-37.156.45.88:80"
+      ],
+      "url": "http://www.gstatic.com/generate_204"
+    },
     {
       "type": "trojan",
       "tag": "🔄 LATEST-UPDATE 📅 SUN-08-TIR-1404 🕑 20:44",
@@ -869,6 +1020,32 @@
         "enabled": true,
         "server_name": "127.0.0.1"
       }
+    },
+    {
+      "type": "dns",
+      "tag": "dns-out"
+    },
+    {
+      "type": "direct",
+      "tag": "DIRECT"
+    },
+    {
+      "type": "block",
+      "tag": "BLOCK"
     }
-  ]
+  ],
+  "route": {
+    "rules": [
+      {
+        "protocol": "dns",
+        "outbound": "dns-out"
+      },
+      {
+        "network": "udp",
+        "port": 443,
+        "outbound": "BLOCK"
+      }
+    ],
+    "final": "PROXY"
+  }
 }

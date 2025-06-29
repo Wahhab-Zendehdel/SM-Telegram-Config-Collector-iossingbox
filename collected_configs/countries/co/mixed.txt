@@ -1,5 +1,60 @@
 {
+  "log": {
+    "level": "info",
+    "timestamp": true
+  },
+  "dns": {
+    "servers": [
+      {
+        "tag": "dns_proxy",
+        "address": "proxy://dns-out/dns-query",
+        "detour": "PROXY"
+      },
+      {
+        "tag": "dns_direct",
+        "address": "https://1.1.1.1/dns-query",
+        "detour": "DIRECT"
+      },
+      {
+        "tag": "dns_block",
+        "address": "rcode://success"
+      }
+    ]
+  },
+  "inbounds": [
+    {
+      "type": "tun",
+      "interface_name": "tun0",
+      "inet4_address": "172.19.0.1/30",
+      "auto_route": true,
+      "strict_route": true,
+      "sniff": true
+    }
+  ],
   "outbounds": [
+    {
+      "type": "selector",
+      "tag": "PROXY",
+      "outbounds": [
+        "AUTO-SELECT",
+        "🔄 LATEST-UPDATE 📅 SUN-08-TIR-1404 🕑 20:44",
+        "🤖 TELEGRAM-CHANNEL 🌟 ARTIFICIAL-INTELLIGENCE 🖥 @NEUROVANCE 🧠",
+        "🛡 TELEGRAM-CHANNEL 🔐 MTPROTO-PROXY 🌍 @NEXUPROXY 📡",
+        "🔒 SS-TCP-NA 🇨🇴 CO-181.119.30.20:990",
+        "🔒 SS-TCP-NA 🇨🇴 CO-154.223.16.212:989",
+        "👨🏻‍💻 DEVELOPED-BY SOROUSH-MIRZAEI 📌 FOLLOW-CONTACT SYDSRSMRZ"
+      ],
+      "default": "AUTO-SELECT"
+    },
+    {
+      "type": "url-test",
+      "tag": "AUTO-SELECT",
+      "outbounds": [
+        "🔒 SS-TCP-NA 🇨🇴 CO-181.119.30.20:990",
+        "🔒 SS-TCP-NA 🇨🇴 CO-154.223.16.212:989"
+      ],
+      "url": "http://www.gstatic.com/generate_204"
+    },
     {
       "type": "trojan",
       "tag": "🔄 LATEST-UPDATE 📅 SUN-08-TIR-1404 🕑 20:44",
@@ -59,6 +114,32 @@
         "enabled": true,
         "server_name": "127.0.0.1"
       }
+    },
+    {
+      "type": "dns",
+      "tag": "dns-out"
+    },
+    {
+      "type": "direct",
+      "tag": "DIRECT"
+    },
+    {
+      "type": "block",
+      "tag": "BLOCK"
     }
-  ]
+  ],
+  "route": {
+    "rules": [
+      {
+        "protocol": "dns",
+        "outbound": "dns-out"
+      },
+      {
+        "network": "udp",
+        "port": 443,
+        "outbound": "BLOCK"
+      }
+    ],
+    "final": "PROXY"
+  }
 }

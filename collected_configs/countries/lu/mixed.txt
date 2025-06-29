@@ -1,5 +1,134 @@
 {
+  "log": {
+    "level": "info",
+    "timestamp": true
+  },
+  "dns": {
+    "servers": [
+      {
+        "tag": "dns_proxy",
+        "address": "proxy://dns-out/dns-query",
+        "detour": "PROXY"
+      },
+      {
+        "tag": "dns_direct",
+        "address": "https://1.1.1.1/dns-query",
+        "detour": "DIRECT"
+      },
+      {
+        "tag": "dns_block",
+        "address": "rcode://success"
+      }
+    ]
+  },
+  "inbounds": [
+    {
+      "type": "tun",
+      "interface_name": "tun0",
+      "inet4_address": "172.19.0.1/30",
+      "auto_route": true,
+      "strict_route": true,
+      "sniff": true
+    }
+  ],
   "outbounds": [
+    {
+      "type": "selector",
+      "tag": "PROXY",
+      "outbounds": [
+        "AUTO-SELECT",
+        "🔄 LATEST-UPDATE 📅 SUN-08-TIR-1404 🕑 20:44",
+        "🤖 TELEGRAM-CHANNEL 🌟 ARTIFICIAL-INTELLIGENCE 🖥 @NEUROVANCE 🧠",
+        "🛡 TELEGRAM-CHANNEL 🔐 MTPROTO-PROXY 🌍 @NEXUPROXY 📡",
+        "🔒 TR-WS-TLS 🇱🇺 LU-188.42.88.144:2096",
+        "🔒 VL-WS-NA 🇱🇺 LU-188.42.88.251:8880",
+        "🔒 VL-WS-NA 🇱🇺 LU-188.42.88.247:8880",
+        "🔒 VL-WS-NONE 🇱🇺 LU-188.42.89.20:8880",
+        "🔒 VL-WS-NA 🇱🇺 LU-188.42.88.20:8880",
+        "🔒 VL-WS-NA 🇱🇺 LU-188.42.145.247:8880",
+        "🔒 VL-WS-NA 🇱🇺 LU-188.42.89.251:8880",
+        "🔒 VL-WS-NONE 🇱🇺 LU-188.42.88.201:8880",
+        "🔒 VL-WS-TLS 🇱🇺 LU-188.42.88.45:443",
+        "🔒 VL-WS-NONE 🇱🇺 LU-188.42.89.237:8880",
+        "🔒 VL-WS-NONE 🇱🇺 LU-188.42.89.53:2086",
+        "🔒 VL-WS-NA 🇱🇺 LU-188.42.145.254:8880",
+        "🔒 VL-TCP-TLS 🇱🇺 LU-45.12.139.44:2040",
+        "🔒 VL-WS-NA 🇱🇺 LU-188.42.89.254:8880",
+        "🔒 VL-WS-TLS 🇱🇺 LU-188.42.89.30:8443",
+        "🔒 VL-WS-TLS 🇱🇺 LU-188.42.88.49:8443",
+        "🔒 VL-WS-TLS 🇱🇺 LU-188.42.88.109:2096",
+        "🔒 VL-WS-NA 🇱🇺 LU-188.42.145.13:8880",
+        "🔒 VL-WS-NONE 🇱🇺 LU-188.42.89.100:8880",
+        "🔒 VL-WS-NA 🇱🇺 LU-188.42.89.213:8880",
+        "🔒 VL-WS-NA 🇱🇺 LU-188.42.145.63:8880",
+        "🔒 VL-WS-TLS 🇱🇺 LU-188.42.89.24:8443",
+        "🔒 VL-WS-NA 🇱🇺 LU-188.42.88.3:8880",
+        "🔒 VL-WS-NONE 🇱🇺 LU-188.42.88.63:8880",
+        "🔒 VL-WS-NA 🇱🇺 LU-188.42.89.29:8880",
+        "🔒 VL-WS-NA 🇱🇺 LU-188.42.88.254:8880",
+        "🔒 VL-WS-NONE 🇱🇺 LU-188.42.89.91:80",
+        "🔒 VL-WS-NA 🇱🇺 LU-188.42.145.251:8880",
+        "🔒 VL-WS-NONE 🇱🇺 LU-188.42.88.213:8880",
+        "🔒 VL-WS-NA 🇱🇺 LU-188.42.89.13:8880",
+        "🔒 VL-WS-NONE 🇱🇺 LU-188.42.89.68:8880",
+        "🔒 VL-WS-NA 🇱🇺 LU-188.42.145.20:8880",
+        "🔒 VL-WS-NA 🇱🇺 LU-188.42.89.3:8880",
+        "🔒 VL-WS-NA 🇱🇺 LU-188.42.89.63:8880",
+        "🔒 VL-WS-NA 🇱🇺 LU-188.42.88.13:8880",
+        "🔒 VL-WS-TLS 🇱🇺 LU-188.42.89.254:443",
+        "🔒 VL-WS-TLS 🇱🇺 LU-188.42.89.71:443",
+        "🔒 VL-WS-NA 🇱🇺 LU-188.42.145.3:8880",
+        "🔒 VL-WS-TLS 🇱🇺 LU-188.42.89.222:8443",
+        "👨🏻‍💻 DEVELOPED-BY SOROUSH-MIRZAEI 📌 FOLLOW-CONTACT SYDSRSMRZ"
+      ],
+      "default": "AUTO-SELECT"
+    },
+    {
+      "type": "url-test",
+      "tag": "AUTO-SELECT",
+      "outbounds": [
+        "🔒 TR-WS-TLS 🇱🇺 LU-188.42.88.144:2096",
+        "🔒 VL-WS-NA 🇱🇺 LU-188.42.88.251:8880",
+        "🔒 VL-WS-NA 🇱🇺 LU-188.42.88.247:8880",
+        "🔒 VL-WS-NONE 🇱🇺 LU-188.42.89.20:8880",
+        "🔒 VL-WS-NA 🇱🇺 LU-188.42.88.20:8880",
+        "🔒 VL-WS-NA 🇱🇺 LU-188.42.145.247:8880",
+        "🔒 VL-WS-NA 🇱🇺 LU-188.42.89.251:8880",
+        "🔒 VL-WS-NONE 🇱🇺 LU-188.42.88.201:8880",
+        "🔒 VL-WS-TLS 🇱🇺 LU-188.42.88.45:443",
+        "🔒 VL-WS-NONE 🇱🇺 LU-188.42.89.237:8880",
+        "🔒 VL-WS-NONE 🇱🇺 LU-188.42.89.53:2086",
+        "🔒 VL-WS-NA 🇱🇺 LU-188.42.145.254:8880",
+        "🔒 VL-TCP-TLS 🇱🇺 LU-45.12.139.44:2040",
+        "🔒 VL-WS-NA 🇱🇺 LU-188.42.89.254:8880",
+        "🔒 VL-WS-TLS 🇱🇺 LU-188.42.89.30:8443",
+        "🔒 VL-WS-TLS 🇱🇺 LU-188.42.88.49:8443",
+        "🔒 VL-WS-TLS 🇱🇺 LU-188.42.88.109:2096",
+        "🔒 VL-WS-NA 🇱🇺 LU-188.42.145.13:8880",
+        "🔒 VL-WS-NONE 🇱🇺 LU-188.42.89.100:8880",
+        "🔒 VL-WS-NA 🇱🇺 LU-188.42.89.213:8880",
+        "🔒 VL-WS-NA 🇱🇺 LU-188.42.145.63:8880",
+        "🔒 VL-WS-TLS 🇱🇺 LU-188.42.89.24:8443",
+        "🔒 VL-WS-NA 🇱🇺 LU-188.42.88.3:8880",
+        "🔒 VL-WS-NONE 🇱🇺 LU-188.42.88.63:8880",
+        "🔒 VL-WS-NA 🇱🇺 LU-188.42.89.29:8880",
+        "🔒 VL-WS-NA 🇱🇺 LU-188.42.88.254:8880",
+        "🔒 VL-WS-NONE 🇱🇺 LU-188.42.89.91:80",
+        "🔒 VL-WS-NA 🇱🇺 LU-188.42.145.251:8880",
+        "🔒 VL-WS-NONE 🇱🇺 LU-188.42.88.213:8880",
+        "🔒 VL-WS-NA 🇱🇺 LU-188.42.89.13:8880",
+        "🔒 VL-WS-NONE 🇱🇺 LU-188.42.89.68:8880",
+        "🔒 VL-WS-NA 🇱🇺 LU-188.42.145.20:8880",
+        "🔒 VL-WS-NA 🇱🇺 LU-188.42.89.3:8880",
+        "🔒 VL-WS-NA 🇱🇺 LU-188.42.89.63:8880",
+        "🔒 VL-WS-NA 🇱🇺 LU-188.42.88.13:8880",
+        "🔒 VL-WS-TLS 🇱🇺 LU-188.42.89.254:443",
+        "🔒 VL-WS-TLS 🇱🇺 LU-188.42.89.71:443",
+        "🔒 VL-WS-NA 🇱🇺 LU-188.42.145.3:8880",
+        "🔒 VL-WS-TLS 🇱🇺 LU-188.42.89.222:8443"
+      ],
+      "url": "http://www.gstatic.com/generate_204"
+    },
     {
       "type": "trojan",
       "tag": "🔄 LATEST-UPDATE 📅 SUN-08-TIR-1404 🕑 20:44",
@@ -689,6 +818,32 @@
         "enabled": true,
         "server_name": "127.0.0.1"
       }
+    },
+    {
+      "type": "dns",
+      "tag": "dns-out"
+    },
+    {
+      "type": "direct",
+      "tag": "DIRECT"
+    },
+    {
+      "type": "block",
+      "tag": "BLOCK"
     }
-  ]
+  ],
+  "route": {
+    "rules": [
+      {
+        "protocol": "dns",
+        "outbound": "dns-out"
+      },
+      {
+        "network": "udp",
+        "port": 443,
+        "outbound": "BLOCK"
+      }
+    ],
+    "final": "PROXY"
+  }
 }

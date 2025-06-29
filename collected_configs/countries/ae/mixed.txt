@@ -1,5 +1,194 @@
 {
+  "log": {
+    "level": "info",
+    "timestamp": true
+  },
+  "dns": {
+    "servers": [
+      {
+        "tag": "dns_proxy",
+        "address": "proxy://dns-out/dns-query",
+        "detour": "PROXY"
+      },
+      {
+        "tag": "dns_direct",
+        "address": "https://1.1.1.1/dns-query",
+        "detour": "DIRECT"
+      },
+      {
+        "tag": "dns_block",
+        "address": "rcode://success"
+      }
+    ]
+  },
+  "inbounds": [
+    {
+      "type": "tun",
+      "interface_name": "tun0",
+      "inet4_address": "172.19.0.1/30",
+      "auto_route": true,
+      "strict_route": true,
+      "sniff": true
+    }
+  ],
   "outbounds": [
+    {
+      "type": "selector",
+      "tag": "PROXY",
+      "outbounds": [
+        "AUTO-SELECT",
+        "🔄 LATEST-UPDATE 📅 SUN-08-TIR-1404 🕑 20:44",
+        "🤖 TELEGRAM-CHANNEL 🌟 ARTIFICIAL-INTELLIGENCE 🖥 @NEUROVANCE 🧠",
+        "🛡 TELEGRAM-CHANNEL 🔐 MTPROTO-PROXY 🌍 @NEXUPROXY 📡",
+        "🔒 SS-TCP-NA 🇦🇪 AE-176.97.66.148:443",
+        "🔒 SS-TCP-NA 🇦🇪 AE-103.57.251.223:39142",
+        "🔒 TR-TCP-NA 🇦🇪 AE-188.208.110.247:17720",
+        "🔒 VL-WS-NA 🇦🇪 AE-94.140.0.213:8880",
+        "🔒 VL-TCP-NONE 🇦🇪 AE-217.60.236.148:8443",
+        "🔒 VL-WS-NONE 🇦🇪 AE-138.128.225.100:2086",
+        "🔒 VL-WS-TLS 🇦🇪 AE-138.128.225.100:443",
+        "🔒 VL-WS-NA 🇦🇪 AE-181.214.1.251:8880",
+        "🔒 VL-WS-NA 🇦🇪 AE-103.245.229.213:8880",
+        "🔒 VL-HTTPUPGRADE-NONE 🇦🇪 AE-181.214.1.37:8880",
+        "🔒 VL-WS-NA 🇦🇪 AE-94.140.0.251:8880",
+        "🔒 VL-WS-NA 🇦🇪 AE-217.60.236.41:3032",
+        "🔒 VL-WS-NONE 🇦🇪 AE-31.58.239.159:1433",
+        "🔒 VL-TCP-NONE 🇦🇪 AE-217.60.199.131:2090",
+        "🔒 VL-WS-TLS 🇦🇪 AE-138.128.224.100:443",
+        "🔒 VL-WS-TLS 🇦🇪 AE-138.128.225.100:2053",
+        "🔒 VL-WS-NA 🇦🇪 AE-103.245.229.251:8880",
+        "🔒 VL-WS-NA 🇦🇪 AE-193.124.224.251:8880",
+        "🔒 VL-WS-NA 🇦🇪 AE-94.140.0.254:8880",
+        "🔒 VL-GRPC-TLS 🇦🇪 AE-94.140.0.38:443",
+        "🔒 VL-WS-NA 🇦🇪 AE-94.140.0.29:8880",
+        "🔒 VL-WS-NONE 🇦🇪 AE-94.140.0.20:8880",
+        "🔒 VL-WS-NA 🇦🇪 AE-103.245.229.13:8880",
+        "🔒 VL-WS-NA 🇦🇪 AE-193.124.224.13:8880",
+        "🔒 VL-HTTPUPGRADE-NONE 🇦🇪 AE-181.214.1.4:8880",
+        "🔒 VL-WS-NA 🇦🇪 AE-181.214.1.63:8880",
+        "🔒 VL-HTTPUPGRADE-NONE 🇦🇪 AE-181.214.1.13:8880",
+        "🔒 VL-TCP-NONE 🇦🇪 AE-109.61.42.157:42539",
+        "🔒 VL-WS-NA 🇦🇪 AE-193.124.224.29:8880",
+        "🔒 VL-HTTPUPGRADE-NONE 🇦🇪 AE-94.140.0.47:8880",
+        "🔒 VL-WS-NA 🇦🇪 AE-193.124.224.247:8880",
+        "🔒 VL-GRPC-TLS 🇦🇪 AE-181.214.1.146:443",
+        "🔒 VL-WS-NONE 🇦🇪 AE-193.124.224.63:8880",
+        "🔒 VL-HTTPUPGRADE-NONE 🇦🇪 AE-181.214.1.34:8880",
+        "🔒 VL-WS-NA 🇦🇪 AE-181.214.1.213:8880",
+        "🔒 VL-HTTPUPGRADE-NONE 🇦🇪 AE-94.140.0.120:8880",
+        "🔒 VL-WS-NA 🇦🇪 AE-103.245.229.254:8880",
+        "🔒 VL-WS-NA 🇦🇪 AE-138.128.224.100:80",
+        "🔒 VL-WS-NONE 🇦🇪 AE-94.140.0.0:2086",
+        "🔒 VL-HTTPUPGRADE-NONE 🇦🇪 AE-181.214.1.223:8880",
+        "🔒 VL-WS-NONE 🇦🇪 AE-217.60.236.41:3134",
+        "🔒 VL-HTTPUPGRADE-NONE 🇦🇪 AE-181.214.1.235:8880",
+        "🔒 VL-HTTPUPGRADE-NONE 🇦🇪 AE-181.214.1.130:8880",
+        "🔒 VL-HTTPUPGRADE-NONE 🇦🇪 AE-181.214.1.55:8880",
+        "🔒 VL-WS-NA 🇦🇪 AE-94.140.0.63:8880",
+        "🔒 VL-WS-NA 🇦🇪 AE-94.140.0.247:8880",
+        "🔒 VL-WS-NA 🇦🇪 AE-103.245.229.29:8880",
+        "🔒 VL-WS-NA 🇦🇪 AE-193.124.224.254:8880",
+        "🔒 VL-WS-NA 🇦🇪 AE-193.124.224.3:8880",
+        "🔒 VL-WS-NA 🇦🇪 AE-181.214.1.254:8880",
+        "🔒 VL-WS-NONE 🇦🇪 AE-181.214.1.20:8880",
+        "🔒 VL-WS-NA 🇦🇪 AE-103.245.229.63:8880",
+        "🔒 VL-TCP-NONE 🇦🇪 AE-217.60.236.191:8443",
+        "🔒 VL-WS-NA 🇦🇪 AE-193.124.224.213:8880",
+        "🔒 VL-GRPC-TLS 🇦🇪 AE-181.214.1.222:443",
+        "🔒 VL-TCP-TLS 🇦🇪 AE-217.60.199.81:56833",
+        "🔒 VL-WS-NONE 🇦🇪 AE-31.58.239.132:40179",
+        "🔒 VL-GRPC-TLS 🇦🇪 AE-94.140.0.141:443",
+        "🔒 VL-WS-NA 🇦🇪 AE-181.214.1.247:8880",
+        "🔒 VL-WS-NA 🇦🇪 AE-94.140.0.3:8880",
+        "🔒 VL-HTTPUPGRADE-NONE 🇦🇪 AE-181.214.1.183:8880",
+        "🔒 VL-TCP-TLS 🇦🇪 AE-139.185.34.131:443",
+        "🔒 VL-HTTPUPGRADE-NONE 🇦🇪 AE-181.214.1.151:8880",
+        "🔒 VL-WS-NONE 🇦🇪 AE-181.215.205.227:10004",
+        "🔒 VL-WS-NA 🇦🇪 AE-181.214.1.29:8880",
+        "🔒 VL-GRPC-RLT 🇦🇪 AE-217.60.236.164:43070",
+        "🔒 VL-TCP-RLT 🇦🇪 AE-185.253.116.130:443",
+        "🔒 VL-TCP-RLT 🇦🇪 AE-181.215.205.99:443",
+        "🔒 VL-TCP-RLT 🇦🇪 AE-181.215.205.129:443",
+        "👨🏻‍💻 DEVELOPED-BY SOROUSH-MIRZAEI 📌 FOLLOW-CONTACT SYDSRSMRZ"
+      ],
+      "default": "AUTO-SELECT"
+    },
+    {
+      "type": "url-test",
+      "tag": "AUTO-SELECT",
+      "outbounds": [
+        "🔒 SS-TCP-NA 🇦🇪 AE-176.97.66.148:443",
+        "🔒 SS-TCP-NA 🇦🇪 AE-103.57.251.223:39142",
+        "🔒 TR-TCP-NA 🇦🇪 AE-188.208.110.247:17720",
+        "🔒 VL-WS-NA 🇦🇪 AE-94.140.0.213:8880",
+        "🔒 VL-TCP-NONE 🇦🇪 AE-217.60.236.148:8443",
+        "🔒 VL-WS-NONE 🇦🇪 AE-138.128.225.100:2086",
+        "🔒 VL-WS-TLS 🇦🇪 AE-138.128.225.100:443",
+        "🔒 VL-WS-NA 🇦🇪 AE-181.214.1.251:8880",
+        "🔒 VL-WS-NA 🇦🇪 AE-103.245.229.213:8880",
+        "🔒 VL-HTTPUPGRADE-NONE 🇦🇪 AE-181.214.1.37:8880",
+        "🔒 VL-WS-NA 🇦🇪 AE-94.140.0.251:8880",
+        "🔒 VL-WS-NA 🇦🇪 AE-217.60.236.41:3032",
+        "🔒 VL-WS-NONE 🇦🇪 AE-31.58.239.159:1433",
+        "🔒 VL-TCP-NONE 🇦🇪 AE-217.60.199.131:2090",
+        "🔒 VL-WS-TLS 🇦🇪 AE-138.128.224.100:443",
+        "🔒 VL-WS-TLS 🇦🇪 AE-138.128.225.100:2053",
+        "🔒 VL-WS-NA 🇦🇪 AE-103.245.229.251:8880",
+        "🔒 VL-WS-NA 🇦🇪 AE-193.124.224.251:8880",
+        "🔒 VL-WS-NA 🇦🇪 AE-94.140.0.254:8880",
+        "🔒 VL-GRPC-TLS 🇦🇪 AE-94.140.0.38:443",
+        "🔒 VL-WS-NA 🇦🇪 AE-94.140.0.29:8880",
+        "🔒 VL-WS-NONE 🇦🇪 AE-94.140.0.20:8880",
+        "🔒 VL-WS-NA 🇦🇪 AE-103.245.229.13:8880",
+        "🔒 VL-WS-NA 🇦🇪 AE-193.124.224.13:8880",
+        "🔒 VL-HTTPUPGRADE-NONE 🇦🇪 AE-181.214.1.4:8880",
+        "🔒 VL-WS-NA 🇦🇪 AE-181.214.1.63:8880",
+        "🔒 VL-HTTPUPGRADE-NONE 🇦🇪 AE-181.214.1.13:8880",
+        "🔒 VL-TCP-NONE 🇦🇪 AE-109.61.42.157:42539",
+        "🔒 VL-WS-NA 🇦🇪 AE-193.124.224.29:8880",
+        "🔒 VL-HTTPUPGRADE-NONE 🇦🇪 AE-94.140.0.47:8880",
+        "🔒 VL-WS-NA 🇦🇪 AE-193.124.224.247:8880",
+        "🔒 VL-GRPC-TLS 🇦🇪 AE-181.214.1.146:443",
+        "🔒 VL-WS-NONE 🇦🇪 AE-193.124.224.63:8880",
+        "🔒 VL-HTTPUPGRADE-NONE 🇦🇪 AE-181.214.1.34:8880",
+        "🔒 VL-WS-NA 🇦🇪 AE-181.214.1.213:8880",
+        "🔒 VL-HTTPUPGRADE-NONE 🇦🇪 AE-94.140.0.120:8880",
+        "🔒 VL-WS-NA 🇦🇪 AE-103.245.229.254:8880",
+        "🔒 VL-WS-NA 🇦🇪 AE-138.128.224.100:80",
+        "🔒 VL-WS-NONE 🇦🇪 AE-94.140.0.0:2086",
+        "🔒 VL-HTTPUPGRADE-NONE 🇦🇪 AE-181.214.1.223:8880",
+        "🔒 VL-WS-NONE 🇦🇪 AE-217.60.236.41:3134",
+        "🔒 VL-HTTPUPGRADE-NONE 🇦🇪 AE-181.214.1.235:8880",
+        "🔒 VL-HTTPUPGRADE-NONE 🇦🇪 AE-181.214.1.130:8880",
+        "🔒 VL-HTTPUPGRADE-NONE 🇦🇪 AE-181.214.1.55:8880",
+        "🔒 VL-WS-NA 🇦🇪 AE-94.140.0.63:8880",
+        "🔒 VL-WS-NA 🇦🇪 AE-94.140.0.247:8880",
+        "🔒 VL-WS-NA 🇦🇪 AE-103.245.229.29:8880",
+        "🔒 VL-WS-NA 🇦🇪 AE-193.124.224.254:8880",
+        "🔒 VL-WS-NA 🇦🇪 AE-193.124.224.3:8880",
+        "🔒 VL-WS-NA 🇦🇪 AE-181.214.1.254:8880",
+        "🔒 VL-WS-NONE 🇦🇪 AE-181.214.1.20:8880",
+        "🔒 VL-WS-NA 🇦🇪 AE-103.245.229.63:8880",
+        "🔒 VL-TCP-NONE 🇦🇪 AE-217.60.236.191:8443",
+        "🔒 VL-WS-NA 🇦🇪 AE-193.124.224.213:8880",
+        "🔒 VL-GRPC-TLS 🇦🇪 AE-181.214.1.222:443",
+        "🔒 VL-TCP-TLS 🇦🇪 AE-217.60.199.81:56833",
+        "🔒 VL-WS-NONE 🇦🇪 AE-31.58.239.132:40179",
+        "🔒 VL-GRPC-TLS 🇦🇪 AE-94.140.0.141:443",
+        "🔒 VL-WS-NA 🇦🇪 AE-181.214.1.247:8880",
+        "🔒 VL-WS-NA 🇦🇪 AE-94.140.0.3:8880",
+        "🔒 VL-HTTPUPGRADE-NONE 🇦🇪 AE-181.214.1.183:8880",
+        "🔒 VL-TCP-TLS 🇦🇪 AE-139.185.34.131:443",
+        "🔒 VL-HTTPUPGRADE-NONE 🇦🇪 AE-181.214.1.151:8880",
+        "🔒 VL-WS-NONE 🇦🇪 AE-181.215.205.227:10004",
+        "🔒 VL-WS-NA 🇦🇪 AE-181.214.1.29:8880",
+        "🔒 VL-GRPC-RLT 🇦🇪 AE-217.60.236.164:43070",
+        "🔒 VL-TCP-RLT 🇦🇪 AE-185.253.116.130:443",
+        "🔒 VL-TCP-RLT 🇦🇪 AE-181.215.205.99:443",
+        "🔒 VL-TCP-RLT 🇦🇪 AE-181.215.205.129:443"
+      ],
+      "url": "http://www.gstatic.com/generate_204"
+    },
     {
       "type": "trojan",
       "tag": "🔄 LATEST-UPDATE 📅 SUN-08-TIR-1404 🕑 20:44",
@@ -1069,6 +1258,32 @@
         "enabled": true,
         "server_name": "127.0.0.1"
       }
+    },
+    {
+      "type": "dns",
+      "tag": "dns-out"
+    },
+    {
+      "type": "direct",
+      "tag": "DIRECT"
+    },
+    {
+      "type": "block",
+      "tag": "BLOCK"
     }
-  ]
+  ],
+  "route": {
+    "rules": [
+      {
+        "protocol": "dns",
+        "outbound": "dns-out"
+      },
+      {
+        "network": "udp",
+        "port": 443,
+        "outbound": "BLOCK"
+      }
+    ],
+    "final": "PROXY"
+  }
 }

@@ -1,5 +1,80 @@
 {
+  "log": {
+    "level": "info",
+    "timestamp": true
+  },
+  "dns": {
+    "servers": [
+      {
+        "tag": "dns_proxy",
+        "address": "proxy://dns-out/dns-query",
+        "detour": "PROXY"
+      },
+      {
+        "tag": "dns_direct",
+        "address": "https://1.1.1.1/dns-query",
+        "detour": "DIRECT"
+      },
+      {
+        "tag": "dns_block",
+        "address": "rcode://success"
+      }
+    ]
+  },
+  "inbounds": [
+    {
+      "type": "tun",
+      "interface_name": "tun0",
+      "inet4_address": "172.19.0.1/30",
+      "auto_route": true,
+      "strict_route": true,
+      "sniff": true
+    }
+  ],
   "outbounds": [
+    {
+      "type": "selector",
+      "tag": "PROXY",
+      "outbounds": [
+        "AUTO-SELECT",
+        "🔄 LATEST-UPDATE 📅 SUN-08-TIR-1404 🕑 20:44",
+        "🤖 TELEGRAM-CHANNEL 🌟 ARTIFICIAL-INTELLIGENCE 🖥 @NEUROVANCE 🧠",
+        "🛡 TELEGRAM-CHANNEL 🔐 MTPROTO-PROXY 🌍 @NEXUPROXY 📡",
+        "🔒 TUIC-UDP 🇬🇧 GB-64.176.186.193:443",
+        "🔒 TUIC-UDP 🇳🇱 NL-209.250.254.198:443",
+        "🔒 TUIC-UDP 🇸🇪 SE-70.34.197.98:443",
+        "🔒 TUIC-UDP 🇸🇪 SE-70.34.198.64:443",
+        "🔒 TUIC-UDP 🇬🇧 GB-31.25.237.9:52849",
+        "🔒 TUIC-UDP 🇺🇸 US-64.110.25.10:11227",
+        "🔒 TUIC-UDP 🇬🇧 GB-64.176.191.133:443",
+        "🔒 TUIC-UDP 🇩🇪 DE-45.76.82.254:35403",
+        "🔒 TUIC-UDP 🇦🇪 AE-31.57.228.213:20320",
+        "🔒 TUIC-UDP 🇸🇪 SE-70.34.208.3:443",
+        "🔒 TUIC-UDP 🇬🇧 GB-134.209.28.89:54773",
+        "🔒 TUIC-UDP 🇩🇪 DE-136.244.88.153:443",
+        "👨🏻‍💻 DEVELOPED-BY SOROUSH-MIRZAEI 📌 FOLLOW-CONTACT SYDSRSMRZ"
+      ],
+      "default": "AUTO-SELECT"
+    },
+    {
+      "type": "url-test",
+      "tag": "AUTO-SELECT",
+      "outbounds": [
+        "🔒 TUIC-UDP 🇬🇧 GB-64.176.186.193:443",
+        "🔒 TUIC-UDP 🇳🇱 NL-209.250.254.198:443",
+        "🔒 TUIC-UDP 🇸🇪 SE-70.34.197.98:443",
+        "🔒 TUIC-UDP 🇸🇪 SE-70.34.198.64:443",
+        "🔒 TUIC-UDP 🇬🇧 GB-31.25.237.9:52849",
+        "🔒 TUIC-UDP 🇺🇸 US-64.110.25.10:11227",
+        "🔒 TUIC-UDP 🇬🇧 GB-64.176.191.133:443",
+        "🔒 TUIC-UDP 🇩🇪 DE-45.76.82.254:35403",
+        "🔒 TUIC-UDP 🇦🇪 AE-31.57.228.213:20320",
+        "🔒 TUIC-UDP 🇸🇪 SE-70.34.208.3:443",
+        "🔒 TUIC-UDP 🇬🇧 GB-134.209.28.89:54773",
+        "🔒 TUIC-UDP 🇩🇪 DE-136.244.88.153:443"
+      ],
+      "url": "http://www.gstatic.com/generate_204"
+    },
     {
       "type": "vless",
       "tag": "🔄 LATEST-UPDATE 📅 SUN-08-TIR-1404 🕑 20:44",
@@ -291,6 +366,32 @@
           "fingerprint": "chrome"
         }
       }
+    },
+    {
+      "type": "dns",
+      "tag": "dns-out"
+    },
+    {
+      "type": "direct",
+      "tag": "DIRECT"
+    },
+    {
+      "type": "block",
+      "tag": "BLOCK"
     }
-  ]
+  ],
+  "route": {
+    "rules": [
+      {
+        "protocol": "dns",
+        "outbound": "dns-out"
+      },
+      {
+        "network": "udp",
+        "port": 443,
+        "outbound": "BLOCK"
+      }
+    ],
+    "final": "PROXY"
+  }
 }

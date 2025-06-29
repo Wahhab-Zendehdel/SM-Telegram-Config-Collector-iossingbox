@@ -1,5 +1,140 @@
 {
+  "log": {
+    "level": "info",
+    "timestamp": true
+  },
+  "dns": {
+    "servers": [
+      {
+        "tag": "dns_proxy",
+        "address": "proxy://dns-out/dns-query",
+        "detour": "PROXY"
+      },
+      {
+        "tag": "dns_direct",
+        "address": "https://1.1.1.1/dns-query",
+        "detour": "DIRECT"
+      },
+      {
+        "tag": "dns_block",
+        "address": "rcode://success"
+      }
+    ]
+  },
+  "inbounds": [
+    {
+      "type": "tun",
+      "interface_name": "tun0",
+      "inet4_address": "172.19.0.1/30",
+      "auto_route": true,
+      "strict_route": true,
+      "sniff": true
+    }
+  ],
   "outbounds": [
+    {
+      "type": "selector",
+      "tag": "PROXY",
+      "outbounds": [
+        "AUTO-SELECT",
+        "🔄 LATEST-UPDATE 📅 SUN-08-TIR-1404 🕑 20:44",
+        "🤖 TELEGRAM-CHANNEL 🌟 ARTIFICIAL-INTELLIGENCE 🖥 @NEUROVANCE 🧠",
+        "🛡 TELEGRAM-CHANNEL 🔐 MTPROTO-PROXY 🌍 @NEXUPROXY 📡",
+        "🔒 SS-TCP-NA 🇹🇼 TW-154.223.20.79:989",
+        "🔒 SS-TCP-NA 🇹🇼 TW-60.249.28.136:2377",
+        "🔒 SS-TCP-NA 🇹🇼 TW-60.249.35.39:2377",
+        "🔒 SS-TCP-NA 🇹🇼 TW-211.72.214.66:2377",
+        "🔒 SS-TCP-NA 🇹🇼 TW-59.125.75.111:2377",
+        "🔒 SS-TCP-NA 🇹🇼 TW-60.249.35.95:2377",
+        "🔒 SS-TCP-NA 🇹🇼 TW-118.163.198.43:2377",
+        "🔒 SS-TCP-NA 🇹🇼 TW-59.125.75.115:2377",
+        "🔒 SS-TCP-NA 🇹🇼 TW-223.165.4.173:990",
+        "🔒 SS-TCP-NA 🇹🇼 TW-60.249.35.3:2377",
+        "🔒 SS-TCP-NA 🇹🇼 TW-61.216.165.232:2377",
+        "🔒 SS-TCP-NA 🇹🇼 TW-125.227.86.45:2377",
+        "🔒 SS-TCP-NA 🇹🇼 TW-125.227.86.44:2377",
+        "🔒 SS-TCP-NA 🇹🇼 TW-60.249.35.37:2377",
+        "🔒 SS-TCP-NA 🇹🇼 TW-61.216.165.233:2377",
+        "🔒 SS-TCP-NA 🇹🇼 TW-211.72.214.21:2377",
+        "🔒 SS-TCP-NA 🇹🇼 TW-61.216.165.30:2377",
+        "🔒 SS-TCP-NA 🇹🇼 TW-185.189.160.98:64759",
+        "🔒 SS-TCP-NA 🇹🇼 TW-211.72.214.65:2377",
+        "🔒 SS-TCP-NA 🇹🇼 TW-2.58.241.42:443",
+        "🔒 SS-TCP-NA 🇹🇼 TW-60.249.28.60:2377",
+        "🔒 SS-TCP-NA 🇹🇼 TW-60.249.28.138:2377",
+        "🔒 SS-TCP-NA 🇹🇼 TW-60.249.35.2:2377",
+        "🔒 SS-TCP-NA 🇹🇼 TW-61.216.165.234:2377",
+        "🔒 SS-TCP-NA 🇹🇼 TW-1.170.209.201:30332",
+        "🔒 SS-TCP-NA 🇹🇼 TW-60.249.35.38:2377",
+        "🔒 SS-TCP-NA 🇹🇼 TW-60.249.35.96:2377",
+        "🔒 SS-TCP-NA 🇹🇼 TW-211.22.161.135:2377",
+        "🔒 SS-TCP-NA 🇹🇼 TW-60.249.35.59:2377",
+        "🔒 SS-TCP-NA 🇹🇼 TW-60.249.28.137:2377",
+        "🔒 TR-TCP-NA 🇹🇼 TW-220.130.58.136:28507",
+        "🔒 TR-TCP-NA 🇹🇼 TW-60.249.28.59:443",
+        "🔒 TR-WS-TLS 🇹🇼 TW-220.135.202.250:81",
+        "🔒 TR-TCP-TLS 🇹🇼 TW-111.250.98.104:3663",
+        "🔒 TR-TCP-NA 🇹🇼 TW-220.130.58.136:28504",
+        "🔒 TR-WS-TLS 🇹🇼 TW-103.106.230.186:81",
+        "🔒 TR-TCP-TLS 🇹🇼 TW-220.130.58.136:28505",
+        "🔒 VL-WS-TLS 🇹🇼 TW-61.63.235.53:25957",
+        "🔒 VL-WS-NA 🇹🇼 TW-141.11.86.94:45888",
+        "🔒 VL-WS-NA 🇹🇼 TW-141.11.86.94:18333",
+        "🔒 VL-WS-TLS 🇹🇼 TW-210.61.97.241:81",
+        "🔒 VL-TCP-RLT 🇹🇼 TW-103.137.247.92:34045",
+        "👨🏻‍💻 DEVELOPED-BY SOROUSH-MIRZAEI 📌 FOLLOW-CONTACT SYDSRSMRZ"
+      ],
+      "default": "AUTO-SELECT"
+    },
+    {
+      "type": "url-test",
+      "tag": "AUTO-SELECT",
+      "outbounds": [
+        "🔒 SS-TCP-NA 🇹🇼 TW-154.223.20.79:989",
+        "🔒 SS-TCP-NA 🇹🇼 TW-60.249.28.136:2377",
+        "🔒 SS-TCP-NA 🇹🇼 TW-60.249.35.39:2377",
+        "🔒 SS-TCP-NA 🇹🇼 TW-211.72.214.66:2377",
+        "🔒 SS-TCP-NA 🇹🇼 TW-59.125.75.111:2377",
+        "🔒 SS-TCP-NA 🇹🇼 TW-60.249.35.95:2377",
+        "🔒 SS-TCP-NA 🇹🇼 TW-118.163.198.43:2377",
+        "🔒 SS-TCP-NA 🇹🇼 TW-59.125.75.115:2377",
+        "🔒 SS-TCP-NA 🇹🇼 TW-223.165.4.173:990",
+        "🔒 SS-TCP-NA 🇹🇼 TW-60.249.35.3:2377",
+        "🔒 SS-TCP-NA 🇹🇼 TW-61.216.165.232:2377",
+        "🔒 SS-TCP-NA 🇹🇼 TW-125.227.86.45:2377",
+        "🔒 SS-TCP-NA 🇹🇼 TW-125.227.86.44:2377",
+        "🔒 SS-TCP-NA 🇹🇼 TW-60.249.35.37:2377",
+        "🔒 SS-TCP-NA 🇹🇼 TW-61.216.165.233:2377",
+        "🔒 SS-TCP-NA 🇹🇼 TW-211.72.214.21:2377",
+        "🔒 SS-TCP-NA 🇹🇼 TW-61.216.165.30:2377",
+        "🔒 SS-TCP-NA 🇹🇼 TW-185.189.160.98:64759",
+        "🔒 SS-TCP-NA 🇹🇼 TW-211.72.214.65:2377",
+        "🔒 SS-TCP-NA 🇹🇼 TW-2.58.241.42:443",
+        "🔒 SS-TCP-NA 🇹🇼 TW-60.249.28.60:2377",
+        "🔒 SS-TCP-NA 🇹🇼 TW-60.249.28.138:2377",
+        "🔒 SS-TCP-NA 🇹🇼 TW-60.249.35.2:2377",
+        "🔒 SS-TCP-NA 🇹🇼 TW-61.216.165.234:2377",
+        "🔒 SS-TCP-NA 🇹🇼 TW-1.170.209.201:30332",
+        "🔒 SS-TCP-NA 🇹🇼 TW-60.249.35.38:2377",
+        "🔒 SS-TCP-NA 🇹🇼 TW-60.249.35.96:2377",
+        "🔒 SS-TCP-NA 🇹🇼 TW-211.22.161.135:2377",
+        "🔒 SS-TCP-NA 🇹🇼 TW-60.249.35.59:2377",
+        "🔒 SS-TCP-NA 🇹🇼 TW-60.249.28.137:2377",
+        "🔒 TR-TCP-NA 🇹🇼 TW-220.130.58.136:28507",
+        "🔒 TR-TCP-NA 🇹🇼 TW-60.249.28.59:443",
+        "🔒 TR-WS-TLS 🇹🇼 TW-220.135.202.250:81",
+        "🔒 TR-TCP-TLS 🇹🇼 TW-111.250.98.104:3663",
+        "🔒 TR-TCP-NA 🇹🇼 TW-220.130.58.136:28504",
+        "🔒 TR-WS-TLS 🇹🇼 TW-103.106.230.186:81",
+        "🔒 TR-TCP-TLS 🇹🇼 TW-220.130.58.136:28505",
+        "🔒 VL-WS-TLS 🇹🇼 TW-61.63.235.53:25957",
+        "🔒 VL-WS-NA 🇹🇼 TW-141.11.86.94:45888",
+        "🔒 VL-WS-NA 🇹🇼 TW-141.11.86.94:18333",
+        "🔒 VL-WS-TLS 🇹🇼 TW-210.61.97.241:81",
+        "🔒 VL-TCP-RLT 🇹🇼 TW-103.137.247.92:34045"
+      ],
+      "url": "http://www.gstatic.com/generate_204"
+    },
     {
       "type": "trojan",
       "tag": "🔄 LATEST-UPDATE 📅 SUN-08-TIR-1404 🕑 20:44",
@@ -461,6 +596,32 @@
         "enabled": true,
         "server_name": "127.0.0.1"
       }
+    },
+    {
+      "type": "dns",
+      "tag": "dns-out"
+    },
+    {
+      "type": "direct",
+      "tag": "DIRECT"
+    },
+    {
+      "type": "block",
+      "tag": "BLOCK"
     }
-  ]
+  ],
+  "route": {
+    "rules": [
+      {
+        "protocol": "dns",
+        "outbound": "dns-out"
+      },
+      {
+        "network": "udp",
+        "port": 443,
+        "outbound": "BLOCK"
+      }
+    ],
+    "final": "PROXY"
+  }
 }

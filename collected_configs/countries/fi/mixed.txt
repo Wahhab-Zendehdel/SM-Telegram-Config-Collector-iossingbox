@@ -1,5 +1,198 @@
 {
+  "log": {
+    "level": "info",
+    "timestamp": true
+  },
+  "dns": {
+    "servers": [
+      {
+        "tag": "dns_proxy",
+        "address": "proxy://dns-out/dns-query",
+        "detour": "PROXY"
+      },
+      {
+        "tag": "dns_direct",
+        "address": "https://1.1.1.1/dns-query",
+        "detour": "DIRECT"
+      },
+      {
+        "tag": "dns_block",
+        "address": "rcode://success"
+      }
+    ]
+  },
+  "inbounds": [
+    {
+      "type": "tun",
+      "interface_name": "tun0",
+      "inet4_address": "172.19.0.1/30",
+      "auto_route": true,
+      "strict_route": true,
+      "sniff": true
+    }
+  ],
   "outbounds": [
+    {
+      "type": "selector",
+      "tag": "PROXY",
+      "outbounds": [
+        "AUTO-SELECT",
+        "🔄 LATEST-UPDATE 📅 SUN-08-TIR-1404 🕑 20:44",
+        "🤖 TELEGRAM-CHANNEL 🌟 ARTIFICIAL-INTELLIGENCE 🖥 @NEUROVANCE 🧠",
+        "🛡 TELEGRAM-CHANNEL 🔐 MTPROTO-PROXY 🌍 @NEXUPROXY 📡",
+        "🔒 SS-TCP-NA 🇫🇮 FI-89.35.119.87:5904",
+        "🔒 SS-TCP-NA 🇫🇮 FI-185.221.196.34:57602",
+        "🔒 SS-TCP-NA 🇫🇮 FI-38.244.136.218:2222",
+        "🔒 SS-TCP-NA 🇫🇮 FI-157.180.127.73:17592",
+        "🔒 SS-TCP-NA 🇫🇮 FI-38.244.136.19:2222",
+        "🔒 SS-TCP-NA 🇫🇮 FI-5.181.20.23:5904",
+        "🔒 SS-TCP-NA 🇫🇮 FI-157.180.127.73:23819",
+        "🔒 SS-TCP-NA 🇫🇮 FI-38.244.136.250:2222",
+        "🔒 SS-TCP-NA 🇫🇮 FI-37.143.129.230:989",
+        "🔒 TR-TCP-NA 🇫🇮 FI-95.216.143.166:443",
+        "🔒 TR-TCP-TLS 🇫🇮 FI-65.109.219.89:5060",
+        "🔒 TR-TCP-NA 🇫🇮 FI-217.145.79.43:1020",
+        "🔒 TR-WS-NONE 🇫🇮 FI-217.145.79.43:3080",
+        "🔒 VL-GRPC-TLS 🇫🇮 FI-65.109.202.219:2087",
+        "🔒 VL-WS-TLS 🇫🇮 FI-77.221.159.79:2053",
+        "🔒 VL-WS-TLS 🇫🇮 FI-138.124.15.83:443",
+        "🔒 VL-WS-TLS 🇫🇮 FI-65.109.206.203:443",
+        "🔒 VL-WS-TLS 🇫🇮 FI-2.56.173.227:443",
+        "🔒 VL-WS-TLS 🇫🇮 FI-62.60.228.10:443",
+        "🔒 VL-TCP-NA 🇫🇮 FI-37.27.220.198:2001",
+        "🔒 VL-TCP-NONE 🇫🇮 FI-135.181.201.193:8081",
+        "🔒 VL-WS-NA 🇫🇮 FI-195.26.230.120:587",
+        "🔒 VL-TCP-TLS 🇫🇮 FI-65.108.148.239:2096",
+        "🔒 VL-GRPC-TLS 🇫🇮 FI-213.176.65.182:443",
+        "🔒 VL-TCP-NA 🇫🇮 FI-185.188.181.214:80",
+        "🔒 VL-GRPC-TLS 🇫🇮 FI-213.176.65.60:443",
+        "🔒 VL-TCP-TLS 🇫🇮 FI-65.108.231.185:443",
+        "🔒 VL-GRPC-TLS 🇫🇮 FI-157.180.95.180:2087",
+        "🔒 VL-TCP-TLS 🇫🇮 FI-65.108.1.249:443",
+        "🔒 VL-RAW-TLS 🇫🇮 FI-65.109.145.54:443",
+        "🔒 VL-TCP-NONE 🇫🇮 FI-135.181.253.161:2061",
+        "🔒 VL-TCP-TLS 🇫🇮 FI-150.241.96.55:2040",
+        "🔒 VL-TCP-TLS 🇫🇮 FI-65.109.118.175:443",
+        "🔒 VL-WS-TLS 🇫🇮 FI-94.142.138.73:443",
+        "🔒 VL-WS-TLS 🇫🇮 FI-213.176.65.187:443",
+        "🔒 VL-WS-TLS 🇫🇮 FI-217.144.186.102:2053",
+        "🔒 VL-WS-NA 🇫🇮 FI-77.221.158.250:443",
+        "🔒 VL-TCP-NONE 🇫🇮 FI-65.109.217.120:25087",
+        "🔒 VL-WS-TLS 🇫🇮 FI-135.181.44.110:443",
+        "🔒 VL-WS-TLS 🇫🇮 FI-65.109.209.113:443",
+        "🔒 VL-HTTPUPGRADE-TLS 🇫🇮 FI-213.176.65.192:443",
+        "🔒 VL-TCP-NONE 🇫🇮 FI-109.120.187.5:35745",
+        "🔒 VL-TCP-TLS 🇫🇮 FI-135.181.152.144:443",
+        "🔒 VL-WS-TLS 🇫🇮 FI-141.98.169.49:443",
+        "🔒 VL-TCP-TLS 🇫🇮 FI-83.147.252.63:2040",
+        "🔒 VL-GRPC-TLS 🇫🇮 FI-157.180.82.171:2087",
+        "🔒 VL-XHTTP-NONE 🇫🇮 FI-151.101.246.133:80",
+        "🔒 VL-GRPC-NONE 🇫🇮 FI-65.21.181.218:8880",
+        "🔒 VL-HTTPUPGRADE-TLS 🇫🇮 FI-213.176.65.129:443",
+        "🔒 VL-WS-NA 🇫🇮 FI-95.217.151.107:80",
+        "🔒 VL-GRPC-TLS 🇫🇮 FI-213.176.65.121:443",
+        "🔒 VL-WS-TLS 🇫🇮 FI-62.60.228.116:443",
+        "🔒 VL-TCP-RLT 🇫🇮 FI-138.124.59.75:443",
+        "🔒 VL-TCP-RLT 🇫🇮 FI-95.217.27.213:8085",
+        "🔒 VL-TCP-RLT 🇫🇮 FI-135.181.152.144:443",
+        "🔒 VL-TCP-RLT 🇫🇮 FI-185.174.40.113:443",
+        "🔒 VL-TCP-RLT 🇫🇮 FI-83.147.252.63:2040",
+        "🔒 VL-TCP-RLT 🇫🇮 FI-46.62.131.188:443",
+        "🔒 VL-TCP-RLT 🇫🇮 FI-104.164.54.126:443",
+        "🔒 VL-TCP-RLT 🇫🇮 FI-157.180.40.162:443",
+        "🔒 VL-GRPC-RLT 🇫🇮 FI-65.21.181.218:443",
+        "🔒 VL-TCP-RLT 🇫🇮 FI-150.241.96.55:2040",
+        "🔒 VL-TCP-RLT 🇫🇮 FI-185.239.142.86:443",
+        "🔒 VL-TCP-RLT 🇫🇮 FI-37.27.46.196:443",
+        "🔒 VL-TCP-RLT 🇫🇮 FI-37.27.95.19:443",
+        "🔒 VL-TCP-RLT 🇫🇮 FI-84.19.3.108:443",
+        "🔒 VL-TCP-RLT 🇫🇮 FI-95.216.69.5:443",
+        "🔒 VL-XHTTP-RLT 🇫🇮 FI-65.109.188.238:2323",
+        "🔒 VL-TCP-RLT 🇫🇮 FI-37.27.220.157:443",
+        "🔒 VL-GRPC-RLT 🇫🇮 FI-38.244.137.191:2053",
+        "🔒 VL-TCP-RLT 🇫🇮 FI-94.156.116.5:443",
+        "👨🏻‍💻 DEVELOPED-BY SOROUSH-MIRZAEI 📌 FOLLOW-CONTACT SYDSRSMRZ"
+      ],
+      "default": "AUTO-SELECT"
+    },
+    {
+      "type": "url-test",
+      "tag": "AUTO-SELECT",
+      "outbounds": [
+        "🔒 SS-TCP-NA 🇫🇮 FI-89.35.119.87:5904",
+        "🔒 SS-TCP-NA 🇫🇮 FI-185.221.196.34:57602",
+        "🔒 SS-TCP-NA 🇫🇮 FI-38.244.136.218:2222",
+        "🔒 SS-TCP-NA 🇫🇮 FI-157.180.127.73:17592",
+        "🔒 SS-TCP-NA 🇫🇮 FI-38.244.136.19:2222",
+        "🔒 SS-TCP-NA 🇫🇮 FI-5.181.20.23:5904",
+        "🔒 SS-TCP-NA 🇫🇮 FI-157.180.127.73:23819",
+        "🔒 SS-TCP-NA 🇫🇮 FI-38.244.136.250:2222",
+        "🔒 SS-TCP-NA 🇫🇮 FI-37.143.129.230:989",
+        "🔒 TR-TCP-NA 🇫🇮 FI-95.216.143.166:443",
+        "🔒 TR-TCP-TLS 🇫🇮 FI-65.109.219.89:5060",
+        "🔒 TR-TCP-NA 🇫🇮 FI-217.145.79.43:1020",
+        "🔒 TR-WS-NONE 🇫🇮 FI-217.145.79.43:3080",
+        "🔒 VL-GRPC-TLS 🇫🇮 FI-65.109.202.219:2087",
+        "🔒 VL-WS-TLS 🇫🇮 FI-77.221.159.79:2053",
+        "🔒 VL-WS-TLS 🇫🇮 FI-138.124.15.83:443",
+        "🔒 VL-WS-TLS 🇫🇮 FI-65.109.206.203:443",
+        "🔒 VL-WS-TLS 🇫🇮 FI-2.56.173.227:443",
+        "🔒 VL-WS-TLS 🇫🇮 FI-62.60.228.10:443",
+        "🔒 VL-TCP-NA 🇫🇮 FI-37.27.220.198:2001",
+        "🔒 VL-TCP-NONE 🇫🇮 FI-135.181.201.193:8081",
+        "🔒 VL-WS-NA 🇫🇮 FI-195.26.230.120:587",
+        "🔒 VL-TCP-TLS 🇫🇮 FI-65.108.148.239:2096",
+        "🔒 VL-GRPC-TLS 🇫🇮 FI-213.176.65.182:443",
+        "🔒 VL-TCP-NA 🇫🇮 FI-185.188.181.214:80",
+        "🔒 VL-GRPC-TLS 🇫🇮 FI-213.176.65.60:443",
+        "🔒 VL-TCP-TLS 🇫🇮 FI-65.108.231.185:443",
+        "🔒 VL-GRPC-TLS 🇫🇮 FI-157.180.95.180:2087",
+        "🔒 VL-TCP-TLS 🇫🇮 FI-65.108.1.249:443",
+        "🔒 VL-RAW-TLS 🇫🇮 FI-65.109.145.54:443",
+        "🔒 VL-TCP-NONE 🇫🇮 FI-135.181.253.161:2061",
+        "🔒 VL-TCP-TLS 🇫🇮 FI-150.241.96.55:2040",
+        "🔒 VL-TCP-TLS 🇫🇮 FI-65.109.118.175:443",
+        "🔒 VL-WS-TLS 🇫🇮 FI-94.142.138.73:443",
+        "🔒 VL-WS-TLS 🇫🇮 FI-213.176.65.187:443",
+        "🔒 VL-WS-TLS 🇫🇮 FI-217.144.186.102:2053",
+        "🔒 VL-WS-NA 🇫🇮 FI-77.221.158.250:443",
+        "🔒 VL-TCP-NONE 🇫🇮 FI-65.109.217.120:25087",
+        "🔒 VL-WS-TLS 🇫🇮 FI-135.181.44.110:443",
+        "🔒 VL-WS-TLS 🇫🇮 FI-65.109.209.113:443",
+        "🔒 VL-HTTPUPGRADE-TLS 🇫🇮 FI-213.176.65.192:443",
+        "🔒 VL-TCP-NONE 🇫🇮 FI-109.120.187.5:35745",
+        "🔒 VL-TCP-TLS 🇫🇮 FI-135.181.152.144:443",
+        "🔒 VL-WS-TLS 🇫🇮 FI-141.98.169.49:443",
+        "🔒 VL-TCP-TLS 🇫🇮 FI-83.147.252.63:2040",
+        "🔒 VL-GRPC-TLS 🇫🇮 FI-157.180.82.171:2087",
+        "🔒 VL-XHTTP-NONE 🇫🇮 FI-151.101.246.133:80",
+        "🔒 VL-GRPC-NONE 🇫🇮 FI-65.21.181.218:8880",
+        "🔒 VL-HTTPUPGRADE-TLS 🇫🇮 FI-213.176.65.129:443",
+        "🔒 VL-WS-NA 🇫🇮 FI-95.217.151.107:80",
+        "🔒 VL-GRPC-TLS 🇫🇮 FI-213.176.65.121:443",
+        "🔒 VL-WS-TLS 🇫🇮 FI-62.60.228.116:443",
+        "🔒 VL-TCP-RLT 🇫🇮 FI-138.124.59.75:443",
+        "🔒 VL-TCP-RLT 🇫🇮 FI-95.217.27.213:8085",
+        "🔒 VL-TCP-RLT 🇫🇮 FI-135.181.152.144:443",
+        "🔒 VL-TCP-RLT 🇫🇮 FI-185.174.40.113:443",
+        "🔒 VL-TCP-RLT 🇫🇮 FI-83.147.252.63:2040",
+        "🔒 VL-TCP-RLT 🇫🇮 FI-46.62.131.188:443",
+        "🔒 VL-TCP-RLT 🇫🇮 FI-104.164.54.126:443",
+        "🔒 VL-TCP-RLT 🇫🇮 FI-157.180.40.162:443",
+        "🔒 VL-GRPC-RLT 🇫🇮 FI-65.21.181.218:443",
+        "🔒 VL-TCP-RLT 🇫🇮 FI-150.241.96.55:2040",
+        "🔒 VL-TCP-RLT 🇫🇮 FI-185.239.142.86:443",
+        "🔒 VL-TCP-RLT 🇫🇮 FI-37.27.46.196:443",
+        "🔒 VL-TCP-RLT 🇫🇮 FI-37.27.95.19:443",
+        "🔒 VL-TCP-RLT 🇫🇮 FI-84.19.3.108:443",
+        "🔒 VL-TCP-RLT 🇫🇮 FI-95.216.69.5:443",
+        "🔒 VL-XHTTP-RLT 🇫🇮 FI-65.109.188.238:2323",
+        "🔒 VL-TCP-RLT 🇫🇮 FI-37.27.220.157:443",
+        "🔒 VL-GRPC-RLT 🇫🇮 FI-38.244.137.191:2053",
+        "🔒 VL-TCP-RLT 🇫🇮 FI-94.156.116.5:443"
+      ],
+      "url": "http://www.gstatic.com/generate_204"
+    },
     {
       "type": "trojan",
       "tag": "🔄 LATEST-UPDATE 📅 SUN-08-TIR-1404 🕑 20:44",
@@ -1317,6 +1510,32 @@
         "enabled": true,
         "server_name": "127.0.0.1"
       }
+    },
+    {
+      "type": "dns",
+      "tag": "dns-out"
+    },
+    {
+      "type": "direct",
+      "tag": "DIRECT"
+    },
+    {
+      "type": "block",
+      "tag": "BLOCK"
     }
-  ]
+  ],
+  "route": {
+    "rules": [
+      {
+        "protocol": "dns",
+        "outbound": "dns-out"
+      },
+      {
+        "network": "udp",
+        "port": 443,
+        "outbound": "BLOCK"
+      }
+    ],
+    "final": "PROXY"
+  }
 }

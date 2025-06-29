@@ -1,5 +1,192 @@
 {
+  "log": {
+    "level": "info",
+    "timestamp": true
+  },
+  "dns": {
+    "servers": [
+      {
+        "tag": "dns_proxy",
+        "address": "proxy://dns-out/dns-query",
+        "detour": "PROXY"
+      },
+      {
+        "tag": "dns_direct",
+        "address": "https://1.1.1.1/dns-query",
+        "detour": "DIRECT"
+      },
+      {
+        "tag": "dns_block",
+        "address": "rcode://success"
+      }
+    ]
+  },
+  "inbounds": [
+    {
+      "type": "tun",
+      "interface_name": "tun0",
+      "inet4_address": "172.19.0.1/30",
+      "auto_route": true,
+      "strict_route": true,
+      "sniff": true
+    }
+  ],
   "outbounds": [
+    {
+      "type": "selector",
+      "tag": "PROXY",
+      "outbounds": [
+        "AUTO-SELECT",
+        "🔄 LATEST-UPDATE 📅 SUN-08-TIR-1404 🕑 20:44",
+        "🤖 TELEGRAM-CHANNEL 🌟 ARTIFICIAL-INTELLIGENCE 🖥 @NEUROVANCE 🧠",
+        "🛡 TELEGRAM-CHANNEL 🔐 MTPROTO-PROXY 🌍 @NEXUPROXY 📡",
+        "🔒 SS-TCP-NA 🇨🇦 CA-149.22.95.183:443",
+        "🔒 SS-TCP-NA 🇨🇦 CA-134.195.196.193:8000",
+        "🔒 SS-TCP-NA 🇨🇦 CA-79.127.233.170:989",
+        "🔒 SS-TCP-NA 🇨🇦 CA-142.4.216.225:80",
+        "🔒 SS-TCP-NA 🇨🇦 CA-147.45.177.65:443",
+        "🔒 SS-TCP-NA 🇨🇦 CA-38.180.210.53:20402",
+        "🔒 SS-TCP-NA 🇨🇦 CA-79.127.233.170:990",
+        "🔒 SS-TCP-NA 🇨🇦 CA-209.200.246.174:8388",
+        "🔒 TR-WS-TLS 🇨🇦 CA-23.227.38.33:443",
+        "🔒 TR-TCP-TLS 🇨🇦 CA-23.227.60.8:443",
+        "🔒 TR-TCP-TLS 🇨🇦 CA-146.19.106.154:443",
+        "🔒 TR-TCP-TLS 🇨🇦 CA-104.234.239.235:2087",
+        "🔒 VM-TCP-NA 🇨🇦 CA-51.79.86.182:42610",
+        "🔒 VM-WS-NA 🇨🇦 CA-158.69.48.14:10000",
+        "🔒 VL-WS-TLS 🇨🇦 CA-23.227.38.208:2053",
+        "🔒 VL-WS-TLS 🇨🇦 CA-23.227.60.231:443",
+        "🔒 VL-WS-TLS 🇨🇦 CA-40.69.106.103:443",
+        "🔒 VL-WS-NA 🇨🇦 CA-74.49.215.213:8880",
+        "🔒 VL-WS-NA 🇨🇦 CA-104.234.239.63:8880",
+        "🔒 VL-WS-NA 🇨🇦 CA-23.227.60.13:8880",
+        "🔒 VL-WS-NA 🇨🇦 CA-23.227.60.3:8880",
+        "🔒 VL-TCP-TLS 🇨🇦 CA-148.113.195.27:26352",
+        "🔒 VL-WS-NA 🇨🇦 CA-44.31.62.2:80",
+        "🔒 VL-WS-NA 🇨🇦 CA-74.49.215.247:8880",
+        "🔒 VL-WS-TLS 🇨🇦 CA-23.227.39.154:2053",
+        "🔒 VL-WS-TLS 🇨🇦 CA-23.227.39.179:2083",
+        "🔒 VL-WS-NA 🇨🇦 CA-74.49.214.63:8880",
+        "🔒 VL-WS-NA 🇨🇦 CA-44.31.62.3:80",
+        "🔒 VL-WS-NA 🇨🇦 CA-23.227.60.247:8880",
+        "🔒 VL-WS-NA 🇨🇦 CA-74.49.215.63:8880",
+        "🔒 VL-WS-TLS 🇨🇦 CA-23.227.38.0:443",
+        "🔒 VL-WS-NA 🇨🇦 CA-23.227.39.63:8880",
+        "🔒 VL-WS-TLS 🇨🇦 CA-3.98.73.243:443",
+        "🔒 VL-WS-NA 🇨🇦 CA-104.234.239.247:8880",
+        "🔒 VL-WS-NA 🇨🇦 CA-23.227.39.3:8880",
+        "🔒 VL-WS-NA 🇨🇦 CA-23.227.60.63:8880",
+        "🔒 VL-WS-NA 🇨🇦 CA-23.227.60.254:8880",
+        "🔒 VL-WS-TLS 🇨🇦 CA-91.194.11.78:81",
+        "🔒 VL-WS-NA 🇨🇦 CA-104.234.239.29:8880",
+        "🔒 VL-WS-NA 🇨🇦 CA-104.234.239.251:8880",
+        "🔒 VL-WS-TLS 🇨🇦 CA-23.227.38.135:443",
+        "🔒 VL-WS-TLS 🇨🇦 CA-51.222.158.243:8443",
+        "🔒 VL-WS-NA 🇨🇦 CA-23.227.60.251:8880",
+        "🔒 VL-WS-NA 🇨🇦 CA-74.49.215.254:8880",
+        "🔒 VL-WS-TLS 🇨🇦 CA-23.227.39.179:2096",
+        "🔒 VL-WS-NA 🇨🇦 CA-74.49.215.13:8880",
+        "🔒 VL-WS-NA 🇨🇦 CA-74.49.214.254:8880",
+        "🔒 VL-WS-NA 🇨🇦 CA-104.234.239.213:8880",
+        "🔒 VL-WS-NA 🇨🇦 CA-74.49.214.247:8880",
+        "🔒 VL-WS-NA 🇨🇦 CA-74.49.215.29:8880",
+        "🔒 VL-WS-TLS 🇨🇦 CA-23.227.38.33:443",
+        "🔒 VL-WS-NA 🇨🇦 CA-74.49.214.13:8880",
+        "🔒 VL-WS-NA 🇨🇦 CA-74.49.214.213:8880",
+        "🔒 VL-WS-NA 🇨🇦 CA-104.234.239.3:8880",
+        "🔒 VL-WS-NA 🇨🇦 CA-74.49.214.29:8880",
+        "🔒 VL-WS-TLS 🇨🇦 CA-138.197.175.155:443",
+        "🔒 VL-WS-NONE 🇨🇦 CA-23.227.39.185:8080",
+        "🔒 VL-WS-NA 🇨🇦 CA-74.49.214.251:8880",
+        "🔒 VL-WS-TLS 🇨🇦 CA-23.227.38.9:443",
+        "🔒 VL-TCP-NONE 🇨🇦 CA-171.22.124.176:2198",
+        "🔒 VL-WS-NA 🇨🇦 CA-74.49.215.251:8880",
+        "🔒 VL-WS-TLS 🇨🇦 CA-23.227.39.47:443",
+        "🔒 VL-TCP-NONE 🇨🇦 CA-171.22.124.195:2198",
+        "🔒 VL-WS-TLS 🇨🇦 CA-23.227.39.179:2053",
+        "🔒 VL-WS-TLS 🇨🇦 CA-23.227.60.7:443",
+        "🔒 VL-WS-TLS 🇨🇦 CA-23.227.39.179:443",
+        "🔒 VL-TCP-RLT 🇨🇦 CA-159.203.17.48:8086",
+        "🔒 VL-TCP-RLT 🇨🇦 CA-148.113.174.213:28495",
+        "👨🏻‍💻 DEVELOPED-BY SOROUSH-MIRZAEI 📌 FOLLOW-CONTACT SYDSRSMRZ"
+      ],
+      "default": "AUTO-SELECT"
+    },
+    {
+      "type": "url-test",
+      "tag": "AUTO-SELECT",
+      "outbounds": [
+        "🔒 SS-TCP-NA 🇨🇦 CA-149.22.95.183:443",
+        "🔒 SS-TCP-NA 🇨🇦 CA-134.195.196.193:8000",
+        "🔒 SS-TCP-NA 🇨🇦 CA-79.127.233.170:989",
+        "🔒 SS-TCP-NA 🇨🇦 CA-142.4.216.225:80",
+        "🔒 SS-TCP-NA 🇨🇦 CA-147.45.177.65:443",
+        "🔒 SS-TCP-NA 🇨🇦 CA-38.180.210.53:20402",
+        "🔒 SS-TCP-NA 🇨🇦 CA-79.127.233.170:990",
+        "🔒 SS-TCP-NA 🇨🇦 CA-209.200.246.174:8388",
+        "🔒 TR-WS-TLS 🇨🇦 CA-23.227.38.33:443",
+        "🔒 TR-TCP-TLS 🇨🇦 CA-23.227.60.8:443",
+        "🔒 TR-TCP-TLS 🇨🇦 CA-146.19.106.154:443",
+        "🔒 TR-TCP-TLS 🇨🇦 CA-104.234.239.235:2087",
+        "🔒 VM-TCP-NA 🇨🇦 CA-51.79.86.182:42610",
+        "🔒 VM-WS-NA 🇨🇦 CA-158.69.48.14:10000",
+        "🔒 VL-WS-TLS 🇨🇦 CA-23.227.38.208:2053",
+        "🔒 VL-WS-TLS 🇨🇦 CA-23.227.60.231:443",
+        "🔒 VL-WS-TLS 🇨🇦 CA-40.69.106.103:443",
+        "🔒 VL-WS-NA 🇨🇦 CA-74.49.215.213:8880",
+        "🔒 VL-WS-NA 🇨🇦 CA-104.234.239.63:8880",
+        "🔒 VL-WS-NA 🇨🇦 CA-23.227.60.13:8880",
+        "🔒 VL-WS-NA 🇨🇦 CA-23.227.60.3:8880",
+        "🔒 VL-TCP-TLS 🇨🇦 CA-148.113.195.27:26352",
+        "🔒 VL-WS-NA 🇨🇦 CA-44.31.62.2:80",
+        "🔒 VL-WS-NA 🇨🇦 CA-74.49.215.247:8880",
+        "🔒 VL-WS-TLS 🇨🇦 CA-23.227.39.154:2053",
+        "🔒 VL-WS-TLS 🇨🇦 CA-23.227.39.179:2083",
+        "🔒 VL-WS-NA 🇨🇦 CA-74.49.214.63:8880",
+        "🔒 VL-WS-NA 🇨🇦 CA-44.31.62.3:80",
+        "🔒 VL-WS-NA 🇨🇦 CA-23.227.60.247:8880",
+        "🔒 VL-WS-NA 🇨🇦 CA-74.49.215.63:8880",
+        "🔒 VL-WS-TLS 🇨🇦 CA-23.227.38.0:443",
+        "🔒 VL-WS-NA 🇨🇦 CA-23.227.39.63:8880",
+        "🔒 VL-WS-TLS 🇨🇦 CA-3.98.73.243:443",
+        "🔒 VL-WS-NA 🇨🇦 CA-104.234.239.247:8880",
+        "🔒 VL-WS-NA 🇨🇦 CA-23.227.39.3:8880",
+        "🔒 VL-WS-NA 🇨🇦 CA-23.227.60.63:8880",
+        "🔒 VL-WS-NA 🇨🇦 CA-23.227.60.254:8880",
+        "🔒 VL-WS-TLS 🇨🇦 CA-91.194.11.78:81",
+        "🔒 VL-WS-NA 🇨🇦 CA-104.234.239.29:8880",
+        "🔒 VL-WS-NA 🇨🇦 CA-104.234.239.251:8880",
+        "🔒 VL-WS-TLS 🇨🇦 CA-23.227.38.135:443",
+        "🔒 VL-WS-TLS 🇨🇦 CA-51.222.158.243:8443",
+        "🔒 VL-WS-NA 🇨🇦 CA-23.227.60.251:8880",
+        "🔒 VL-WS-NA 🇨🇦 CA-74.49.215.254:8880",
+        "🔒 VL-WS-TLS 🇨🇦 CA-23.227.39.179:2096",
+        "🔒 VL-WS-NA 🇨🇦 CA-74.49.215.13:8880",
+        "🔒 VL-WS-NA 🇨🇦 CA-74.49.214.254:8880",
+        "🔒 VL-WS-NA 🇨🇦 CA-104.234.239.213:8880",
+        "🔒 VL-WS-NA 🇨🇦 CA-74.49.214.247:8880",
+        "🔒 VL-WS-NA 🇨🇦 CA-74.49.215.29:8880",
+        "🔒 VL-WS-TLS 🇨🇦 CA-23.227.38.33:443",
+        "🔒 VL-WS-NA 🇨🇦 CA-74.49.214.13:8880",
+        "🔒 VL-WS-NA 🇨🇦 CA-74.49.214.213:8880",
+        "🔒 VL-WS-NA 🇨🇦 CA-104.234.239.3:8880",
+        "🔒 VL-WS-NA 🇨🇦 CA-74.49.214.29:8880",
+        "🔒 VL-WS-TLS 🇨🇦 CA-138.197.175.155:443",
+        "🔒 VL-WS-NONE 🇨🇦 CA-23.227.39.185:8080",
+        "🔒 VL-WS-NA 🇨🇦 CA-74.49.214.251:8880",
+        "🔒 VL-WS-TLS 🇨🇦 CA-23.227.38.9:443",
+        "🔒 VL-TCP-NONE 🇨🇦 CA-171.22.124.176:2198",
+        "🔒 VL-WS-NA 🇨🇦 CA-74.49.215.251:8880",
+        "🔒 VL-WS-TLS 🇨🇦 CA-23.227.39.47:443",
+        "🔒 VL-TCP-NONE 🇨🇦 CA-171.22.124.195:2198",
+        "🔒 VL-WS-TLS 🇨🇦 CA-23.227.39.179:2053",
+        "🔒 VL-WS-TLS 🇨🇦 CA-23.227.60.7:443",
+        "🔒 VL-WS-TLS 🇨🇦 CA-23.227.39.179:443",
+        "🔒 VL-TCP-RLT 🇨🇦 CA-159.203.17.48:8086",
+        "🔒 VL-TCP-RLT 🇨🇦 CA-148.113.174.213:28495"
+      ],
+      "url": "http://www.gstatic.com/generate_204"
+    },
     {
       "type": "trojan",
       "tag": "🔄 LATEST-UPDATE 📅 SUN-08-TIR-1404 🕑 20:44",
@@ -1141,6 +1328,32 @@
         "enabled": true,
         "server_name": "127.0.0.1"
       }
+    },
+    {
+      "type": "dns",
+      "tag": "dns-out"
+    },
+    {
+      "type": "direct",
+      "tag": "DIRECT"
+    },
+    {
+      "type": "block",
+      "tag": "BLOCK"
     }
-  ]
+  ],
+  "route": {
+    "rules": [
+      {
+        "protocol": "dns",
+        "outbound": "dns-out"
+      },
+      {
+        "network": "udp",
+        "port": 443,
+        "outbound": "BLOCK"
+      }
+    ],
+    "final": "PROXY"
+  }
 }

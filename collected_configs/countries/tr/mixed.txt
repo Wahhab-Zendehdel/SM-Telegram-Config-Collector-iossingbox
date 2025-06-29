@@ -1,5 +1,150 @@
 {
+  "log": {
+    "level": "info",
+    "timestamp": true
+  },
+  "dns": {
+    "servers": [
+      {
+        "tag": "dns_proxy",
+        "address": "proxy://dns-out/dns-query",
+        "detour": "PROXY"
+      },
+      {
+        "tag": "dns_direct",
+        "address": "https://1.1.1.1/dns-query",
+        "detour": "DIRECT"
+      },
+      {
+        "tag": "dns_block",
+        "address": "rcode://success"
+      }
+    ]
+  },
+  "inbounds": [
+    {
+      "type": "tun",
+      "interface_name": "tun0",
+      "inet4_address": "172.19.0.1/30",
+      "auto_route": true,
+      "strict_route": true,
+      "sniff": true
+    }
+  ],
   "outbounds": [
+    {
+      "type": "selector",
+      "tag": "PROXY",
+      "outbounds": [
+        "AUTO-SELECT",
+        "🔄 LATEST-UPDATE 📅 SUN-08-TIR-1404 🕑 20:44",
+        "🤖 TELEGRAM-CHANNEL 🌟 ARTIFICIAL-INTELLIGENCE 🖥 @NEUROVANCE 🧠",
+        "🛡 TELEGRAM-CHANNEL 🔐 MTPROTO-PROXY 🌍 @NEXUPROXY 📡",
+        "🔒 SS-TCP-NA 🇹🇷 TR-185.39.204.12:16297",
+        "🔒 SS-TCP-NA 🇹🇷 TR-62.133.63.212:57456",
+        "🔒 SS-TCP-NA 🇹🇷 TR-83.217.9.39:7317",
+        "🔒 SS-TCP-NA 🇹🇷 TR-83.217.9.128:2222",
+        "🔒 SS-TCP-NA 🇹🇷 TR-83.217.9.125:2222",
+        "🔒 SS-TCP-NA 🇹🇷 TR-62.133.63.21:65262",
+        "🔒 SS-TCP-NA 🇹🇷 TR-62.60.233.83:443",
+        "🔒 SS-TCP-NA 🇹🇷 TR-193.124.46.196:53024",
+        "🔒 SS-TCP-NA 🇹🇷 TR-62.133.63.226:2222",
+        "🔒 SS-TCP-NA 🇹🇷 TR-185.123.101.241:990",
+        "🔒 SS-TCP-NA 🇹🇷 TR-62.60.233.173:2222",
+        "🔒 TR-TCP-TLS 🇹🇷 TR-154.205.148.199:443",
+        "🔒 TR-TCP-TLS 🇹🇷 TR-193.57.136.137:443",
+        "🔒 TR-TCP-NONE 🇹🇷 TR-185.226.93.9:443",
+        "🔒 VL-HTTPUPGRADE-NONE 🇹🇷 TR-91.206.71.202:8080",
+        "🔒 VL-WS-NONE 🇹🇷 TR-91.206.71.162:8880",
+        "🔒 VL-WS-NONE 🇹🇷 TR-91.206.71.202:8880",
+        "🔒 VL-WS-TLS 🇹🇷 TR-62.3.12.185:443",
+        "🔒 VL-TCP-NA 🇹🇷 TR-91.206.71.162:80",
+        "🔒 VL-WS-TLS 🇹🇷 TR-91.206.71.202:443",
+        "🔒 VL-TCP-NA 🇹🇷 TR-213.142.133.184:11928",
+        "🔒 VL-TCP-NONE 🇹🇷 TR-213.142.134.162:42540",
+        "🔒 VL-TCP-NONE 🇹🇷 TR-45.89.52.169:22482",
+        "🔒 VL-TCP-NA 🇹🇷 TR-38.180.105.218:9091",
+        "🔒 VL-TCP-NONE 🇹🇷 TR-93.180.134.171:8880",
+        "🔒 VL-TCP-NA 🇹🇷 TR-94.131.108.195:53221",
+        "🔒 VL-TCP-NONE 🇹🇷 TR-185.220.227.151:43829",
+        "🔒 VL-TCP-TLS 🇹🇷 TR-94.131.108.106:1700",
+        "🔒 VL-WS-NONE 🇹🇷 TR-156.244.31.99:2052",
+        "🔒 VL-HTTPUPGRADE-NONE 🇹🇷 TR-91.206.71.110:8080",
+        "🔒 VL-WS-NA 🇹🇷 TR-62.3.12.76:80",
+        "🔒 VL-WS-NONE 🇹🇷 TR-185.220.227.87:443",
+        "🔒 VL-TCP-TLS 🇹🇷 TR-62.60.233.250:443",
+        "🔒 VL-TCP-RLT 🇹🇷 TR-45.133.36.230:443",
+        "🔒 VL-TCP-RLT 🇹🇷 TR-213.142.133.92:5056",
+        "🔒 VL-TCP-RLT 🇹🇷 TR-62.133.63.97:443",
+        "🔒 VL-TCP-RLT 🇹🇷 TR-31.40.205.42:32223",
+        "🔒 VL-TCP-RLT 🇹🇷 TR-83.217.9.52:443",
+        "🔒 VL-TCP-RLT 🇹🇷 TR-91.151.90.100:443",
+        "🔒 VL-TCP-RLT 🇹🇷 TR-83.217.9.122:443",
+        "🔒 VL-GRPC-RLT 🇹🇷 TR-194.36.85.229:2002",
+        "🔒 VL-GRPC-RLT 🇹🇷 TR-77.92.154.200:443",
+        "🔒 VL-TCP-RLT 🇹🇷 TR-62.60.233.176:443",
+        "🔒 VL-TCP-RLT 🇹🇷 TR-185.39.204.29:443",
+        "🔒 VL-GRPC-RLT 🇹🇷 TR-213.142.133.76:4920",
+        "🔒 VL-TCP-RLT 🇹🇷 TR-62.60.233.250:443",
+        "🔒 VL-TCP-RLT 🇹🇷 TR-94.131.123.241:443",
+        "👨🏻‍💻 DEVELOPED-BY SOROUSH-MIRZAEI 📌 FOLLOW-CONTACT SYDSRSMRZ"
+      ],
+      "default": "AUTO-SELECT"
+    },
+    {
+      "type": "url-test",
+      "tag": "AUTO-SELECT",
+      "outbounds": [
+        "🔒 SS-TCP-NA 🇹🇷 TR-185.39.204.12:16297",
+        "🔒 SS-TCP-NA 🇹🇷 TR-62.133.63.212:57456",
+        "🔒 SS-TCP-NA 🇹🇷 TR-83.217.9.39:7317",
+        "🔒 SS-TCP-NA 🇹🇷 TR-83.217.9.128:2222",
+        "🔒 SS-TCP-NA 🇹🇷 TR-83.217.9.125:2222",
+        "🔒 SS-TCP-NA 🇹🇷 TR-62.133.63.21:65262",
+        "🔒 SS-TCP-NA 🇹🇷 TR-62.60.233.83:443",
+        "🔒 SS-TCP-NA 🇹🇷 TR-193.124.46.196:53024",
+        "🔒 SS-TCP-NA 🇹🇷 TR-62.133.63.226:2222",
+        "🔒 SS-TCP-NA 🇹🇷 TR-185.123.101.241:990",
+        "🔒 SS-TCP-NA 🇹🇷 TR-62.60.233.173:2222",
+        "🔒 TR-TCP-TLS 🇹🇷 TR-154.205.148.199:443",
+        "🔒 TR-TCP-TLS 🇹🇷 TR-193.57.136.137:443",
+        "🔒 TR-TCP-NONE 🇹🇷 TR-185.226.93.9:443",
+        "🔒 VL-HTTPUPGRADE-NONE 🇹🇷 TR-91.206.71.202:8080",
+        "🔒 VL-WS-NONE 🇹🇷 TR-91.206.71.162:8880",
+        "🔒 VL-WS-NONE 🇹🇷 TR-91.206.71.202:8880",
+        "🔒 VL-WS-TLS 🇹🇷 TR-62.3.12.185:443",
+        "🔒 VL-TCP-NA 🇹🇷 TR-91.206.71.162:80",
+        "🔒 VL-WS-TLS 🇹🇷 TR-91.206.71.202:443",
+        "🔒 VL-TCP-NA 🇹🇷 TR-213.142.133.184:11928",
+        "🔒 VL-TCP-NONE 🇹🇷 TR-213.142.134.162:42540",
+        "🔒 VL-TCP-NONE 🇹🇷 TR-45.89.52.169:22482",
+        "🔒 VL-TCP-NA 🇹🇷 TR-38.180.105.218:9091",
+        "🔒 VL-TCP-NONE 🇹🇷 TR-93.180.134.171:8880",
+        "🔒 VL-TCP-NA 🇹🇷 TR-94.131.108.195:53221",
+        "🔒 VL-TCP-NONE 🇹🇷 TR-185.220.227.151:43829",
+        "🔒 VL-TCP-TLS 🇹🇷 TR-94.131.108.106:1700",
+        "🔒 VL-WS-NONE 🇹🇷 TR-156.244.31.99:2052",
+        "🔒 VL-HTTPUPGRADE-NONE 🇹🇷 TR-91.206.71.110:8080",
+        "🔒 VL-WS-NA 🇹🇷 TR-62.3.12.76:80",
+        "🔒 VL-WS-NONE 🇹🇷 TR-185.220.227.87:443",
+        "🔒 VL-TCP-TLS 🇹🇷 TR-62.60.233.250:443",
+        "🔒 VL-TCP-RLT 🇹🇷 TR-45.133.36.230:443",
+        "🔒 VL-TCP-RLT 🇹🇷 TR-213.142.133.92:5056",
+        "🔒 VL-TCP-RLT 🇹🇷 TR-62.133.63.97:443",
+        "🔒 VL-TCP-RLT 🇹🇷 TR-31.40.205.42:32223",
+        "🔒 VL-TCP-RLT 🇹🇷 TR-83.217.9.52:443",
+        "🔒 VL-TCP-RLT 🇹🇷 TR-91.151.90.100:443",
+        "🔒 VL-TCP-RLT 🇹🇷 TR-83.217.9.122:443",
+        "🔒 VL-GRPC-RLT 🇹🇷 TR-194.36.85.229:2002",
+        "🔒 VL-GRPC-RLT 🇹🇷 TR-77.92.154.200:443",
+        "🔒 VL-TCP-RLT 🇹🇷 TR-62.60.233.176:443",
+        "🔒 VL-TCP-RLT 🇹🇷 TR-185.39.204.29:443",
+        "🔒 VL-GRPC-RLT 🇹🇷 TR-213.142.133.76:4920",
+        "🔒 VL-TCP-RLT 🇹🇷 TR-62.60.233.250:443",
+        "🔒 VL-TCP-RLT 🇹🇷 TR-94.131.123.241:443"
+      ],
+      "url": "http://www.gstatic.com/generate_204"
+    },
     {
       "type": "trojan",
       "tag": "🔄 LATEST-UPDATE 📅 SUN-08-TIR-1404 🕑 20:44",
@@ -755,6 +900,32 @@
         "enabled": true,
         "server_name": "127.0.0.1"
       }
+    },
+    {
+      "type": "dns",
+      "tag": "dns-out"
+    },
+    {
+      "type": "direct",
+      "tag": "DIRECT"
+    },
+    {
+      "type": "block",
+      "tag": "BLOCK"
     }
-  ]
+  ],
+  "route": {
+    "rules": [
+      {
+        "protocol": "dns",
+        "outbound": "dns-out"
+      },
+      {
+        "network": "udp",
+        "port": 443,
+        "outbound": "BLOCK"
+      }
+    ],
+    "final": "PROXY"
+  }
 }
