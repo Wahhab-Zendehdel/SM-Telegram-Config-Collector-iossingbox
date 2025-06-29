@@ -37,16 +37,16 @@
       "tag": "PROXY",
       "outbounds": [
         "AUTO-SELECT",
-        "🔄 LATEST-UPDATE 📅 SUN-08-TIR-1404 🕑 02:38",
+        "🔄 LATEST-UPDATE 📅 SUN-08-TIR-1404 🕑 03:35",
         "🤖 TELEGRAM-CHANNEL 🌟 ARTIFICIAL-INTELLIGENCE 🖥 @NEUROVANCE 🧠",
         "🛡 TELEGRAM-CHANNEL 🔐 MTPROTO-PROXY 🌍 @NEXUPROXY 📡",
         "🔒 SS-TCP-NA 🇩🇪 DE-[::ffff:b280:c8c6]:8443",
         "🔒 VL-WS-NA 🇬🇧 GB-[::ffff:91.193.58.48]:8880",
+        "🔒 VL-WS-NA 🇯🇵 JP-[::ffff:156.238.18.177]:8880",
+        "🔒 VL-WS-NA 🇺🇸 US-[::ffff:3207:55dc]:80",
+        "🔒 VL-WS-NA 🇯🇵 JP-[::ffff:156.238.18.66]:8880",
         "🔒 VL-WS-NA 🇯🇵 JP-[::ffff:156.238.18.252]:8880",
         "🔒 VL-WS-NA 🇯🇵 JP-[::ffff:156.238.18.136]:8880",
-        "🔒 VL-WS-NA 🇯🇵 JP-[::ffff:156.238.18.177]:8880",
-        "🔒 VL-WS-NA 🇯🇵 JP-[::ffff:156.238.18.66]:8880",
-        "🔒 VL-WS-NA 🇺🇸 US-[::ffff:3207:55dc]:80",
         "👨🏻‍💻 DEVELOPED-BY SOROUSH-MIRZAEI 📌 FOLLOW-CONTACT SYDSRSMRZ"
       ],
       "default": "AUTO-SELECT"
@@ -57,20 +57,20 @@
       "outbounds": [
         "🔒 SS-TCP-NA 🇩🇪 DE-[::ffff:b280:c8c6]:8443",
         "🔒 VL-WS-NA 🇬🇧 GB-[::ffff:91.193.58.48]:8880",
-        "🔒 VL-WS-NA 🇯🇵 JP-[::ffff:156.238.18.252]:8880",
-        "🔒 VL-WS-NA 🇯🇵 JP-[::ffff:156.238.18.136]:8880",
         "🔒 VL-WS-NA 🇯🇵 JP-[::ffff:156.238.18.177]:8880",
+        "🔒 VL-WS-NA 🇺🇸 US-[::ffff:3207:55dc]:80",
         "🔒 VL-WS-NA 🇯🇵 JP-[::ffff:156.238.18.66]:8880",
-        "🔒 VL-WS-NA 🇺🇸 US-[::ffff:3207:55dc]:80"
+        "🔒 VL-WS-NA 🇯🇵 JP-[::ffff:156.238.18.252]:8880",
+        "🔒 VL-WS-NA 🇯🇵 JP-[::ffff:156.238.18.136]:8880"
       ],
       "url": "http://www.gstatic.com/generate_204"
     },
     {
       "type": "trojan",
-      "tag": "🔄 LATEST-UPDATE 📅 SUN-08-TIR-1404 🕑 02:38",
+      "tag": "🔄 LATEST-UPDATE 📅 SUN-08-TIR-1404 🕑 03:35",
       "server": "127.0.0.1",
       "server_port": 1080,
-      "password": "baccaab-acba-abac-dbca-aacbacbbccba",
+      "password": "aacabbc-baac-abac-dbac-ccbcbcaababa",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"
@@ -81,7 +81,7 @@
       "tag": "🤖 TELEGRAM-CHANNEL 🌟 ARTIFICIAL-INTELLIGENCE 🖥 @NEUROVANCE 🧠",
       "server": "127.0.0.1",
       "server_port": 2080,
-      "password": "bcacaba-acab-aacb-dcab-bcaccbcbabaa",
+      "password": "abcacab-abca-aabc-dcab-bcaccbcbaaba",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"
@@ -92,7 +92,7 @@
       "tag": "🛡 TELEGRAM-CHANNEL 🔐 MTPROTO-PROXY 🌍 @NEXUPROXY 📡",
       "server": "127.0.0.1",
       "server_port": 3080,
-      "password": "aababcc-abac-bcaa-dabc-acbcbacabcab",
+      "password": "abcbaca-cbaa-abca-dbca-aaaabcbcbbcc",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"
@@ -118,6 +118,51 @@
         "path": "/",
         "headers": {
           "Host": "tw.laoyoutiao.link"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🔒 VL-WS-NA 🇯🇵 JP-[::ffff:156.238.18.177]:8880",
+      "server": "::ffff:156.238.18.177",
+      "server_port": 8880,
+      "uuid": "fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf",
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "sg.laoyoutiao.link"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🔒 VL-WS-NA 🇺🇸 US-[::ffff:3207:55dc]:80",
+      "server": "::ffff:3207:55dc",
+      "server_port": 80,
+      "uuid": "827545b9-5e1d-4e29-a97f-46b388891f57",
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "/?ed=443",
+        "headers": {
+          "Host": "hello-world-twilight-lake-386e.yijiled513.workers.dev"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🔒 VL-WS-NA 🇯🇵 JP-[::ffff:156.238.18.66]:8880",
+      "server": "::ffff:156.238.18.66",
+      "server_port": 8880,
+      "uuid": "fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf",
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "sg.laoyoutiao.link"
         }
       }
     },
@@ -152,56 +197,11 @@
       }
     },
     {
-      "type": "vless",
-      "tag": "🔒 VL-WS-NA 🇯🇵 JP-[::ffff:156.238.18.177]:8880",
-      "server": "::ffff:156.238.18.177",
-      "server_port": 8880,
-      "uuid": "fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "sg.laoyoutiao.link"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🔒 VL-WS-NA 🇯🇵 JP-[::ffff:156.238.18.66]:8880",
-      "server": "::ffff:156.238.18.66",
-      "server_port": 8880,
-      "uuid": "fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "sg.laoyoutiao.link"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🔒 VL-WS-NA 🇺🇸 US-[::ffff:3207:55dc]:80",
-      "server": "::ffff:3207:55dc",
-      "server_port": 80,
-      "uuid": "827545b9-5e1d-4e29-a97f-46b388891f57",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "ws",
-        "path": "/?ed=443",
-        "headers": {
-          "Host": "hello-world-twilight-lake-386e.yijiled513.workers.dev"
-        }
-      }
-    },
-    {
       "type": "trojan",
       "tag": "👨🏻‍💻 DEVELOPED-BY SOROUSH-MIRZAEI 📌 FOLLOW-CONTACT SYDSRSMRZ",
       "server": "127.0.0.1",
       "server_port": 8080,
-      "password": "aabccab-acba-caba-cbad-aabcbbcccbaa",
+      "password": "bcbaaca-abac-abac-dcab-babcbcaacbac",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"

@@ -37,7 +37,7 @@
       "tag": "PROXY",
       "outbounds": [
         "AUTO-SELECT",
-        "🔄 LATEST-UPDATE 📅 SUN-08-TIR-1404 🕑 02:38",
+        "🔄 LATEST-UPDATE 📅 SUN-08-TIR-1404 🕑 03:35",
         "🤖 TELEGRAM-CHANNEL 🌟 ARTIFICIAL-INTELLIGENCE 🖥 @NEUROVANCE 🧠",
         "🛡 TELEGRAM-CHANNEL 🔐 MTPROTO-PROXY 🌍 @NEXUPROXY 📡",
         "👨🏻‍💻 DEVELOPED-BY SOROUSH-MIRZAEI 📌 FOLLOW-CONTACT SYDSRSMRZ"
@@ -52,10 +52,10 @@
     },
     {
       "type": "vless",
-      "tag": "🔄 LATEST-UPDATE 📅 SUN-08-TIR-1404 🕑 02:38",
+      "tag": "🔄 LATEST-UPDATE 📅 SUN-08-TIR-1404 🕑 03:35",
       "server": "127.0.0.1",
       "server_port": 1080,
-      "uuid": "baccaab-acba-abac-dbca-aacbacbbccba",
+      "uuid": "aacabbc-baac-abac-dbac-ccbcbcaababa",
       "packet_encoding": "xudp",
       "transport": {
         "type": "tcp"
@@ -74,7 +74,7 @@
       "tag": "🤖 TELEGRAM-CHANNEL 🌟 ARTIFICIAL-INTELLIGENCE 🖥 @NEUROVANCE 🧠",
       "server": "127.0.0.1",
       "server_port": 2080,
-      "uuid": "bcacaba-acab-aacb-dcab-bcaccbcbabaa",
+      "uuid": "abcacab-abca-aabc-dcab-bcaccbcbaaba",
       "packet_encoding": "xudp",
       "transport": {
         "type": "tcp"
@@ -93,7 +93,7 @@
       "tag": "🛡 TELEGRAM-CHANNEL 🔐 MTPROTO-PROXY 🌍 @NEXUPROXY 📡",
       "server": "127.0.0.1",
       "server_port": 3080,
-      "uuid": "aababcc-abac-bcaa-dabc-acbcbacabcab",
+      "uuid": "abcbaca-cbaa-abca-dbca-aaaabcbcbbcc",
       "packet_encoding": "xudp",
       "transport": {
         "type": "tcp"
@@ -112,7 +112,7 @@
       "tag": "👨🏻‍💻 DEVELOPED-BY SOROUSH-MIRZAEI 📌 FOLLOW-CONTACT SYDSRSMRZ",
       "server": "127.0.0.1",
       "server_port": 8080,
-      "uuid": "aabccab-acba-caba-cbad-aabcbbcccbaa",
+      "uuid": "bcbaaca-abac-abac-dcab-babcbcaacbac",
       "packet_encoding": "xudp",
       "transport": {
         "type": "tcp"
