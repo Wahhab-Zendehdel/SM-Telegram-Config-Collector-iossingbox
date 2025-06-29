@@ -2,7 +2,7 @@
   "outbounds": [
     {
       "type": "trojan",
-      "tag": "🔄 LATEST-UPDATE 📅 SAT-10-KHORDAD-1404 🕑 05:58",
+      "tag": "🔄",
       "server": "127.0.0.1",
       "server_port": 1080,
       "password": "ccaabab-baac-aacb-abdc-babcbcaacacb",
@@ -13,7 +13,7 @@
     },
     {
       "type": "trojan",
-      "tag": "🤖 TELEGRAM-CHANNEL 🌟 ARTIFICIAL-INTELLIGENCE 🖥 @NEUROVANCE 🧠",
+      "tag": "🤖",
       "server": "127.0.0.1",
       "server_port": 2080,
       "password": "abcaacb-abac-aacb-bdac-acbaabccabbc",
@@ -24,7 +24,7 @@
     },
     {
       "type": "trojan",
-      "tag": "🛡 TELEGRAM-CHANNEL 🔐 MTPROTO-PROXY 🌍 @NEXUPROXY 📡",
+      "tag": "🛡",
       "server": "127.0.0.1",
       "server_port": 3080,
       "password": "cbbaaac-baca-acba-cbda-ccbcababaabc",
@@ -35,7 +35,7 @@
     },
     {
       "type": "vless",
-      "tag": "🔒 VL-TCP-TLS 🇬🇮 GI-95.164.68.37:443",
+      "tag": "🔒",
       "server": "95.164.68.37",
       "server_port": 443,
       "uuid": "af37f2cd-3475-418d-876a-87678406797e",
@@ -54,7 +54,7 @@
     },
     {
       "type": "vless",
-      "tag": "🔒 VL-TCP-RLT 🇬🇮 GI-95.164.5.16:443",
+      "tag": "🔒",
       "server": "95.164.5.16",
       "server_port": 443,
       "uuid": "f562c114-4898-46fa-afe2-f71feae87297",
@@ -78,7 +78,7 @@
     },
     {
       "type": "trojan",
-      "tag": "👨🏻‍💻 DEVELOPED-BY SOROUSH-MIRZAEI 📌 FOLLOW-CONTACT SYDSRSMRZ",
+      "tag": "👨🏻‍💻",
       "server": "127.0.0.1",
       "server_port": 8080,
       "password": "acbbcaa-aacb-aabc-acdb-acabbbccbaac",

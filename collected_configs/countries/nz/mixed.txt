@@ -1,77 +1,8 @@
 {
-  "log": {
-    "level": "info",
-    "timestamp": true
-  },
-  "dns": {
-    "servers": [
-      {
-        "tag": "dns_proxy",
-        "address": "proxy://dns-out/dns-query",
-        "detour": "PROXY"
-      },
-      {
-        "tag": "dns_direct",
-        "address": "https://1.1.1.1/dns-query",
-        "detour": "DIRECT"
-      },
-      {
-        "tag": "dns_block",
-        "address": "rcode://success"
-      }
-    ]
-  },
-  "inbounds": [
-    {
-      "type": "tun",
-      "interface_name": "tun0",
-      "inet4_address": "172.19.0.1/30",
-      "auto_route": true,
-      "strict_route": true,
-      "sniff": true
-    }
-  ],
   "outbounds": [
     {
-      "type": "selector",
-      "tag": "PROXY",
-      "outbounds": [
-        "AUTO-SELECT",
-        "🔄 LATEST-UPDATE 📅 SUN-08-TIR-1404 🕑 20:44",
-        "🤖 TELEGRAM-CHANNEL 🌟 ARTIFICIAL-INTELLIGENCE 🖥 @NEUROVANCE 🧠",
-        "🛡 TELEGRAM-CHANNEL 🔐 MTPROTO-PROXY 🌍 @NEXUPROXY 📡",
-        "🔒 TR-TCP-NA 🇳🇿 NZ-202.37.33.80:443",
-        "🔒 VL-WS-NA 🇳🇿 NZ-114.129.43.13:8880",
-        "🔒 VL-WS-NA 🇳🇿 NZ-114.129.43.213:8880",
-        "🔒 VL-WS-NA 🇳🇿 NZ-114.129.43.63:8880",
-        "🔒 VL-WS-NA 🇳🇿 NZ-114.129.43.29:8880",
-        "🔒 VL-WS-NA 🇳🇿 NZ-114.129.43.247:8880",
-        "🔒 VL-WS-NA 🇳🇿 NZ-114.129.43.254:8880",
-        "🔒 VL-WS-NA 🇳🇿 NZ-114.129.43.251:8880",
-        "🔒 VL-WS-TLS 🇳🇿 NZ-202.37.33.80:443",
-        "👨🏻‍💻 DEVELOPED-BY SOROUSH-MIRZAEI 📌 FOLLOW-CONTACT SYDSRSMRZ"
-      ],
-      "default": "AUTO-SELECT"
-    },
-    {
-      "type": "url-test",
-      "tag": "AUTO-SELECT",
-      "outbounds": [
-        "🔒 TR-TCP-NA 🇳🇿 NZ-202.37.33.80:443",
-        "🔒 VL-WS-NA 🇳🇿 NZ-114.129.43.13:8880",
-        "🔒 VL-WS-NA 🇳🇿 NZ-114.129.43.213:8880",
-        "🔒 VL-WS-NA 🇳🇿 NZ-114.129.43.63:8880",
-        "🔒 VL-WS-NA 🇳🇿 NZ-114.129.43.29:8880",
-        "🔒 VL-WS-NA 🇳🇿 NZ-114.129.43.247:8880",
-        "🔒 VL-WS-NA 🇳🇿 NZ-114.129.43.254:8880",
-        "🔒 VL-WS-NA 🇳🇿 NZ-114.129.43.251:8880",
-        "🔒 VL-WS-TLS 🇳🇿 NZ-202.37.33.80:443"
-      ],
-      "url": "http://www.gstatic.com/generate_204"
-    },
-    {
       "type": "trojan",
-      "tag": "🔄 LATEST-UPDATE 📅 SUN-08-TIR-1404 🕑 20:44",
+      "tag": "🔄",
       "server": "127.0.0.1",
       "server_port": 1080,
       "password": "bbaacac-caab-abac-dcab-baabbcaacccb",
@@ -82,7 +13,7 @@
     },
     {
       "type": "trojan",
-      "tag": "🤖 TELEGRAM-CHANNEL 🌟 ARTIFICIAL-INTELLIGENCE 🖥 @NEUROVANCE 🧠",
+      "tag": "🤖",
       "server": "127.0.0.1",
       "server_port": 2080,
       "password": "baaaccb-acba-abac-cabd-acbbbacaabcc",
@@ -93,7 +24,7 @@
     },
     {
       "type": "trojan",
-      "tag": "🛡 TELEGRAM-CHANNEL 🔐 MTPROTO-PROXY 🌍 @NEXUPROXY 📡",
+      "tag": "🛡",
       "server": "127.0.0.1",
       "server_port": 3080,
       "password": "abcbaca-baca-acba-bdac-accbbcbacaba",
@@ -104,7 +35,7 @@
     },
     {
       "type": "trojan",
-      "tag": "🔒 TR-TCP-NA 🇳🇿 NZ-202.37.33.80:443",
+      "tag": "🔒",
       "server": "202.37.33.80",
       "server_port": 443,
       "password": "6884d714-d3c4-4b49-aa20-767ea92837d6",
@@ -115,7 +46,7 @@
     },
     {
       "type": "vless",
-      "tag": "🔒 VL-WS-NA 🇳🇿 NZ-114.129.43.13:8880",
+      "tag": "🔒",
       "server": "114.129.43.13",
       "server_port": 8880,
       "uuid": "9f3c4ab7-ea26-4d96-91a9-c85ff64ad9a0",
@@ -130,7 +61,7 @@
     },
     {
       "type": "vless",
-      "tag": "🔒 VL-WS-NA 🇳🇿 NZ-114.129.43.213:8880",
+      "tag": "🔒",
       "server": "114.129.43.213",
       "server_port": 8880,
       "uuid": "fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf",
@@ -145,7 +76,7 @@
     },
     {
       "type": "vless",
-      "tag": "🔒 VL-WS-NA 🇳🇿 NZ-114.129.43.63:8880",
+      "tag": "🔒",
       "server": "114.129.43.63",
       "server_port": 8880,
       "uuid": "fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf",
@@ -160,7 +91,7 @@
     },
     {
       "type": "vless",
-      "tag": "🔒 VL-WS-NA 🇳🇿 NZ-114.129.43.29:8880",
+      "tag": "🔒",
       "server": "114.129.43.29",
       "server_port": 8880,
       "uuid": "fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf",
@@ -175,7 +106,7 @@
     },
     {
       "type": "vless",
-      "tag": "🔒 VL-WS-NA 🇳🇿 NZ-114.129.43.247:8880",
+      "tag": "🔒",
       "server": "114.129.43.247",
       "server_port": 8880,
       "uuid": "d60fc3c5-9f07-4cdb-b81f-70af27936bdc",
@@ -190,7 +121,7 @@
     },
     {
       "type": "vless",
-      "tag": "🔒 VL-WS-NA 🇳🇿 NZ-114.129.43.254:8880",
+      "tag": "🔒",
       "server": "114.129.43.254",
       "server_port": 8880,
       "uuid": "34c01e61-f4f3-4afb-a83b-406caf8caa33",
@@ -205,7 +136,7 @@
     },
     {
       "type": "vless",
-      "tag": "🔒 VL-WS-NA 🇳🇿 NZ-114.129.43.251:8880",
+      "tag": "🔒",
       "server": "114.129.43.251",
       "server_port": 8880,
       "uuid": "0132166f-e702-48ed-a9e7-b07af768faf8",
@@ -220,7 +151,7 @@
     },
     {
       "type": "vless",
-      "tag": "🔒 VL-WS-TLS 🇳🇿 NZ-202.37.33.80:443",
+      "tag": "🔒",
       "server": "202.37.33.80",
       "server_port": 443,
       "uuid": "06e4425e-a8cb-4b63-929f-2105604ab0a9",
@@ -243,7 +174,7 @@
     },
     {
       "type": "trojan",
-      "tag": "👨🏻‍💻 DEVELOPED-BY SOROUSH-MIRZAEI 📌 FOLLOW-CONTACT SYDSRSMRZ",
+      "tag": "👨🏻‍💻",
       "server": "127.0.0.1",
       "server_port": 8080,
       "password": "acbbcaa-acba-abac-dbca-abacbccbbaac",
@@ -251,32 +182,6 @@
         "enabled": true,
         "server_name": "127.0.0.1"
       }
-    },
-    {
-      "type": "dns",
-      "tag": "dns-out"
-    },
-    {
-      "type": "direct",
-      "tag": "DIRECT"
-    },
-    {
-      "type": "block",
-      "tag": "BLOCK"
     }
-  ],
-  "route": {
-    "rules": [
-      {
-        "protocol": "dns",
-        "outbound": "dns-out"
-      },
-      {
-        "network": "udp",
-        "port": 443,
-        "outbound": "BLOCK"
-      }
-    ],
-    "final": "PROXY"
-  }
+  ]
 }

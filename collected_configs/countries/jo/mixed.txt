@@ -1,81 +1,8 @@
 {
-  "log": {
-    "level": "info",
-    "timestamp": true
-  },
-  "dns": {
-    "servers": [
-      {
-        "tag": "dns_proxy",
-        "address": "proxy://dns-out/dns-query",
-        "detour": "PROXY"
-      },
-      {
-        "tag": "dns_direct",
-        "address": "https://1.1.1.1/dns-query",
-        "detour": "DIRECT"
-      },
-      {
-        "tag": "dns_block",
-        "address": "rcode://success"
-      }
-    ]
-  },
-  "inbounds": [
-    {
-      "type": "tun",
-      "interface_name": "tun0",
-      "inet4_address": "172.19.0.1/30",
-      "auto_route": true,
-      "strict_route": true,
-      "sniff": true
-    }
-  ],
   "outbounds": [
     {
-      "type": "selector",
-      "tag": "PROXY",
-      "outbounds": [
-        "AUTO-SELECT",
-        "🔄 LATEST-UPDATE 📅 SUN-08-TIR-1404 🕑 20:44",
-        "🤖 TELEGRAM-CHANNEL 🌟 ARTIFICIAL-INTELLIGENCE 🖥 @NEUROVANCE 🧠",
-        "🛡 TELEGRAM-CHANNEL 🔐 MTPROTO-PROXY 🌍 @NEXUPROXY 📡",
-        "🔒 VL-WS-NONE 🇯🇴 JO-62.72.166.29:8880",
-        "🔒 VL-WS-NA 🇯🇴 JO-62.72.166.3:8880",
-        "🔒 VL-WS-NA 🇯🇴 JO-62.72.166.254:8880",
-        "🔒 VL-WS-NONE 🇯🇴 JO-62.72.166.20:8880",
-        "🔒 VL-WS-NA 🇯🇴 JO-62.72.166.213:8880",
-        "🔒 VL-WS-NA 🇯🇴 JO-62.72.166.63:8880",
-        "🔒 VL-WS-NA 🇯🇴 JO-62.72.166.13:8880",
-        "🔒 VL-WS-NA 🇯🇴 JO-62.72.166.251:8880",
-        "🔒 VL-GRPC-TLS 🇯🇴 JO-62.72.166.15:443",
-        "🔒 VL-HTTPUPGRADE-NONE 🇯🇴 JO-62.72.166.220:8880",
-        "🔒 VL-WS-NA 🇯🇴 JO-62.72.166.247:8880",
-        "👨🏻‍💻 DEVELOPED-BY SOROUSH-MIRZAEI 📌 FOLLOW-CONTACT SYDSRSMRZ"
-      ],
-      "default": "AUTO-SELECT"
-    },
-    {
-      "type": "url-test",
-      "tag": "AUTO-SELECT",
-      "outbounds": [
-        "🔒 VL-WS-NONE 🇯🇴 JO-62.72.166.29:8880",
-        "🔒 VL-WS-NA 🇯🇴 JO-62.72.166.3:8880",
-        "🔒 VL-WS-NA 🇯🇴 JO-62.72.166.254:8880",
-        "🔒 VL-WS-NONE 🇯🇴 JO-62.72.166.20:8880",
-        "🔒 VL-WS-NA 🇯🇴 JO-62.72.166.213:8880",
-        "🔒 VL-WS-NA 🇯🇴 JO-62.72.166.63:8880",
-        "🔒 VL-WS-NA 🇯🇴 JO-62.72.166.13:8880",
-        "🔒 VL-WS-NA 🇯🇴 JO-62.72.166.251:8880",
-        "🔒 VL-GRPC-TLS 🇯🇴 JO-62.72.166.15:443",
-        "🔒 VL-HTTPUPGRADE-NONE 🇯🇴 JO-62.72.166.220:8880",
-        "🔒 VL-WS-NA 🇯🇴 JO-62.72.166.247:8880"
-      ],
-      "url": "http://www.gstatic.com/generate_204"
-    },
-    {
       "type": "trojan",
-      "tag": "🔄 LATEST-UPDATE 📅 SUN-08-TIR-1404 🕑 20:44",
+      "tag": "🔄",
       "server": "127.0.0.1",
       "server_port": 1080,
       "password": "bbaacac-caab-abac-dcab-baabbcaacccb",
@@ -86,7 +13,7 @@
     },
     {
       "type": "trojan",
-      "tag": "🤖 TELEGRAM-CHANNEL 🌟 ARTIFICIAL-INTELLIGENCE 🖥 @NEUROVANCE 🧠",
+      "tag": "🤖",
       "server": "127.0.0.1",
       "server_port": 2080,
       "password": "baaaccb-acba-abac-cabd-acbbbacaabcc",
@@ -97,7 +24,7 @@
     },
     {
       "type": "trojan",
-      "tag": "🛡 TELEGRAM-CHANNEL 🔐 MTPROTO-PROXY 🌍 @NEXUPROXY 📡",
+      "tag": "🛡",
       "server": "127.0.0.1",
       "server_port": 3080,
       "password": "abcbaca-baca-acba-bdac-accbbcbacaba",
@@ -108,7 +35,7 @@
     },
     {
       "type": "vless",
-      "tag": "🔒 VL-WS-NONE 🇯🇴 JO-62.72.166.29:8880",
+      "tag": "🔒",
       "server": "62.72.166.29",
       "server_port": 8880,
       "uuid": "fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf",
@@ -123,7 +50,7 @@
     },
     {
       "type": "vless",
-      "tag": "🔒 VL-WS-NA 🇯🇴 JO-62.72.166.3:8880",
+      "tag": "🔒",
       "server": "62.72.166.3",
       "server_port": 8880,
       "uuid": "b5441b0d-2147-4898-8a6a-9b2c87f58382",
@@ -138,7 +65,7 @@
     },
     {
       "type": "vless",
-      "tag": "🔒 VL-WS-NA 🇯🇴 JO-62.72.166.254:8880",
+      "tag": "🔒",
       "server": "62.72.166.254",
       "server_port": 8880,
       "uuid": "34c01e61-f4f3-4afb-a83b-406caf8caa33",
@@ -153,7 +80,7 @@
     },
     {
       "type": "vless",
-      "tag": "🔒 VL-WS-NONE 🇯🇴 JO-62.72.166.20:8880",
+      "tag": "🔒",
       "server": "62.72.166.20",
       "server_port": 8880,
       "uuid": "53fa8faf-ba4b-4322-9c69-a3e5b1555049",
@@ -168,7 +95,7 @@
     },
     {
       "type": "vless",
-      "tag": "🔒 VL-WS-NA 🇯🇴 JO-62.72.166.213:8880",
+      "tag": "🔒",
       "server": "62.72.166.213",
       "server_port": 8880,
       "uuid": "fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf",
@@ -183,7 +110,7 @@
     },
     {
       "type": "vless",
-      "tag": "🔒 VL-WS-NA 🇯🇴 JO-62.72.166.63:8880",
+      "tag": "🔒",
       "server": "62.72.166.63",
       "server_port": 8880,
       "uuid": "fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf",
@@ -198,7 +125,7 @@
     },
     {
       "type": "vless",
-      "tag": "🔒 VL-WS-NA 🇯🇴 JO-62.72.166.13:8880",
+      "tag": "🔒",
       "server": "62.72.166.13",
       "server_port": 8880,
       "uuid": "9f3c4ab7-ea26-4d96-91a9-c85ff64ad9a0",
@@ -213,7 +140,7 @@
     },
     {
       "type": "vless",
-      "tag": "🔒 VL-WS-NA 🇯🇴 JO-62.72.166.251:8880",
+      "tag": "🔒",
       "server": "62.72.166.251",
       "server_port": 8880,
       "uuid": "0132166f-e702-48ed-a9e7-b07af768faf8",
@@ -228,7 +155,7 @@
     },
     {
       "type": "vless",
-      "tag": "🔒 VL-GRPC-TLS 🇯🇴 JO-62.72.166.15:443",
+      "tag": "🔒",
       "server": "62.72.166.15",
       "server_port": 443,
       "uuid": "401374e6-df77-41fb-f638-dad8184f175b",
@@ -248,7 +175,7 @@
     },
     {
       "type": "vless",
-      "tag": "🔒 VL-HTTPUPGRADE-NONE 🇯🇴 JO-62.72.166.220:8880",
+      "tag": "🔒",
       "server": "62.72.166.220",
       "server_port": 8880,
       "uuid": "b99590df-eda0-4e34-e1a9-3d1118faed83",
@@ -259,7 +186,7 @@
     },
     {
       "type": "vless",
-      "tag": "🔒 VL-WS-NA 🇯🇴 JO-62.72.166.247:8880",
+      "tag": "🔒",
       "server": "62.72.166.247",
       "server_port": 8880,
       "uuid": "d60fc3c5-9f07-4cdb-b81f-70af27936bdc",
@@ -274,7 +201,7 @@
     },
     {
       "type": "trojan",
-      "tag": "👨🏻‍💻 DEVELOPED-BY SOROUSH-MIRZAEI 📌 FOLLOW-CONTACT SYDSRSMRZ",
+      "tag": "👨🏻‍💻",
       "server": "127.0.0.1",
       "server_port": 8080,
       "password": "acbbcaa-acba-abac-dbca-abacbccbbaac",
@@ -282,32 +209,6 @@
         "enabled": true,
         "server_name": "127.0.0.1"
       }
-    },
-    {
-      "type": "dns",
-      "tag": "dns-out"
-    },
-    {
-      "type": "direct",
-      "tag": "DIRECT"
-    },
-    {
-      "type": "block",
-      "tag": "BLOCK"
     }
-  ],
-  "route": {
-    "rules": [
-      {
-        "protocol": "dns",
-        "outbound": "dns-out"
-      },
-      {
-        "network": "udp",
-        "port": 443,
-        "outbound": "BLOCK"
-      }
-    ],
-    "final": "PROXY"
-  }
+  ]
 }

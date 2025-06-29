@@ -1,177 +1,8 @@
 {
-  "log": {
-    "level": "info",
-    "timestamp": true
-  },
-  "dns": {
-    "servers": [
-      {
-        "tag": "dns_proxy",
-        "address": "proxy://dns-out/dns-query",
-        "detour": "PROXY"
-      },
-      {
-        "tag": "dns_direct",
-        "address": "https://1.1.1.1/dns-query",
-        "detour": "DIRECT"
-      },
-      {
-        "tag": "dns_block",
-        "address": "rcode://success"
-      }
-    ]
-  },
-  "inbounds": [
-    {
-      "type": "tun",
-      "interface_name": "tun0",
-      "inet4_address": "172.19.0.1/30",
-      "auto_route": true,
-      "strict_route": true,
-      "sniff": true
-    }
-  ],
   "outbounds": [
     {
-      "type": "selector",
-      "tag": "PROXY",
-      "outbounds": [
-        "AUTO-SELECT",
-        "🔄 LATEST-UPDATE 📅 SUN-08-TIR-1404 🕑 20:44",
-        "🤖 TELEGRAM-CHANNEL 🌟 ARTIFICIAL-INTELLIGENCE 🖥 @NEUROVANCE 🧠",
-        "🛡 TELEGRAM-CHANNEL 🔐 MTPROTO-PROXY 🌍 @NEXUPROXY 📡",
-        "🔒 SS-TCP-NA 🇪🇸 ES-45.154.206.192:989",
-        "🔒 SS-TCP-NA 🇪🇸 ES-37.235.53.254:443",
-        "🔒 SS-TCP-NA 🇪🇸 ES-92.38.171.215:31348",
-        "🔒 SS-TCP-NA 🇪🇸 ES-45.154.206.192:990",
-        "🔒 SS-TCP-NA 🇪🇸 ES-194.87.45.189:443",
-        "🔒 TR-TCP-TLS 🇪🇸 ES-185.114.72.148:443",
-        "🔒 TR-TCP-NA 🇪🇸 ES-45.86.229.28:443",
-        "🔒 TR-TCP-NA 🇪🇸 ES-194.62.99.56:443",
-        "🔒 TR-TCP-TLS 🇪🇸 ES-185.238.228.6:443",
-        "🔒 TR-WS-NA 🇪🇸 ES-109.234.211.66:8443",
-        "🔒 VL-WS-NA 🇪🇸 ES-185.251.83.251:8880",
-        "🔒 VL-WS-NA 🇪🇸 ES-185.251.83.13:8880",
-        "🔒 VL-WS-NA 🇪🇸 ES-185.251.83.213:8880",
-        "🔒 VL-WS-NA 🇪🇸 ES-185.251.82.254:8880",
-        "🔒 VL-WS-NA 🇪🇸 ES-185.251.80.254:8880",
-        "🔒 VL-WS-NONE 🇪🇸 ES-185.251.81.254:8880",
-        "🔒 VL-WS-NA 🇪🇸 ES-185.251.82.63:8880",
-        "🔒 VL-WS-NONE 🇪🇸 ES-185.251.83.20:8880",
-        "🔒 VL-HTTPUPGRADE-NONE 🇪🇸 ES-109.234.211.232:8080",
-        "🔒 VL-WS-NA 🇪🇸 ES-185.251.82.20:8880",
-        "🔒 VL-WS-NA 🇪🇸 ES-185.238.228.63:8880",
-        "🔒 VL-WS-TLS 🇪🇸 ES-185.238.228.33:443",
-        "🔒 VL-WS-TLS 🇪🇸 ES-185.114.72.31:2053",
-        "🔒 VL-WS-NONE 🇪🇸 ES-185.238.228.20:8880",
-        "🔒 VL-HTTPUPGRADE-NONE 🇪🇸 ES-109.234.211.178:8080",
-        "🔒 VL-WS-NA 🇪🇸 ES-185.251.82.3:8880",
-        "🔒 VL-HTTPUPGRADE-NONE 🇪🇸 ES-109.234.211.117:8080",
-        "🔒 VL-WS-NA 🇪🇸 ES-185.251.80.251:8880",
-        "🔒 VL-WS-NA 🇪🇸 ES-185.238.228.254:8880",
-        "🔒 VL-WS-NA 🇪🇸 ES-185.251.80.247:8880",
-        "🔒 VL-WS-NA 🇪🇸 ES-185.251.80.3:8880",
-        "🔒 VL-WS-NA 🇪🇸 ES-185.251.83.63:8880",
-        "🔒 VL-WS-NA 🇪🇸 ES-185.251.80.63:8880",
-        "🔒 VL-WS-NA 🇪🇸 ES-185.238.228.29:8880",
-        "🔒 VL-WS-NA 🇪🇸 ES-185.238.228.39:8880",
-        "🔒 VL-WS-NA 🇪🇸 ES-185.251.81.29:8880",
-        "🔒 VL-WS-NA 🇪🇸 ES-185.251.83.3:8880",
-        "🔒 VL-WS-NA 🇪🇸 ES-185.251.81.213:8880",
-        "🔒 VL-HTTPUPGRADE-NONE 🇪🇸 ES-109.234.211.227:8080",
-        "🔒 VL-WS-NA 🇪🇸 ES-185.238.228.13:8880",
-        "🔒 VL-WS-NA 🇪🇸 ES-185.251.80.29:8880",
-        "🔒 VL-WS-NA 🇪🇸 ES-185.238.228.251:8880",
-        "🔒 VL-WS-NA 🇪🇸 ES-185.251.82.13:8880",
-        "🔒 VL-WS-NA 🇪🇸 ES-185.251.82.251:8880",
-        "🔒 VL-WS-NA 🇪🇸 ES-185.251.81.247:8880",
-        "🔒 VL-WS-NA 🇪🇸 ES-185.251.81.63:8880",
-        "🔒 VL-WS-NA 🇪🇸 ES-185.238.228.247:8880",
-        "🔒 VL-WS-NA 🇪🇸 ES-185.251.82.247:8880",
-        "🔒 VL-WS-NA 🇪🇸 ES-185.238.228.3:8880",
-        "🔒 VL-WS-NA 🇪🇸 ES-185.251.81.251:8880",
-        "🔒 VL-WS-TLS 🇪🇸 ES-151.101.134.133:443",
-        "🔒 VL-WS-NA 🇪🇸 ES-185.251.81.3:8880",
-        "🔒 VL-WS-NA 🇪🇸 ES-185.238.228.213:8880",
-        "🔒 VL-WS-NA 🇪🇸 ES-185.251.80.213:8880",
-        "🔒 VL-WS-NA 🇪🇸 ES-185.251.82.213:8880",
-        "🔒 VL-GRPC-NONE 🇪🇸 ES-83.147.18.200:2052",
-        "🔒 VL-WS-NA 🇪🇸 ES-185.251.83.254:8880",
-        "🔒 VL-WS-NA 🇪🇸 ES-185.251.81.13:8880",
-        "🔒 VL-TCP-RLT 🇪🇸 ES-37.143.130.216:4000",
-        "👨🏻‍💻 DEVELOPED-BY SOROUSH-MIRZAEI 📌 FOLLOW-CONTACT SYDSRSMRZ"
-      ],
-      "default": "AUTO-SELECT"
-    },
-    {
-      "type": "url-test",
-      "tag": "AUTO-SELECT",
-      "outbounds": [
-        "🔒 SS-TCP-NA 🇪🇸 ES-45.154.206.192:989",
-        "🔒 SS-TCP-NA 🇪🇸 ES-37.235.53.254:443",
-        "🔒 SS-TCP-NA 🇪🇸 ES-92.38.171.215:31348",
-        "🔒 SS-TCP-NA 🇪🇸 ES-45.154.206.192:990",
-        "🔒 SS-TCP-NA 🇪🇸 ES-194.87.45.189:443",
-        "🔒 TR-TCP-TLS 🇪🇸 ES-185.114.72.148:443",
-        "🔒 TR-TCP-NA 🇪🇸 ES-45.86.229.28:443",
-        "🔒 TR-TCP-NA 🇪🇸 ES-194.62.99.56:443",
-        "🔒 TR-TCP-TLS 🇪🇸 ES-185.238.228.6:443",
-        "🔒 TR-WS-NA 🇪🇸 ES-109.234.211.66:8443",
-        "🔒 VL-WS-NA 🇪🇸 ES-185.251.83.251:8880",
-        "🔒 VL-WS-NA 🇪🇸 ES-185.251.83.13:8880",
-        "🔒 VL-WS-NA 🇪🇸 ES-185.251.83.213:8880",
-        "🔒 VL-WS-NA 🇪🇸 ES-185.251.82.254:8880",
-        "🔒 VL-WS-NA 🇪🇸 ES-185.251.80.254:8880",
-        "🔒 VL-WS-NONE 🇪🇸 ES-185.251.81.254:8880",
-        "🔒 VL-WS-NA 🇪🇸 ES-185.251.82.63:8880",
-        "🔒 VL-WS-NONE 🇪🇸 ES-185.251.83.20:8880",
-        "🔒 VL-HTTPUPGRADE-NONE 🇪🇸 ES-109.234.211.232:8080",
-        "🔒 VL-WS-NA 🇪🇸 ES-185.251.82.20:8880",
-        "🔒 VL-WS-NA 🇪🇸 ES-185.238.228.63:8880",
-        "🔒 VL-WS-TLS 🇪🇸 ES-185.238.228.33:443",
-        "🔒 VL-WS-TLS 🇪🇸 ES-185.114.72.31:2053",
-        "🔒 VL-WS-NONE 🇪🇸 ES-185.238.228.20:8880",
-        "🔒 VL-HTTPUPGRADE-NONE 🇪🇸 ES-109.234.211.178:8080",
-        "🔒 VL-WS-NA 🇪🇸 ES-185.251.82.3:8880",
-        "🔒 VL-HTTPUPGRADE-NONE 🇪🇸 ES-109.234.211.117:8080",
-        "🔒 VL-WS-NA 🇪🇸 ES-185.251.80.251:8880",
-        "🔒 VL-WS-NA 🇪🇸 ES-185.238.228.254:8880",
-        "🔒 VL-WS-NA 🇪🇸 ES-185.251.80.247:8880",
-        "🔒 VL-WS-NA 🇪🇸 ES-185.251.80.3:8880",
-        "🔒 VL-WS-NA 🇪🇸 ES-185.251.83.63:8880",
-        "🔒 VL-WS-NA 🇪🇸 ES-185.251.80.63:8880",
-        "🔒 VL-WS-NA 🇪🇸 ES-185.238.228.29:8880",
-        "🔒 VL-WS-NA 🇪🇸 ES-185.238.228.39:8880",
-        "🔒 VL-WS-NA 🇪🇸 ES-185.251.81.29:8880",
-        "🔒 VL-WS-NA 🇪🇸 ES-185.251.83.3:8880",
-        "🔒 VL-WS-NA 🇪🇸 ES-185.251.81.213:8880",
-        "🔒 VL-HTTPUPGRADE-NONE 🇪🇸 ES-109.234.211.227:8080",
-        "🔒 VL-WS-NA 🇪🇸 ES-185.238.228.13:8880",
-        "🔒 VL-WS-NA 🇪🇸 ES-185.251.80.29:8880",
-        "🔒 VL-WS-NA 🇪🇸 ES-185.238.228.251:8880",
-        "🔒 VL-WS-NA 🇪🇸 ES-185.251.82.13:8880",
-        "🔒 VL-WS-NA 🇪🇸 ES-185.251.82.251:8880",
-        "🔒 VL-WS-NA 🇪🇸 ES-185.251.81.247:8880",
-        "🔒 VL-WS-NA 🇪🇸 ES-185.251.81.63:8880",
-        "🔒 VL-WS-NA 🇪🇸 ES-185.238.228.247:8880",
-        "🔒 VL-WS-NA 🇪🇸 ES-185.251.82.247:8880",
-        "🔒 VL-WS-NA 🇪🇸 ES-185.238.228.3:8880",
-        "🔒 VL-WS-NA 🇪🇸 ES-185.251.81.251:8880",
-        "🔒 VL-WS-TLS 🇪🇸 ES-151.101.134.133:443",
-        "🔒 VL-WS-NA 🇪🇸 ES-185.251.81.3:8880",
-        "🔒 VL-WS-NA 🇪🇸 ES-185.238.228.213:8880",
-        "🔒 VL-WS-NA 🇪🇸 ES-185.251.80.213:8880",
-        "🔒 VL-WS-NA 🇪🇸 ES-185.251.82.213:8880",
-        "🔒 VL-GRPC-NONE 🇪🇸 ES-83.147.18.200:2052",
-        "🔒 VL-WS-NA 🇪🇸 ES-185.251.83.254:8880",
-        "🔒 VL-WS-NA 🇪🇸 ES-185.251.81.13:8880",
-        "🔒 VL-TCP-RLT 🇪🇸 ES-37.143.130.216:4000"
-      ],
-      "url": "http://www.gstatic.com/generate_204"
-    },
-    {
       "type": "trojan",
-      "tag": "🔄 LATEST-UPDATE 📅 SUN-08-TIR-1404 🕑 20:44",
+      "tag": "🔄",
       "server": "127.0.0.1",
       "server_port": 1080,
       "password": "bbaacac-caab-abac-dcab-baabbcaacccb",
@@ -182,7 +13,7 @@
     },
     {
       "type": "trojan",
-      "tag": "🤖 TELEGRAM-CHANNEL 🌟 ARTIFICIAL-INTELLIGENCE 🖥 @NEUROVANCE 🧠",
+      "tag": "🤖",
       "server": "127.0.0.1",
       "server_port": 2080,
       "password": "baaaccb-acba-abac-cabd-acbbbacaabcc",
@@ -193,7 +24,7 @@
     },
     {
       "type": "trojan",
-      "tag": "🛡 TELEGRAM-CHANNEL 🔐 MTPROTO-PROXY 🌍 @NEXUPROXY 📡",
+      "tag": "🛡",
       "server": "127.0.0.1",
       "server_port": 3080,
       "password": "abcbaca-baca-acba-bdac-accbbcbacaba",
@@ -204,7 +35,7 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "🔒 SS-TCP-NA 🇪🇸 ES-45.154.206.192:989",
+      "tag": "🔒",
       "server": "45.154.206.192",
       "server_port": 989,
       "method": "aes-256-cfb",
@@ -212,7 +43,7 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "🔒 SS-TCP-NA 🇪🇸 ES-37.235.53.254:443",
+      "tag": "🔒",
       "server": "37.235.53.254",
       "server_port": 443,
       "method": "chacha20-ietf-poly1305",
@@ -220,7 +51,7 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "🔒 SS-TCP-NA 🇪🇸 ES-92.38.171.215:31348",
+      "tag": "🔒",
       "server": "92.38.171.215",
       "server_port": 31348,
       "method": "chacha20-ietf-poly1305",
@@ -228,7 +59,7 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "🔒 SS-TCP-NA 🇪🇸 ES-45.154.206.192:990",
+      "tag": "🔒",
       "server": "45.154.206.192",
       "server_port": 990,
       "method": "chacha20-ietf-poly1305",
@@ -236,7 +67,7 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "🔒 SS-TCP-NA 🇪🇸 ES-194.87.45.189:443",
+      "tag": "🔒",
       "server": "194.87.45.189",
       "server_port": 443,
       "method": "chacha20-ietf-poly1305",
@@ -244,7 +75,7 @@
     },
     {
       "type": "trojan",
-      "tag": "🔒 TR-TCP-TLS 🇪🇸 ES-185.114.72.148:443",
+      "tag": "🔒",
       "server": "185.114.72.148",
       "server_port": 443,
       "password": "SSorg",
@@ -256,7 +87,7 @@
     },
     {
       "type": "trojan",
-      "tag": "🔒 TR-TCP-NA 🇪🇸 ES-45.86.229.28:443",
+      "tag": "🔒",
       "server": "45.86.229.28",
       "server_port": 443,
       "password": "Aimer",
@@ -268,7 +99,7 @@
     },
     {
       "type": "trojan",
-      "tag": "🔒 TR-TCP-NA 🇪🇸 ES-194.62.99.56:443",
+      "tag": "🔒",
       "server": "194.62.99.56",
       "server_port": 443,
       "password": "3828095943467868160",
@@ -279,7 +110,7 @@
     },
     {
       "type": "trojan",
-      "tag": "🔒 TR-TCP-TLS 🇪🇸 ES-185.238.228.6:443",
+      "tag": "🔒",
       "server": "185.238.228.6",
       "server_port": 443,
       "password": "bpb-trojan",
@@ -290,7 +121,7 @@
     },
     {
       "type": "trojan",
-      "tag": "🔒 TR-WS-NA 🇪🇸 ES-109.234.211.66:8443",
+      "tag": "🔒",
       "server": "109.234.211.66",
       "server_port": 8443,
       "password": "trojan",
@@ -301,7 +132,7 @@
     },
     {
       "type": "vless",
-      "tag": "🔒 VL-WS-NA 🇪🇸 ES-185.251.83.251:8880",
+      "tag": "🔒",
       "server": "185.251.83.251",
       "server_port": 8880,
       "uuid": "0132166f-e702-48ed-a9e7-b07af768faf8",
@@ -316,7 +147,7 @@
     },
     {
       "type": "vless",
-      "tag": "🔒 VL-WS-NA 🇪🇸 ES-185.251.83.13:8880",
+      "tag": "🔒",
       "server": "185.251.83.13",
       "server_port": 8880,
       "uuid": "9f3c4ab7-ea26-4d96-91a9-c85ff64ad9a0",
@@ -331,7 +162,7 @@
     },
     {
       "type": "vless",
-      "tag": "🔒 VL-WS-NA 🇪🇸 ES-185.251.83.213:8880",
+      "tag": "🔒",
       "server": "185.251.83.213",
       "server_port": 8880,
       "uuid": "fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf",
@@ -346,7 +177,7 @@
     },
     {
       "type": "vless",
-      "tag": "🔒 VL-WS-NA 🇪🇸 ES-185.251.82.254:8880",
+      "tag": "🔒",
       "server": "185.251.82.254",
       "server_port": 8880,
       "uuid": "34c01e61-f4f3-4afb-a83b-406caf8caa33",
@@ -361,7 +192,7 @@
     },
     {
       "type": "vless",
-      "tag": "🔒 VL-WS-NA 🇪🇸 ES-185.251.80.254:8880",
+      "tag": "🔒",
       "server": "185.251.80.254",
       "server_port": 8880,
       "uuid": "34c01e61-f4f3-4afb-a83b-406caf8caa33",
@@ -376,7 +207,7 @@
     },
     {
       "type": "vless",
-      "tag": "🔒 VL-WS-NONE 🇪🇸 ES-185.251.81.254:8880",
+      "tag": "🔒",
       "server": "185.251.81.254",
       "server_port": 8880,
       "uuid": "34c01e61-f4f3-4afb-a83b-406caf8caa33",
@@ -391,7 +222,7 @@
     },
     {
       "type": "vless",
-      "tag": "🔒 VL-WS-NA 🇪🇸 ES-185.251.82.63:8880",
+      "tag": "🔒",
       "server": "185.251.82.63",
       "server_port": 8880,
       "uuid": "fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf",
@@ -406,7 +237,7 @@
     },
     {
       "type": "vless",
-      "tag": "🔒 VL-WS-NONE 🇪🇸 ES-185.251.83.20:8880",
+      "tag": "🔒",
       "server": "185.251.83.20",
       "server_port": 8880,
       "uuid": "fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf",
@@ -421,7 +252,7 @@
     },
     {
       "type": "vless",
-      "tag": "🔒 VL-HTTPUPGRADE-NONE 🇪🇸 ES-109.234.211.232:8080",
+      "tag": "🔒",
       "server": "109.234.211.232",
       "server_port": 8080,
       "uuid": "428287e2-0a51-42d5-89a5-d07f5f10a481",
@@ -432,7 +263,7 @@
     },
     {
       "type": "vless",
-      "tag": "🔒 VL-WS-NA 🇪🇸 ES-185.251.82.20:8880",
+      "tag": "🔒",
       "server": "185.251.82.20",
       "server_port": 8880,
       "uuid": "fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf",
@@ -447,7 +278,7 @@
     },
     {
       "type": "vless",
-      "tag": "🔒 VL-WS-NA 🇪🇸 ES-185.238.228.63:8880",
+      "tag": "🔒",
       "server": "185.238.228.63",
       "server_port": 8880,
       "uuid": "fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf",
@@ -462,7 +293,7 @@
     },
     {
       "type": "vless",
-      "tag": "🔒 VL-WS-TLS 🇪🇸 ES-185.238.228.33:443",
+      "tag": "🔒",
       "server": "185.238.228.33",
       "server_port": 443,
       "uuid": "780161d1-a345-45d4-96fb-c2c4b88bf151",
@@ -485,7 +316,7 @@
     },
     {
       "type": "vless",
-      "tag": "🔒 VL-WS-TLS 🇪🇸 ES-185.114.72.31:2053",
+      "tag": "🔒",
       "server": "185.114.72.31",
       "server_port": 2053,
       "uuid": "1a79d43f-b41c-496b-a241-dcbeefa81f0e",
@@ -508,7 +339,7 @@
     },
     {
       "type": "vless",
-      "tag": "🔒 VL-WS-NONE 🇪🇸 ES-185.238.228.20:8880",
+      "tag": "🔒",
       "server": "185.238.228.20",
       "server_port": 8880,
       "uuid": "fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf",
@@ -523,7 +354,7 @@
     },
     {
       "type": "vless",
-      "tag": "🔒 VL-HTTPUPGRADE-NONE 🇪🇸 ES-109.234.211.178:8080",
+      "tag": "🔒",
       "server": "109.234.211.178",
       "server_port": 8080,
       "uuid": "428287e2-0a51-42d5-89a5-d07f5f10a481",
@@ -534,7 +365,7 @@
     },
     {
       "type": "vless",
-      "tag": "🔒 VL-WS-NA 🇪🇸 ES-185.251.82.3:8880",
+      "tag": "🔒",
       "server": "185.251.82.3",
       "server_port": 8880,
       "uuid": "b5441b0d-2147-4898-8a6a-9b2c87f58382",
@@ -549,7 +380,7 @@
     },
     {
       "type": "vless",
-      "tag": "🔒 VL-HTTPUPGRADE-NONE 🇪🇸 ES-109.234.211.117:8080",
+      "tag": "🔒",
       "server": "109.234.211.117",
       "server_port": 8080,
       "uuid": "428287e2-0a51-42d5-89a5-d07f5f10a481",
@@ -560,7 +391,7 @@
     },
     {
       "type": "vless",
-      "tag": "🔒 VL-WS-NA 🇪🇸 ES-185.251.80.251:8880",
+      "tag": "🔒",
       "server": "185.251.80.251",
       "server_port": 8880,
       "uuid": "0132166f-e702-48ed-a9e7-b07af768faf8",
@@ -575,7 +406,7 @@
     },
     {
       "type": "vless",
-      "tag": "🔒 VL-WS-NA 🇪🇸 ES-185.238.228.254:8880",
+      "tag": "🔒",
       "server": "185.238.228.254",
       "server_port": 8880,
       "uuid": "34c01e61-f4f3-4afb-a83b-406caf8caa33",
@@ -590,7 +421,7 @@
     },
     {
       "type": "vless",
-      "tag": "🔒 VL-WS-NA 🇪🇸 ES-185.251.80.247:8880",
+      "tag": "🔒",
       "server": "185.251.80.247",
       "server_port": 8880,
       "uuid": "d60fc3c5-9f07-4cdb-b81f-70af27936bdc",
@@ -605,7 +436,7 @@
     },
     {
       "type": "vless",
-      "tag": "🔒 VL-WS-NA 🇪🇸 ES-185.251.80.3:8880",
+      "tag": "🔒",
       "server": "185.251.80.3",
       "server_port": 8880,
       "uuid": "b5441b0d-2147-4898-8a6a-9b2c87f58382",
@@ -620,7 +451,7 @@
     },
     {
       "type": "vless",
-      "tag": "🔒 VL-WS-NA 🇪🇸 ES-185.251.83.63:8880",
+      "tag": "🔒",
       "server": "185.251.83.63",
       "server_port": 8880,
       "uuid": "fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf",
@@ -635,7 +466,7 @@
     },
     {
       "type": "vless",
-      "tag": "🔒 VL-WS-NA 🇪🇸 ES-185.251.80.63:8880",
+      "tag": "🔒",
       "server": "185.251.80.63",
       "server_port": 8880,
       "uuid": "fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf",
@@ -650,7 +481,7 @@
     },
     {
       "type": "vless",
-      "tag": "🔒 VL-WS-NA 🇪🇸 ES-185.238.228.29:8880",
+      "tag": "🔒",
       "server": "185.238.228.29",
       "server_port": 8880,
       "uuid": "fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf",
@@ -665,7 +496,7 @@
     },
     {
       "type": "vless",
-      "tag": "🔒 VL-WS-NA 🇪🇸 ES-185.238.228.39:8880",
+      "tag": "🔒",
       "server": "185.238.228.39",
       "server_port": 8880,
       "uuid": "583ceab3-4022-4553-9158-9bedc625ad4e",
@@ -680,7 +511,7 @@
     },
     {
       "type": "vless",
-      "tag": "🔒 VL-WS-NA 🇪🇸 ES-185.251.81.29:8880",
+      "tag": "🔒",
       "server": "185.251.81.29",
       "server_port": 8880,
       "uuid": "fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf",
@@ -695,7 +526,7 @@
     },
     {
       "type": "vless",
-      "tag": "🔒 VL-WS-NA 🇪🇸 ES-185.251.83.3:8880",
+      "tag": "🔒",
       "server": "185.251.83.3",
       "server_port": 8880,
       "uuid": "b5441b0d-2147-4898-8a6a-9b2c87f58382",
@@ -710,7 +541,7 @@
     },
     {
       "type": "vless",
-      "tag": "🔒 VL-WS-NA 🇪🇸 ES-185.251.81.213:8880",
+      "tag": "🔒",
       "server": "185.251.81.213",
       "server_port": 8880,
       "uuid": "fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf",
@@ -725,7 +556,7 @@
     },
     {
       "type": "vless",
-      "tag": "🔒 VL-HTTPUPGRADE-NONE 🇪🇸 ES-109.234.211.227:8080",
+      "tag": "🔒",
       "server": "109.234.211.227",
       "server_port": 8080,
       "uuid": "428287e2-0a51-42d5-89a5-d07f5f10a481",
@@ -736,7 +567,7 @@
     },
     {
       "type": "vless",
-      "tag": "🔒 VL-WS-NA 🇪🇸 ES-185.238.228.13:8880",
+      "tag": "🔒",
       "server": "185.238.228.13",
       "server_port": 8880,
       "uuid": "9f3c4ab7-ea26-4d96-91a9-c85ff64ad9a0",
@@ -751,7 +582,7 @@
     },
     {
       "type": "vless",
-      "tag": "🔒 VL-WS-NA 🇪🇸 ES-185.251.80.29:8880",
+      "tag": "🔒",
       "server": "185.251.80.29",
       "server_port": 8880,
       "uuid": "fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf",
@@ -766,7 +597,7 @@
     },
     {
       "type": "vless",
-      "tag": "🔒 VL-WS-NA 🇪🇸 ES-185.238.228.251:8880",
+      "tag": "🔒",
       "server": "185.238.228.251",
       "server_port": 8880,
       "uuid": "0132166f-e702-48ed-a9e7-b07af768faf8",
@@ -781,7 +612,7 @@
     },
     {
       "type": "vless",
-      "tag": "🔒 VL-WS-NA 🇪🇸 ES-185.251.82.13:8880",
+      "tag": "🔒",
       "server": "185.251.82.13",
       "server_port": 8880,
       "uuid": "9f3c4ab7-ea26-4d96-91a9-c85ff64ad9a0",
@@ -796,7 +627,7 @@
     },
     {
       "type": "vless",
-      "tag": "🔒 VL-WS-NA 🇪🇸 ES-185.251.82.251:8880",
+      "tag": "🔒",
       "server": "185.251.82.251",
       "server_port": 8880,
       "uuid": "0132166f-e702-48ed-a9e7-b07af768faf8",
@@ -811,7 +642,7 @@
     },
     {
       "type": "vless",
-      "tag": "🔒 VL-WS-NA 🇪🇸 ES-185.251.81.247:8880",
+      "tag": "🔒",
       "server": "185.251.81.247",
       "server_port": 8880,
       "uuid": "d60fc3c5-9f07-4cdb-b81f-70af27936bdc",
@@ -826,7 +657,7 @@
     },
     {
       "type": "vless",
-      "tag": "🔒 VL-WS-NA 🇪🇸 ES-185.251.81.63:8880",
+      "tag": "🔒",
       "server": "185.251.81.63",
       "server_port": 8880,
       "uuid": "fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf",
@@ -841,7 +672,7 @@
     },
     {
       "type": "vless",
-      "tag": "🔒 VL-WS-NA 🇪🇸 ES-185.238.228.247:8880",
+      "tag": "🔒",
       "server": "185.238.228.247",
       "server_port": 8880,
       "uuid": "d60fc3c5-9f07-4cdb-b81f-70af27936bdc",
@@ -856,7 +687,7 @@
     },
     {
       "type": "vless",
-      "tag": "🔒 VL-WS-NA 🇪🇸 ES-185.251.82.247:8880",
+      "tag": "🔒",
       "server": "185.251.82.247",
       "server_port": 8880,
       "uuid": "d60fc3c5-9f07-4cdb-b81f-70af27936bdc",
@@ -871,7 +702,7 @@
     },
     {
       "type": "vless",
-      "tag": "🔒 VL-WS-NA 🇪🇸 ES-185.238.228.3:8880",
+      "tag": "🔒",
       "server": "185.238.228.3",
       "server_port": 8880,
       "uuid": "b5441b0d-2147-4898-8a6a-9b2c87f58382",
@@ -886,7 +717,7 @@
     },
     {
       "type": "vless",
-      "tag": "🔒 VL-WS-NA 🇪🇸 ES-185.251.81.251:8880",
+      "tag": "🔒",
       "server": "185.251.81.251",
       "server_port": 8880,
       "uuid": "0132166f-e702-48ed-a9e7-b07af768faf8",
@@ -901,7 +732,7 @@
     },
     {
       "type": "vless",
-      "tag": "🔒 VL-WS-TLS 🇪🇸 ES-151.101.134.133:443",
+      "tag": "🔒",
       "server": "151.101.134.133",
       "server_port": 443,
       "uuid": "5150600b-d270-4be8-8d78-c5784d3c093b",
@@ -924,7 +755,7 @@
     },
     {
       "type": "vless",
-      "tag": "🔒 VL-WS-NA 🇪🇸 ES-185.251.81.3:8880",
+      "tag": "🔒",
       "server": "185.251.81.3",
       "server_port": 8880,
       "uuid": "b5441b0d-2147-4898-8a6a-9b2c87f58382",
@@ -939,7 +770,7 @@
     },
     {
       "type": "vless",
-      "tag": "🔒 VL-WS-NA 🇪🇸 ES-185.238.228.213:8880",
+      "tag": "🔒",
       "server": "185.238.228.213",
       "server_port": 8880,
       "uuid": "fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf",
@@ -954,7 +785,7 @@
     },
     {
       "type": "vless",
-      "tag": "🔒 VL-WS-NA 🇪🇸 ES-185.251.80.213:8880",
+      "tag": "🔒",
       "server": "185.251.80.213",
       "server_port": 8880,
       "uuid": "fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf",
@@ -969,7 +800,7 @@
     },
     {
       "type": "vless",
-      "tag": "🔒 VL-WS-NA 🇪🇸 ES-185.251.82.213:8880",
+      "tag": "🔒",
       "server": "185.251.82.213",
       "server_port": 8880,
       "uuid": "fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf",
@@ -984,7 +815,7 @@
     },
     {
       "type": "vless",
-      "tag": "🔒 VL-GRPC-NONE 🇪🇸 ES-83.147.18.200:2052",
+      "tag": "🔒",
       "server": "83.147.18.200",
       "server_port": 2052,
       "uuid": "c09e7267-0061-4345-9953-4b95ed5357ac",
@@ -996,7 +827,7 @@
     },
     {
       "type": "vless",
-      "tag": "🔒 VL-WS-NA 🇪🇸 ES-185.251.83.254:8880",
+      "tag": "🔒",
       "server": "185.251.83.254",
       "server_port": 8880,
       "uuid": "34c01e61-f4f3-4afb-a83b-406caf8caa33",
@@ -1011,7 +842,7 @@
     },
     {
       "type": "vless",
-      "tag": "🔒 VL-WS-NA 🇪🇸 ES-185.251.81.13:8880",
+      "tag": "🔒",
       "server": "185.251.81.13",
       "server_port": 8880,
       "uuid": "9f3c4ab7-ea26-4d96-91a9-c85ff64ad9a0",
@@ -1026,7 +857,7 @@
     },
     {
       "type": "vless",
-      "tag": "🔒 VL-TCP-RLT 🇪🇸 ES-37.143.130.216:4000",
+      "tag": "🔒",
       "server": "37.143.130.216",
       "server_port": 4000,
       "uuid": "c48da5b2-98a7-4ca3-9ef3-1c9b8dbd3901",
@@ -1050,7 +881,7 @@
     },
     {
       "type": "trojan",
-      "tag": "👨🏻‍💻 DEVELOPED-BY SOROUSH-MIRZAEI 📌 FOLLOW-CONTACT SYDSRSMRZ",
+      "tag": "👨🏻‍💻",
       "server": "127.0.0.1",
       "server_port": 8080,
       "password": "acbbcaa-acba-abac-dbca-abacbccbbaac",
@@ -1058,32 +889,6 @@
         "enabled": true,
         "server_name": "127.0.0.1"
       }
-    },
-    {
-      "type": "dns",
-      "tag": "dns-out"
-    },
-    {
-      "type": "direct",
-      "tag": "DIRECT"
-    },
-    {
-      "type": "block",
-      "tag": "BLOCK"
     }
-  ],
-  "route": {
-    "rules": [
-      {
-        "protocol": "dns",
-        "outbound": "dns-out"
-      },
-      {
-        "network": "udp",
-        "port": 443,
-        "outbound": "BLOCK"
-      }
-    ],
-    "final": "PROXY"
-  }
+  ]
 }

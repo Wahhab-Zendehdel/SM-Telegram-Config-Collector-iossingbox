@@ -1,111 +1,8 @@
 {
-  "log": {
-    "level": "info",
-    "timestamp": true
-  },
-  "dns": {
-    "servers": [
-      {
-        "tag": "dns_proxy",
-        "address": "proxy://dns-out/dns-query",
-        "detour": "PROXY"
-      },
-      {
-        "tag": "dns_direct",
-        "address": "https://1.1.1.1/dns-query",
-        "detour": "DIRECT"
-      },
-      {
-        "tag": "dns_block",
-        "address": "rcode://success"
-      }
-    ]
-  },
-  "inbounds": [
-    {
-      "type": "tun",
-      "interface_name": "tun0",
-      "inet4_address": "172.19.0.1/30",
-      "auto_route": true,
-      "strict_route": true,
-      "sniff": true
-    }
-  ],
   "outbounds": [
     {
-      "type": "selector",
-      "tag": "PROXY",
-      "outbounds": [
-        "AUTO-SELECT",
-        "🔄 LATEST-UPDATE 📅 SUN-08-TIR-1404 🕑 20:44",
-        "🤖 TELEGRAM-CHANNEL 🌟 ARTIFICIAL-INTELLIGENCE 🖥 @NEUROVANCE 🧠",
-        "🛡 TELEGRAM-CHANNEL 🔐 MTPROTO-PROXY 🌍 @NEXUPROXY 📡",
-        "🔒 SS-TCP-NA 🇨🇿 CZ-195.181.160.6:990",
-        "🔒 SS-TCP-NA 🇨🇿 CZ-143.244.58.102:443",
-        "🔒 TR-TCP-TLS 🇨🇿 CZ-195.133.93.135:443",
-        "🔒 VL-WS-TLS 🇨🇿 CZ-195.85.23.58:443",
-        "🔒 VL-WS-NA 🇨🇿 CZ-193.124.18.63:8880",
-        "🔒 VL-WS-NA 🇨🇿 CZ-193.124.18.3:8880",
-        "🔒 VL-WS-TLS 🇨🇿 CZ-195.85.23.136:2096",
-        "🔒 VL-WS-NA 🇨🇿 CZ-193.124.18.213:8880",
-        "🔒 VL-WS-NA 🇨🇿 CZ-195.85.23.251:8880",
-        "🔒 VL-WS-NA 🇨🇿 CZ-195.85.23.13:8880",
-        "🔒 VL-WS-TLS 🇨🇿 CZ-195.85.23.162:2096",
-        "🔒 VL-WS-NA 🇨🇿 CZ-193.124.18.13:8880",
-        "🔒 VL-WS-NONE 🇨🇿 CZ-195.85.23.20:8880",
-        "🔒 VL-WS-NA 🇨🇿 CZ-195.85.23.63:8880",
-        "🔒 VL-WS-NONE 🇨🇿 CZ-80.211.194.250:80",
-        "🔒 VL-WS-NONE 🇨🇿 CZ-195.85.23.254:8880",
-        "🔒 VL-WS-NA 🇨🇿 CZ-193.124.18.247:8880",
-        "🔒 VL-WS-TLS 🇨🇿 CZ-195.85.23.66:443",
-        "🔒 VL-WS-TLS 🇨🇿 CZ-195.85.23.93:8443",
-        "🔒 VL-WS-NA 🇨🇿 CZ-195.85.23.213:8880",
-        "🔒 VL-WS-TLS 🇨🇿 CZ-195.85.23.24:443",
-        "🔒 VL-WS-TLS 🇨🇿 CZ-195.85.23.229:443",
-        "🔒 VL-WS-TLS 🇨🇿 CZ-194.87.190.57:8443",
-        "🔒 VL-WS-NA 🇨🇿 CZ-193.124.18.251:8880",
-        "🔒 VL-WS-TLS 🇨🇿 CZ-195.85.23.96:443",
-        "🔒 VL-WS-NONE 🇨🇿 CZ-195.85.23.200:8880",
-        "👨🏻‍💻 DEVELOPED-BY SOROUSH-MIRZAEI 📌 FOLLOW-CONTACT SYDSRSMRZ"
-      ],
-      "default": "AUTO-SELECT"
-    },
-    {
-      "type": "url-test",
-      "tag": "AUTO-SELECT",
-      "outbounds": [
-        "🔒 SS-TCP-NA 🇨🇿 CZ-195.181.160.6:990",
-        "🔒 SS-TCP-NA 🇨🇿 CZ-143.244.58.102:443",
-        "🔒 TR-TCP-TLS 🇨🇿 CZ-195.133.93.135:443",
-        "🔒 VL-WS-TLS 🇨🇿 CZ-195.85.23.58:443",
-        "🔒 VL-WS-NA 🇨🇿 CZ-193.124.18.63:8880",
-        "🔒 VL-WS-NA 🇨🇿 CZ-193.124.18.3:8880",
-        "🔒 VL-WS-TLS 🇨🇿 CZ-195.85.23.136:2096",
-        "🔒 VL-WS-NA 🇨🇿 CZ-193.124.18.213:8880",
-        "🔒 VL-WS-NA 🇨🇿 CZ-195.85.23.251:8880",
-        "🔒 VL-WS-NA 🇨🇿 CZ-195.85.23.13:8880",
-        "🔒 VL-WS-TLS 🇨🇿 CZ-195.85.23.162:2096",
-        "🔒 VL-WS-NA 🇨🇿 CZ-193.124.18.13:8880",
-        "🔒 VL-WS-NONE 🇨🇿 CZ-195.85.23.20:8880",
-        "🔒 VL-WS-NA 🇨🇿 CZ-195.85.23.63:8880",
-        "🔒 VL-WS-NONE 🇨🇿 CZ-80.211.194.250:80",
-        "🔒 VL-WS-NONE 🇨🇿 CZ-195.85.23.254:8880",
-        "🔒 VL-WS-NA 🇨🇿 CZ-193.124.18.247:8880",
-        "🔒 VL-WS-TLS 🇨🇿 CZ-195.85.23.66:443",
-        "🔒 VL-WS-TLS 🇨🇿 CZ-195.85.23.93:8443",
-        "🔒 VL-WS-NA 🇨🇿 CZ-195.85.23.213:8880",
-        "🔒 VL-WS-TLS 🇨🇿 CZ-195.85.23.24:443",
-        "🔒 VL-WS-TLS 🇨🇿 CZ-195.85.23.229:443",
-        "🔒 VL-WS-TLS 🇨🇿 CZ-194.87.190.57:8443",
-        "🔒 VL-WS-NA 🇨🇿 CZ-193.124.18.251:8880",
-        "🔒 VL-WS-TLS 🇨🇿 CZ-195.85.23.96:443",
-        "🔒 VL-WS-NONE 🇨🇿 CZ-195.85.23.200:8880"
-      ],
-      "url": "http://www.gstatic.com/generate_204"
-    },
-    {
       "type": "trojan",
-      "tag": "🔄 LATEST-UPDATE 📅 SUN-08-TIR-1404 🕑 20:44",
+      "tag": "🔄",
       "server": "127.0.0.1",
       "server_port": 1080,
       "password": "bbaacac-caab-abac-dcab-baabbcaacccb",
@@ -116,7 +13,7 @@
     },
     {
       "type": "trojan",
-      "tag": "🤖 TELEGRAM-CHANNEL 🌟 ARTIFICIAL-INTELLIGENCE 🖥 @NEUROVANCE 🧠",
+      "tag": "🤖",
       "server": "127.0.0.1",
       "server_port": 2080,
       "password": "baaaccb-acba-abac-cabd-acbbbacaabcc",
@@ -127,7 +24,7 @@
     },
     {
       "type": "trojan",
-      "tag": "🛡 TELEGRAM-CHANNEL 🔐 MTPROTO-PROXY 🌍 @NEXUPROXY 📡",
+      "tag": "🛡",
       "server": "127.0.0.1",
       "server_port": 3080,
       "password": "abcbaca-baca-acba-bdac-accbbcbacaba",
@@ -138,7 +35,7 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "🔒 SS-TCP-NA 🇨🇿 CZ-195.181.160.6:990",
+      "tag": "🔒",
       "server": "195.181.160.6",
       "server_port": 990,
       "method": "chacha20-ietf-poly1305",
@@ -146,7 +43,7 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "🔒 SS-TCP-NA 🇨🇿 CZ-143.244.58.102:443",
+      "tag": "🔒",
       "server": "143.244.58.102",
       "server_port": 443,
       "method": "aes-256-cfb",
@@ -154,7 +51,7 @@
     },
     {
       "type": "trojan",
-      "tag": "🔒 TR-TCP-TLS 🇨🇿 CZ-195.133.93.135:443",
+      "tag": "🔒",
       "server": "195.133.93.135",
       "server_port": 443,
       "password": "3747000103274291200",
@@ -165,7 +62,7 @@
     },
     {
       "type": "vless",
-      "tag": "🔒 VL-WS-TLS 🇨🇿 CZ-195.85.23.58:443",
+      "tag": "🔒",
       "server": "195.85.23.58",
       "server_port": 443,
       "uuid": "a5f3cdb6-cd7c-4289-9551-ec6f91a51e68",
@@ -188,7 +85,7 @@
     },
     {
       "type": "vless",
-      "tag": "🔒 VL-WS-NA 🇨🇿 CZ-193.124.18.63:8880",
+      "tag": "🔒",
       "server": "193.124.18.63",
       "server_port": 8880,
       "uuid": "fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf",
@@ -203,7 +100,7 @@
     },
     {
       "type": "vless",
-      "tag": "🔒 VL-WS-NA 🇨🇿 CZ-193.124.18.3:8880",
+      "tag": "🔒",
       "server": "193.124.18.3",
       "server_port": 8880,
       "uuid": "b5441b0d-2147-4898-8a6a-9b2c87f58382",
@@ -218,7 +115,7 @@
     },
     {
       "type": "vless",
-      "tag": "🔒 VL-WS-TLS 🇨🇿 CZ-195.85.23.136:2096",
+      "tag": "🔒",
       "server": "195.85.23.136",
       "server_port": 2096,
       "uuid": "96a1b724-68d2-4f4d-ab25-38ecd83577bc",
@@ -241,7 +138,7 @@
     },
     {
       "type": "vless",
-      "tag": "🔒 VL-WS-NA 🇨🇿 CZ-193.124.18.213:8880",
+      "tag": "🔒",
       "server": "193.124.18.213",
       "server_port": 8880,
       "uuid": "fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf",
@@ -256,7 +153,7 @@
     },
     {
       "type": "vless",
-      "tag": "🔒 VL-WS-NA 🇨🇿 CZ-195.85.23.251:8880",
+      "tag": "🔒",
       "server": "195.85.23.251",
       "server_port": 8880,
       "uuid": "0132166f-e702-48ed-a9e7-b07af768faf8",
@@ -271,7 +168,7 @@
     },
     {
       "type": "vless",
-      "tag": "🔒 VL-WS-NA 🇨🇿 CZ-195.85.23.13:8880",
+      "tag": "🔒",
       "server": "195.85.23.13",
       "server_port": 8880,
       "uuid": "9f3c4ab7-ea26-4d96-91a9-c85ff64ad9a0",
@@ -286,7 +183,7 @@
     },
     {
       "type": "vless",
-      "tag": "🔒 VL-WS-TLS 🇨🇿 CZ-195.85.23.162:2096",
+      "tag": "🔒",
       "server": "195.85.23.162",
       "server_port": 2096,
       "uuid": "96a1b724-68d2-4f4d-ab25-38ecd83577bc",
@@ -309,7 +206,7 @@
     },
     {
       "type": "vless",
-      "tag": "🔒 VL-WS-NA 🇨🇿 CZ-193.124.18.13:8880",
+      "tag": "🔒",
       "server": "193.124.18.13",
       "server_port": 8880,
       "uuid": "9f3c4ab7-ea26-4d96-91a9-c85ff64ad9a0",
@@ -324,7 +221,7 @@
     },
     {
       "type": "vless",
-      "tag": "🔒 VL-WS-NONE 🇨🇿 CZ-195.85.23.20:8880",
+      "tag": "🔒",
       "server": "195.85.23.20",
       "server_port": 8880,
       "uuid": "fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf",
@@ -339,7 +236,7 @@
     },
     {
       "type": "vless",
-      "tag": "🔒 VL-WS-NA 🇨🇿 CZ-195.85.23.63:8880",
+      "tag": "🔒",
       "server": "195.85.23.63",
       "server_port": 8880,
       "uuid": "fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf",
@@ -354,7 +251,7 @@
     },
     {
       "type": "vless",
-      "tag": "🔒 VL-WS-NONE 🇨🇿 CZ-80.211.194.250:80",
+      "tag": "🔒",
       "server": "80.211.194.250",
       "server_port": 80,
       "uuid": "53fa8faf-ba4b-4322-9c69-a3e5b1555049",
@@ -369,7 +266,7 @@
     },
     {
       "type": "vless",
-      "tag": "🔒 VL-WS-NONE 🇨🇿 CZ-195.85.23.254:8880",
+      "tag": "🔒",
       "server": "195.85.23.254",
       "server_port": 8880,
       "uuid": "53fa8faf-ba4b-4322-9c69-a3e5b1555049",
@@ -384,7 +281,7 @@
     },
     {
       "type": "vless",
-      "tag": "🔒 VL-WS-NA 🇨🇿 CZ-193.124.18.247:8880",
+      "tag": "🔒",
       "server": "193.124.18.247",
       "server_port": 8880,
       "uuid": "d60fc3c5-9f07-4cdb-b81f-70af27936bdc",
@@ -399,7 +296,7 @@
     },
     {
       "type": "vless",
-      "tag": "🔒 VL-WS-TLS 🇨🇿 CZ-195.85.23.66:443",
+      "tag": "🔒",
       "server": "195.85.23.66",
       "server_port": 443,
       "uuid": "7930c633-8aa1-4d6e-80a0-14f59b27c5c5",
@@ -422,7 +319,7 @@
     },
     {
       "type": "vless",
-      "tag": "🔒 VL-WS-TLS 🇨🇿 CZ-195.85.23.93:8443",
+      "tag": "🔒",
       "server": "195.85.23.93",
       "server_port": 8443,
       "uuid": "96a1b724-68d2-4f4d-ab25-38ecd83577bc",
@@ -445,7 +342,7 @@
     },
     {
       "type": "vless",
-      "tag": "🔒 VL-WS-NA 🇨🇿 CZ-195.85.23.213:8880",
+      "tag": "🔒",
       "server": "195.85.23.213",
       "server_port": 8880,
       "uuid": "fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf",
@@ -460,7 +357,7 @@
     },
     {
       "type": "vless",
-      "tag": "🔒 VL-WS-TLS 🇨🇿 CZ-195.85.23.24:443",
+      "tag": "🔒",
       "server": "195.85.23.24",
       "server_port": 443,
       "uuid": "03ae39fd-ec71-4db5-b234-94de99a6e514",
@@ -483,7 +380,7 @@
     },
     {
       "type": "vless",
-      "tag": "🔒 VL-WS-TLS 🇨🇿 CZ-195.85.23.229:443",
+      "tag": "🔒",
       "server": "195.85.23.229",
       "server_port": 443,
       "uuid": "4d91916f-a7fd-419b-8b90-640bb8d4b3f2",
@@ -506,7 +403,7 @@
     },
     {
       "type": "vless",
-      "tag": "🔒 VL-WS-TLS 🇨🇿 CZ-194.87.190.57:8443",
+      "tag": "🔒",
       "server": "194.87.190.57",
       "server_port": 8443,
       "uuid": "63601f9f-7c67-4952-919a-1ef802b5a7ec",
@@ -529,7 +426,7 @@
     },
     {
       "type": "vless",
-      "tag": "🔒 VL-WS-NA 🇨🇿 CZ-193.124.18.251:8880",
+      "tag": "🔒",
       "server": "193.124.18.251",
       "server_port": 8880,
       "uuid": "0132166f-e702-48ed-a9e7-b07af768faf8",
@@ -544,7 +441,7 @@
     },
     {
       "type": "vless",
-      "tag": "🔒 VL-WS-TLS 🇨🇿 CZ-195.85.23.96:443",
+      "tag": "🔒",
       "server": "195.85.23.96",
       "server_port": 443,
       "uuid": "716e8c06-40e6-41ae-82ca-db79b41112c2",
@@ -567,7 +464,7 @@
     },
     {
       "type": "vless",
-      "tag": "🔒 VL-WS-NONE 🇨🇿 CZ-195.85.23.200:8880",
+      "tag": "🔒",
       "server": "195.85.23.200",
       "server_port": 8880,
       "uuid": "53fa8faf-ba4b-4322-9c69-a3e5b1555049",
@@ -582,7 +479,7 @@
     },
     {
       "type": "trojan",
-      "tag": "👨🏻‍💻 DEVELOPED-BY SOROUSH-MIRZAEI 📌 FOLLOW-CONTACT SYDSRSMRZ",
+      "tag": "👨🏻‍💻",
       "server": "127.0.0.1",
       "server_port": 8080,
       "password": "acbbcaa-acba-abac-dbca-abacbccbbaac",
@@ -590,32 +487,6 @@
         "enabled": true,
         "server_name": "127.0.0.1"
       }
-    },
-    {
-      "type": "dns",
-      "tag": "dns-out"
-    },
-    {
-      "type": "direct",
-      "tag": "DIRECT"
-    },
-    {
-      "type": "block",
-      "tag": "BLOCK"
     }
-  ],
-  "route": {
-    "rules": [
-      {
-        "protocol": "dns",
-        "outbound": "dns-out"
-      },
-      {
-        "network": "udp",
-        "port": 443,
-        "outbound": "BLOCK"
-      }
-    ],
-    "final": "PROXY"
-  }
+  ]
 }

@@ -1,58 +1,8 @@
 {
-  "log": {
-    "level": "info",
-    "timestamp": true
-  },
-  "dns": {
-    "servers": [
-      {
-        "tag": "dns_proxy",
-        "address": "proxy://dns-out/dns-query",
-        "detour": "PROXY"
-      },
-      {
-        "tag": "dns_direct",
-        "address": "https://1.1.1.1/dns-query",
-        "detour": "DIRECT"
-      },
-      {
-        "tag": "dns_block",
-        "address": "rcode://success"
-      }
-    ]
-  },
-  "inbounds": [
-    {
-      "type": "tun",
-      "interface_name": "tun0",
-      "inet4_address": "172.19.0.1/30",
-      "auto_route": true,
-      "strict_route": true,
-      "sniff": true
-    }
-  ],
   "outbounds": [
     {
-      "type": "selector",
-      "tag": "PROXY",
-      "outbounds": [
-        "AUTO-SELECT",
-        "🔄 LATEST-UPDATE 📅 SUN-08-TIR-1404 🕑 20:44",
-        "🤖 TELEGRAM-CHANNEL 🌟 ARTIFICIAL-INTELLIGENCE 🖥 @NEUROVANCE 🧠",
-        "🛡 TELEGRAM-CHANNEL 🔐 MTPROTO-PROXY 🌍 @NEXUPROXY 📡",
-        "👨🏻‍💻 DEVELOPED-BY SOROUSH-MIRZAEI 📌 FOLLOW-CONTACT SYDSRSMRZ"
-      ],
-      "default": "AUTO-SELECT"
-    },
-    {
-      "type": "url-test",
-      "tag": "AUTO-SELECT",
-      "outbounds": [],
-      "url": "http://www.gstatic.com/generate_204"
-    },
-    {
       "type": "vless",
-      "tag": "🔄 LATEST-UPDATE 📅 SUN-08-TIR-1404 🕑 20:44",
+      "tag": "🔄",
       "server": "127.0.0.1",
       "server_port": 1080,
       "uuid": "bbaacac-caab-abac-dcab-baabbcaacccb",
@@ -71,7 +21,7 @@
     },
     {
       "type": "vless",
-      "tag": "🤖 TELEGRAM-CHANNEL 🌟 ARTIFICIAL-INTELLIGENCE 🖥 @NEUROVANCE 🧠",
+      "tag": "🤖",
       "server": "127.0.0.1",
       "server_port": 2080,
       "uuid": "baaaccb-acba-abac-cabd-acbbbacaabcc",
@@ -90,7 +40,7 @@
     },
     {
       "type": "vless",
-      "tag": "🛡 TELEGRAM-CHANNEL 🔐 MTPROTO-PROXY 🌍 @NEXUPROXY 📡",
+      "tag": "🛡",
       "server": "127.0.0.1",
       "server_port": 3080,
       "uuid": "abcbaca-baca-acba-bdac-accbbcbacaba",
@@ -109,7 +59,7 @@
     },
     {
       "type": "vless",
-      "tag": "👨🏻‍💻 DEVELOPED-BY SOROUSH-MIRZAEI 📌 FOLLOW-CONTACT SYDSRSMRZ",
+      "tag": "👨🏻‍💻",
       "server": "127.0.0.1",
       "server_port": 8080,
       "uuid": "acbbcaa-acba-abac-dbca-abacbccbbaac",
@@ -125,32 +75,6 @@
           "fingerprint": "chrome"
         }
       }
-    },
-    {
-      "type": "dns",
-      "tag": "dns-out"
-    },
-    {
-      "type": "direct",
-      "tag": "DIRECT"
-    },
-    {
-      "type": "block",
-      "tag": "BLOCK"
     }
-  ],
-  "route": {
-    "rules": [
-      {
-        "protocol": "dns",
-        "outbound": "dns-out"
-      },
-      {
-        "network": "udp",
-        "port": 443,
-        "outbound": "BLOCK"
-      }
-    ],
-    "final": "PROXY"
-  }
+  ]
 }

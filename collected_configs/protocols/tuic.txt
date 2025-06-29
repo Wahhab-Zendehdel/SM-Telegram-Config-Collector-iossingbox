@@ -1,83 +1,8 @@
 {
-  "log": {
-    "level": "info",
-    "timestamp": true
-  },
-  "dns": {
-    "servers": [
-      {
-        "tag": "dns_proxy",
-        "address": "proxy://dns-out/dns-query",
-        "detour": "PROXY"
-      },
-      {
-        "tag": "dns_direct",
-        "address": "https://1.1.1.1/dns-query",
-        "detour": "DIRECT"
-      },
-      {
-        "tag": "dns_block",
-        "address": "rcode://success"
-      }
-    ]
-  },
-  "inbounds": [
-    {
-      "type": "tun",
-      "interface_name": "tun0",
-      "inet4_address": "172.19.0.1/30",
-      "auto_route": true,
-      "strict_route": true,
-      "sniff": true
-    }
-  ],
   "outbounds": [
     {
-      "type": "selector",
-      "tag": "PROXY",
-      "outbounds": [
-        "AUTO-SELECT",
-        "🔄 LATEST-UPDATE 📅 SUN-08-TIR-1404 🕑 20:44",
-        "🤖 TELEGRAM-CHANNEL 🌟 ARTIFICIAL-INTELLIGENCE 🖥 @NEUROVANCE 🧠",
-        "🛡 TELEGRAM-CHANNEL 🔐 MTPROTO-PROXY 🌍 @NEXUPROXY 📡",
-        "🔒 TUIC-UDP 🇬🇧 GB-64.176.186.193:443",
-        "🔒 TUIC-UDP 🇳🇱 NL-209.250.254.198:443",
-        "🔒 TUIC-UDP 🇸🇪 SE-70.34.197.98:443",
-        "🔒 TUIC-UDP 🇸🇪 SE-70.34.198.64:443",
-        "🔒 TUIC-UDP 🇬🇧 GB-31.25.237.9:52849",
-        "🔒 TUIC-UDP 🇺🇸 US-64.110.25.10:11227",
-        "🔒 TUIC-UDP 🇬🇧 GB-64.176.191.133:443",
-        "🔒 TUIC-UDP 🇩🇪 DE-45.76.82.254:35403",
-        "🔒 TUIC-UDP 🇦🇪 AE-31.57.228.213:20320",
-        "🔒 TUIC-UDP 🇸🇪 SE-70.34.208.3:443",
-        "🔒 TUIC-UDP 🇬🇧 GB-134.209.28.89:54773",
-        "🔒 TUIC-UDP 🇩🇪 DE-136.244.88.153:443",
-        "👨🏻‍💻 DEVELOPED-BY SOROUSH-MIRZAEI 📌 FOLLOW-CONTACT SYDSRSMRZ"
-      ],
-      "default": "AUTO-SELECT"
-    },
-    {
-      "type": "url-test",
-      "tag": "AUTO-SELECT",
-      "outbounds": [
-        "🔒 TUIC-UDP 🇬🇧 GB-64.176.186.193:443",
-        "🔒 TUIC-UDP 🇳🇱 NL-209.250.254.198:443",
-        "🔒 TUIC-UDP 🇸🇪 SE-70.34.197.98:443",
-        "🔒 TUIC-UDP 🇸🇪 SE-70.34.198.64:443",
-        "🔒 TUIC-UDP 🇬🇧 GB-31.25.237.9:52849",
-        "🔒 TUIC-UDP 🇺🇸 US-64.110.25.10:11227",
-        "🔒 TUIC-UDP 🇬🇧 GB-64.176.191.133:443",
-        "🔒 TUIC-UDP 🇩🇪 DE-45.76.82.254:35403",
-        "🔒 TUIC-UDP 🇦🇪 AE-31.57.228.213:20320",
-        "🔒 TUIC-UDP 🇸🇪 SE-70.34.208.3:443",
-        "🔒 TUIC-UDP 🇬🇧 GB-134.209.28.89:54773",
-        "🔒 TUIC-UDP 🇩🇪 DE-136.244.88.153:443"
-      ],
-      "url": "http://www.gstatic.com/generate_204"
-    },
-    {
       "type": "vless",
-      "tag": "🔄 LATEST-UPDATE 📅 SUN-08-TIR-1404 🕑 20:44",
+      "tag": "🔄",
       "server": "127.0.0.1",
       "server_port": 1080,
       "uuid": "bbaacac-caab-abac-dcab-baabbcaacccb",
@@ -96,7 +21,7 @@
     },
     {
       "type": "vless",
-      "tag": "🤖 TELEGRAM-CHANNEL 🌟 ARTIFICIAL-INTELLIGENCE 🖥 @NEUROVANCE 🧠",
+      "tag": "🤖",
       "server": "127.0.0.1",
       "server_port": 2080,
       "uuid": "baaaccb-acba-abac-cabd-acbbbacaabcc",
@@ -115,7 +40,7 @@
     },
     {
       "type": "vless",
-      "tag": "🛡 TELEGRAM-CHANNEL 🔐 MTPROTO-PROXY 🌍 @NEXUPROXY 📡",
+      "tag": "🛡",
       "server": "127.0.0.1",
       "server_port": 3080,
       "uuid": "abcbaca-baca-acba-bdac-accbbcbacaba",
@@ -134,7 +59,7 @@
     },
     {
       "type": "tuic",
-      "tag": "🔒 TUIC-UDP 🇬🇧 GB-64.176.186.193:443",
+      "tag": "🔒",
       "server": "64.176.186.193",
       "server_port": 443,
       "uuid": "d1bb3aae-ace9-4b0f-9ae5-85ab73acbb43",
@@ -152,7 +77,7 @@
     },
     {
       "type": "tuic",
-      "tag": "🔒 TUIC-UDP 🇳🇱 NL-209.250.254.198:443",
+      "tag": "🔒",
       "server": "209.250.254.198",
       "server_port": 443,
       "uuid": "38e38f61-b1dd-4b34-90d0-f6222fd7393f",
@@ -170,7 +95,7 @@
     },
     {
       "type": "tuic",
-      "tag": "🔒 TUIC-UDP 🇸🇪 SE-70.34.197.98:443",
+      "tag": "🔒",
       "server": "70.34.197.98",
       "server_port": 443,
       "uuid": "87bc1693-8860-41d7-acf4-e6edf49abbbb",
@@ -188,7 +113,7 @@
     },
     {
       "type": "tuic",
-      "tag": "🔒 TUIC-UDP 🇸🇪 SE-70.34.198.64:443",
+      "tag": "🔒",
       "server": "70.34.198.64",
       "server_port": 443,
       "uuid": "6313c68a-472b-4999-ba33-094a55ea7549",
@@ -206,7 +131,7 @@
     },
     {
       "type": "tuic",
-      "tag": "🔒 TUIC-UDP 🇬🇧 GB-31.25.237.9:52849",
+      "tag": "🔒",
       "server": "31.25.237.9",
       "server_port": 52849,
       "uuid": "7c81d0a8-8e23-44d4-94b5-56d33b7af07d",
@@ -224,7 +149,7 @@
     },
     {
       "type": "tuic",
-      "tag": "🔒 TUIC-UDP 🇺🇸 US-64.110.25.10:11227",
+      "tag": "🔒",
       "server": "64.110.25.10",
       "server_port": 11227,
       "uuid": "764b539f-2d3c-4772-9731-5ebf6984af98",
@@ -242,7 +167,7 @@
     },
     {
       "type": "tuic",
-      "tag": "🔒 TUIC-UDP 🇬🇧 GB-64.176.191.133:443",
+      "tag": "🔒",
       "server": "64.176.191.133",
       "server_port": 443,
       "uuid": "d1bb3aae-ace9-4b0f-9ae5-85ab73acbb43",
@@ -260,7 +185,7 @@
     },
     {
       "type": "tuic",
-      "tag": "🔒 TUIC-UDP 🇩🇪 DE-45.76.82.254:35403",
+      "tag": "🔒",
       "server": "45.76.82.254",
       "server_port": 35403,
       "uuid": "6b389472-9094-4c8a-a780-3d371b2eade5",
@@ -278,7 +203,7 @@
     },
     {
       "type": "tuic",
-      "tag": "🔒 TUIC-UDP 🇦🇪 AE-31.57.228.213:20320",
+      "tag": "🔒",
       "server": "31.57.228.213",
       "server_port": 20320,
       "uuid": "7a1bb499-31d8-4c6b-9dcc-c66b31e63622",
@@ -296,7 +221,7 @@
     },
     {
       "type": "tuic",
-      "tag": "🔒 TUIC-UDP 🇸🇪 SE-70.34.208.3:443",
+      "tag": "🔒",
       "server": "70.34.208.3",
       "server_port": 443,
       "uuid": "87bc1693-8860-41d7-acf4-e6edf49abbbb",
@@ -314,7 +239,7 @@
     },
     {
       "type": "tuic",
-      "tag": "🔒 TUIC-UDP 🇬🇧 GB-134.209.28.89:54773",
+      "tag": "🔒",
       "server": "134.209.28.89",
       "server_port": 54773,
       "uuid": "2f77527e-678c-4af6-9a0a-30823885bd53",
@@ -332,7 +257,7 @@
     },
     {
       "type": "tuic",
-      "tag": "🔒 TUIC-UDP 🇩🇪 DE-136.244.88.153:443",
+      "tag": "🔒",
       "server": "136.244.88.153",
       "server_port": 443,
       "uuid": "38e38f61-b1dd-4b34-90d0-f6222fd7393f",
@@ -350,7 +275,7 @@
     },
     {
       "type": "vless",
-      "tag": "👨🏻‍💻 DEVELOPED-BY SOROUSH-MIRZAEI 📌 FOLLOW-CONTACT SYDSRSMRZ",
+      "tag": "👨🏻‍💻",
       "server": "127.0.0.1",
       "server_port": 8080,
       "uuid": "acbbcaa-acba-abac-dbca-abacbccbbaac",
@@ -366,32 +291,6 @@
           "fingerprint": "chrome"
         }
       }
-    },
-    {
-      "type": "dns",
-      "tag": "dns-out"
-    },
-    {
-      "type": "direct",
-      "tag": "DIRECT"
-    },
-    {
-      "type": "block",
-      "tag": "BLOCK"
     }
-  ],
-  "route": {
-    "rules": [
-      {
-        "protocol": "dns",
-        "outbound": "dns-out"
-      },
-      {
-        "network": "udp",
-        "port": 443,
-        "outbound": "BLOCK"
-      }
-    ],
-    "final": "PROXY"
-  }
+  ]
 }

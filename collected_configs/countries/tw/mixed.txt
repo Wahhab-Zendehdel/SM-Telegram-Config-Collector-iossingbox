@@ -1,143 +1,8 @@
 {
-  "log": {
-    "level": "info",
-    "timestamp": true
-  },
-  "dns": {
-    "servers": [
-      {
-        "tag": "dns_proxy",
-        "address": "proxy://dns-out/dns-query",
-        "detour": "PROXY"
-      },
-      {
-        "tag": "dns_direct",
-        "address": "https://1.1.1.1/dns-query",
-        "detour": "DIRECT"
-      },
-      {
-        "tag": "dns_block",
-        "address": "rcode://success"
-      }
-    ]
-  },
-  "inbounds": [
-    {
-      "type": "tun",
-      "interface_name": "tun0",
-      "inet4_address": "172.19.0.1/30",
-      "auto_route": true,
-      "strict_route": true,
-      "sniff": true
-    }
-  ],
   "outbounds": [
     {
-      "type": "selector",
-      "tag": "PROXY",
-      "outbounds": [
-        "AUTO-SELECT",
-        "🔄 LATEST-UPDATE 📅 SUN-08-TIR-1404 🕑 20:44",
-        "🤖 TELEGRAM-CHANNEL 🌟 ARTIFICIAL-INTELLIGENCE 🖥 @NEUROVANCE 🧠",
-        "🛡 TELEGRAM-CHANNEL 🔐 MTPROTO-PROXY 🌍 @NEXUPROXY 📡",
-        "🔒 SS-TCP-NA 🇹🇼 TW-154.223.20.79:989",
-        "🔒 SS-TCP-NA 🇹🇼 TW-60.249.28.136:2377",
-        "🔒 SS-TCP-NA 🇹🇼 TW-60.249.35.39:2377",
-        "🔒 SS-TCP-NA 🇹🇼 TW-211.72.214.66:2377",
-        "🔒 SS-TCP-NA 🇹🇼 TW-59.125.75.111:2377",
-        "🔒 SS-TCP-NA 🇹🇼 TW-60.249.35.95:2377",
-        "🔒 SS-TCP-NA 🇹🇼 TW-118.163.198.43:2377",
-        "🔒 SS-TCP-NA 🇹🇼 TW-59.125.75.115:2377",
-        "🔒 SS-TCP-NA 🇹🇼 TW-223.165.4.173:990",
-        "🔒 SS-TCP-NA 🇹🇼 TW-60.249.35.3:2377",
-        "🔒 SS-TCP-NA 🇹🇼 TW-61.216.165.232:2377",
-        "🔒 SS-TCP-NA 🇹🇼 TW-125.227.86.45:2377",
-        "🔒 SS-TCP-NA 🇹🇼 TW-125.227.86.44:2377",
-        "🔒 SS-TCP-NA 🇹🇼 TW-60.249.35.37:2377",
-        "🔒 SS-TCP-NA 🇹🇼 TW-61.216.165.233:2377",
-        "🔒 SS-TCP-NA 🇹🇼 TW-211.72.214.21:2377",
-        "🔒 SS-TCP-NA 🇹🇼 TW-61.216.165.30:2377",
-        "🔒 SS-TCP-NA 🇹🇼 TW-185.189.160.98:64759",
-        "🔒 SS-TCP-NA 🇹🇼 TW-211.72.214.65:2377",
-        "🔒 SS-TCP-NA 🇹🇼 TW-2.58.241.42:443",
-        "🔒 SS-TCP-NA 🇹🇼 TW-60.249.28.60:2377",
-        "🔒 SS-TCP-NA 🇹🇼 TW-60.249.28.138:2377",
-        "🔒 SS-TCP-NA 🇹🇼 TW-60.249.35.2:2377",
-        "🔒 SS-TCP-NA 🇹🇼 TW-61.216.165.234:2377",
-        "🔒 SS-TCP-NA 🇹🇼 TW-1.170.209.201:30332",
-        "🔒 SS-TCP-NA 🇹🇼 TW-60.249.35.38:2377",
-        "🔒 SS-TCP-NA 🇹🇼 TW-60.249.35.96:2377",
-        "🔒 SS-TCP-NA 🇹🇼 TW-211.22.161.135:2377",
-        "🔒 SS-TCP-NA 🇹🇼 TW-60.249.35.59:2377",
-        "🔒 SS-TCP-NA 🇹🇼 TW-60.249.28.137:2377",
-        "🔒 TR-TCP-NA 🇹🇼 TW-220.130.58.136:28507",
-        "🔒 TR-TCP-NA 🇹🇼 TW-60.249.28.59:443",
-        "🔒 TR-WS-TLS 🇹🇼 TW-220.135.202.250:81",
-        "🔒 TR-TCP-TLS 🇹🇼 TW-111.250.98.104:3663",
-        "🔒 TR-TCP-NA 🇹🇼 TW-220.130.58.136:28504",
-        "🔒 TR-WS-TLS 🇹🇼 TW-103.106.230.186:81",
-        "🔒 TR-TCP-TLS 🇹🇼 TW-220.130.58.136:28505",
-        "🔒 VL-WS-TLS 🇹🇼 TW-61.63.235.53:25957",
-        "🔒 VL-WS-NA 🇹🇼 TW-141.11.86.94:45888",
-        "🔒 VL-WS-NA 🇹🇼 TW-141.11.86.94:18333",
-        "🔒 VL-WS-TLS 🇹🇼 TW-210.61.97.241:81",
-        "🔒 VL-TCP-RLT 🇹🇼 TW-103.137.247.92:34045",
-        "👨🏻‍💻 DEVELOPED-BY SOROUSH-MIRZAEI 📌 FOLLOW-CONTACT SYDSRSMRZ"
-      ],
-      "default": "AUTO-SELECT"
-    },
-    {
-      "type": "url-test",
-      "tag": "AUTO-SELECT",
-      "outbounds": [
-        "🔒 SS-TCP-NA 🇹🇼 TW-154.223.20.79:989",
-        "🔒 SS-TCP-NA 🇹🇼 TW-60.249.28.136:2377",
-        "🔒 SS-TCP-NA 🇹🇼 TW-60.249.35.39:2377",
-        "🔒 SS-TCP-NA 🇹🇼 TW-211.72.214.66:2377",
-        "🔒 SS-TCP-NA 🇹🇼 TW-59.125.75.111:2377",
-        "🔒 SS-TCP-NA 🇹🇼 TW-60.249.35.95:2377",
-        "🔒 SS-TCP-NA 🇹🇼 TW-118.163.198.43:2377",
-        "🔒 SS-TCP-NA 🇹🇼 TW-59.125.75.115:2377",
-        "🔒 SS-TCP-NA 🇹🇼 TW-223.165.4.173:990",
-        "🔒 SS-TCP-NA 🇹🇼 TW-60.249.35.3:2377",
-        "🔒 SS-TCP-NA 🇹🇼 TW-61.216.165.232:2377",
-        "🔒 SS-TCP-NA 🇹🇼 TW-125.227.86.45:2377",
-        "🔒 SS-TCP-NA 🇹🇼 TW-125.227.86.44:2377",
-        "🔒 SS-TCP-NA 🇹🇼 TW-60.249.35.37:2377",
-        "🔒 SS-TCP-NA 🇹🇼 TW-61.216.165.233:2377",
-        "🔒 SS-TCP-NA 🇹🇼 TW-211.72.214.21:2377",
-        "🔒 SS-TCP-NA 🇹🇼 TW-61.216.165.30:2377",
-        "🔒 SS-TCP-NA 🇹🇼 TW-185.189.160.98:64759",
-        "🔒 SS-TCP-NA 🇹🇼 TW-211.72.214.65:2377",
-        "🔒 SS-TCP-NA 🇹🇼 TW-2.58.241.42:443",
-        "🔒 SS-TCP-NA 🇹🇼 TW-60.249.28.60:2377",
-        "🔒 SS-TCP-NA 🇹🇼 TW-60.249.28.138:2377",
-        "🔒 SS-TCP-NA 🇹🇼 TW-60.249.35.2:2377",
-        "🔒 SS-TCP-NA 🇹🇼 TW-61.216.165.234:2377",
-        "🔒 SS-TCP-NA 🇹🇼 TW-1.170.209.201:30332",
-        "🔒 SS-TCP-NA 🇹🇼 TW-60.249.35.38:2377",
-        "🔒 SS-TCP-NA 🇹🇼 TW-60.249.35.96:2377",
-        "🔒 SS-TCP-NA 🇹🇼 TW-211.22.161.135:2377",
-        "🔒 SS-TCP-NA 🇹🇼 TW-60.249.35.59:2377",
-        "🔒 SS-TCP-NA 🇹🇼 TW-60.249.28.137:2377",
-        "🔒 TR-TCP-NA 🇹🇼 TW-220.130.58.136:28507",
-        "🔒 TR-TCP-NA 🇹🇼 TW-60.249.28.59:443",
-        "🔒 TR-WS-TLS 🇹🇼 TW-220.135.202.250:81",
-        "🔒 TR-TCP-TLS 🇹🇼 TW-111.250.98.104:3663",
-        "🔒 TR-TCP-NA 🇹🇼 TW-220.130.58.136:28504",
-        "🔒 TR-WS-TLS 🇹🇼 TW-103.106.230.186:81",
-        "🔒 TR-TCP-TLS 🇹🇼 TW-220.130.58.136:28505",
-        "🔒 VL-WS-TLS 🇹🇼 TW-61.63.235.53:25957",
-        "🔒 VL-WS-NA 🇹🇼 TW-141.11.86.94:45888",
-        "🔒 VL-WS-NA 🇹🇼 TW-141.11.86.94:18333",
-        "🔒 VL-WS-TLS 🇹🇼 TW-210.61.97.241:81",
-        "🔒 VL-TCP-RLT 🇹🇼 TW-103.137.247.92:34045"
-      ],
-      "url": "http://www.gstatic.com/generate_204"
-    },
-    {
       "type": "trojan",
-      "tag": "🔄 LATEST-UPDATE 📅 SUN-08-TIR-1404 🕑 20:44",
+      "tag": "🔄",
       "server": "127.0.0.1",
       "server_port": 1080,
       "password": "bbaacac-caab-abac-dcab-baabbcaacccb",
@@ -148,7 +13,7 @@
     },
     {
       "type": "trojan",
-      "tag": "🤖 TELEGRAM-CHANNEL 🌟 ARTIFICIAL-INTELLIGENCE 🖥 @NEUROVANCE 🧠",
+      "tag": "🤖",
       "server": "127.0.0.1",
       "server_port": 2080,
       "password": "baaaccb-acba-abac-cabd-acbbbacaabcc",
@@ -159,7 +24,7 @@
     },
     {
       "type": "trojan",
-      "tag": "🛡 TELEGRAM-CHANNEL 🔐 MTPROTO-PROXY 🌍 @NEXUPROXY 📡",
+      "tag": "🛡",
       "server": "127.0.0.1",
       "server_port": 3080,
       "password": "abcbaca-baca-acba-bdac-accbbcbacaba",
@@ -170,7 +35,7 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "🔒 SS-TCP-NA 🇹🇼 TW-154.223.20.79:989",
+      "tag": "🔒",
       "server": "154.223.20.79",
       "server_port": 989,
       "method": "aes-256-cfb",
@@ -178,7 +43,7 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "🔒 SS-TCP-NA 🇹🇼 TW-60.249.28.136:2377",
+      "tag": "🔒",
       "server": "60.249.28.136",
       "server_port": 2377,
       "method": "chacha20-ietf-poly1305",
@@ -186,7 +51,7 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "🔒 SS-TCP-NA 🇹🇼 TW-60.249.35.39:2377",
+      "tag": "🔒",
       "server": "60.249.35.39",
       "server_port": 2377,
       "method": "chacha20-ietf-poly1305",
@@ -194,7 +59,7 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "🔒 SS-TCP-NA 🇹🇼 TW-211.72.214.66:2377",
+      "tag": "🔒",
       "server": "211.72.214.66",
       "server_port": 2377,
       "method": "chacha20-ietf-poly1305",
@@ -202,7 +67,7 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "🔒 SS-TCP-NA 🇹🇼 TW-59.125.75.111:2377",
+      "tag": "🔒",
       "server": "59.125.75.111",
       "server_port": 2377,
       "method": "chacha20-ietf-poly1305",
@@ -210,7 +75,7 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "🔒 SS-TCP-NA 🇹🇼 TW-60.249.35.95:2377",
+      "tag": "🔒",
       "server": "60.249.35.95",
       "server_port": 2377,
       "method": "chacha20-ietf-poly1305",
@@ -218,7 +83,7 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "🔒 SS-TCP-NA 🇹🇼 TW-118.163.198.43:2377",
+      "tag": "🔒",
       "server": "118.163.198.43",
       "server_port": 2377,
       "method": "chacha20-ietf-poly1305",
@@ -226,7 +91,7 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "🔒 SS-TCP-NA 🇹🇼 TW-59.125.75.115:2377",
+      "tag": "🔒",
       "server": "59.125.75.115",
       "server_port": 2377,
       "method": "chacha20-ietf-poly1305",
@@ -234,7 +99,7 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "🔒 SS-TCP-NA 🇹🇼 TW-223.165.4.173:990",
+      "tag": "🔒",
       "server": "223.165.4.173",
       "server_port": 990,
       "method": "chacha20-ietf-poly1305",
@@ -242,7 +107,7 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "🔒 SS-TCP-NA 🇹🇼 TW-60.249.35.3:2377",
+      "tag": "🔒",
       "server": "60.249.35.3",
       "server_port": 2377,
       "method": "chacha20-ietf-poly1305",
@@ -250,7 +115,7 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "🔒 SS-TCP-NA 🇹🇼 TW-61.216.165.232:2377",
+      "tag": "🔒",
       "server": "61.216.165.232",
       "server_port": 2377,
       "method": "chacha20-ietf-poly1305",
@@ -258,7 +123,7 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "🔒 SS-TCP-NA 🇹🇼 TW-125.227.86.45:2377",
+      "tag": "🔒",
       "server": "125.227.86.45",
       "server_port": 2377,
       "method": "chacha20-ietf-poly1305",
@@ -266,7 +131,7 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "🔒 SS-TCP-NA 🇹🇼 TW-125.227.86.44:2377",
+      "tag": "🔒",
       "server": "125.227.86.44",
       "server_port": 2377,
       "method": "chacha20-ietf-poly1305",
@@ -274,7 +139,7 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "🔒 SS-TCP-NA 🇹🇼 TW-60.249.35.37:2377",
+      "tag": "🔒",
       "server": "60.249.35.37",
       "server_port": 2377,
       "method": "chacha20-ietf-poly1305",
@@ -282,7 +147,7 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "🔒 SS-TCP-NA 🇹🇼 TW-61.216.165.233:2377",
+      "tag": "🔒",
       "server": "61.216.165.233",
       "server_port": 2377,
       "method": "chacha20-ietf-poly1305",
@@ -290,7 +155,7 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "🔒 SS-TCP-NA 🇹🇼 TW-211.72.214.21:2377",
+      "tag": "🔒",
       "server": "211.72.214.21",
       "server_port": 2377,
       "method": "chacha20-ietf-poly1305",
@@ -298,7 +163,7 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "🔒 SS-TCP-NA 🇹🇼 TW-61.216.165.30:2377",
+      "tag": "🔒",
       "server": "61.216.165.30",
       "server_port": 2377,
       "method": "chacha20-ietf-poly1305",
@@ -306,7 +171,7 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "🔒 SS-TCP-NA 🇹🇼 TW-185.189.160.98:64759",
+      "tag": "🔒",
       "server": "185.189.160.98",
       "server_port": 64759,
       "method": "aes-256-cfb",
@@ -314,7 +179,7 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "🔒 SS-TCP-NA 🇹🇼 TW-211.72.214.65:2377",
+      "tag": "🔒",
       "server": "211.72.214.65",
       "server_port": 2377,
       "method": "chacha20-ietf-poly1305",
@@ -322,7 +187,7 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "🔒 SS-TCP-NA 🇹🇼 TW-2.58.241.42:443",
+      "tag": "🔒",
       "server": "2.58.241.42",
       "server_port": 443,
       "method": "chacha20-ietf-poly1305",
@@ -330,7 +195,7 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "🔒 SS-TCP-NA 🇹🇼 TW-60.249.28.60:2377",
+      "tag": "🔒",
       "server": "60.249.28.60",
       "server_port": 2377,
       "method": "chacha20-ietf-poly1305",
@@ -338,7 +203,7 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "🔒 SS-TCP-NA 🇹🇼 TW-60.249.28.138:2377",
+      "tag": "🔒",
       "server": "60.249.28.138",
       "server_port": 2377,
       "method": "chacha20-ietf-poly1305",
@@ -346,7 +211,7 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "🔒 SS-TCP-NA 🇹🇼 TW-60.249.35.2:2377",
+      "tag": "🔒",
       "server": "60.249.35.2",
       "server_port": 2377,
       "method": "chacha20-ietf-poly1305",
@@ -354,7 +219,7 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "🔒 SS-TCP-NA 🇹🇼 TW-61.216.165.234:2377",
+      "tag": "🔒",
       "server": "61.216.165.234",
       "server_port": 2377,
       "method": "chacha20-ietf-poly1305",
@@ -362,7 +227,7 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "🔒 SS-TCP-NA 🇹🇼 TW-1.170.209.201:30332",
+      "tag": "🔒",
       "server": "1.170.209.201",
       "server_port": 30332,
       "method": "aes-128-gcm",
@@ -370,7 +235,7 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "🔒 SS-TCP-NA 🇹🇼 TW-60.249.35.38:2377",
+      "tag": "🔒",
       "server": "60.249.35.38",
       "server_port": 2377,
       "method": "chacha20-ietf-poly1305",
@@ -378,7 +243,7 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "🔒 SS-TCP-NA 🇹🇼 TW-60.249.35.96:2377",
+      "tag": "🔒",
       "server": "60.249.35.96",
       "server_port": 2377,
       "method": "chacha20-ietf-poly1305",
@@ -386,7 +251,7 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "🔒 SS-TCP-NA 🇹🇼 TW-211.22.161.135:2377",
+      "tag": "🔒",
       "server": "211.22.161.135",
       "server_port": 2377,
       "method": "chacha20-ietf-poly1305",
@@ -394,7 +259,7 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "🔒 SS-TCP-NA 🇹🇼 TW-60.249.35.59:2377",
+      "tag": "🔒",
       "server": "60.249.35.59",
       "server_port": 2377,
       "method": "chacha20-ietf-poly1305",
@@ -402,7 +267,7 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "🔒 SS-TCP-NA 🇹🇼 TW-60.249.28.137:2377",
+      "tag": "🔒",
       "server": "60.249.28.137",
       "server_port": 2377,
       "method": "chacha20-ietf-poly1305",
@@ -410,7 +275,7 @@
     },
     {
       "type": "trojan",
-      "tag": "🔒 TR-TCP-NA 🇹🇼 TW-220.130.58.136:28507",
+      "tag": "🔒",
       "server": "220.130.58.136",
       "server_port": 28507,
       "password": "20cc1a99-a26e-4c6b-b0be-1ed331b0c271",
@@ -421,7 +286,7 @@
     },
     {
       "type": "trojan",
-      "tag": "🔒 TR-TCP-NA 🇹🇼 TW-60.249.28.59:443",
+      "tag": "🔒",
       "server": "60.249.28.59",
       "server_port": 443,
       "password": "67eb147db1c0f8c5",
@@ -432,7 +297,7 @@
     },
     {
       "type": "trojan",
-      "tag": "🔒 TR-WS-TLS 🇹🇼 TW-220.135.202.250:81",
+      "tag": "🔒",
       "server": "220.135.202.250",
       "server_port": 81,
       "password": "ttfang",
@@ -443,7 +308,7 @@
     },
     {
       "type": "trojan",
-      "tag": "🔒 TR-TCP-TLS 🇹🇼 TW-111.250.98.104:3663",
+      "tag": "🔒",
       "server": "111.250.98.104",
       "server_port": 3663,
       "password": "a348278e-71ac-499c-8069-28b1af18c372",
@@ -454,7 +319,7 @@
     },
     {
       "type": "trojan",
-      "tag": "🔒 TR-TCP-NA 🇹🇼 TW-220.130.58.136:28504",
+      "tag": "🔒",
       "server": "220.130.58.136",
       "server_port": 28504,
       "password": "851418c5-a1f0-453c-b8f8-24664990bdf8",
@@ -465,7 +330,7 @@
     },
     {
       "type": "trojan",
-      "tag": "🔒 TR-WS-TLS 🇹🇼 TW-103.106.230.186:81",
+      "tag": "🔒",
       "server": "103.106.230.186",
       "server_port": 81,
       "password": "ttfang",
@@ -477,7 +342,7 @@
     },
     {
       "type": "trojan",
-      "tag": "🔒 TR-TCP-TLS 🇹🇼 TW-220.130.58.136:28505",
+      "tag": "🔒",
       "server": "220.130.58.136",
       "server_port": 28505,
       "password": "feac8d6d-8fcf-4ef1-9ad0-18833c9fca11",
@@ -488,7 +353,7 @@
     },
     {
       "type": "vless",
-      "tag": "🔒 VL-WS-TLS 🇹🇼 TW-61.63.235.53:25957",
+      "tag": "🔒",
       "server": "61.63.235.53",
       "server_port": 25957,
       "uuid": "948f6596-66f9-4707-aa92-3107a214ce53",
@@ -511,7 +376,7 @@
     },
     {
       "type": "vless",
-      "tag": "🔒 VL-WS-NA 🇹🇼 TW-141.11.86.94:45888",
+      "tag": "🔒",
       "server": "141.11.86.94",
       "server_port": 45888,
       "uuid": "ee6774c0-9b19-4ff1-8b30-2da4b71977e2",
@@ -526,7 +391,7 @@
     },
     {
       "type": "vless",
-      "tag": "🔒 VL-WS-NA 🇹🇼 TW-141.11.86.94:18333",
+      "tag": "🔒",
       "server": "141.11.86.94",
       "server_port": 18333,
       "uuid": "ee6774c0-9b19-4ff1-8b30-2da4b71977e2",
@@ -541,7 +406,7 @@
     },
     {
       "type": "vless",
-      "tag": "🔒 VL-WS-TLS 🇹🇼 TW-210.61.97.241:81",
+      "tag": "🔒",
       "server": "210.61.97.241",
       "server_port": 81,
       "uuid": "06e4425e-a8cb-4b63-929f-2105604ab0a9",
@@ -564,7 +429,7 @@
     },
     {
       "type": "vless",
-      "tag": "🔒 VL-TCP-RLT 🇹🇼 TW-103.137.247.92:34045",
+      "tag": "🔒",
       "server": "103.137.247.92",
       "server_port": 34045,
       "uuid": "d8dd94fd-540e-461d-b5d4-acebef02c22a",
@@ -588,7 +453,7 @@
     },
     {
       "type": "trojan",
-      "tag": "👨🏻‍💻 DEVELOPED-BY SOROUSH-MIRZAEI 📌 FOLLOW-CONTACT SYDSRSMRZ",
+      "tag": "👨🏻‍💻",
       "server": "127.0.0.1",
       "server_port": 8080,
       "password": "acbbcaa-acba-abac-dbca-abacbccbbaac",
@@ -596,32 +461,6 @@
         "enabled": true,
         "server_name": "127.0.0.1"
       }
-    },
-    {
-      "type": "dns",
-      "tag": "dns-out"
-    },
-    {
-      "type": "direct",
-      "tag": "DIRECT"
-    },
-    {
-      "type": "block",
-      "tag": "BLOCK"
     }
-  ],
-  "route": {
-    "rules": [
-      {
-        "protocol": "dns",
-        "outbound": "dns-out"
-      },
-      {
-        "network": "udp",
-        "port": 443,
-        "outbound": "BLOCK"
-      }
-    ],
-    "final": "PROXY"
-  }
+  ]
 }

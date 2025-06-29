@@ -1,69 +1,8 @@
 {
-  "log": {
-    "level": "info",
-    "timestamp": true
-  },
-  "dns": {
-    "servers": [
-      {
-        "tag": "dns_proxy",
-        "address": "proxy://dns-out/dns-query",
-        "detour": "PROXY"
-      },
-      {
-        "tag": "dns_direct",
-        "address": "https://1.1.1.1/dns-query",
-        "detour": "DIRECT"
-      },
-      {
-        "tag": "dns_block",
-        "address": "rcode://success"
-      }
-    ]
-  },
-  "inbounds": [
-    {
-      "type": "tun",
-      "interface_name": "tun0",
-      "inet4_address": "172.19.0.1/30",
-      "auto_route": true,
-      "strict_route": true,
-      "sniff": true
-    }
-  ],
   "outbounds": [
     {
-      "type": "selector",
-      "tag": "PROXY",
-      "outbounds": [
-        "AUTO-SELECT",
-        "🔄 LATEST-UPDATE 📅 SUN-08-TIR-1404 🕑 20:44",
-        "🤖 TELEGRAM-CHANNEL 🌟 ARTIFICIAL-INTELLIGENCE 🖥 @NEUROVANCE 🧠",
-        "🛡 TELEGRAM-CHANNEL 🔐 MTPROTO-PROXY 🌍 @NEXUPROXY 📡",
-        "🔒 SS-TCP-NA 🇹🇭 TH-103.117.149.210:40009",
-        "🔒 SS-TCP-NA 🇹🇭 TH-119.59.98.58:990",
-        "🔒 TR-TCP-NA 🇹🇭 TH-171.103.232.58:20475",
-        "🔒 VL-WS-TLS 🇹🇭 TH-45.144.167.46:19816",
-        "🔒 VL-WS-TLS 🇹🇭 TH-171.103.13.77:30157",
-        "👨🏻‍💻 DEVELOPED-BY SOROUSH-MIRZAEI 📌 FOLLOW-CONTACT SYDSRSMRZ"
-      ],
-      "default": "AUTO-SELECT"
-    },
-    {
-      "type": "url-test",
-      "tag": "AUTO-SELECT",
-      "outbounds": [
-        "🔒 SS-TCP-NA 🇹🇭 TH-103.117.149.210:40009",
-        "🔒 SS-TCP-NA 🇹🇭 TH-119.59.98.58:990",
-        "🔒 TR-TCP-NA 🇹🇭 TH-171.103.232.58:20475",
-        "🔒 VL-WS-TLS 🇹🇭 TH-45.144.167.46:19816",
-        "🔒 VL-WS-TLS 🇹🇭 TH-171.103.13.77:30157"
-      ],
-      "url": "http://www.gstatic.com/generate_204"
-    },
-    {
       "type": "trojan",
-      "tag": "🔄 LATEST-UPDATE 📅 SUN-08-TIR-1404 🕑 20:44",
+      "tag": "🔄",
       "server": "127.0.0.1",
       "server_port": 1080,
       "password": "bbaacac-caab-abac-dcab-baabbcaacccb",
@@ -74,7 +13,7 @@
     },
     {
       "type": "trojan",
-      "tag": "🤖 TELEGRAM-CHANNEL 🌟 ARTIFICIAL-INTELLIGENCE 🖥 @NEUROVANCE 🧠",
+      "tag": "🤖",
       "server": "127.0.0.1",
       "server_port": 2080,
       "password": "baaaccb-acba-abac-cabd-acbbbacaabcc",
@@ -85,7 +24,7 @@
     },
     {
       "type": "trojan",
-      "tag": "🛡 TELEGRAM-CHANNEL 🔐 MTPROTO-PROXY 🌍 @NEXUPROXY 📡",
+      "tag": "🛡",
       "server": "127.0.0.1",
       "server_port": 3080,
       "password": "abcbaca-baca-acba-bdac-accbbcbacaba",
@@ -96,7 +35,7 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "🔒 SS-TCP-NA 🇹🇭 TH-103.117.149.210:40009",
+      "tag": "🔒",
       "server": "103.117.149.210",
       "server_port": 40009,
       "method": "chacha20-ietf-poly1305",
@@ -104,7 +43,7 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "🔒 SS-TCP-NA 🇹🇭 TH-119.59.98.58:990",
+      "tag": "🔒",
       "server": "119.59.98.58",
       "server_port": 990,
       "method": "chacha20-ietf-poly1305",
@@ -112,7 +51,7 @@
     },
     {
       "type": "trojan",
-      "tag": "🔒 TR-TCP-NA 🇹🇭 TH-171.103.232.58:20475",
+      "tag": "🔒",
       "server": "171.103.232.58",
       "server_port": 20475,
       "password": "ttfang",
@@ -123,7 +62,7 @@
     },
     {
       "type": "vless",
-      "tag": "🔒 VL-WS-TLS 🇹🇭 TH-45.144.167.46:19816",
+      "tag": "🔒",
       "server": "45.144.167.46",
       "server_port": 19816,
       "uuid": "6337837a-2b47-4e0d-a695-75c5a4a8ad51",
@@ -146,7 +85,7 @@
     },
     {
       "type": "vless",
-      "tag": "🔒 VL-WS-TLS 🇹🇭 TH-171.103.13.77:30157",
+      "tag": "🔒",
       "server": "171.103.13.77",
       "server_port": 30157,
       "uuid": "948f6596-66f9-4707-aa92-3107a214ce53",
@@ -169,7 +108,7 @@
     },
     {
       "type": "trojan",
-      "tag": "👨🏻‍💻 DEVELOPED-BY SOROUSH-MIRZAEI 📌 FOLLOW-CONTACT SYDSRSMRZ",
+      "tag": "👨🏻‍💻",
       "server": "127.0.0.1",
       "server_port": 8080,
       "password": "acbbcaa-acba-abac-dbca-abacbccbbaac",
@@ -177,32 +116,6 @@
         "enabled": true,
         "server_name": "127.0.0.1"
       }
-    },
-    {
-      "type": "dns",
-      "tag": "dns-out"
-    },
-    {
-      "type": "direct",
-      "tag": "DIRECT"
-    },
-    {
-      "type": "block",
-      "tag": "BLOCK"
     }
-  ],
-  "route": {
-    "rules": [
-      {
-        "protocol": "dns",
-        "outbound": "dns-out"
-      },
-      {
-        "network": "udp",
-        "port": 443,
-        "outbound": "BLOCK"
-      }
-    ],
-    "final": "PROXY"
-  }
+  ]
 }

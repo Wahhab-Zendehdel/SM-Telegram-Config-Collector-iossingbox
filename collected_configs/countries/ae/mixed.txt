@@ -1,197 +1,8 @@
 {
-  "log": {
-    "level": "info",
-    "timestamp": true
-  },
-  "dns": {
-    "servers": [
-      {
-        "tag": "dns_proxy",
-        "address": "proxy://dns-out/dns-query",
-        "detour": "PROXY"
-      },
-      {
-        "tag": "dns_direct",
-        "address": "https://1.1.1.1/dns-query",
-        "detour": "DIRECT"
-      },
-      {
-        "tag": "dns_block",
-        "address": "rcode://success"
-      }
-    ]
-  },
-  "inbounds": [
-    {
-      "type": "tun",
-      "interface_name": "tun0",
-      "inet4_address": "172.19.0.1/30",
-      "auto_route": true,
-      "strict_route": true,
-      "sniff": true
-    }
-  ],
   "outbounds": [
     {
-      "type": "selector",
-      "tag": "PROXY",
-      "outbounds": [
-        "AUTO-SELECT",
-        "🔄 LATEST-UPDATE 📅 SUN-08-TIR-1404 🕑 20:44",
-        "🤖 TELEGRAM-CHANNEL 🌟 ARTIFICIAL-INTELLIGENCE 🖥 @NEUROVANCE 🧠",
-        "🛡 TELEGRAM-CHANNEL 🔐 MTPROTO-PROXY 🌍 @NEXUPROXY 📡",
-        "🔒 SS-TCP-NA 🇦🇪 AE-176.97.66.148:443",
-        "🔒 SS-TCP-NA 🇦🇪 AE-103.57.251.223:39142",
-        "🔒 TR-TCP-NA 🇦🇪 AE-188.208.110.247:17720",
-        "🔒 VL-WS-NA 🇦🇪 AE-94.140.0.213:8880",
-        "🔒 VL-TCP-NONE 🇦🇪 AE-217.60.236.148:8443",
-        "🔒 VL-WS-NONE 🇦🇪 AE-138.128.225.100:2086",
-        "🔒 VL-WS-TLS 🇦🇪 AE-138.128.225.100:443",
-        "🔒 VL-WS-NA 🇦🇪 AE-181.214.1.251:8880",
-        "🔒 VL-WS-NA 🇦🇪 AE-103.245.229.213:8880",
-        "🔒 VL-HTTPUPGRADE-NONE 🇦🇪 AE-181.214.1.37:8880",
-        "🔒 VL-WS-NA 🇦🇪 AE-94.140.0.251:8880",
-        "🔒 VL-WS-NA 🇦🇪 AE-217.60.236.41:3032",
-        "🔒 VL-WS-NONE 🇦🇪 AE-31.58.239.159:1433",
-        "🔒 VL-TCP-NONE 🇦🇪 AE-217.60.199.131:2090",
-        "🔒 VL-WS-TLS 🇦🇪 AE-138.128.224.100:443",
-        "🔒 VL-WS-TLS 🇦🇪 AE-138.128.225.100:2053",
-        "🔒 VL-WS-NA 🇦🇪 AE-103.245.229.251:8880",
-        "🔒 VL-WS-NA 🇦🇪 AE-193.124.224.251:8880",
-        "🔒 VL-WS-NA 🇦🇪 AE-94.140.0.254:8880",
-        "🔒 VL-GRPC-TLS 🇦🇪 AE-94.140.0.38:443",
-        "🔒 VL-WS-NA 🇦🇪 AE-94.140.0.29:8880",
-        "🔒 VL-WS-NONE 🇦🇪 AE-94.140.0.20:8880",
-        "🔒 VL-WS-NA 🇦🇪 AE-103.245.229.13:8880",
-        "🔒 VL-WS-NA 🇦🇪 AE-193.124.224.13:8880",
-        "🔒 VL-HTTPUPGRADE-NONE 🇦🇪 AE-181.214.1.4:8880",
-        "🔒 VL-WS-NA 🇦🇪 AE-181.214.1.63:8880",
-        "🔒 VL-HTTPUPGRADE-NONE 🇦🇪 AE-181.214.1.13:8880",
-        "🔒 VL-TCP-NONE 🇦🇪 AE-109.61.42.157:42539",
-        "🔒 VL-WS-NA 🇦🇪 AE-193.124.224.29:8880",
-        "🔒 VL-HTTPUPGRADE-NONE 🇦🇪 AE-94.140.0.47:8880",
-        "🔒 VL-WS-NA 🇦🇪 AE-193.124.224.247:8880",
-        "🔒 VL-GRPC-TLS 🇦🇪 AE-181.214.1.146:443",
-        "🔒 VL-WS-NONE 🇦🇪 AE-193.124.224.63:8880",
-        "🔒 VL-HTTPUPGRADE-NONE 🇦🇪 AE-181.214.1.34:8880",
-        "🔒 VL-WS-NA 🇦🇪 AE-181.214.1.213:8880",
-        "🔒 VL-HTTPUPGRADE-NONE 🇦🇪 AE-94.140.0.120:8880",
-        "🔒 VL-WS-NA 🇦🇪 AE-103.245.229.254:8880",
-        "🔒 VL-WS-NA 🇦🇪 AE-138.128.224.100:80",
-        "🔒 VL-WS-NONE 🇦🇪 AE-94.140.0.0:2086",
-        "🔒 VL-HTTPUPGRADE-NONE 🇦🇪 AE-181.214.1.223:8880",
-        "🔒 VL-WS-NONE 🇦🇪 AE-217.60.236.41:3134",
-        "🔒 VL-HTTPUPGRADE-NONE 🇦🇪 AE-181.214.1.235:8880",
-        "🔒 VL-HTTPUPGRADE-NONE 🇦🇪 AE-181.214.1.130:8880",
-        "🔒 VL-HTTPUPGRADE-NONE 🇦🇪 AE-181.214.1.55:8880",
-        "🔒 VL-WS-NA 🇦🇪 AE-94.140.0.63:8880",
-        "🔒 VL-WS-NA 🇦🇪 AE-94.140.0.247:8880",
-        "🔒 VL-WS-NA 🇦🇪 AE-103.245.229.29:8880",
-        "🔒 VL-WS-NA 🇦🇪 AE-193.124.224.254:8880",
-        "🔒 VL-WS-NA 🇦🇪 AE-193.124.224.3:8880",
-        "🔒 VL-WS-NA 🇦🇪 AE-181.214.1.254:8880",
-        "🔒 VL-WS-NONE 🇦🇪 AE-181.214.1.20:8880",
-        "🔒 VL-WS-NA 🇦🇪 AE-103.245.229.63:8880",
-        "🔒 VL-TCP-NONE 🇦🇪 AE-217.60.236.191:8443",
-        "🔒 VL-WS-NA 🇦🇪 AE-193.124.224.213:8880",
-        "🔒 VL-GRPC-TLS 🇦🇪 AE-181.214.1.222:443",
-        "🔒 VL-TCP-TLS 🇦🇪 AE-217.60.199.81:56833",
-        "🔒 VL-WS-NONE 🇦🇪 AE-31.58.239.132:40179",
-        "🔒 VL-GRPC-TLS 🇦🇪 AE-94.140.0.141:443",
-        "🔒 VL-WS-NA 🇦🇪 AE-181.214.1.247:8880",
-        "🔒 VL-WS-NA 🇦🇪 AE-94.140.0.3:8880",
-        "🔒 VL-HTTPUPGRADE-NONE 🇦🇪 AE-181.214.1.183:8880",
-        "🔒 VL-TCP-TLS 🇦🇪 AE-139.185.34.131:443",
-        "🔒 VL-HTTPUPGRADE-NONE 🇦🇪 AE-181.214.1.151:8880",
-        "🔒 VL-WS-NONE 🇦🇪 AE-181.215.205.227:10004",
-        "🔒 VL-WS-NA 🇦🇪 AE-181.214.1.29:8880",
-        "🔒 VL-GRPC-RLT 🇦🇪 AE-217.60.236.164:43070",
-        "🔒 VL-TCP-RLT 🇦🇪 AE-185.253.116.130:443",
-        "🔒 VL-TCP-RLT 🇦🇪 AE-181.215.205.99:443",
-        "🔒 VL-TCP-RLT 🇦🇪 AE-181.215.205.129:443",
-        "👨🏻‍💻 DEVELOPED-BY SOROUSH-MIRZAEI 📌 FOLLOW-CONTACT SYDSRSMRZ"
-      ],
-      "default": "AUTO-SELECT"
-    },
-    {
-      "type": "url-test",
-      "tag": "AUTO-SELECT",
-      "outbounds": [
-        "🔒 SS-TCP-NA 🇦🇪 AE-176.97.66.148:443",
-        "🔒 SS-TCP-NA 🇦🇪 AE-103.57.251.223:39142",
-        "🔒 TR-TCP-NA 🇦🇪 AE-188.208.110.247:17720",
-        "🔒 VL-WS-NA 🇦🇪 AE-94.140.0.213:8880",
-        "🔒 VL-TCP-NONE 🇦🇪 AE-217.60.236.148:8443",
-        "🔒 VL-WS-NONE 🇦🇪 AE-138.128.225.100:2086",
-        "🔒 VL-WS-TLS 🇦🇪 AE-138.128.225.100:443",
-        "🔒 VL-WS-NA 🇦🇪 AE-181.214.1.251:8880",
-        "🔒 VL-WS-NA 🇦🇪 AE-103.245.229.213:8880",
-        "🔒 VL-HTTPUPGRADE-NONE 🇦🇪 AE-181.214.1.37:8880",
-        "🔒 VL-WS-NA 🇦🇪 AE-94.140.0.251:8880",
-        "🔒 VL-WS-NA 🇦🇪 AE-217.60.236.41:3032",
-        "🔒 VL-WS-NONE 🇦🇪 AE-31.58.239.159:1433",
-        "🔒 VL-TCP-NONE 🇦🇪 AE-217.60.199.131:2090",
-        "🔒 VL-WS-TLS 🇦🇪 AE-138.128.224.100:443",
-        "🔒 VL-WS-TLS 🇦🇪 AE-138.128.225.100:2053",
-        "🔒 VL-WS-NA 🇦🇪 AE-103.245.229.251:8880",
-        "🔒 VL-WS-NA 🇦🇪 AE-193.124.224.251:8880",
-        "🔒 VL-WS-NA 🇦🇪 AE-94.140.0.254:8880",
-        "🔒 VL-GRPC-TLS 🇦🇪 AE-94.140.0.38:443",
-        "🔒 VL-WS-NA 🇦🇪 AE-94.140.0.29:8880",
-        "🔒 VL-WS-NONE 🇦🇪 AE-94.140.0.20:8880",
-        "🔒 VL-WS-NA 🇦🇪 AE-103.245.229.13:8880",
-        "🔒 VL-WS-NA 🇦🇪 AE-193.124.224.13:8880",
-        "🔒 VL-HTTPUPGRADE-NONE 🇦🇪 AE-181.214.1.4:8880",
-        "🔒 VL-WS-NA 🇦🇪 AE-181.214.1.63:8880",
-        "🔒 VL-HTTPUPGRADE-NONE 🇦🇪 AE-181.214.1.13:8880",
-        "🔒 VL-TCP-NONE 🇦🇪 AE-109.61.42.157:42539",
-        "🔒 VL-WS-NA 🇦🇪 AE-193.124.224.29:8880",
-        "🔒 VL-HTTPUPGRADE-NONE 🇦🇪 AE-94.140.0.47:8880",
-        "🔒 VL-WS-NA 🇦🇪 AE-193.124.224.247:8880",
-        "🔒 VL-GRPC-TLS 🇦🇪 AE-181.214.1.146:443",
-        "🔒 VL-WS-NONE 🇦🇪 AE-193.124.224.63:8880",
-        "🔒 VL-HTTPUPGRADE-NONE 🇦🇪 AE-181.214.1.34:8880",
-        "🔒 VL-WS-NA 🇦🇪 AE-181.214.1.213:8880",
-        "🔒 VL-HTTPUPGRADE-NONE 🇦🇪 AE-94.140.0.120:8880",
-        "🔒 VL-WS-NA 🇦🇪 AE-103.245.229.254:8880",
-        "🔒 VL-WS-NA 🇦🇪 AE-138.128.224.100:80",
-        "🔒 VL-WS-NONE 🇦🇪 AE-94.140.0.0:2086",
-        "🔒 VL-HTTPUPGRADE-NONE 🇦🇪 AE-181.214.1.223:8880",
-        "🔒 VL-WS-NONE 🇦🇪 AE-217.60.236.41:3134",
-        "🔒 VL-HTTPUPGRADE-NONE 🇦🇪 AE-181.214.1.235:8880",
-        "🔒 VL-HTTPUPGRADE-NONE 🇦🇪 AE-181.214.1.130:8880",
-        "🔒 VL-HTTPUPGRADE-NONE 🇦🇪 AE-181.214.1.55:8880",
-        "🔒 VL-WS-NA 🇦🇪 AE-94.140.0.63:8880",
-        "🔒 VL-WS-NA 🇦🇪 AE-94.140.0.247:8880",
-        "🔒 VL-WS-NA 🇦🇪 AE-103.245.229.29:8880",
-        "🔒 VL-WS-NA 🇦🇪 AE-193.124.224.254:8880",
-        "🔒 VL-WS-NA 🇦🇪 AE-193.124.224.3:8880",
-        "🔒 VL-WS-NA 🇦🇪 AE-181.214.1.254:8880",
-        "🔒 VL-WS-NONE 🇦🇪 AE-181.214.1.20:8880",
-        "🔒 VL-WS-NA 🇦🇪 AE-103.245.229.63:8880",
-        "🔒 VL-TCP-NONE 🇦🇪 AE-217.60.236.191:8443",
-        "🔒 VL-WS-NA 🇦🇪 AE-193.124.224.213:8880",
-        "🔒 VL-GRPC-TLS 🇦🇪 AE-181.214.1.222:443",
-        "🔒 VL-TCP-TLS 🇦🇪 AE-217.60.199.81:56833",
-        "🔒 VL-WS-NONE 🇦🇪 AE-31.58.239.132:40179",
-        "🔒 VL-GRPC-TLS 🇦🇪 AE-94.140.0.141:443",
-        "🔒 VL-WS-NA 🇦🇪 AE-181.214.1.247:8880",
-        "🔒 VL-WS-NA 🇦🇪 AE-94.140.0.3:8880",
-        "🔒 VL-HTTPUPGRADE-NONE 🇦🇪 AE-181.214.1.183:8880",
-        "🔒 VL-TCP-TLS 🇦🇪 AE-139.185.34.131:443",
-        "🔒 VL-HTTPUPGRADE-NONE 🇦🇪 AE-181.214.1.151:8880",
-        "🔒 VL-WS-NONE 🇦🇪 AE-181.215.205.227:10004",
-        "🔒 VL-WS-NA 🇦🇪 AE-181.214.1.29:8880",
-        "🔒 VL-GRPC-RLT 🇦🇪 AE-217.60.236.164:43070",
-        "🔒 VL-TCP-RLT 🇦🇪 AE-185.253.116.130:443",
-        "🔒 VL-TCP-RLT 🇦🇪 AE-181.215.205.99:443",
-        "🔒 VL-TCP-RLT 🇦🇪 AE-181.215.205.129:443"
-      ],
-      "url": "http://www.gstatic.com/generate_204"
-    },
-    {
       "type": "trojan",
-      "tag": "🔄 LATEST-UPDATE 📅 SUN-08-TIR-1404 🕑 20:44",
+      "tag": "🔄",
       "server": "127.0.0.1",
       "server_port": 1080,
       "password": "bbaacac-caab-abac-dcab-baabbcaacccb",
@@ -202,7 +13,7 @@
     },
     {
       "type": "trojan",
-      "tag": "🤖 TELEGRAM-CHANNEL 🌟 ARTIFICIAL-INTELLIGENCE 🖥 @NEUROVANCE 🧠",
+      "tag": "🤖",
       "server": "127.0.0.1",
       "server_port": 2080,
       "password": "baaaccb-acba-abac-cabd-acbbbacaabcc",
@@ -213,7 +24,7 @@
     },
     {
       "type": "trojan",
-      "tag": "🛡 TELEGRAM-CHANNEL 🔐 MTPROTO-PROXY 🌍 @NEXUPROXY 📡",
+      "tag": "🛡",
       "server": "127.0.0.1",
       "server_port": 3080,
       "password": "abcbaca-baca-acba-bdac-accbbcbacaba",
@@ -224,7 +35,7 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "🔒 SS-TCP-NA 🇦🇪 AE-176.97.66.148:443",
+      "tag": "🔒",
       "server": "176.97.66.148",
       "server_port": 443,
       "method": "chacha20-ietf-poly1305",
@@ -232,7 +43,7 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "🔒 SS-TCP-NA 🇦🇪 AE-103.57.251.223:39142",
+      "tag": "🔒",
       "server": "103.57.251.223",
       "server_port": 39142,
       "method": "chacha20-ietf-poly1305",
@@ -240,7 +51,7 @@
     },
     {
       "type": "trojan",
-      "tag": "🔒 TR-TCP-NA 🇦🇪 AE-188.208.110.247:17720",
+      "tag": "🔒",
       "server": "188.208.110.247",
       "server_port": 17720,
       "password": "c443be95-725d-4da3-a60f-d35af5bfbff8",
@@ -251,7 +62,7 @@
     },
     {
       "type": "vless",
-      "tag": "🔒 VL-WS-NA 🇦🇪 AE-94.140.0.213:8880",
+      "tag": "🔒",
       "server": "94.140.0.213",
       "server_port": 8880,
       "uuid": "fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf",
@@ -266,7 +77,7 @@
     },
     {
       "type": "vless",
-      "tag": "🔒 VL-TCP-NONE 🇦🇪 AE-217.60.236.148:8443",
+      "tag": "🔒",
       "server": "217.60.236.148",
       "server_port": 8443,
       "uuid": "c1fee588-e43f-4bbd-90d0-c5b5f3b817f1",
@@ -277,7 +88,7 @@
     },
     {
       "type": "vless",
-      "tag": "🔒 VL-WS-NONE 🇦🇪 AE-138.128.225.100:2086",
+      "tag": "🔒",
       "server": "138.128.225.100",
       "server_port": 2086,
       "uuid": "801b7b00-2271-45ec-b189-bf0aef419073",
@@ -292,7 +103,7 @@
     },
     {
       "type": "vless",
-      "tag": "🔒 VL-WS-TLS 🇦🇪 AE-138.128.225.100:443",
+      "tag": "🔒",
       "server": "138.128.225.100",
       "server_port": 443,
       "uuid": "a07827b5-4b27-4910-8333-f78949562fc9",
@@ -312,7 +123,7 @@
     },
     {
       "type": "vless",
-      "tag": "🔒 VL-WS-NA 🇦🇪 AE-181.214.1.251:8880",
+      "tag": "🔒",
       "server": "181.214.1.251",
       "server_port": 8880,
       "uuid": "0132166f-e702-48ed-a9e7-b07af768faf8",
@@ -327,7 +138,7 @@
     },
     {
       "type": "vless",
-      "tag": "🔒 VL-WS-NA 🇦🇪 AE-103.245.229.213:8880",
+      "tag": "🔒",
       "server": "103.245.229.213",
       "server_port": 8880,
       "uuid": "fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf",
@@ -342,7 +153,7 @@
     },
     {
       "type": "vless",
-      "tag": "🔒 VL-HTTPUPGRADE-NONE 🇦🇪 AE-181.214.1.37:8880",
+      "tag": "🔒",
       "server": "181.214.1.37",
       "server_port": 8880,
       "uuid": "b99590df-eda0-4e34-e1a9-3d1118faed83",
@@ -353,7 +164,7 @@
     },
     {
       "type": "vless",
-      "tag": "🔒 VL-WS-NA 🇦🇪 AE-94.140.0.251:8880",
+      "tag": "🔒",
       "server": "94.140.0.251",
       "server_port": 8880,
       "uuid": "0132166f-e702-48ed-a9e7-b07af768faf8",
@@ -368,7 +179,7 @@
     },
     {
       "type": "vless",
-      "tag": "🔒 VL-WS-NA 🇦🇪 AE-217.60.236.41:3032",
+      "tag": "🔒",
       "server": "217.60.236.41",
       "server_port": 3032,
       "uuid": "90ac533c-dec4-4f92-a7bb-62041d9a0c17",
@@ -380,7 +191,7 @@
     },
     {
       "type": "vless",
-      "tag": "🔒 VL-WS-NONE 🇦🇪 AE-31.58.239.159:1433",
+      "tag": "🔒",
       "server": "31.58.239.159",
       "server_port": 1433,
       "uuid": "12486672-3116-48b2-8495-2d7223874a7b",
@@ -395,7 +206,7 @@
     },
     {
       "type": "vless",
-      "tag": "🔒 VL-TCP-NONE 🇦🇪 AE-217.60.199.131:2090",
+      "tag": "🔒",
       "server": "217.60.199.131",
       "server_port": 2090,
       "uuid": "ba72e922-4f16-4b20-af8a-c58302a5a6bf",
@@ -406,7 +217,7 @@
     },
     {
       "type": "vless",
-      "tag": "🔒 VL-WS-TLS 🇦🇪 AE-138.128.224.100:443",
+      "tag": "🔒",
       "server": "138.128.224.100",
       "server_port": 443,
       "uuid": "eb5f5964-1b12-457b-b8a6-bca5332e0494",
@@ -426,7 +237,7 @@
     },
     {
       "type": "vless",
-      "tag": "🔒 VL-WS-TLS 🇦🇪 AE-138.128.225.100:2053",
+      "tag": "🔒",
       "server": "138.128.225.100",
       "server_port": 2053,
       "uuid": "6bf5267e-cbe3-42eb-bdb0-9f6cd457f168",
@@ -449,7 +260,7 @@
     },
     {
       "type": "vless",
-      "tag": "🔒 VL-WS-NA 🇦🇪 AE-103.245.229.251:8880",
+      "tag": "🔒",
       "server": "103.245.229.251",
       "server_port": 8880,
       "uuid": "0132166f-e702-48ed-a9e7-b07af768faf8",
@@ -464,7 +275,7 @@
     },
     {
       "type": "vless",
-      "tag": "🔒 VL-WS-NA 🇦🇪 AE-193.124.224.251:8880",
+      "tag": "🔒",
       "server": "193.124.224.251",
       "server_port": 8880,
       "uuid": "1a79d43f-b41c-496b-a241-dcbeefa81f0e",
@@ -479,7 +290,7 @@
     },
     {
       "type": "vless",
-      "tag": "🔒 VL-WS-NA 🇦🇪 AE-94.140.0.254:8880",
+      "tag": "🔒",
       "server": "94.140.0.254",
       "server_port": 8880,
       "uuid": "34c01e61-f4f3-4afb-a83b-406caf8caa33",
@@ -494,7 +305,7 @@
     },
     {
       "type": "vless",
-      "tag": "🔒 VL-GRPC-TLS 🇦🇪 AE-94.140.0.38:443",
+      "tag": "🔒",
       "server": "94.140.0.38",
       "server_port": 443,
       "uuid": "2a943112-138b-432d-a3a5-277ea2fd8a2e",
@@ -514,7 +325,7 @@
     },
     {
       "type": "vless",
-      "tag": "🔒 VL-WS-NA 🇦🇪 AE-94.140.0.29:8880",
+      "tag": "🔒",
       "server": "94.140.0.29",
       "server_port": 8880,
       "uuid": "fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf",
@@ -529,7 +340,7 @@
     },
     {
       "type": "vless",
-      "tag": "🔒 VL-WS-NONE 🇦🇪 AE-94.140.0.20:8880",
+      "tag": "🔒",
       "server": "94.140.0.20",
       "server_port": 8880,
       "uuid": "53fa8faf-ba4b-4322-9c69-a3e5b1555049",
@@ -544,7 +355,7 @@
     },
     {
       "type": "vless",
-      "tag": "🔒 VL-WS-NA 🇦🇪 AE-103.245.229.13:8880",
+      "tag": "🔒",
       "server": "103.245.229.13",
       "server_port": 8880,
       "uuid": "9f3c4ab7-ea26-4d96-91a9-c85ff64ad9a0",
@@ -559,7 +370,7 @@
     },
     {
       "type": "vless",
-      "tag": "🔒 VL-WS-NA 🇦🇪 AE-193.124.224.13:8880",
+      "tag": "🔒",
       "server": "193.124.224.13",
       "server_port": 8880,
       "uuid": "9f3c4ab7-ea26-4d96-91a9-c85ff64ad9a0",
@@ -574,7 +385,7 @@
     },
     {
       "type": "vless",
-      "tag": "🔒 VL-HTTPUPGRADE-NONE 🇦🇪 AE-181.214.1.4:8880",
+      "tag": "🔒",
       "server": "181.214.1.4",
       "server_port": 8880,
       "uuid": "b99590df-eda0-4e34-e1a9-3d1118faed83",
@@ -585,7 +396,7 @@
     },
     {
       "type": "vless",
-      "tag": "🔒 VL-WS-NA 🇦🇪 AE-181.214.1.63:8880",
+      "tag": "🔒",
       "server": "181.214.1.63",
       "server_port": 8880,
       "uuid": "fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf",
@@ -600,7 +411,7 @@
     },
     {
       "type": "vless",
-      "tag": "🔒 VL-HTTPUPGRADE-NONE 🇦🇪 AE-181.214.1.13:8880",
+      "tag": "🔒",
       "server": "181.214.1.13",
       "server_port": 8880,
       "uuid": "b99590df-eda0-4e34-e1a9-3d1118faed83",
@@ -611,7 +422,7 @@
     },
     {
       "type": "vless",
-      "tag": "🔒 VL-TCP-NONE 🇦🇪 AE-109.61.42.157:42539",
+      "tag": "🔒",
       "server": "109.61.42.157",
       "server_port": 42539,
       "uuid": "6ce93d15-9488-4208-914b-6ee32af0df0e",
@@ -622,7 +433,7 @@
     },
     {
       "type": "vless",
-      "tag": "🔒 VL-WS-NA 🇦🇪 AE-193.124.224.29:8880",
+      "tag": "🔒",
       "server": "193.124.224.29",
       "server_port": 8880,
       "uuid": "fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf",
@@ -637,7 +448,7 @@
     },
     {
       "type": "vless",
-      "tag": "🔒 VL-HTTPUPGRADE-NONE 🇦🇪 AE-94.140.0.47:8880",
+      "tag": "🔒",
       "server": "94.140.0.47",
       "server_port": 8880,
       "uuid": "b99590df-eda0-4e34-e1a9-3d1118faed83",
@@ -648,7 +459,7 @@
     },
     {
       "type": "vless",
-      "tag": "🔒 VL-WS-NA 🇦🇪 AE-193.124.224.247:8880",
+      "tag": "🔒",
       "server": "193.124.224.247",
       "server_port": 8880,
       "uuid": "d60fc3c5-9f07-4cdb-b81f-70af27936bdc",
@@ -663,7 +474,7 @@
     },
     {
       "type": "vless",
-      "tag": "🔒 VL-GRPC-TLS 🇦🇪 AE-181.214.1.146:443",
+      "tag": "🔒",
       "server": "181.214.1.146",
       "server_port": 443,
       "uuid": "401374e6-df77-41fb-f638-dad8184f175b",
@@ -683,7 +494,7 @@
     },
     {
       "type": "vless",
-      "tag": "🔒 VL-WS-NONE 🇦🇪 AE-193.124.224.63:8880",
+      "tag": "🔒",
       "server": "193.124.224.63",
       "server_port": 8880,
       "uuid": "fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf",
@@ -698,7 +509,7 @@
     },
     {
       "type": "vless",
-      "tag": "🔒 VL-HTTPUPGRADE-NONE 🇦🇪 AE-181.214.1.34:8880",
+      "tag": "🔒",
       "server": "181.214.1.34",
       "server_port": 8880,
       "uuid": "b99590df-eda0-4e34-e1a9-3d1118faed83",
@@ -709,7 +520,7 @@
     },
     {
       "type": "vless",
-      "tag": "🔒 VL-WS-NA 🇦🇪 AE-181.214.1.213:8880",
+      "tag": "🔒",
       "server": "181.214.1.213",
       "server_port": 8880,
       "uuid": "fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf",
@@ -724,7 +535,7 @@
     },
     {
       "type": "vless",
-      "tag": "🔒 VL-HTTPUPGRADE-NONE 🇦🇪 AE-94.140.0.120:8880",
+      "tag": "🔒",
       "server": "94.140.0.120",
       "server_port": 8880,
       "uuid": "b99590df-eda0-4e34-e1a9-3d1118faed83",
@@ -735,7 +546,7 @@
     },
     {
       "type": "vless",
-      "tag": "🔒 VL-WS-NA 🇦🇪 AE-103.245.229.254:8880",
+      "tag": "🔒",
       "server": "103.245.229.254",
       "server_port": 8880,
       "uuid": "34c01e61-f4f3-4afb-a83b-406caf8caa33",
@@ -750,7 +561,7 @@
     },
     {
       "type": "vless",
-      "tag": "🔒 VL-WS-NA 🇦🇪 AE-138.128.224.100:80",
+      "tag": "🔒",
       "server": "138.128.224.100",
       "server_port": 80,
       "uuid": "e8dd40fd-169a-4545-8664-7f71f02e0657",
@@ -765,7 +576,7 @@
     },
     {
       "type": "vless",
-      "tag": "🔒 VL-WS-NONE 🇦🇪 AE-94.140.0.0:2086",
+      "tag": "🔒",
       "server": "94.140.0.0",
       "server_port": 2086,
       "uuid": "10d9df89-9a20-4110-9711-bca119490ee9",
@@ -780,7 +591,7 @@
     },
     {
       "type": "vless",
-      "tag": "🔒 VL-HTTPUPGRADE-NONE 🇦🇪 AE-181.214.1.223:8880",
+      "tag": "🔒",
       "server": "181.214.1.223",
       "server_port": 8880,
       "uuid": "b99590df-eda0-4e34-e1a9-3d1118faed83",
@@ -791,7 +602,7 @@
     },
     {
       "type": "vless",
-      "tag": "🔒 VL-WS-NONE 🇦🇪 AE-217.60.236.41:3134",
+      "tag": "🔒",
       "server": "217.60.236.41",
       "server_port": 3134,
       "uuid": "6683e519-99b1-4df8-9d20-f39a2a7ed1b0",
@@ -803,7 +614,7 @@
     },
     {
       "type": "vless",
-      "tag": "🔒 VL-HTTPUPGRADE-NONE 🇦🇪 AE-181.214.1.235:8880",
+      "tag": "🔒",
       "server": "181.214.1.235",
       "server_port": 8880,
       "uuid": "b99590df-eda0-4e34-e1a9-3d1118faed83",
@@ -814,7 +625,7 @@
     },
     {
       "type": "vless",
-      "tag": "🔒 VL-HTTPUPGRADE-NONE 🇦🇪 AE-181.214.1.130:8880",
+      "tag": "🔒",
       "server": "181.214.1.130",
       "server_port": 8880,
       "uuid": "99727208-0086-43f9-f0ad-9e30f546b822",
@@ -825,7 +636,7 @@
     },
     {
       "type": "vless",
-      "tag": "🔒 VL-HTTPUPGRADE-NONE 🇦🇪 AE-181.214.1.55:8880",
+      "tag": "🔒",
       "server": "181.214.1.55",
       "server_port": 8880,
       "uuid": "b99590df-eda0-4e34-e1a9-3d1118faed83",
@@ -836,7 +647,7 @@
     },
     {
       "type": "vless",
-      "tag": "🔒 VL-WS-NA 🇦🇪 AE-94.140.0.63:8880",
+      "tag": "🔒",
       "server": "94.140.0.63",
       "server_port": 8880,
       "uuid": "fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf",
@@ -851,7 +662,7 @@
     },
     {
       "type": "vless",
-      "tag": "🔒 VL-WS-NA 🇦🇪 AE-94.140.0.247:8880",
+      "tag": "🔒",
       "server": "94.140.0.247",
       "server_port": 8880,
       "uuid": "d60fc3c5-9f07-4cdb-b81f-70af27936bdc",
@@ -866,7 +677,7 @@
     },
     {
       "type": "vless",
-      "tag": "🔒 VL-WS-NA 🇦🇪 AE-103.245.229.29:8880",
+      "tag": "🔒",
       "server": "103.245.229.29",
       "server_port": 8880,
       "uuid": "fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf",
@@ -881,7 +692,7 @@
     },
     {
       "type": "vless",
-      "tag": "🔒 VL-WS-NA 🇦🇪 AE-193.124.224.254:8880",
+      "tag": "🔒",
       "server": "193.124.224.254",
       "server_port": 8880,
       "uuid": "34c01e61-f4f3-4afb-a83b-406caf8caa33",
@@ -896,7 +707,7 @@
     },
     {
       "type": "vless",
-      "tag": "🔒 VL-WS-NA 🇦🇪 AE-193.124.224.3:8880",
+      "tag": "🔒",
       "server": "193.124.224.3",
       "server_port": 8880,
       "uuid": "b5441b0d-2147-4898-8a6a-9b2c87f58382",
@@ -911,7 +722,7 @@
     },
     {
       "type": "vless",
-      "tag": "🔒 VL-WS-NA 🇦🇪 AE-181.214.1.254:8880",
+      "tag": "🔒",
       "server": "181.214.1.254",
       "server_port": 8880,
       "uuid": "34c01e61-f4f3-4afb-a83b-406caf8caa33",
@@ -926,7 +737,7 @@
     },
     {
       "type": "vless",
-      "tag": "🔒 VL-WS-NONE 🇦🇪 AE-181.214.1.20:8880",
+      "tag": "🔒",
       "server": "181.214.1.20",
       "server_port": 8880,
       "uuid": "53fa8faf-ba4b-4322-9c69-a3e5b1555049",
@@ -941,7 +752,7 @@
     },
     {
       "type": "vless",
-      "tag": "🔒 VL-WS-NA 🇦🇪 AE-103.245.229.63:8880",
+      "tag": "🔒",
       "server": "103.245.229.63",
       "server_port": 8880,
       "uuid": "fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf",
@@ -956,7 +767,7 @@
     },
     {
       "type": "vless",
-      "tag": "🔒 VL-TCP-NONE 🇦🇪 AE-217.60.236.191:8443",
+      "tag": "🔒",
       "server": "217.60.236.191",
       "server_port": 8443,
       "uuid": "b505bd79-137b-4d8c-924d-53eb8a6161f2",
@@ -967,7 +778,7 @@
     },
     {
       "type": "vless",
-      "tag": "🔒 VL-WS-NA 🇦🇪 AE-193.124.224.213:8880",
+      "tag": "🔒",
       "server": "193.124.224.213",
       "server_port": 8880,
       "uuid": "fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf",
@@ -982,7 +793,7 @@
     },
     {
       "type": "vless",
-      "tag": "🔒 VL-GRPC-TLS 🇦🇪 AE-181.214.1.222:443",
+      "tag": "🔒",
       "server": "181.214.1.222",
       "server_port": 443,
       "uuid": "401374e6-df77-41fb-f638-dad8184f175b",
@@ -1002,7 +813,7 @@
     },
     {
       "type": "vless",
-      "tag": "🔒 VL-TCP-TLS 🇦🇪 AE-217.60.199.81:56833",
+      "tag": "🔒",
       "server": "217.60.199.81",
       "server_port": 56833,
       "uuid": "e947c1b3-5eee-4007-b29e-e960c73242b3",
@@ -1021,7 +832,7 @@
     },
     {
       "type": "vless",
-      "tag": "🔒 VL-WS-NONE 🇦🇪 AE-31.58.239.132:40179",
+      "tag": "🔒",
       "server": "31.58.239.132",
       "server_port": 40179,
       "uuid": "f5e4ce3c-1ade-491d-9b5d-ab87cef79b9a",
@@ -1036,7 +847,7 @@
     },
     {
       "type": "vless",
-      "tag": "🔒 VL-GRPC-TLS 🇦🇪 AE-94.140.0.141:443",
+      "tag": "🔒",
       "server": "94.140.0.141",
       "server_port": 443,
       "uuid": "401374e6-df77-41fb-f638-dad8184f175b",
@@ -1056,7 +867,7 @@
     },
     {
       "type": "vless",
-      "tag": "🔒 VL-WS-NA 🇦🇪 AE-181.214.1.247:8880",
+      "tag": "🔒",
       "server": "181.214.1.247",
       "server_port": 8880,
       "uuid": "d60fc3c5-9f07-4cdb-b81f-70af27936bdc",
@@ -1071,7 +882,7 @@
     },
     {
       "type": "vless",
-      "tag": "🔒 VL-WS-NA 🇦🇪 AE-94.140.0.3:8880",
+      "tag": "🔒",
       "server": "94.140.0.3",
       "server_port": 8880,
       "uuid": "b5441b0d-2147-4898-8a6a-9b2c87f58382",
@@ -1086,7 +897,7 @@
     },
     {
       "type": "vless",
-      "tag": "🔒 VL-HTTPUPGRADE-NONE 🇦🇪 AE-181.214.1.183:8880",
+      "tag": "🔒",
       "server": "181.214.1.183",
       "server_port": 8880,
       "uuid": "b99590df-eda0-4e34-e1a9-3d1118faed83",
@@ -1097,7 +908,7 @@
     },
     {
       "type": "vless",
-      "tag": "🔒 VL-TCP-TLS 🇦🇪 AE-139.185.34.131:443",
+      "tag": "🔒",
       "server": "139.185.34.131",
       "server_port": 443,
       "uuid": "ea286109-d20f-415e-849e-4af20ab04b65",
@@ -1116,7 +927,7 @@
     },
     {
       "type": "vless",
-      "tag": "🔒 VL-HTTPUPGRADE-NONE 🇦🇪 AE-181.214.1.151:8880",
+      "tag": "🔒",
       "server": "181.214.1.151",
       "server_port": 8880,
       "uuid": "b99590df-eda0-4e34-e1a9-3d1118faed83",
@@ -1127,7 +938,7 @@
     },
     {
       "type": "vless",
-      "tag": "🔒 VL-WS-NONE 🇦🇪 AE-181.215.205.227:10004",
+      "tag": "🔒",
       "server": "181.215.205.227",
       "server_port": 10004,
       "uuid": "83754396-4fb9-11f0-92cc-3fe03963269e",
@@ -1139,7 +950,7 @@
     },
     {
       "type": "vless",
-      "tag": "🔒 VL-WS-NA 🇦🇪 AE-181.214.1.29:8880",
+      "tag": "🔒",
       "server": "181.214.1.29",
       "server_port": 8880,
       "uuid": "fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf",
@@ -1154,7 +965,7 @@
     },
     {
       "type": "vless",
-      "tag": "🔒 VL-GRPC-RLT 🇦🇪 AE-217.60.236.164:43070",
+      "tag": "🔒",
       "server": "217.60.236.164",
       "server_port": 43070,
       "uuid": "9ae1b0cb-55ff-4431-afe2-6ceb1f09bffd",
@@ -1179,7 +990,7 @@
     },
     {
       "type": "vless",
-      "tag": "🔒 VL-TCP-RLT 🇦🇪 AE-185.253.116.130:443",
+      "tag": "🔒",
       "server": "185.253.116.130",
       "server_port": 443,
       "uuid": "414df689-dc19-418b-849c-f0f15967d71e",
@@ -1203,7 +1014,7 @@
     },
     {
       "type": "vless",
-      "tag": "🔒 VL-TCP-RLT 🇦🇪 AE-181.215.205.99:443",
+      "tag": "🔒",
       "server": "181.215.205.99",
       "server_port": 443,
       "uuid": "414df689-dc19-418b-849c-f0f15967d71e",
@@ -1227,7 +1038,7 @@
     },
     {
       "type": "vless",
-      "tag": "🔒 VL-TCP-RLT 🇦🇪 AE-181.215.205.129:443",
+      "tag": "🔒",
       "server": "181.215.205.129",
       "server_port": 443,
       "uuid": "09a88f8d-f9b6-4985-95ac-fe889f07cac7",
@@ -1250,7 +1061,7 @@
     },
     {
       "type": "trojan",
-      "tag": "👨🏻‍💻 DEVELOPED-BY SOROUSH-MIRZAEI 📌 FOLLOW-CONTACT SYDSRSMRZ",
+      "tag": "👨🏻‍💻",
       "server": "127.0.0.1",
       "server_port": 8080,
       "password": "acbbcaa-acba-abac-dbca-abacbccbbaac",
@@ -1258,32 +1069,6 @@
         "enabled": true,
         "server_name": "127.0.0.1"
       }
-    },
-    {
-      "type": "dns",
-      "tag": "dns-out"
-    },
-    {
-      "type": "direct",
-      "tag": "DIRECT"
-    },
-    {
-      "type": "block",
-      "tag": "BLOCK"
     }
-  ],
-  "route": {
-    "rules": [
-      {
-        "protocol": "dns",
-        "outbound": "dns-out"
-      },
-      {
-        "network": "udp",
-        "port": 443,
-        "outbound": "BLOCK"
-      }
-    ],
-    "final": "PROXY"
-  }
+  ]
 }
