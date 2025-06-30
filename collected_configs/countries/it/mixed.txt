@@ -5,7 +5,7 @@
       "tag": "🔄",
       "server": "127.0.0.1",
       "server_port": 1080,
-      "password": "bacaabc-caab-abac-dcab-bccabcbaabca",
+      "password": "aaacbbc-caba-bcaa-dacb-cbcacbabaabc",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"
@@ -16,7 +16,7 @@
       "tag": "🤖",
       "server": "127.0.0.1",
       "server_port": 2080,
-      "password": "cbcabaa-abca-bcaa-dcab-acccbacbbbaa",
+      "password": "baabacc-acab-caba-abcd-bbccbbaacaac",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"
@@ -27,7 +27,7 @@
       "tag": "🛡",
       "server": "127.0.0.1",
       "server_port": 3080,
-      "password": "aabacbc-acab-bcaa-bacd-acabccabbbac",
+      "password": "caabcab-caba-abac-cbad-cccaaabacbbb",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"
@@ -55,17 +55,6 @@
     {
       "type": "trojan",
       "tag": "🔒",
-      "server": "87.120.237.36",
-      "server_port": 81,
-      "password": "Aimer",
-      "tls": {
-        "enabled": true,
-        "server_name": "ageph.ambercc.filegear-sg.me"
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "🔒",
       "server": "151.101.242.172",
       "server_port": 443,
       "password": "45f98d84-f1ab-4783-989e-e3b930913665",
@@ -75,37 +64,14 @@
       }
     },
     {
-      "type": "vless",
+      "type": "trojan",
       "tag": "🔒",
-      "server": "146.75.55.82",
-      "server_port": 80,
-      "uuid": "83b3d135-0ab9-4898-8fbf-b0334681b8fb",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "rtakp.ir"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🔒",
-      "server": "217.61.61.118",
-      "server_port": 42538,
-      "uuid": "fdba320d-23a9-4e05-9604-3c1ca88f49b7",
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "vless",
-      "tag": "🔒",
-      "server": "151.101.241.19",
-      "server_port": 80,
-      "uuid": "78f80c31-ff76-4bca-b43c-c991a9168f11",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "xhttp"
+      "server": "87.120.237.36",
+      "server_port": 81,
+      "password": "Aimer",
+      "tls": {
+        "enabled": true,
+        "server_name": "ageph.ambercc.filegear-sg.me"
       }
     },
     {
@@ -121,7 +87,7 @@
       "tag": "🔒",
       "server": "151.101.242.172",
       "server_port": 80,
-      "uuid": "81bb83d7-8d68-48b3-8c7e-d46e9d851ebb",
+      "uuid": "a34f77b3-cb45-4abe-80f3-5d026ae64168",
       "packet_encoding": "xudp",
       "transport": {
         "type": "xhttp"
@@ -130,16 +96,12 @@
     {
       "type": "vless",
       "tag": "🔒",
-      "server": "151.101.242.133",
+      "server": "151.101.241.19",
       "server_port": 80,
-      "uuid": "428287e2-0a51-42d5-89a5-d07f5f10a481",
+      "uuid": "78f80c31-ff76-4bca-b43c-c991a9168f11",
       "packet_encoding": "xudp",
       "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "taxi.ir"
-        }
+        "type": "xhttp"
       }
     },
     {
@@ -178,6 +140,65 @@
         "utls": {
           "enabled": true,
           "fingerprint": "random"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🔒",
+      "server": "217.61.61.118",
+      "server_port": 42538,
+      "uuid": "6ce93d15-9488-4208-914b-6ee32af0df0e",
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "🔒",
+      "server": "146.75.55.82",
+      "server_port": 80,
+      "uuid": "79b89098-2000-4eaa-ba46-8b7a0c98b104",
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "/download",
+        "headers": {
+          "Host": "haledada.com"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🔒",
+      "server": "151.101.242.133",
+      "server_port": 80,
+      "uuid": "428287e2-0a51-42d5-89a5-d07f5f10a481",
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "taxi.ir"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🔒",
+      "server": "4.232.170.148",
+      "server_port": 443,
+      "uuid": "1ae544de-4b19-4bd0-a7d6-e47e2e19a057",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "itgetsbetter.org",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "u13aSU1om7Mc67RxQHmVQx7iALWAUCn_j38zQ5LpYXc",
+          "short_id": "462c73aef9f448"
         }
       }
     },
@@ -226,27 +247,6 @@
     {
       "type": "vless",
       "tag": "🔒",
-      "server": "4.232.170.148",
-      "server_port": 443,
-      "uuid": "1ae544de-4b19-4bd0-a7d6-e47e2e19a057",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "itgetsbetter.org",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "u13aSU1om7Mc67RxQHmVQx7iALWAUCn_j38zQ5LpYXc",
-          "short_id": "462c73aef9f448"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🔒",
       "server": "172.235.229.138",
       "server_port": 21337,
       "uuid": "422899ac-7bfb-441a-89c2-5b9eee312790",
@@ -270,7 +270,7 @@
       "tag": "👨🏻‍💻",
       "server": "127.0.0.1",
       "server_port": 8080,
-      "password": "baaccab-acab-bcaa-badc-ccbbcaacbbaa",
+      "password": "cbabaca-caba-abca-badc-cabacbcbaabc",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"

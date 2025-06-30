@@ -5,7 +5,7 @@
       "tag": "🔄",
       "server": "127.0.0.1",
       "server_port": 1080,
-      "password": "bacaabc-caab-abac-dcab-bccabcbaabca",
+      "password": "aaacbbc-caba-bcaa-dacb-cbcacbabaabc",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"
@@ -16,7 +16,7 @@
       "tag": "🤖",
       "server": "127.0.0.1",
       "server_port": 2080,
-      "password": "cbcabaa-abca-bcaa-dcab-acccbacbbbaa",
+      "password": "baabacc-acab-caba-abcd-bbccbbaacaac",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"
@@ -27,7 +27,7 @@
       "tag": "🛡",
       "server": "127.0.0.1",
       "server_port": 3080,
-      "password": "aabacbc-acab-bcaa-bacd-acabccabbbac",
+      "password": "caabcab-caba-abac-cbad-cccaaabacbbb",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"
@@ -63,14 +63,6 @@
     {
       "type": "vless",
       "tag": "🔒",
-      "server": "172.232.237.24",
-      "server_port": 2321,
-      "uuid": "89ae5e18-3b81-4e5d-a645-d85012c602b1",
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "vless",
-      "tag": "🔒",
       "server": "172.235.251.52",
       "server_port": 321,
       "uuid": "1a18e79a-ff9c-43b5-90e1-1c43561364f2",
@@ -85,11 +77,19 @@
       "packet_encoding": "xudp"
     },
     {
+      "type": "vless",
+      "tag": "🔒",
+      "server": "172.232.237.24",
+      "server_port": 2321,
+      "uuid": "89ae5e18-3b81-4e5d-a645-d85012c602b1",
+      "packet_encoding": "xudp"
+    },
+    {
       "type": "trojan",
       "tag": "👨🏻‍💻",
       "server": "127.0.0.1",
       "server_port": 8080,
-      "password": "baaccab-acab-bcaa-badc-ccbbcaacbbaa",
+      "password": "cbabaca-caba-abca-badc-cabacbcbaabc",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"

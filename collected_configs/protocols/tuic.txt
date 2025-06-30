@@ -5,7 +5,7 @@
       "tag": "🔄",
       "server": "127.0.0.1",
       "server_port": 1080,
-      "uuid": "bacaabc-caab-abac-dcab-bccabcbaabca",
+      "uuid": "aaacbbc-caba-bcaa-dacb-cbcacbabaabc",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -21,7 +21,7 @@
       "tag": "🤖",
       "server": "127.0.0.1",
       "server_port": 2080,
-      "uuid": "cbcabaa-abca-bcaa-dcab-acccbacbbbaa",
+      "uuid": "baabacc-acab-caba-abcd-bbccbbaacaac",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -37,7 +37,7 @@
       "tag": "🛡",
       "server": "127.0.0.1",
       "server_port": 3080,
-      "uuid": "aabacbc-acab-bcaa-bacd-acabccabbbac",
+      "uuid": "caabcab-caba-abac-cbad-cccaaabacbbb",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -46,150 +46,6 @@
           "enabled": true,
           "fingerprint": "chrome"
         }
-      }
-    },
-    {
-      "type": "tuic",
-      "tag": "🔒",
-      "server": "70.34.208.3",
-      "server_port": 443,
-      "uuid": "87bc1693-8860-41d7-acf4-e6edf49abbbb",
-      "password": "",
-      "congestion_control": "bbr",
-      "udp_relay_mode": "native",
-      "tls": {
-        "enabled": true,
-        "server_name": "70.34.208.3",
-        "insecure": true,
-        "alpn": [
-          "h3,spdy/3.1"
-        ]
-      }
-    },
-    {
-      "type": "tuic",
-      "tag": "🔒",
-      "server": "134.209.28.89",
-      "server_port": 54773,
-      "uuid": "2f77527e-678c-4af6-9a0a-30823885bd53",
-      "password": "",
-      "congestion_control": "cubic",
-      "udp_relay_mode": "native",
-      "tls": {
-        "enabled": true,
-        "server_name": "134.209.28.89.sslip.io",
-        "insecure": false,
-        "alpn": [
-          "h3"
-        ]
-      }
-    },
-    {
-      "type": "tuic",
-      "tag": "🔒",
-      "server": "70.34.197.98",
-      "server_port": 443,
-      "uuid": "87bc1693-8860-41d7-acf4-e6edf49abbbb",
-      "password": "",
-      "congestion_control": "bbr",
-      "udp_relay_mode": "native",
-      "tls": {
-        "enabled": true,
-        "server_name": "70.34.197.98",
-        "insecure": true,
-        "alpn": [
-          "h3,spdy/3.1"
-        ]
-      }
-    },
-    {
-      "type": "tuic",
-      "tag": "🔒",
-      "server": "136.244.88.153",
-      "server_port": 443,
-      "uuid": "38e38f61-b1dd-4b34-90d0-f6222fd7393f",
-      "password": "",
-      "congestion_control": "bbr",
-      "udp_relay_mode": "native",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.apple.com",
-        "insecure": true,
-        "alpn": [
-          "h3"
-        ]
-      }
-    },
-    {
-      "type": "tuic",
-      "tag": "🔒",
-      "server": "70.34.198.64",
-      "server_port": 443,
-      "uuid": "6313c68a-472b-4999-ba33-094a55ea7549",
-      "password": "",
-      "congestion_control": "bbr",
-      "udp_relay_mode": "native",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.apple.com",
-        "insecure": true,
-        "alpn": [
-          "h3,spdy/3.1"
-        ]
-      }
-    },
-    {
-      "type": "tuic",
-      "tag": "🔒",
-      "server": "31.25.237.9",
-      "server_port": 52849,
-      "uuid": "7c81d0a8-8e23-44d4-94b5-56d33b7af07d",
-      "password": "",
-      "congestion_control": "bbr",
-      "udp_relay_mode": "native",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.bing.com",
-        "insecure": true,
-        "alpn": [
-          "h3"
-        ]
-      }
-    },
-    {
-      "type": "tuic",
-      "tag": "🔒",
-      "server": "64.176.191.133",
-      "server_port": 443,
-      "uuid": "d1bb3aae-ace9-4b0f-9ae5-85ab73acbb43",
-      "password": "",
-      "congestion_control": "bbr",
-      "udp_relay_mode": "native",
-      "tls": {
-        "enabled": true,
-        "server_name": "64.176.191.133",
-        "insecure": true,
-        "alpn": [
-          "h3,spdy/3.1"
-        ]
-      }
-    },
-    {
-      "type": "tuic",
-      "tag": "🔒",
-      "server": "64.176.186.193",
-      "server_port": 443,
-      "uuid": "d1bb3aae-ace9-4b0f-9ae5-85ab73acbb43",
-      "password": "",
-      "congestion_control": "bbr",
-      "udp_relay_mode": "native",
-      "tls": {
-        "enabled": true,
-        "server_name": "64.176.186.193",
-        "insecure": true,
-        "alpn": [
-          "h3,spdy/3.1"
-        ]
       }
     },
     {
@@ -204,24 +60,6 @@
       "tls": {
         "enabled": true,
         "server_name": "www.apple.com",
-        "insecure": true,
-        "alpn": [
-          "h3"
-        ]
-      }
-    },
-    {
-      "type": "tuic",
-      "tag": "🔒",
-      "server": "45.76.82.254",
-      "server_port": 35403,
-      "uuid": "6b389472-9094-4c8a-a780-3d371b2eade5",
-      "password": "",
-      "congestion_control": "cubic",
-      "udp_relay_mode": "native",
-      "tls": {
-        "enabled": true,
-        "server_name": "vkvd127.mycdn.me",
         "insecure": true,
         "alpn": [
           "h3"
@@ -265,11 +103,173 @@
       }
     },
     {
+      "type": "tuic",
+      "tag": "🔒",
+      "server": "31.25.237.9",
+      "server_port": 52849,
+      "uuid": "7c81d0a8-8e23-44d4-94b5-56d33b7af07d",
+      "password": "",
+      "congestion_control": "bbr",
+      "udp_relay_mode": "native",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.bing.com",
+        "insecure": true,
+        "alpn": [
+          "h3"
+        ]
+      }
+    },
+    {
+      "type": "tuic",
+      "tag": "🔒",
+      "server": "136.244.88.153",
+      "server_port": 443,
+      "uuid": "38e38f61-b1dd-4b34-90d0-f6222fd7393f",
+      "password": "",
+      "congestion_control": "bbr",
+      "udp_relay_mode": "native",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.apple.com",
+        "insecure": true,
+        "alpn": [
+          "h3"
+        ]
+      }
+    },
+    {
+      "type": "tuic",
+      "tag": "🔒",
+      "server": "70.34.198.64",
+      "server_port": 443,
+      "uuid": "6313c68a-472b-4999-ba33-094a55ea7549",
+      "password": "",
+      "congestion_control": "bbr",
+      "udp_relay_mode": "native",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.apple.com",
+        "insecure": true,
+        "alpn": [
+          "h3,spdy/3.1"
+        ]
+      }
+    },
+    {
+      "type": "tuic",
+      "tag": "🔒",
+      "server": "45.76.82.254",
+      "server_port": 35403,
+      "uuid": "6b389472-9094-4c8a-a780-3d371b2eade5",
+      "password": "",
+      "congestion_control": "cubic",
+      "udp_relay_mode": "native",
+      "tls": {
+        "enabled": true,
+        "server_name": "vkvd127.mycdn.me",
+        "insecure": true,
+        "alpn": [
+          "h3"
+        ]
+      }
+    },
+    {
+      "type": "tuic",
+      "tag": "🔒",
+      "server": "134.209.28.89",
+      "server_port": 54773,
+      "uuid": "2f77527e-678c-4af6-9a0a-30823885bd53",
+      "password": "",
+      "congestion_control": "cubic",
+      "udp_relay_mode": "native",
+      "tls": {
+        "enabled": true,
+        "server_name": "134.209.28.89.sslip.io",
+        "insecure": false,
+        "alpn": [
+          "h3"
+        ]
+      }
+    },
+    {
+      "type": "tuic",
+      "tag": "🔒",
+      "server": "64.176.186.193",
+      "server_port": 443,
+      "uuid": "d1bb3aae-ace9-4b0f-9ae5-85ab73acbb43",
+      "password": "",
+      "congestion_control": "bbr",
+      "udp_relay_mode": "native",
+      "tls": {
+        "enabled": true,
+        "server_name": "64.176.186.193",
+        "insecure": true,
+        "alpn": [
+          "h3,spdy/3.1"
+        ]
+      }
+    },
+    {
+      "type": "tuic",
+      "tag": "🔒",
+      "server": "70.34.208.3",
+      "server_port": 443,
+      "uuid": "87bc1693-8860-41d7-acf4-e6edf49abbbb",
+      "password": "",
+      "congestion_control": "bbr",
+      "udp_relay_mode": "native",
+      "tls": {
+        "enabled": true,
+        "server_name": "70.34.208.3",
+        "insecure": true,
+        "alpn": [
+          "h3,spdy/3.1"
+        ]
+      }
+    },
+    {
+      "type": "tuic",
+      "tag": "🔒",
+      "server": "64.176.191.133",
+      "server_port": 443,
+      "uuid": "d1bb3aae-ace9-4b0f-9ae5-85ab73acbb43",
+      "password": "",
+      "congestion_control": "bbr",
+      "udp_relay_mode": "native",
+      "tls": {
+        "enabled": true,
+        "server_name": "64.176.191.133",
+        "insecure": true,
+        "alpn": [
+          "h3,spdy/3.1"
+        ]
+      }
+    },
+    {
+      "type": "tuic",
+      "tag": "🔒",
+      "server": "70.34.197.98",
+      "server_port": 443,
+      "uuid": "87bc1693-8860-41d7-acf4-e6edf49abbbb",
+      "password": "",
+      "congestion_control": "bbr",
+      "udp_relay_mode": "native",
+      "tls": {
+        "enabled": true,
+        "server_name": "70.34.197.98",
+        "insecure": true,
+        "alpn": [
+          "h3,spdy/3.1"
+        ]
+      }
+    },
+    {
       "type": "vless",
       "tag": "👨🏻‍💻",
       "server": "127.0.0.1",
       "server_port": 8080,
-      "uuid": "baaccab-acab-bcaa-badc-ccbbcaacbbaa",
+      "uuid": "cbabaca-caba-abca-badc-cabacbcbaabc",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,

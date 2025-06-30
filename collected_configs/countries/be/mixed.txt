@@ -5,7 +5,7 @@
       "tag": "🔄",
       "server": "127.0.0.1",
       "server_port": 1080,
-      "password": "bacaabc-caab-abac-dcab-bccabcbaabca",
+      "password": "aaacbbc-caba-bcaa-dacb-cbcacbabaabc",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"
@@ -16,7 +16,7 @@
       "tag": "🤖",
       "server": "127.0.0.1",
       "server_port": 2080,
-      "password": "cbcabaa-abca-bcaa-dcab-acccbacbbbaa",
+      "password": "baabacc-acab-caba-abcd-bbccbbaacaac",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"
@@ -27,7 +27,7 @@
       "tag": "🛡",
       "server": "127.0.0.1",
       "server_port": 3080,
-      "password": "aabacbc-acab-bcaa-bacd-acabccabbbac",
+      "password": "caabcab-caba-abac-cbad-cccaaabacbbb",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"
@@ -52,21 +52,6 @@
     {
       "type": "vless",
       "tag": "🔒",
-      "server": "151.101.8.51",
-      "server_port": 80,
-      "uuid": "b1533182-6015-4f0d-b393-d3b94f55877f",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "taxi.ir"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🔒",
       "server": "79.127.224.12",
       "server_port": 8443,
       "uuid": "157448af-8ecf-4075-a9e9-b23a6a94899b",
@@ -77,6 +62,21 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🔒",
+      "server": "151.101.8.163",
+      "server_port": 80,
+      "uuid": "6d4ddb94-ebb6-4884-9711-00d0ca9d7dbe",
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "/?ed=2048",
+        "headers": {
+          "Host": "game.baziha0098.ir"
         }
       }
     },
@@ -98,15 +98,15 @@
     {
       "type": "vless",
       "tag": "🔒",
-      "server": "151.101.8.163",
+      "server": "151.101.8.51",
       "server_port": 80,
-      "uuid": "6d4ddb94-ebb6-4884-9711-00d0ca9d7dbe",
+      "uuid": "b1533182-6015-4f0d-b393-d3b94f55877f",
       "packet_encoding": "xudp",
       "transport": {
         "type": "ws",
-        "path": "/?ed=2048",
+        "path": "/",
         "headers": {
-          "Host": "game.baziha0098.ir"
+          "Host": "taxi.ir"
         }
       }
     },
@@ -115,7 +115,7 @@
       "tag": "👨🏻‍💻",
       "server": "127.0.0.1",
       "server_port": 8080,
-      "password": "baaccab-acab-bcaa-badc-ccbbcaacbbaa",
+      "password": "cbabaca-caba-abca-badc-cabacbcbaabc",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"
