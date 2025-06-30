@@ -5,7 +5,7 @@
       "tag": "🔄",
       "server": "127.0.0.1",
       "server_port": 1080,
-      "password": "ccbaaab-acba-bcaa-cadb-aaaccbcbcabb",
+      "password": "aacbabc-abac-caab-adcb-bacbbaccacba",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"
@@ -16,7 +16,7 @@
       "tag": "🤖",
       "server": "127.0.0.1",
       "server_port": 2080,
-      "password": "acbacab-cbaa-acab-badc-abccbabccaba",
+      "password": "bcbcaaa-cbaa-acba-cabd-baabcbaccacb",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"
@@ -27,7 +27,7 @@
       "tag": "🛡",
       "server": "127.0.0.1",
       "server_port": 3080,
-      "password": "bcbcaaa-aacb-aacb-bcda-abccbaaabccb",
+      "password": "bbcacaa-caab-bcaa-abdc-aacbbbbcccaa",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"
@@ -45,22 +45,22 @@
       "type": "trojan",
       "tag": "🔒",
       "server": "151.101.242.172",
-      "server_port": 80,
+      "server_port": 443,
       "password": "45f98d84-f1ab-4783-989e-e3b930913665",
       "tls": {
         "enabled": true,
-        "server_name": "mci.ir"
+        "server_name": "cdn.arvancloud.ir"
       }
     },
     {
       "type": "trojan",
       "tag": "🔒",
       "server": "151.101.242.172",
-      "server_port": 443,
+      "server_port": 80,
       "password": "45f98d84-f1ab-4783-989e-e3b930913665",
       "tls": {
         "enabled": true,
-        "server_name": "cdn.arvancloud.ir"
+        "server_name": "mci.ir"
       }
     },
     {
@@ -72,61 +72,6 @@
       "tls": {
         "enabled": true,
         "server_name": "ageph.ambercc.filegear-sg.me"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🔒",
-      "server": "151.101.242.172",
-      "server_port": 80,
-      "uuid": "fd8be803-c16f-4d8f-9dcd-cbad92be1100",
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "vless",
-      "tag": "🔒",
-      "server": "217.61.61.190",
-      "server_port": 42538,
-      "uuid": "c1f85ebc-b908-458f-a4e0-4aabb6bd351d",
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "vless",
-      "tag": "🔒",
-      "server": "217.61.61.118",
-      "server_port": 42538,
-      "uuid": "fdba320d-23a9-4e05-9604-3c1ca88f49b7",
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "vless",
-      "tag": "🔒",
-      "server": "146.75.55.82",
-      "server_port": 80,
-      "uuid": "e96e8d9f-cc86-4f98-97b1-c60f2e558a91",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "ana.ir"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🔒",
-      "server": "84.17.58.134",
-      "server_port": 8443,
-      "uuid": "157448af-8ecf-4075-a9e9-b23a6a94899b",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "mil-it.fromblancwithlove.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
       }
     },
     {
@@ -155,17 +100,60 @@
     {
       "type": "vless",
       "tag": "🔒",
-      "server": "151.101.242.133",
+      "server": "217.61.61.190",
+      "server_port": 42538,
+      "uuid": "c1f85ebc-b908-458f-a4e0-4aabb6bd351d",
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "🔒",
+      "server": "151.101.242.172",
       "server_port": 80,
-      "uuid": "428287e2-0a51-42d5-89a5-d07f5f10a481",
+      "uuid": "a34f77b3-cb45-4abe-80f3-5d026ae64168",
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "xhttp"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🔒",
+      "server": "84.17.58.134",
+      "server_port": 8443,
+      "uuid": "157448af-8ecf-4075-a9e9-b23a6a94899b",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "mil-it.fromblancwithlove.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🔒",
+      "server": "146.75.55.82",
+      "server_port": 80,
+      "uuid": "79b89098-2000-4eaa-ba46-8b7a0c98b104",
       "packet_encoding": "xudp",
       "transport": {
         "type": "ws",
-        "path": "/",
+        "path": "/download",
         "headers": {
-          "Host": "taxi.ir"
+          "Host": "haledada.com"
         }
       }
+    },
+    {
+      "type": "vless",
+      "tag": "🔒",
+      "server": "217.61.61.118",
+      "server_port": 42538,
+      "uuid": "fdba320d-23a9-4e05-9604-3c1ca88f49b7",
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -181,49 +169,22 @@
     {
       "type": "vless",
       "tag": "🔒",
+      "server": "151.101.242.133",
+      "server_port": 80,
+      "uuid": "428287e2-0a51-42d5-89a5-d07f5f10a481",
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "taxi.ir"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🔒",
       "server": "4.232.169.126",
-      "server_port": 443,
-      "uuid": "1ae544de-4b19-4bd0-a7d6-e47e2e19a057",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "itgetsbetter.org",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "u13aSU1om7Mc67RxQHmVQx7iALWAUCn_j38zQ5LpYXc",
-          "short_id": "462c73aef9f448"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🔒",
-      "server": "85.235.149.184",
-      "server_port": 4000,
-      "uuid": "d8079f97-ac60-4758-9dd5-9a5eb3dd5bb5",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "refersion.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "QRGqyPYJmaBIeIXaOoKs8UG0vGLPGcbDinQqYrrpAGU",
-          "short_id": "d08aeb0330883adf"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🔒",
-      "server": "72.146.232.42",
       "server_port": 443,
       "uuid": "1ae544de-4b19-4bd0-a7d6-e47e2e19a057",
       "packet_encoding": "xudp",
@@ -263,11 +224,53 @@
       }
     },
     {
+      "type": "vless",
+      "tag": "🔒",
+      "server": "72.146.232.42",
+      "server_port": 443,
+      "uuid": "1ae544de-4b19-4bd0-a7d6-e47e2e19a057",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "itgetsbetter.org",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "u13aSU1om7Mc67RxQHmVQx7iALWAUCn_j38zQ5LpYXc",
+          "short_id": "462c73aef9f448"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🔒",
+      "server": "85.235.149.184",
+      "server_port": 4000,
+      "uuid": "d8079f97-ac60-4758-9dd5-9a5eb3dd5bb5",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "refersion.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "QRGqyPYJmaBIeIXaOoKs8UG0vGLPGcbDinQqYrrpAGU",
+          "short_id": "d08aeb0330883adf"
+        }
+      }
+    },
+    {
       "type": "trojan",
       "tag": "👨🏻‍💻",
       "server": "127.0.0.1",
       "server_port": 8080,
-      "password": "cbbcaaa-acab-baac-cdba-bacaccbbcaab",
+      "password": "aacbcab-abca-acba-bdca-bccabbacbaca",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"
