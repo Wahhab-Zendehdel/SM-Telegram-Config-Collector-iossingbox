@@ -5,7 +5,7 @@
       "tag": "🔄",
       "server": "127.0.0.1",
       "server_port": 1080,
-      "password": "acbbaac-caab-abac-abcd-abcacbcbabac",
+      "password": "acbcbaa-baca-abac-dcab-bacbabcaacbc",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"
@@ -16,7 +16,7 @@
       "tag": "🤖",
       "server": "127.0.0.1",
       "server_port": 2080,
-      "password": "aacabcb-baac-aabc-dbca-bcabbabcaacc",
+      "password": "baacbca-cbaa-aabc-dbca-baacbbaabccc",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"
@@ -27,7 +27,7 @@
       "tag": "🛡",
       "server": "127.0.0.1",
       "server_port": 3080,
-      "password": "bbaccaa-baac-cbaa-adbc-bbacabacccab",
+      "password": "abccbaa-caab-caba-dacb-babacbcccaba",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"
@@ -36,7 +36,7 @@
     {
       "type": "shadowsocks",
       "tag": "🔒",
-      "server": "62.60.233.173",
+      "server": "62.133.63.226",
       "server_port": 2222,
       "method": "chacha20-ietf-poly1305",
       "password": "qscavF5UviIL-8V-E4raBA"
@@ -52,42 +52,10 @@
     {
       "type": "shadowsocks",
       "tag": "🔒",
-      "server": "193.124.46.196",
-      "server_port": 53024,
-      "method": "chacha20-ietf-poly1305",
-      "password": "oFXVXlG6v4NhGMyxjQqQQg"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🔒",
-      "server": "62.133.63.21",
-      "server_port": 65262,
-      "method": "chacha20-ietf-poly1305",
-      "password": "20zc8V6Ui2Yf8J9HDGYCHH"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🔒",
-      "server": "62.133.63.226",
+      "server": "62.60.233.173",
       "server_port": 2222,
       "method": "chacha20-ietf-poly1305",
       "password": "qscavF5UviIL-8V-E4raBA"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🔒",
-      "server": "62.133.63.212",
-      "server_port": 57456,
-      "method": "chacha20-ietf-poly1305",
-      "password": "c40641c1f89e7acb"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🔒",
-      "server": "83.217.9.39",
-      "server_port": 7317,
-      "method": "chacha20-ietf-poly1305",
-      "password": "gdzWuhemJVVspHwzCsZejf"
     },
     {
       "type": "shadowsocks",
@@ -100,10 +68,42 @@
     {
       "type": "shadowsocks",
       "tag": "🔒",
+      "server": "62.133.63.21",
+      "server_port": 65262,
+      "method": "chacha20-ietf-poly1305",
+      "password": "20zc8V6Ui2Yf8J9HDGYCHH"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🔒",
+      "server": "185.123.101.241",
+      "server_port": 990,
+      "method": "chacha20-ietf-poly1305",
+      "password": "f8f7aCzcPKbsF8p3"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🔒",
       "server": "83.217.9.128",
       "server_port": 2222,
       "method": "chacha20-ietf-poly1305",
       "password": "qscavF5UviIL-8V-E4raBA"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🔒",
+      "server": "185.39.204.12",
+      "server_port": 16297,
+      "method": "chacha20-ietf-poly1305",
+      "password": "G0o2hE4eLuR2wwyFao0lsJ"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🔒",
+      "server": "83.217.9.39",
+      "server_port": 7317,
+      "method": "chacha20-ietf-poly1305",
+      "password": "gdzWuhemJVVspHwzCsZejf"
     },
     {
       "type": "shadowsocks",
@@ -116,21 +116,18 @@
     {
       "type": "shadowsocks",
       "tag": "🔒",
-      "server": "185.39.204.12",
-      "server_port": 16297,
+      "server": "193.124.46.196",
+      "server_port": 53024,
       "method": "chacha20-ietf-poly1305",
-      "password": "G0o2hE4eLuR2wwyFao0lsJ"
+      "password": "oFXVXlG6v4NhGMyxjQqQQg"
     },
     {
-      "type": "trojan",
+      "type": "shadowsocks",
       "tag": "🔒",
-      "server": "185.226.93.9",
-      "server_port": 443,
-      "password": "fsoOufuTGmSKzRDaAwAbww",
-      "tls": {
-        "enabled": true,
-        "server_name": "185.226.93.9"
-      }
+      "server": "62.133.63.212",
+      "server_port": 57456,
+      "method": "chacha20-ietf-poly1305",
+      "password": "c40641c1f89e7acb"
     },
     {
       "type": "trojan",
@@ -155,33 +152,62 @@
       }
     },
     {
+      "type": "trojan",
+      "tag": "🔒",
+      "server": "185.226.93.9",
+      "server_port": 443,
+      "password": "fsoOufuTGmSKzRDaAwAbww",
+      "tls": {
+        "enabled": true,
+        "server_name": "185.226.93.9"
+      }
+    },
+    {
       "type": "vless",
       "tag": "🔒",
-      "server": "45.89.52.169",
-      "server_port": 22482,
-      "uuid": "3a559234-bb5f-4db7-95da-f65c43f8ad88",
+      "server": "93.180.134.171",
+      "server_port": 8880,
+      "uuid": "4d2f4a48-c525-419e-97ac-317ff398aa7b",
       "packet_encoding": "xudp"
     },
     {
       "type": "vless",
       "tag": "🔒",
-      "server": "62.3.12.185",
-      "server_port": 443,
-      "uuid": "75fde681-ec64-4654-86fa-30732e8e179c",
+      "server": "62.3.12.76",
+      "server_port": 80,
+      "uuid": "53fa8faf-ba4b-4322-9c69-a3e5b1555049",
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "/TelegramU0001F1E8U0001F1F3",
+        "headers": {
+          "Host": "reedfree8mahsang2.redorg.ir"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🔒",
+      "server": "91.206.71.202",
+      "server_port": 8080,
+      "uuid": "428287e2-0a51-42d5-89a5-d07f5f10a481",
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "httpupgrade"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🔒",
+      "server": "91.206.71.202",
+      "server_port": 8880,
+      "uuid": "6f393e4a-2811-4eb6-bbe3-a6917381bdcd",
       "packet_encoding": "xudp",
       "transport": {
         "type": "ws",
         "path": "/",
         "headers": {
-          "Host": "nginx-z.pages.dev"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "NGINX-Z.pages.DEV",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
+          "Host": "pamchall.com."
         }
       }
     },
@@ -192,6 +218,32 @@
       "server_port": 43829,
       "uuid": "78059aea-8b25-41e3-8314-0c05bc539bcd",
       "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "🔒",
+      "server": "91.206.71.162",
+      "server_port": 8880,
+      "uuid": "b55059e9-6adf-409a-a110-c1cf0a36bd7e",
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "/Telegram—VPNCUSTOMIZE?ed=2048",
+        "headers": {
+          "Host": "join.vpncustomize.iran.ir.arvancloud.ir.www.speedtest.net.sik.ddns-ip.net"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🔒",
+      "server": "213.156.152.238",
+      "server_port": 8880,
+      "uuid": "b96416ac-60f9-4136-9eac-9f55ae9960b0",
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "kcp"
+      }
     },
     {
       "type": "vless",
@@ -224,22 +276,6 @@
     {
       "type": "vless",
       "tag": "🔒",
-      "server": "213.142.134.162",
-      "server_port": 42540,
-      "uuid": "fdba320d-23a9-4e05-9604-3c1ca88f49b7",
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "vless",
-      "tag": "🔒",
-      "server": "91.206.71.162",
-      "server_port": 80,
-      "uuid": "b67d238c-742c-492c-a44c-a2001186ff5b",
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "vless",
-      "tag": "🔒",
       "server": "213.142.133.184",
       "server_port": 11928,
       "uuid": "67525da1-a606-4725-98f3-513c13904d9d",
@@ -256,6 +292,45 @@
     {
       "type": "vless",
       "tag": "🔒",
+      "server": "94.131.108.195",
+      "server_port": 53221,
+      "uuid": "90efad13-d266-4d10-a914-bc40028ec469",
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "🔒",
+      "server": "62.3.12.185",
+      "server_port": 443,
+      "uuid": "75fde681-ec64-4654-86fa-30732e8e179c",
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "nginx-z.pages.dev"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "NGINX-Z.pages.DEV",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🔒",
+      "server": "213.142.134.162",
+      "server_port": 42540,
+      "uuid": "fdba320d-23a9-4e05-9604-3c1ca88f49b7",
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "🔒",
       "server": "185.220.227.87",
       "server_port": 443,
       "uuid": "8636b38e-2001-48a0-fc27-6706848c5723",
@@ -267,6 +342,22 @@
           "Host": "wdf-7fc9613170-sdsd.apps.ir-central1.arvancaas.ir"
         }
       }
+    },
+    {
+      "type": "vless",
+      "tag": "🔒",
+      "server": "91.206.71.162",
+      "server_port": 80,
+      "uuid": "b67d238c-742c-492c-a44c-a2001186ff5b",
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "🔒",
+      "server": "45.89.52.169",
+      "server_port": 22482,
+      "uuid": "3a559234-bb5f-4db7-95da-f65c43f8ad88",
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -294,213 +385,12 @@
     {
       "type": "vless",
       "tag": "🔒",
-      "server": "91.206.71.202",
-      "server_port": 8080,
-      "uuid": "428287e2-0a51-42d5-89a5-d07f5f10a481",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "httpupgrade"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🔒",
-      "server": "213.156.152.238",
-      "server_port": 8880,
-      "uuid": "b96416ac-60f9-4136-9eac-9f55ae9960b0",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "kcp"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🔒",
       "server": "91.206.71.110",
       "server_port": 8080,
       "uuid": "428287e2-0a51-42d5-89a5-d07f5f10a481",
       "packet_encoding": "xudp",
       "transport": {
         "type": "httpupgrade"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🔒",
-      "server": "62.60.233.250",
-      "server_port": 443,
-      "uuid": "fd0cdd44-2361-11f0-9970-45e1d80c4039",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "images.apple.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🔒",
-      "server": "91.206.71.162",
-      "server_port": 8880,
-      "uuid": "b55059e9-6adf-409a-a110-c1cf0a36bd7e",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "ws",
-        "path": "/Telegram—VPNCUSTOMIZE?ed=2048",
-        "headers": {
-          "Host": "join.vpncustomize.iran.ir.arvancloud.ir.www.speedtest.net.sik.ddns-ip.net"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🔒",
-      "server": "94.131.108.195",
-      "server_port": 53221,
-      "uuid": "90efad13-d266-4d10-a914-bc40028ec469",
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "vless",
-      "tag": "🔒",
-      "server": "93.180.134.171",
-      "server_port": 8880,
-      "uuid": "4d2f4a48-c525-419e-97ac-317ff398aa7b",
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "vless",
-      "tag": "🔒",
-      "server": "91.206.71.202",
-      "server_port": 8880,
-      "uuid": "6f393e4a-2811-4eb6-bbe3-a6917381bdcd",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "pamchall.com."
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🔒",
-      "server": "62.3.12.76",
-      "server_port": 80,
-      "uuid": "53fa8faf-ba4b-4322-9c69-a3e5b1555049",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "ws",
-        "path": "/TelegramU0001F1E8U0001F1F3",
-        "headers": {
-          "Host": "reedfree8mahsang2.redorg.ir"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🔒",
-      "server": "62.133.63.97",
-      "server_port": 443,
-      "uuid": "a93352eb-6c60-4c08-9160-5c82a661c2fd",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "google.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "cTm0TIKL9qK550XICK2YroOSr1u-f12h5UmBw2EAr2c"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🔒",
-      "server": "213.142.133.92",
-      "server_port": 5056,
-      "uuid": "aa2be8f1-32f2-4358-a2d3-e98f3c458955",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "refersion.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "SIZUCP8kFTMNONyzojhPmYWM_530dU3MEJVsJAV_604"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🔒",
-      "server": "62.60.233.250",
-      "server_port": 443,
-      "uuid": "fd0cdd44-2361-11f0-9970-45e1d80c4039",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "images.apple.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "MFsbnsNQsSpZwP-_Ohzako6aHpfK4-rbssxhr3eywWw",
-          "short_id": "4476a3"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🔒",
-      "server": "188.132.184.148",
-      "server_port": 8443,
-      "uuid": "d6cbf3e4-b7ca-a4b2-0b04-eacbdc28bc5a",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "greenpepper.ir",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "7gzxsxnqwoh1HEfp02BQpEmMaIFHqz4RL8h68hZqsjc",
-          "short_id": "6ea3daaac3d6bede"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🔒",
-      "server": "45.133.36.230",
-      "server_port": 443,
-      "uuid": "c5477343-3db8-4486-c60f-3f7d59eda81c",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.latimes.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "aWkDnGz6ncSTu_pOZggU23ZlBP-nrq65iCo2rSbujG8"
-        }
       }
     },
     {
@@ -520,154 +410,6 @@
         "reality": {
           "enabled": true,
           "public_key": "cTm0TIKL9qK550XICK2YroOSr1u-f12h5UmBw2EAr2c"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🔒",
-      "server": "213.142.133.92",
-      "server_port": 2035,
-      "uuid": "fb5e0a3d-b08c-4184-a499-a4fceda613bd",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "refersion.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "P5ToEkglPKRO87kgIZycZsfrUKqvHlPlR7Huc-Fu2WM",
-          "short_id": "0aa48381a702e248"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🔒",
-      "server": "216.9.224.156",
-      "server_port": 443,
-      "uuid": "96685d68-be9c-41b5-9122-e5a4331ea76c",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "xhttp"
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "www.microsoft.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "PtBXJIYX5wPuiv0dX_hjJIiod4HOa0lELi4IJeSHBFg",
-          "short_id": "8d5dd1"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🔒",
-      "server": "31.40.205.42",
-      "server_port": 32223,
-      "uuid": "c33b1535-1557-4e0b-aa2b-f326c6151436",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "apps.apple.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "edge"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "dXwonwg9IAAXTVdh8-vhzgP1u6yhJOjVlWrx1fWOzFU",
-          "short_id": "77"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🔒",
-      "server": "91.151.90.100",
-      "server_port": 443,
-      "uuid": "3e490611-a7d1-4968-bcd9-955d6342b203",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "hamidi2.spsvps.xyz",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "fm40M72LdQsjjom93KudiY9kADRsSZsItTWzYORdyyE",
-          "short_id": "510aaa"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🔒",
-      "server": "83.217.9.52",
-      "server_port": 443,
-      "uuid": "cf246718-27fc-42cc-b8a5-6897c7ca907f",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "google.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "cTm0TIKL9qK550XICK2YroOSr1u-f12h5UmBw2EAr2c"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🔒",
-      "server": "94.131.123.241",
-      "server_port": 443,
-      "uuid": "d895495c-d1ed-46e4-9235-35c54c9ed901",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "google.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "0hH6R90pSxwm7nZPGtJJcJFhwCXU3Rvf-wcEHE7hczo"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🔒",
-      "server": "103.231.75.184",
-      "server_port": 2089,
-      "uuid": "d8475b82-f561-4e8b-99b4-b03158810dd0",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "microsoft.org",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "bvEBes1y2n6327dEgJyZTR6Xz_EuyfLdkEX7DxWGFFg",
-          "short_id": "e3c5c005cae07eb8"
         }
       }
     },
@@ -699,9 +441,29 @@
     {
       "type": "vless",
       "tag": "🔒",
-      "server": "83.217.9.122",
+      "server": "94.131.123.241",
       "server_port": 443,
-      "uuid": "c120b4fe-9aae-4973-a296-81bda70d21da",
+      "uuid": "d895495c-d1ed-46e4-9235-35c54c9ed901",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "google.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "0hH6R90pSxwm7nZPGtJJcJFhwCXU3Rvf-wcEHE7hczo"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🔒",
+      "server": "185.39.204.29",
+      "server_port": 443,
+      "uuid": "22f493aa-cab4-4040-bef1-c3a5d4418b3b",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -719,9 +481,74 @@
     {
       "type": "vless",
       "tag": "🔒",
-      "server": "185.39.204.29",
+      "server": "216.9.224.156",
       "server_port": 443,
-      "uuid": "22f493aa-cab4-4040-bef1-c3a5d4418b3b",
+      "uuid": "96685d68-be9c-41b5-9122-e5a4331ea76c",
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "xhttp"
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "www.microsoft.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "PtBXJIYX5wPuiv0dX_hjJIiod4HOa0lELi4IJeSHBFg",
+          "short_id": "8d5dd1"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🔒",
+      "server": "188.132.184.148",
+      "server_port": 8443,
+      "uuid": "d6cbf3e4-b7ca-a4b2-0b04-eacbdc28bc5a",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "greenpepper.ir",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "7gzxsxnqwoh1HEfp02BQpEmMaIFHqz4RL8h68hZqsjc",
+          "short_id": "6ea3daaac3d6bede"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🔒",
+      "server": "62.133.63.97",
+      "server_port": 443,
+      "uuid": "a93352eb-6c60-4c08-9160-5c82a661c2fd",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "google.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "cTm0TIKL9qK550XICK2YroOSr1u-f12h5UmBw2EAr2c"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🔒",
+      "server": "83.217.9.52",
+      "server_port": 443,
+      "uuid": "cf246718-27fc-42cc-b8a5-6897c7ca907f",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -762,11 +589,176 @@
       }
     },
     {
+      "type": "vless",
+      "tag": "🔒",
+      "server": "45.133.36.230",
+      "server_port": 443,
+      "uuid": "c5477343-3db8-4486-c60f-3f7d59eda81c",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.latimes.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "aWkDnGz6ncSTu_pOZggU23ZlBP-nrq65iCo2rSbujG8"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🔒",
+      "server": "31.40.205.42",
+      "server_port": 32223,
+      "uuid": "c33b1535-1557-4e0b-aa2b-f326c6151436",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "apps.apple.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "edge"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "dXwonwg9IAAXTVdh8-vhzgP1u6yhJOjVlWrx1fWOzFU",
+          "short_id": "77"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🔒",
+      "server": "62.60.233.250",
+      "server_port": 443,
+      "uuid": "fd0cdd44-2361-11f0-9970-45e1d80c4039",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "images.apple.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "MFsbnsNQsSpZwP-_Ohzako6aHpfK4-rbssxhr3eywWw",
+          "short_id": "4476a3"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🔒",
+      "server": "83.217.9.122",
+      "server_port": 443,
+      "uuid": "c120b4fe-9aae-4973-a296-81bda70d21da",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "google.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "cTm0TIKL9qK550XICK2YroOSr1u-f12h5UmBw2EAr2c"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🔒",
+      "server": "213.142.133.92",
+      "server_port": 2035,
+      "uuid": "fb5e0a3d-b08c-4184-a499-a4fceda613bd",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "refersion.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "safari"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "P5ToEkglPKRO87kgIZycZsfrUKqvHlPlR7Huc-Fu2WM",
+          "short_id": "0aa48381a702e248"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🔒",
+      "server": "213.142.133.92",
+      "server_port": 5056,
+      "uuid": "aa2be8f1-32f2-4358-a2d3-e98f3c458955",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "refersion.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "SIZUCP8kFTMNONyzojhPmYWM_530dU3MEJVsJAV_604"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🔒",
+      "server": "103.231.75.184",
+      "server_port": 2089,
+      "uuid": "d8475b82-f561-4e8b-99b4-b03158810dd0",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "microsoft.org",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "bvEBes1y2n6327dEgJyZTR6Xz_EuyfLdkEX7DxWGFFg",
+          "short_id": "e3c5c005cae07eb8"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🔒",
+      "server": "91.151.90.100",
+      "server_port": 443,
+      "uuid": "3e490611-a7d1-4968-bcd9-955d6342b203",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "hamidi2.spsvps.xyz",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "fm40M72LdQsjjom93KudiY9kADRsSZsItTWzYORdyyE",
+          "short_id": "510aaa"
+        }
+      }
+    },
+    {
       "type": "trojan",
       "tag": "👨🏻‍💻",
       "server": "127.0.0.1",
       "server_port": 8080,
-      "password": "cbaabca-baca-caab-bcad-bbcaccbaabac",
+      "password": "bcaabca-abac-abac-acbd-bcbaaaabccbc",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"

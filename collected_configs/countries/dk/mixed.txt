@@ -5,7 +5,7 @@
       "tag": "🔄",
       "server": "127.0.0.1",
       "server_port": 1080,
-      "password": "acbbaac-caab-abac-abcd-abcacbcbabac",
+      "password": "acbcbaa-baca-abac-dcab-bacbabcaacbc",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"
@@ -16,7 +16,7 @@
       "tag": "🤖",
       "server": "127.0.0.1",
       "server_port": 2080,
-      "password": "aacabcb-baac-aabc-dbca-bcabbabcaacc",
+      "password": "baacbca-cbaa-aabc-dbca-baacbbaabccc",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"
@@ -27,7 +27,7 @@
       "tag": "🛡",
       "server": "127.0.0.1",
       "server_port": 3080,
-      "password": "bbaccaa-baac-cbaa-adbc-bbacabacccab",
+      "password": "abccbaa-caab-caba-dacb-babacbcccaba",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"
@@ -44,17 +44,6 @@
     {
       "type": "trojan",
       "tag": "🔒",
-      "server": "46.29.235.31",
-      "server_port": 2053,
-      "password": "Aimer",
-      "tls": {
-        "enabled": true,
-        "server_name": "agepq.ambercc.filegear-sg.me"
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "🔒",
       "server": "95.164.85.39",
       "server_port": 443,
       "password": "0fc9c5ff-9531-4178-966f-7d958e1df64b",
@@ -64,24 +53,14 @@
       }
     },
     {
-      "type": "vless",
+      "type": "trojan",
       "tag": "🔒",
-      "server": "193.180.211.106",
-      "server_port": 443,
-      "uuid": "6ba20a61-9ca7-4f9e-ac38-95f63c888a95",
-      "packet_encoding": "xudp",
+      "server": "46.29.235.31",
+      "server_port": 2053,
+      "password": "Aimer",
       "tls": {
         "enabled": true,
-        "server_name": "www.google.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "9ScHOKzJC7yKULZTUXzLHqW1YdVm1iuAztbg3uyU4W4",
-          "short_id": "3b5f17c573589047"
-        }
+        "server_name": "agepq.ambercc.filegear-sg.me"
       }
     },
     {
@@ -110,7 +89,7 @@
       "tag": "🔒",
       "server": "95.164.10.184",
       "server_port": 8443,
-      "uuid": "092d0e3f-aeb5-447f-9b21-12b74542eff8",
+      "uuid": "817c25bf-2f8b-4afd-b6e0-8603b84712de",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -127,11 +106,32 @@
       }
     },
     {
+      "type": "vless",
+      "tag": "🔒",
+      "server": "193.180.211.106",
+      "server_port": 443,
+      "uuid": "6ba20a61-9ca7-4f9e-ac38-95f63c888a95",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.google.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "9ScHOKzJC7yKULZTUXzLHqW1YdVm1iuAztbg3uyU4W4",
+          "short_id": "3b5f17c573589047"
+        }
+      }
+    },
+    {
       "type": "trojan",
       "tag": "👨🏻‍💻",
       "server": "127.0.0.1",
       "server_port": 8080,
-      "password": "cbaabca-baca-caab-bcad-bbcaccbaabac",
+      "password": "bcaabca-abac-abac-acbd-bcbaaaabccbc",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"
