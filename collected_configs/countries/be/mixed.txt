@@ -5,7 +5,7 @@
       "tag": "🔄",
       "server": "127.0.0.1",
       "server_port": 1080,
-      "password": "abbacca-baca-aabc-abcd-bcabbcabacac",
+      "password": "acbacab-aacb-aacb-adbc-cbabbabcccaa",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"
@@ -16,7 +16,7 @@
       "tag": "🤖",
       "server": "127.0.0.1",
       "server_port": 2080,
-      "password": "acbbcaa-caba-abac-dbca-bcbabcbcaaac",
+      "password": "bcabcaa-abca-acba-bacd-cacbacacbbab",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"
@@ -27,7 +27,7 @@
       "tag": "🛡",
       "server": "127.0.0.1",
       "server_port": 3080,
-      "password": "aacbacb-acab-caab-bacd-abcbbbcaacca",
+      "password": "acbabac-acba-aacb-bacd-ccabaaacbcbb",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"
@@ -67,21 +67,6 @@
     {
       "type": "vless",
       "tag": "🔒",
-      "server": "151.101.8.51",
-      "server_port": 80,
-      "uuid": "b1533182-6015-4f0d-b393-d3b94f55877f",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "taxi.ir"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🔒",
       "server": "79.127.224.12",
       "server_port": 8443,
       "uuid": "157448af-8ecf-4075-a9e9-b23a6a94899b",
@@ -111,11 +96,26 @@
       }
     },
     {
+      "type": "vless",
+      "tag": "🔒",
+      "server": "151.101.8.51",
+      "server_port": 80,
+      "uuid": "b1533182-6015-4f0d-b393-d3b94f55877f",
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "taxi.ir"
+        }
+      }
+    },
+    {
       "type": "trojan",
       "tag": "👨🏻‍💻",
       "server": "127.0.0.1",
       "server_port": 8080,
-      "password": "acbbaac-acba-baca-dcba-bcbbacaabcca",
+      "password": "aacbacb-baca-baac-cabd-cbaaacbbbcca",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"

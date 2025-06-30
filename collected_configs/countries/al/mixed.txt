@@ -5,7 +5,7 @@
       "tag": "🔄",
       "server": "127.0.0.1",
       "server_port": 1080,
-      "password": "abbacca-baca-aabc-abcd-bcabbcabacac",
+      "password": "acbacab-aacb-aacb-adbc-cbabbabcccaa",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"
@@ -16,7 +16,7 @@
       "tag": "🤖",
       "server": "127.0.0.1",
       "server_port": 2080,
-      "password": "acbbcaa-caba-abac-dbca-bcbabcbcaaac",
+      "password": "bcabcaa-abca-acba-bacd-cacbacacbbab",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"
@@ -27,7 +27,7 @@
       "tag": "🛡",
       "server": "127.0.0.1",
       "server_port": 3080,
-      "password": "aacbacb-acab-caab-bacd-abcbbbcaacca",
+      "password": "acbabac-acba-aacb-bacd-ccabaaacbcbb",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"
@@ -51,6 +51,26 @@
           "enabled": true,
           "public_key": "QgyNvrlHczufNmykfEZlNojkJNtz_BSc8JCVGZlpdT0",
           "short_id": "c104a7dd"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🔒",
+      "server": "93.123.46.100",
+      "server_port": 443,
+      "uuid": "8d7a09ce-7285-4713-babf-b3ac9ad58605",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "spirako.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "0hH6R90pSxwm7nZPGtJJcJFhwCXU3Rvf-wcEHE7hczo"
         }
       }
     },
@@ -97,31 +117,11 @@
       }
     },
     {
-      "type": "vless",
-      "tag": "🔒",
-      "server": "93.123.46.100",
-      "server_port": 443,
-      "uuid": "8d7a09ce-7285-4713-babf-b3ac9ad58605",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "spirako.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "0hH6R90pSxwm7nZPGtJJcJFhwCXU3Rvf-wcEHE7hczo"
-        }
-      }
-    },
-    {
       "type": "trojan",
       "tag": "👨🏻‍💻",
       "server": "127.0.0.1",
       "server_port": 8080,
-      "password": "acbbaac-acba-baca-dcba-bcbbacaabcca",
+      "password": "aacbacb-baca-baac-cabd-cbaaacbbbcca",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"
