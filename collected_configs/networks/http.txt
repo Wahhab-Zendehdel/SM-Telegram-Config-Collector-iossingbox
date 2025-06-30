@@ -5,7 +5,7 @@
       "tag": "🔄",
       "server": "127.0.0.1",
       "server_port": 1080,
-      "uuid": "caababc-caba-acba-cbda-baccababccab",
+      "uuid": "accbaab-caab-abac-acdb-acbcbaabccab",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -32,30 +32,11 @@
       "tag": "🛡",
       "server": "127.0.0.1",
       "server_port": 3080,
-      "uuid": "baccaba-cbaa-aabc-bdca-accbcbabbaca",
+      "uuid": "aabccba-baca-baca-dbac-aacccabbbabc",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🔒",
-      "server": "46.17.44.6",
-      "server_port": 443,
-      "uuid": "dec1d9ec-bca0-4fee-8829-0960c72b3cec",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "http"
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "ru2.asc-sam.ir",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -88,10 +69,29 @@
     },
     {
       "type": "vless",
+      "tag": "🔒",
+      "server": "46.17.44.6",
+      "server_port": 443,
+      "uuid": "dec1d9ec-bca0-4fee-8829-0960c72b3cec",
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "http"
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "ru2.asc-sam.ir",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "vless",
       "tag": "👨🏻‍💻",
       "server": "127.0.0.1",
       "server_port": 8080,
-      "uuid": "bbaacac-baac-bcaa-cabd-bccabcacaabb",
+      "uuid": "acbaabc-aacb-caba-acdb-accabcbabacb",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,

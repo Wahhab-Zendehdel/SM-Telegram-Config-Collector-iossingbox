@@ -5,7 +5,7 @@
       "tag": "🔄",
       "server": "127.0.0.1",
       "server_port": 1080,
-      "password": "caababc-caba-acba-cbda-baccababccab",
+      "password": "accbaab-caab-abac-acdb-acbcbaabccab",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"
@@ -16,7 +16,7 @@
       "tag": "🤖",
       "server": "127.0.0.1",
       "server_port": 2080,
-      "password": "baaaccb-bcaa-abca-abdc-ccbacbbbaaac",
+      "password": "aabbcca-baca-caab-dacb-bacbcaacbbac",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"
@@ -27,7 +27,7 @@
       "tag": "🛡",
       "server": "127.0.0.1",
       "server_port": 3080,
-      "password": "baccaba-cbaa-aabc-bdca-accbcbabbaca",
+      "password": "aabccba-baca-baca-dbac-aacccabbbabc",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"
@@ -79,14 +79,32 @@
       "tag": "🔒",
       "server": "151.101.242.172",
       "server_port": 80,
-      "uuid": "fc7a34b8-7f83-475f-bca4-7a8f5dc861fb",
+      "uuid": "a34f77b3-cb45-4abe-80f3-5d026ae64168",
       "packet_encoding": "xudp",
       "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "Germany.ss.ss"
-        }
+        "type": "xhttp"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🔒",
+      "server": "146.75.55.82",
+      "server_port": 80,
+      "uuid": "81bb83d7-8d68-48b3-8c7e-d46e9d851ebb",
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "xhttp"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🔒",
+      "server": "151.101.241.19",
+      "server_port": 80,
+      "uuid": "78f80c31-ff76-4bca-b43c-c991a9168f11",
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "xhttp"
       }
     },
     {
@@ -100,13 +118,10 @@
     {
       "type": "vless",
       "tag": "🔒",
-      "server": "151.101.241.19",
-      "server_port": 80,
-      "uuid": "78f80c31-ff76-4bca-b43c-c991a9168f11",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "xhttp"
-      }
+      "server": "217.61.61.190",
+      "server_port": 42538,
+      "uuid": "c1f85ebc-b908-458f-a4e0-4aabb6bd351d",
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -123,29 +138,6 @@
           "fingerprint": "chrome"
         }
       }
-    },
-    {
-      "type": "vless",
-      "tag": "🔒",
-      "server": "146.75.55.82",
-      "server_port": 80,
-      "uuid": "79b89098-2000-4eaa-ba46-8b7a0c98b104",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "ws",
-        "path": "/download",
-        "headers": {
-          "Host": "haledada.com"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🔒",
-      "server": "217.61.61.190",
-      "server_port": 42538,
-      "uuid": "c1f85ebc-b908-458f-a4e0-4aabb6bd351d",
-      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -188,27 +180,6 @@
     {
       "type": "vless",
       "tag": "🔒",
-      "server": "85.235.149.184",
-      "server_port": 4000,
-      "uuid": "d8079f97-ac60-4758-9dd5-9a5eb3dd5bb5",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "refersion.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "QRGqyPYJmaBIeIXaOoKs8UG0vGLPGcbDinQqYrrpAGU",
-          "short_id": "d08aeb0330883adf"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🔒",
       "server": "172.235.229.138",
       "server_port": 21337,
       "uuid": "422899ac-7bfb-441a-89c2-5b9eee312790",
@@ -224,6 +195,27 @@
           "enabled": true,
           "public_key": "bGfBNbN30La6XWb4Cakg4y7kRCiveT2LpWYhK8r3-BI",
           "short_id": "866c9d6a17a0ae44"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🔒",
+      "server": "4.232.169.126",
+      "server_port": 443,
+      "uuid": "1ae544de-4b19-4bd0-a7d6-e47e2e19a057",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "itgetsbetter.org",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "u13aSU1om7Mc67RxQHmVQx7iALWAUCn_j38zQ5LpYXc",
+          "short_id": "462c73aef9f448"
         }
       }
     },
@@ -251,21 +243,21 @@
     {
       "type": "vless",
       "tag": "🔒",
-      "server": "4.232.169.126",
-      "server_port": 443,
-      "uuid": "1ae544de-4b19-4bd0-a7d6-e47e2e19a057",
+      "server": "85.235.149.184",
+      "server_port": 4000,
+      "uuid": "d8079f97-ac60-4758-9dd5-9a5eb3dd5bb5",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
-        "server_name": "itgetsbetter.org",
+        "server_name": "refersion.com",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "u13aSU1om7Mc67RxQHmVQx7iALWAUCn_j38zQ5LpYXc",
-          "short_id": "462c73aef9f448"
+          "public_key": "QRGqyPYJmaBIeIXaOoKs8UG0vGLPGcbDinQqYrrpAGU",
+          "short_id": "d08aeb0330883adf"
         }
       }
     },
@@ -274,7 +266,7 @@
       "tag": "👨🏻‍💻",
       "server": "127.0.0.1",
       "server_port": 8080,
-      "password": "bbaacac-baac-bcaa-cabd-bccabcacaabb",
+      "password": "acbaabc-aacb-caba-acdb-accabcbabacb",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"
