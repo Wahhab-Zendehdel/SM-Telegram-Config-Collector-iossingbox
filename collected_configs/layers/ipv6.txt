@@ -5,7 +5,7 @@
       "tag": "🔄",
       "server": "127.0.0.1",
       "server_port": 1080,
-      "password": "aaacbbc-caba-bcaa-dacb-cbcacbabaabc",
+      "password": "bcaaabc-acab-abac-adbc-bacabacbabcc",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"
@@ -16,7 +16,7 @@
       "tag": "🤖",
       "server": "127.0.0.1",
       "server_port": 2080,
-      "password": "baabacc-acab-caba-abcd-bbccbbaacaac",
+      "password": "baccbaa-bcaa-acba-adbc-bcbabccaabac",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"
@@ -27,24 +27,16 @@
       "tag": "🛡",
       "server": "127.0.0.1",
       "server_port": 3080,
-      "password": "caabcab-caba-abac-cbad-cccaaabacbbb",
+      "password": "bbaccaa-caab-abca-acbd-aabcabcbbacc",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"
       }
     },
     {
-      "type": "shadowsocks",
-      "tag": "🔒",
-      "server": "::ffff:b280:c8c6",
-      "server_port": 8443,
-      "method": "aes-256-gcm",
-      "password": "KnYKwpw0w4c0RDnCo8KUcDQcwpp7w7bCv3nCgMOPHB/DnhLDj8OawrVVB2o5"
-    },
-    {
       "type": "vless",
       "tag": "🔒",
-      "server": "::ffff:91.193.58.48",
+      "server": "::ffff:156.238.18.136",
       "server_port": 8880,
       "uuid": "fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf",
       "packet_encoding": "xudp",
@@ -52,7 +44,7 @@
         "type": "ws",
         "path": "/",
         "headers": {
-          "Host": "tw.laoyoutiao.link"
+          "Host": "sg.laoyoutiao.link"
         }
       }
     },
@@ -89,7 +81,22 @@
     {
       "type": "vless",
       "tag": "🔒",
-      "server": "::ffff:156.238.18.136",
+      "server": "::ffff:91.193.58.48",
+      "server_port": 8880,
+      "uuid": "fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf",
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "tw.laoyoutiao.link"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🔒",
+      "server": "::ffff:156.238.18.177",
       "server_port": 8880,
       "uuid": "fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf",
       "packet_encoding": "xudp",
@@ -98,6 +105,21 @@
         "path": "/",
         "headers": {
           "Host": "sg.laoyoutiao.link"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🔒",
+      "server": "::ffff:3207:55dc",
+      "server_port": 80,
+      "uuid": "827545b9-5e1d-4e29-a97f-46b388891f57",
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "/?ed=443",
+        "headers": {
+          "Host": "hello-world-twilight-lake-386e.yijiled513.workers.dev"
         }
       }
     },
@@ -127,30 +149,25 @@
     {
       "type": "vless",
       "tag": "🔒",
-      "server": "::ffff:3207:55dc",
-      "server_port": 80,
-      "uuid": "827545b9-5e1d-4e29-a97f-46b388891f57",
+      "server": "0000:0000:0000:0000:0000:ffff:5b63:9012",
+      "server_port": 20600,
+      "uuid": "09324ee6-1235-4793-bf9b-0da17a466a69",
       "packet_encoding": "xudp",
       "transport": {
-        "type": "ws",
-        "path": "/?ed=443",
-        "headers": {
-          "Host": "hello-world-twilight-lake-386e.yijiled513.workers.dev"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🔒",
-      "server": "::ffff:156.238.18.177",
-      "server_port": 8880,
-      "uuid": "fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "sg.laoyoutiao.link"
+        "type": "grpc",
+        "service_name": ""
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "www.speedtest.net",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "b14Nibi1pMPwFPqgiyZRS3a6-Y-Q8EsE5urKnA-RkAc",
+          "short_id": "adf8a1f5689177a2"
         }
       }
     },
@@ -159,7 +176,7 @@
       "tag": "👨🏻‍💻",
       "server": "127.0.0.1",
       "server_port": 8080,
-      "password": "cbabaca-caba-abca-badc-cabacbcbaabc",
+      "password": "caabacb-caba-cbaa-abcd-baccabbaacbc",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"

@@ -5,7 +5,7 @@
       "tag": "🔄",
       "server": "127.0.0.1",
       "server_port": 1080,
-      "password": "aaacbbc-caba-bcaa-dacb-cbcacbabaabc",
+      "password": "bcaaabc-acab-abac-adbc-bacabacbabcc",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"
@@ -16,7 +16,7 @@
       "tag": "🤖",
       "server": "127.0.0.1",
       "server_port": 2080,
-      "password": "baabacc-acab-caba-abcd-bbccbbaacaac",
+      "password": "baccbaa-bcaa-acba-adbc-bcbabccaabac",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"
@@ -27,7 +27,7 @@
       "tag": "🛡",
       "server": "127.0.0.1",
       "server_port": 3080,
-      "password": "caabcab-caba-abac-cbad-cccaaabacbbb",
+      "password": "bbaccaa-caab-abca-acbd-aabcabcbbacc",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"
@@ -77,27 +77,6 @@
     {
       "type": "vless",
       "tag": "🔒",
-      "server": "45.15.170.53",
-      "server_port": 2443,
-      "uuid": "2d96c29e-4974-4bbb-a0f2-33e5c912458e",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "api.snapkit.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "QgyNvrlHczufNmykfEZlNojkJNtz_BSc8JCVGZlpdT0",
-          "short_id": "c104a7dd"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🔒",
       "server": "103.167.234.110",
       "server_port": 2050,
       "uuid": "acbab574-fbb3-48fe-948f-f2c173d5dfeb",
@@ -117,11 +96,32 @@
       }
     },
     {
+      "type": "vless",
+      "tag": "🔒",
+      "server": "45.15.170.53",
+      "server_port": 2443,
+      "uuid": "2d96c29e-4974-4bbb-a0f2-33e5c912458e",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "api.snapkit.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "QgyNvrlHczufNmykfEZlNojkJNtz_BSc8JCVGZlpdT0",
+          "short_id": "c104a7dd"
+        }
+      }
+    },
+    {
       "type": "trojan",
       "tag": "👨🏻‍💻",
       "server": "127.0.0.1",
       "server_port": 8080,
-      "password": "cbabaca-caba-abca-badc-cabacbcbaabc",
+      "password": "caabacb-caba-cbaa-abcd-baccabbaacbc",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"
