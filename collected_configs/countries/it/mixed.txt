@@ -5,7 +5,7 @@
       "tag": "🔄",
       "server": "127.0.0.1",
       "server_port": 1080,
-      "password": "acbacab-aacb-aacb-adbc-cbabbabcccaa",
+      "password": "abaabcc-aacb-caab-bdca-abaabbacbccc",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"
@@ -16,7 +16,7 @@
       "tag": "🤖",
       "server": "127.0.0.1",
       "server_port": 2080,
-      "password": "bcabcaa-abca-acba-bacd-cacbacacbbab",
+      "password": "bccaaba-aabc-baca-cbad-abbcbabacacc",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"
@@ -27,7 +27,7 @@
       "tag": "🛡",
       "server": "127.0.0.1",
       "server_port": 3080,
-      "password": "acbabac-acba-aacb-bacd-ccabaaacbcbb",
+      "password": "abcacab-abca-baca-bdac-bcccbcabbaaa",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"
@@ -44,23 +44,23 @@
     {
       "type": "trojan",
       "tag": "🔒",
-      "server": "87.120.237.36",
-      "server_port": 81,
-      "password": "Aimer",
-      "tls": {
-        "enabled": true,
-        "server_name": "ageph.ambercc.filegear-sg.me"
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "🔒",
       "server": "151.101.242.172",
       "server_port": 443,
       "password": "45f98d84-f1ab-4783-989e-e3b930913665",
       "tls": {
         "enabled": true,
         "server_name": "cdn.arvancloud.ir"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🔒",
+      "server": "87.120.237.36",
+      "server_port": 81,
+      "password": "Aimer",
+      "tls": {
+        "enabled": true,
+        "server_name": "ageph.ambercc.filegear-sg.me"
       }
     },
     {
@@ -79,14 +79,10 @@
       "tag": "🔒",
       "server": "151.101.242.172",
       "server_port": 80,
-      "uuid": "6231a8be-01ec-4ea0-9b39-ca00151f59ea",
+      "uuid": "a34f77b3-cb45-4abe-80f3-5d026ae64168",
       "packet_encoding": "xudp",
       "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "Zedmore.com"
-        }
+        "type": "xhttp"
       }
     },
     {
@@ -94,30 +90,10 @@
       "tag": "🔒",
       "server": "146.75.55.82",
       "server_port": 80,
-      "uuid": "c943eaf7-70c6-45f1-bd3a-71360eedf16b",
+      "uuid": "34a4cfb4-8b42-42ba-b087-6a338c2b3b4a",
       "packet_encoding": "xudp",
       "transport": {
-        "type": "ws",
-        "path": "/containers/fi",
-        "headers": {
-          "Host": "EtZM4uyEwUnSfh.com"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🔒",
-      "server": "84.17.58.134",
-      "server_port": 8443,
-      "uuid": "157448af-8ecf-4075-a9e9-b23a6a94899b",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "mil-it.fromblancwithlove.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
+        "type": "xhttp"
       }
     },
     {
@@ -126,14 +102,6 @@
       "server": "217.61.61.118",
       "server_port": 42538,
       "uuid": "6ce93d15-9488-4208-914b-6ee32af0df0e",
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "vless",
-      "tag": "🔒",
-      "server": "217.61.61.190",
-      "server_port": 42538,
-      "uuid": "c1f85ebc-b908-458f-a4e0-4aabb6bd351d",
       "packet_encoding": "xudp"
     },
     {
@@ -173,6 +141,14 @@
     {
       "type": "vless",
       "tag": "🔒",
+      "server": "217.61.61.190",
+      "server_port": 42538,
+      "uuid": "c1f85ebc-b908-458f-a4e0-4aabb6bd351d",
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "🔒",
       "server": "151.101.242.133",
       "server_port": 80,
       "uuid": "428287e2-0a51-42d5-89a5-d07f5f10a481",
@@ -182,6 +158,22 @@
         "path": "/",
         "headers": {
           "Host": "taxi.ir"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🔒",
+      "server": "84.17.58.134",
+      "server_port": 8443,
+      "uuid": "157448af-8ecf-4075-a9e9-b23a6a94899b",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "mil-it.fromblancwithlove.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
         }
       }
     },
@@ -274,7 +266,7 @@
       "tag": "👨🏻‍💻",
       "server": "127.0.0.1",
       "server_port": 8080,
-      "password": "aacbacb-baca-baac-cabd-cbaaacbbbcca",
+      "password": "baaccab-cbaa-acba-cbda-baabcbbaccac",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"
