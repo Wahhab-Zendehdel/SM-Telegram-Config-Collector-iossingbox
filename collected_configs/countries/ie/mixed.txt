@@ -5,7 +5,7 @@
       "tag": "🔄",
       "server": "127.0.0.1",
       "server_port": 1080,
-      "password": "aabaccb-baca-baca-cdba-abcbccaaabcb",
+      "password": "bacbcaa-acab-aabc-dacb-abccbcacbaba",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"
@@ -16,7 +16,7 @@
       "tag": "🤖",
       "server": "127.0.0.1",
       "server_port": 2080,
-      "password": "acbaacb-baac-aabc-adcb-cbccababbcaa",
+      "password": "baacabc-caba-abca-cbad-bcbbaaccacab",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"
@@ -27,7 +27,7 @@
       "tag": "🛡",
       "server": "127.0.0.1",
       "server_port": 3080,
-      "password": "caabbca-abac-caba-acdb-bbbacacabcac",
+      "password": "aabccba-baca-bcaa-cbad-baaacbbcacbc",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"
@@ -51,21 +51,10 @@
     },
     {
       "type": "trojan",
-      "tag": "🔒",
-      "server": "54.220.242.24",
-      "server_port": 443,
-      "password": "3747000103274291200",
-      "tls": {
-        "enabled": true,
-        "server_name": "steady-grackle.adder289.quest"
-      }
-    },
-    {
-      "type": "trojan",
       "tag": "👨🏻‍💻",
       "server": "127.0.0.1",
       "server_port": 8080,
-      "password": "aacbabc-caab-bcaa-cadb-bccacbaabacb",
+      "password": "aabbcac-acba-acba-adbc-cacbacbcaabb",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"

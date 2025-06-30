@@ -5,7 +5,7 @@
       "tag": "🔄",
       "server": "127.0.0.1",
       "server_port": 1080,
-      "password": "aabaccb-baca-baca-cdba-abcbccaaabcb",
+      "password": "bacbcaa-acab-aabc-dacb-abccbcacbaba",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"
@@ -16,7 +16,7 @@
       "tag": "🤖",
       "server": "127.0.0.1",
       "server_port": 2080,
-      "password": "acbaacb-baac-aabc-adcb-cbccababbcaa",
+      "password": "baacabc-caba-abca-cbad-bcbbaaccacab",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"
@@ -27,7 +27,7 @@
       "tag": "🛡",
       "server": "127.0.0.1",
       "server_port": 3080,
-      "password": "caabbca-abac-caba-acdb-bbbacacabcac",
+      "password": "aabccba-baca-bcaa-cbad-baaacbbcacbc",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"
@@ -36,7 +36,7 @@
     {
       "type": "shadowsocks",
       "tag": "🔒",
-      "server": "185.153.197.5",
+      "server": "45.153.124.90",
       "server_port": 989,
       "method": "aes-256-cfb",
       "password": "f8f7aCzcPKbsF8p3"
@@ -44,7 +44,7 @@
     {
       "type": "shadowsocks",
       "tag": "🔒",
-      "server": "45.153.124.90",
+      "server": "185.153.197.5",
       "server_port": 989,
       "method": "aes-256-cfb",
       "password": "f8f7aCzcPKbsF8p3"
@@ -100,7 +100,7 @@
       "tag": "👨🏻‍💻",
       "server": "127.0.0.1",
       "server_port": 8080,
-      "password": "aacbabc-caab-bcaa-cadb-bccacbaabacb",
+      "password": "aabbcac-acba-acba-adbc-cacbacbcaabb",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"
