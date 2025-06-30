@@ -5,7 +5,7 @@
       "tag": "🔄",
       "server": "127.0.0.1",
       "server_port": 1080,
-      "password": "aacbacb-baac-aabc-adcb-bcacabacbbca",
+      "password": "accbaba-cbaa-abca-adcb-caabccabacbb",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"
@@ -16,7 +16,7 @@
       "tag": "🤖",
       "server": "127.0.0.1",
       "server_port": 2080,
-      "password": "caabcba-abca-aacb-adbc-bccbcabacaab",
+      "password": "cacbbaa-cbaa-caab-bdac-aabcbcbbacca",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"
@@ -27,7 +27,7 @@
       "tag": "🛡",
       "server": "127.0.0.1",
       "server_port": 3080,
-      "password": "accbaba-bcaa-abac-cbad-caabccbabcba",
+      "password": "ccabaab-caba-aabc-adbc-cbaacbaccabb",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"
@@ -55,6 +55,17 @@
     {
       "type": "trojan",
       "tag": "🔒",
+      "server": "87.120.237.36",
+      "server_port": 81,
+      "password": "Aimer",
+      "tls": {
+        "enabled": true,
+        "server_name": "ageph.ambercc.filegear-sg.me"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🔒",
       "server": "151.101.242.172",
       "server_port": 443,
       "password": "45f98d84-f1ab-4783-989e-e3b930913665",
@@ -64,14 +75,60 @@
       }
     },
     {
-      "type": "trojan",
+      "type": "vless",
       "tag": "🔒",
-      "server": "87.120.237.36",
-      "server_port": 81,
-      "password": "Aimer",
-      "tls": {
-        "enabled": true,
-        "server_name": "ageph.ambercc.filegear-sg.me"
+      "server": "217.61.61.118",
+      "server_port": 42538,
+      "uuid": "fdba320d-23a9-4e05-9604-3c1ca88f49b7",
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "🔒",
+      "server": "151.101.242.172",
+      "server_port": 80,
+      "uuid": "fc7a34b8-7f83-475f-bca4-7a8f5dc861fb",
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "Germany.ss.ss"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🔒",
+      "server": "146.75.55.82",
+      "server_port": 80,
+      "uuid": "52d90741-49f1-42eb-be23-214eb1e88085",
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "/download?ed=2560",
+        "headers": {
+          "Host": "farzanegan1edu.ir"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🔒",
+      "server": "217.61.61.190",
+      "server_port": 42538,
+      "uuid": "c1f85ebc-b908-458f-a4e0-4aabb6bd351d",
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "🔒",
+      "server": "151.101.241.19",
+      "server_port": 80,
+      "uuid": "78f80c31-ff76-4bca-b43c-c991a9168f11",
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "xhttp"
       }
     },
     {
@@ -88,36 +145,6 @@
           "enabled": true,
           "fingerprint": "chrome"
         }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🔒",
-      "server": "151.101.241.19",
-      "server_port": 80,
-      "uuid": "78f80c31-ff76-4bca-b43c-c991a9168f11",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "xhttp"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🔒",
-      "server": "217.61.61.190",
-      "server_port": 42538,
-      "uuid": "c1f85ebc-b908-458f-a4e0-4aabb6bd351d",
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "vless",
-      "tag": "🔒",
-      "server": "151.101.242.172",
-      "server_port": 80,
-      "uuid": "59decaef-d2ad-4391-b18b-c480e968f35f",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "xhttp"
       }
     },
     {
@@ -142,29 +169,6 @@
           "fingerprint": "random"
         }
       }
-    },
-    {
-      "type": "vless",
-      "tag": "🔒",
-      "server": "146.75.55.82",
-      "server_port": 80,
-      "uuid": "52d90741-49f1-42eb-be23-214eb1e88085",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "ws",
-        "path": "/download?ed=2560",
-        "headers": {
-          "Host": "farzanegan1edu.ir"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🔒",
-      "server": "217.61.61.118",
-      "server_port": 42538,
-      "uuid": "fdba320d-23a9-4e05-9604-3c1ca88f49b7",
-      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -199,6 +203,27 @@
           "enabled": true,
           "public_key": "QRGqyPYJmaBIeIXaOoKs8UG0vGLPGcbDinQqYrrpAGU",
           "short_id": "d08aeb0330883adf"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🔒",
+      "server": "72.146.232.207",
+      "server_port": 443,
+      "uuid": "1ae544de-4b19-4bd0-a7d6-e47e2e19a057",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "itgetsbetter.org",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "u13aSU1om7Mc67RxQHmVQx7iALWAUCn_j38zQ5LpYXc",
+          "short_id": "462c73aef9f448"
         }
       }
     },
@@ -245,32 +270,11 @@
       }
     },
     {
-      "type": "vless",
-      "tag": "🔒",
-      "server": "72.146.232.42",
-      "server_port": 443,
-      "uuid": "1ae544de-4b19-4bd0-a7d6-e47e2e19a057",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "itgetsbetter.org",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "u13aSU1om7Mc67RxQHmVQx7iALWAUCn_j38zQ5LpYXc",
-          "short_id": "462c73aef9f448"
-        }
-      }
-    },
-    {
       "type": "trojan",
       "tag": "👨🏻‍💻",
       "server": "127.0.0.1",
       "server_port": 8080,
-      "password": "aaccabb-acab-aabc-bdca-caabaccbbbca",
+      "password": "cbcbaaa-baac-aabc-abcd-bbbacbacacac",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"
