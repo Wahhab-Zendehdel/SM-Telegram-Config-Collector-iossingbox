@@ -5,7 +5,7 @@
       "tag": "🔄",
       "server": "127.0.0.1",
       "server_port": 1080,
-      "password": "aacbabc-abac-caab-adcb-bacbbaccacba",
+      "password": "aacbacb-baac-aabc-adcb-bcacabacbbca",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"
@@ -16,7 +16,7 @@
       "tag": "🤖",
       "server": "127.0.0.1",
       "server_port": 2080,
-      "password": "bcbcaaa-cbaa-acba-cabd-baabcbaccacb",
+      "password": "caabcba-abca-aacb-adbc-bccbcabacaab",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"
@@ -27,7 +27,7 @@
       "tag": "🛡",
       "server": "127.0.0.1",
       "server_port": 3080,
-      "password": "bbcacaa-caab-bcaa-abdc-aacbbbbcccaa",
+      "password": "accbaba-bcaa-abac-cbad-caabccbabcba",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"
@@ -36,18 +36,18 @@
     {
       "type": "shadowsocks",
       "tag": "🔒",
-      "server": "103.146.203.84",
-      "server_port": 40033,
-      "method": "chacha20-ietf-poly1305",
-      "password": "72bb3072-7efd-4d67-9beb-2cd9c18e69f4"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🔒",
       "server": "154.205.159.100",
       "server_port": 990,
       "method": "chacha20-ietf-poly1305",
       "password": "f8f7aCzcPKbsF8p3"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🔒",
+      "server": "103.146.203.84",
+      "server_port": 40033,
+      "method": "chacha20-ietf-poly1305",
+      "password": "72bb3072-7efd-4d67-9beb-2cd9c18e69f4"
     },
     {
       "type": "trojan",
@@ -63,17 +63,17 @@
     {
       "type": "vless",
       "tag": "🔒",
-      "server": "172.232.248.242",
+      "server": "172.232.237.24",
       "server_port": 2321,
-      "uuid": "0d6b5af6-17df-4bb1-af76-e524f00602a5",
+      "uuid": "89ae5e18-3b81-4e5d-a645-d85012c602b1",
       "packet_encoding": "xudp"
     },
     {
       "type": "vless",
       "tag": "🔒",
-      "server": "172.232.237.24",
+      "server": "172.232.248.242",
       "server_port": 2321,
-      "uuid": "89ae5e18-3b81-4e5d-a645-d85012c602b1",
+      "uuid": "0d6b5af6-17df-4bb1-af76-e524f00602a5",
       "packet_encoding": "xudp"
     },
     {
@@ -81,7 +81,7 @@
       "tag": "👨🏻‍💻",
       "server": "127.0.0.1",
       "server_port": 8080,
-      "password": "aacbcab-abca-acba-bdca-bccabbacbaca",
+      "password": "aaccabb-acab-aabc-bdca-caabaccbbbca",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"
