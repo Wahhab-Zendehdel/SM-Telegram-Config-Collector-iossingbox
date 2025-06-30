@@ -5,7 +5,7 @@
       "tag": "🔄",
       "server": "127.0.0.1",
       "server_port": 1080,
-      "password": "abaabcc-aacb-caab-bdca-abaabbacbccc",
+      "password": "cacabab-acba-aacb-acdb-caabcbbaccab",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"
@@ -16,7 +16,7 @@
       "tag": "🤖",
       "server": "127.0.0.1",
       "server_port": 2080,
-      "password": "bccaaba-aabc-baca-cbad-abbcbabacacc",
+      "password": "aaacbbc-abac-bcaa-abcd-bbbcaabaccca",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"
@@ -27,7 +27,7 @@
       "tag": "🛡",
       "server": "127.0.0.1",
       "server_port": 3080,
-      "password": "abcacab-abca-baca-bdac-bcccbcabbaaa",
+      "password": "ccabaab-acab-abca-bdac-accbaaabccbb",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"
@@ -67,7 +67,7 @@
       "tag": "👨🏻‍💻",
       "server": "127.0.0.1",
       "server_port": 8080,
-      "password": "baaccab-cbaa-acba-cbda-baabcbbaccac",
+      "password": "acacbba-aacb-abca-bcad-bcccbbaacaba",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"
