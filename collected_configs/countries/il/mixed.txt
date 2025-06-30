@@ -5,7 +5,7 @@
       "tag": "🔄",
       "server": "127.0.0.1",
       "server_port": 1080,
-      "password": "acbcbaa-baca-abac-dcab-bacbabcaacbc",
+      "password": "aabcbca-abac-baac-dbca-bcbbaaccabac",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"
@@ -16,7 +16,7 @@
       "tag": "🤖",
       "server": "127.0.0.1",
       "server_port": 2080,
-      "password": "baacbca-cbaa-aabc-dbca-baacbbaabccc",
+      "password": "baaccab-abac-aabc-cabd-ccaabcbbbaac",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"
@@ -27,19 +27,11 @@
       "tag": "🛡",
       "server": "127.0.0.1",
       "server_port": 3080,
-      "password": "abccbaa-caab-caba-dacb-babacbcccaba",
+      "password": "bcaacba-acba-baac-bacd-babcccbaabca",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"
       }
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🔒",
-      "server": "169.150.202.174",
-      "server_port": 990,
-      "method": "chacha20-ietf-poly1305",
-      "password": "f8f7aCzcPKbsF8p3"
     },
     {
       "type": "shadowsocks",
@@ -52,18 +44,26 @@
     {
       "type": "shadowsocks",
       "tag": "🔒",
+      "server": "188.191.147.127",
+      "server_port": 31348,
+      "method": "chacha20-ietf-poly1305",
+      "password": "6IVOuzMfH5ROpgwtRTcNJKYJvYe9FDVaU7wAYYh8PRLxxZs6"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🔒",
       "server": "169.150.202.174",
-      "server_port": 989,
-      "method": "aes-256-cfb",
+      "server_port": 990,
+      "method": "chacha20-ietf-poly1305",
       "password": "f8f7aCzcPKbsF8p3"
     },
     {
       "type": "shadowsocks",
       "tag": "🔒",
-      "server": "188.191.147.127",
-      "server_port": 31348,
-      "method": "chacha20-ietf-poly1305",
-      "password": "6IVOuzMfH5ROpgwtRTcNJKYJvYe9FDVaU7wAYYh8PRLxxZs6"
+      "server": "169.150.202.174",
+      "server_port": 989,
+      "method": "aes-256-cfb",
+      "password": "f8f7aCzcPKbsF8p3"
     },
     {
       "type": "vless",
@@ -107,7 +107,7 @@
       "tag": "👨🏻‍💻",
       "server": "127.0.0.1",
       "server_port": 8080,
-      "password": "bcaabca-abac-abac-acbd-bcbaaaabccbc",
+      "password": "acabbac-aacb-abac-acdb-bccbaccabbaa",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"

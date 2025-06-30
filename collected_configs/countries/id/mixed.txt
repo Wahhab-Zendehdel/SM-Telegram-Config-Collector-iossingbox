@@ -5,7 +5,7 @@
       "tag": "🔄",
       "server": "127.0.0.1",
       "server_port": 1080,
-      "password": "acbcbaa-baca-abac-dcab-bacbabcaacbc",
+      "password": "aabcbca-abac-baac-dbca-bcbbaaccabac",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"
@@ -16,7 +16,7 @@
       "tag": "🤖",
       "server": "127.0.0.1",
       "server_port": 2080,
-      "password": "baacbca-cbaa-aabc-dbca-baacbbaabccc",
+      "password": "baaccab-abac-aabc-cabd-ccaabcbbbaac",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"
@@ -27,7 +27,7 @@
       "tag": "🛡",
       "server": "127.0.0.1",
       "server_port": 3080,
-      "password": "abccbaa-caab-caba-dacb-babacbcccaba",
+      "password": "bcaacba-acba-baac-bacd-babcccbaabca",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"
@@ -36,18 +36,18 @@
     {
       "type": "shadowsocks",
       "tag": "🔒",
-      "server": "103.146.203.84",
-      "server_port": 40033,
-      "method": "chacha20-ietf-poly1305",
-      "password": "72bb3072-7efd-4d67-9beb-2cd9c18e69f4"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🔒",
       "server": "154.205.159.100",
       "server_port": 990,
       "method": "chacha20-ietf-poly1305",
       "password": "f8f7aCzcPKbsF8p3"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🔒",
+      "server": "103.146.203.84",
+      "server_port": 40033,
+      "method": "chacha20-ietf-poly1305",
+      "password": "72bb3072-7efd-4d67-9beb-2cd9c18e69f4"
     },
     {
       "type": "trojan",
@@ -77,19 +77,11 @@
       "packet_encoding": "xudp"
     },
     {
-      "type": "vless",
-      "tag": "🔒",
-      "server": "172.235.251.52",
-      "server_port": 321,
-      "uuid": "1a18e79a-ff9c-43b5-90e1-1c43561364f2",
-      "packet_encoding": "xudp"
-    },
-    {
       "type": "trojan",
       "tag": "👨🏻‍💻",
       "server": "127.0.0.1",
       "server_port": 8080,
-      "password": "bcaabca-abac-abac-acbd-bcbaaaabccbc",
+      "password": "acabbac-aacb-abac-acdb-bccbaccabbaa",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"
