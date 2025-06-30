@@ -5,7 +5,34 @@
       "tag": "🔄",
       "server": "127.0.0.1",
       "server_port": 1080,
-      "uuid": "cacabab-acba-aacb-acdb-caabcbbaccab",
+      "uuid": "aabaccb-baca-baca-cdba-abcbccaaabcb",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "127.0.0.1",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🔒",
+      "server": "85.133.241.220",
+      "server_port": 2050,
+      "uuid": "22d01af5-8d00-407b-882a-aa0a2ce3045b",
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "http"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🛡",
+      "server": "127.0.0.1",
+      "server_port": 3080,
+      "uuid": "caabbca-abac-caba-acdb-bbbacacabcac",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -42,33 +69,6 @@
     },
     {
       "type": "vless",
-      "tag": "🛡",
-      "server": "127.0.0.1",
-      "server_port": 3080,
-      "uuid": "ccabaab-acab-abca-bdac-accbaaabccbb",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "127.0.0.1",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🔒",
-      "server": "85.133.241.220",
-      "server_port": 2050,
-      "uuid": "22d01af5-8d00-407b-882a-aa0a2ce3045b",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "http"
-      }
-    },
-    {
-      "type": "vless",
       "tag": "🔒",
       "server": "46.17.44.6",
       "server_port": 443,
@@ -91,7 +91,7 @@
       "tag": "👨🏻‍💻",
       "server": "127.0.0.1",
       "server_port": 8080,
-      "uuid": "acacbba-aacb-abca-bcad-bcccbbaacaba",
+      "uuid": "aacbabc-caab-bcaa-cadb-bccacbaabacb",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,

@@ -2,10 +2,10 @@
   "outbounds": [
     {
       "type": "vmess",
-      "tag": "🔄 LATEST-UPDATE 📅 MON-09-TIR-1404 🕑 11:48",
+      "tag": "🔄 LATEST-UPDATE 📅 MON-09-TIR-1404 🕑 12:59",
       "server": "127.0.0.1",
       "server_port": 1080,
-      "uuid": "cacabab-acba-aacb-acdb-caabcbbaccab",
+      "uuid": "aabaccb-baca-baca-cdba-abcbccaaabcb",
       "security": "auto",
       "alter_id": "0"
     },
@@ -14,7 +14,7 @@
       "tag": "🤖 TELEGRAM-CHANNEL 🌟 ARTIFICIAL-INTELLIGENCE 🖥 @NEUROVANCE 🧠",
       "server": "127.0.0.1",
       "server_port": 2080,
-      "uuid": "aaacbbc-abac-bcaa-abcd-bbbcaabaccca",
+      "uuid": "acbaacb-baac-aabc-adcb-cbccababbcaa",
       "security": "auto",
       "alter_id": "0"
     },
@@ -23,89 +23,41 @@
       "tag": "🛡 TELEGRAM-CHANNEL 🔐 MTPROTO-PROXY 🌍 @NEXUPROXY 📡",
       "server": "127.0.0.1",
       "server_port": 3080,
-      "uuid": "ccabaab-acab-abca-bdac-accbaaabccbb",
+      "uuid": "caabbca-abac-caba-acdb-bbbacacabcac",
       "security": "auto",
       "alter_id": "0"
     },
     {
       "type": "vmess",
-      "tag": "🔒 VM-RAW-NA 🇺🇸 US-103.124.107.144:29800",
-      "server": "103.124.107.144",
-      "server_port": 29800,
-      "uuid": "cc31ddfc-d92e-4dab-cd06-00dfb84af8ac",
-      "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "raw"
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "🔒 VM-TCP-NA 🇮🇷 IR-78.39.9.134:8090",
-      "server": "78.39.9.134",
-      "server_port": 8090,
-      "uuid": "891e1d1c-5fbc-40cb-9256-58b016b6b600",
+      "tag": "🔒 VM-TCP-NA 🇦🇺 AU-154.26.153.173:28686",
+      "server": "154.26.153.173",
+      "server_port": 28686,
+      "uuid": "6df7d56f-4953-4a10-be2e-a88cc9f94e48",
       "security": "auto",
       "alter_id": "0"
     },
     {
       "type": "vmess",
-      "tag": "🔒 VM-TCP-NONE 🇮🇷 IR-78.157.58.248:5301",
-      "server": "78.157.58.248",
-      "server_port": 5301,
-      "uuid": "28fee3c6-682a-4d06-a462-efdda38ebe77",
+      "tag": "🔒 VM-TCP-NA 🇬🇧 GB-51.38.64.209:44023",
+      "server": "51.38.64.209",
+      "server_port": 44023,
+      "uuid": "7da457da-ed0f-437d-c81d-6c35885bbea3",
       "security": "auto",
       "alter_id": "0"
     },
     {
       "type": "vmess",
-      "tag": "🔒 VM-TCP-NA 🇮🇷 IR-78.157.49.213:58819",
-      "server": "78.157.49.213",
-      "server_port": 58819,
-      "uuid": "b0bf81e1-0b18-4253-a278-d516f580240a",
+      "tag": "🔒 VM-TCP-NA 🇸🇬 SG-43.156.102.65:11060",
+      "server": "43.156.102.65",
+      "server_port": 11060,
+      "uuid": "5cdd371e-cc4e-4ea2-91a8-c755f00f67a0",
       "security": "auto",
       "alter_id": "0"
     },
     {
       "type": "vmess",
-      "tag": "🔒 VM-TCP-NA 🇨🇳 CN-219.151.20.62:42333",
-      "server": "219.151.20.62",
-      "server_port": 42333,
-      "uuid": "4381beae-45a6-4421-8547-65e312dd204a",
-      "security": "auto",
-      "alter_id": "0"
-    },
-    {
-      "type": "vmess",
-      "tag": "🔒 VM-TCP-NA 🇸🇬 SG-84.247.147.67:54179",
-      "server": "84.247.147.67",
-      "server_port": 54179,
-      "uuid": "d143ebbc-7825-4b43-a55e-f11cb153bd5b",
-      "security": "auto",
-      "alter_id": "0"
-    },
-    {
-      "type": "vmess",
-      "tag": "🔒 VM-TCP-NA 🇮🇷 IR-80.249.113.209:8084",
-      "server": "80.249.113.209",
-      "server_port": 8084,
-      "uuid": "8a4e78c6-bf74-49b9-a11a-dc1ebd9e5006",
-      "security": "auto",
-      "alter_id": "0"
-    },
-    {
-      "type": "vmess",
-      "tag": "🔒 VM-TCP-NA 🇺🇸 US-216.227.168.157:45231",
-      "server": "216.227.168.157",
-      "server_port": 45231,
-      "uuid": "469e0b31-30c3-4dab-800d-711232634ce1",
-      "security": "auto",
-      "alter_id": "0"
-    },
-    {
-      "type": "vmess",
-      "tag": "🔒 VM-TCP-NA 🇮🇷 IR-185.232.154.44:1007",
-      "server": "185.232.154.44",
+      "tag": "🔒 VM-TCP-NA 🇮🇷 IR-94.232.169.107:1007",
+      "server": "94.232.169.107",
       "server_port": 1007,
       "uuid": "0ecd9fc4-a229-4942-acaa-fc9eda298b65",
       "security": "auto",
@@ -113,12 +65,12 @@
     },
     {
       "type": "vmess",
-      "tag": "🔒 VM-TCP-NA 🇺🇸 US-51.81.203.57:28860",
-      "server": "51.81.203.57",
-      "server_port": 28860,
-      "uuid": "1784497d-03a1-40bb-bb8b-de4ffac7c59c",
+      "tag": "🔒 VM-TCP-NONE 🇸🇬 SG-154.26.137.42:44104",
+      "server": "154.26.137.42",
+      "server_port": 44104,
+      "uuid": "e9933a4c-e56e-458c-bcf4-9cb3875bba55",
       "security": "auto",
-      "alter_id": "0"
+      "alter_id": 0
     },
     {
       "type": "vmess",
@@ -131,223 +83,68 @@
     },
     {
       "type": "vmess",
-      "tag": "🔒 VM-TCP-NA 🇮🇷 IR-212.80.10.88:8082",
-      "server": "212.80.10.88",
-      "server_port": 8082,
-      "uuid": "1a91e2bd-f189-4d52-911d-00177069ccad",
+      "tag": "🔒 VM-TCP-NA 🇷🇺 RU-45.12.114.15:20779",
+      "server": "45.12.114.15",
+      "server_port": 20779,
+      "uuid": "9dc5bff8-bcbb-4703-b0fe-4f91ba517402",
       "security": "auto",
       "alter_id": "0"
     },
     {
       "type": "vmess",
-      "tag": "🔒 VM-TCP-NA 🇸🇬 SG-62.146.233.112:36712",
-      "server": "62.146.233.112",
-      "server_port": 36712,
-      "uuid": "9266df42-0830-48c2-8509-4c57b30fe29d",
+      "tag": "🔒 VM-TCP-NA 🇸🇬 SG-46.250.237.196:29999",
+      "server": "46.250.237.196",
+      "server_port": 29999,
+      "uuid": "b31fc134-978e-4176-8579-8107d6a0cede",
       "security": "auto",
       "alter_id": "0"
     },
     {
       "type": "vmess",
-      "tag": "🔒 VM-TCP-NA 🇮🇷 IR-185.124.175.200:6016",
-      "server": "185.124.175.200",
-      "server_port": 6016,
-      "uuid": "9074065a-840e-4cfa-9cd9-4b06a96bda87",
+      "tag": "🔒 VM-TCP-NA 🇮🇷 IR-212.23.214.21:20017",
+      "server": "212.23.214.21",
+      "server_port": 20017,
+      "uuid": "7c8326eb-4250-4f77-8e1f-0210a69e9ade",
       "security": "auto",
       "alter_id": "0"
     },
     {
       "type": "vmess",
-      "tag": "🔒 VM-WS-NA 🏴‍☠️ NA-104.17.165.85:2052",
-      "server": "104.17.165.85",
-      "server_port": 2052,
-      "uuid": "ab1ee1ac-884c-44dc-ab65-d533d32e2b1a",
+      "tag": "🔒 VM-TCP-NA 🇩🇪 DE-94.159.106.248:8877",
+      "server": "94.159.106.248",
+      "server_port": 8877,
+      "uuid": "654285e6-23fb-4073-b8de-eba90f562fe6",
+      "security": "auto",
+      "alter_id": "0"
+    },
+    {
+      "type": "vmess",
+      "tag": "🔒 VM-WS-NA 🇨🇦 CA-158.69.48.14:10000",
+      "server": "158.69.48.14",
+      "server_port": 10000,
+      "uuid": "fe25808a-4d7d-11f0-bd33-17ba86626747",
       "security": "auto",
       "alter_id": "0",
       "transport": {
         "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "cfcdn2.sanfencdn9.com"
-        }
+        "path": "/vpnjantit"
       }
     },
     {
       "type": "vmess",
-      "tag": "🔒 VM-TCP-NA 🇸🇬 SG-154.26.134.221:54813",
-      "server": "154.26.134.221",
-      "server_port": 54813,
-      "uuid": "df9c6e9e-9e7a-4d06-88bb-9b29337b973f",
+      "tag": "🔒 VM-TCP-NONE 🇩🇪 DE-45.12.138.82:54757",
+      "server": "45.12.138.82",
+      "server_port": 54757,
+      "uuid": "cde9f074-c930-4aa3-a558-46bbc9d0a5a1",
       "security": "auto",
       "alter_id": "0"
     },
     {
       "type": "vmess",
-      "tag": "🔒 VM-TCP-NONE 🇮🇷 IR-95.38.140.102:45090",
-      "server": "95.38.140.102",
-      "server_port": 45090,
-      "uuid": "ab94c3a9-6695-4390-bde0-0ecefab656fe",
-      "security": "auto",
-      "alter_id": "0"
-    },
-    {
-      "type": "vmess",
-      "tag": "🔒 VM-WS-NA 🏴‍☠️ NA-104.21.96.1:2082",
-      "server": "104.21.96.1",
-      "server_port": 2082,
-      "uuid": "2f821152-c3e9-4074-9185-2790e7425f42",
-      "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "ws",
-        "path": "/?TM-@AZARBAYJAB1,TM-@AZARBAYJAB1,TM-@AZARBAYJAB1,TM-@AZARBAYJAB1",
-        "headers": {
-          "Host": "cs.flha.ru"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "🔒 VM-WS-NA 🏴‍☠️ NA-198.41.209.70:80",
-      "server": "198.41.209.70",
-      "server_port": 80,
-      "uuid": "e6543319-0574-42ac-b778-1c4325d626f5",
-      "security": "auto",
-      "alter_id": 0,
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "chunchuan.kejixiaoqi666.store"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "🔒 VM-TCP-NA 🇯🇵 JP-5.253.41.147:27750",
-      "server": "5.253.41.147",
-      "server_port": 27750,
-      "uuid": "4b1992cc-8e7c-4003-a45f-a28c3e6f6fa8",
-      "security": "auto",
-      "alter_id": "0"
-    },
-    {
-      "type": "vmess",
-      "tag": "🔒 VM-TCP-NA 🇮🇷 IR-87.248.139.11:15382",
-      "server": "87.248.139.11",
-      "server_port": 15382,
-      "uuid": "15052e07-4371-4c69-8852-1112114c5947",
-      "security": "auto",
-      "alter_id": "0"
-    },
-    {
-      "type": "vmess",
-      "tag": "🔒 VM-TCP-NA 🇨🇳 CN-219.151.20.62:42341",
-      "server": "219.151.20.62",
-      "server_port": 42341,
-      "uuid": "4381beae-45a6-4421-8547-65e312dd204a",
-      "security": "auto",
-      "alter_id": "0"
-    },
-    {
-      "type": "vmess",
-      "tag": "🔒 VM-WS-TLS 🇨🇳 CN-120.253.242.194:35214",
-      "server": "120.253.242.194",
-      "server_port": 35214,
-      "uuid": "46a539d2-d3ba-4a6e-aedb-b727d2fc60f8",
-      "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "ws",
-        "path": "/home",
-        "headers": {
-          "Host": "web.xcjs.info"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "jp4.g2.moonbase.life"
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "🔒 VM-WS-NONE 🇮🇷 IR-193.151.149.76:30286",
-      "server": "193.151.149.76",
-      "server_port": 30286,
-      "uuid": "b1a135cf-1181-4ab9-a7bc-5994cdc6f47b",
-      "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "ws",
-        "path": "/"
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "🔒 VM-TCP-NA 🇺🇸 US-15.204.11.190:15361",
-      "server": "15.204.11.190",
-      "server_port": 15361,
-      "uuid": "5d7bf9e3-415c-40f3-c66d-a54ea0fd860e",
-      "security": "auto",
-      "alter_id": "0"
-    },
-    {
-      "type": "vmess",
-      "tag": "🔒 VM-RAW-NA 🇸🇬 SG-84.247.148.192:44396",
-      "server": "84.247.148.192",
-      "server_port": 44396,
-      "uuid": "3ca35e0a-e430-43fe-9c12-2e2eea70f873",
-      "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "raw"
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "🔒 VM-TCP-NA 🇮🇷 IR-89.44.112.38:2535",
-      "server": "89.44.112.38",
-      "server_port": 2535,
-      "uuid": "04d7c089-bbc5-4ef2-80ef-a0982cf33708",
-      "security": "aes-128-gcm",
-      "alter_id": "0"
-    },
-    {
-      "type": "vmess",
-      "tag": "🔒 VM-TCP-NA 🇸🇬 SG-46.250.234.32:45317",
-      "server": "46.250.234.32",
-      "server_port": 45317,
-      "uuid": "b2836369-220b-4840-80c4-8cf904c735ee",
-      "security": "auto",
-      "alter_id": "0"
-    },
-    {
-      "type": "vmess",
-      "tag": "🔒 VM-HTTPUPGRADE-NA 🏴‍☠️ NA-104.19.150.10:2095",
-      "server": "104.19.150.10",
-      "server_port": 2095,
-      "uuid": "94f332b0-c5d3-4531-a1d6-6e6358cc6c72",
-      "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "httpupgrade"
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "🔒 VM-TCP-NA 🇨🇳 CN-219.151.20.62:42320",
-      "server": "219.151.20.62",
-      "server_port": 42320,
-      "uuid": "4381beae-45a6-4421-8547-65e312dd204a",
-      "security": "auto",
-      "alter_id": "0"
-    },
-    {
-      "type": "vmess",
-      "tag": "🔒 VM-TCP-NA 🇮🇷 IR-185.215.228.4:59859",
-      "server": "185.215.228.4",
-      "server_port": 59859,
-      "uuid": "8cfdc398-2903-49e2-9fab-d57c0a36d665",
+      "tag": "🔒 VM-TCP-NA 🇺🇸 US-216.227.168.157:45229",
+      "server": "216.227.168.157",
+      "server_port": 45229,
+      "uuid": "469e0b31-30c3-4dab-800d-711232634ce1",
       "security": "auto",
       "alter_id": "0"
     },
@@ -373,211 +170,21 @@
     },
     {
       "type": "vmess",
-      "tag": "🔒 VM-TCP-NONE 🇸🇬 SG-62.146.232.156:33281",
-      "server": "62.146.232.156",
-      "server_port": 33281,
-      "uuid": "24eda0ea-acf0-4538-a001-f746a480237a",
-      "security": "auto",
-      "alter_id": 0
-    },
-    {
-      "type": "vmess",
-      "tag": "🔒 VM-TCP-NONE 🇸🇬 SG-154.26.134.106:14129",
-      "server": "154.26.134.106",
-      "server_port": 14129,
-      "uuid": "e7798e09-3090-4366-ae80-f18afdaabf4f",
+      "tag": "🔒 VM-TCP-NONE 🇮🇷 IR-78.157.58.248:5301",
+      "server": "78.157.58.248",
+      "server_port": 5301,
+      "uuid": "28fee3c6-682a-4d06-a462-efdda38ebe77",
       "security": "auto",
       "alter_id": "0"
     },
     {
       "type": "vmess",
-      "tag": "🔒 VM-TCP-NA 🇸🇬 SG-84.247.150.177:36141",
-      "server": "84.247.150.177",
-      "server_port": 36141,
-      "uuid": "d31ee52f-b6e4-4db8-9c95-98855ec823cc",
-      "security": "auto",
+      "tag": "🔒 VM-TCP-NA 🇮🇷 IR-89.44.112.38:2535",
+      "server": "89.44.112.38",
+      "server_port": 2535,
+      "uuid": "04d7c089-bbc5-4ef2-80ef-a0982cf33708",
+      "security": "aes-128-gcm",
       "alter_id": "0"
-    },
-    {
-      "type": "vmess",
-      "tag": "🔒 VM-TCP-NA 🇩🇪 DE-94.159.106.248:8877",
-      "server": "94.159.106.248",
-      "server_port": 8877,
-      "uuid": "654285e6-23fb-4073-b8de-eba90f562fe6",
-      "security": "auto",
-      "alter_id": "0"
-    },
-    {
-      "type": "vmess",
-      "tag": "🔒 VM-TCP-NA 🇯🇵 JP-167.179.93.158:30101",
-      "server": "167.179.93.158",
-      "server_port": 30101,
-      "uuid": "04AD7029-AC73-C78D-2E6E-338107678C59",
-      "security": "auto",
-      "alter_id": "0"
-    },
-    {
-      "type": "vmess",
-      "tag": "🔒 VM-TCP-NA 🇨🇦 CA-51.79.86.182:42610",
-      "server": "51.79.86.182",
-      "server_port": 42610,
-      "uuid": "e0957ca6-f613-4017-ff3c-effd1da8871a",
-      "security": "auto",
-      "alter_id": "0"
-    },
-    {
-      "type": "vmess",
-      "tag": "🔒 VM-TCP-NA 🇸🇪 SE-90.225.83.185:62002",
-      "server": "90.225.83.185",
-      "server_port": 62002,
-      "uuid": "5b9b682a-7811-4050-b287-254320f3ac9e",
-      "security": "auto",
-      "alter_id": "0"
-    },
-    {
-      "type": "vmess",
-      "tag": "🔒 VM-TCP-NA 🇨🇳 CN-219.151.20.62:42309",
-      "server": "219.151.20.62",
-      "server_port": 42309,
-      "uuid": "4381beae-45a6-4421-8547-65e312dd204a",
-      "security": "auto",
-      "alter_id": "0"
-    },
-    {
-      "type": "vmess",
-      "tag": "🔒 VM-TCP-NONE 🇮🇷 IR-62.3.42.197:41948",
-      "server": "62.3.42.197",
-      "server_port": 41948,
-      "uuid": "7d3c521f-fffc-4f3c-f660-a1482aad3e62",
-      "security": "auto",
-      "alter_id": "0"
-    },
-    {
-      "type": "vmess",
-      "tag": "🔒 VM-TCP-NA 🇸🇬 SG-194.233.72.228:27575",
-      "server": "194.233.72.228",
-      "server_port": 27575,
-      "uuid": "16509262-dbe2-43ba-99ce-07913d2a18b4",
-      "security": "auto",
-      "alter_id": "0"
-    },
-    {
-      "type": "vmess",
-      "tag": "🔒 VM-TCP-NA 🇨🇳 CN-183.236.51.36:59003",
-      "server": "183.236.51.36",
-      "server_port": 59003,
-      "uuid": "418048af-a293-4b99-9b0c-98ca3580dd24",
-      "security": "none",
-      "alter_id": "0"
-    },
-    {
-      "type": "vmess",
-      "tag": "🔒 VM-TCP-NA 🇺🇸 US-139.144.219.15:10001",
-      "server": "139.144.219.15",
-      "server_port": 10001,
-      "uuid": "8c2777c9-c5e7-4b34-acdb-71600ef02e89",
-      "security": "auto",
-      "alter_id": "0"
-    },
-    {
-      "type": "vmess",
-      "tag": "🔒 VM-TCP-NA 🇮🇷 IR-37.152.181.119:56104",
-      "server": "37.152.181.119",
-      "server_port": 56104,
-      "uuid": "efd57bc3-8086-48bd-9b1a-6fd8ab8cee6d",
-      "security": "auto",
-      "alter_id": "0"
-    },
-    {
-      "type": "vmess",
-      "tag": "🔒 VM-GRPC-TLS 🏴‍☠️ NA-104.21.25.65:2087",
-      "server": "104.21.25.65",
-      "server_port": 2087,
-      "uuid": "864112a6-ceeb-4126-b7e2-509c2a203d20",
-      "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "grpc",
-        "service_name": ""
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "netflixvuugiufyduuvgguiigyfgigifhfstquhoihtfxtuihojolhgyfyvyvlknouvrdfed2s2svyhij22kkgifjfkfifofotitirruye63467r8t8t8tgigjgjvnvmfsraew4w4w5e5e7t8y9u9uhoihopjjpkbbkvngnmcmchfyfdy6deuyeywueotogicih7uhihfyyydhdhfydfyjjhfdhfytermin1.flouuusxooko0085.shop"
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "🔒 VM-TCP-NA 🇫🇷 FR-45.12.133.43:28444",
-      "server": "45.12.133.43",
-      "server_port": 28444,
-      "uuid": "1be8eddb-4f8c-45d0-b2a1-e538eb3abd39",
-      "security": "auto",
-      "alter_id": "0"
-    },
-    {
-      "type": "vmess",
-      "tag": "🔒 VM-WS-TLS 🇭🇰 HK-43.154.34.74:1935",
-      "server": "43.154.34.74",
-      "server_port": 1935,
-      "uuid": "2e5bfd4a-0852-4df4-b9e7-9b6f207113b4",
-      "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "ws",
-        "path": "/vmess-argo",
-        "headers": {
-          "Host": "djdjjrjjrhk.lzj520hxw.dpdns.org"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "djdjjrjjrhk.lzj520hxw.dpdns.org"
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "🔒 VM-TCP-NA 🇭🇰 HK-45.39.199.105:15002",
-      "server": "45.39.199.105",
-      "server_port": 15002,
-      "uuid": "9f513161-576b-3abc-9c98-06e52c3a24c6",
-      "security": "auto",
-      "alter_id": "0"
-    },
-    {
-      "type": "vmess",
-      "tag": "🔒 VM-TCP-NA 🇮🇷 IR-46.38.147.158:8484",
-      "server": "46.38.147.158",
-      "server_port": 8484,
-      "uuid": "8f772f706bd6412da86ce4601d2bf986",
-      "security": "auto",
-      "alter_id": "0"
-    },
-    {
-      "type": "vmess",
-      "tag": "🔒 VM-TCP-NA 🇮🇷 IR-95.38.140.107:35731",
-      "server": "95.38.140.107",
-      "server_port": 35731,
-      "uuid": "af5d9b7a-fbce-45ac-a945-9fc49f245542",
-      "security": "auto",
-      "alter_id": "0"
-    },
-    {
-      "type": "vmess",
-      "tag": "🔒 VM-TCP-NA 🇫🇷 FR-135.125.182.74:28213",
-      "server": "135.125.182.74",
-      "server_port": 28213,
-      "uuid": "81852771-76fb-4e94-e4f1-4e37a698a49a",
-      "security": "auto",
-      "alter_id": "0"
-    },
-    {
-      "type": "vmess",
-      "tag": "🔒 VM-TCP-NONE 🇸🇬 SG-154.26.137.42:44104",
-      "server": "154.26.137.42",
-      "server_port": 44104,
-      "uuid": "e9933a4c-e56e-458c-bcf4-9cb3875bba55",
-      "security": "auto",
-      "alter_id": 0
     },
     {
       "type": "vmess",
@@ -585,187 +192,6 @@
       "server": "94.136.184.156",
       "server_port": 38872,
       "uuid": "220732cc-9e43-4453-83f1-c9435be25b5b",
-      "security": "auto",
-      "alter_id": "0"
-    },
-    {
-      "type": "vmess",
-      "tag": "🔒 VM-WS-NA 🏴‍☠️ NA-104.19.47.126:8080",
-      "server": "104.19.47.126",
-      "server_port": 8080,
-      "uuid": "b551aa22-22af-11ee-b8d8-f23c932eb68d",
-      "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "ws",
-        "path": "/"
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "🔒 VM-TCP-NA 🇮🇳 IN-94.136.185.230:10534",
-      "server": "94.136.185.230",
-      "server_port": 10534,
-      "uuid": "b01c7ef9-33ec-41f6-bfbf-77ddc4d21649",
-      "security": "auto",
-      "alter_id": "0"
-    },
-    {
-      "type": "vmess",
-      "tag": "🔒 VM-TCP-NA 🇮🇷 IR-81.12.35.217:2055",
-      "server": "81.12.35.217",
-      "server_port": 2055,
-      "uuid": "351134b3-bff2-4801-9244-55e1a9d6c4b1",
-      "security": "auto",
-      "alter_id": "0"
-    },
-    {
-      "type": "vmess",
-      "tag": "🔒 VM-TCP-NA 🇺🇸 US-206.119.175.172:9997",
-      "server": "206.119.175.172",
-      "server_port": 9997,
-      "uuid": "ff93428d-712e-4bff-ad4b-a25f6f4dd6b7",
-      "security": "auto",
-      "alter_id": "0"
-    },
-    {
-      "type": "vmess",
-      "tag": "🔒 VM-TCP-NA 🇮🇷 IR-185.58.242.77:609",
-      "server": "185.58.242.77",
-      "server_port": 609,
-      "uuid": "d641e03f-9c7b-4b3d-85d7-1b2792fb2fe2",
-      "security": "auto",
-      "alter_id": "0"
-    },
-    {
-      "type": "vmess",
-      "tag": "🔒 VM-TCP-NA 🇺🇸 US-216.227.168.157:45215",
-      "server": "216.227.168.157",
-      "server_port": 45215,
-      "uuid": "469e0b31-30c3-4dab-800d-711232634ce1",
-      "security": "auto",
-      "alter_id": "0"
-    },
-    {
-      "type": "vmess",
-      "tag": "🔒 VM-TCP-NA 🇨🇭 CH-186.190.215.193:22324",
-      "server": "186.190.215.193",
-      "server_port": 22324,
-      "uuid": "04621bae-ab36-11ec-b909-0242ac120002",
-      "security": "auto",
-      "alter_id": 0
-    },
-    {
-      "type": "vmess",
-      "tag": "🔒 VM-TCP-NA 🇮🇷 IR-94.182.131.11:23992",
-      "server": "94.182.131.11",
-      "server_port": 23992,
-      "uuid": "a0e5c19f-70cf-4d5a-b81d-f733a9467875",
-      "security": "auto",
-      "alter_id": "0"
-    },
-    {
-      "type": "vmess",
-      "tag": "🔒 VM-WS-TLS 🇯🇵 JP-103.72.5.221:46666",
-      "server": "103.72.5.221",
-      "server_port": 46666,
-      "uuid": "418048af-a293-4b99-9b0c-98ca3580dd24",
-      "security": "auto",
-      "alter_id": "64",
-      "transport": {
-        "type": "ws",
-        "path": "/path/170733132233",
-        "headers": {
-          "Host": "www.72969856.xyz"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "www.72969856.xyz",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "🔒 VM-WS-NA 🇭🇰 HK-82.152.164.10:40601",
-      "server": "82.152.164.10",
-      "server_port": 40601,
-      "uuid": "5c634f9c-3dd4-4d3e-97c2-9db2470cf722",
-      "security": "auto",
-      "alter_id": 0,
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "us05.jssssss.com"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "🔒 VM-WS-TLS 🇺🇸 US-192.74.224.163:37002",
-      "server": "192.74.224.163",
-      "server_port": 37002,
-      "uuid": "418048af-a293-4b99-9b0c-98ca3580dd24",
-      "security": "auto",
-      "alter_id": "64",
-      "transport": {
-        "type": "ws",
-        "path": "/path/1739973313415",
-        "headers": {
-          "Host": "www.68584158.xyz"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "www.68584158.xyz"
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "🔒 VM-TCP-NA 🇮🇷 IR-193.151.148.103:29966",
-      "server": "193.151.148.103",
-      "server_port": 29966,
-      "uuid": "27f22d09-ef89-4606-a42b-f677d0c54d0d",
-      "security": "auto",
-      "alter_id": "0"
-    },
-    {
-      "type": "vmess",
-      "tag": "🔒 VM-TCP-NA 🇮🇷 IR-37.202.241.252:888",
-      "server": "37.202.241.252",
-      "server_port": 888,
-      "uuid": "48c4b162-ef82-4e33-a3fd-f6621985e791",
-      "security": "auto",
-      "alter_id": "0"
-    },
-    {
-      "type": "vmess",
-      "tag": "🔒 VM-TCP-NA 🇩🇪 DE-45.12.138.47:22839",
-      "server": "45.12.138.47",
-      "server_port": 22839,
-      "uuid": "2858a404-d0ca-4d67-80a6-ce8e95e383ff",
-      "security": "auto",
-      "alter_id": "0"
-    },
-    {
-      "type": "vmess",
-      "tag": "🔒 VM-TCP-NA 🇩🇪 DE-37.221.125.159:33940",
-      "server": "37.221.125.159",
-      "server_port": 33940,
-      "uuid": "353e0787-71bc-442d-9c9d-902f90359eb5",
-      "security": "auto",
-      "alter_id": "0"
-    },
-    {
-      "type": "vmess",
-      "tag": "🔒 VM-TCP-NA 🇺🇸 US-198.2.218.216:44883",
-      "server": "198.2.218.216",
-      "server_port": 44883,
-      "uuid": "418048af-a293-4b99-9b0c-98ca3580dd24",
       "security": "auto",
       "alter_id": "0"
     },
@@ -780,28 +206,429 @@
     },
     {
       "type": "vmess",
-      "tag": "🔒 VM-TCP-NONE 🇮🇷 IR-217.114.40.136:3223",
-      "server": "217.114.40.136",
-      "server_port": 3223,
-      "uuid": "c0b33b5a-c27e-f273-e3ee-d25f7bbf73dd",
-      "security": "auto",
-      "alter_id": 0
-    },
-    {
-      "type": "vmess",
-      "tag": "🔒 VM-TCP-NA 🇭🇰 HK-209.209.48.19:26022",
-      "server": "209.209.48.19",
-      "server_port": 26022,
-      "uuid": "3a6c789f-0548-4ca3-83c0-2c78acbee811",
+      "tag": "🔒 VM-TCP-NA 🇨🇦 CA-51.79.86.182:42610",
+      "server": "51.79.86.182",
+      "server_port": 42610,
+      "uuid": "e0957ca6-f613-4017-ff3c-effd1da8871a",
       "security": "auto",
       "alter_id": "0"
     },
     {
       "type": "vmess",
-      "tag": "🔒 VM-TCP-NA 🇮🇳 IN-94.136.184.155:39253",
-      "server": "94.136.184.155",
-      "server_port": 39253,
-      "uuid": "69b49a35-cf55-4d14-9f2b-d7ce3a0db72e",
+      "tag": "🔒 VM-WS-TLS 🏴‍☠️ NA-104.21.16.100:2053",
+      "server": "104.21.16.100",
+      "server_port": 2053,
+      "uuid": "eb817168-5f83-4fba-af99-881ec0e547b1",
+      "security": "auto",
+      "alter_id": "0",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "qurantv.iribquran.com"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "qurantv.iribquran.com"
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "🔒 VM-TCP-NA 🇸🇬 SG-62.146.233.112:36712",
+      "server": "62.146.233.112",
+      "server_port": 36712,
+      "uuid": "9266df42-0830-48c2-8509-4c57b30fe29d",
+      "security": "auto",
+      "alter_id": "0"
+    },
+    {
+      "type": "vmess",
+      "tag": "🔒 VM-TCP-NA 🇸🇬 SG-194.233.72.228:27575",
+      "server": "194.233.72.228",
+      "server_port": 27575,
+      "uuid": "16509262-dbe2-43ba-99ce-07913d2a18b4",
+      "security": "auto",
+      "alter_id": "0"
+    },
+    {
+      "type": "vmess",
+      "tag": "🔒 VM-TCP-NA 🇸🇬 SG-46.250.234.32:45317",
+      "server": "46.250.234.32",
+      "server_port": 45317,
+      "uuid": "b2836369-220b-4840-80c4-8cf904c735ee",
+      "security": "auto",
+      "alter_id": "0"
+    },
+    {
+      "type": "vmess",
+      "tag": "🔒 VM-TCP-NA 🇮🇷 IR-5.159.49.28:7600",
+      "server": "5.159.49.28",
+      "server_port": 7600,
+      "uuid": "ce63d7ce-bc85-455a-a12b-4e54eb39a14f",
+      "security": "auto",
+      "alter_id": "0"
+    },
+    {
+      "type": "vmess",
+      "tag": "🔒 VM-TCP-NA 🇳🇴 NO-95.164.38.6:21938",
+      "server": "95.164.38.6",
+      "server_port": 21938,
+      "uuid": "583bebef-3e0b-4c85-ba80-39e07ce35ad9",
+      "security": "auto",
+      "alter_id": "0"
+    },
+    {
+      "type": "vmess",
+      "tag": "🔒 VM-TCP-NA 🇮🇷 IR-85.133.201.234:56320",
+      "server": "85.133.201.234",
+      "server_port": 56320,
+      "uuid": "c4ec67a8-1dcc-471d-a6d7-4d9b9ec1726d",
+      "security": "auto",
+      "alter_id": 0
+    },
+    {
+      "type": "vmess",
+      "tag": "🔒 VM-TCP-NA 🇰🇷 KR-45.82.246.173:26521",
+      "server": "45.82.246.173",
+      "server_port": 26521,
+      "uuid": "cff7001e-3a74-43e8-bfd8-a7af9630a58b",
+      "security": "auto",
+      "alter_id": "0"
+    },
+    {
+      "type": "vmess",
+      "tag": "🔒 VM-WS-NA 🇺🇸 US-38.150.12.187:52513",
+      "server": "38.150.12.187",
+      "server_port": 52513,
+      "uuid": "342bacfd-2b8f-3f49-a16e-439db5b0b9d5",
+      "security": "auto",
+      "alter_id": "0",
+      "transport": {
+        "type": "ws",
+        "path": "/564dfa20/",
+        "headers": {
+          "Host": "aflzzul.meiquankongjian.com"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "🔒 VM-TCP-NA 🇵🇱 PL-2.56.125.101:38088",
+      "server": "2.56.125.101",
+      "server_port": 38088,
+      "uuid": "1275ea18-bc9c-4bcb-b3fd-fee70272e143",
+      "security": "auto",
+      "alter_id": "0"
+    },
+    {
+      "type": "vmess",
+      "tag": "🔒 VM-WS-NA 🏴‍☠️ NA-172.67.164.78:2052",
+      "server": "172.67.164.78",
+      "server_port": 2052,
+      "uuid": "c286daa2-59de-455c-8de8-ec032b6ce2e8",
+      "security": "auto",
+      "alter_id": 0,
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "in3.wish.ml"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "🔒 VM-TCP-NA 🇺🇸 US-216.227.168.157:45242",
+      "server": "216.227.168.157",
+      "server_port": 45242,
+      "uuid": "469e0b31-30c3-4dab-800d-711232634ce1",
+      "security": "auto",
+      "alter_id": "0"
+    },
+    {
+      "type": "vmess",
+      "tag": "🔒 VM-TCP-NA 🇸🇬 SG-84.247.149.77:47211",
+      "server": "84.247.149.77",
+      "server_port": 47211,
+      "uuid": "fb674260-1c21-4f99-8bd0-3d1d341c6771",
+      "security": "auto",
+      "alter_id": "0"
+    },
+    {
+      "type": "vmess",
+      "tag": "🔒 VM-WS-NA 🇮🇷 IR-185.201.49.68:48086",
+      "server": "185.201.49.68",
+      "server_port": 48086,
+      "uuid": "ffece2a9-0296-46a9-8db8-742d29d240ff",
+      "security": "auto",
+      "alter_id": "0",
+      "transport": {
+        "type": "ws",
+        "path": "/static/css/jquery/JFxPamJMNCYmZVxzIktGYC5rQT0uWS92XCs7Kl1jZikxTThQRColFntsJDJ4EzQoMjEFGFgVb1s0bBtOE1F2ZQoW",
+        "headers": {
+          "Host": "fanap-infra.com"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "🔒 VM-WS-NA 🏴‍☠️ NA-104.21.66.86:80",
+      "server": "104.21.66.86",
+      "server_port": 80,
+      "uuid": "2d068083-2cb0-4ae3-a44a-6fc82f3039cc",
+      "security": "auto",
+      "alter_id": "0",
+      "transport": {
+        "type": "ws",
+        "path": "/87Ex2JiYYWr7FRa06b88JSo",
+        "headers": {
+          "Host": "ppppplllkkkk.444752.xyz"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "🔒 VM-TCP-NA 🇯🇵 JP-47.79.88.113:53710",
+      "server": "47.79.88.113",
+      "server_port": 53710,
+      "uuid": "1db838d0-ecd2-4b73-a7f8-5af6b401d833",
+      "security": "auto",
+      "alter_id": "0"
+    },
+    {
+      "type": "vmess",
+      "tag": "🔒 VM-TCP-TLS 🇵🇱 PL-57.128.219.94:2083",
+      "server": "57.128.219.94",
+      "server_port": 2083,
+      "uuid": "0390d873-2e4b-47ec-aeb2-668f958199d9",
+      "security": "auto",
+      "alter_id": "0",
+      "tls": {
+        "enabled": true,
+        "server_name": "pl-v2ray.ipracevpn.com"
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "🔒 VM-TCP-NA 🇮🇷 IR-185.215.228.220:48673",
+      "server": "185.215.228.220",
+      "server_port": 48673,
+      "uuid": "6ae00a4a-b7a9-45fa-8d8b-d74943a17a4c",
+      "security": "auto",
+      "alter_id": "0"
+    },
+    {
+      "type": "vmess",
+      "tag": "🔒 VM-TCP-NA 🇮🇷 IR-188.75.79.85:20236",
+      "server": "188.75.79.85",
+      "server_port": 20236,
+      "uuid": "519cac48-4e9e-49a6-b195-1eb9a13427e6",
+      "security": "auto",
+      "alter_id": "0"
+    },
+    {
+      "type": "vmess",
+      "tag": "🔒 VM-TCP-NA 🇬🇧 GB-5.180.30.110:51352",
+      "server": "5.180.30.110",
+      "server_port": 51352,
+      "uuid": "bcf86479-aab4-47cf-9d6e-34d353baa1a2",
+      "security": "auto",
+      "alter_id": "0"
+    },
+    {
+      "type": "vmess",
+      "tag": "🔒 VM-GRPC-TLS 🏴‍☠️ NA-108.162.192.217:2087",
+      "server": "108.162.192.217",
+      "server_port": 2087,
+      "uuid": "db5afae4-ac23-41a6-8378-f307a9a47436",
+      "security": "auto",
+      "alter_id": "0",
+      "transport": {
+        "type": "grpc",
+        "service_name": ""
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "dd21146ygfdSNA9191281280kdm22kas2123Aawdsd1234bb66428394.meratnet.ir"
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "🔒 VM-TCP-NA 🇫🇷 FR-2.56.126.103:33579",
+      "server": "2.56.126.103",
+      "server_port": 33579,
+      "uuid": "2eb3ee2a-7bf8-4b50-9b93-2d489d2f3456",
+      "security": "auto",
+      "alter_id": "0"
+    },
+    {
+      "type": "vmess",
+      "tag": "🔒 VM-TCP-NA 🇬🇧 GB-46.250.243.56:50394",
+      "server": "46.250.243.56",
+      "server_port": 50394,
+      "uuid": "a75f3f95-ad4e-4498-fc72-dd740dd02bfc",
+      "security": "auto",
+      "alter_id": "0"
+    },
+    {
+      "type": "vmess",
+      "tag": "🔒 VM-TCP-NONE 🇮🇷 IR-95.38.140.102:45090",
+      "server": "95.38.140.102",
+      "server_port": 45090,
+      "uuid": "ab94c3a9-6695-4390-bde0-0ecefab656fe",
+      "security": "auto",
+      "alter_id": "0"
+    },
+    {
+      "type": "vmess",
+      "tag": "🔒 VM-TCP-NA 🇷🇴 RO-5.182.37.231:49664",
+      "server": "5.182.37.231",
+      "server_port": 49664,
+      "uuid": "9395474c-e2a1-4565-ba56-c16e7373c4c4",
+      "security": "auto",
+      "alter_id": "0"
+    },
+    {
+      "type": "vmess",
+      "tag": "🔒 VM-TCP-NA 🇮🇷 IR-46.38.147.71:8484",
+      "server": "46.38.147.71",
+      "server_port": 8484,
+      "uuid": "8f772f706bd6412da86ce4601d2bf986",
+      "security": "auto",
+      "alter_id": "0"
+    },
+    {
+      "type": "vmess",
+      "tag": "🔒 VM-TCP-NA 🇮🇷 IR-2.189.84.105:10165",
+      "server": "2.189.84.105",
+      "server_port": 10165,
+      "uuid": "1bf6a29c-4f0c-4d4c-896c-b3b770d94e82",
+      "security": "auto",
+      "alter_id": "0"
+    },
+    {
+      "type": "vmess",
+      "tag": "🔒 VM-WS-NA 🏴‍☠️ NA-104.18.185.26:2095",
+      "server": "104.18.185.26",
+      "server_port": 2095,
+      "uuid": "4b36625c-b9d9-3ea6-aed5-86d62c70e16d",
+      "security": "auto",
+      "alter_id": 0,
+      "transport": {
+        "type": "ws",
+        "path": "/dabai.in104.24.248.64",
+        "headers": {
+          "Host": "100-33-108-197.s1.db-link02.top"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "🔒 VM-TCP-NA 🇮🇷 IR-85.198.23.63:52262",
+      "server": "85.198.23.63",
+      "server_port": 52262,
+      "uuid": "af5a0d0c-c898-4a51-ba6a-47179d483e41",
+      "security": "auto",
+      "alter_id": "0"
+    },
+    {
+      "type": "vmess",
+      "tag": "🔒 VM-TCP-NA 🇮🇷 IR-87.248.139.11:15382",
+      "server": "87.248.139.11",
+      "server_port": 15382,
+      "uuid": "15052e07-4371-4c69-8852-1112114c5947",
+      "security": "auto",
+      "alter_id": "0"
+    },
+    {
+      "type": "vmess",
+      "tag": "🔒 VM-TCP-NA 🇮🇷 IR-188.121.109.247:444",
+      "server": "188.121.109.247",
+      "server_port": 444,
+      "uuid": "523d8d78-411a-4849-b17f-ccff6bcbf564",
+      "security": "auto",
+      "alter_id": "0"
+    },
+    {
+      "type": "vmess",
+      "tag": "🔒 VM-TCP-NA 🇳🇱 NL-45.12.145.111:46290",
+      "server": "45.12.145.111",
+      "server_port": 46290,
+      "uuid": "1b41153e-c4d4-431b-83eb-10472f869f93",
+      "security": "auto",
+      "alter_id": "0"
+    },
+    {
+      "type": "vmess",
+      "tag": "🔒 VM-TCP-NA 🇮🇷 IR-80.249.113.209:8084",
+      "server": "80.249.113.209",
+      "server_port": 8084,
+      "uuid": "8a4e78c6-bf74-49b9-a11a-dc1ebd9e5006",
+      "security": "auto",
+      "alter_id": "0"
+    },
+    {
+      "type": "vmess",
+      "tag": "🔒 VM-RAW-NA 🇺🇸 US-216.227.168.157:45272",
+      "server": "216.227.168.157",
+      "server_port": 45272,
+      "uuid": "469e0b31-30c3-4dab-800d-711232634ce1",
+      "security": "auto",
+      "alter_id": "0",
+      "transport": {
+        "type": "raw"
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "🔒 VM-TCP-NA 🇨🇳 CN-219.151.20.62:42324",
+      "server": "219.151.20.62",
+      "server_port": 42324,
+      "uuid": "4381beae-45a6-4421-8547-65e312dd204a",
+      "security": "auto",
+      "alter_id": "0"
+    },
+    {
+      "type": "vmess",
+      "tag": "🔒 VM-WS-NA 🏴‍☠️ NA-104.16.155.10:8880",
+      "server": "104.16.155.10",
+      "server_port": 8880,
+      "uuid": "4b36625c-b9d9-3ea6-aed5-86d62c70e16d",
+      "security": "auto",
+      "alter_id": 0,
+      "transport": {
+        "type": "ws",
+        "path": "/dabai.in104.25.249.215",
+        "headers": {
+          "Host": "100-103-58-39.s1.db-link02.top"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "🔒 VM-TCP-NONE 🇮🇷 IR-62.3.42.197:41948",
+      "server": "62.3.42.197",
+      "server_port": 41948,
+      "uuid": "7d3c521f-fffc-4f3c-f660-a1482aad3e62",
+      "security": "auto",
+      "alter_id": "0"
+    },
+    {
+      "type": "vmess",
+      "tag": "🔒 VM-TCP-NA 🇺🇸 US-216.227.168.157:45417",
+      "server": "216.227.168.157",
+      "server_port": 45417,
+      "uuid": "469e0b31-30c3-4dab-800d-711232634ce1",
+      "security": "auto",
+      "alter_id": "0"
+    },
+    {
+      "type": "vmess",
+      "tag": "🔒 VM-TCP-NA 🇺🇸 US-216.227.168.157:45258",
+      "server": "216.227.168.157",
+      "server_port": 45258,
+      "uuid": "469e0b31-30c3-4dab-800d-711232634ce1",
       "security": "auto",
       "alter_id": "0"
     },
@@ -816,19 +643,159 @@
     },
     {
       "type": "vmess",
-      "tag": "🔒 VM-TCP-NONE 🇮🇷 IR-62.60.220.184:9012",
-      "server": "62.60.220.184",
-      "server_port": 9012,
-      "uuid": "6be17a0e-92f0-49e0-9648-0d21e3a8e9f0",
+      "tag": "🔒 VM-TCP-NA 🇭🇰 HK-43.247.134.201:59149",
+      "server": "43.247.134.201",
+      "server_port": 59149,
+      "uuid": "efbdabeb-68df-4cd0-959d-7d4f4b508609",
       "security": "auto",
       "alter_id": 0
     },
     {
       "type": "vmess",
-      "tag": "🔒 VM-TCP-NA 🇮🇷 IR-85.133.233.184:3890",
-      "server": "85.133.233.184",
-      "server_port": 3890,
-      "uuid": "01385550-af60-4d57-af84-dddac5213b0c",
+      "tag": "🔒 VM-TCP-NA 🇭🇰 HK-45.39.199.105:15002",
+      "server": "45.39.199.105",
+      "server_port": 15002,
+      "uuid": "9f513161-576b-3abc-9c98-06e52c3a24c6",
+      "security": "auto",
+      "alter_id": "0"
+    },
+    {
+      "type": "vmess",
+      "tag": "🔒 VM-TCP-NA 🇺🇸 US-216.227.168.157:45231",
+      "server": "216.227.168.157",
+      "server_port": 45231,
+      "uuid": "469e0b31-30c3-4dab-800d-711232634ce1",
+      "security": "auto",
+      "alter_id": "0"
+    },
+    {
+      "type": "vmess",
+      "tag": "🔒 VM-GRPC-TLS 🏴‍☠️ NA-104.17.147.22:2096",
+      "server": "104.17.147.22",
+      "server_port": 2096,
+      "uuid": "da9013d6-3bca-4ce4-9cb9-cc150a6e9f34",
+      "security": "auto",
+      "alter_id": "0",
+      "transport": {
+        "type": "grpc",
+        "service_name": ""
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "api3.waltonweb.ir"
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "🔒 VM-TCP-NA 🇨🇳 CN-219.151.20.62:42333",
+      "server": "219.151.20.62",
+      "server_port": 42333,
+      "uuid": "4381beae-45a6-4421-8547-65e312dd204a",
+      "security": "auto",
+      "alter_id": "0"
+    },
+    {
+      "type": "vmess",
+      "tag": "🔒 VM-TCP-NA 🇮🇷 IR-37.152.181.138:5050",
+      "server": "37.152.181.138",
+      "server_port": 5050,
+      "uuid": "a77c3026-b297-47d5-c837-b18b64198d0b",
+      "security": "auto",
+      "alter_id": "0"
+    },
+    {
+      "type": "vmess",
+      "tag": "🔒 VM-TCP-NONE 🇦🇺 AU-154.26.153.161:21759",
+      "server": "154.26.153.161",
+      "server_port": 21759,
+      "uuid": "e5f16fad-f9c3-452b-8e71-bc9504e29fc9",
+      "security": "auto",
+      "alter_id": 0
+    },
+    {
+      "type": "vmess",
+      "tag": "🔒 VM-WS-TLS 🇨🇳 CN-120.253.242.194:35214",
+      "server": "120.253.242.194",
+      "server_port": 35214,
+      "uuid": "46a539d2-d3ba-4a6e-aedb-b727d2fc60f8",
+      "security": "auto",
+      "alter_id": "0",
+      "transport": {
+        "type": "ws",
+        "path": "/home",
+        "headers": {
+          "Host": "web.xcjs.info"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "jp4.g2.moonbase.life"
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "🔒 VM-TCP-NA 🇮🇷 IR-212.80.10.88:8082",
+      "server": "212.80.10.88",
+      "server_port": 8082,
+      "uuid": "1a91e2bd-f189-4d52-911d-00177069ccad",
+      "security": "auto",
+      "alter_id": "0"
+    },
+    {
+      "type": "vmess",
+      "tag": "🔒 VM-TCP-NA 🇭🇰 HK-45.39.199.105:15074",
+      "server": "45.39.199.105",
+      "server_port": 15074,
+      "uuid": "9f513161-576b-3abc-9c98-06e52c3a24c6",
+      "security": "auto",
+      "alter_id": "0"
+    },
+    {
+      "type": "vmess",
+      "tag": "🔒 VM-TCP-NA 🇸🇬 SG-38.47.176.251:56051",
+      "server": "38.47.176.251",
+      "server_port": 56051,
+      "uuid": "2bca3569-0662-47f7-fdf8-421f30e71f44",
+      "security": "auto",
+      "alter_id": "0"
+    },
+    {
+      "type": "vmess",
+      "tag": "🔒 VM-TCP-NA 🇮🇷 IR-37.202.241.252:888",
+      "server": "37.202.241.252",
+      "server_port": 888,
+      "uuid": "48c4b162-ef82-4e33-a3fd-f6621985e791",
+      "security": "auto",
+      "alter_id": "0"
+    },
+    {
+      "type": "vmess",
+      "tag": "🔒 VM-TCP-NA 🇩🇪 DE-37.221.125.159:33940",
+      "server": "37.221.125.159",
+      "server_port": 33940,
+      "uuid": "353e0787-71bc-442d-9c9d-902f90359eb5",
+      "security": "auto",
+      "alter_id": "0"
+    },
+    {
+      "type": "vmess",
+      "tag": "🔒 VM-WS-NA 🇺🇸 US-2.58.87.221:12269",
+      "server": "2.58.87.221",
+      "server_port": 12269,
+      "uuid": "db85ff0e-c33f-401d-c415-4c7cce135704",
+      "security": "auto",
+      "alter_id": 0,
+      "transport": {
+        "type": "ws",
+        "path": "/"
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "🔒 VM-TCP-NA 🇺🇦 UA-45.137.155.45:17646",
+      "server": "45.137.155.45",
+      "server_port": 17646,
+      "uuid": "82734724-8c06-4c2e-9cff-b34776fe1757",
       "security": "auto",
       "alter_id": "0"
     },
@@ -854,38 +821,610 @@
     },
     {
       "type": "vmess",
-      "tag": "🔒 VM-TCP-NA 🇵🇱 PL-2.56.125.101:38088",
-      "server": "2.56.125.101",
-      "server_port": 38088,
-      "uuid": "1275ea18-bc9c-4bcb-b3fd-fee70272e143",
-      "security": "auto",
-      "alter_id": "0"
-    },
-    {
-      "type": "vmess",
-      "tag": "🔒 VM-TCP-NA 🇺🇸 US-216.227.168.157:45291",
+      "tag": "🔒 VM-TCP-NA 🇺🇸 US-216.227.168.157:45266",
       "server": "216.227.168.157",
-      "server_port": 45291,
+      "server_port": 45266,
       "uuid": "469e0b31-30c3-4dab-800d-711232634ce1",
       "security": "auto",
       "alter_id": "0"
     },
     {
       "type": "vmess",
-      "tag": "🔒 VM-GRPC-TLS 🏴‍☠️ NA-104.17.148.22:2096",
-      "server": "104.17.148.22",
-      "server_port": 2096,
-      "uuid": "da9013d6-3bca-4ce4-9cb9-cc150a6e9f34",
+      "tag": "🔒 VM-TCP-NA 🇺🇸 US-198.2.218.216:44883",
+      "server": "198.2.218.216",
+      "server_port": 44883,
+      "uuid": "418048af-a293-4b99-9b0c-98ca3580dd24",
+      "security": "auto",
+      "alter_id": "64"
+    },
+    {
+      "type": "vmess",
+      "tag": "🔒 VM-WS-NA 🇷🇺 RU-31.129.105.239:16231",
+      "server": "31.129.105.239",
+      "server_port": 16231,
+      "uuid": "793e03cc-2b08-4d1b-bb0b-592567d19043",
       "security": "auto",
       "alter_id": "0",
       "transport": {
-        "type": "grpc",
-        "service_name": ""
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "31.129.105.239"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "🔒 VM-TCP-NA 🇮🇷 IR-45.90.74.240:7580",
+      "server": "45.90.74.240",
+      "server_port": 7580,
+      "uuid": "47a4e822-61ce-4eb2-d5bd-8db6f17bab93",
+      "security": "auto",
+      "alter_id": "0"
+    },
+    {
+      "type": "vmess",
+      "tag": "🔒 VM-WS-TLS 🇨🇳 CN-120.253.242.194:35244",
+      "server": "120.253.242.194",
+      "server_port": 35244,
+      "uuid": "46a539d2-d3ba-4a6e-aedb-b727d2fc60f8",
+      "security": "auto",
+      "alter_id": "0",
+      "transport": {
+        "type": "ws",
+        "path": "/home",
+        "headers": {
+          "Host": "jp4.vip2.g2.moonbase.life"
+        }
       },
       "tls": {
         "enabled": true,
-        "server_name": "api3.waltonweb.ir"
+        "server_name": "jp4.vip2.g2.moonbase.life"
       }
+    },
+    {
+      "type": "vmess",
+      "tag": "🔒 VM-TCP-NA 🇸🇬 SG-84.247.147.67:54179",
+      "server": "84.247.147.67",
+      "server_port": 54179,
+      "uuid": "d143ebbc-7825-4b43-a55e-f11cb153bd5b",
+      "security": "auto",
+      "alter_id": "0"
+    },
+    {
+      "type": "vmess",
+      "tag": "🔒 VM-TCP-NA 🇮🇷 IR-185.58.242.77:609",
+      "server": "185.58.242.77",
+      "server_port": 609,
+      "uuid": "d641e03f-9c7b-4b3d-85d7-1b2792fb2fe2",
+      "security": "auto",
+      "alter_id": "0"
+    },
+    {
+      "type": "vmess",
+      "tag": "🔒 VM-TCP-NA 🇩🇪 DE-45.12.138.47:22839",
+      "server": "45.12.138.47",
+      "server_port": 22839,
+      "uuid": "2858a404-d0ca-4d67-80a6-ce8e95e383ff",
+      "security": "auto",
+      "alter_id": "0"
+    },
+    {
+      "type": "vmess",
+      "tag": "🔒 VM-WS-NA 🇯🇵 JP-154.55.122.235:8000",
+      "server": "154.55.122.235",
+      "server_port": 8000,
+      "uuid": "e3be93a8-54ac-48b2-b079-6c0d3d523e87",
+      "security": "auto",
+      "alter_id": "0",
+      "transport": {
+        "type": "ws",
+        "path": "/nmkj",
+        "headers": {
+          "Host": "www.bing.com"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "🔒 VM-WS-TLS 🇨🇳 CN-36.150.94.79:35246",
+      "server": "36.150.94.79",
+      "server_port": 35246,
+      "uuid": "c3136814-a07e-41f6-ad94-8e20458c0d21",
+      "security": null,
+      "alter_id": "0",
+      "transport": {
+        "type": "ws",
+        "path": "/home",
+        "headers": {
+          "Host": "web.xcjs.info"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "jp6.vip2.g2.moonbase.life"
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "🔒 VM-TCP-NA 🇮🇷 IR-31.41.35.195:47057",
+      "server": "31.41.35.195",
+      "server_port": 47057,
+      "uuid": "d5c08621-88ae-4898-8838-adf4653d59e7",
+      "security": "auto",
+      "alter_id": "0"
+    },
+    {
+      "type": "vmess",
+      "tag": "🔒 VM-TCP-NA 🇮🇷 IR-185.133.125.6:4951",
+      "server": "185.133.125.6",
+      "server_port": 4951,
+      "uuid": "e5d50439-47a8-467f-bead-00d3c4ab86f3",
+      "security": "auto",
+      "alter_id": "0"
+    },
+    {
+      "type": "vmess",
+      "tag": "🔒 VM-TCP-NA 🇮🇷 IR-5.160.197.78:17564",
+      "server": "5.160.197.78",
+      "server_port": 17564,
+      "uuid": "aa7dd96b0a7d81db2e71553abe192620",
+      "security": "auto",
+      "alter_id": "0"
+    },
+    {
+      "type": "vmess",
+      "tag": "🔒 VM-TCP-NA 🇨🇳 CN-219.151.20.62:42309",
+      "server": "219.151.20.62",
+      "server_port": 42309,
+      "uuid": "4381beae-45a6-4421-8547-65e312dd204a",
+      "security": "auto",
+      "alter_id": "0"
+    },
+    {
+      "type": "vmess",
+      "tag": "🔒 VM-WS-TLS 🇸🇬 SG-134.122.133.119:48887",
+      "server": "134.122.133.119",
+      "server_port": 48887,
+      "uuid": "418048af-a293-4b99-9b0c-98ca3580dd24",
+      "security": "auto",
+      "alter_id": "64",
+      "transport": {
+        "type": "ws",
+        "path": "/path/170733132233",
+        "headers": {
+          "Host": "www.86711926.xyz"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "www.86711926.xyz",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "🔒 VM-WS-TLS 🇭🇰 HK-43.154.34.74:1935",
+      "server": "43.154.34.74",
+      "server_port": 1935,
+      "uuid": "2e5bfd4a-0852-4df4-b9e7-9b6f207113b4",
+      "security": "auto",
+      "alter_id": "0",
+      "transport": {
+        "type": "ws",
+        "path": "/vmess-argo",
+        "headers": {
+          "Host": "djdjjrjjrhk.lzj520hxw.dpdns.org"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "djdjjrjjrhk.lzj520hxw.dpdns.org"
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "🔒 VM-TCP-NA 🇺🇸 US-216.227.168.157:45276",
+      "server": "216.227.168.157",
+      "server_port": 45276,
+      "uuid": "469e0b31-30c3-4dab-800d-711232634ce1",
+      "security": "auto",
+      "alter_id": "0"
+    },
+    {
+      "type": "vmess",
+      "tag": "🔒 VM-TCP-NA 🇬🇧 GB-209.97.176.198:8081",
+      "server": "209.97.176.198",
+      "server_port": 8081,
+      "uuid": "3873beec-44c6-45be-8900-d184a1d0ee8f",
+      "security": "auto",
+      "alter_id": "0"
+    },
+    {
+      "type": "vmess",
+      "tag": "🔒 VM-TCP-NONE 🇮🇷 IR-91.212.232.124:45037",
+      "server": "91.212.232.124",
+      "server_port": 45037,
+      "uuid": "175fc5e3-3e65-41d1-aa27-b7842ee3d8b7",
+      "security": "auto",
+      "alter_id": 0
+    },
+    {
+      "type": "vmess",
+      "tag": "🔒 VM-TCP-NA 🇮🇷 IR-81.12.33.197:6013",
+      "server": "81.12.33.197",
+      "server_port": 6013,
+      "uuid": "2bf6cb84-d726-43eb-9928-8d8e442a4b6c",
+      "security": "auto",
+      "alter_id": "0"
+    },
+    {
+      "type": "vmess",
+      "tag": "🔒 VM-TCP-NA 🇺🇸 US-51.81.203.57:28860",
+      "server": "51.81.203.57",
+      "server_port": 28860,
+      "uuid": "1784497d-03a1-40bb-bb8b-de4ffac7c59c",
+      "security": "auto",
+      "alter_id": "0"
+    },
+    {
+      "type": "vmess",
+      "tag": "🔒 VM-TCP-NA 🇮🇷 IR-81.12.33.97:2070",
+      "server": "81.12.33.97",
+      "server_port": 2070,
+      "uuid": "b6e340e6-c49a-4a53-88c6-2e5478f5cb80",
+      "security": "auto",
+      "alter_id": "0"
+    },
+    {
+      "type": "vmess",
+      "tag": "🔒 VM-TCP-NA 🇩🇪 DE-91.107.164.255:33203",
+      "server": "91.107.164.255",
+      "server_port": 33203,
+      "uuid": "a82148dd-4f11-4472-b341-f63f57dce17f",
+      "security": "auto",
+      "alter_id": "0"
+    },
+    {
+      "type": "vmess",
+      "tag": "🔒 VM-TCP-NA 🇮🇷 IR-2.189.117.108:35010",
+      "server": "2.189.117.108",
+      "server_port": 35010,
+      "uuid": "cd348c94-abff-49c7-a3ef-5475fec89d4c",
+      "security": "auto",
+      "alter_id": "0"
+    },
+    {
+      "type": "vmess",
+      "tag": "🔒 VM-TCP-NA 🇳🇱 NL-185.73.115.50:1363",
+      "server": "185.73.115.50",
+      "server_port": 1363,
+      "uuid": "2f8265ef-6148-4dbf-988f-a3c4b830281a",
+      "security": "auto",
+      "alter_id": "0"
+    },
+    {
+      "type": "vmess",
+      "tag": "🔒 VM-TCP-NA 🇮🇷 IR-37.152.181.119:56104",
+      "server": "37.152.181.119",
+      "server_port": 56104,
+      "uuid": "efd57bc3-8086-48bd-9b1a-6fd8ab8cee6d",
+      "security": "auto",
+      "alter_id": "0"
+    },
+    {
+      "type": "vmess",
+      "tag": "🔒 VM-TCP-NA 🇮🇷 IR-78.157.49.213:58819",
+      "server": "78.157.49.213",
+      "server_port": 58819,
+      "uuid": "b0bf81e1-0b18-4253-a278-d516f580240a",
+      "security": "auto",
+      "alter_id": "0"
+    },
+    {
+      "type": "vmess",
+      "tag": "🔒 VM-TCP-NA 🇳🇱 NL-209.38.52.91:42562",
+      "server": "209.38.52.91",
+      "server_port": 42562,
+      "uuid": "7905c28d-34d7-435a-b67e-d1d2d342f011",
+      "security": "auto",
+      "alter_id": "0"
+    },
+    {
+      "type": "vmess",
+      "tag": "🔒 VM-TCP-NA 🇮🇷 IR-195.234.80.212:1387",
+      "server": "195.234.80.212",
+      "server_port": 1387,
+      "uuid": "f00bee3a-e50c-4e24-b004-ed3f21a1d834",
+      "security": "auto",
+      "alter_id": "0"
+    },
+    {
+      "type": "vmess",
+      "tag": "🔒 VM-TCP-NA 🇨🇭 CH-23.166.88.183:22324",
+      "server": "23.166.88.183",
+      "server_port": 22324,
+      "uuid": "04621bae-ab36-11ec-b909-0242ac120002",
+      "security": "auto",
+      "alter_id": "0"
+    },
+    {
+      "type": "vmess",
+      "tag": "🔒 VM-TCP-NA 🇳🇱 NL-93.115.172.175:12540",
+      "server": "93.115.172.175",
+      "server_port": 12540,
+      "uuid": "056d3d35-a729-4ab4-bbae-d71d8458af19",
+      "security": "auto",
+      "alter_id": "0"
+    },
+    {
+      "type": "vmess",
+      "tag": "🔒 VM-TCP-NA 🇺🇸 US-15.204.11.190:15361",
+      "server": "15.204.11.190",
+      "server_port": 15361,
+      "uuid": "5d7bf9e3-415c-40f3-c66d-a54ea0fd860e",
+      "security": "auto",
+      "alter_id": "0"
+    },
+    {
+      "type": "vmess",
+      "tag": "🔒 VM-WS-TLS 🏴‍☠️ NA-104.21.89.221:443",
+      "server": "104.21.89.221",
+      "server_port": 443,
+      "uuid": "cdec9d57-661d-456a-bbf2-b4c38e9c6711",
+      "security": "auto",
+      "alter_id": "0",
+      "transport": {
+        "type": "ws",
+        "path": "/9dZlJLjHHrL0VwSolbqFpg",
+        "headers": {
+          "Host": "eer4567.999824.xyz"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "EeR4567.999824.xYz"
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "🔒 VM-TCP-NA 🇮🇷 IR-78.39.9.134:8090",
+      "server": "78.39.9.134",
+      "server_port": 8090,
+      "uuid": "891e1d1c-5fbc-40cb-9256-58b016b6b600",
+      "security": "auto",
+      "alter_id": "0"
+    },
+    {
+      "type": "vmess",
+      "tag": "🔒 VM-TCP-NA 🇺🇸 US-216.227.168.157:45247",
+      "server": "216.227.168.157",
+      "server_port": 45247,
+      "uuid": "469e0b31-30c3-4dab-800d-711232634ce1",
+      "security": "auto",
+      "alter_id": "0"
+    },
+    {
+      "type": "vmess",
+      "tag": "🔒 VM-TCP-NA 🇭🇰 HK-209.209.48.19:26022",
+      "server": "209.209.48.19",
+      "server_port": 26022,
+      "uuid": "3a6c789f-0548-4ca3-83c0-2c78acbee811",
+      "security": "auto",
+      "alter_id": "0"
+    },
+    {
+      "type": "vmess",
+      "tag": "🔒 VM-RAW-NA 🇺🇸 US-216.227.168.157:45233",
+      "server": "216.227.168.157",
+      "server_port": 45233,
+      "uuid": "469e0b31-30c3-4dab-800d-711232634ce1",
+      "security": "auto",
+      "alter_id": "0",
+      "transport": {
+        "type": "raw"
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "🔒 VM-TCP-NONE 🇸🇬 SG-154.26.134.106:14129",
+      "server": "154.26.134.106",
+      "server_port": 14129,
+      "uuid": "e7798e09-3090-4366-ae80-f18afdaabf4f",
+      "security": "auto",
+      "alter_id": "0"
+    },
+    {
+      "type": "vmess",
+      "tag": "🔒 VM-TCP-NA 🇸🇬 SG-84.247.146.161:39530",
+      "server": "84.247.146.161",
+      "server_port": 39530,
+      "uuid": "7aa56e39-29b8-45c3-8b53-6d2a23b2461c",
+      "security": "auto",
+      "alter_id": "0"
+    },
+    {
+      "type": "vmess",
+      "tag": "🔒 VM-TCP-NA 🇮🇷 IR-95.38.140.107:35731",
+      "server": "95.38.140.107",
+      "server_port": 35731,
+      "uuid": "af5d9b7a-fbce-45ac-a945-9fc49f245542",
+      "security": "auto",
+      "alter_id": "0"
+    },
+    {
+      "type": "vmess",
+      "tag": "🔒 VM-TCP-NA 🇸🇬 SG-84.247.146.189:33754",
+      "server": "84.247.146.189",
+      "server_port": 33754,
+      "uuid": "45f4f565-8c78-4906-a5b9-08ea9075cd31",
+      "security": "auto",
+      "alter_id": "0"
+    },
+    {
+      "type": "vmess",
+      "tag": "🔒 VM-TCP-NA 🇺🇸 US-66.94.114.122:53503",
+      "server": "66.94.114.122",
+      "server_port": 53503,
+      "uuid": "c9b9dea3-5868-477f-e54d-2c8f124f647d",
+      "security": "auto",
+      "alter_id": "0"
+    },
+    {
+      "type": "vmess",
+      "tag": "🔒 VM-WS-NA 🇺🇸 US-38.150.12.188:52511",
+      "server": "38.150.12.188",
+      "server_port": 52511,
+      "uuid": "342bacfd-2b8f-3f49-a16e-439db5b0b9d5",
+      "security": "auto",
+      "alter_id": "0",
+      "transport": {
+        "type": "ws",
+        "path": "/564dfa20/",
+        "headers": {
+          "Host": "aflzzul.meiquankongjian.com"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "🔒 VM-TCP-NA 🇮🇳 IN-94.136.184.155:39253",
+      "server": "94.136.184.155",
+      "server_port": 39253,
+      "uuid": "69b49a35-cf55-4d14-9f2b-d7ce3a0db72e",
+      "security": "auto",
+      "alter_id": "0"
+    },
+    {
+      "type": "vmess",
+      "tag": "🔒 VM-TCP-NA 🇮🇷 IR-185.124.175.200:6016",
+      "server": "185.124.175.200",
+      "server_port": 6016,
+      "uuid": "9074065a-840e-4cfa-9cd9-4b06a96bda87",
+      "security": "auto",
+      "alter_id": "0"
+    },
+    {
+      "type": "vmess",
+      "tag": "🔒 VM-TCP-NONE 🇮🇷 IR-185.215.228.7:49178",
+      "server": "185.215.228.7",
+      "server_port": 49178,
+      "uuid": "019d8491-590e-4d5d-8c40-153411693aab",
+      "security": "auto",
+      "alter_id": "0"
+    },
+    {
+      "type": "vmess",
+      "tag": "🔒 VM-TCP-NA 🇮🇷 IR-94.183.233.116:3911",
+      "server": "94.183.233.116",
+      "server_port": 3911,
+      "uuid": "4e51fb58-ef69-42bd-8536-acfd52d28afd",
+      "security": "auto",
+      "alter_id": "0"
+    },
+    {
+      "type": "vmess",
+      "tag": "🔒 VM-TCP-NA 🇸🇬 SG-84.247.148.192:44396",
+      "server": "84.247.148.192",
+      "server_port": 44396,
+      "uuid": "3ca35e0a-e430-43fe-9c12-2e2eea70f873",
+      "security": "auto",
+      "alter_id": "0"
+    },
+    {
+      "type": "vmess",
+      "tag": "🔒 VM-TCP-NA 🇬🇧 GB-5.180.30.146:27773",
+      "server": "5.180.30.146",
+      "server_port": 27773,
+      "uuid": "b2347239-dd15-40b3-b683-50cc2ff19ae7",
+      "security": "auto",
+      "alter_id": "0"
+    },
+    {
+      "type": "vmess",
+      "tag": "🔒 VM-TCP-NA 🇮🇷 IR-94.182.83.76:52348",
+      "server": "94.182.83.76",
+      "server_port": 52348,
+      "uuid": "c99ff604-6970-4ae9-b7e5-d0ad8cc5a10b",
+      "security": "auto",
+      "alter_id": "0"
+    },
+    {
+      "type": "vmess",
+      "tag": "🔒 VM-TCP-NA 🇸🇬 SG-84.247.147.243:51566",
+      "server": "84.247.147.243",
+      "server_port": 51566,
+      "uuid": "ae6ae977-17f2-43fd-a336-20b3b3a9e791",
+      "security": "auto",
+      "alter_id": "0"
+    },
+    {
+      "type": "vmess",
+      "tag": "🔒 VM-TCP-NA 🇮🇷 IR-85.9.126.233:20625",
+      "server": "85.9.126.233",
+      "server_port": 20625,
+      "uuid": "63c7e9fe-89f6-4542-8e89-0828b0a4045a",
+      "security": "auto",
+      "alter_id": "0"
+    },
+    {
+      "type": "vmess",
+      "tag": "🔒 VM-TCP-NA 🇮🇷 IR-81.12.33.193:6009",
+      "server": "81.12.33.193",
+      "server_port": 6009,
+      "uuid": "2bf6cb84-d726-43eb-9928-8d8e442a4b6c",
+      "security": "auto",
+      "alter_id": "0"
+    },
+    {
+      "type": "vmess",
+      "tag": "🔒 VM-TCP-NA 🇨🇳 CN-219.151.20.62:42320",
+      "server": "219.151.20.62",
+      "server_port": 42320,
+      "uuid": "4381beae-45a6-4421-8547-65e312dd204a",
+      "security": "auto",
+      "alter_id": "0"
+    },
+    {
+      "type": "vmess",
+      "tag": "🔒 VM-TCP-NA 🇮🇷 IR-62.60.204.149:59440",
+      "server": "62.60.204.149",
+      "server_port": 59440,
+      "uuid": "7fc3c790-8830-48dd-9b0c-c954301d373c",
+      "security": "auto",
+      "alter_id": "0"
+    },
+    {
+      "type": "vmess",
+      "tag": "🔒 VM-WS-TLS 🇺🇸 US-192.74.224.163:37002",
+      "server": "192.74.224.163",
+      "server_port": 37002,
+      "uuid": "418048af-a293-4b99-9b0c-98ca3580dd24",
+      "security": "auto",
+      "alter_id": "64",
+      "transport": {
+        "type": "ws",
+        "path": "/path/1739973313415",
+        "headers": {
+          "Host": "www.68584158.xyz"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "www.68584158.xyz"
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "🔒 VM-TCP-NA 🇺🇸 US-216.227.168.157:45287",
+      "server": "216.227.168.157",
+      "server_port": 45287,
+      "uuid": "469e0b31-30c3-4dab-800d-711232634ce1",
+      "security": "auto",
+      "alter_id": "0"
     },
     {
       "type": "vmess",
@@ -905,43 +1444,21 @@
     },
     {
       "type": "vmess",
-      "tag": "🔒 VM-WS-TLS 🏴‍☠️ NA-104.21.16.100:2053",
-      "server": "104.21.16.100",
-      "server_port": 2053,
-      "uuid": "eb817168-5f83-4fba-af99-881ec0e547b1",
+      "tag": "🔒 VM-TCP-NA 🇨🇳 CN-219.151.20.62:42301",
+      "server": "219.151.20.62",
+      "server_port": 42301,
+      "uuid": "4381beae-45a6-4421-8547-65e312dd204a",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "qurantv.iribquran.com"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "qurantv.iribquran.com"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vmess",
-      "tag": "🔒 VM-WS-TLS 🇫🇷 FR-57.128.189.253:443",
-      "server": "57.128.189.253",
-      "server_port": 443,
-      "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+      "tag": "🔒 VM-TCP-NA 🇮🇷 IR-81.12.35.217:2055",
+      "server": "81.12.35.217",
+      "server_port": 2055,
+      "uuid": "351134b3-bff2-4801-9244-55e1a9d6c4b1",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "ws",
-        "path": "/linkvws",
-        "headers": {
-          "Host": "kapelleng.com"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "kapelleng.com"
-      }
+      "alter_id": "0"
     },
     {
       "type": "vmess",
@@ -954,19 +1471,128 @@
     },
     {
       "type": "vmess",
-      "tag": "🔒 VM-TCP-NA 🇨🇳 CN-219.151.20.62:42337",
-      "server": "219.151.20.62",
-      "server_port": 42337,
-      "uuid": "4381beae-45a6-4421-8547-65e312dd204a",
+      "tag": "🔒 VM-TCP-NA 🇭🇰 HK-163.53.18.212:19901",
+      "server": "163.53.18.212",
+      "server_port": 19901,
+      "uuid": "066b32cc-ee3d-4719-b1f0-2f202298737e",
       "security": "auto",
       "alter_id": "0"
     },
     {
       "type": "vmess",
-      "tag": "🔒 VM-TCP-NA 🇳🇱 NL-45.12.145.111:46290",
-      "server": "45.12.145.111",
-      "server_port": 46290,
-      "uuid": "1b41153e-c4d4-431b-83eb-10472f869f93",
+      "tag": "🔒 VM-RAW-NA 🇺🇸 US-103.124.107.144:29800",
+      "server": "103.124.107.144",
+      "server_port": 29800,
+      "uuid": "cc31ddfc-d92e-4dab-cd06-00dfb84af8ac",
+      "security": "auto",
+      "alter_id": "0",
+      "transport": {
+        "type": "raw"
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "🔒 VM-TCP-NA 🇺🇸 US-38.12.83.217:30002",
+      "server": "38.12.83.217",
+      "server_port": 30002,
+      "uuid": "418048af-a293-4b99-9b0c-98ca3580dd24",
+      "security": "auto",
+      "alter_id": "64"
+    },
+    {
+      "type": "vmess",
+      "tag": "🔒 VM-TCP-NA 🇸🇬 SG-154.26.129.247:57143",
+      "server": "154.26.129.247",
+      "server_port": 57143,
+      "uuid": "28efbf36-079a-4c98-8470-d13458db6ee6",
+      "security": "auto",
+      "alter_id": "0"
+    },
+    {
+      "type": "vmess",
+      "tag": "🔒 VM-TCP-NA 🇺🇸 US-15.204.249.0:48160",
+      "server": "15.204.249.0",
+      "server_port": 48160,
+      "uuid": "5b113c12-4dd4-4bb5-9c01-cff092b559e3",
+      "security": "auto",
+      "alter_id": "0"
+    },
+    {
+      "type": "vmess",
+      "tag": "🔒 VM-TCP-NA 🇭🇰 HK-43.199.24.247:3000",
+      "server": "43.199.24.247",
+      "server_port": 3000,
+      "uuid": "cc101ff1-3452-41c3-89fe-c2a5a20dc6dc",
+      "security": "auto",
+      "alter_id": "0"
+    },
+    {
+      "type": "vmess",
+      "tag": "🔒 VM-TCP-NA 🇮🇷 IR-81.12.33.197:6014",
+      "server": "81.12.33.197",
+      "server_port": 6014,
+      "uuid": "2bf6cb84-d726-43eb-9928-8d8e442a4b6c",
+      "security": "auto",
+      "alter_id": "0"
+    },
+    {
+      "type": "vmess",
+      "tag": "🔒 VM-TCP-NA 🇸🇬 SG-84.247.150.177:36141",
+      "server": "84.247.150.177",
+      "server_port": 36141,
+      "uuid": "d31ee52f-b6e4-4db8-9c95-98855ec823cc",
+      "security": "auto",
+      "alter_id": "0"
+    },
+    {
+      "type": "vmess",
+      "tag": "🔒 VM-TCP-NA 🇮🇷 IR-85.133.233.184:3890",
+      "server": "85.133.233.184",
+      "server_port": 3890,
+      "uuid": "01385550-af60-4d57-af84-dddac5213b0c",
+      "security": "auto",
+      "alter_id": "0"
+    },
+    {
+      "type": "vmess",
+      "tag": "🔒 VM-WS-NA 🇺🇸 US-129.146.31.240:25314",
+      "server": "129.146.31.240",
+      "server_port": 25314,
+      "uuid": "0edf27cd-2f1f-4dab-95e7-b42495fd7e55",
+      "security": "auto",
+      "alter_id": "0",
+      "transport": {
+        "type": "ws",
+        "path": "/victorias",
+        "headers": {
+          "Host": "us-n1.speedyyun.com"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "🔒 VM-TCP-NA 🇺🇸 US-142.4.119.72:57118",
+      "server": "142.4.119.72",
+      "server_port": 57118,
+      "uuid": "418048af-a293-4b99-9b0c-98ca3580dd24",
+      "security": "auto",
+      "alter_id": "0"
+    },
+    {
+      "type": "vmess",
+      "tag": "🔒 VM-TCP-NA 🇮🇷 IR-85.9.121.66:16000",
+      "server": "85.9.121.66",
+      "server_port": 16000,
+      "uuid": "6901a621-e9ee-421d-8575-a1d04129227b",
+      "security": "auto",
+      "alter_id": "0"
+    },
+    {
+      "type": "vmess",
+      "tag": "🔒 VM-TCP-NA 🇺🇸 US-15.204.86.120:35696",
+      "server": "15.204.86.120",
+      "server_port": 35696,
+      "uuid": "cad0504a-a9dc-4d29-8844-b11b69f14a8d",
       "security": "auto",
       "alter_id": "0"
     },
@@ -981,12 +1607,279 @@
     },
     {
       "type": "vmess",
-      "tag": "🔒 VM-TCP-NA 🇮🇷 IR-85.133.201.234:56320",
-      "server": "85.133.201.234",
-      "server_port": 56320,
-      "uuid": "c4ec67a8-1dcc-471d-a6d7-4d9b9ec1726d",
+      "tag": "🔒 VM-TCP-NA 🇨🇳 CN-219.151.20.62:42337",
+      "server": "219.151.20.62",
+      "server_port": 42337,
+      "uuid": "4381beae-45a6-4421-8547-65e312dd204a",
+      "security": "auto",
+      "alter_id": "0"
+    },
+    {
+      "type": "vmess",
+      "tag": "🔒 VM-TCP-NA 🇯🇵 JP-167.179.93.158:30101",
+      "server": "167.179.93.158",
+      "server_port": 30101,
+      "uuid": "04AD7029-AC73-C78D-2E6E-338107678C59",
+      "security": "auto",
+      "alter_id": "0"
+    },
+    {
+      "type": "vmess",
+      "tag": "🔒 VM-TCP-NA 🇺🇸 US-216.227.168.157:45291",
+      "server": "216.227.168.157",
+      "server_port": 45291,
+      "uuid": "469e0b31-30c3-4dab-800d-711232634ce1",
+      "security": "auto",
+      "alter_id": "0"
+    },
+    {
+      "type": "vmess",
+      "tag": "🔒 VM-TCP-NA 🇺🇸 US-216.227.168.157:45215",
+      "server": "216.227.168.157",
+      "server_port": 45215,
+      "uuid": "469e0b31-30c3-4dab-800d-711232634ce1",
+      "security": "auto",
+      "alter_id": "0"
+    },
+    {
+      "type": "vmess",
+      "tag": "🔒 VM-TCP-NA 🇭🇰 HK-209.209.48.19:26013",
+      "server": "209.209.48.19",
+      "server_port": 26013,
+      "uuid": "3a6c789f-0548-4ca3-83c0-2c78acbee811",
+      "security": "auto",
+      "alter_id": "0"
+    },
+    {
+      "type": "vmess",
+      "tag": "🔒 VM-TCP-NA 🇺🇸 US-15.204.248.92:30562",
+      "server": "15.204.248.92",
+      "server_port": 30562,
+      "uuid": "82466715-6a58-4046-a363-a0d18e5b2ab4",
+      "security": "auto",
+      "alter_id": "0"
+    },
+    {
+      "type": "vmess",
+      "tag": "🔒 VM-TCP-NA 🇺🇸 US-216.227.168.157:45245",
+      "server": "216.227.168.157",
+      "server_port": 45245,
+      "uuid": "469e0b31-30c3-4dab-800d-711232634ce1",
+      "security": "auto",
+      "alter_id": "0"
+    },
+    {
+      "type": "vmess",
+      "tag": "🔒 VM-TCP-NA 🇨🇳 CN-183.236.51.36:59003",
+      "server": "183.236.51.36",
+      "server_port": 59003,
+      "uuid": "418048af-a293-4b99-9b0c-98ca3580dd24",
+      "security": "none",
+      "alter_id": "0"
+    },
+    {
+      "type": "vmess",
+      "tag": "🔒 VM-TCP-NA 🇭🇰 HK-209.209.48.19:26021",
+      "server": "209.209.48.19",
+      "server_port": 26021,
+      "uuid": "3a6c789f-0548-4ca3-83c0-2c78acbee811",
+      "security": "auto",
+      "alter_id": "0"
+    },
+    {
+      "type": "vmess",
+      "tag": "🔒 VM-TCP-NONE 🇮🇷 IR-217.114.40.136:3223",
+      "server": "217.114.40.136",
+      "server_port": 3223,
+      "uuid": "c0b33b5a-c27e-f273-e3ee-d25f7bbf73dd",
       "security": "auto",
       "alter_id": 0
+    },
+    {
+      "type": "vmess",
+      "tag": "🔒 VM-TCP-NA 🇯🇵 JP-18.181.165.231:48889",
+      "server": "18.181.165.231",
+      "server_port": 48889,
+      "uuid": "c130cb36-c93f-4be7-9228-a7a97d43885a",
+      "security": "auto",
+      "alter_id": "0"
+    },
+    {
+      "type": "vmess",
+      "tag": "🔒 VM-WS-TLS 🇺🇸 US-23.224.15.179:30000",
+      "server": "23.224.15.179",
+      "server_port": 30000,
+      "uuid": "418048af-a293-4b99-9b0c-98ca3580dd24",
+      "security": "auto",
+      "alter_id": "64",
+      "transport": {
+        "type": "ws",
+        "path": "/path/170733132233",
+        "headers": {
+          "Host": "www.26872952.xyz"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "www.26872952.xyz",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "🔒 VM-TCP-NA 🇮🇷 IR-193.151.148.103:29966",
+      "server": "193.151.148.103",
+      "server_port": 29966,
+      "uuid": "27f22d09-ef89-4606-a42b-f677d0c54d0d",
+      "security": "auto",
+      "alter_id": "0"
+    },
+    {
+      "type": "vmess",
+      "tag": "🔒 VM-TCP-NA 🇯🇵 JP-5.253.41.147:27750",
+      "server": "5.253.41.147",
+      "server_port": 27750,
+      "uuid": "4b1992cc-8e7c-4003-a45f-a28c3e6f6fa8",
+      "security": "auto",
+      "alter_id": "0"
+    },
+    {
+      "type": "vmess",
+      "tag": "🔒 VM-TCP-NA 🇮🇷 IR-91.223.187.60:2088",
+      "server": "91.223.187.60",
+      "server_port": 2088,
+      "uuid": "b66382da-78dc-4916-7edd-13ea15d8600f",
+      "security": "auto",
+      "alter_id": "0"
+    },
+    {
+      "type": "vmess",
+      "tag": "🔒 VM-WS-NONE 🇮🇷 IR-193.151.149.76:30286",
+      "server": "193.151.149.76",
+      "server_port": 30286,
+      "uuid": "b1a135cf-1181-4ab9-a7bc-5994cdc6f47b",
+      "security": "auto",
+      "alter_id": "0",
+      "transport": {
+        "type": "ws",
+        "path": "/"
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "🔒 VM-WS-NA 🏴‍☠️ NA-104.17.25.173:2082",
+      "server": "104.17.25.173",
+      "server_port": 2082,
+      "uuid": "4b36625c-b9d9-3ea6-aed5-86d62c70e16d",
+      "security": "auto",
+      "alter_id": 0,
+      "transport": {
+        "type": "ws",
+        "path": "/dabai.in104.25.184.216",
+        "headers": {
+          "Host": "100-32-21-187.s1.db-link01.top"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "🔒 VM-TCP-NA 🇩🇪 DE-62.60.158.54:44863",
+      "server": "62.60.158.54",
+      "server_port": 44863,
+      "uuid": "9926bf9f-5c75-4066-8ece-207dee73781f",
+      "security": "auto",
+      "alter_id": "0"
+    },
+    {
+      "type": "vmess",
+      "tag": "🔒 VM-TCP-NONE 🇸🇬 SG-62.146.232.156:33281",
+      "server": "62.146.232.156",
+      "server_port": 33281,
+      "uuid": "24eda0ea-acf0-4538-a001-f746a480237a",
+      "security": "auto",
+      "alter_id": 0
+    },
+    {
+      "type": "vmess",
+      "tag": "🔒 VM-TCP-NA 🇭🇰 HK-209.209.48.19:26024",
+      "server": "209.209.48.19",
+      "server_port": 26024,
+      "uuid": "3a6c789f-0548-4ca3-83c0-2c78acbee811",
+      "security": "auto",
+      "alter_id": "0"
+    },
+    {
+      "type": "vmess",
+      "tag": "🔒 VM-TCP-NA 🇨🇳 CN-219.151.20.62:42341",
+      "server": "219.151.20.62",
+      "server_port": 42341,
+      "uuid": "4381beae-45a6-4421-8547-65e312dd204a",
+      "security": "auto",
+      "alter_id": "0"
+    },
+    {
+      "type": "vmess",
+      "tag": "🔒 VM-TCP-NA 🇸🇬 SG-192.53.113.156:10002",
+      "server": "192.53.113.156",
+      "server_port": 10002,
+      "uuid": "036a28c3-5c8d-4df3-a79b-9da622640f2b",
+      "security": "auto",
+      "alter_id": "0"
+    },
+    {
+      "type": "vmess",
+      "tag": "🔒 VM-TCP-NA 🇨🇳 CN-219.151.20.62:42323",
+      "server": "219.151.20.62",
+      "server_port": 42323,
+      "uuid": "4381beae-45a6-4421-8547-65e312dd204a",
+      "security": "auto",
+      "alter_id": "0"
+    },
+    {
+      "type": "vmess",
+      "tag": "🔒 VM-TCP-NONE 🇮🇷 IR-92.114.50.126:55701",
+      "server": "92.114.50.126",
+      "server_port": 55701,
+      "uuid": "9e681ef5-5ede-46e3-9fd0-ae00be112f40",
+      "security": "auto",
+      "alter_id": 0
+    },
+    {
+      "type": "vmess",
+      "tag": "🔒 VM-WS-NA 🇺🇸 US-38.150.12.188:51515",
+      "server": "38.150.12.188",
+      "server_port": 51515,
+      "uuid": "342bacfd-2b8f-3f49-a16e-439db5b0b9d5",
+      "security": "auto",
+      "alter_id": "0",
+      "transport": {
+        "type": "ws",
+        "path": "/564dfa20/",
+        "headers": {
+          "Host": "aflzzul.meiquankongjian.com"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "🔒 VM-TCP-NA 🇫🇷 FR-135.125.182.74:28213",
+      "server": "135.125.182.74",
+      "server_port": 28213,
+      "uuid": "81852771-76fb-4e94-e4f1-4e37a698a49a",
+      "security": "auto",
+      "alter_id": "0"
+    },
+    {
+      "type": "vmess",
+      "tag": "🔒 VM-TCP-NA 🇳🇱 NL-45.8.145.145:30520",
+      "server": "45.8.145.145",
+      "server_port": 30520,
+      "uuid": "3038024f-3a34-4228-b61c-d741b2fbec8f",
+      "security": "auto",
+      "alter_id": "0"
     },
     {
       "type": "vmess",
@@ -999,10 +1892,55 @@
     },
     {
       "type": "vmess",
-      "tag": "🔒 VM-TCP-NA 🇬🇧 GB-51.38.64.209:44023",
-      "server": "51.38.64.209",
-      "server_port": 44023,
-      "uuid": "7da457da-ed0f-437d-c81d-6c35885bbea3",
+      "tag": "🔒 VM-TCP-NA 🇬🇧 GB-5.180.30.85:18598",
+      "server": "5.180.30.85",
+      "server_port": 18598,
+      "uuid": "bf26f2fb-9d2a-49b6-8527-82e8aba3a9a9",
+      "security": "auto",
+      "alter_id": "0"
+    },
+    {
+      "type": "vmess",
+      "tag": "🔒 VM-TCP-NA 🇮🇷 IR-81.12.33.193:6005",
+      "server": "81.12.33.193",
+      "server_port": 6005,
+      "uuid": "2bf6cb84-d726-43eb-9928-8d8e442a4b6c",
+      "security": "auto",
+      "alter_id": "0"
+    },
+    {
+      "type": "vmess",
+      "tag": "🔒 VM-TCP-NONE 🇮🇷 IR-62.60.220.184:9012",
+      "server": "62.60.220.184",
+      "server_port": 9012,
+      "uuid": "6be17a0e-92f0-49e0-9648-0d21e3a8e9f0",
+      "security": "auto",
+      "alter_id": 0
+    },
+    {
+      "type": "vmess",
+      "tag": "🔒 VM-TCP-NA 🇮🇷 IR-46.38.146.250:48575",
+      "server": "46.38.146.250",
+      "server_port": 48575,
+      "uuid": "287eaf48-8fe3-4be6-95b2-41d94e2eaeba",
+      "security": "auto",
+      "alter_id": "0"
+    },
+    {
+      "type": "vmess",
+      "tag": "🔒 VM-TCP-NA 🇺🇸 US-216.227.168.157:45235",
+      "server": "216.227.168.157",
+      "server_port": 45235,
+      "uuid": "469e0b31-30c3-4dab-800d-711232634ce1",
+      "security": "auto",
+      "alter_id": "0"
+    },
+    {
+      "type": "vmess",
+      "tag": "🔒 VM-TCP-NA 🇸🇬 SG-154.26.134.221:54813",
+      "server": "154.26.134.221",
+      "server_port": 54813,
+      "uuid": "df9c6e9e-9e7a-4d06-88bb-9b29337b973f",
       "security": "auto",
       "alter_id": "0"
     },
@@ -1020,68 +1958,28 @@
     },
     {
       "type": "vmess",
-      "tag": "🔒 VM-TCP-NA 🇬🇧 GB-46.250.243.56:50394",
-      "server": "46.250.243.56",
-      "server_port": 50394,
-      "uuid": "a75f3f95-ad4e-4498-fc72-dd740dd02bfc",
+      "tag": "🔒 VM-TCP-NA 🇮🇷 IR-94.182.131.11:23992",
+      "server": "94.182.131.11",
+      "server_port": 23992,
+      "uuid": "a0e5c19f-70cf-4d5a-b81d-f733a9467875",
       "security": "auto",
       "alter_id": "0"
     },
     {
       "type": "vmess",
-      "tag": "🔒 VM-TCP-NA 🇷🇴 RO-5.182.37.231:49664",
-      "server": "5.182.37.231",
-      "server_port": 49664,
-      "uuid": "9395474c-e2a1-4565-ba56-c16e7373c4c4",
+      "tag": "🔒 VM-TCP-NA 🇮🇷 IR-185.215.228.4:59859",
+      "server": "185.215.228.4",
+      "server_port": 59859,
+      "uuid": "8cfdc398-2903-49e2-9fab-d57c0a36d665",
       "security": "auto",
       "alter_id": "0"
     },
     {
       "type": "vmess",
-      "tag": "🔒 VM-TCP-TLS 🇵🇱 PL-57.128.219.94:2083",
-      "server": "57.128.219.94",
-      "server_port": 2083,
-      "uuid": "0390d873-2e4b-47ec-aeb2-668f958199d9",
-      "security": "auto",
-      "alter_id": "0",
-      "tls": {
-        "enabled": true,
-        "server_name": "pl-v2ray.ipracevpn.com"
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "🔒 VM-TCP-NA 🇮🇷 IR-62.60.193.121:56322",
-      "server": "62.60.193.121",
-      "server_port": 56322,
-      "uuid": "c4ec67a8-1dcc-471d-a6d7-4d9b9ec1726d",
-      "security": "auto",
-      "alter_id": 0
-    },
-    {
-      "type": "vmess",
-      "tag": "🔒 VM-TCP-NA 🇬🇧 GB-5.180.30.110:51352",
-      "server": "5.180.30.110",
-      "server_port": 51352,
-      "uuid": "bcf86479-aab4-47cf-9d6e-34d353baa1a2",
-      "security": "auto",
-      "alter_id": "0"
-    },
-    {
-      "type": "vmess",
-      "tag": "🔒 VM-TCP-NA 🇺🇸 US-216.227.168.157:45247",
-      "server": "216.227.168.157",
-      "server_port": 45247,
-      "uuid": "469e0b31-30c3-4dab-800d-711232634ce1",
-      "security": "auto",
-      "alter_id": "0"
-    },
-    {
-      "type": "vmess",
-      "tag": "🔒 VM-TCP-NONE 🇩🇪 DE-45.12.138.82:54757",
-      "server": "45.12.138.82",
-      "server_port": 54757,
-      "uuid": "cde9f074-c930-4aa3-a558-46bbc9d0a5a1",
+      "tag": "🔒 VM-TCP-NA 🇮🇷 IR-91.199.27.118:6531",
+      "server": "91.199.27.118",
+      "server_port": 6531,
+      "uuid": "bb28cfcd-c3d0-4866-bb0a-c3fd86b0ec12",
       "security": "auto",
       "alter_id": "0"
     },
@@ -1111,78 +2009,6 @@
     },
     {
       "type": "vmess",
-      "tag": "🔒 VM-TCP-NA 🇭🇰 HK-43.199.24.247:3000",
-      "server": "43.199.24.247",
-      "server_port": 3000,
-      "uuid": "cc101ff1-3452-41c3-89fe-c2a5a20dc6dc",
-      "security": "auto",
-      "alter_id": "0"
-    },
-    {
-      "type": "vmess",
-      "tag": "🔒 VM-TCP-NA 🇮🇷 IR-94.183.233.116:3911",
-      "server": "94.183.233.116",
-      "server_port": 3911,
-      "uuid": "4e51fb58-ef69-42bd-8536-acfd52d28afd",
-      "security": "auto",
-      "alter_id": "0"
-    },
-    {
-      "type": "vmess",
-      "tag": "🔒 VM-TCP-NA 🇮🇷 IR-185.133.125.6:4951",
-      "server": "185.133.125.6",
-      "server_port": 4951,
-      "uuid": "e5d50439-47a8-467f-bead-00d3c4ab86f3",
-      "security": "auto",
-      "alter_id": "0"
-    },
-    {
-      "type": "vmess",
-      "tag": "🔒 VM-TCP-NA 🇮🇷 IR-94.182.83.76:52348",
-      "server": "94.182.83.76",
-      "server_port": 52348,
-      "uuid": "c99ff604-6970-4ae9-b7e5-d0ad8cc5a10b",
-      "security": "auto",
-      "alter_id": "0"
-    },
-    {
-      "type": "vmess",
-      "tag": "🔒 VM-TCP-NA 🇮🇷 IR-185.215.228.220:48673",
-      "server": "185.215.228.220",
-      "server_port": 48673,
-      "uuid": "6ae00a4a-b7a9-45fa-8d8b-d74943a17a4c",
-      "security": "auto",
-      "alter_id": "0"
-    },
-    {
-      "type": "vmess",
-      "tag": "🔒 VM-TCP-NA 🇮🇷 IR-188.75.79.85:20236",
-      "server": "188.75.79.85",
-      "server_port": 20236,
-      "uuid": "519cac48-4e9e-49a6-b195-1eb9a13427e6",
-      "security": "auto",
-      "alter_id": "0"
-    },
-    {
-      "type": "vmess",
-      "tag": "🔒 VM-TCP-NA 🇮🇷 IR-46.38.146.250:48575",
-      "server": "46.38.146.250",
-      "server_port": 48575,
-      "uuid": "287eaf48-8fe3-4be6-95b2-41d94e2eaeba",
-      "security": "auto",
-      "alter_id": "0"
-    },
-    {
-      "type": "vmess",
-      "tag": "🔒 VM-TCP-NA 🇸🇬 SG-46.250.237.196:29999",
-      "server": "46.250.237.196",
-      "server_port": 29999,
-      "uuid": "b31fc134-978e-4176-8579-8107d6a0cede",
-      "security": "auto",
-      "alter_id": "0"
-    },
-    {
-      "type": "vmess",
       "tag": "🔒 VM-TCP-NONE 🇮🇷 IR-81.12.33.193:6006",
       "server": "81.12.33.193",
       "server_port": 6006,
@@ -1192,165 +2018,10 @@
     },
     {
       "type": "vmess",
-      "tag": "🔒 VM-TCP-NA 🇭🇰 HK-209.209.48.19:26021",
-      "server": "209.209.48.19",
-      "server_port": 26021,
-      "uuid": "3a6c789f-0548-4ca3-83c0-2c78acbee811",
-      "security": "auto",
-      "alter_id": "0"
-    },
-    {
-      "type": "vmess",
-      "tag": "🔒 VM-TCP-NA 🇸🇬 SG-192.53.113.156:10002",
-      "server": "192.53.113.156",
-      "server_port": 10002,
-      "uuid": "036a28c3-5c8d-4df3-a79b-9da622640f2b",
-      "security": "auto",
-      "alter_id": "0"
-    },
-    {
-      "type": "vmess",
-      "tag": "🔒 VM-TCP-NA 🇮🇷 IR-188.121.109.247:444",
-      "server": "188.121.109.247",
-      "server_port": 444,
-      "uuid": "523d8d78-411a-4849-b17f-ccff6bcbf564",
-      "security": "auto",
-      "alter_id": "0"
-    },
-    {
-      "type": "vmess",
-      "tag": "🔒 VM-WS-TLS 🇨🇳 CN-120.253.242.194:35244",
-      "server": "120.253.242.194",
-      "server_port": 35244,
-      "uuid": "46a539d2-d3ba-4a6e-aedb-b727d2fc60f8",
-      "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "ws",
-        "path": "/home",
-        "headers": {
-          "Host": "jp4.vip2.g2.moonbase.life"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "jp4.vip2.g2.moonbase.life"
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "🔒 VM-TCP-NONE 🇮🇷 IR-185.215.228.7:49178",
-      "server": "185.215.228.7",
-      "server_port": 49178,
-      "uuid": "019d8491-590e-4d5d-8c40-153411693aab",
-      "security": "auto",
-      "alter_id": "0"
-    },
-    {
-      "type": "vmess",
-      "tag": "🔒 VM-TCP-NA 🇨🇳 CN-219.151.20.62:42324",
-      "server": "219.151.20.62",
-      "server_port": 42324,
-      "uuid": "4381beae-45a6-4421-8547-65e312dd204a",
-      "security": "auto",
-      "alter_id": "0"
-    },
-    {
-      "type": "vmess",
-      "tag": "🔒 VM-TCP-NA 🇮🇷 IR-37.152.181.138:5050",
-      "server": "37.152.181.138",
-      "server_port": 5050,
-      "uuid": "a77c3026-b297-47d5-c837-b18b64198d0b",
-      "security": "auto",
-      "alter_id": "0"
-    },
-    {
-      "type": "vmess",
-      "tag": "🔒 VM-TCP-NA 🇸🇬 SG-43.156.102.65:11060",
-      "server": "43.156.102.65",
-      "server_port": 11060,
-      "uuid": "5cdd371e-cc4e-4ea2-91a8-c755f00f67a0",
-      "security": "auto",
-      "alter_id": "0"
-    },
-    {
-      "type": "vmess",
-      "tag": "🔒 VM-TCP-NA 🇺🇸 US-15.204.248.92:30562",
-      "server": "15.204.248.92",
-      "server_port": 30562,
-      "uuid": "82466715-6a58-4046-a363-a0d18e5b2ab4",
-      "security": "auto",
-      "alter_id": "0"
-    },
-    {
-      "type": "vmess",
-      "tag": "🔒 VM-TCP-NA 🇬🇧 GB-209.97.176.198:8081",
-      "server": "209.97.176.198",
-      "server_port": 8081,
-      "uuid": "3873beec-44c6-45be-8900-d184a1d0ee8f",
-      "security": "auto",
-      "alter_id": "0"
-    },
-    {
-      "type": "vmess",
-      "tag": "🔒 VM-TCP-NA 🇦🇺 AU-154.26.153.173:28686",
-      "server": "154.26.153.173",
-      "server_port": 28686,
-      "uuid": "6df7d56f-4953-4a10-be2e-a88cc9f94e48",
-      "security": "auto",
-      "alter_id": "0"
-    },
-    {
-      "type": "vmess",
-      "tag": "🔒 VM-TCP-NA 🇺🇸 US-216.227.168.157:45417",
-      "server": "216.227.168.157",
-      "server_port": 45417,
-      "uuid": "469e0b31-30c3-4dab-800d-711232634ce1",
-      "security": "auto",
-      "alter_id": "0"
-    },
-    {
-      "type": "vmess",
-      "tag": "🔒 VM-TCP-NA 🇮🇷 IR-2.189.84.105:10165",
-      "server": "2.189.84.105",
-      "server_port": 10165,
-      "uuid": "1bf6a29c-4f0c-4d4c-896c-b3b770d94e82",
-      "security": "auto",
-      "alter_id": "0"
-    },
-    {
-      "type": "vmess",
-      "tag": "🔒 VM-TCP-NA 🇺🇸 US-216.227.168.157:45276",
-      "server": "216.227.168.157",
-      "server_port": 45276,
-      "uuid": "469e0b31-30c3-4dab-800d-711232634ce1",
-      "security": "auto",
-      "alter_id": "0"
-    },
-    {
-      "type": "vmess",
-      "tag": "🔒 VM-TCP-NA 🇳🇱 NL-93.115.172.175:12540",
-      "server": "93.115.172.175",
-      "server_port": 12540,
-      "uuid": "056d3d35-a729-4ab4-bbae-d71d8458af19",
-      "security": "auto",
-      "alter_id": "0"
-    },
-    {
-      "type": "vmess",
-      "tag": "🔒 VM-TCP-NA 🇮🇷 IR-85.198.23.63:52262",
-      "server": "85.198.23.63",
-      "server_port": 52262,
-      "uuid": "af5a0d0c-c898-4a51-ba6a-47179d483e41",
-      "security": "auto",
-      "alter_id": "0"
-    },
-    {
-      "type": "vmess",
-      "tag": "🔒 VM-TCP-NA 🇬🇧 GB-5.180.30.146:27773",
-      "server": "5.180.30.146",
-      "server_port": 27773,
-      "uuid": "b2347239-dd15-40b3-b683-50cc2ff19ae7",
+      "tag": "🔒 VM-TCP-NA 🇮🇳 IN-94.136.185.230:10534",
+      "server": "94.136.185.230",
+      "server_port": 10534,
+      "uuid": "b01c7ef9-33ec-41f6-bfbf-77ddc4d21649",
       "security": "auto",
       "alter_id": "0"
     },
@@ -1372,109 +2043,105 @@
     },
     {
       "type": "vmess",
-      "tag": "🔒 VM-TCP-NA 🇮🇷 IR-85.9.126.233:20625",
-      "server": "85.9.126.233",
-      "server_port": 20625,
-      "uuid": "63c7e9fe-89f6-4542-8e89-0828b0a4045a",
+      "tag": "🔒 VM-WS-TLS 🇳🇱 NL-46.182.107.109:41000",
+      "server": "46.182.107.109",
+      "server_port": 41000,
+      "uuid": "418048af-a293-4b99-9b0c-98ca3580dd24",
       "security": "auto",
-      "alter_id": "0"
-    },
-    {
-      "type": "vmess",
-      "tag": "🔒 VM-TCP-NA 🇩🇪 DE-91.107.164.255:33203",
-      "server": "91.107.164.255",
-      "server_port": 33203,
-      "uuid": "a82148dd-4f11-4472-b341-f63f57dce17f",
-      "security": "auto",
-      "alter_id": "0"
-    },
-    {
-      "type": "vmess",
-      "tag": "🔒 VM-TCP-NA 🇭🇰 HK-43.247.134.201:59149",
-      "server": "43.247.134.201",
-      "server_port": 59149,
-      "uuid": "efbdabeb-68df-4cd0-959d-7d4f4b508609",
-      "security": "auto",
-      "alter_id": 0
-    },
-    {
-      "type": "vmess",
-      "tag": "🔒 VM-TCP-NA 🇸🇬 SG-84.247.147.243:51566",
-      "server": "84.247.147.243",
-      "server_port": 51566,
-      "uuid": "ae6ae977-17f2-43fd-a336-20b3b3a9e791",
-      "security": "auto",
-      "alter_id": "0"
-    },
-    {
-      "type": "vmess",
-      "tag": "🔒 VM-TCP-NA 🇮🇷 IR-195.234.80.212:1387",
-      "server": "195.234.80.212",
-      "server_port": 1387,
-      "uuid": "f00bee3a-e50c-4e24-b004-ed3f21a1d834",
-      "security": "auto",
-      "alter_id": "0"
-    },
-    {
-      "type": "vmess",
-      "tag": "🔒 VM-TCP-NA 🇸🇬 SG-154.26.129.247:57143",
-      "server": "154.26.129.247",
-      "server_port": 57143,
-      "uuid": "28efbf36-079a-4c98-8470-d13458db6ee6",
-      "security": "auto",
-      "alter_id": "0"
-    },
-    {
-      "type": "vmess",
-      "tag": "🔒 VM-TCP-NA 🇺🇸 US-216.227.168.157:45242",
-      "server": "216.227.168.157",
-      "server_port": 45242,
-      "uuid": "469e0b31-30c3-4dab-800d-711232634ce1",
-      "security": "auto",
-      "alter_id": "0"
-    },
-    {
-      "type": "vmess",
-      "tag": "🔒 VM-TCP-NA 🇭🇰 HK-209.209.48.19:26013",
-      "server": "209.209.48.19",
-      "server_port": 26013,
-      "uuid": "3a6c789f-0548-4ca3-83c0-2c78acbee811",
-      "security": "auto",
-      "alter_id": "0"
-    },
-    {
-      "type": "vmess",
-      "tag": "🔒 VM-TCP-NA 🇺🇸 US-216.227.168.157:45287",
-      "server": "216.227.168.157",
-      "server_port": 45287,
-      "uuid": "469e0b31-30c3-4dab-800d-711232634ce1",
-      "security": "auto",
-      "alter_id": "0"
-    },
-    {
-      "type": "vmess",
-      "tag": "🔒 VM-WS-NA 🇯🇵 JP-154.55.122.235:8000",
-      "server": "154.55.122.235",
-      "server_port": 8000,
-      "uuid": "e3be93a8-54ac-48b2-b079-6c0d3d523e87",
-      "security": "auto",
-      "alter_id": "0",
+      "alter_id": "64",
       "transport": {
         "type": "ws",
-        "path": "/nmkj",
+        "path": "/path/170733132233",
         "headers": {
-          "Host": "www.bing.com"
+          "Host": "www.42031742.xyz"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "www.42031742.xyz",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
         }
       }
     },
     {
       "type": "vmess",
-      "tag": "🔒 VM-TCP-NA 🇮🇷 IR-81.12.33.193:6009",
-      "server": "81.12.33.193",
-      "server_port": 6009,
-      "uuid": "2bf6cb84-d726-43eb-9928-8d8e442a4b6c",
+      "tag": "🔒 VM-WS-TLS 🇨🇳 CN-183.236.51.187:35146",
+      "server": "183.236.51.187",
+      "server_port": 35146,
+      "uuid": "c3136814-a07e-41f6-ad94-8e20458c0d21",
+      "security": null,
+      "alter_id": "0",
+      "transport": {
+        "type": "ws",
+        "path": "/home",
+        "headers": {
+          "Host": "web.xcjs.info"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "sg6.vip2.g2.moonbase.life"
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "🔒 VM-TCP-NA 🇮🇷 IR-81.12.33.196:6008",
+      "server": "81.12.33.196",
+      "server_port": 6008,
+      "uuid": "604fa262-146a-437f-9206-93b16ea30176",
       "security": "auto",
       "alter_id": "0"
+    },
+    {
+      "type": "vmess",
+      "tag": "🔒 VM-WS-NA 🇭🇰 HK-82.152.164.10:40601",
+      "server": "82.152.164.10",
+      "server_port": 40601,
+      "uuid": "5c634f9c-3dd4-4d3e-97c2-9db2470cf722",
+      "security": "auto",
+      "alter_id": 0,
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "us05.jssssss.com"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "🔒 VM-TCP-NA 🇮🇷 IR-62.60.193.121:56322",
+      "server": "62.60.193.121",
+      "server_port": 56322,
+      "uuid": "c4ec67a8-1dcc-471d-a6d7-4d9b9ec1726d",
+      "security": "auto",
+      "alter_id": 0
+    },
+    {
+      "type": "vmess",
+      "tag": "🔒 VM-WS-TLS 🇯🇵 JP-103.72.5.221:46666",
+      "server": "103.72.5.221",
+      "server_port": 46666,
+      "uuid": "418048af-a293-4b99-9b0c-98ca3580dd24",
+      "security": "auto",
+      "alter_id": "64",
+      "transport": {
+        "type": "ws",
+        "path": "/path/170733132233",
+        "headers": {
+          "Host": "www.72969856.xyz"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "www.72969856.xyz",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "type": "vmess",
@@ -1507,637 +2174,19 @@
     },
     {
       "type": "vmess",
-      "tag": "🔒 VM-WS-NA 🇺🇸 US-38.150.12.188:51515",
-      "server": "38.150.12.188",
-      "server_port": 51515,
-      "uuid": "342bacfd-2b8f-3f49-a16e-439db5b0b9d5",
-      "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "ws",
-        "path": "/564dfa20/",
-        "headers": {
-          "Host": "aflzzul.meiquankongjian.com"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "🔒 VM-TCP-NA 🇸🇬 SG-38.47.176.251:56051",
-      "server": "38.47.176.251",
-      "server_port": 56051,
-      "uuid": "2bca3569-0662-47f7-fdf8-421f30e71f44",
-      "security": "auto",
-      "alter_id": 0
-    },
-    {
-      "type": "vmess",
-      "tag": "🔒 VM-TCP-NA 🇮🇷 IR-81.12.33.193:6005",
-      "server": "81.12.33.193",
-      "server_port": 6005,
-      "uuid": "2bf6cb84-d726-43eb-9928-8d8e442a4b6c",
+      "tag": "🔒 VM-TCP-NA 🇫🇷 FR-45.12.133.43:28444",
+      "server": "45.12.133.43",
+      "server_port": 28444,
+      "uuid": "1be8eddb-4f8c-45d0-b2a1-e538eb3abd39",
       "security": "auto",
       "alter_id": "0"
-    },
-    {
-      "type": "vmess",
-      "tag": "🔒 VM-TCP-NA 🇬🇧 GB-5.180.30.85:18598",
-      "server": "5.180.30.85",
-      "server_port": 18598,
-      "uuid": "bf26f2fb-9d2a-49b6-8527-82e8aba3a9a9",
-      "security": "auto",
-      "alter_id": "0"
-    },
-    {
-      "type": "vmess",
-      "tag": "🔒 VM-WS-TLS 🇨🇳 CN-36.150.94.79:35246",
-      "server": "36.150.94.79",
-      "server_port": 35246,
-      "uuid": "c3136814-a07e-41f6-ad94-8e20458c0d21",
-      "security": null,
-      "alter_id": "0",
-      "transport": {
-        "type": "ws",
-        "path": "/home",
-        "headers": {
-          "Host": "web.xcjs.info"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "jp6.vip2.g2.moonbase.life"
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "🔒 VM-TCP-NA 🇫🇷 FR-2.56.126.103:33579",
-      "server": "2.56.126.103",
-      "server_port": 33579,
-      "uuid": "2eb3ee2a-7bf8-4b50-9b93-2d489d2f3456",
-      "security": "auto",
-      "alter_id": "0"
-    },
-    {
-      "type": "vmess",
-      "tag": "🔒 VM-WS-TLS 🇳🇱 NL-46.182.107.109:41000",
-      "server": "46.182.107.109",
-      "server_port": 41000,
-      "uuid": "418048af-a293-4b99-9b0c-98ca3580dd24",
-      "security": "auto",
-      "alter_id": "64",
-      "transport": {
-        "type": "ws",
-        "path": "/path/170733132233",
-        "headers": {
-          "Host": "www.42031742.xyz"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "www.42031742.xyz",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "🔒 VM-TCP-NA 🇰🇷 KR-45.82.246.173:26521",
-      "server": "45.82.246.173",
-      "server_port": 26521,
-      "uuid": "cff7001e-3a74-43e8-bfd8-a7af9630a58b",
-      "security": "auto",
-      "alter_id": "0"
-    },
-    {
-      "type": "vmess",
-      "tag": "🔒 VM-TCP-NA 🇭🇰 HK-163.53.18.212:19901",
-      "server": "163.53.18.212",
-      "server_port": 19901,
-      "uuid": "066b32cc-ee3d-4719-b1f0-2f202298737e",
-      "security": "auto",
-      "alter_id": "0"
-    },
-    {
-      "type": "vmess",
-      "tag": "🔒 VM-TCP-NA 🇯🇵 JP-47.79.88.113:53710",
-      "server": "47.79.88.113",
-      "server_port": 53710,
-      "uuid": "1db838d0-ecd2-4b73-a7f8-5af6b401d833",
-      "security": "auto",
-      "alter_id": "0"
-    },
-    {
-      "type": "vmess",
-      "tag": "🔒 VM-WS-TLS 🇨🇳 CN-183.236.51.187:35146",
-      "server": "183.236.51.187",
-      "server_port": 35146,
-      "uuid": "c3136814-a07e-41f6-ad94-8e20458c0d21",
-      "security": null,
-      "alter_id": "0",
-      "transport": {
-        "type": "ws",
-        "path": "/home",
-        "headers": {
-          "Host": "web.xcjs.info"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "sg6.vip2.g2.moonbase.life"
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "🔒 VM-WS-NA 🇺🇸 US-129.146.31.240:25314",
-      "server": "129.146.31.240",
-      "server_port": 25314,
-      "uuid": "0edf27cd-2f1f-4dab-95e7-b42495fd7e55",
-      "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "ws",
-        "path": "/victorias",
-        "headers": {
-          "Host": "us-n1.speedyyun.com"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "🔒 VM-TCP-NA 🇮🇷 IR-31.41.35.195:47057",
-      "server": "31.41.35.195",
-      "server_port": 47057,
-      "uuid": "d5c08621-88ae-4898-8838-adf4653d59e7",
-      "security": "auto",
-      "alter_id": "0"
-    },
-    {
-      "type": "vmess",
-      "tag": "🔒 VM-WS-NA 🇷🇺 RU-31.129.105.239:16231",
-      "server": "31.129.105.239",
-      "server_port": 16231,
-      "uuid": "793e03cc-2b08-4d1b-bb0b-592567d19043",
-      "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "31.129.105.239"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "🔒 VM-TCP-NA 🇺🇸 US-216.227.168.157:45266",
-      "server": "216.227.168.157",
-      "server_port": 45266,
-      "uuid": "469e0b31-30c3-4dab-800d-711232634ce1",
-      "security": "auto",
-      "alter_id": "0"
-    },
-    {
-      "type": "vmess",
-      "tag": "🔒 VM-TCP-NA 🇺🇸 US-66.94.114.122:53503",
-      "server": "66.94.114.122",
-      "server_port": 53503,
-      "uuid": "c9b9dea3-5868-477f-e54d-2c8f124f647d",
-      "security": "auto",
-      "alter_id": "0"
-    },
-    {
-      "type": "vmess",
-      "tag": "🔒 VM-WS-NA 🇺🇸 US-38.150.12.187:52513",
-      "server": "38.150.12.187",
-      "server_port": 52513,
-      "uuid": "342bacfd-2b8f-3f49-a16e-439db5b0b9d5",
-      "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "ws",
-        "path": "/564dfa20/",
-        "headers": {
-          "Host": "aflzzul.meiquankongjian.com"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "🔒 VM-TCP-NA 🇮🇷 IR-81.12.33.97:2070",
-      "server": "81.12.33.97",
-      "server_port": 2070,
-      "uuid": "b6e340e6-c49a-4a53-88c6-2e5478f5cb80",
-      "security": "auto",
-      "alter_id": "0"
-    },
-    {
-      "type": "vmess",
-      "tag": "🔒 VM-RAW-NA 🇺🇸 US-216.227.168.157:45272",
-      "server": "216.227.168.157",
-      "server_port": 45272,
-      "uuid": "469e0b31-30c3-4dab-800d-711232634ce1",
-      "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "raw"
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "🔒 VM-TCP-NA 🇺🇸 US-216.227.168.157:45258",
-      "server": "216.227.168.157",
-      "server_port": 45258,
-      "uuid": "469e0b31-30c3-4dab-800d-711232634ce1",
-      "security": "auto",
-      "alter_id": "0"
-    },
-    {
-      "type": "vmess",
-      "tag": "🔒 VM-TCP-NA 🇳🇱 NL-209.38.52.91:42562",
-      "server": "209.38.52.91",
-      "server_port": 42562,
-      "uuid": "7905c28d-34d7-435a-b67e-d1d2d342f011",
-      "security": "auto",
-      "alter_id": "0"
-    },
-    {
-      "type": "vmess",
-      "tag": "🔒 VM-TCP-NA 🇳🇴 NO-95.164.38.6:21938",
-      "server": "95.164.38.6",
-      "server_port": 21938,
-      "uuid": "583bebef-3e0b-4c85-ba80-39e07ce35ad9",
-      "security": "auto",
-      "alter_id": "0"
-    },
-    {
-      "type": "vmess",
-      "tag": "🔒 VM-TCP-NA 🇭🇰 HK-209.209.48.19:26024",
-      "server": "209.209.48.19",
-      "server_port": 26024,
-      "uuid": "3a6c789f-0548-4ca3-83c0-2c78acbee811",
-      "security": "auto",
-      "alter_id": "0"
-    },
-    {
-      "type": "vmess",
-      "tag": "🔒 VM-TCP-NA 🇷🇺 RU-45.12.114.15:20779",
-      "server": "45.12.114.15",
-      "server_port": 20779,
-      "uuid": "9dc5bff8-bcbb-4703-b0fe-4f91ba517402",
-      "security": "auto",
-      "alter_id": "0"
-    },
-    {
-      "type": "vmess",
-      "tag": "🔒 VM-TCP-NA 🇺🇸 US-142.4.119.72:57118",
-      "server": "142.4.119.72",
-      "server_port": 57118,
-      "uuid": "418048af-a293-4b99-9b0c-98ca3580dd24",
-      "security": "auto",
-      "alter_id": "0"
-    },
-    {
-      "type": "vmess",
-      "tag": "🔒 VM-WS-NA 🇨🇦 CA-158.69.48.14:10000",
-      "server": "158.69.48.14",
-      "server_port": 10000,
-      "uuid": "fe25808a-4d7d-11f0-bd33-17ba86626747",
-      "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "ws",
-        "path": "/vpnjantit"
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "🔒 VM-WS-TLS 🇸🇬 SG-134.122.133.119:48887",
-      "server": "134.122.133.119",
-      "server_port": 48887,
-      "uuid": "418048af-a293-4b99-9b0c-98ca3580dd24",
-      "security": "auto",
-      "alter_id": "64",
-      "transport": {
-        "type": "ws",
-        "path": "/path/170733132233",
-        "headers": {
-          "Host": "www.86711926.xyz"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "www.86711926.xyz",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "🔒 VM-TCP-NA 🇸🇬 SG-84.247.149.77:47211",
-      "server": "84.247.149.77",
-      "server_port": 47211,
-      "uuid": "fb674260-1c21-4f99-8bd0-3d1d341c6771",
-      "security": "auto",
-      "alter_id": "0"
-    },
-    {
-      "type": "vmess",
-      "tag": "🔒 VM-TCP-NA 🇭🇰 HK-45.39.199.105:15074",
-      "server": "45.39.199.105",
-      "server_port": 15074,
-      "uuid": "9f513161-576b-3abc-9c98-06e52c3a24c6",
-      "security": "auto",
-      "alter_id": "0"
-    },
-    {
-      "type": "vmess",
-      "tag": "🔒 VM-TCP-NA 🇺🇸 US-216.227.168.157:45245",
-      "server": "216.227.168.157",
-      "server_port": 45245,
-      "uuid": "469e0b31-30c3-4dab-800d-711232634ce1",
-      "security": "auto",
-      "alter_id": "0"
-    },
-    {
-      "type": "vmess",
-      "tag": "🔒 VM-WS-TLS 🇺🇸 US-23.224.15.179:30000",
-      "server": "23.224.15.179",
-      "server_port": 30000,
-      "uuid": "418048af-a293-4b99-9b0c-98ca3580dd24",
-      "security": "auto",
-      "alter_id": "64",
-      "transport": {
-        "type": "ws",
-        "path": "/path/170733132233",
-        "headers": {
-          "Host": "www.26872952.xyz"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "www.26872952.xyz",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "🔒 VM-TCP-NA 🇨🇳 CN-219.151.20.62:42301",
-      "server": "219.151.20.62",
-      "server_port": 42301,
-      "uuid": "4381beae-45a6-4421-8547-65e312dd204a",
-      "security": "auto",
-      "alter_id": "0"
-    },
-    {
-      "type": "vmess",
-      "tag": "🔒 VM-TCP-NA 🇺🇦 UA-45.137.155.45:17646",
-      "server": "45.137.155.45",
-      "server_port": 17646,
-      "uuid": "82734724-8c06-4c2e-9cff-b34776fe1757",
-      "security": "auto",
-      "alter_id": "0"
-    },
-    {
-      "type": "vmess",
-      "tag": "🔒 VM-WS-NA 🇺🇸 US-38.150.12.188:52511",
-      "server": "38.150.12.188",
-      "server_port": 52511,
-      "uuid": "342bacfd-2b8f-3f49-a16e-439db5b0b9d5",
-      "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "ws",
-        "path": "/564dfa20/",
-        "headers": {
-          "Host": "aflzzul.meiquankongjian.com"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "🔒 VM-WS-NA 🏴‍☠️ NA-104.16.155.10:8880",
-      "server": "104.16.155.10",
-      "server_port": 8880,
-      "uuid": "4b36625c-b9d9-3ea6-aed5-86d62c70e16d",
-      "security": "auto",
-      "alter_id": 0,
-      "transport": {
-        "type": "ws",
-        "path": "/dabai.in104.25.249.215",
-        "headers": {
-          "Host": "100-103-58-39.s1.db-link02.top"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "🔒 VM-TCP-NA 🇮🇷 IR-2.189.117.108:35010",
-      "server": "2.189.117.108",
-      "server_port": 35010,
-      "uuid": "cd348c94-abff-49c7-a3ef-5475fec89d4c",
-      "security": "auto",
-      "alter_id": "0"
-    },
-    {
-      "type": "vmess",
-      "tag": "🔒 VM-TCP-NA 🇳🇱 NL-45.8.145.145:30520",
-      "server": "45.8.145.145",
-      "server_port": 30520,
-      "uuid": "3038024f-3a34-4228-b61c-d741b2fbec8f",
-      "security": "auto",
-      "alter_id": "0"
-    },
-    {
-      "type": "vmess",
-      "tag": "🔒 VM-TCP-NA 🇸🇬 SG-84.247.146.161:39530",
-      "server": "84.247.146.161",
-      "server_port": 39530,
-      "uuid": "7aa56e39-29b8-45c3-8b53-6d2a23b2461c",
-      "security": "auto",
-      "alter_id": "0"
-    },
-    {
-      "type": "vmess",
-      "tag": "🔒 VM-TCP-NA 🇺🇸 US-216.227.168.157:45229",
-      "server": "216.227.168.157",
-      "server_port": 45229,
-      "uuid": "469e0b31-30c3-4dab-800d-711232634ce1",
-      "security": "auto",
-      "alter_id": "0"
-    },
-    {
-      "type": "vmess",
-      "tag": "🔒 VM-TCP-NA 🇺🇸 US-15.204.86.120:35696",
-      "server": "15.204.86.120",
-      "server_port": 35696,
-      "uuid": "cad0504a-a9dc-4d29-8844-b11b69f14a8d",
-      "security": "auto",
-      "alter_id": "0"
-    },
-    {
-      "type": "vmess",
-      "tag": "🔒 VM-TCP-NA 🇮🇷 IR-45.90.74.240:7580",
-      "server": "45.90.74.240",
-      "server_port": 7580,
-      "uuid": "47a4e822-61ce-4eb2-d5bd-8db6f17bab93",
-      "security": "auto",
-      "alter_id": "0"
-    },
-    {
-      "type": "vmess",
-      "tag": "🔒 VM-TCP-NA 🇺🇸 US-38.12.83.217:30002",
-      "server": "38.12.83.217",
-      "server_port": 30002,
-      "uuid": "418048af-a293-4b99-9b0c-98ca3580dd24",
-      "security": "auto",
-      "alter_id": "64"
-    },
-    {
-      "type": "vmess",
-      "tag": "🔒 VM-TCP-NA 🇨🇳 CN-219.151.20.62:42323",
-      "server": "219.151.20.62",
-      "server_port": 42323,
-      "uuid": "4381beae-45a6-4421-8547-65e312dd204a",
-      "security": "auto",
-      "alter_id": "0"
-    },
-    {
-      "type": "vmess",
-      "tag": "🔒 VM-TCP-NONE 🇮🇷 IR-92.114.50.126:55701",
-      "server": "92.114.50.126",
-      "server_port": 55701,
-      "uuid": "9e681ef5-5ede-46e3-9fd0-ae00be112f40",
-      "security": "auto",
-      "alter_id": 0
-    },
-    {
-      "type": "vmess",
-      "tag": "🔒 VM-WS-NA 🇺🇸 US-2.58.87.221:12269",
-      "server": "2.58.87.221",
-      "server_port": 12269,
-      "uuid": "db85ff0e-c33f-401d-c415-4c7cce135704",
-      "security": "auto",
-      "alter_id": 0,
-      "transport": {
-        "type": "ws",
-        "path": "/"
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "🔒 VM-TCP-NA 🇮🇷 IR-62.60.204.149:59440",
-      "server": "62.60.204.149",
-      "server_port": 59440,
-      "uuid": "7fc3c790-8830-48dd-9b0c-c954301d373c",
-      "security": "auto",
-      "alter_id": "0"
-    },
-    {
-      "type": "vmess",
-      "tag": "🔒 VM-TCP-NA 🇮🇷 IR-212.23.214.21:20017",
-      "server": "212.23.214.21",
-      "server_port": 20017,
-      "uuid": "7c8326eb-4250-4f77-8e1f-0210a69e9ade",
-      "security": "auto",
-      "alter_id": "0"
-    },
-    {
-      "type": "vmess",
-      "tag": "🔒 VM-TCP-NA 🇯🇵 JP-18.181.165.231:48889",
-      "server": "18.181.165.231",
-      "server_port": 48889,
-      "uuid": "c130cb36-c93f-4be7-9228-a7a97d43885a",
-      "security": "auto",
-      "alter_id": "0"
-    },
-    {
-      "type": "vmess",
-      "tag": "🔒 VM-TCP-NONE 🇮🇷 IR-91.212.232.124:45037",
-      "server": "91.212.232.124",
-      "server_port": 45037,
-      "uuid": "175fc5e3-3e65-41d1-aa27-b7842ee3d8b7",
-      "security": "auto",
-      "alter_id": 0
-    },
-    {
-      "type": "vmess",
-      "tag": "🔒 VM-TCP-NA 🇺🇸 US-216.227.168.157:45235",
-      "server": "216.227.168.157",
-      "server_port": 45235,
-      "uuid": "469e0b31-30c3-4dab-800d-711232634ce1",
-      "security": "auto",
-      "alter_id": "0"
-    },
-    {
-      "type": "vmess",
-      "tag": "🔒 VM-TCP-NA 🇩🇪 DE-62.60.158.54:44863",
-      "server": "62.60.158.54",
-      "server_port": 44863,
-      "uuid": "9926bf9f-5c75-4066-8ece-207dee73781f",
-      "security": "auto",
-      "alter_id": "0"
-    },
-    {
-      "type": "vmess",
-      "tag": "🔒 VM-TCP-NA 🇺🇸 US-15.204.249.0:48160",
-      "server": "15.204.249.0",
-      "server_port": 48160,
-      "uuid": "5b113c12-4dd4-4bb5-9c01-cff092b559e3",
-      "security": "auto",
-      "alter_id": "0"
-    },
-    {
-      "type": "vmess",
-      "tag": "🔒 VM-TCP-NA 🇮🇷 IR-81.12.33.197:6014",
-      "server": "81.12.33.197",
-      "server_port": 6014,
-      "uuid": "2bf6cb84-d726-43eb-9928-8d8e442a4b6c",
-      "security": "auto",
-      "alter_id": "0"
-    },
-    {
-      "type": "vmess",
-      "tag": "🔒 VM-TCP-NONE 🇦🇺 AU-154.26.153.161:21759",
-      "server": "154.26.153.161",
-      "server_port": 21759,
-      "uuid": "e5f16fad-f9c3-452b-8e71-bc9504e29fc9",
-      "security": "auto",
-      "alter_id": 0
-    },
-    {
-      "type": "vmess",
-      "tag": "🔒 VM-TCP-NA 🇸🇬 SG-84.247.146.189:33754",
-      "server": "84.247.146.189",
-      "server_port": 33754,
-      "uuid": "45f4f565-8c78-4906-a5b9-08ea9075cd31",
-      "security": "auto",
-      "alter_id": "0"
-    },
-    {
-      "type": "vmess",
-      "tag": "🔒 VM-RAW-NA 🇺🇸 US-216.227.168.157:45233",
-      "server": "216.227.168.157",
-      "server_port": 45233,
-      "uuid": "469e0b31-30c3-4dab-800d-711232634ce1",
-      "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "raw"
-      }
     },
     {
       "type": "vmess",
       "tag": "👨🏻‍💻 DEVELOPED-BY SOROUSH-MIRZAEI 📌 FOLLOW-CONTACT SYDSRSMRZ",
       "server": "127.0.0.1",
       "server_port": 8080,
-      "uuid": "acacbba-aacb-abca-bcad-bcccbbaacaba",
+      "uuid": "aacbabc-caab-bcaa-cadb-bccacbaabacb",
       "security": "auto",
       "alter_id": "0"
     }
