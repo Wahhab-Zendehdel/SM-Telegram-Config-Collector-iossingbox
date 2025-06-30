@@ -5,7 +5,7 @@
       "tag": "🔄",
       "server": "127.0.0.1",
       "server_port": 1080,
-      "password": "accbaab-caab-abac-acdb-acbcbaabccab",
+      "password": "bacabac-caba-abac-cadb-aaacacbbcbbc",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"
@@ -16,7 +16,7 @@
       "tag": "🤖",
       "server": "127.0.0.1",
       "server_port": 2080,
-      "password": "aabbcca-baca-caab-dacb-bacbcaacbbac",
+      "password": "abbaacc-baca-acab-abcd-cbbcaacbaacb",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"
@@ -27,19 +27,11 @@
       "tag": "🛡",
       "server": "127.0.0.1",
       "server_port": 3080,
-      "password": "aabccba-baca-baca-dbac-aacccabbbabc",
+      "password": "bbcaaca-acba-cbaa-adcb-caccbbaabcba",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"
       }
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🔒",
-      "server": "216.173.70.187",
-      "server_port": 57456,
-      "method": "chacha20-ietf-poly1305",
-      "password": "a58fa62b4944ddbf"
     },
     {
       "type": "shadowsocks",
@@ -52,10 +44,10 @@
     {
       "type": "shadowsocks",
       "tag": "🔒",
-      "server": "185.135.86.86",
-      "server_port": 31348,
+      "server": "5.34.209.50",
+      "server_port": 58919,
       "method": "chacha20-ietf-poly1305",
-      "password": "5zRiBKAYbKpDQuW4nKGEDx13H4h9GeDxaq2OMuJiqBvQ5Rss"
+      "password": "Wo7H7pfmmq0nxMRTSBYDj7"
     },
     {
       "type": "shadowsocks",
@@ -68,10 +60,18 @@
     {
       "type": "shadowsocks",
       "tag": "🔒",
-      "server": "5.34.209.50",
-      "server_port": 58919,
+      "server": "185.135.86.86",
+      "server_port": 31348,
       "method": "chacha20-ietf-poly1305",
-      "password": "Wo7H7pfmmq0nxMRTSBYDj7"
+      "password": "5zRiBKAYbKpDQuW4nKGEDx13H4h9GeDxaq2OMuJiqBvQ5Rss"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🔒",
+      "server": "216.173.70.187",
+      "server_port": 57456,
+      "method": "chacha20-ietf-poly1305",
+      "password": "a58fa62b4944ddbf"
     },
     {
       "type": "trojan",
@@ -159,6 +159,48 @@
     {
       "type": "vless",
       "tag": "🔒",
+      "server": "62.192.174.205",
+      "server_port": 443,
+      "uuid": "0fa53d34-5f21-4d66-bb5f-6f37c2a8c4e1",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "lv.wikipedia.org",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "Lb1Gi0VcVuytLf_gb846u7iKkHVywpG8IC9wdZslwUA",
+          "short_id": "102707ab31571a93"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🔒",
+      "server": "195.135.254.59",
+      "server_port": 443,
+      "uuid": "b1c801ec-1c5e-4d12-8b53-8da11c64a21b",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "video.intfreed.ru",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "JxwG7rAbNCd_C82p9K69AZDWh51fri2nm3wLHHrfyiw",
+          "short_id": "7755e972daf8eec8"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🔒",
       "server": "216.173.70.95",
       "server_port": 443,
       "uuid": "b1c801ec-1c5e-4d12-8b53-8da11c64a21b",
@@ -220,53 +262,11 @@
       }
     },
     {
-      "type": "vless",
-      "tag": "🔒",
-      "server": "195.135.254.59",
-      "server_port": 443,
-      "uuid": "b1c801ec-1c5e-4d12-8b53-8da11c64a21b",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "video.intfreed.ru",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "JxwG7rAbNCd_C82p9K69AZDWh51fri2nm3wLHHrfyiw",
-          "short_id": "7755e972daf8eec8"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🔒",
-      "server": "62.192.174.205",
-      "server_port": 443,
-      "uuid": "0fa53d34-5f21-4d66-bb5f-6f37c2a8c4e1",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "lv.wikipedia.org",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "Lb1Gi0VcVuytLf_gb846u7iKkHVywpG8IC9wdZslwUA",
-          "short_id": "102707ab31571a93"
-        }
-      }
-    },
-    {
       "type": "trojan",
       "tag": "👨🏻‍💻",
       "server": "127.0.0.1",
       "server_port": 8080,
-      "password": "acbaabc-aacb-caba-acdb-accabcbabacb",
+      "password": "cbbacaa-caab-acab-cbda-acbbccaabbac",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"

@@ -5,7 +5,7 @@
       "tag": "🔄",
       "server": "127.0.0.1",
       "server_port": 1080,
-      "password": "accbaab-caab-abac-acdb-acbcbaabccab",
+      "password": "bacabac-caba-abac-cadb-aaacacbbcbbc",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"
@@ -16,7 +16,7 @@
       "tag": "🤖",
       "server": "127.0.0.1",
       "server_port": 2080,
-      "password": "aabbcca-baca-caab-dacb-bacbcaacbbac",
+      "password": "abbaacc-baca-acab-abcd-cbbcaacbaacb",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"
@@ -27,7 +27,7 @@
       "tag": "🛡",
       "server": "127.0.0.1",
       "server_port": 3080,
-      "password": "aabccba-baca-baca-dbac-aacccabbbabc",
+      "password": "bbcaaca-acba-cbaa-adcb-caccbbaabcba",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"
@@ -104,21 +104,6 @@
     {
       "type": "vless",
       "tag": "🔒",
-      "server": "::ffff:156.238.18.66",
-      "server_port": 8880,
-      "uuid": "fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "sg.laoyoutiao.link"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🔒",
       "server": "::ffff:91.193.58.48",
       "server_port": 8880,
       "uuid": "fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf",
@@ -132,11 +117,26 @@
       }
     },
     {
+      "type": "vless",
+      "tag": "🔒",
+      "server": "::ffff:156.238.18.66",
+      "server_port": 8880,
+      "uuid": "fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf",
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "sg.laoyoutiao.link"
+        }
+      }
+    },
+    {
       "type": "trojan",
       "tag": "👨🏻‍💻",
       "server": "127.0.0.1",
       "server_port": 8080,
-      "password": "acbaabc-aacb-caba-acdb-accabcbabacb",
+      "password": "cbbacaa-caab-acab-cbda-acbbccaabbac",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"
