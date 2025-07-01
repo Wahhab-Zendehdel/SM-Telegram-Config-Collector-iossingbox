@@ -5,7 +5,7 @@
       "tag": "🔄",
       "server": "127.0.0.1",
       "server_port": 1080,
-      "password": "ccabaab-baca-baca-adbc-cacabbbcaacb",
+      "password": "cbacaba-bcaa-abca-bcad-abacabbcacbc",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"
@@ -16,7 +16,7 @@
       "tag": "🤖",
       "server": "127.0.0.1",
       "server_port": 2080,
-      "password": "acacbba-acba-aacb-adcb-cbbbaaacbacc",
+      "password": "acabacb-caba-caab-cbda-caccbbcaabab",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"
@@ -27,19 +27,11 @@
       "tag": "🛡",
       "server": "127.0.0.1",
       "server_port": 3080,
-      "password": "caacbab-baca-bcaa-acbd-acacacbbbbca",
+      "password": "cbbacaa-caab-baac-dcba-cbbcaacbcaba",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"
       }
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🔒",
-      "server": "192.71.249.78",
-      "server_port": 989,
-      "method": "aes-256-cfb",
-      "password": "f8f7aCzcPKbsF8p3"
     },
     {
       "type": "shadowsocks",
@@ -50,19 +42,12 @@
       "password": "pen321TAv4bfDYD5E6Bn4r"
     },
     {
-      "type": "vless",
+      "type": "shadowsocks",
       "tag": "🔒",
-      "server": "151.101.10.133",
-      "server_port": 80,
-      "uuid": "3601647a-7934-4238-b989-194243e3ead8",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "ws",
-        "path": "/TELEGRAM-@mainv2-ray,TELEGRAM-@mainv2-ray,TELEGRAM-@mainv2-ray,TELEGRAM-@mainv2-ray,TELEGRAM-@mainv2-ray,TELEGRAM-@mainv2-ray,TELEGRAM-@mainv2-ray,TELEGRAM-@mainv2-ray,TELEGRAM-@mainv2-ray,TELEGRAM-@mainv2-ray,TELEGRAM-@mainv2-ray,TELEGRAM-@mainv2-ray,TELEGRAM-@mainv2-ray,TELEGRAM-@mainv2-ray?ed=2048",
-        "headers": {
-          "Host": "namehmain.com"
-        }
-      }
+      "server": "192.71.249.78",
+      "server_port": 989,
+      "method": "aes-256-cfb",
+      "password": "f8f7aCzcPKbsF8p3"
     },
     {
       "type": "vless",
@@ -82,15 +67,15 @@
     {
       "type": "vless",
       "tag": "🔒",
-      "server": "151.101.8.51",
+      "server": "151.101.10.133",
       "server_port": 80,
-      "uuid": "b1533182-6015-4f0d-b393-d3b94f55877f",
+      "uuid": "3601647a-7934-4238-b989-194243e3ead8",
       "packet_encoding": "xudp",
       "transport": {
         "type": "ws",
-        "path": "/",
+        "path": "/TELEGRAM-@mainv2-ray,TELEGRAM-@mainv2-ray,TELEGRAM-@mainv2-ray,TELEGRAM-@mainv2-ray,TELEGRAM-@mainv2-ray,TELEGRAM-@mainv2-ray,TELEGRAM-@mainv2-ray,TELEGRAM-@mainv2-ray,TELEGRAM-@mainv2-ray,TELEGRAM-@mainv2-ray,TELEGRAM-@mainv2-ray,TELEGRAM-@mainv2-ray,TELEGRAM-@mainv2-ray,TELEGRAM-@mainv2-ray?ed=2048",
         "headers": {
-          "Host": "taxi.ir"
+          "Host": "namehmain.com"
         }
       }
     },
@@ -111,11 +96,26 @@
       }
     },
     {
+      "type": "vless",
+      "tag": "🔒",
+      "server": "151.101.8.51",
+      "server_port": 80,
+      "uuid": "b1533182-6015-4f0d-b393-d3b94f55877f",
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "taxi.ir"
+        }
+      }
+    },
+    {
       "type": "trojan",
       "tag": "👨🏻‍💻",
       "server": "127.0.0.1",
       "server_port": 8080,
-      "password": "accbaba-caba-aacb-dacb-cacababcbcab",
+      "password": "bcacbaa-acab-abac-bcda-baaacbbacccb",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"

@@ -5,7 +5,7 @@
       "tag": "🔄",
       "server": "127.0.0.1",
       "server_port": 1080,
-      "password": "ccabaab-baca-baca-adbc-cacabbbcaacb",
+      "password": "cbacaba-bcaa-abca-bcad-abacabbcacbc",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"
@@ -16,7 +16,7 @@
       "tag": "🤖",
       "server": "127.0.0.1",
       "server_port": 2080,
-      "password": "acacbba-acba-aacb-adcb-cbbbaaacbacc",
+      "password": "acabacb-caba-caab-cbda-caccbbcaabab",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"
@@ -27,11 +27,35 @@
       "tag": "🛡",
       "server": "127.0.0.1",
       "server_port": 3080,
-      "password": "caacbab-baca-bcaa-acbd-acacacbbbbca",
+      "password": "cbbacaa-caab-baac-dcba-cbbcaacbcaba",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"
       }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🔒",
+      "server": "216.173.70.187",
+      "server_port": 57456,
+      "method": "chacha20-ietf-poly1305",
+      "password": "360e21d21977dc11"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🔒",
+      "server": "89.46.238.35",
+      "server_port": 989,
+      "method": "aes-256-cfb",
+      "password": "f8f7aCzcPKbsF8p3"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🔒",
+      "server": "5.34.209.50",
+      "server_port": 58919,
+      "method": "chacha20-ietf-poly1305",
+      "password": "Wo7H7pfmmq0nxMRTSBYDj7"
     },
     {
       "type": "shadowsocks",
@@ -48,30 +72,6 @@
       "server_port": 53579,
       "method": "chacha20-ietf-poly1305",
       "password": "pCFflDgNn5C89IMA8mt9cg"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🔒",
-      "server": "89.46.238.35",
-      "server_port": 989,
-      "method": "aes-256-cfb",
-      "password": "f8f7aCzcPKbsF8p3"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🔒",
-      "server": "216.173.70.187",
-      "server_port": 57456,
-      "method": "chacha20-ietf-poly1305",
-      "password": "360e21d21977dc11"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🔒",
-      "server": "5.34.209.50",
-      "server_port": 58919,
-      "method": "chacha20-ietf-poly1305",
-      "password": "Wo7H7pfmmq0nxMRTSBYDj7"
     },
     {
       "type": "trojan",
@@ -93,21 +93,6 @@
       "tls": {
         "enabled": true,
         "server_name": "key-pangolin.treefrog761.one"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🔒",
-      "server": "103.231.73.214",
-      "server_port": 443,
-      "uuid": "588f094b-431b-422c-b80b-007945037072",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "lv01.abvpn.ru"
-        }
       }
     },
     {
@@ -159,21 +144,15 @@
     {
       "type": "vless",
       "tag": "🔒",
-      "server": "94.158.219.203",
+      "server": "103.231.73.214",
       "server_port": 443,
-      "uuid": "b1c801ec-1c5e-4d12-8b53-8da11c64a21b",
+      "uuid": "588f094b-431b-422c-b80b-007945037072",
       "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "video.intfreed.ru",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "JxwG7rAbNCd_C82p9K69AZDWh51fri2nm3wLHHrfyiw",
-          "short_id": "7755e972daf8eec8"
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "lv01.abvpn.ru"
         }
       }
     },
@@ -195,27 +174,6 @@
           "enabled": true,
           "public_key": "Lb1Gi0VcVuytLf_gb846u7iKkHVywpG8IC9wdZslwUA",
           "short_id": "102707ab31571a93"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🔒",
-      "server": "216.173.70.95",
-      "server_port": 443,
-      "uuid": "b1c801ec-1c5e-4d12-8b53-8da11c64a21b",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "video.intfreed.ru",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "JxwG7rAbNCd_C82p9K69AZDWh51fri2nm3wLHHrfyiw",
-          "short_id": "7755e972daf8eec8"
         }
       }
     },
@@ -262,11 +220,53 @@
       }
     },
     {
+      "type": "vless",
+      "tag": "🔒",
+      "server": "94.158.219.203",
+      "server_port": 443,
+      "uuid": "b1c801ec-1c5e-4d12-8b53-8da11c64a21b",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "video.intfreed.ru",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "JxwG7rAbNCd_C82p9K69AZDWh51fri2nm3wLHHrfyiw",
+          "short_id": "7755e972daf8eec8"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🔒",
+      "server": "216.173.70.95",
+      "server_port": 443,
+      "uuid": "b1c801ec-1c5e-4d12-8b53-8da11c64a21b",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "video.intfreed.ru",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "JxwG7rAbNCd_C82p9K69AZDWh51fri2nm3wLHHrfyiw",
+          "short_id": "7755e972daf8eec8"
+        }
+      }
+    },
+    {
       "type": "trojan",
       "tag": "👨🏻‍💻",
       "server": "127.0.0.1",
       "server_port": 8080,
-      "password": "accbaba-caba-aacb-dacb-cacababcbcab",
+      "password": "bcacbaa-acab-abac-bcda-baaacbbacccb",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"
