@@ -5,7 +5,7 @@
       "tag": "🔄",
       "server": "127.0.0.1",
       "server_port": 1080,
-      "password": "cabcaab-aacb-acba-dabc-ccbaacbbcbaa",
+      "password": "babcaac-cbaa-acba-bdac-abccbacbaacb",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"
@@ -16,7 +16,7 @@
       "tag": "🤖",
       "server": "127.0.0.1",
       "server_port": 2080,
-      "password": "acbcbaa-abac-caab-adbc-cccbaababbac",
+      "password": "acaacbb-bcaa-bcaa-bdca-aabacabbcccb",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"
@@ -27,7 +27,7 @@
       "tag": "🛡",
       "server": "127.0.0.1",
       "server_port": 3080,
-      "password": "aacacbb-bcaa-bcaa-bdac-cbabaacbcabc",
+      "password": "cbcaaba-aabc-baac-bcda-bcccbbbaacaa",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"
@@ -79,21 +79,33 @@
       "tag": "🔒",
       "server": "151.101.242.172",
       "server_port": 80,
-      "uuid": "fd8be803-c16f-4d8f-9dcd-cbad92be1100",
+      "uuid": "a34f77b3-cb45-4abe-80f3-5d026ae64168",
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "xhttp"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🔒",
+      "server": "217.61.61.118",
+      "server_port": 42538,
+      "uuid": "4bd6549f-3a16-407c-8151-89d7e6f64e14",
       "packet_encoding": "xudp"
     },
     {
       "type": "vless",
       "tag": "🔒",
-      "server": "146.75.55.82",
-      "server_port": 80,
-      "uuid": "796f5911-1d61-4119-adbd-65e06875fbca",
+      "server": "84.17.58.134",
+      "server_port": 8443,
+      "uuid": "157448af-8ecf-4075-a9e9-b23a6a94899b",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "ws",
-        "path": "/download?ed=2560",
-        "headers": {
-          "Host": "vgdl.ir"
+      "tls": {
+        "enabled": true,
+        "server_name": "mil-it.fromblancwithlove.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
         }
       }
     },
@@ -104,6 +116,47 @@
       "server_port": 42538,
       "uuid": "c1f85ebc-b908-458f-a4e0-4aabb6bd351d",
       "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "🔒",
+      "server": "151.101.241.19",
+      "server_port": 80,
+      "uuid": "78f80c31-ff76-4bca-b43c-c991a9168f11",
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "xhttp"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🔒",
+      "server": "151.101.242.133",
+      "server_port": 80,
+      "uuid": "428287e2-0a51-42d5-89a5-d07f5f10a481",
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "taxi.ir"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🔒",
+      "server": "146.75.55.82",
+      "server_port": 80,
+      "uuid": "79b89098-2000-4eaa-ba46-8b7a0c98b104",
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "/download",
+        "headers": {
+          "Host": "haledada.com"
+        }
+      }
     },
     {
       "type": "vless",
@@ -131,52 +184,23 @@
     {
       "type": "vless",
       "tag": "🔒",
-      "server": "151.101.242.133",
-      "server_port": 80,
-      "uuid": "428287e2-0a51-42d5-89a5-d07f5f10a481",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "taxi.ir"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🔒",
-      "server": "84.17.58.134",
-      "server_port": 8443,
-      "uuid": "157448af-8ecf-4075-a9e9-b23a6a94899b",
+      "server": "85.235.149.184",
+      "server_port": 4000,
+      "uuid": "d8079f97-ac60-4758-9dd5-9a5eb3dd5bb5",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
-        "server_name": "mil-it.fromblancwithlove.com",
+        "server_name": "refersion.com",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "QRGqyPYJmaBIeIXaOoKs8UG0vGLPGcbDinQqYrrpAGU",
+          "short_id": "d08aeb0330883adf"
         }
       }
-    },
-    {
-      "type": "vless",
-      "tag": "🔒",
-      "server": "151.101.241.19",
-      "server_port": 80,
-      "uuid": "78f80c31-ff76-4bca-b43c-c991a9168f11",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "xhttp"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🔒",
-      "server": "217.61.61.118",
-      "server_port": 42538,
-      "uuid": "4bd6549f-3a16-407c-8151-89d7e6f64e14",
-      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -223,27 +247,6 @@
     {
       "type": "vless",
       "tag": "🔒",
-      "server": "85.235.149.184",
-      "server_port": 4000,
-      "uuid": "d8079f97-ac60-4758-9dd5-9a5eb3dd5bb5",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "refersion.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "QRGqyPYJmaBIeIXaOoKs8UG0vGLPGcbDinQqYrrpAGU",
-          "short_id": "d08aeb0330883adf"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🔒",
       "server": "72.146.232.173",
       "server_port": 443,
       "uuid": "1ae544de-4b19-4bd0-a7d6-e47e2e19a057",
@@ -267,7 +270,7 @@
       "tag": "👨🏻‍💻",
       "server": "127.0.0.1",
       "server_port": 8080,
-      "password": "baacbca-baac-abac-bdac-bbbaacbacacc",
+      "password": "caabbac-cbaa-cbaa-bdac-acacaacbbbcb",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"
