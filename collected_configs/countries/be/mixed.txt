@@ -5,7 +5,7 @@
       "tag": "🔄",
       "server": "127.0.0.1",
       "server_port": 1080,
-      "password": "cbaacba-abac-baac-cdab-cacbabacbcba",
+      "password": "accabba-aacb-aacb-bdca-ccbabaacbacb",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"
@@ -16,7 +16,7 @@
       "tag": "🤖",
       "server": "127.0.0.1",
       "server_port": 2080,
-      "password": "babacca-bcaa-bcaa-dcba-aabcaacbbccb",
+      "password": "baacacb-caba-cbaa-cdab-cbcaabaabccb",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"
@@ -27,7 +27,7 @@
       "tag": "🛡",
       "server": "127.0.0.1",
       "server_port": 3080,
-      "password": "cbcaaab-aabc-acba-acbd-bbcaabaaccbc",
+      "password": "baacbac-abca-aabc-badc-bcbbbcaccaaa",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"
@@ -48,21 +48,6 @@
       "server_port": 989,
       "method": "aes-256-cfb",
       "password": "f8f7aCzcPKbsF8p3"
-    },
-    {
-      "type": "vless",
-      "tag": "🔒",
-      "server": "151.101.10.133",
-      "server_port": 80,
-      "uuid": "3601647a-7934-4238-b989-194243e3ead8",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "ws",
-        "path": "/TELEGRAM-@mainv2-ray,TELEGRAM-@mainv2-ray,TELEGRAM-@mainv2-ray,TELEGRAM-@mainv2-ray,TELEGRAM-@mainv2-ray,TELEGRAM-@mainv2-ray,TELEGRAM-@mainv2-ray,TELEGRAM-@mainv2-ray,TELEGRAM-@mainv2-ray,TELEGRAM-@mainv2-ray,TELEGRAM-@mainv2-ray,TELEGRAM-@mainv2-ray,TELEGRAM-@mainv2-ray,TELEGRAM-@mainv2-ray?ed=2048",
-        "headers": {
-          "Host": "namehmain.com"
-        }
-      }
     },
     {
       "type": "vless",
@@ -111,11 +96,26 @@
       }
     },
     {
+      "type": "vless",
+      "tag": "🔒",
+      "server": "151.101.10.133",
+      "server_port": 80,
+      "uuid": "3601647a-7934-4238-b989-194243e3ead8",
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "/TELEGRAM-@mainv2-ray,TELEGRAM-@mainv2-ray,TELEGRAM-@mainv2-ray,TELEGRAM-@mainv2-ray,TELEGRAM-@mainv2-ray,TELEGRAM-@mainv2-ray,TELEGRAM-@mainv2-ray,TELEGRAM-@mainv2-ray,TELEGRAM-@mainv2-ray,TELEGRAM-@mainv2-ray,TELEGRAM-@mainv2-ray,TELEGRAM-@mainv2-ray,TELEGRAM-@mainv2-ray,TELEGRAM-@mainv2-ray?ed=2048",
+        "headers": {
+          "Host": "namehmain.com"
+        }
+      }
+    },
+    {
       "type": "trojan",
       "tag": "👨🏻‍💻",
       "server": "127.0.0.1",
       "server_port": 8080,
-      "password": "bbccaaa-baac-caba-cabd-accbbaaccbab",
+      "password": "bcaabac-baca-caab-cbda-bcaacabbcbac",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"

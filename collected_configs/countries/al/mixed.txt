@@ -5,7 +5,7 @@
       "tag": "🔄",
       "server": "127.0.0.1",
       "server_port": 1080,
-      "password": "cbaacba-abac-baac-cdab-cacbabacbcba",
+      "password": "accabba-aacb-aacb-bdca-ccbabaacbacb",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"
@@ -16,7 +16,7 @@
       "tag": "🤖",
       "server": "127.0.0.1",
       "server_port": 2080,
-      "password": "babacca-bcaa-bcaa-dcba-aabcaacbbccb",
+      "password": "baacacb-caba-cbaa-cdab-cbcaabaabccb",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"
@@ -27,31 +27,10 @@
       "tag": "🛡",
       "server": "127.0.0.1",
       "server_port": 3080,
-      "password": "cbcaaab-aabc-acba-acbd-bbcaabaaccbc",
+      "password": "baacbac-abca-aabc-badc-bcbbbcaccaaa",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🔒",
-      "server": "45.15.170.80",
-      "server_port": 28495,
-      "uuid": "7e296434-2d17-48d3-928d-19eaa34aecb1",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "dl.google.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "KXMH8QzaRa66F6GxOR1CanBunO2uHdJvri2zCbar2RQ",
-          "short_id": "0ecc2c1392"
-        }
       }
     },
     {
@@ -78,20 +57,21 @@
     {
       "type": "vless",
       "tag": "🔒",
-      "server": "93.123.46.100",
-      "server_port": 443,
-      "uuid": "8d7a09ce-7285-4713-babf-b3ac9ad58605",
+      "server": "45.15.170.80",
+      "server_port": 28495,
+      "uuid": "7e296434-2d17-48d3-928d-19eaa34aecb1",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
-        "server_name": "spirako.com",
+        "server_name": "dl.google.com",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "0hH6R90pSxwm7nZPGtJJcJFhwCXU3Rvf-wcEHE7hczo"
+          "public_key": "KXMH8QzaRa66F6GxOR1CanBunO2uHdJvri2zCbar2RQ",
+          "short_id": "0ecc2c1392"
         }
       }
     },
@@ -117,11 +97,31 @@
       }
     },
     {
+      "type": "vless",
+      "tag": "🔒",
+      "server": "93.123.46.100",
+      "server_port": 443,
+      "uuid": "8d7a09ce-7285-4713-babf-b3ac9ad58605",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "spirako.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "0hH6R90pSxwm7nZPGtJJcJFhwCXU3Rvf-wcEHE7hczo"
+        }
+      }
+    },
+    {
       "type": "trojan",
       "tag": "👨🏻‍💻",
       "server": "127.0.0.1",
       "server_port": 8080,
-      "password": "bbccaaa-baac-caba-cabd-accbbaaccbab",
+      "password": "bcaabac-baca-caab-cbda-bcaacabbcbac",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"
