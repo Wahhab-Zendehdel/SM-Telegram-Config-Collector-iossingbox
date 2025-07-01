@@ -5,7 +5,7 @@
       "tag": "🔄",
       "server": "127.0.0.1",
       "server_port": 1080,
-      "password": "caabacb-aabc-bcaa-acdb-bacabcabcbac",
+      "password": "bccaaba-aacb-aabc-adcb-caaacbbabcbc",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"
@@ -16,7 +16,7 @@
       "tag": "🤖",
       "server": "127.0.0.1",
       "server_port": 2080,
-      "password": "caacbab-acab-abca-dcba-acbcabaabcbc",
+      "password": "caaabcb-cbaa-caab-cdab-baaacbcbacbc",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"
@@ -27,7 +27,7 @@
       "tag": "🛡",
       "server": "127.0.0.1",
       "server_port": 3080,
-      "password": "aabcabc-baca-acba-cadb-cacbcbacbaba",
+      "password": "baaccab-acba-abac-bdca-acbbbcaaccab",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"
@@ -57,8 +57,7 @@
       "password": "0fc9c5ff-9531-4178-966f-7d958e1df64b",
       "tls": {
         "enabled": true,
-        "server_name": "eats-rigor-judge.stark-industries.solutions",
-        "insecure": true
+        "server_name": "eats-rigor-judge.stark-industries.solutions"
       }
     },
     {
@@ -66,7 +65,7 @@
       "tag": "👨🏻‍💻",
       "server": "127.0.0.1",
       "server_port": 8080,
-      "password": "aabacbc-aacb-baca-badc-acbccacabbab",
+      "password": "aacbabc-baac-aacb-dabc-abbcaaccbbca",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"
