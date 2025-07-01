@@ -5,7 +5,7 @@
       "tag": "🔄",
       "server": "127.0.0.1",
       "server_port": 1080,
-      "password": "bccaaba-aacb-aabc-adcb-caaacbbabcbc",
+      "password": "cbabcaa-caba-caab-acdb-bccbacabcaba",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"
@@ -16,7 +16,7 @@
       "tag": "🤖",
       "server": "127.0.0.1",
       "server_port": 2080,
-      "password": "caaabcb-cbaa-caab-cdab-baaacbcbacbc",
+      "password": "abcbaca-cbaa-abca-bcda-baacbccaabbc",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"
@@ -27,31 +27,10 @@
       "tag": "🛡",
       "server": "127.0.0.1",
       "server_port": 3080,
-      "password": "baaccab-acba-abac-bdca-acbbbcaaccab",
+      "password": "aabcbac-cbaa-baca-dacb-abaacccabbcb",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🔒",
-      "server": "45.15.170.80",
-      "server_port": 28495,
-      "uuid": "7e296434-2d17-48d3-928d-19eaa34aecb1",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "dl.google.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "KXMH8QzaRa66F6GxOR1CanBunO2uHdJvri2zCbar2RQ",
-          "short_id": "0ecc2c1392"
-        }
       }
     },
     {
@@ -78,21 +57,21 @@
     {
       "type": "vless",
       "tag": "🔒",
-      "server": "103.167.234.110",
-      "server_port": 2050,
-      "uuid": "acbab574-fbb3-48fe-948f-f2c173d5dfeb",
+      "server": "45.15.170.80",
+      "server_port": 28495,
+      "uuid": "7e296434-2d17-48d3-928d-19eaa34aecb1",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
-        "server_name": "refersion.com",
+        "server_name": "dl.google.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "firefox"
+          "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "sHzIKPKqTTq77wusV6qaa0bwx41ap2r_sCXjHwHl4m8",
-          "short_id": "3466c6b00f1201c2"
+          "public_key": "KXMH8QzaRa66F6GxOR1CanBunO2uHdJvri2zCbar2RQ",
+          "short_id": "0ecc2c1392"
         }
       }
     },
@@ -117,11 +96,32 @@
       }
     },
     {
+      "type": "vless",
+      "tag": "🔒",
+      "server": "103.167.234.110",
+      "server_port": 2050,
+      "uuid": "acbab574-fbb3-48fe-948f-f2c173d5dfeb",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "refersion.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "sHzIKPKqTTq77wusV6qaa0bwx41ap2r_sCXjHwHl4m8",
+          "short_id": "3466c6b00f1201c2"
+        }
+      }
+    },
+    {
       "type": "trojan",
       "tag": "👨🏻‍💻",
       "server": "127.0.0.1",
       "server_port": 8080,
-      "password": "aacbabc-baac-aacb-dabc-abbcaaccbbca",
+      "password": "acabbca-abac-acab-bacd-ccbaacabbcab",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"
