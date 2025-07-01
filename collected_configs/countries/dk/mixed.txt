@@ -5,7 +5,7 @@
       "tag": "🔄",
       "server": "127.0.0.1",
       "server_port": 1080,
-      "password": "bcaacab-abca-caba-acbd-aabcbabbaccc",
+      "password": "ccabaab-baca-baca-adbc-cacabbbcaacb",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"
@@ -16,7 +16,7 @@
       "tag": "🤖",
       "server": "127.0.0.1",
       "server_port": 2080,
-      "password": "abcbaac-aabc-bcaa-abdc-caaacbcabbbc",
+      "password": "acacbba-acba-aacb-adcb-cbbbaaacbacc",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"
@@ -27,7 +27,7 @@
       "tag": "🛡",
       "server": "127.0.0.1",
       "server_port": 3080,
-      "password": "bccabaa-acab-acba-dbca-acbbacaabcbc",
+      "password": "caacbab-baca-bcaa-acbd-acacacbbbbca",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"
@@ -66,21 +66,21 @@
     {
       "type": "vless",
       "tag": "🔒",
-      "server": "193.180.211.106",
+      "server": "77.37.97.59",
       "server_port": 443,
       "uuid": "6ba20a61-9ca7-4f9e-ac38-95f63c888a95",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
-        "server_name": "www.google.com",
+        "server_name": "www.ign.com",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "9ScHOKzJC7yKULZTUXzLHqW1YdVm1iuAztbg3uyU4W4",
-          "short_id": "3b5f17c573589047"
+          "public_key": "4GnPOZT2sf7WGkjOhOuBckj5VkTWkV_PZ6bw_hBC0nI",
+          "short_id": "dd53608f91a83f5a"
         }
       }
     },
@@ -108,21 +108,21 @@
     {
       "type": "vless",
       "tag": "🔒",
-      "server": "77.37.97.59",
+      "server": "193.180.211.106",
       "server_port": 443,
       "uuid": "6ba20a61-9ca7-4f9e-ac38-95f63c888a95",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
-        "server_name": "www.ign.com",
+        "server_name": "www.google.com",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "4GnPOZT2sf7WGkjOhOuBckj5VkTWkV_PZ6bw_hBC0nI",
-          "short_id": "dd53608f91a83f5a"
+          "public_key": "9ScHOKzJC7yKULZTUXzLHqW1YdVm1iuAztbg3uyU4W4",
+          "short_id": "3b5f17c573589047"
         }
       }
     },
@@ -131,7 +131,7 @@
       "tag": "👨🏻‍💻",
       "server": "127.0.0.1",
       "server_port": 8080,
-      "password": "caabbca-acba-baca-bdac-bbcaabbacacc",
+      "password": "accbaba-caba-aacb-dacb-cacababcbcab",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"
