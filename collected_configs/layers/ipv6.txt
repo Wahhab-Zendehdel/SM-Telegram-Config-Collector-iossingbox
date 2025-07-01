@@ -5,7 +5,7 @@
       "tag": "🔄",
       "server": "127.0.0.1",
       "server_port": 1080,
-      "password": "bcaacba-aabc-caab-bacd-aabcccbcaabb",
+      "password": "cbaacba-bcaa-caba-dcba-abbaabaccccb",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"
@@ -16,7 +16,7 @@
       "tag": "🤖",
       "server": "127.0.0.1",
       "server_port": 2080,
-      "password": "abcaabc-abac-baca-acdb-bacbccbabcaa",
+      "password": "baacabc-baac-bcaa-acbd-cabacabbcbac",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"
@@ -27,7 +27,7 @@
       "tag": "🛡",
       "server": "127.0.0.1",
       "server_port": 3080,
-      "password": "aacbacb-abac-abca-cbda-cacbaabbaccb",
+      "password": "bcaacba-acab-caba-dbac-abbccbbaacac",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"
@@ -36,7 +36,45 @@
     {
       "type": "vless",
       "tag": "🔒",
+      "server": "::ffff:45.142.120.8",
+      "server_port": 443,
+      "uuid": "7c9e3c1d-a360-4429-9189-e45a98de7fde",
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "/upload",
+        "headers": {
+          "Host": "mail.ski1plag.ir"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "mail.ski1plag.ir",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "random"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🔒",
       "server": "::ffff:156.238.18.136",
+      "server_port": 8880,
+      "uuid": "fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf",
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "sg.laoyoutiao.link"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🔒",
+      "server": "::ffff:156.238.18.177",
       "server_port": 8880,
       "uuid": "fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf",
       "packet_encoding": "xudp",
@@ -96,6 +134,21 @@
     {
       "type": "vless",
       "tag": "🔒",
+      "server": "::ffff:156.238.18.252",
+      "server_port": 8880,
+      "uuid": "fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf",
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "sg.laoyoutiao.link"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🔒",
       "server": "::ffff:2d8e:7808",
       "server_port": 443,
       "uuid": "7c9e3c1d-a360-4429-9189-e45a98de7fde",
@@ -113,84 +166,6 @@
         "utls": {
           "enabled": true,
           "fingerprint": "random"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🔒",
-      "server": "::ffff:45.142.120.8",
-      "server_port": 443,
-      "uuid": "7c9e3c1d-a360-4429-9189-e45a98de7fde",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "ws",
-        "path": "/upload",
-        "headers": {
-          "Host": "mail.ski1plag.ir"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "mail.ski1plag.ir",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "random"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🔒",
-      "server": "::ffff:156.238.18.177",
-      "server_port": 8880,
-      "uuid": "fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "sg.laoyoutiao.link"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🔒",
-      "server": "::ffff:156.238.18.252",
-      "server_port": 8880,
-      "uuid": "fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "sg.laoyoutiao.link"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🔒",
-      "server": "0000:0000:0000:0000:0000:ffff:5b63:9012",
-      "server_port": 20600,
-      "uuid": "09324ee6-1235-4793-bf9b-0da17a466a69",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "grpc",
-        "service_name": ""
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "www.speedtest.net",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "b14Nibi1pMPwFPqgiyZRS3a6-Y-Q8EsE5urKnA-RkAc",
-          "short_id": "adf8a1f5689177a2"
         }
       }
     },
@@ -220,11 +195,36 @@
       }
     },
     {
+      "type": "vless",
+      "tag": "🔒",
+      "server": "0000:0000:0000:0000:0000:ffff:5b63:9012",
+      "server_port": 20600,
+      "uuid": "09324ee6-1235-4793-bf9b-0da17a466a69",
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "grpc",
+        "service_name": ""
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "www.speedtest.net",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "b14Nibi1pMPwFPqgiyZRS3a6-Y-Q8EsE5urKnA-RkAc",
+          "short_id": "adf8a1f5689177a2"
+        }
+      }
+    },
+    {
       "type": "trojan",
       "tag": "👨🏻‍💻",
       "server": "127.0.0.1",
       "server_port": 8080,
-      "password": "accbaab-cbaa-aacb-bdac-ccbcaaacabbb",
+      "password": "abcabac-baca-baac-abcd-abacaabccbcb",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"

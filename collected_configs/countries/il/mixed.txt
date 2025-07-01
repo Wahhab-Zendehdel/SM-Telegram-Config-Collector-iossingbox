@@ -5,7 +5,7 @@
       "tag": "🔄",
       "server": "127.0.0.1",
       "server_port": 1080,
-      "password": "bcaacba-aabc-caab-bacd-aabcccbcaabb",
+      "password": "cbaacba-bcaa-caba-dcba-abbaabaccccb",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"
@@ -16,7 +16,7 @@
       "tag": "🤖",
       "server": "127.0.0.1",
       "server_port": 2080,
-      "password": "abcaabc-abac-baca-acdb-bacbccbabcaa",
+      "password": "baacabc-baac-bcaa-acbd-cabacabbcbac",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"
@@ -27,11 +27,19 @@
       "tag": "🛡",
       "server": "127.0.0.1",
       "server_port": 3080,
-      "password": "aacbacb-abac-abca-cbda-cacbaabbaccb",
+      "password": "bcaacba-acab-caba-dbac-abbccbbaacac",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"
       }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🔒",
+      "server": "169.150.202.174",
+      "server_port": 989,
+      "method": "aes-256-cfb",
+      "password": "f8f7aCzcPKbsF8p3"
     },
     {
       "type": "shadowsocks",
@@ -58,12 +66,20 @@
       "password": "T8lNjomzJhCTfPfZ"
     },
     {
-      "type": "shadowsocks",
+      "type": "vless",
       "tag": "🔒",
-      "server": "169.150.202.174",
-      "server_port": 989,
-      "method": "aes-256-cfb",
-      "password": "f8f7aCzcPKbsF8p3"
+      "server": "20.217.83.158",
+      "server_port": 443,
+      "uuid": "0e8a6896-ad90-4a3b-89a3-77d64aa409e2",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "i2pd.website",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "type": "vless",
@@ -75,22 +91,6 @@
       "tls": {
         "enabled": true,
         "server_name": "tel5.vpntype.dev",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🔒",
-      "server": "20.217.83.158",
-      "server_port": 443,
-      "uuid": "0e8a6896-ad90-4a3b-89a3-77d64aa409e2",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "i2pd.website",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -123,7 +123,7 @@
       "tag": "👨🏻‍💻",
       "server": "127.0.0.1",
       "server_port": 8080,
-      "password": "accbaab-cbaa-aacb-bdac-ccbcaaacabbb",
+      "password": "abcabac-baca-baac-abcd-abacaabccbcb",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"
