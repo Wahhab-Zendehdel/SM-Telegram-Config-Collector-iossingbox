@@ -5,7 +5,7 @@
       "tag": "🔄",
       "server": "127.0.0.1",
       "server_port": 1080,
-      "password": "babcaac-caab-cbaa-dacb-aabbcbacccab",
+      "password": "bcaaabc-acab-acba-adbc-bcbaabacbcac",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"
@@ -16,7 +16,7 @@
       "tag": "🤖",
       "server": "127.0.0.1",
       "server_port": 2080,
-      "password": "caacabb-aacb-abac-cbad-cbcbaacbcbaa",
+      "password": "aabcbac-acab-aabc-cdab-ccbabbacaacb",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"
@@ -27,7 +27,7 @@
       "tag": "🛡",
       "server": "127.0.0.1",
       "server_port": 3080,
-      "password": "cabaabc-bcaa-baac-cabd-bbabcbccaaac",
+      "password": "bbaacca-caba-aabc-dcab-ccacabacbabb",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"
@@ -48,37 +48,6 @@
       "server_port": 989,
       "method": "aes-256-cfb",
       "password": "f8f7aCzcPKbsF8p3"
-    },
-    {
-      "type": "vless",
-      "tag": "🔒",
-      "server": "151.101.8.163",
-      "server_port": 80,
-      "uuid": "6d4ddb94-ebb6-4884-9711-00d0ca9d7dbe",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "ws",
-        "path": "/?ed=2048",
-        "headers": {
-          "Host": "game.baziha0098.ir"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🔒",
-      "server": "79.127.224.12",
-      "server_port": 8443,
-      "uuid": "157448af-8ecf-4075-a9e9-b23a6a94899b",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "bru-be-01.fromblancwithlove.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
     },
     {
       "type": "vless",
@@ -111,11 +80,42 @@
       }
     },
     {
+      "type": "vless",
+      "tag": "🔒",
+      "server": "79.127.224.12",
+      "server_port": 8443,
+      "uuid": "157448af-8ecf-4075-a9e9-b23a6a94899b",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "bru-be-01.fromblancwithlove.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🔒",
+      "server": "151.101.8.163",
+      "server_port": 80,
+      "uuid": "6d4ddb94-ebb6-4884-9711-00d0ca9d7dbe",
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "/?ed=2048",
+        "headers": {
+          "Host": "game.baziha0098.ir"
+        }
+      }
+    },
+    {
       "type": "trojan",
       "tag": "👨🏻‍💻",
       "server": "127.0.0.1",
       "server_port": 8080,
-      "password": "abaccba-cbaa-baca-bacd-acbacacbcabb",
+      "password": "accbaab-aacb-caab-cadb-bcbcabcbaaca",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"
