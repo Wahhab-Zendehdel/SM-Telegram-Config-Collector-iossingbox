@@ -5,7 +5,7 @@
       "tag": "🔄",
       "server": "127.0.0.1",
       "server_port": 1080,
-      "password": "aacabbc-cbaa-caab-acdb-acbabbcacbca",
+      "password": "cabbaca-caba-bcaa-acdb-baacccbcabba",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"
@@ -16,7 +16,7 @@
       "tag": "🤖",
       "server": "127.0.0.1",
       "server_port": 2080,
-      "password": "bbaccaa-caab-baca-cadb-bbccacacbaba",
+      "password": "baacbac-aacb-aabc-cbad-bcbcacacbaab",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"
@@ -27,7 +27,7 @@
       "tag": "🛡",
       "server": "127.0.0.1",
       "server_port": 3080,
-      "password": "cabbaca-aabc-acba-adbc-ccababcbbaca",
+      "password": "cababca-acba-aabc-adcb-cabababbccac",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"
@@ -45,11 +45,11 @@
       "type": "trojan",
       "tag": "🔒",
       "server": "151.101.242.172",
-      "server_port": 443,
+      "server_port": 80,
       "password": "45f98d84-f1ab-4783-989e-e3b930913665",
       "tls": {
         "enabled": true,
-        "server_name": "cdn.arvancloud.ir"
+        "server_name": "mci.ir"
       }
     },
     {
@@ -67,26 +67,11 @@
       "type": "trojan",
       "tag": "🔒",
       "server": "151.101.242.172",
-      "server_port": 80,
+      "server_port": 443,
       "password": "45f98d84-f1ab-4783-989e-e3b930913665",
       "tls": {
         "enabled": true,
-        "server_name": "mci.ir"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🔒",
-      "server": "146.75.55.82",
-      "server_port": 80,
-      "uuid": "b8cc2ea0-8f44-4af2-ad95-e9bbe07ab2e5",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "urldl.ir"
-        }
+        "server_name": "cdn.arvancloud.ir"
       }
     },
     {
@@ -108,18 +93,17 @@
     {
       "type": "vless",
       "tag": "🔒",
-      "server": "151.101.242.172",
+      "server": "146.75.55.82",
       "server_port": 80,
-      "uuid": "fd8be803-c16f-4d8f-9dcd-cbad92be1100",
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "vless",
-      "tag": "🔒",
-      "server": "217.61.61.118",
-      "server_port": 42538,
-      "uuid": "4bd6549f-3a16-407c-8151-89d7e6f64e14",
-      "packet_encoding": "xudp"
+      "uuid": "b8cc2ea0-8f44-4af2-ad95-e9bbe07ab2e5",
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "urldl.ir"
+        }
+      }
     },
     {
       "type": "vless",
@@ -147,15 +131,15 @@
     {
       "type": "vless",
       "tag": "🔒",
-      "server": "151.101.242.133",
+      "server": "151.101.242.172",
       "server_port": 80,
-      "uuid": "428287e2-0a51-42d5-89a5-d07f5f10a481",
+      "uuid": "fc7a34b8-7f83-475f-bca4-7a8f5dc861fb",
       "packet_encoding": "xudp",
       "transport": {
         "type": "ws",
         "path": "/",
         "headers": {
-          "Host": "taxi.ir"
+          "Host": "Germany.ss.ss"
         }
       }
     },
@@ -181,21 +165,44 @@
     {
       "type": "vless",
       "tag": "🔒",
-      "server": "172.235.229.138",
-      "server_port": 21337,
-      "uuid": "422899ac-7bfb-441a-89c2-5b9eee312790",
+      "server": "217.61.61.118",
+      "server_port": 42538,
+      "uuid": "4bd6549f-3a16-407c-8151-89d7e6f64e14",
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "🔒",
+      "server": "151.101.242.133",
+      "server_port": 80,
+      "uuid": "428287e2-0a51-42d5-89a5-d07f5f10a481",
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "taxi.ir"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🔒",
+      "server": "4.232.170.158",
+      "server_port": 443,
+      "uuid": "1ae544de-4b19-4bd0-a7d6-e47e2e19a057",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
-        "server_name": "refersion.com",
+        "server_name": "itgetsbetter.org",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "bGfBNbN30La6XWb4Cakg4y7kRCiveT2LpWYhK8r3-BI",
-          "short_id": "866c9d6a17a0ae44"
+          "public_key": "u13aSU1om7Mc67RxQHmVQx7iALWAUCn_j38zQ5LpYXc",
+          "short_id": "462c73aef9f448"
         }
       }
     },
@@ -223,6 +230,27 @@
     {
       "type": "vless",
       "tag": "🔒",
+      "server": "172.235.229.138",
+      "server_port": 21337,
+      "uuid": "422899ac-7bfb-441a-89c2-5b9eee312790",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "refersion.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "bGfBNbN30La6XWb4Cakg4y7kRCiveT2LpWYhK8r3-BI",
+          "short_id": "866c9d6a17a0ae44"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🔒",
       "server": "85.235.149.184",
       "server_port": 4000,
       "uuid": "d8079f97-ac60-4758-9dd5-9a5eb3dd5bb5",
@@ -242,32 +270,11 @@
       }
     },
     {
-      "type": "vless",
-      "tag": "🔒",
-      "server": "72.146.232.244",
-      "server_port": 443,
-      "uuid": "1ae544de-4b19-4bd0-a7d6-e47e2e19a057",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "itgetsbetter.org",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "u13aSU1om7Mc67RxQHmVQx7iALWAUCn_j38zQ5LpYXc",
-          "short_id": "462c73aef9f448"
-        }
-      }
-    },
-    {
       "type": "trojan",
       "tag": "👨🏻‍💻",
       "server": "127.0.0.1",
       "server_port": 8080,
-      "password": "bbccaaa-acab-bcaa-cbad-acaacbccbabb",
+      "password": "cabbaca-bcaa-cbaa-cdba-baaccccababb",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"

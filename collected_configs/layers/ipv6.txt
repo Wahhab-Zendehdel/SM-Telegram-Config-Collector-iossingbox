@@ -5,7 +5,7 @@
       "tag": "🔄",
       "server": "127.0.0.1",
       "server_port": 1080,
-      "password": "aacabbc-cbaa-caab-acdb-acbabbcacbca",
+      "password": "cabbaca-caba-bcaa-acdb-baacccbcabba",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"
@@ -16,7 +16,7 @@
       "tag": "🤖",
       "server": "127.0.0.1",
       "server_port": 2080,
-      "password": "bbaccaa-caab-baca-cadb-bbccacacbaba",
+      "password": "baacbac-aacb-aabc-cbad-bcbcacacbaab",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"
@@ -27,7 +27,7 @@
       "tag": "🛡",
       "server": "127.0.0.1",
       "server_port": 3080,
-      "password": "cabbaca-aabc-acba-adbc-ccababcbbaca",
+      "password": "cababca-acba-aabc-adcb-cabababbccac",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"
@@ -36,60 +36,7 @@
     {
       "type": "vless",
       "tag": "🔒",
-      "server": "::ffff:45.142.120.8",
-      "server_port": 443,
-      "uuid": "7c9e3c1d-a360-4429-9189-e45a98de7fde",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "ws",
-        "path": "/upload",
-        "headers": {
-          "Host": "mail.ski1plag.ir"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "mail.ski1plag.ir",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "random"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🔒",
-      "server": "::ffff:91.193.58.48",
-      "server_port": 8880,
-      "uuid": "fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "tw.laoyoutiao.link"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🔒",
-      "server": "::ffff:156.238.18.66",
-      "server_port": 8880,
-      "uuid": "fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "sg.laoyoutiao.link"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🔒",
-      "server": "::ffff:50.7.85.220",
+      "server": "::ffff:3207:55dc",
       "server_port": 80,
       "uuid": "827545b9-5e1d-4e29-a97f-46b388891f57",
       "packet_encoding": "xudp",
@@ -119,15 +66,23 @@
     {
       "type": "vless",
       "tag": "🔒",
-      "server": "::ffff:3207:55dc",
-      "server_port": 80,
-      "uuid": "827545b9-5e1d-4e29-a97f-46b388891f57",
+      "server": "::ffff:45.142.120.8",
+      "server_port": 443,
+      "uuid": "7c9e3c1d-a360-4429-9189-e45a98de7fde",
       "packet_encoding": "xudp",
       "transport": {
         "type": "ws",
-        "path": "/?ed=443",
+        "path": "/upload",
         "headers": {
-          "Host": "hello-world-twilight-lake-386e.yijiled513.workers.dev"
+          "Host": "mail.ski1plag.ir"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "mail.ski1plag.ir",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "random"
         }
       }
     },
@@ -150,6 +105,36 @@
       "type": "vless",
       "tag": "🔒",
       "server": "::ffff:156.238.18.136",
+      "server_port": 8880,
+      "uuid": "fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf",
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "sg.laoyoutiao.link"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🔒",
+      "server": "::ffff:91.193.58.48",
+      "server_port": 8880,
+      "uuid": "fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf",
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "tw.laoyoutiao.link"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🔒",
+      "server": "::ffff:156.238.18.66",
       "server_port": 8880,
       "uuid": "fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf",
       "packet_encoding": "xudp",
@@ -187,25 +172,15 @@
     {
       "type": "vless",
       "tag": "🔒",
-      "server": "0000:0000:0000:0000:0000:ffff:5b63:9012",
-      "server_port": 20600,
-      "uuid": "09324ee6-1235-4793-bf9b-0da17a466a69",
+      "server": "::ffff:50.7.85.220",
+      "server_port": 80,
+      "uuid": "827545b9-5e1d-4e29-a97f-46b388891f57",
       "packet_encoding": "xudp",
       "transport": {
-        "type": "grpc",
-        "service_name": ""
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "www.speedtest.net",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "b14Nibi1pMPwFPqgiyZRS3a6-Y-Q8EsE5urKnA-RkAc",
-          "short_id": "adf8a1f5689177a2"
+        "type": "ws",
+        "path": "/?ed=443",
+        "headers": {
+          "Host": "hello-world-twilight-lake-386e.yijiled513.workers.dev"
         }
       }
     },
@@ -235,11 +210,36 @@
       }
     },
     {
+      "type": "vless",
+      "tag": "🔒",
+      "server": "0000:0000:0000:0000:0000:ffff:5b63:9012",
+      "server_port": 20600,
+      "uuid": "09324ee6-1235-4793-bf9b-0da17a466a69",
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "grpc",
+        "service_name": ""
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "www.speedtest.net",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "b14Nibi1pMPwFPqgiyZRS3a6-Y-Q8EsE5urKnA-RkAc",
+          "short_id": "adf8a1f5689177a2"
+        }
+      }
+    },
+    {
       "type": "trojan",
       "tag": "👨🏻‍💻",
       "server": "127.0.0.1",
       "server_port": 8080,
-      "password": "bbccaaa-acab-bcaa-cbad-acaacbccbabb",
+      "password": "cabbaca-bcaa-cbaa-cdba-baaccccababb",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"

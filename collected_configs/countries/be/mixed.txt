@@ -5,7 +5,7 @@
       "tag": "🔄",
       "server": "127.0.0.1",
       "server_port": 1080,
-      "password": "aacabbc-cbaa-caab-acdb-acbabbcacbca",
+      "password": "cabbaca-caba-bcaa-acdb-baacccbcabba",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"
@@ -16,7 +16,7 @@
       "tag": "🤖",
       "server": "127.0.0.1",
       "server_port": 2080,
-      "password": "bbaccaa-caab-baca-cadb-bbccacacbaba",
+      "password": "baacbac-aacb-aabc-cbad-bcbcacacbaab",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"
@@ -27,19 +27,11 @@
       "tag": "🛡",
       "server": "127.0.0.1",
       "server_port": 3080,
-      "password": "cabbaca-aabc-acba-adbc-ccababcbbaca",
+      "password": "cababca-acba-aabc-adcb-cabababbccac",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"
       }
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🔒",
-      "server": "141.98.233.98",
-      "server_port": 1443,
-      "method": "chacha20-ietf-poly1305",
-      "password": "pen321TAv4bfDYD5E6Bn4r"
     },
     {
       "type": "shadowsocks",
@@ -50,17 +42,26 @@
       "password": "f8f7aCzcPKbsF8p3"
     },
     {
+      "type": "shadowsocks",
+      "tag": "🔒",
+      "server": "141.98.233.98",
+      "server_port": 1443,
+      "method": "chacha20-ietf-poly1305",
+      "password": "pen321TAv4bfDYD5E6Bn4r"
+    },
+    {
       "type": "vless",
       "tag": "🔒",
-      "server": "151.101.8.51",
-      "server_port": 80,
-      "uuid": "b1533182-6015-4f0d-b393-d3b94f55877f",
+      "server": "79.127.224.12",
+      "server_port": 8443,
+      "uuid": "157448af-8ecf-4075-a9e9-b23a6a94899b",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "taxi.ir"
+      "tls": {
+        "enabled": true,
+        "server_name": "bru-be-01.fromblancwithlove.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
         }
       }
     },
@@ -82,6 +83,21 @@
     {
       "type": "vless",
       "tag": "🔒",
+      "server": "151.101.8.51",
+      "server_port": 80,
+      "uuid": "b1533182-6015-4f0d-b393-d3b94f55877f",
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "taxi.ir"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🔒",
       "server": "151.101.10.133",
       "server_port": 80,
       "uuid": "3601647a-7934-4238-b989-194243e3ead8",
@@ -95,27 +111,11 @@
       }
     },
     {
-      "type": "vless",
-      "tag": "🔒",
-      "server": "79.127.224.12",
-      "server_port": 8443,
-      "uuid": "157448af-8ecf-4075-a9e9-b23a6a94899b",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "bru-be-01.fromblancwithlove.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
       "type": "trojan",
       "tag": "👨🏻‍💻",
       "server": "127.0.0.1",
       "server_port": 8080,
-      "password": "bbccaaa-acab-bcaa-cbad-acaacbccbabb",
+      "password": "cabbaca-bcaa-cbaa-cdba-baaccccababb",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"
