@@ -5,7 +5,7 @@
       "tag": "🔄",
       "server": "127.0.0.1",
       "server_port": 1080,
-      "password": "aacbcba-acab-cbaa-adcb-caabaccbabcb",
+      "password": "aacabbc-cbaa-caab-acdb-acbabbcacbca",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"
@@ -16,7 +16,7 @@
       "tag": "🤖",
       "server": "127.0.0.1",
       "server_port": 2080,
-      "password": "bcaacab-cbaa-acba-cabd-bcaccaaacbbb",
+      "password": "bbaccaa-caab-baca-cadb-bbccacacbaba",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"
@@ -27,7 +27,7 @@
       "tag": "🛡",
       "server": "127.0.0.1",
       "server_port": 3080,
-      "password": "bcaaacb-abca-caab-dcba-cabbacbacabc",
+      "password": "cabbaca-aabc-acba-adbc-ccababcbbaca",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"
@@ -57,21 +57,21 @@
     {
       "type": "vless",
       "tag": "🔒",
-      "server": "103.167.234.110",
-      "server_port": 2050,
-      "uuid": "acbab574-fbb3-48fe-948f-f2c173d5dfeb",
+      "server": "45.15.170.53",
+      "server_port": 2443,
+      "uuid": "2d96c29e-4974-4bbb-a0f2-33e5c912458e",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
-        "server_name": "refersion.com",
+        "server_name": "api.snapkit.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "firefox"
+          "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "sHzIKPKqTTq77wusV6qaa0bwx41ap2r_sCXjHwHl4m8",
-          "short_id": "3466c6b00f1201c2"
+          "public_key": "QgyNvrlHczufNmykfEZlNojkJNtz_BSc8JCVGZlpdT0",
+          "short_id": "c104a7dd"
         }
       }
     },
@@ -98,21 +98,21 @@
     {
       "type": "vless",
       "tag": "🔒",
-      "server": "45.15.170.53",
-      "server_port": 2443,
-      "uuid": "2d96c29e-4974-4bbb-a0f2-33e5c912458e",
+      "server": "103.167.234.110",
+      "server_port": 2050,
+      "uuid": "acbab574-fbb3-48fe-948f-f2c173d5dfeb",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
-        "server_name": "api.snapkit.com",
+        "server_name": "refersion.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "firefox"
         },
         "reality": {
           "enabled": true,
-          "public_key": "QgyNvrlHczufNmykfEZlNojkJNtz_BSc8JCVGZlpdT0",
-          "short_id": "c104a7dd"
+          "public_key": "sHzIKPKqTTq77wusV6qaa0bwx41ap2r_sCXjHwHl4m8",
+          "short_id": "3466c6b00f1201c2"
         }
       }
     },
@@ -121,7 +121,7 @@
       "tag": "👨🏻‍💻",
       "server": "127.0.0.1",
       "server_port": 8080,
-      "password": "cbabaca-abac-baca-cdba-bbabaaaccccb",
+      "password": "bbccaaa-acab-bcaa-cbad-acaacbccbabb",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"
