@@ -5,7 +5,7 @@
       "tag": "🔄",
       "server": "127.0.0.1",
       "server_port": 1080,
-      "uuid": "cbabaca-cbaa-baca-abdc-cbccaabcbbaa",
+      "uuid": "aaaccbb-abca-aabc-bcda-ccaaabbacbbc",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -45,7 +45,7 @@
       "tag": "🛡",
       "server": "127.0.0.1",
       "server_port": 3080,
-      "uuid": "abbaacc-abac-baca-adbc-bcabbccacaba",
+      "uuid": "bcaacab-caab-bcaa-bdca-acbcccaabbab",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -72,7 +72,7 @@
       "tag": "👨🏻‍💻",
       "server": "127.0.0.1",
       "server_port": 8080,
-      "uuid": "aabbacc-bcaa-abca-cabd-bcaababcccab",
+      "uuid": "cbbaaac-cbaa-bcaa-bdca-acbbcbaaabcc",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
