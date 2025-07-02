@@ -5,7 +5,7 @@
       "tag": "🔄",
       "server": "127.0.0.1",
       "server_port": 1080,
-      "password": "aaaccbb-abca-aabc-bcda-ccaaabbacbbc",
+      "password": "aacbcba-acab-cbaa-adcb-caabaccbabcb",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"
@@ -16,7 +16,7 @@
       "tag": "🤖",
       "server": "127.0.0.1",
       "server_port": 2080,
-      "password": "bbaacac-cbaa-baac-dbca-cabcccabbaab",
+      "password": "bcaacab-cbaa-acba-cabd-bcaccaaacbbb",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"
@@ -27,7 +27,7 @@
       "tag": "🛡",
       "server": "127.0.0.1",
       "server_port": 3080,
-      "password": "bcaacab-caab-bcaa-bdca-acbcccaabbab",
+      "password": "bcaaacb-abca-caab-dcba-cabbacbacabc",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"
@@ -67,15 +67,16 @@
     {
       "type": "vless",
       "tag": "🔒",
-      "server": "151.101.8.51",
-      "server_port": 80,
-      "uuid": "b1533182-6015-4f0d-b393-d3b94f55877f",
+      "server": "79.127.224.12",
+      "server_port": 8443,
+      "uuid": "157448af-8ecf-4075-a9e9-b23a6a94899b",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "taxi.ir"
+      "tls": {
+        "enabled": true,
+        "server_name": "bru-be-01.fromblancwithlove.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
         }
       }
     },
@@ -97,16 +98,15 @@
     {
       "type": "vless",
       "tag": "🔒",
-      "server": "79.127.224.12",
-      "server_port": 8443,
-      "uuid": "157448af-8ecf-4075-a9e9-b23a6a94899b",
+      "server": "151.101.8.51",
+      "server_port": 80,
+      "uuid": "b1533182-6015-4f0d-b393-d3b94f55877f",
       "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "bru-be-01.fromblancwithlove.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "taxi.ir"
         }
       }
     },
@@ -115,7 +115,7 @@
       "tag": "👨🏻‍💻",
       "server": "127.0.0.1",
       "server_port": 8080,
-      "password": "cbbaaac-cbaa-bcaa-bdca-acbbcbaaabcc",
+      "password": "cbabaca-abac-baca-cdba-bbabaaaccccb",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"

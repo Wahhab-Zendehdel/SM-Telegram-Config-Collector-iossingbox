@@ -5,7 +5,7 @@
       "tag": "🔄",
       "server": "127.0.0.1",
       "server_port": 1080,
-      "password": "aaaccbb-abca-aabc-bcda-ccaaabbacbbc",
+      "password": "aacbcba-acab-cbaa-adcb-caabaccbabcb",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"
@@ -16,7 +16,7 @@
       "tag": "🤖",
       "server": "127.0.0.1",
       "server_port": 2080,
-      "password": "bbaacac-cbaa-baac-dbca-cabcccabbaab",
+      "password": "bcaacab-cbaa-acba-cabd-bcaccaaacbbb",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"
@@ -27,7 +27,7 @@
       "tag": "🛡",
       "server": "127.0.0.1",
       "server_port": 3080,
-      "password": "bcaacab-caab-bcaa-bdca-acbcccaabbab",
+      "password": "bcaaacb-abca-caab-dcba-cabbacbacabc",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"
@@ -44,23 +44,23 @@
     {
       "type": "trojan",
       "tag": "🔒",
-      "server": "46.29.235.31",
-      "server_port": 2053,
-      "password": "Aimer",
-      "tls": {
-        "enabled": true,
-        "server_name": "agepq.ambercc.filegear-sg.me"
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "🔒",
       "server": "95.164.85.39",
       "server_port": 443,
       "password": "0fc9c5ff-9531-4178-966f-7d958e1df64b",
       "tls": {
         "enabled": true,
         "server_name": "wispy-crib-net.stark-industries.solutions"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🔒",
+      "server": "46.29.235.31",
+      "server_port": 2053,
+      "password": "Aimer",
+      "tls": {
+        "enabled": true,
+        "server_name": "agepq.ambercc.filegear-sg.me"
       }
     },
     {
@@ -131,7 +131,7 @@
       "tag": "👨🏻‍💻",
       "server": "127.0.0.1",
       "server_port": 8080,
-      "password": "cbbaaac-cbaa-bcaa-bdca-acbbcbaaabcc",
+      "password": "cbabaca-abac-baca-cdba-bbabaaaccccb",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"

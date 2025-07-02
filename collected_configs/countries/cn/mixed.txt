@@ -5,7 +5,7 @@
       "tag": "🔄",
       "server": "127.0.0.1",
       "server_port": 1080,
-      "password": "aaaccbb-abca-aabc-bcda-ccaaabbacbbc",
+      "password": "aacbcba-acab-cbaa-adcb-caabaccbabcb",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"
@@ -16,7 +16,7 @@
       "tag": "🤖",
       "server": "127.0.0.1",
       "server_port": 2080,
-      "password": "bbaacac-cbaa-baac-dbca-cabcccabbaab",
+      "password": "bcaacab-cbaa-acba-cabd-bcaccaaacbbb",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"
@@ -27,43 +27,11 @@
       "tag": "🛡",
       "server": "127.0.0.1",
       "server_port": 3080,
-      "password": "bcaacab-caab-bcaa-bdca-acbcccaabbab",
+      "password": "bcaaacb-abca-caab-dcba-cabbacbacabc",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"
       }
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🔒",
-      "server": "120.233.44.70",
-      "server_port": 998,
-      "method": "chacha20-ietf-poly1305",
-      "password": "qK4WEobTeeBS"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🔒",
-      "server": "163.177.46.167",
-      "server_port": 3551,
-      "method": "ss",
-      "password": "//Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp6Y2FhcnJhZHNmYXNnZmRjeHg"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🔒",
-      "server": "113.99.143.13",
-      "server_port": 8766,
-      "method": "rc4-md5",
-      "password": "efanccyun"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🔒",
-      "server": "163.177.46.157",
-      "server_port": 8774,
-      "method": "rc4-md5",
-      "password": "efanccyun"
     },
     {
       "type": "shadowsocks",
@@ -84,10 +52,53 @@
     {
       "type": "shadowsocks",
       "tag": "🔒",
+      "server": "120.233.44.70",
+      "server_port": 998,
+      "method": "chacha20-ietf-poly1305",
+      "password": "qK4WEobTeeBS"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🔒",
       "server": "163.177.46.157",
       "server_port": 8766,
       "method": "rc4-md5",
       "password": "efanccyun"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🔒",
+      "server": "163.177.46.157",
+      "server_port": 8774,
+      "method": "rc4-md5",
+      "password": "efanccyun"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🔒",
+      "server": "113.99.143.13",
+      "server_port": 8766,
+      "method": "rc4-md5",
+      "password": "efanccyun"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🔒",
+      "server": "163.177.46.167",
+      "server_port": 3551,
+      "method": "ss",
+      "password": "//Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp6Y2FhcnJhZHNmYXNnZmRjeHg"
+    },
+    {
+      "type": "trojan",
+      "tag": "🔒",
+      "server": "42.236.73.72",
+      "server_port": 443,
+      "password": "fuck",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.zitian.cn"
+      }
     },
     {
       "type": "trojan",
@@ -104,23 +115,12 @@
     {
       "type": "trojan",
       "tag": "🔒",
-      "server": "42.236.73.72",
+      "server": "101.69.122.104",
       "server_port": 443,
-      "password": "fuck",
+      "password": "bpb-trojan",
       "tls": {
         "enabled": true,
-        "server_name": "www.zitian.cn"
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "🔒",
-      "server": "14.215.39.158",
-      "server_port": 3462,
-      "password": "6e1b9a65-884f-3aa9-9469-bf6ec0f08610",
-      "tls": {
-        "enabled": true,
-        "server_name": "45.32.28.232"
+        "server_name": "zamim340.ggff.net"
       }
     },
     {
@@ -128,28 +128,6 @@
       "tag": "🔒",
       "server": "120.241.226.93",
       "server_port": 3462,
-      "password": "6e1b9a65-884f-3aa9-9469-bf6ec0f08610",
-      "tls": {
-        "enabled": true,
-        "server_name": "45.32.28.232"
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "🔒",
-      "server": "120.241.226.94",
-      "server_port": 3462,
-      "password": "6e1b9a65-884f-3aa9-9469-bf6ec0f08610",
-      "tls": {
-        "enabled": true,
-        "server_name": "45.32.28.232"
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "🔒",
-      "server": "120.241.226.93",
-      "server_port": 2053,
       "password": "6e1b9a65-884f-3aa9-9469-bf6ec0f08610",
       "tls": {
         "enabled": true,
@@ -170,124 +148,32 @@
     {
       "type": "trojan",
       "tag": "🔒",
-      "server": "101.69.122.104",
-      "server_port": 443,
-      "password": "bpb-trojan",
+      "server": "120.241.226.93",
+      "server_port": 2053,
+      "password": "6e1b9a65-884f-3aa9-9469-bf6ec0f08610",
       "tls": {
         "enabled": true,
-        "server_name": "zamim340.ggff.net"
+        "server_name": "45.32.28.232"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🔒",
+      "server": "120.241.226.94",
+      "server_port": 3462,
+      "password": "6e1b9a65-884f-3aa9-9469-bf6ec0f08610",
+      "tls": {
+        "enabled": true,
+        "server_name": "45.32.28.232"
       }
     },
     {
       "type": "vmess",
-      "tag": "🔒 VM-TCP-NA 🇨🇳 CN-120.210.205.59:50002",
-      "server": "120.210.205.59",
-      "server_port": 50002,
-      "uuid": "418048af-a293-4b99-9b0c-98ca3580dd24",
-      "security": "auto",
-      "alter_id": "0"
-    },
-    {
-      "type": "vmess",
-      "tag": "🔒 VM-WS-TLS 🇨🇳 CN-120.253.242.194:35244",
+      "tag": "🔒 VM-WS-TLS 🇨🇳 CN-120.253.242.194:35214",
       "server": "120.253.242.194",
-      "server_port": 35244,
+      "server_port": 35214,
       "uuid": "46a539d2-d3ba-4a6e-aedb-b727d2fc60f8",
       "security": "auto",
-      "alter_id": "0",
-      "transport": {
-        "type": "ws",
-        "path": "/home",
-        "headers": {
-          "Host": "jp4.vip2.g2.moonbase.life"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "jp4.vip2.g2.moonbase.life"
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "🔒 VM-TCP-NA 🇨🇳 CN-219.151.20.62:42324",
-      "server": "219.151.20.62",
-      "server_port": 42324,
-      "uuid": "4381beae-45a6-4421-8547-65e312dd204a",
-      "security": "auto",
-      "alter_id": "0"
-    },
-    {
-      "type": "vmess",
-      "tag": "🔒 VM-WS-TLS 🇨🇳 CN-183.236.51.131:35111",
-      "server": "183.236.51.131",
-      "server_port": 35111,
-      "uuid": "c3136814-a07e-41f6-ad94-8e20458c0d21",
-      "security": null,
-      "alter_id": "0",
-      "transport": {
-        "type": "ws",
-        "path": "/home",
-        "headers": {
-          "Host": "sg1.g2.moonbase.life"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "sg1.g2.moonbase.life"
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "🔒 VM-TCP-NA 🇨🇳 CN-219.151.20.62:42341",
-      "server": "219.151.20.62",
-      "server_port": 42341,
-      "uuid": "4381beae-45a6-4421-8547-65e312dd204a",
-      "security": "auto",
-      "alter_id": "0"
-    },
-    {
-      "type": "vmess",
-      "tag": "🔒 VM-TCP-NA 🇨🇳 CN-219.151.20.62:42337",
-      "server": "219.151.20.62",
-      "server_port": 42337,
-      "uuid": "4381beae-45a6-4421-8547-65e312dd204a",
-      "security": "auto",
-      "alter_id": "0"
-    },
-    {
-      "type": "vmess",
-      "tag": "🔒 VM-TCP-NA 🇨🇳 CN-219.151.20.62:42333",
-      "server": "219.151.20.62",
-      "server_port": 42333,
-      "uuid": "4381beae-45a6-4421-8547-65e312dd204a",
-      "security": "auto",
-      "alter_id": "0"
-    },
-    {
-      "type": "vmess",
-      "tag": "🔒 VM-TCP-NA 🇨🇳 CN-112.132.215.34:50007",
-      "server": "112.132.215.34",
-      "server_port": 50007,
-      "uuid": "418048af-a293-4b99-9b0c-98ca3580dd24",
-      "security": "auto",
-      "alter_id": "0"
-    },
-    {
-      "type": "vmess",
-      "tag": "🔒 VM-TCP-NA 🇨🇳 CN-183.236.51.36:59003",
-      "server": "183.236.51.36",
-      "server_port": 59003,
-      "uuid": "418048af-a293-4b99-9b0c-98ca3580dd24",
-      "security": "none",
-      "alter_id": "0"
-    },
-    {
-      "type": "vmess",
-      "tag": "🔒 VM-WS-TLS 🇨🇳 CN-36.150.94.79:35216",
-      "server": "36.150.94.79",
-      "server_port": 35216,
-      "uuid": "c3136814-a07e-41f6-ad94-8e20458c0d21",
-      "security": null,
       "alter_id": "0",
       "transport": {
         "type": "ws",
@@ -298,23 +184,26 @@
       },
       "tls": {
         "enabled": true,
-        "server_name": "jp6.g2.moonbase.life"
+        "server_name": "jp4.g2.moonbase.life"
       }
     },
     {
       "type": "vmess",
-      "tag": "🔒 VM-TCP-NA 🇨🇳 CN-219.151.20.62:42346",
-      "server": "219.151.20.62",
-      "server_port": 42346,
-      "uuid": "4381beae-45a6-4421-8547-65e312dd204a",
+      "tag": "🔒 VM-RAW-NA 🇨🇳 CN-47.92.152.169:50002",
+      "server": "47.92.152.169",
+      "server_port": 50002,
+      "uuid": "418048af-a293-4b99-9b0c-98ca3580dd24",
       "security": "auto",
-      "alter_id": "0"
+      "alter_id": "64",
+      "transport": {
+        "type": "raw"
+      }
     },
     {
       "type": "vmess",
-      "tag": "🔒 VM-TCP-NA 🇨🇳 CN-219.151.20.62:42320",
+      "tag": "🔒 VM-TCP-NA 🇨🇳 CN-219.151.20.62:42324",
       "server": "219.151.20.62",
-      "server_port": 42320,
+      "server_port": 42324,
       "uuid": "4381beae-45a6-4421-8547-65e312dd204a",
       "security": "auto",
       "alter_id": "0"
@@ -341,9 +230,47 @@
     },
     {
       "type": "vmess",
-      "tag": "🔒 VM-WS-TLS 🇨🇳 CN-36.150.94.79:35246",
+      "tag": "🔒 VM-TCP-NA 🇨🇳 CN-183.236.51.36:59003",
+      "server": "183.236.51.36",
+      "server_port": 59003,
+      "uuid": "418048af-a293-4b99-9b0c-98ca3580dd24",
+      "security": "none",
+      "alter_id": "0"
+    },
+    {
+      "type": "vmess",
+      "tag": "🔒 VM-WS-TLS 🇨🇳 CN-183.236.51.131:35111",
+      "server": "183.236.51.131",
+      "server_port": 35111,
+      "uuid": "c3136814-a07e-41f6-ad94-8e20458c0d21",
+      "security": null,
+      "alter_id": "0",
+      "transport": {
+        "type": "ws",
+        "path": "/home",
+        "headers": {
+          "Host": "sg1.g2.moonbase.life"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "sg1.g2.moonbase.life"
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "🔒 VM-TCP-NA 🇨🇳 CN-219.151.20.62:42320",
+      "server": "219.151.20.62",
+      "server_port": 42320,
+      "uuid": "4381beae-45a6-4421-8547-65e312dd204a",
+      "security": "auto",
+      "alter_id": "0"
+    },
+    {
+      "type": "vmess",
+      "tag": "🔒 VM-WS-TLS 🇨🇳 CN-36.150.94.79:35216",
       "server": "36.150.94.79",
-      "server_port": 35246,
+      "server_port": 35216,
       "uuid": "c3136814-a07e-41f6-ad94-8e20458c0d21",
       "security": null,
       "alter_id": "0",
@@ -356,14 +283,32 @@
       },
       "tls": {
         "enabled": true,
-        "server_name": "jp6.vip2.g2.moonbase.life"
+        "server_name": "jp6.g2.moonbase.life"
       }
     },
     {
       "type": "vmess",
-      "tag": "🔒 VM-WS-TLS 🇨🇳 CN-120.253.242.194:35214",
+      "tag": "🔒 VM-TCP-NA 🇨🇳 CN-219.151.20.62:42333",
+      "server": "219.151.20.62",
+      "server_port": 42333,
+      "uuid": "4381beae-45a6-4421-8547-65e312dd204a",
+      "security": "auto",
+      "alter_id": "0"
+    },
+    {
+      "type": "vmess",
+      "tag": "🔒 VM-TCP-NA 🇨🇳 CN-219.151.20.62:42346",
+      "server": "219.151.20.62",
+      "server_port": 42346,
+      "uuid": "4381beae-45a6-4421-8547-65e312dd204a",
+      "security": "auto",
+      "alter_id": "0"
+    },
+    {
+      "type": "vmess",
+      "tag": "🔒 VM-WS-TLS 🇨🇳 CN-120.253.242.194:35244",
       "server": "120.253.242.194",
-      "server_port": 35214,
+      "server_port": 35244,
       "uuid": "46a539d2-d3ba-4a6e-aedb-b727d2fc60f8",
       "security": "auto",
       "alter_id": "0",
@@ -371,12 +316,12 @@
         "type": "ws",
         "path": "/home",
         "headers": {
-          "Host": "web.xcjs.info"
+          "Host": "jp4.vip2.g2.moonbase.life"
         }
       },
       "tls": {
         "enabled": true,
-        "server_name": "jp4.g2.moonbase.life"
+        "server_name": "jp4.vip2.g2.moonbase.life"
       }
     },
     {
@@ -390,12 +335,44 @@
     },
     {
       "type": "vmess",
-      "tag": "🔒 VM-TCP-NA 🇨🇳 CN-219.151.20.62:42323",
+      "tag": "🔒 VM-TCP-NA 🇨🇳 CN-219.151.20.62:42337",
       "server": "219.151.20.62",
-      "server_port": 42323,
+      "server_port": 42337,
       "uuid": "4381beae-45a6-4421-8547-65e312dd204a",
       "security": "auto",
       "alter_id": "0"
+    },
+    {
+      "type": "vmess",
+      "tag": "🔒 VM-TCP-NA 🇨🇳 CN-112.132.215.34:50007",
+      "server": "112.132.215.34",
+      "server_port": 50007,
+      "uuid": "418048af-a293-4b99-9b0c-98ca3580dd24",
+      "security": "auto",
+      "alter_id": "0"
+    },
+    {
+      "type": "vless",
+      "tag": "🔒",
+      "server": "113.16.212.107",
+      "server_port": 443,
+      "uuid": "d6b8011a-c725-435a-9fec-bf6d3530392c",
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "vlee.amclubs.nyc.mn"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "vlee.amclubs.nyc.mn",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "type": "vless",
@@ -446,7 +423,7 @@
     {
       "type": "vless",
       "tag": "🔒",
-      "server": "116.162.25.43",
+      "server": "123.138.202.49",
       "server_port": 443,
       "uuid": "d6b8011a-c725-435a-9fec-bf6d3530392c",
       "packet_encoding": "xudp",
@@ -469,7 +446,7 @@
     {
       "type": "vless",
       "tag": "🔒",
-      "server": "36.147.48.122",
+      "server": "60.9.5.126",
       "server_port": 443,
       "uuid": "d6b8011a-c725-435a-9fec-bf6d3530392c",
       "packet_encoding": "xudp",
@@ -515,7 +492,7 @@
     {
       "type": "vless",
       "tag": "🔒",
-      "server": "60.9.5.126",
+      "server": "36.147.48.122",
       "server_port": 443,
       "uuid": "d6b8011a-c725-435a-9fec-bf6d3530392c",
       "packet_encoding": "xudp",
@@ -538,7 +515,7 @@
     {
       "type": "vless",
       "tag": "🔒",
-      "server": "123.138.202.49",
+      "server": "116.162.25.43",
       "server_port": 443,
       "uuid": "d6b8011a-c725-435a-9fec-bf6d3530392c",
       "packet_encoding": "xudp",
@@ -563,7 +540,7 @@
       "tag": "👨🏻‍💻",
       "server": "127.0.0.1",
       "server_port": 8080,
-      "password": "cbbaaac-cbaa-bcaa-bdca-acbbcbaaabcc",
+      "password": "cbabaca-abac-baca-cdba-bbabaaaccccb",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"
