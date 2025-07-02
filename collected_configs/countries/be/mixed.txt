@@ -5,7 +5,7 @@
       "tag": "🔄",
       "server": "127.0.0.1",
       "server_port": 1080,
-      "password": "baacbac-acba-abca-cbad-caaacbaccbbb",
+      "password": "cbbaaac-acba-aabc-dbac-bccbcabbcaaa",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"
@@ -16,7 +16,7 @@
       "tag": "🤖",
       "server": "127.0.0.1",
       "server_port": 2080,
-      "password": "aaccabb-baac-cbaa-adcb-cbcbaabaccab",
+      "password": "bcaaacb-acab-bcaa-adbc-acbbaacabcbc",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"
@@ -27,7 +27,7 @@
       "tag": "🛡",
       "server": "127.0.0.1",
       "server_port": 3080,
-      "password": "acbbaac-caab-abca-cbad-aabacbbcacbc",
+      "password": "aabcacb-caba-abca-bcad-cbaabcabaccb",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"
@@ -52,15 +52,16 @@
     {
       "type": "vless",
       "tag": "🔒",
-      "server": "151.101.8.163",
-      "server_port": 80,
-      "uuid": "6d4ddb94-ebb6-4884-9711-00d0ca9d7dbe",
+      "server": "79.127.224.12",
+      "server_port": 8443,
+      "uuid": "157448af-8ecf-4075-a9e9-b23a6a94899b",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "ws",
-        "path": "/?ed=2048",
-        "headers": {
-          "Host": "game.baziha0098.ir"
+      "tls": {
+        "enabled": true,
+        "server_name": "bru-be-01.fromblancwithlove.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
         }
       }
     },
@@ -97,16 +98,15 @@
     {
       "type": "vless",
       "tag": "🔒",
-      "server": "79.127.224.12",
-      "server_port": 8443,
-      "uuid": "157448af-8ecf-4075-a9e9-b23a6a94899b",
+      "server": "151.101.8.163",
+      "server_port": 80,
+      "uuid": "6d4ddb94-ebb6-4884-9711-00d0ca9d7dbe",
       "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "bru-be-01.fromblancwithlove.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
+      "transport": {
+        "type": "ws",
+        "path": "/?ed=2048",
+        "headers": {
+          "Host": "game.baziha0098.ir"
         }
       }
     },
@@ -115,7 +115,7 @@
       "tag": "👨🏻‍💻",
       "server": "127.0.0.1",
       "server_port": 8080,
-      "password": "baacacb-caab-baac-dabc-bbcbcacaabac",
+      "password": "acbbcaa-bcaa-cbaa-cdba-cbaacabaccbb",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"

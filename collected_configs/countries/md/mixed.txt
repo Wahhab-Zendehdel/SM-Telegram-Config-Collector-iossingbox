@@ -5,7 +5,7 @@
       "tag": "🔄",
       "server": "127.0.0.1",
       "server_port": 1080,
-      "password": "baacbac-acba-abca-cbad-caaacbaccbbb",
+      "password": "cbbaaac-acba-aabc-dbac-bccbcabbcaaa",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"
@@ -16,7 +16,7 @@
       "tag": "🤖",
       "server": "127.0.0.1",
       "server_port": 2080,
-      "password": "aaccabb-baac-cbaa-adcb-cbcbaabaccab",
+      "password": "bcaaacb-acab-bcaa-adbc-acbbaacabcbc",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"
@@ -27,7 +27,7 @@
       "tag": "🛡",
       "server": "127.0.0.1",
       "server_port": 3080,
-      "password": "acbbaac-caab-abca-cbad-aabacbbcacbc",
+      "password": "aabcacb-caba-abca-bcad-cbaabcabaccb",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"
@@ -36,10 +36,10 @@
     {
       "type": "shadowsocks",
       "tag": "🔒",
-      "server": "185.153.197.5",
-      "server_port": 989,
-      "method": "aes-256-cfb",
-      "password": "f8f7aCzcPKbsF8p3"
+      "server": "45.67.229.166",
+      "server_port": 443,
+      "method": "chacha20-ietf-poly1305",
+      "password": "PlanAsl2069"
     },
     {
       "type": "shadowsocks",
@@ -48,6 +48,22 @@
       "server_port": 989,
       "method": "aes-256-cfb",
       "password": "f8f7aCzcPKbsF8p3"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🔒",
+      "server": "45.67.229.222",
+      "server_port": 443,
+      "method": "chacha20-ietf-poly1305",
+      "password": "EPODONIOS2068"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🔒",
+      "server": "185.153.197.5",
+      "server_port": 989,
+      "method": "chacha20-ietf-poly1305",
+      "password": "PlanAsl2067"
     },
     {
       "type": "trojan",
@@ -91,7 +107,7 @@
         },
         "reality": {
           "enabled": true,
-          "public_key": "cTm0TIKL9qK550XICK2YroOSr1u-f12h5UmBw2EAr2c"
+          "public_key": "cT"
         }
       }
     },
@@ -100,7 +116,7 @@
       "tag": "👨🏻‍💻",
       "server": "127.0.0.1",
       "server_port": 8080,
-      "password": "baacacb-caab-baac-dabc-bbcbcacaabac",
+      "password": "acbbcaa-bcaa-cbaa-cdba-cbaacabaccbb",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"

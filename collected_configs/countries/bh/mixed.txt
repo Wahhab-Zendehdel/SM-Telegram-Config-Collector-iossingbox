@@ -5,7 +5,7 @@
       "tag": "🔄",
       "server": "127.0.0.1",
       "server_port": 1080,
-      "password": "baacbac-acba-abca-cbad-caaacbaccbbb",
+      "password": "cbbaaac-acba-aabc-dbac-bccbcabbcaaa",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"
@@ -16,7 +16,7 @@
       "tag": "🤖",
       "server": "127.0.0.1",
       "server_port": 2080,
-      "password": "aaccabb-baac-cbaa-adcb-cbcbaabaccab",
+      "password": "bcaaacb-acab-bcaa-adbc-acbbaacabcbc",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"
@@ -27,7 +27,7 @@
       "tag": "🛡",
       "server": "127.0.0.1",
       "server_port": 3080,
-      "password": "acbbaac-caab-abca-cbad-aabacbbcacbc",
+      "password": "aabcacb-caba-abca-bcad-cbaabcabaccb",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"
@@ -36,15 +36,7 @@
     {
       "type": "shadowsocks",
       "tag": "🔒",
-      "server": "15.184.219.240",
-      "server_port": 443,
-      "method": "chacha20-ietf-poly1305",
-      "password": "Bog0ELmMM9DSxDdQ"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🔒",
-      "server": "15.184.194.141",
+      "server": "15.184.28.145",
       "server_port": 443,
       "method": "chacha20-ietf-poly1305",
       "password": "Bog0ELmMM9DSxDdQ"
@@ -60,10 +52,10 @@
     {
       "type": "shadowsocks",
       "tag": "🔒",
-      "server": "38.54.2.182",
-      "server_port": 990,
+      "server": "15.184.194.141",
+      "server_port": 443,
       "method": "chacha20-ietf-poly1305",
-      "password": "f8f7aCzcPKbsF8p3"
+      "password": "Bog0ELmMM9DSxDdQ"
     },
     {
       "type": "shadowsocks",
@@ -76,7 +68,15 @@
     {
       "type": "shadowsocks",
       "tag": "🔒",
-      "server": "15.184.28.145",
+      "server": "38.54.2.182",
+      "server_port": 990,
+      "method": "chacha20-ietf-poly1305",
+      "password": "f8f7aCzcPKbsF8p3"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🔒",
+      "server": "15.184.219.240",
       "server_port": 443,
       "method": "chacha20-ietf-poly1305",
       "password": "Bog0ELmMM9DSxDdQ"
@@ -94,7 +94,7 @@
       "tag": "👨🏻‍💻",
       "server": "127.0.0.1",
       "server_port": 8080,
-      "password": "baacacb-caab-baac-dabc-bbcbcacaabac",
+      "password": "acbbcaa-bcaa-cbaa-cdba-cbaacabaccbb",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"
