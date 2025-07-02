@@ -5,7 +5,7 @@
       "tag": "🔄",
       "server": "127.0.0.1",
       "server_port": 1080,
-      "password": "cbbaaac-acba-aabc-dbac-bccbcabbcaaa",
+      "password": "caaacbb-baca-aacb-abcd-cabbabbaaccc",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"
@@ -16,7 +16,7 @@
       "tag": "🤖",
       "server": "127.0.0.1",
       "server_port": 2080,
-      "password": "bcaaacb-acab-bcaa-adbc-acbbaacabcbc",
+      "password": "acacabb-cbaa-acba-bcad-bccaccababba",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"
@@ -27,31 +27,10 @@
       "tag": "🛡",
       "server": "127.0.0.1",
       "server_port": 3080,
-      "password": "aabcacb-caba-abca-bcad-cbaabcabaccb",
+      "password": "acbbaac-abac-acab-bdac-bbacbcaaccba",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🔒",
-      "server": "45.15.170.53",
-      "server_port": 2443,
-      "uuid": "2d96c29e-4974-4bbb-a0f2-33e5c912458e",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "api.snapkit.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "QgyNvrlHczufNmykfEZlNojkJNtz_BSc8JCVGZlpdT0",
-          "short_id": "c104a7dd"
-        }
       }
     },
     {
@@ -77,6 +56,27 @@
     {
       "type": "vless",
       "tag": "🔒",
+      "server": "45.15.170.80",
+      "server_port": 28495,
+      "uuid": "7e296434-2d17-48d3-928d-19eaa34aecb1",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "dl.google.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "KXMH8QzaRa66F6GxOR1CanBunO2uHdJvri2zCbar2RQ",
+          "short_id": "0ecc2c1392"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🔒",
       "server": "103.167.234.110",
       "server_port": 2050,
       "uuid": "acbab574-fbb3-48fe-948f-f2c173d5dfeb",
@@ -96,11 +96,32 @@
       }
     },
     {
+      "type": "vless",
+      "tag": "🔒",
+      "server": "45.15.170.53",
+      "server_port": 2443,
+      "uuid": "2d96c29e-4974-4bbb-a0f2-33e5c912458e",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "api.snapkit.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "QgyNvrlHczufNmykfEZlNojkJNtz_BSc8JCVGZlpdT0",
+          "short_id": "c104a7dd"
+        }
+      }
+    },
+    {
       "type": "trojan",
       "tag": "👨🏻‍💻",
       "server": "127.0.0.1",
       "server_port": 8080,
-      "password": "acbbcaa-bcaa-cbaa-cdba-cbaacabaccbb",
+      "password": "abcaabc-bcaa-aabc-dabc-cacacabbbabc",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"
