@@ -5,7 +5,7 @@
       "tag": "🔄",
       "server": "127.0.0.1",
       "server_port": 1080,
-      "password": "ccaabab-bcaa-acba-dabc-acbabbcaacbc",
+      "password": "acacbab-abac-baca-acdb-cababcbccaab",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"
@@ -16,7 +16,7 @@
       "tag": "🤖",
       "server": "127.0.0.1",
       "server_port": 2080,
-      "password": "bacbaca-baca-caba-bdac-ababaacccbcb",
+      "password": "abaaccb-baac-aacb-acbd-bbacbcccaaab",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"
@@ -27,7 +27,7 @@
       "tag": "🛡",
       "server": "127.0.0.1",
       "server_port": 3080,
-      "password": "cbacbaa-caab-cbaa-dbca-bcccbbaaabac",
+      "password": "cbcabaa-caba-cbaa-cadb-abbccbcbacaa",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"
@@ -63,29 +63,6 @@
     {
       "type": "vless",
       "tag": "🔒",
-      "server": "171.103.13.77",
-      "server_port": 30157,
-      "uuid": "948f6596-66f9-4707-aa92-3107a214ce53",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "ws",
-        "path": "Telegram🇨🇳 @WangCai2 /?ed=2560",
-        "headers": {
-          "Host": "oops.shalamshorba.dpdns.org"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "oops.shalamshorba.dpdns.org",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🔒",
       "server": "45.144.167.46",
       "server_port": 19816,
       "uuid": "6337837a-2b47-4e0d-a695-75c5a4a8ad51",
@@ -107,11 +84,34 @@
       }
     },
     {
+      "type": "vless",
+      "tag": "🔒",
+      "server": "171.103.13.77",
+      "server_port": 30157,
+      "uuid": "948f6596-66f9-4707-aa92-3107a214ce53",
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "Telegram🇨🇳 @WangCai2 /?ed=2560",
+        "headers": {
+          "Host": "oops.shalamshorba.dpdns.org"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "oops.shalamshorba.dpdns.org",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
       "type": "trojan",
       "tag": "👨🏻‍💻",
       "server": "127.0.0.1",
       "server_port": 8080,
-      "password": "aacbcab-bcaa-acba-abdc-ccbcaaabacbb",
+      "password": "aabcbca-caab-baac-cdab-caccbacbbaab",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"
