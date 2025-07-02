@@ -5,7 +5,7 @@
       "tag": "🔄",
       "server": "127.0.0.1",
       "server_port": 1080,
-      "password": "abaccba-bcaa-cbaa-bcad-bacbabccaacb",
+      "password": "baacbac-caba-abac-acbd-bacbaccbacba",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"
@@ -16,7 +16,7 @@
       "tag": "🤖",
       "server": "127.0.0.1",
       "server_port": 2080,
-      "password": "abaabcc-aacb-caab-dacb-bacabbcaccab",
+      "password": "aacbabc-acba-caba-cdab-cbcbcbacaaab",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"
@@ -27,7 +27,7 @@
       "tag": "🛡",
       "server": "127.0.0.1",
       "server_port": 3080,
-      "password": "cababca-baca-acab-bcad-cacacabbbacb",
+      "password": "bbacaca-acba-baca-dbca-caacbbaccbba",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"
@@ -86,75 +86,15 @@
     {
       "type": "vless",
       "tag": "🔒",
-      "server": "62.72.166.247",
-      "server_port": 8880,
-      "uuid": "d60fc3c5-9f07-4cdb-b81f-70af27936bdc",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "ws",
-        "path": "/Telegram",
-        "headers": {
-          "Host": "ex.sue.x10.mx"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🔒",
       "server": "62.72.166.177",
       "server_port": 8880,
       "uuid": "583ceab3-4022-4553-9158-9bedc625ad4e",
       "packet_encoding": "xudp",
       "transport": {
         "type": "ws",
-        "path": "/Telegram🇨🇳",
-        "headers": {
-          "Host": "ip.langmanshanxi.top"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🔒",
-      "server": "62.72.166.3",
-      "server_port": 8880,
-      "uuid": "b5441b0d-2147-4898-8a6a-9b2c87f58382",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "ws",
-        "path": "/Telegram🇨🇳",
-        "headers": {
-          "Host": "bitget1.asdasd.click"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🔒",
-      "server": "62.72.166.63",
-      "server_port": 8880,
-      "uuid": "fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "ws",
-        "path": "/Telegram🇨🇳",
-        "headers": {
-          "Host": "jp.laoyoutiao.link"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🔒",
-      "server": "62.72.166.251",
-      "server_port": 8880,
-      "uuid": "0132166f-e702-48ed-a9e7-b07af768faf8",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "ws",
         "path": "/Telegram🇨🇳 @WangCai2 /?ed=2560",
         "headers": {
-          "Host": "cf.d3z.net"
+          "Host": "ip.langmanshanxi.top"
         }
       }
     },
@@ -176,13 +116,39 @@
     {
       "type": "vless",
       "tag": "🔒",
-      "server": "62.72.166.213",
+      "server": "62.72.166.247",
+      "server_port": 8880,
+      "uuid": "d60fc3c5-9f07-4cdb-b81f-70af27936bdc",
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "/Telegram",
+        "headers": {
+          "Host": "ex.sue.x10.mx"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🔒",
+      "server": "62.72.166.220",
+      "server_port": 8880,
+      "uuid": "b99590df-eda0-4e34-e1a9-3d1118faed83",
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "httpupgrade"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🔒",
+      "server": "62.72.166.63",
       "server_port": 8880,
       "uuid": "fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf",
       "packet_encoding": "xudp",
       "transport": {
         "type": "ws",
-        "path": "/",
+        "path": "/Telegram🇨🇳",
         "headers": {
           "Host": "jp.laoyoutiao.link"
         }
@@ -206,12 +172,46 @@
     {
       "type": "vless",
       "tag": "🔒",
-      "server": "62.72.166.220",
+      "server": "62.72.166.213",
       "server_port": 8880,
-      "uuid": "b99590df-eda0-4e34-e1a9-3d1118faed83",
+      "uuid": "fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf",
       "packet_encoding": "xudp",
       "transport": {
-        "type": "httpupgrade"
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "jp.laoyoutiao.link"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🔒",
+      "server": "62.72.166.3",
+      "server_port": 8880,
+      "uuid": "b5441b0d-2147-4898-8a6a-9b2c87f58382",
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "/Telegram🇨🇳",
+        "headers": {
+          "Host": "bitget1.asdasd.click"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🔒",
+      "server": "62.72.166.251",
+      "server_port": 8880,
+      "uuid": "0132166f-e702-48ed-a9e7-b07af768faf8",
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "/Telegram🇨🇳 @WangCai2 /?ed=2560",
+        "headers": {
+          "Host": "cf.d3z.net"
+        }
       }
     },
     {
@@ -219,7 +219,7 @@
       "tag": "👨🏻‍💻",
       "server": "127.0.0.1",
       "server_port": 8080,
-      "password": "abccbaa-baca-aabc-cbad-ccaacbabcabb",
+      "password": "cabacab-caba-baac-dcab-acccbaabbacb",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"
