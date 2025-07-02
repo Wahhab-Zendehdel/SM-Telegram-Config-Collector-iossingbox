@@ -5,7 +5,7 @@
       "tag": "🔄",
       "server": "127.0.0.1",
       "server_port": 1080,
-      "password": "ababcca-acba-acba-bdac-baaabcaccbcb",
+      "password": "caabbca-aacb-acba-cbda-bcbcaacbabca",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"
@@ -16,7 +16,7 @@
       "tag": "🤖",
       "server": "127.0.0.1",
       "server_port": 2080,
-      "password": "abcbcaa-aabc-cbaa-abcd-bccbaabaabcc",
+      "password": "caaacbb-bcaa-baac-bdca-cbcbbaabcaac",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"
@@ -27,7 +27,7 @@
       "tag": "🛡",
       "server": "127.0.0.1",
       "server_port": 3080,
-      "password": "accabba-baca-acba-cbad-baabccbccaba",
+      "password": "acabbac-cbaa-abca-adbc-acbcbbccbaaa",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"
@@ -59,6 +59,21 @@
     {
       "type": "vless",
       "tag": "🔒",
+      "server": "213.182.199.251",
+      "server_port": 8880,
+      "uuid": "1a79d43f-b41c-496b-a241-dcbeefa81f0e",
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "/Telegram🇨🇳",
+        "headers": {
+          "Host": "0926.qiang2000.link"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🔒",
       "server": "213.182.199.29",
       "server_port": 8880,
       "uuid": "fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf",
@@ -74,15 +89,15 @@
     {
       "type": "vless",
       "tag": "🔒",
-      "server": "213.182.199.251",
+      "server": "213.182.199.213",
       "server_port": 8880,
-      "uuid": "1a79d43f-b41c-496b-a241-dcbeefa81f0e",
+      "uuid": "fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf",
       "packet_encoding": "xudp",
       "transport": {
         "type": "ws",
-        "path": "/Telegram🇨🇳",
+        "path": "/",
         "headers": {
-          "Host": "0926.qiang2000.link"
+          "Host": "jp.laoyoutiao.link"
         }
       }
     },
@@ -117,26 +132,11 @@
       }
     },
     {
-      "type": "vless",
-      "tag": "🔒",
-      "server": "213.182.199.213",
-      "server_port": 8880,
-      "uuid": "fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "jp.laoyoutiao.link"
-        }
-      }
-    },
-    {
       "type": "trojan",
       "tag": "👨🏻‍💻",
       "server": "127.0.0.1",
       "server_port": 8080,
-      "password": "babacca-baca-caba-bdac-babaccaccabb",
+      "password": "baaccab-abac-aacb-cdab-cacaccbbbbaa",
       "tls": {
         "enabled": true,
         "server_name": "127.0.0.1"
